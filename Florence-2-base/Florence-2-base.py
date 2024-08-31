@@ -17,15 +17,14 @@ processor = AutoProcessor.from_pretrained("microsoft/Florence-2-base", trust_rem
 
 # prompt = "<OD>"
 #task = "<OD>"
-# prompt = "what is this image?"
-# task = "<VQA>"
 prompt = "<OCR>"
 task = "<OCR>"
 
 # url = "https://huggingface.co/datasets/huggingface/documentation-images/resolve/main/transformers/tasks/car.jpg?download=true"
 # image = Image.open(requests.get(url, stream=True).raw)
 # image = Image.open("..\\..\\images\\MYDL1_s.jpg")
-image = Image.open("..\\..\\images\\handwritten1.jpg")
+image = Image.open("..\\images\\handwritten1.jpg")
+# image = Image.open("..\\images\\CSDEMOBANK.jpg")
 
 inputs = processor(text=prompt, images=image, return_tensors="pt").to(device, torch_dtype)
 
