@@ -40,14 +40,17 @@ conversation = [
     },
 ]
 '''
-image = Image.open("..\\images\\CSDEMOBANK.jpg")
+# image = Image.open("..\\images\\CSDEMOBANK.jpg")
+image = Image.open("..\\images\\MYDL2.png")
 conversation = [
     {
       "role": "user",
       "content": [
           #{"type": "text", "text": "What is the title of this form?"},
           #{"type": "text", "text": "What is the text filled in the box labeled 'Name (Last, Suffix, First, Middle)' in 'SECTION A PERSONAL INFORMATION'?"},
-          {"type": "text", "text": "List all the information in this form in json format."},
+          #{"type": "text", "text": "List all the information in 'SECTION A PERSONAL INFORMATION' of this form."},
+          {"type": "text", "text": "List all the information in this document."},
+          #{"type": "text", "text": "List all the information in this image."},
           {"type": "image"},
         ],
     },
@@ -58,7 +61,7 @@ print("calling processor.apply_chat_template...", time.strftime("%H:%M:%S", time
 prompt = processor.apply_chat_template(conversation, add_generation_prompt=False)
 
 print("calling pipe...", time.strftime("%H:%M:%S", time.localtime()))
-outputs = pipe(image, prompt=prompt, generate_kwargs={"max_new_tokens": 2000})
+outputs = pipe(image, prompt=prompt, generate_kwargs={"max_new_tokens": 500})
 
 print("finish: ", time.strftime("%H:%M:%S", time.localtime()))
 print(outputs)

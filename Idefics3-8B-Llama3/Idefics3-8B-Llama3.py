@@ -24,7 +24,7 @@ DEVICE = "cuda:0"
 #image1 = load_image("https://cdn.britannica.com/61/93061-050-99147DCE/Statue-of-Liberty-Island-New-York-Bay.jpg")
 #image2 = load_image("https://cdn.britannica.com/59/94459-050-DBA42467/Skyline-Chicago.jpg")
 #image3 = load_image("https://cdn.britannica.com/68/170868-050-8DDE8263/Golden-Gate-Bridge-San-Francisco.jpg")
-image = Image.open("images/MYDL1_s.jpg")
+image = Image.open("..//images//MYDL1_s.jpg")
 
 now = time.localtime()
 print('calling AutoProcessor.from_pretrained... ', now.tm_hour, ':', now.tm_min, ':', now.tm_sec)
@@ -68,7 +68,7 @@ messages = [
         "role": "user",
         "content": [
             {"type": "image"},
-            {"type": "text", "text": "This is Mayaisian driving license. What is the name of license holder?"},
+            {"type": "text", "text": "This is Mayaisian driving license. What is the name and ID number of license holder?"},
         ]
     },
 ]

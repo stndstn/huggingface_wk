@@ -41,7 +41,8 @@ model = UdopForConditionalGeneration.from_pretrained(repo_id)
 #    )
 #image = Image.open(filepath).convert("RGB")
 #image = Image.open("..\\..\\images\\document_2.png")
-image = Image.open("..\\images\\CSDEMOBANK.jpg")
+#image = Image.open("..\\images\\CSDEMOBANK.jpg")
+image = Image.open("..\\images\\MYDL2.png")
 
 #width, height = image.size
 #display(image.resize((int(0.3*width), (int(0.3*height)))))
@@ -51,7 +52,7 @@ image = Image.open("..\\images\\CSDEMOBANK.jpg")
 # prompt = "Question answering. In which year is the report made?"
 # prompt = "document classification."
 # prompt = "Question answering. What is the title of the presentation?"
-prompt = "Question answering. What is the title of this form?"
+prompt = "Question answering. What informations are contained in the document?"
 print("calling processor...", time.strftime("%H:%M:%S", time.localtime()))
 
 encoding = processor(images=image, text=prompt, return_tensors="pt")
