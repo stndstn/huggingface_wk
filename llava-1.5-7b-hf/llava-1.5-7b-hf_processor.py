@@ -49,7 +49,7 @@ conversation = [
           #{"type": "text", "text": "What is the title of this form?"},
           #{"type": "text", "text": "What is the text filled in the box labeled 'Name (Last, Suffix, First, Middle)' in 'SECTION A PERSONAL INFORMATION'?"},
           #{"type": "text", "text": "List all the information in 'SECTION A PERSONAL INFORMATION' of this form."},
-          {"type": "text", "text": "List all the information in this document."},
+          {"type": "text", "text": "List all the text in this document."},
           #{"type": "text", "text": "List all the information in this image."},
           {"type": "image"},
         ],
