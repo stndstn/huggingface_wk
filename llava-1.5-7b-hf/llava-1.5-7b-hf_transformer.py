@@ -42,12 +42,25 @@ conversation = [
     },
 ]
 '''
+'''
 conversation = [
     {
 
       "role": "user",
       "content": [
           {"type": "text", "text": "This is Mayaisian driving license. What is the name of license holder?"},
+          {"type": "image"},
+        ],
+    },
+]
+'''
+conversation = [
+    {
+      "role": "user",
+      "content": [
+          #{"type": "text", "text": "What is the title of this form?"},
+          #{"type": "text", "text": "What is the text filled in the box labeled 'Name (Last, Suffix, First, Middle)' in 'SECTION A PERSONAL INFORMATION'?"},
+          {"type": "text", "text": "List all the information in 'SECTION A PERSONAL INFORMATION' in json format."},
           {"type": "image"},
         ],
     },
@@ -60,12 +73,13 @@ prompt = processor.apply_chat_template(conversation, add_generation_prompt=True)
 
 #image_file = "http://images.cocodataset.org/val2017/000000039769.jpg"
 #raw_image = Image.open(requests.get(image_file, stream=True).raw)
-raw_image = Image.open("images/MYDL1_s.jpg")
+# raw_image = Image.open("images/MYDL1_s.jpg")
+raw_image = Image.open("..\\images\\CSDEMOBANK.jpg")
 
 now = time.localtime()
 print('calling processor.to()... ', now.tm_hour, ':', now.tm_min, ':', now.tm_sec)
 
-inputs = processor(images=raw_image, text=prompt, return_tensors='pt').to(0, torch.float16)
+inputs = processor(images=[raw_image], text=prompt, return_tensors='pt').to(0, torch.float16)
 
 now = time.localtime()
 print('calling model.generate()... ', now.tm_hour, ':', now.tm_min, ':', now.tm_sec)
