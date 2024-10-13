@@ -1,0 +1,23 @@
+
+pip install virtualenv
+
+python -m venv .\.venv
+
+.\.venv\Scripts\activate.bat
+
+
+pip install einops timm
+pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu124
+pip install "numpy<2.0"
+pip install psutil
+pip install flash-attn --no-build-isolation
+pip install transformers
+pip install flask
+
+
+
+anydesk
+1359106120
+
+
+
