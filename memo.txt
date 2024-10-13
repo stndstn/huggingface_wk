@@ -16,3 +16,8 @@ https://huggingface.co/tasks/image-text-to-text
 pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu124
 
 pip install "numpy<2.0"
+
+
+# generate requirements.txt
+
+pip freeze > requirements.txt
