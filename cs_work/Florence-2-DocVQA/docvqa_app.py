@@ -68,7 +68,7 @@ t_start = time.localtime()
 #imageFileName = "images/MyKad1_F.jpg"
 imageFileName = "images/CSDEMOBANK_ApplicationForm_P1_s.jpg"
 print('start: ', t_start.tm_hour, ':', t_start.tm_min, ':', t_start.tm_sec)
-ocrFile(imageFileName) # test ocr
+#ocrFile(imageFileName) # test ocr
 docVqaFile(imageFileName, "This is bank account application form. What is the name, gender, date of birth, and permanent address of this applicant?")
 #docVqaFile(imageFileName, "what is this image?")
 #docVqaFile(imageFileName, "This is the image of ID card of Malaysia, which is known as MyKad. What inforation can be read in this image?")
