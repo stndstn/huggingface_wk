@@ -126,7 +126,7 @@ def ocr():
                 with open(filepath, 'wb') as f:
                     f.write(img_data)
                 image = Image.open(io.BytesIO(img_data))
-                return ocr.ocr(image)
+                return ocrflorence2base.ocr(image)
 
         # check if the post request has the file part
         if 'file' not in request.files:
@@ -147,3 +147,46 @@ def ocr():
         
     return 
 
+
+@app.route('/ocrwithregion', methods=['POST'])
+@app.route('/ocrWithRegion', methods=['POST'])
+def ocrWithRegion():
+    if request.method == 'POST':        
+        if request.is_json:
+            print(request.json)
+            b64 = request.json['b64']
+            if b64 != None:
+                # convert bsae64 string to bytestream
+                #bstream = base64.b64decode(b64)
+                # convert base64 string to bytearray and save to disk
+                img_data = base64.b64decode(b64)
+                whatfile = imghdr.what(None, img_data)
+                print(whatfile)
+                # set filename as yyyymmddhhmmssfff formatted date now
+                now = datetime.datetime.now()
+                filename = now.strftime("%Y%m%d%H%M%S%f") + '.' + whatfile
+                filename = secure_filename(filename)
+                filepath = os.path.join(app.config['UPLOAD_FOLDER'], filename)
+                with open(filepath, 'wb') as f:
+                    f.write(img_data)
+                image = Image.open(io.BytesIO(img_data))
+                return ocrflorence2base.ocrWithRegion(image)
+
+        # check if the post request has the file part
+        if 'file' not in request.files:
+            raise UnknownError("'file' not in request.files")
+        
+        file = request.files['file']
+        # If the user does not select a file, the browser submits an
+        # empty file without a filename.        
+        if file == None or file.filename == '':
+            raise UnknownError('No selected file')
+        
+        if file and allowed_file(file.filename):
+            filename = secure_filename(file.filename)
+            filepath = os.path.join(app.config['UPLOAD_FOLDER'], filename)
+            file.save(filepath)
+            image = Image.open(filepath)
+            return ocrflorence2base.ocrWithRegion(image)
+        
+    return 
