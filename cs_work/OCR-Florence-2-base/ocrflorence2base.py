@@ -1,10 +1,14 @@
+# .\.venv\Scripts\activate 
 # pip install einops timm
 # pip install "numpy<2.0"
-# pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu124
+# pip install torch==2.4.0 torchvision==0.19.0 torchaudio==2.4.0 --index-url https://download.pytorch.org/whl/cu124
 # pip install psutil
 # (python -m pip install wheel) 
 # pip install flash-attn --no-build-isolation
-# pip install transformers
+# pip install transformers==4.44.2
+# pip freeze > requirements.txt
+# pip install -r requirements.txt
+
 '''
 Florence2LanguageForConditionalGeneration has generative capabilities, as prepare_inputs_for_generation is explicitly overwritten. 
 However, it doesn't directly inherit from GenerationMixin. 

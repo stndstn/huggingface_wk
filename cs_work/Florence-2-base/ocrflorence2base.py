@@ -1,7 +1,6 @@
 # .\.venv\Scripts\activate 
 # pip install einops timm
 # pip install "numpy<2.0"
-# pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu124
 # pip install torch==2.4.0 torchvision==0.19.0 torchaudio==2.4.0 --index-url https://download.pytorch.org/whl/cu124
 
 # pip install psutil
@@ -10,9 +9,6 @@
 # pip freeze > requirements.txt
 # pip install -r requirements.txt
 
-# 
-# conda install pytorch torchvision torchaudio pytorch-cuda=12.4 -c pytorch -c nvidia
-# conda install psutil
 
 import requests
 import torch
