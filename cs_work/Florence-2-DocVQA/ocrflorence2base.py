@@ -34,10 +34,13 @@ print(f"torch_dtype: {torch_dtype}")
 
 #model = AutoModelForCausalLM.from_pretrained("microsoft/Florence-2-base", torch_dtype=torch_dtype, trust_remote_code=True).to(device)
 # HuggingFaceM4/Florence-2-DocVQA needs 'pip install timm'
-model = AutoModelForCausalLM.from_pretrained("HuggingFaceM4/Florence-2-DocVQA", torch_dtype=torch_dtype, trust_remote_code=True).to(device)
+#model = AutoModelForCausalLM.from_pretrained("HuggingFaceM4/Florence-2-DocVQA", torch_dtype=torch_dtype, trust_remote_code=True).to(device)
+FINETUNED = "..\FineTuningFlornence-2onDocVQA\model_checkpoints\epoch_1"
+model = AutoModelForCausalLM.from_pretrained(FINETUNED, torch_dtype=torch_dtype, trust_remote_code=True).to(device)
 #print(f"model: {model}")
 #processor = AutoProcessor.from_pretrained("microsoft/Florence-2-base", trust_remote_code=True)
-processor = AutoProcessor.from_pretrained("HuggingFaceM4/Florence-2-DocVQA", trust_remote_code=True)
+#processor = AutoProcessor.from_pretrained("HuggingFaceM4/Florence-2-DocVQA", trust_remote_code=True)
+processor = AutoProcessor.from_pretrained(FINETUNED, trust_remote_code=True)
 #print(f"processor: {processor}")
 
 def getDevice():

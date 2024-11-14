@@ -25,7 +25,8 @@ def device():
 
 
 def ocrFile(filepath):
-    task_prompt = "<OCR>"    
+    #task_prompt = "<OCR>"    
+    task_prompt = "<OCR_WITH_REGION>"    
     image = Image.open(filepath)
     w = image.width
     h = image.height

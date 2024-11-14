@@ -1,14 +1,30 @@
+# .\.venv\Scripts\activate 
 # pip install einops timm
-# pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu124
 # pip install "numpy<2.0"
+# pip install torch==2.4.0 torchvision==0.19.0 torchaudio==2.4.0 --index-url https://download.pytorch.org/whl/cu124
 # pip install psutil
+# (python -m pip install wheel) 
 # pip install flash-attn --no-build-isolation
-# pip install transformers
+# pip install transformers==4.44.2
+# pip freeze > requirements.txt
+# pip install -r requirements.txt
+
+'''
+Florence2LanguageForConditionalGeneration has generative capabilities, as prepare_inputs_for_generation is explicitly overwritten. 
+However, it doesn't directly inherit from GenerationMixin. 
+From 👉v4.50👈 onwards, PreTrainedModel will NOT inherit from GenerationMixin, and this model will lose the ability to call generate and other related functions.
+If you're using trust_remote_code=True, you can get rid of this warning by loading the model with an auto class. See https://huggingface.co/docs/transformers/en/model_doc/auto#auto-classes
+If you are the owner of the model architecture code, please modify your model class such that it inherits from GenerationMixin (after PreTrainedModel, otherwise you'll get an exception).
+'''
+# (install rust compiler, then 'pip install "transformers==4.44.2"'
+# https://www.rust-lang.org/tools/install
+
 # pip install flask
 
 # RMKS: if install by requirements.txt does not to work. delete all cache and re-install with pip manually 
 ## pip freeze > requirements.txt
 ## pip install -r requirements.txt
+
 
 import requests
 import torch
@@ -17,15 +33,15 @@ from PIL import Image
 from transformers import AutoProcessor, AutoModelForCausalLM 
 
 print("Florence-2-base...")
-device = "cuda:0" if torch.cuda.is_available() else "cpu"
+device = "cuda" if torch.cuda.is_available() else "cpu"
 print(f"deivice: {device}")
 torch_dtype = torch.float16 if torch.cuda.is_available() else torch.float32
 print(f"torch_dtype: {torch_dtype}")
 
 model = AutoModelForCausalLM.from_pretrained("microsoft/Florence-2-base", torch_dtype=torch_dtype, trust_remote_code=True).to(device)
-#print(f"model: {model}")
+print(f"model: {model}")
 processor = AutoProcessor.from_pretrained("microsoft/Florence-2-base", trust_remote_code=True)
-#print(f"processor: {processor}")
+print(f"processor: {processor}")
 
 def getDevice():
     return device
