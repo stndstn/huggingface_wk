@@ -1,0 +1,13 @@
+DocVQA
+microsoft/OmniParser
+OmniParser: Screen Parsing tool for Pure Vision Based GUI Agent
+
+https://huggingface.co/microsoft/OmniParser
+
+https://huggingface.co/spaces/microsoft/OmniParser
+
+https://microsoft.github.io/OmniParser/
+
+https://www.microsoft.com/en-us/research/articles/omniparser-for-pure-vision-based-gui-agent/
+
+https://github.com/microsoft/OmniParser

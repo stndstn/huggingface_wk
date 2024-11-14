@@ -33,9 +33,12 @@ torch_dtype = torch.float16 if torch.cuda.is_available() else torch.float32
 print(f"torch_dtype: {torch_dtype}")
 
 model = AutoModelForCausalLM.from_pretrained("microsoft/Florence-2-base", torch_dtype=torch_dtype, trust_remote_code=True).to(device)
-print(f"model: {model}")
+#print(f"model: {model}")
 processor = AutoProcessor.from_pretrained("microsoft/Florence-2-base", trust_remote_code=True)
-print(f"processor: {processor}")
+#print(f"processor: {processor}")
+
+def getDevice():
+    return device
 
 # https://huggingface.co/microsoft/Florence-2-large/blob/main/sample_inference.ipynb
 # Run pre-defined tasks without additional inputs

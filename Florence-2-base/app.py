@@ -46,15 +46,11 @@ def invalid_api_usage(e):
 def hello_world():
     return "<p>Hello, World!</p>"
 
-@app.route('/testjson', methods=['POST'])
-def login():
-    content = request.json
-    print(content)
-    return content
 
-def allowed_file(filename):
-    return '.' in filename and \
-           filename.rsplit('.', 1)[1].lower() in ALLOWED_EXTENSIONS
+@app.route('/device')
+def device():
+    return ocrflorence2base.getDevice()
+
 
 # https://flask.palletsprojects.com/en/3.0.x/patterns/fileuploads/
 @app.route('/uploadfile', methods=['POST'])
@@ -109,7 +105,7 @@ def upload_file():
 def ocr():
     if request.method == 'POST':        
         if request.is_json:
-            print(request.json)
+            #print(request.json)
             b64 = request.json['b64']
             if b64 != None:
                 # convert bsae64 string to bytestream
@@ -153,7 +149,7 @@ def ocr():
 def ocrWithRegion():
     if request.method == 'POST':        
         if request.is_json:
-            print(request.json)
+            #print(request.json)
             b64 = request.json['b64']
             if b64 != None:
                 # convert bsae64 string to bytestream
