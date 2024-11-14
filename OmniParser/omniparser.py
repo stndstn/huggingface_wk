@@ -1,5 +1,7 @@
 #from utils import get_som_labeled_img, check_ocr_box, get_caption_model_processor,  get_dino_model, get_yolo_model
-from utils import get_som_labeled_img, check_ocr_box, get_caption_model_processor, get_yolo_model
+import json
+#from utils import get_som_labeled_img, check_ocr_box, get_caption_model_processor, get_yolo_model
+from utils import get_som_labeled_img, check_ocr_box, get_yolo_model, predict_yolo, remove_overlap, get_parsed_content_icon, get_parsed_content_icon_phi3v, box_convert, annotate
 #from utils import get_som_labeled_img, check_ocr_box, get_yolo_model
 # pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu124
 import torch
@@ -8,6 +10,7 @@ from PIL import Image
 from typing import Dict, Tuple, List
 import io
 import base64
+import numpy as np
 
 
 config_cuda_blip2 = {
@@ -104,7 +107,63 @@ class Omniparser(object):
               )
 
         return [image, return_list]
-    
+
+    def extract_cord_content(self, img_src: Image, model=None, BOX_TRESHOLD = 0.01, output_coord_in_ratio=False, ocr_bbox=None, text_scale=0.4, text_padding=5, draw_bbox_config=None, caption_model_processor=None, ocr_text=[], use_local_semantics=True, iou_threshold=0.9,prompt=None,imgsz=640):
+        """ ocr_bbox: list of xyxy format bbox
+        """
+        #image_source = Image.open(img_path).convert("RGB")
+        w, h = image_source.size
+        # import pdb; pdb.set_trace()
+        if False: # TODO
+            xyxy, logits, phrases = predict(model=model, image=img_src, caption=TEXT_PROMPT, box_threshold=BOX_TRESHOLD, text_threshold=TEXT_TRESHOLD)
+        else:
+            xyxy, logits, phrases = predict_yolo(model=model, image_source=img_src, box_threshold=BOX_TRESHOLD, imgsz=imgsz)
+        xyxy = xyxy / torch.Tensor([w, h, w, h]).to(xyxy.device)
+        image_source = np.asarray(image_source)
+        phrases = [str(i) for i in range(len(phrases))]
+
+        # annotate the image with labels
+        h, w, _ = image_source.shape
+        if ocr_bbox:
+            ocr_bbox = torch.tensor(ocr_bbox) / torch.Tensor([w, h, w, h])
+            ocr_bbox=ocr_bbox.tolist()
+        else:
+            print('no ocr bbox!!!')
+            ocr_bbox = None
+        filtered_boxes = remove_overlap(boxes=xyxy, iou_threshold=iou_threshold, ocr_bbox=ocr_bbox)
+        
+        # get parsed icon local semantics
+        if use_local_semantics:
+            caption_model = caption_model_processor['model']
+            if 'phi3_v' in caption_model.config.model_type: 
+                parsed_content_icon = get_parsed_content_icon_phi3v(filtered_boxes, ocr_bbox, image_source, caption_model_processor)
+            else:
+                parsed_content_icon = get_parsed_content_icon(filtered_boxes, ocr_bbox, image_source, caption_model_processor, prompt=prompt)
+            ocr_text = [f"Text Box ID {i}: {txt}" for i, txt in enumerate(ocr_text)]
+            icon_start = len(ocr_text)
+            parsed_content_icon_ls = []
+            for i, txt in enumerate(parsed_content_icon):
+                parsed_content_icon_ls.append(f"Icon Box ID {str(i+icon_start)}: {txt}")
+            parsed_content_merged = ocr_text + parsed_content_icon_ls
+        else:
+            ocr_text = [f"Text Box ID {i}: {txt}" for i, txt in enumerate(ocr_text)]
+            parsed_content_merged = ocr_text
+
+        filtered_boxes = box_convert(boxes=filtered_boxes, in_fmt="xyxy", out_fmt="cxcywh")
+
+        phrases = [i for i in range(len(filtered_boxes))]
+        
+        # draw boxes
+        if draw_bbox_config:
+            annotated_frame, label_coordinates = annotate(image_source=image_source, boxes=filtered_boxes, logits=logits, phrases=phrases, **draw_bbox_config)
+        else:
+            annotated_frame, label_coordinates = annotate(image_source=image_source, boxes=filtered_boxes, logits=logits, phrases=phrases, text_scale=text_scale, text_padding=text_padding)
+        
+        return label_coordinates, parsed_content_merged
+
+
+
+'''
 parser = Omniparser(config)
 #image_path = 'examples/pc_1.png'
 #image_path = 'id_images\\mydl\\IMG-4958_s.jpg'
@@ -118,5 +177,13 @@ device = config['device']
 print(f'Time taken for Omniparser on {device}:', time.time() - s)
 print(image)
 print(parsed_content_list)
+
+# save parsed_content_list
+file_parsed_content_list = image_path + '_omniparser_parsed_content_list.json'
+with open(file_parsed_content_list, 'w') as f:
+    json.dump(parsed_content_list, f)
+
+# save the image with frame
 image.save(image_path + '_omniparser.png')
 image.show()
+'''    

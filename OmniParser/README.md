@@ -1,60 +1,104 @@
-# OmniParser: Screen Parsing tool for Pure Vision Based GUI Agent
+# OCR WebAPI with Microsoft Florence-2-base
 
-<p align="center">
-  <img src="imgs/logo.png" alt="Logo">
-</p>
+## Run as console app
 
-[![arXiv](https://img.shields.io/badge/Paper-green)](https://arxiv.org/abs/2408.00203)
-[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+    start_py_app.bat
 
-📢 [[Project Page](https://microsoft.github.io/OmniParser/)] [[Blog Post](https://www.microsoft.com/en-us/research/articles/omniparser-for-pure-vision-based-gui-agent/)] [[Models](https://huggingface.co/microsoft/OmniParser)] [[Huggingface demo](https://huggingface.co/spaces/microsoft/OmniParser)]
+## Run as windows service
 
-**OmniParser** is a comprehensive method for parsing user interface screenshots into structured and easy-to-understand elements, which significantly enhances the ability of GPT-4V to generate actions that can be accurately grounded in the corresponding regions of the interface. 
+PyAppService.exe is a windows service which start bat file, and stop it when the service stop.
 
-## News
-- [2024/10] OmniParser is the #1 trending model on huggingface model hub (starting 10/29/2024). 
-- [2024/10] Feel free to checkout our demo on [huggingface space](https://huggingface.co/spaces/microsoft/OmniParser)! (stay tuned for OmniParser + Claude Computer Use)
-- [2024/10] Both Interactive Region Detection Model and Icon functional description model are released! [Hugginface models](https://huggingface.co/microsoft/OmniParser)
-- [2024/09] OmniParser achieves the best performance on [Windows Agent Arena](https://microsoft.github.io/WindowsAgentArena/)! 
+### Edit start_py_app_service.bat
+You can set:
+- binding host name
+- port
 
-## Install 
-Install environment:
-```python
-conda create -n "omni" python==3.12
-conda activate omni
-pip install -r requirements.txt
-```
+### Edit PyAppService.exe.config
+You can set:
+- ServiceName
+- DisplayName
+- StartBatFileName
 
-Then download the model ckpts files in: https://huggingface.co/microsoft/OmniParser, and put them under weights/, default folder structure is: weights/icon_detect, weights/icon_caption_florence, weights/icon_caption_blip2. 
+### Install PyAppService.exe with InstallUtil.exe
 
-Finally, convert the safetensor to .pt file. 
-```python
-python weights/convert_safetensor_to_pt.py
-```
+    InstallUtil.exe PyAppService.exe
 
-## Examples:
-We put together a few simple examples in the demo.ipynb. 
+# API
 
-## Gradio Demo
-To run gradio demo, simply run:
-```python
-python gradio_demo.py
-```
+## getDevice
 
-## Model Weights License
-For the model checkpoints on huggingface model hub, please note that icon_detect model is under AGPL license since it is a license inherited from the original yolo model. And icon_caption_blip2 & icon_caption_florence is under MIT license. Please refer to the LICENSE file in the folder of each model: https://huggingface.co/microsoft/OmniParser.
+    GET http://takumit-p:8085/device
 
-## 📚 Citation
-Our technical report can be found [here](https://arxiv.org/abs/2408.00203).
-If you find our work useful, please consider citing our work:
-```
-@misc{lu2024omniparserpurevisionbased,
-      title={OmniParser for Pure Vision Based GUI Agent}, 
-      author={Yadong Lu and Jianwei Yang and Yelong Shen and Ahmed Awadallah},
-      year={2024},
-      eprint={2408.00203},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2408.00203}, 
-}
-```
+expected response:
+"cuda:0" or "cpu"
+
+## OCR (File)
+
+    POST http://takumit-p:8085/ocrFile
+
+Send image file as a form data named 'file'.
+
+## OCR (Base64)
+
+    POST http://takumit-p:8085/ocrB64
+
+Send image file as string value named 'b64' in json.
+
+        { "b64": "/9j/4AAQSkZJRgABAQEBkAGQAAD/..." }
+
+expected response:
+
+    {
+        "<OCR>": <text>
+    }
+
+## OCR with Region (File)
+
+    POST http://takumit-p:8085/ocrWithRegionFile
+
+Send image file as a form data named 'file'.
+
+## OCR with Region (Base64)
+
+    POST http://takumit-p:8085/ocrWithRegionB64
+
+Send image file as string value named 'b64' in json.
+
+        { "b64": "/9j/4AAQSkZJRgABAQEBkAGQAAD/..." }
+
+expected response:
+
+    {
+        "<OCR_WITH_REGION>": {
+            "labels": [
+                <text block>,
+                <text block>,
+                <text block>
+            ],
+            "quad_boxes": [
+                [ x_top_left, y_top_left, x_top_right, y_top_right, 
+                  x_bottom_right, y_bottom_right, x_bottom_left, y_bottom_right
+                ],
+                [ x_top_left, y_top_left, x_top_right, y_top_right, 
+                  x_bottom_right, y_bottom_right, x_bottom_left, y_bottom_right
+                ],
+                [ x_top_left, y_top_left, x_top_right, y_top_right, 
+                  x_bottom_right, y_bottom_right, x_bottom_left, y_bottom_right
+                ]
+            ]
+        }
+    }
+
+# Reference
+
+## HuggingFace Microsoft Florence-2-base
+
+https://huggingface.co/microsoft/Florence-2-base
+
+https://huggingface.co/microsoft/Florence-2-large/blob/main/sample_inference.ipynb
+
+
+## flask
+
+https://flask.palletsprojects.com/en/3.0.x/
+
