@@ -1,0 +1,67 @@
+
+
+https://cmake.org/getting-started/
+
+https://cmake.org/cmake/help/latest/guide/tutorial/A%20Basic%20Starting%20Point.html
+
+
+# https://docs.opencv.org/4.x/d7/d9f/tutorial_linux_install.html
+
+# Install minimal prerequisites (Ubuntu 18.04 as reference)
+sudo apt update && sudo apt install -y cmake g++ wget unzip
+ 
+# Download and unpack sources
+wget -O opencv.zip https://github.com/opencv/opencv/archive/4.x.zip
+wget -O opencv_contrib.zip https://github.com/opencv/opencv_contrib/archive/4.x.zip
+unzip opencv.zip
+unzip opencv_contrib.zip
+ 
+# Create build directory and switch into it
+mkdir -p opencv_build && cd opencv_build
+ 
+# Configure
+cmake -DOPENCV_EXTRA_MODULES_PATH=../opencv_contrib-4.x/modules ../opencv-4.x
+ 
+# Build
+cmake --build .
+
+
+
+# https://docs.opencv.org/4.x/db/df5/tutorial_linux_gcc_cmake.html
+cmake_minimum_required(VERSION 2.8)
+project( DisplayImage )
+# Find OpenCV, you may need to set OpenCV_DIR variable
+# to the absolute path to the directory containing OpenCVConfig.cmake file
+# via the command line or GUI
+# export OpenCV_DIR="/home/takumi/work/opencv_build"
+find_package( OpenCV REQUIRED )
+include_directories( ${OpenCV_INCLUDE_DIRS} )
+add_executable( DisplayImage DisplayImage.cpp )
+target_link_libraries( DisplayImage ${OpenCV_LIBS} )
+
+
+
+
+# build libDlibWrapper
+
+mkdir build
+cd build
+cmake --build . --target clean
+cmake -DBUILD_SHARED_LIBS=1 ..
+make
+# sudo make install
+
+cp libOpenCVWrapper.so ../../ConsoleAppDn8/bin/Debug/net8.0/
+cp libOpenCVWrapper.so ../../ScanIDWebApi/bin/Debug/net8.0/
+
+
+cp ./OpenCVWrapper/build/libOpenCVWrapper.so ./ConsoleAppDn8/bin/Debug/net8.0/
+cp ./OpenCVWrapper/build/libOpenCVWrapper.so ./ScanIDWebApi/bin/Debug/net8.0/
+cp ./DlibWrapper/build/libDlibWrapper.so ./ConsoleAppDn8/bin/Debug/net8.0/
+cp ./DlibWrapper/build/libDlibWrapper.so ./ScanIDWebApi/bin/Debug/net8.0/
+
+
+
+
+../../ScanIDWebApi/bin/Debug/net8.0/runtimes/linux-x64/native/
+/usr/lib/dotnet/shared/Microsoft.NETCore.App/8.0.12/libDlibWrapper

@@ -1,0 +1,784 @@
+Try another OCR...
+ScanPHDL imageFileName: F:\WORK\Dev\huggingface\work\ConsoleApp1\test1\bin\Debug\net8.0\testdata\PHDL1_Test1.jpg
+PostOCRWithRegionRequest start...
+PostOCRWithRegionRequest PostAsync start...
+PostOCRWithRegionRequest PostAsync (29.5000666 sec)
+
+(29.6021655 sec)
+
+(  997.2,   435.7)-( 2340.3,   508.0)  1343.1 :    72.2 </S>REPUBLIC OF THE PHILIPPINES ()
+(  974.3,   537.3)-( 2368.0,   608.3)  1393.7 :    71.0 DEPARTMENT OF TRANSPORTATION ()
+( 1046.1,   621.8)-( 2293.0,   691.6)  1246.8 :    69.8 LAND TRANSPORATION OFFICE ()
+( 2798.9,   630.4)-( 2909.9,   669.5)   111.0 :    39.2 LTO ()
+(  778.5,   744.2)-( 2638.9,   823.8)  1860.5 :    79.6 NON-PROFESSIONAL DRIVER'S LICENSE ()
+( 1235.4,   926.6)-( 2253.8,   990.2)  1018.4 :    63.6 LAST NAME, FIRST NAME, MIDDLE NAME ()
+( 1235.4,  1000.0)-( 2531.2,  1095.5)  1295.8 :    95.5 DIZON, TCHAICOVSKY CRUZ ()
+( 1238.7,  1138.3)-( 1535.7,  1199.5)   297.0 :    61.2 NATIONALITY ()
+( 1643.4,  1145.7)-( 1757.7,  1202.0)   114.2 :    56.3 SEX ()
+( 1875.2,  1148.1)-( 2221.2,  1205.6)   346.0 :    57.5 DATE OF BIRTH ()
+( 2377.8,  1154.2)-( 3020.8,  1221.6)   643.0 :    67.3 WEIGHT (KG) HEIGHT(M) ()
+( 1235.4,  1214.2)-( 1382.3,  1282.8)   146.9 :    68.5 PHL ()
+( 1663.0,  1220.3)-( 1738.1,  1288.9)    75.1 :    68.5 M ()
+( 1871.9,  1222.8)-( 2328.9,  1296.2)   457.0 :    73.4 1976/08/08 ()
+( 2482.3,  1231.3)-( 2576.9,  1297.4)    94.7 :    66.1 72 ()
+( 2811.9,  1237.5)-( 2958.8,  1303.6)   146.9 :    66.1 1.65 ()
+( 1238.7,  1331.7)-( 1467.2,  1388.0)   228.5 :    56.3 ADDRESS ()
+( 1232.2,  1412.5)-( 2994.7,  1489.6)  1762.6 :    77.1 0167 FELICIANO ST LAGUNDI MORONG RIZAL ()
+( 1232.2,  1614.5)-( 1555.3,  1672.0)   323.1 :    57.5 LICENSE NO. ()
+( 1940.4,  1613.2)-( 2358.2,  1675.7)   417.8 :    62.4 EXPIRATION DATE ()
+( 2436.6,  1619.4)-( 2795.6,  1685.4)   359.0 :    66.1 AGENCY CODE ()
+( 1225.6,  1683.0)-( 2403.9,  1765.0)  1178.3 :    82.0 NO2-96-314856 2025/08 08 ()
+( 2541.0,  1697.7)-( 2691.2,  1763.8)   150.1 :    66.1 D19 ()
+(  579.4,  1851.9)-(  944.9,  1920.5)   365.6 :    68.5 2019/03/14 ()
+( 1232.2,  1801.7)-( 1535.7,  1861.7)   303.6 :    60.0 BLOOD TYPE ()
+( 1708.7,  1803.0)-( 1973.1,  1864.2)   264.4 :    61.2 EYES COLOR ()
+( 1304.0,  1871.5)-( 1457.4,  1935.1)   153.4 :    63.6 AB+ ()
+( 1708.7,  1866.6)-( 1966.6,  1935.1)   257.9 :    68.5 BLACK ()
+(  471.6,  1954.7)-( 1062.4,  1989.0)   590.8 :    34.3 02-3-1-1.546-3.543-3D1D1.7D2D1A0A0C1D2C1A4C4C1Y CRUIZ ()
+( 1225.6,  1989.0)-( 1545.5,  2045.3)   319.9 :    56.3 RESTRICTIONS ()
+( 1705.4,  1984.1)-( 1999.2,  2045.3)   293.8 :    61.2 CONDITIONS ()
+( 1333.3,  2055.1)-( 1437.8,  2128.5)   104.4 :    73.4 1/2 ()
+( 1738.1,  2055.1)-( 1953.5,  2121.2)   215.4 :    66.1 NONE ()
+( 2116.7,  2109.0)-( 2687.9,  2175.0)   571.2 :    66.1 EDGAR C.GALVANTE ()
+(  455.3,  2194.6)-( 1069.0,  2255.8)   613.6 :    61.2 SIGNATURE OF LICENSEE ()
+( 2106.9,  2187.3)-( 2629.2,  2248.5)   522.2 :    61.2 ASSISTANT SECRETARY ()
+==== Lines read by Tesseract ====
+======================
+ExtractFieldsFromReadResultOfPHDL start...
+ExtractFieldsFromReadResultOfPHDL (0.1668637 sec)
+
+scanPHDLResult.Success: False
+scanPHDLResult.Error: Failed to scan [EXPIRY]
+scanPHDLResult.lastNameOrFullName: DIZON
+scanPHDLResult.firstName:  TCHAICOVSKY CRUZ
+scanPHDLResult.middleName:
+scanPHDLResult.documentNumber: NO2-96-314856
+scanPHDLResult.nationality: PH
+scanPHDLResult.documentIssueDate:
+scanPHDLResult.documentExpirationDate:
+scanPHDLResult.addressLine1: 0167 FELICIANO ST LAGUNDI MORONG RIZAL
+scanPHDLResult.addressLine2:
+scanPHDLResult.postcode:
+scanPHDLResult.gender: M
+ --> IsValid: True
+Try another OCR...
+ScanPHDL imageFileName: F:\WORK\Dev\huggingface\work\ConsoleApp1\test1\bin\Debug\net8.0\testdata\PHDL1_Test2.jpg
+PostOCRWithRegionRequest start...
+PostOCRWithRegionRequest PostAsync start...
+PostOCRWithRegionRequest PostAsync (28.5083254 sec)
+
+(28.5183273 sec)
+
+(  498.6,   217.9)-( 1169.3,   254.6)   670.8 :    36.7 </S>REPUBLIC OF THE PHILIPPINES ()
+(  487.2,   268.7)-( 1184.0,   304.2)   696.9 :    35.5 DEPARTMENT OF TRANSPORTATION ()
+(  523.1,   310.9)-( 1146.5,   345.8)   623.4 :    34.9 LAND TRANSPORATION OFFICE ()
+( 1401.1,   315.2)-( 1454.9,   334.8)    53.9 :    19.6 LTO ()
+(  389.2,   372.1)-( 1319.5,   411.9)   930.2 :    39.8 NON-PROFESSIONAL DRIVER'S LICENSE ()
+(  619.3,   463.3)-( 1126.9,   495.1)   507.6 :    31.8 LAST NAME, FIRST NAME, MIDDLE NAME ()
+(  617.7,   500.0)-( 1265.6,   547.7)   647.9 :    47.7 DIZON, TCHAICOVSKY CRUZ ()
+(  619.3,   569.2)-(  767.0,   599.8)   147.7 :    30.6 NATIONALITY ()
+(  821.7,   572.8)-(  877.2,   601.0)    55.5 :    28.2 SEX ()
+(  937.6,   574.1)-( 1110.6,   602.8)   173.0 :    28.8 DATE OF BIRTH ()
+( 1188.9,   577.1)-( 1510.4,   610.8)   321.5 :    33.7 WEIGHT (KG) HEIGHT(M) ()
+(  617.7,   607.1)-(  691.2,   641.4)    73.4 :    34.3 PHL ()
+(  831.5,   611.4)-(  867.4,   644.4)    35.9 :    33.0 M ()
+(  936.0,   611.4)-( 1164.4,   648.1)   228.5 :    36.7 1976/08/08 ()
+( 1241.1,   616.3)-( 1288.5,   648.1)    47.3 :    31.8 72 ()
+( 1406.0,   618.7)-( 1479.4,   651.8)    73.4 :    33.0 1.65 ()
+(  619.3,   665.9)-(  733.6,   694.0)   114.2 :    28.2 ADDRESS ()
+(  616.1,   706.2)-( 1497.4,   744.8)   881.3 :    38.6 0167 FELICIANO ST LAGUNDI MORONG RIZAL ()
+(  616.1,   807.2)-(  777.6,   836.0)   161.6 :    28.8 LICENSE NO. ()
+(  970.2,   806.6)-( 1179.1,   837.8)   208.9 :    31.2 EXPIRATION DATE ()
+( 1218.3,   809.7)-( 1397.8,   842.7)   179.5 :    33.0 AGENCY CODE ()
+(  612.8,   841.5)-( 1202.0,   882.5)   589.2 :    41.0 NO2-96-314856 2025/08-08 ()
+( 1270.5,   848.8)-( 1344.0,   881.9)    73.4 :    33.0 D19 ()
+(  289.7,   924.7)-(  472.5,   960.2)   182.8 :    35.5 2019/03/14 ()
+(  616.1,   900.9)-(  767.9,   930.9)   151.8 :    30.0 BLOOD TYPE ()
+(  854.4,   901.5)-(  988.2,   932.1)   133.8 :    30.6 EYES COLOR ()
+(  652.0,   935.7)-(  728.7,   967.6)    76.7 :    31.8 AB+ ()
+(  854.4,   933.3)-(  981.6,   967.6)   127.3 :    34.3 BLACK ()
+(  237.5,   978.0)-(  531.2,   995.1)   293.8 :    17.1 02-3-5-6-6.5-5.5.6.6-7.8.6,6,8,9,10,11,12 ()
+(  612.8,   994.5)-(  772.8,  1022.7)   159.9 :    28.2 RESTRICTIONS ()
+(  852.7,   992.1)-(  999.6,  1022.7)   146.9 :    30.6 CONDITIONS ()
+(  666.7,  1027.5)-(  718.9,  1064.3)    52.2 :    36.7 1/2 ()
+(  869.0,  1027.5)-(  976.8,  1060.6)   107.7 :    33.0 NONE ()
+( 1058.4,  1054.5)-( 1344.0,  1086.3)   285.6 :    31.8 EDGAR C.GALVANTE ()
+(  227.7,  1097.3)-(  534.5,  1127.9)   306.8 :    30.6 SIGNATURE OF LICENSEE ()
+( 1053.5,  1093.6)-( 1314.6,  1124.2)   261.1 :    30.6 ASSISTANT SECRETARY ()
+==== Lines read by Tesseract ====
+======================
+ExtractFieldsFromReadResultOfPHDL start...
+ExtractFieldsFromReadResultOfPHDL (0.1183016 sec)
+
+scanPHDLResult.Success: True
+scanPHDLResult.Error:
+scanPHDLResult.lastNameOrFullName: DIZON
+scanPHDLResult.firstName:  TCHAICOVSKY CRUZ
+scanPHDLResult.middleName:
+scanPHDLResult.documentNumber: NO2-96-314856
+scanPHDLResult.nationality: PH
+scanPHDLResult.documentIssueDate:
+scanPHDLResult.documentExpirationDate: 2025-08-08
+scanPHDLResult.addressLine1: 0167 FELICIANO ST LAGUNDI MORONG RIZAL
+scanPHDLResult.addressLine2:
+scanPHDLResult.postcode:
+scanPHDLResult.gender: M
+ --> IsValid: True
+Try another OCR...
+ScanPHDL imageFileName: F:\WORK\Dev\huggingface\work\ConsoleApp1\test1\bin\Debug\net8.0\testdata\PHDL1_Test3.jpg
+PostOCRWithRegionRequest start...
+PostOCRWithRegionRequest PostAsync start...
+PostOCRWithRegionRequest PostAsync (25.4859942 sec)
+
+(25.4923101 sec)
+
+(  247.7,   108.3)-(  583.8,   127.3)   336.2 :    19.0 </S>REPUBLIC OF THE PHILIPPINES ()
+(  241.9,   133.7)-(  590.4,   151.8)   348.4 :    18.1 DEPARTMENT OF TRANSPORTATION ()
+(  259.9,   155.8)-(  571.6,   173.2)   311.7 :    17.4 LAND TRANSPORATION OFFICE ()
+(  193.0,   186.0)-(  658.1,   205.6)   465.1 :    19.6 NON-PROFESSIONAL DRIVER'S LICENSE ()
+(  308.0,   231.3)-(  562.6,   247.2)   254.6 :    15.9 LAST NAME, FIRST NAME, MIDDLE NAME ()
+(  307.2,   249.7)-(  631.2,   273.3)   324.0 :    23.6 DIZON, TCHAICOVSKY CRUZ ()
+(  308.0,   284.6)-(  383.1,   299.6)    75.1 :    15.0 NATIONALITY ()
+(  409.2,   286.1)-(  437.8,   300.2)    28.6 :    14.1 SEX ()
+(  467.2,   286.7)-(  553.7,   300.8)    86.5 :    14.1 DATE OF BIRTH ()
+(  592.8,   288.9)-(  754.4,   304.8)   161.6 :    15.9 WEIGHT (KG) HEIGHTIM) ()
+(  307.6,   303.2)-(  344.8,   320.7)    37.1 :    17.4 PHL ()
+(  414.9,   305.7)-(  432.1,   321.6)    17.1 :    15.9 M ()
+(  467.2,   305.7)-(  581.4,   324.7)   114.2 :    19.0 1976/08/08 ()
+(  619.8,   307.5)-(  642.6,   324.7)    22.8 :    17.1 72 ()
+(  700.5,   308.8)-(  738.1,   324.7)    37.5 :    15.9 1.65 ()
+(  308.0,   332.3)-(  366.0,   347.0)    57.9 :    14.7 ADDRESS ()
+(  306.4,   352.8)-(  746.2,   372.1)   439.8 :    19.3 0167 FELICIANO ST LAGUNDI MORONG RIZAL ()
+(  306.4,   403.0)-(  387.2,   417.7)    80.8 :    14.7 LICENSE NO. ()
+(  484.3,   403.0)-(  588.7,   418.6)   104.4 :    15.6 EXPIRATION DATE ()
+(  607.5,   404.8)-(  697.3,   420.8)    89.8 :    15.9 AGENCY CODE ()
+(  304.8,   421.1)-(  599.4,   441.3)   294.6 :    20.2 NO2-96-314856 2025/08 /08 ()
+(  633.6,   423.8)-(  671.2,   440.9)    37.5 :    17.1 D19 ()
+(  306.4,   449.5)-(  383.9,   465.4)    77.5 :    15.9 BLOOD TYPE ()
+(  424.7,   450.7)-(  492.5,   464.8)    67.7 :    14.1 EYES COLOR ()
+(  143.2,   462.4)-(  235.4,   480.4)    92.2 :    18.1 2019/03/14 ()
+(  325.2,   467.9)-(  362.7,   483.8)    37.5 :    15.9 AB+ ()
+(  427.2,   466.0)-(  490.0,   483.8)    62.8 :    17.7 BLACK ()
+(  304.8,   497.2)-(  384.7,   511.3)    80.0 :    14.1 RESISTIONS ()
+(  424.7,   496.6)-(  499.0,   510.7)    74.3 :    14.1 CONDITIONS ()
+(  332.5,   513.8)-(  357.8,   530.9)    25.3 :    17.1 1/2 ()
+(  433.7,   513.8)-(  487.6,   529.7)    53.9 :    15.9 NONE ()
+(  527.5,   526.6)-(  670.3,   543.8)   142.8 :    17.1 EDGAR C.GALVANTE ()
+(  112.2,   548.0)-(  266.4,   564.0)   154.2 :    15.9 SIGNATURE OF LICENSEE ()
+(  525.1,   546.8)-(  655.7,   562.1)   130.6 :    15.3 ASSISTANT SECRETARY ()
+==== Lines read by Tesseract ====
+======================
+ExtractFieldsFromReadResultOfPHDL start...
+ExtractFieldsFromReadResultOfPHDL (0.1124167 sec)
+
+scanPHDLResult.Success: False
+scanPHDLResult.Error: Failed to scan [EXPIRY]
+scanPHDLResult.lastNameOrFullName: DIZON
+scanPHDLResult.firstName:  TCHAICOVSKY CRUZ
+scanPHDLResult.middleName:
+scanPHDLResult.documentNumber: NO2-96-314856
+scanPHDLResult.nationality: PH
+scanPHDLResult.documentIssueDate:
+scanPHDLResult.documentExpirationDate:
+scanPHDLResult.addressLine1: 0167 FELICIANO ST LAGUNDI MORONG RIZAL
+scanPHDLResult.addressLine2:
+scanPHDLResult.postcode:
+scanPHDLResult.gender: M
+ --> IsValid: True
+Try another OCR...
+ScanPHDL imageFileName: F:\WORK\Dev\huggingface\work\ConsoleApp1\test1\bin\Debug\net8.0\testdata\PHDL2_Test1.jpg
+PostOCRWithRegionRequest start...
+PostOCRWithRegionRequest PostAsync start...
+PostOCRWithRegionRequest PostAsync (24.1231315 sec)
+
+(24.1335579 sec)
+
+(  336.1,    34.1)-(  814.2,    59.4)   478.1 :    25.3 </S>REPUBLIC OF THE PHILIPPINES ()
+(  329.1,    68.5)-(  824.7,    93.1)   495.7 :    24.6 DEPARTMENT OF TRANSPORTATION ()
+(  353.6,    97.0)-(  799.0,   121.3)   445.4 :    24.3 LAND TRANSPORATION OFFICE ()
+(  251.9,   129.4)-(  935.8,   157.5)   683.9 :    28.1 NON-PROFESSIONAL DRIVER'S LICENSE ()
+(  415.6,   193.3)-(  794.3,   214.4)   378.8 :    21.1 LAST NAME. FIRST NAME. MIDDLE NAME ()
+(  415.6,   217.6)-(  948.6,   253.1)   533.1 :    35.5 TANIG, JOHN ERVIN BANIQUEED ()
+(  416.7,   270.7)-(  526.6,   292.8)   109.9 :    22.1 NATIONALITY ()
+(  567.5,   271.0)-(  608.5,   290.7)    40.9 :    19.7 SEX ()
+(  655.2,   270.3)-(  783.8,   290.7)   128.6 :    20.4 DATE OF BIRTH ()
+(  843.4,   267.5)-( 1091.3,   290.7)   247.8 :    23.2 WEIGHT KGL HEIGHTIM) ()
+(  416.7,   297.7)-(  469.4,   321.6)    52.6 :    23.9 PHL ()
+(  575.7,   297.7)-(  601.5,   321.6)    25.7 :    23.9 M ()
+(  655.2,   297.0)-(  824.7,   324.1)   169.5 :    27.1 1993/04/23 ()
+(  877.3,   297.0)-(  928.8,   319.5)    51.4 :    22.5 110 ()
+( 1014.1,   295.3)-( 1069.1,   318.8)    54.9 :    23.6 1.75 ()
+(  417.9,   339.2)-(  502.1,   358.9)    84.2 :    19.7 ADDRESS ()
+(  415.6,   365.2)-(  969.7,   391.6)   554.1 :    26.4 L5 TH DELA CRUZ ST VILLA TAL NOVA ()
+(  415.6,   401.1)-(  655.2,   426.7)   239.6 :    25.7 CALOOCAN CITY ()
+(  416.7,   441.8)-(  534.8,   461.5)   118.1 :    19.7 LICENSE NO. ()
+(  682.1,   439.0)-(  842.3,   459.4)   160.2 :    20.4 EXPIRATION DATE ()
+(  875.0,   438.0)-( 1011.8,   460.5)   136.8 :    22.5 AGENCY CODE ()
+(  415.6,   462.9)-(  859.8,   491.0)   444.2 :    28.1 N25-11-025458 2022/01/13 ()
+(  915.9,   464.3)-(  973.2,   488.9)    57.3 :    24.6 N31 ()
+(  414.4,   508.6)-(  530.1,   530.4)   115.7 :    21.8 BLOOD TYPE ()
+(  173.6,   527.6)-(  311.5,   552.2)   137.9 :    24.6 2018/0311 ()
+(  454.2,   535.3)-(  492.7,   555.7)    38.6 :    20.4 O+ ()
+(  582.7,   528.3)-(  845.2,   586.3)   262.4 :    58.0 NEA 1984 ()
+(  414.4,   576.8)-(  534.8,   596.5)   120.4 :    19.7 RESTRICTIONS ()
+(  454.2,   601.4)-(  495.1,   625.3)    40.9 :    23.9 1.2 ()
+(  755.8,   617.9)-(  979.0,   640.4)   223.3 :    22.5 EDGAR C.GALVANTE ()
+(  129.2,   651.7)-(  356.0,   674.5)   226.8 :    22.8 SIGNATURE OF LICENSE ()
+(  753.4,   647.8)-(  954.5,   668.9)   201.1 :    21.1 ASSISTANT SECRETARY ()
+==== Lines read by Tesseract ====
+======================
+ExtractFieldsFromReadResultOfPHDL start...
+ExtractFieldsFromReadResultOfPHDL (0.0973635 sec)
+
+scanPHDLResult.Success: True
+scanPHDLResult.Error:
+scanPHDLResult.lastNameOrFullName: TANIG
+scanPHDLResult.firstName:  JOHN ERVIN BANIQUEED
+scanPHDLResult.middleName:
+scanPHDLResult.documentNumber: N25-11-025458
+scanPHDLResult.nationality: PH
+scanPHDLResult.documentIssueDate:
+scanPHDLResult.documentExpirationDate: 2022-01-13
+scanPHDLResult.addressLine1: L5 TH DELA CRUZ ST VILLA TAL NOVA
+scanPHDLResult.addressLine2: CALOOCAN CITY
+scanPHDLResult.postcode:
+scanPHDLResult.gender: M
+
+[1]
+  Scanned Data: firstName:  JOHN ERVIN BANIQUEED
+  Expected    : firstName:  JOHN ERVIN BANIQUED
+ --> IsValid: False
+Try another OCR...
+ScanPHDL imageFileName: F:\WORK\Dev\huggingface\work\ConsoleApp1\test1\bin\Debug\net8.0\testdata\PHDL2_Test2.jpg
+PostOCRWithRegionRequest start...
+PostOCRWithRegionRequest PostAsync start...
+PostOCRWithRegionRequest PostAsync (24.1765543 sec)
+
+(24.1820428 sec)
+
+(  167.6,    16.4)-(  406.9,    29.4)   239.3 :    13.0 </S>REPUBLIC OF THE PHILIPPINES ()
+(  164.1,    33.8)-(  412.1,    46.8)   248.0 :    13.0 DEPARTMENT OF TRANSPORTATION ()
+(  175.8,    47.9)-(  399.3,    60.9)   223.5 :    13.0 LAND TRANSPORATION OFFICE ()
+(  124.9,    63.7)-(  467.1,    78.8)   342.2 :    15.1 NON-PROFESSIONAL DRIVER'S LICENSE ()
+(  207.4,    96.3)-(  396.9,   107.2)   189.5 :    10.9 LAST NAME, FIRST NAME, MIDDLE NAME ()
+(  207.4,   108.2)-(  474.1,   126.2)   266.8 :    18.0 TANIG, JOHN ERVIN BANIQUEED ()
+(  207.4,   135.0)-(  263.0,   146.4)    55.6 :    11.4 NATIONALITY ()
+(  282.8,   136.0)-(  303.9,   145.9)    21.1 :     9.9 SEX ()
+(  326.1,   135.0)-(  391.1,   145.9)    64.9 :    10.9 DATE OF BIRTH ()
+(  420.3,   133.9)-(  545.5,   145.9)   125.2 :    12.0 WEIGHT (KG) HEIGHT(M) ()
+(  207.4,   149.1)-(  234.3,   161.0)    26.9 :    12.0 PHL ()
+(  286.9,   149.1)-(  299.8,   161.0)    12.9 :    12.0 M ()
+(  327.3,   148.5)-(  412.1,   161.6)    84.8 :    13.0 1993/04/23 ()
+(  437.3,   148.5)-(  463.0,   160.5)    25.7 :    12.0 110 ()
+(  505.7,   147.5)-(  533.8,   160.0)    28.1 :    12.5 1.75 ()
+(  207.4,   169.1)-(  250.7,   180.0)    43.3 :    10.9 ADDRESS ()
+(  207.4,   182.3)-(  484.1,   196.1)   276.7 :    13.7 L5 TH DELA CRUZ ST VILLA TAL NOVA ()
+(  207.4,   200.5)-(  327.3,   213.5)   119.9 :    13.0 CALOOCAN CITY ()
+(  207.4,   220.2)-(  267.6,   231.1)    60.3 :    10.9 LICENSE NO. ()
+(  340.8,   219.1)-(  420.9,   230.0)    80.1 :    10.9 EXPIRATION DATE ()
+(  436.1,   219.1)-(  505.7,   230.0)    69.6 :    10.9 AGENCY CODE ()
+(  207.4,   231.6)-(  429.7,   245.7)   222.3 :    14.1 N25-11-025458 2022/01/23 ()
+(  457.2,   232.1)-(  486.4,   245.2)    29.2 :    13.0 N31 ()
+(   86.3,   263.3)-(  155.9,   276.3)    69.6 :    13.0 20180313 ()
+(  207.4,   254.3)-(  264.1,   265.2)    56.7 :    10.9 BLOOD TYPE ()
+(  225.5,   268.0)-(  246.0,   279.0)    20.5 :    10.9 0+ ()
+(  290.5,   264.5)-(  421.2,   293.2)   130.7 :    28.7 NEA 1984 ()
+(  206.2,   288.8)-(  266.5,   298.7)    60.3 :     9.9 RESTRICTIONS ()
+(  225.5,   300.8)-(  247.2,   312.8)    21.6 :    12.0 1.2 ()
+(  376.4,   308.4)-(  488.2,   321.0)   111.7 :    12.7 EDGAR C/GALVANTE ()
+(   63.5,   326.0)-(  177.5,   337.9)   114.1 :    12.0 SIGNATURE OF LICENSE ()
+(  376.4,   324.4)-(  477.1,   335.3)   100.6 :    10.9 ASSISTANT SECRETARY ()
+==== Lines read by Tesseract ====
+======================
+ExtractFieldsFromReadResultOfPHDL start...
+ExtractFieldsFromReadResultOfPHDL (0.0967628 sec)
+
+scanPHDLResult.Success: True
+scanPHDLResult.Error:
+scanPHDLResult.lastNameOrFullName: TANIG
+scanPHDLResult.firstName:  JOHN ERVIN BANIQUEED
+scanPHDLResult.middleName:
+scanPHDLResult.documentNumber: N25-11-025458
+scanPHDLResult.nationality: PH
+scanPHDLResult.documentIssueDate:
+scanPHDLResult.documentExpirationDate: 2022-01-23
+scanPHDLResult.addressLine1: L5 TH DELA CRUZ ST VILLA TAL NOVA
+scanPHDLResult.addressLine2: CALOOCAN CITY
+scanPHDLResult.postcode:
+scanPHDLResult.gender: M
+
+[1]
+  Scanned Data: firstName:  JOHN ERVIN BANIQUEED
+  Expected    : firstName:  JOHN ERVIN BANIQUED
+ --> IsValid: False
+Try another OCR...
+ScanPHDL imageFileName: F:\WORK\Dev\huggingface\work\ConsoleApp1\test1\bin\Debug\net8.0\testdata\PHDL3_Test1.jpg
+PostOCRWithRegionRequest start...
+PostOCRWithRegionRequest PostAsync start...
+PostOCRWithRegionRequest PostAsync (27.7221235 sec)
+
+(27.7324063 sec)
+
+(  684.5,    64.6)-( 1731.1,   120.8)  1046.6 :    56.2 </S>REPUBLIC OF THE PHILIPPINES ()
+(  670.1,   145.2)-( 1750.4,   201.4)  1080.3 :    56.2 DEPARTMENT OF TRANSPORTATION ()
+(  723.0,   212.0)-( 1692.6,   268.3)   969.6 :    56.2 LAND TRANSPORATION OFFICE ()
+( 2101.6,   196.8)-( 2188.3,   227.2)    86.6 :    30.4 LITO ()
+(  499.2,   301.7)-( 1983.7,   362.5)  1484.5 :    60.8 NON-PROFESSIONAL DRIVER'S LICENSE ()
+(  852.9,   441.6)-( 1671.0,   488.7)   818.0 :    47.1 LAST NAME. FIRST NAME. MIDDLE NAME ()
+(  852.9,   496.3)-( 1954.9,   568.5)  1101.9 :    72.2 MIRANDA, MICHAEL DILAGAN ()
+(  852.9,   608.0)-( 1088.7,   655.9)   235.8 :    47.9 NATIONALITY ()
+( 1177.7,   610.3)-( 1264.4,   652.8)    86.6 :    42.6 SEX ()
+( 1365.4,   607.2)-( 1639.7,   652.8)   274.3 :    45.6 DATE OF BIRTH ()
+( 1772.0,   604.2)-( 2296.5,   654.4)   524.5 :    50.2 WEIGHT (K3) HEIGHT(TM) ()
+(  852.9,   666.5)-(  963.6,   718.2)   110.7 :    51.7 PHL ()
+( 1192.2,   669.6)-( 1247.5,   718.2)    55.3 :    48.6 M ()
+( 1365.4,   666.5)-( 1726.3,   722.8)   360.9 :    56.2 1977/04/29 ()
+( 1856.2,   666.5)-( 1928.4,   718.2)    72.2 :    51.7 75 ()
+( 2128.1,   666.5)-( 2248.4,   715.2)   120.3 :    48.6 1.64 ()
+(  855.3,   755.4)-( 1035.8,   799.5)   180.5 :    44.1 ADDRESS ()
+(  852.9,   810.9)-( 2250.8,   865.6)  1397.9 :    54.7 B1 L31 SPRING HEIGHTS FILINVEST BAGONG ()
+(  850.5,   885.4)-( 1618.0,   940.1)   767.5 :    54.7 SILANGAN QUEZON CITY ()
+(  852.9,   970.5)-( 1100.7,  1014.6)   247.8 :    44.1 LICENSE NO. ()
+( 1415.9,   966.0)-( 1748.0,  1011.6)   332.0 :    45.6 EXPIRATION DATE ()
+( 1820.1,   966.0)-( 2104.0,  1014.6)   283.9 :    48.6 AGENCY CODE ()
+(  850.5,  1017.6)-( 1781.6,  1081.5)   931.1 :    63.8 NO1-08-009726 2022/04-29 ()
+( 1897.1,  1023.7)-( 2017.4,  1072.4)   120.3 :    48.6 N03 ()
+(  852.9,  1108.1)-( 1091.1,  1155.2)   238.2 :    47.1 BLOOD TYPE ()
+(  929.9,  1162.0)-( 1009.3,  1207.6)    79.4 :    45.6 O+ ()
+( 1223.5,  1108.8)-( 1442.4,  1154.4)   218.9 :    45.6 EYES COLOR ()
+( 1237.9,  1159.0)-( 1430.4,  1209.2)   192.5 :    50.2 BLACK ()
+(  275.5,  1221.3)-(  723.0,  1250.2)   447.5 :    28.9 -0-00-20-24-MEMANDA-MICHIGAN ()
+(  850.5,  1249.4)-( 1095.9,  1290.5)   245.4 :    41.0 RESTRICTIONS ()
+( 1223.5,  1248.7)-( 1454.4,  1289.7)   231.0 :    41.0 CONDITIONS ()
+(  934.7,  1300.4)-( 1014.1,  1350.5)    79.4 :    50.2 1.2 ()
+( 1252.3,  1297.3)-( 1423.1,  1349.0)   170.8 :    51.7 NONE ()
+( 1553.1,  1336.8)-( 2010.2,  1384.0)   457.1 :    47.1 EDGAR C. GALVANTE ()
+(  261.1,  1396.1)-(  730.2,  1443.2)   469.2 :    47.1 SIGNATURE OF LICENSEE ()
+( 1543.4,  1396.1)-( 1962.1,  1443.2)   418.6 :    47.1 ASSISTANT SECRETARY ()
+==== Lines read by Tesseract ====
+======================
+ExtractFieldsFromReadResultOfPHDL start...
+ExtractFieldsFromReadResultOfPHDL (0.1114645 sec)
+
+scanPHDLResult.Success: True
+scanPHDLResult.Error:
+scanPHDLResult.lastNameOrFullName: MIRANDA
+scanPHDLResult.firstName:  MICHAEL DILAGAN
+scanPHDLResult.middleName:
+scanPHDLResult.documentNumber: NO1-08-009726
+scanPHDLResult.nationality: PH
+scanPHDLResult.documentIssueDate:
+scanPHDLResult.documentExpirationDate: 2022-04-29
+scanPHDLResult.addressLine1: B1 L31 SPRING HEIGHTS FILINVEST BAGONG
+scanPHDLResult.addressLine2: SILANGAN QUEZON CITY
+scanPHDLResult.postcode:
+scanPHDLResult.gender: M
+
+[1]
+  Scanned Data: documentNumber: NO1-08-009726
+  Expected    : documentNumber: N01-08-009726
+ --> IsValid: False
+Try another OCR...
+ScanPHDL imageFileName: F:\WORK\Dev\huggingface\work\ConsoleApp1\test1\bin\Debug\net8.0\testdata\PHDL3_Test2.jpg
+PostOCRWithRegionRequest start...
+PostOCRWithRegionRequest PostAsync start...
+PostOCRWithRegionRequest PostAsync (27.9477492 sec)
+
+(27.9552586 sec)
+
+(  342.3,    31.5)-(  865.6,    60.4)   523.3 :    28.9 </S>REPUBLIC OF THE PHILIPPINES ()
+(  335.0,    72.6)-(  875.2,   100.7)   540.1 :    28.1 DEPARTMENT OF TRANSPORTATION ()
+(  361.5,   106.0)-(  846.3,   133.4)   484.8 :    27.4 LAND TRANSPORATION OFFICE ()
+( 1050.8,    98.4)-( 1094.1,   113.6)    43.3 :    15.2 LITO ()
+(  248.4,   150.1)-(  991.9,   181.3)   743.5 :    31.2 NON-PROFESSIONAL DRIVER'S LICENSE ()
+(  426.5,   220.0)-(  835.5,   245.1)   409.0 :    25.1 LAST NAME. FIRST NAME. MIDDLE NAME ()
+(  426.5,   247.8)-(  977.4,   284.2)   551.0 :    36.5 MIRANDA, MICHAEL DILAGAN ()
+(  426.5,   303.6)-(  544.4,   327.9)   117.9 :    24.3 NATIONALITY ()
+(  588.9,   304.4)-(  632.2,   326.4)    43.3 :    22.0 SEX ()
+(  682.7,   302.9)-(  819.8,   326.4)   137.1 :    23.6 DATE OF BIRTH ()
+(  886.0,   301.3)-( 1011.1,   328.7)   125.1 :    27.4 WEIGHT (K3) ()
+( 1038.8,   301.3)-( 1147.1,   326.4)   108.3 :    25.1 HEIGHT(TM) ()
+(  426.5,   333.3)-(  481.8,   359.1)    55.3 :    25.8 PHL ()
+(  596.1,   334.0)-(  623.8,   359.1)    27.7 :    25.1 M ()
+(  682.7,   333.3)-(  863.2,   361.4)   180.5 :    28.1 1977/04/29 ()
+(  928.1,   333.3)-(  964.2,   359.1)    36.1 :    25.8 75 ()
+( 1064.1,   333.3)-( 1123.0,   357.6)    58.9 :    24.3 1.64 ()
+(  427.7,   377.3)-(  517.9,   399.4)    90.2 :    22.0 ADDRESS ()
+(  426.5,   404.7)-( 1125.4,   433.6)   698.9 :    28.9 B1 L31 SPRING HEIGHTS FILINVEST BAGONG ()
+(  425.3,   442.7)-(  809.0,   470.1)   383.8 :    27.4 SILANGAN QUEZON CITY ()
+(  426.5,   484.5)-(  550.4,   507.3)   123.9 :    22.8 LICENSE NO. ()
+(  708.0,   482.2)-(  872.8,   505.8)   164.8 :    23.6 EXPIRATION DATE ()
+(  910.1,   482.2)-( 1052.0,   507.3)   142.0 :    25.1 AGENCY CODE ()
+(  425.3,   508.8)-(  890.8,   540.7)   465.6 :    31.9 NO1-08-009726 2022/04-29 ()
+(  948.6,   511.1)-( 1008.7,   536.2)    60.2 :    25.1 N03 ()
+(  426.5,   554.0)-(  545.6,   577.2)   119.1 :    23.2 BLOOD TYPE ()
+(  465.0,   581.0)-(  504.7,   603.8)    39.7 :    22.8 O+ ()
+(  611.7,   554.4)-(  721.2,   577.2)   109.5 :    22.8 EYES COLOR ()
+(  618.9,   579.5)-(  715.2,   604.6)    96.2 :    25.1 BLACK ()
+(  136.5,   610.7)-(  361.5,   625.1)   225.0 :    14.4 NON - 001-002-24-MERANCA, MICHIGAN ()
+(  424.1,   624.3)-(  548.0,   644.9)   123.9 :    20.5 RESTRICTIONS ()
+(  611.7,   623.6)-(  727.2,   644.9)   115.5 :    21.3 CONDITIONS ()
+(  467.4,   649.4)-(  507.1,   675.3)    39.7 :    25.8 1.2 ()
+(  626.2,   648.7)-(  711.6,   673.7)    85.4 :    25.1 NONE ()
+(  775.3,   668.4)-( 1005.1,   692.0)   229.8 :    23.6 EDGAR C. GALVANTE ()
+(  130.5,   697.3)-(  363.9,   721.6)   233.4 :    24.3 SIGNATURE OF LICENSE ()
+(  771.7,   697.3)-(  981.0,   721.6)   209.3 :    24.3 ASSISTANT SECRETARY ()
+==== Lines read by Tesseract ====
+======================
+ExtractFieldsFromReadResultOfPHDL start...
+ExtractFieldsFromReadResultOfPHDL (0.119581 sec)
+
+scanPHDLResult.Success: True
+scanPHDLResult.Error:
+scanPHDLResult.lastNameOrFullName: MIRANDA
+scanPHDLResult.firstName:  MICHAEL DILAGAN
+scanPHDLResult.middleName:
+scanPHDLResult.documentNumber: NO1-08-009726
+scanPHDLResult.nationality: PH
+scanPHDLResult.documentIssueDate:
+scanPHDLResult.documentExpirationDate: 2022-04-29
+scanPHDLResult.addressLine1: B1 L31 SPRING HEIGHTS FILINVEST BAGONG
+scanPHDLResult.addressLine2: SILANGAN QUEZON CITY
+scanPHDLResult.postcode:
+scanPHDLResult.gender: M
+
+[1]
+  Scanned Data: documentNumber: NO1-08-009726
+  Expected    : documentNumber: N01-08-009726
+ --> IsValid: False
+Try another OCR...
+ScanPHDL imageFileName: F:\WORK\Dev\huggingface\work\ConsoleApp1\test1\bin\Debug\net8.0\testdata\PHDL3_Test3.jpg
+PostOCRWithRegionRequest start...
+PostOCRWithRegionRequest PostAsync start...
+PostOCRWithRegionRequest PostAsync (25.4910928 sec)
+
+(25.4963921 sec)
+
+(  170.1,    15.4)-(  432.5,    30.2)   262.5 :    14.8 </S>REPUBLIC OF THE PHILIPPINES ()
+(  166.5,    35.7)-(  437.4,    50.3)   270.9 :    14.6 DEPARTMENT OF TRANSPORTATION ()
+(  179.7,    52.2)-(  422.3,    66.3)   242.6 :    14.1 LAND TRANSPORATION OFFICE ()
+(  123.1,    74.3)-(  495.1,    90.2)   372.0 :    16.0 NON-PROFESSIONAL DRIVER'S LICENSE ()
+(  212.2,   109.2)-(  416.9,   122.2)   204.7 :    12.9 LAST NAME, FIRST NAME. MIDDLE NAME ()
+(  212.2,   122.7)-(  487.9,   141.7)   275.7 :    19.0 MIRANDA, MICHAEL DILAGAN ()
+(  212.2,   151.6)-(  271.8,   163.8)    59.6 :    12.2 NATIONALITY ()
+(  292.9,   152.2)-(  316.4,   163.2)    23.5 :    11.0 SEX ()
+(  340.4,   151.1)-(  409.7,   163.2)    69.2 :    12.2 DATE OF BIRTH ()
+(  442.2,   150.3)-(  573.4,   163.2)   131.2 :    12.9 WEIGHT (KE) HEIGHT(M) ()
+(  212.2,   166.2)-(  239.9,   179.2)    27.7 :    12.9 PHL ()
+(  297.1,   166.2)-(  311.5,   179.2)    14.4 :    12.9 M ()
+(  340.4,   166.2)-(  431.3,   180.3)    90.9 :    14.1 1977/04/29 ()
+(  463.2,   166.2)-(  481.3,   179.2)    18.1 :    12.9 75 ()
+(  531.9,   166.2)-(  560.8,   179.2)    28.9 :    12.9 1.64 ()
+(  212.2,   188.3)-(  258.0,   199.3)    45.8 :    11.0 ADDRESS ()
+(  212.2,   201.8)-(  562.0,   217.0)   349.8 :    15.2 B1 L31 SPRING HEIGHTS FILINVEST BAGONG ()
+(  211.0,   220.8)-(  404.2,   234.8)   193.2 :    14.1 SILANGAN QUEZON CITY ()
+(  212.2,   242.2)-(  274.8,   253.3)    62.6 :    11.0 LICENSE NO. ()
+(  352.5,   240.3)-(  436.1,   253.3)    83.7 :    12.9 EXPIRATION DATE ()
+(  453.6,   240.3)-(  525.8,   253.3)    72.2 :    12.9 AGENCY CODE ()
+(  211.0,   254.4)-(  444.6,   269.8)   233.6 :    15.4 NO1-08-009726 2022/04-29 ()
+(  473.5,   255.2)-(  503.6,   267.3)    30.1 :    12.2 N03 ()
+(  212.2,   276.8)-(  271.8,   288.8)    59.6 :    12.0 BLOOD TYPE ()
+(  230.9,   290.5)-(  251.9,   301.5)    21.1 :    11.0 O+ ()
+(  304.9,   277.2)-(  359.7,   288.2)    54.8 :    11.0 EYES COLOR ()
+(  309.1,   289.4)-(  356.7,   302.3)    47.6 :    12.9 BLACK ()
+(  211.0,   311.4)-(  273.0,   322.4)    62.0 :    11.0 RESTRICTIONS ()
+(  304.9,   311.4)-(  362.7,   322.4)    57.8 :    11.0 CONDITIONS ()
+(  232.1,   324.3)-(  251.9,   337.2)    19.9 :    12.9 1.2 ()
+(  311.5,   324.3)-(  354.9,   337.2)    43.3 :    12.9 NONE ()
+(  386.8,   333.4)-(  502.4,   346.4)   115.6 :    12.9 EDGAR C/GALVANTE ()
+(   64.1,   348.3)-(  181.5,   360.4)   117.4 :    12.2 SIGNATURE OF LICENSE ()
+(  385.6,   348.3)-(  489.7,   360.4)   104.1 :    12.2 ASSISTANT SECRETARY ()
+==== Lines read by Tesseract ====
+======================
+ExtractFieldsFromReadResultOfPHDL start...
+ExtractFieldsFromReadResultOfPHDL (0.1011284 sec)
+
+scanPHDLResult.Success: True
+scanPHDLResult.Error:
+scanPHDLResult.lastNameOrFullName: MIRANDA
+scanPHDLResult.firstName:  MICHAEL DILAGAN
+scanPHDLResult.middleName:
+scanPHDLResult.documentNumber: NO1-08-009726
+scanPHDLResult.nationality: PH
+scanPHDLResult.documentIssueDate:
+scanPHDLResult.documentExpirationDate: 2022-04-29
+scanPHDLResult.addressLine1: B1 L31 SPRING HEIGHTS FILINVEST BAGONG
+scanPHDLResult.addressLine2: SILANGAN QUEZON CITY
+scanPHDLResult.postcode:
+scanPHDLResult.gender: M
+
+[1]
+  Scanned Data: documentNumber: NO1-08-009726
+  Expected    : documentNumber: N01-08-009726
+ --> IsValid: False
+Try another OCR...
+ScanPHDL imageFileName: F:\WORK\Dev\huggingface\work\ConsoleApp1\test1\bin\Debug\net8.0\testdata\PHDL4_Test1.jpg
+PostOCRWithRegionRequest start...
+PostOCRWithRegionRequest PostAsync start...
+PostOCRWithRegionRequest PostAsync (25.3828977 sec)
+
+(25.3888395 sec)
+
+(  240.8,   277.0)-(  553.3,   295.4)   312.6 :    18.4 </S>REPUBLIC OF THE PHILIPPINES ()
+(  237.7,   300.0)-(  560.3,   317.4)   322.6 :    17.4 DEPARTMENT OF TRANSPORTATION ()
+(  253.1,   319.5)-(  543.4,   336.9)   290.3 :    17.4 LAND TRANSPORATION OFFICE ()
+(  183.9,   342.5)-(  626.3,   362.0)   442.4 :    19.5 NON-PROFESSIONAL DRIVER'S LICENSE ()
+(  288.4,   385.0)-(  531.8,   400.4)   243.5 :    15.4 LAST FIRST, FIRST MIDDLE NAME ()
+(  288.4,   399.9)-(  663.2,   423.9)   374.8 :    24.1 MAITIM, JOSE ANTONIO SAYO ()
+(  288.4,   435.2)-(  358.3,   449.5)    69.9 :    14.3 NATIONALITY ()
+(  384.4,   435.7)-(  409.7,   449.0)    25.3 :    13.3 SEX ()
+(  439.7,   435.2)-(  522.6,   449.5)    82.9 :    14.3 DATE OF BIRTH ()
+(  564.1,   434.7)-(  640.1,   450.0)    76.0 :    15.4 WEIGHT (KG) ()
+(  654.0,   434.7)-(  723.1,   449.0)    69.1 :    14.3 HEIGHT(TM) ()
+(  288.4,   452.1)-(  328.3,   468.5)    39.9 :    16.4 PHI ()
+(  388.2,   453.1)-(  406.7,   468.5)    18.4 :    15.4 M ()
+(  439.7,   452.1)-(  538.0,   468.5)    98.3 :    16.4 10/06/13 ()
+(  584.1,   452.1)-(  618.6,   468.5)    34.6 :    16.4 104 ()
+(  670.8,   452.1)-(  710.8,   468.5)    39.9 :    16.4 1.80 ()
+(  288.4,   478.7)-(  342.9,   493.1)    54.5 :    14.3 ADDRESS ()
+(  288.4,   493.6)-(  716.2,   515.1)   427.8 :    21.5 40-A PELAEZ ST PROJ 4 QUEZON CITY ()
+(  288.4,   542.2)-(  363.6,   557.6)    75.3 :    15.4 LICENSE NO. ()
+(  455.8,   542.7)-(  560.3,   557.1)   104.4 :    14.3 EXPIRATION DATE ()
+(  580.2,   543.2)-(  669.3,   558.6)    89.1 :    15.4 AGENCY CODE ()
+(  286.8,   557.6)-(  558.0,   577.0)   271.1 :    19.5 N02-89-106564 2022/0613 ()
+(  606.3,   561.7)-(  644.7,   577.0)    38.4 :    15.4 N22 ()
+(  288.4,   585.7)-(  361.3,   600.1)    73.0 :    14.3 BLOOD TYPE ()
+(  398.2,   586.2)-(  467.3,   600.6)    69.1 :    14.3 EYES COLOR ()
+(  303.7,   601.6)-(  345.2,   618.0)    41.5 :    16.4 AB+ ()
+(  398.2,   600.6)-(  468.1,   617.0)    69.9 :    16.4 BLACK ()
+(  288.4,   628.7)-(  362.9,   642.0)    74.5 :    13.3 RESISTRATIONS ()
+(  399.7,   628.7)-(  471.2,   643.1)    71.4 :    14.3 CONDITIONS ()
+(  405.1,   643.6)-(  465.8,   661.0)    60.7 :    17.4 NONE ()
+(  111.7,   674.3)-(  252.3,   689.7)   140.5 :    15.4 SIGNATURE OF LICENSEE ()
+(  500.4,   656.9)-(  647.0,   674.3)   146.7 :    17.4 EDGAR C. CALVANTE ()
+(  500.4,   676.9)-(  629.4,   691.2)   129.0 :    14.3 ASSISTARY SECRETARY ()
+==== Lines read by Tesseract ====
+======================
+ExtractFieldsFromReadResultOfPHDL start...
+ExtractFieldsFromReadResultOfPHDL (0.1076645 sec)
+
+scanPHDLResult.Success: False
+scanPHDLResult.Error: Failed to scan [EXPIRY,DOB]
+scanPHDLResult.lastNameOrFullName: MAITIM
+scanPHDLResult.firstName:  JOSE ANTONIO SAYO
+scanPHDLResult.middleName:
+scanPHDLResult.documentNumber: N02-89-106564
+scanPHDLResult.nationality: PHI
+scanPHDLResult.documentIssueDate:
+scanPHDLResult.documentExpirationDate:
+scanPHDLResult.addressLine1: 40-A PELAEZ ST PROJ 4 QUEZON CITY
+scanPHDLResult.addressLine2:
+scanPHDLResult.postcode:
+scanPHDLResult.gender: M
+
+[1]
+  Scanned Data: dateOfBirth:
+  Expected    : dateOfBirth: 1970-06-13
+
+[2]
+  Scanned Data: nationality: PHI
+  Expected    : nationality: PH
+
+[3]
+  Scanned Data: addressLine1: 40-A PELAEZ ST PROJ 4 QUEZON CITY
+  Expected    : addressLine1: 40-A P PELAEZ ST PROJ 4 QUEZON CITY
+ --> IsValid: False
+Try another OCR...
+ScanPHDL imageFileName: F:\WORK\Dev\huggingface\work\ConsoleApp1\test1\bin\Debug\net8.0\testdata\PHDL4_Test2.jpg
+PostOCRWithRegionRequest start...
+PostOCRWithRegionRequest PostAsync start...
+PostOCRWithRegionRequest PostAsync (21.7268791 sec)
+
+(21.733607 sec)
+
+(  120.4,   138.0)-(  277.1,   147.7)   156.7 :     9.7 </S>REPUBLIC OF THE PHILIPPINES ()
+(  118.5,   149.2)-(  280.9,   158.5)   162.4 :     9.2 DEPARTMENT OF TRANSPORTATION ()
+(  126.5,   159.5)-(  272.1,   168.7)   145.5 :     9.2 LAND TRANSPORATION OFFICE ()
+(   92.0,   171.3)-(  313.2,   181.5)   221.2 :    10.2 NON-PROFESSIONAL DRIVER'S LICENSE ()
+(  144.6,   192.3)-(  265.9,   199.9)   121.3 :     7.7 LAST NAME, FIRST MIDDLE NAME ()
+(  144.6,   199.4)-(  332.0,   212.2)   187.4 :    12.8 NAITIM, JOSE ANTONIO SAYO ()
+(  144.6,   217.3)-(  179.5,   224.5)    34.9 :     7.2 NATIONALITY ()
+(  192.6,   217.9)-(  205.6,   225.0)    13.1 :     7.2 SEX ()
+(  219.5,   216.8)-(  262.8,   225.0)    43.4 :     8.2 DATE OF BIRTH ()
+(  282.0,   216.8)-(  361.9,   225.0)    79.9 :     8.2 WEIGHT KGL HEIGHTITN) ()
+(  144.6,   225.0)-(  164.5,   234.2)    20.0 :     9.2 PHI ()
+(  194.5,   226.0)-(  204.5,   234.2)    10.0 :     8.2 M ()
+(  219.5,   225.0)-(  270.1,   234.2)    50.7 :     9.2 DATE/06/13 ()
+(  290.1,   225.0)-(  308.9,   234.2)    18.8 :     9.2 104 ()
+(  337.0,   225.0)-(  356.2,   234.2)    19.2 :     9.2 1.80 ()
+(  144.6,   239.4)-(  171.5,   247.0)    26.9 :     7.7 ADDRESS ()
+(  143.4,   246.5)-(  358.1,   257.3)   214.7 :    10.8 40-A P PELAEZ ST PROJ 4 QUEZON CITY ()
+(  143.4,   270.6)-(  182.6,   278.3)    39.2 :     7.7 LICENSE NO. ()
+(  227.5,   270.6)-(  280.9,   278.3)    53.4 :     7.7 EXPIRATION DATE ()
+(  290.1,   271.6)-(  335.0,   279.3)    44.9 :     7.7 AGENCY CODE ()
+(  143.4,   278.3)-(  280.1,   288.5)   136.7 :    10.2 N02-89-106564 2022/08/13 ()
+(  302.0,   279.3)-(  323.1,   288.5)    21.1 :     9.2 N22 ()
+(  152.6,   299.8)-(  173.4,   309.0)    20.7 :     9.2 AB+ ()
+(  199.5,   299.8)-(  234.8,   309.0)    35.3 :     9.2 BLACK ()
+(  156.5,   321.3)-(  169.5,   330.5)    13.1 :     9.2 1.2 ()
+(  202.6,   321.3)-(  232.9,   330.5)    30.3 :     9.2 NONE ()
+(   55.5,   337.2)-(  126.5,   344.8)    71.0 :     7.7 SIGNATURE OF LICENSEE ()
+(  250.9,   327.9)-(  323.1,   337.2)    72.2 :     9.2 EDGAR C CALVANTE ()
+(  250.9,   337.7)-(  315.1,   345.3)    64.1 :     7.7 ASSISTY SECRETARY ()
+==== Lines read by Tesseract ====
+======================
+ExtractFieldsFromReadResultOfPHDL start...
+ExtractFieldsFromReadResultOfPHDL (0.1564779 sec)
+
+scanPHDLResult.Success: False
+scanPHDLResult.Error: Failed to scan [DOB]
+scanPHDLResult.lastNameOrFullName: NAITIM
+scanPHDLResult.firstName:  JOSE ANTONIO SAYO
+scanPHDLResult.middleName:
+scanPHDLResult.documentNumber: N02-89-106564
+scanPHDLResult.nationality: PHI
+scanPHDLResult.documentIssueDate:
+scanPHDLResult.documentExpirationDate: 2022-08-13
+scanPHDLResult.addressLine1: 40-A P PELAEZ ST PROJ 4 QUEZON CITY
+scanPHDLResult.addressLine2:
+scanPHDLResult.postcode:
+scanPHDLResult.gender: M
+
+[1]
+  Scanned Data: lastNameOrFullName: NAITIM
+  Expected    : lastNameOrFullName: MAITIM
+
+[2]
+  Scanned Data: dateOfBirth:
+  Expected    : dateOfBirth: 1970-06-13
+
+[3]
+  Scanned Data: nationality: PHI
+  Expected    : nationality: PH
+ --> IsValid: False
+Try another OCR...
+ScanPHDL imageFileName: F:\WORK\Dev\huggingface\work\ConsoleApp1\test1\bin\Debug\net8.0\testdata\PHDL5_Test1.jpg
+PostOCRWithRegionRequest start...
+PostOCRWithRegionRequest PostAsync start...
+PostOCRWithRegionRequest PostAsync (25.6520652 sec)
+
+(25.657669 sec)
+
+(  201.5,    17.7)-(  511.5,    34.7)   310.0 :    17.0 </S>REPUBLIC OF THE PHILIPPINES ()
+(  196.5,    40.9)-(  518.0,    58.0)   321.6 :    17.0 DEPARTMENT OF TRANSPORTATION ()
+(  212.3,    60.0)-(  501.5,    77.1)   289.1 :    17.0 LAND TRANSPORATION OFFICE ()
+(  143.1,    84.4)-(  585.1,   102.4)   442.0 :    17.9 NON-PROFESSIONAL DRIVER'S LICENSE ()
+(  246.9,   125.6)-(  490.6,   140.3)   243.7 :    14.7 LAST NAME, FIRST NAME. MIDDLE NAME ()
+(  246.9,   140.5)-(  621.9,   164.0)   374.9 :    23.5 MAITIM, JOSE ANTONIO SAYO ()
+(  247.7,   176.0)-(  317.6,   189.8)    69.9 :    13.8 NATIONALITY ()
+(  342.8,   176.4)-(  369.5,   188.4)    26.7 :    12.0 SEX ()
+(  399.1,   175.0)-(  482.7,   188.8)    83.6 :    13.8 DATE OF BIRTH ()
+(  521.6,   173.7)-(  682.4,   189.3)   160.8 :    15.6 WEIGHT (KG) HEIGHT(TM) ()
+(  247.7,   192.5)-(  285.9,   208.6)    38.2 :    16.1 PHL ()
+(  347.9,   192.5)-(  366.6,   208.6)    18.7 :    16.1 M ()
+(  398.4,   192.1)-(  497.1,   209.1)    98.8 :    17.0 1970/06/13 ()
+(  543.3,   192.5)-(  577.9,   208.6)    34.6 :    16.1 104 ()
+(  631.2,   192.5)-(  668.7,   208.6)    37.5 :    16.1 1.80 ()
+(  247.7,   219.7)-(  302.5,   233.0)    54.8 :    13.3 ADDRESS ()
+(  247.7,   235.3)-(  674.5,   254.2)   426.8 :    18.9 40-A P P PELAEZ ST PROJ 4 QUEZON CITY ()
+(  247.7,   283.6)-(  322.6,   297.4)    75.0 :    13.8 LICENSE NO. ()
+(  414.9,   283.6)-(  519.5,   297.4)   104.5 :    13.8 EXPIRATION DATE ()
+(  538.2,   283.6)-(  628.4,   299.2)    90.1 :    15.6 AGENCY CODE ()
+(  246.9,   297.4)-(  517.3,   317.2)   270.4 :    19.8 NO2-89-106564 2022/06-13 ()
+(  565.6,   300.6)-(  603.8,   317.2)    38.2 :    16.6 N22 ()
+(  247.7,   325.9)-(  319.0,   340.2)    71.4 :    14.3 BLOOD TYPE ()
+(   94.8,   338.3)-(  184.9,   354.0)    90.1 :    15.6 A17/09/14 ()
+(  264.2,   341.6)-(  303.2,   357.2)    38.9 :    15.6 AB+ ()
+(  358.0,   326.8)-(  426.5,   340.2)    68.5 :    13.3 EYES COLOR ()
+(  358.0,   340.2)-(  428.6,   357.2)    70.7 :    17.0 BLACK ()
+(  245.5,   369.1)-(  321.9,   382.0)    76.4 :    12.9 RESTRICTIONS ()
+(  358.0,   369.1)-(  430.8,   382.5)    72.8 :    13.3 CONDITIONS ()
+(  270.7,   383.0)-(  298.9,   400.0)    28.1 :    17.0 1.2 ()
+(  365.2,   383.9)-(  424.3,   400.9)    59.1 :    17.0 NONE ()
+(  460.4,   398.1)-(  604.6,   413.8)   144.2 :    15.6 EDGAR C.GALVANTE ()
+(   71.0,   415.1)-(  210.9,   429.4)   139.9 :    14.3 SIGNATURE OF LICENSEE ()
+(  458.9,   416.5)-(  588.7,   431.9)   129.8 :    15.4 ASSISTANT SECRETARY ()
+==== Lines read by Tesseract ====
+======================
+ExtractFieldsFromReadResultOfPHDL start...
+ExtractFieldsFromReadResultOfPHDL (0.1120114 sec)
+
+scanPHDLResult.Success: True
+scanPHDLResult.Error:
+scanPHDLResult.lastNameOrFullName: MAITIM
+scanPHDLResult.firstName:  JOSE ANTONIO SAYO
+scanPHDLResult.middleName:
+scanPHDLResult.documentNumber: NO2-89-106564
+scanPHDLResult.nationality: PH
+scanPHDLResult.documentIssueDate:
+scanPHDLResult.documentExpirationDate: 2022-06-13
+scanPHDLResult.addressLine1: 40-A P P PELAEZ ST PROJ 4 QUEZON CITY
+scanPHDLResult.addressLine2:
+scanPHDLResult.postcode:
+scanPHDLResult.gender: M
+
+[1]
+  Scanned Data: addressLine1: 40-A P P PELAEZ ST PROJ 4 QUEZON CITY
+  Expected    : addressLine1: 40-A P PELAEZ ST PROJ 4 QUEZON CITY
+ --> IsValid: False
+Try another OCR...
+ScanPHDL imageFileName: F:\WORK\Dev\huggingface\work\ConsoleApp1\test1\bin\Debug\net8.0\testdata\PHDL5_Test2.jpg
+PostOCRWithRegionRequest start...
+PostOCRWithRegionRequest PostAsync start...
+PostOCRWithRegionRequest PostAsync (23.4140356 sec)
+
+(23.417507 sec)
+
+(  100.2,     8.2)-(  256.1,    17.6)   156.0 :     9.4 </S>REPUBLIC OF THE PHILIPPINES ()
+(   97.3,    19.7)-(  259.0,    29.1)   161.7 :     9.4 DEPARTMENT OF TRANSPORTATION ()
+(  105.2,    29.1)-(  251.1,    38.8)   145.8 :     9.7 LAND TRANSPORATION OFFICE ()
+(   70.9,    41.5)-(  293.0,    51.2)   222.0 :     9.7 NON-PROFESSIONAL DRIVER'S LICENSE ()
+(  122.6,    62.2)-(  245.7,    70.0)   123.1 :     7.8 LAST NAME, FIRST NAME, MIDDLE NAME ()
+(  122.6,    69.6)-(  311.0,    82.0)   188.4 :    12.4 MAITIM, JOSE ANTONIO SAYO ()
+(  123.6,    87.1)-(  159.0,    94.9)    35.4 :     7.8 NATIONALITY ()
+(  170.6,    87.1)-(  184.7,    94.9)    14.1 :     7.8 SEX ()
+(  198.7,    87.1)-(  241.0,    94.9)    42.2 :     7.8 DEO OF BIRTH ()
+(  260.1,    87.1)-(  341.3,    94.9)    81.2 :     7.8 WEIGHT (KD) HEIGHTIM) ()
+(  123.6,    94.9)-(  143.5,   104.5)    19.9 :     9.7 PHL ()
+(  172.4,    94.9)-(  184.7,   104.5)    12.3 :     9.7 M ()
+(  198.7,    94.9)-(  248.5,   104.5)    49.8 :     9.7 1970/06/13 ()
+(  271.3,    94.9)-(  289.0,   104.5)    17.7 :     9.7 104 ()
+(  315.0,    94.9)-(  335.2,   104.5)    20.2 :     9.7 1.80 ()
+(  123.6,   109.1)-(  151.8,   116.3)    28.2 :     7.1 ADDRESS ()
+(  122.6,   116.3)-(  337.0,   127.1)   214.4 :    10.8 40-A P P PELAEZ ST PROJ 4 QUEZON CITY ()
+(  122.6,   141.1)-(  160.8,   148.9)    38.3 :     7.8 LICENSE NO. ()
+(  206.3,   141.1)-(  259.0,   148.9)    52.7 :     7.8 EXPIRATION DATE ()
+(  268.4,   141.1)-(  315.0,   148.9)    46.6 :     7.8 AGENCY CODE ()
+(  122.6,   148.2)-(  259.0,   158.6)   136.5 :    10.4 NO2-89-106564 2022/06-13 ()
+(  282.1,   149.8)-(  301.6,   158.6)    19.5 :     8.7 N22 ()
+(  122.6,   162.0)-(  159.7,   170.1)    37.2 :     8.1 BLUED TYPE ()
+(  130.5,   170.1)-(  151.8,   178.6)    21.3 :     8.5 AB+ ()
+(  178.5,   170.1)-(  213.9,   178.6)    35.4 :     8.5 BLACK ()
+(  178.5,   184.1)-(  215.7,   191.0)    37.2 :     6.9 CONDITIONS ()
+(  134.5,   191.0)-(  150.0,   200.0)    15.5 :     9.0 1.2 ()
+(  182.5,   191.0)-(  212.1,   200.0)    29.6 :     9.0 NONE ()
+(   34.8,   207.1)-(  105.2,   214.9)    70.4 :     7.8 SIGNATURE OF LICENSEE ()
+(  229.1,   198.1)-(  302.7,   207.1)    73.6 :     9.0 EDGAR C.GALVANTE ()
+(  229.1,   207.1)-(  294.8,   215.9)    65.7 :     8.7 ASSISTANT SECRETARY ()
+==== Lines read by Tesseract ====
+======================
+ExtractFieldsFromReadResultOfPHDL start...
+ExtractFieldsFromReadResultOfPHDL (0.1060719 sec)
+
+scanPHDLResult.Success: True
+scanPHDLResult.Error:
+scanPHDLResult.lastNameOrFullName: MAITIM
+scanPHDLResult.firstName:  JOSE ANTONIO SAYO
+scanPHDLResult.middleName:
+scanPHDLResult.documentNumber: NO2-89-106564
+scanPHDLResult.nationality: PH
+scanPHDLResult.documentIssueDate:
+scanPHDLResult.documentExpirationDate: 2022-06-13
+scanPHDLResult.addressLine1: 40-A P P PELAEZ ST PROJ 4 QUEZON CITY
+scanPHDLResult.addressLine2:
+scanPHDLResult.postcode:
+scanPHDLResult.gender: M
+
+[1]
+  Scanned Data: addressLine1: 40-A P P PELAEZ ST PROJ 4 QUEZON CITY
+  Expected    : addressLine1: 40-A P PELAEZ ST PROJ 4 QUEZON CITY
+ --> IsValid: False
+
+F:\WORK\Dev\huggingface\work\ConsoleApp1\test1\bin\Debug\net8.0\test1.exe (process 23468) exited with code 0 (0x0).
+To automatically close the console when debugging stops, enable Tools->Options->Debugging->Automatically close the console when debugging stops.
+Press any key to close this window . . .

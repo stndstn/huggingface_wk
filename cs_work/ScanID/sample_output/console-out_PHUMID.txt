@@ -1,0 +1,1736 @@
+ScanPHUMID imageFileName: F:\WORK\Dev\huggingface\work\ConsoleApp1\test1\bin\Debug\net8.0\testdata\CRN-0111-8184420-7_Test1.jpg
+Dlib DetectFace start...
+(4.1798501 sec)
+
+PostOCRWithRegionRequest start...
+PostOCRWithRegionRequest PostAsync start...
+PostOCRWithRegionRequest PostAsync (7.9256087 sec)
+
+(8.0309953 sec)
+
+(  342.0,   268.0)-(  396.0,   298.0)    54.0 :    30.0 NG ()
+(  528.0,   302.0)-(  840.0,   358.0)   312.0 :    56.0 REPUBLIC ()
+(  858.0,   302.0)-( 1086.0,   358.0)   228.0 :    56.0 OF THE ()
+( 1102.0,   302.0)-( 1492.0,   358.0)   390.0 :    56.0 RHILIPPINES ()
+(  726.0,   351.0)-( 1294.0,   426.0)   568.0 :    75.0 UNIFIED MULTI-PURPOSE ID ()
+( 1165.0,   507.0)-( 1265.0,   551.0)   100.0 :    44.0 CRN ()
+( 1295.0,   495.0)-( 1805.0,   555.0)   510.0 :    60.0 01L1-6184420-7 ()
+(  873.0,   623.0)-( 1025.0,   659.0)   152.0 :    36.0 SURNAME ()
+(  874.0,   652.0)-( 1240.0,   708.0)   366.0 :    56.0 FRIGILLANA ()
+(  876.0,   726.0)-( 1060.0,   756.0)   184.0 :    30.0 GIVEN NAME ()
+(  874.0,   754.0)-( 1058.0,   808.0)   184.0 :    54.0 MARIE ()
+( 1094.0,   754.0)-( 1318.0,   808.0)   224.0 :    54.0 ANGELI ()
+(  870.0,   880.0)-( 1081.0,   922.0)   211.0 :    42.0 MDDLE NAME ()
+(  874.0,   914.0)-( 1134.0,   970.0)   260.0 :    56.0 FAJARDO ()
+(  872.0,   984.0)-(  938.0,  1016.0)    66.0 :    32.0 SEX ()
+( 1017.0,   985.0)-( 1247.0,  1023.0)   230.0 :    38.0 DATE OF BIRTH ()
+( 1257.0,   967.0)-( 1635.0,  1027.0)   378.0 :    60.0 1991/04/17 ()
+(  871.0,  1015.0)-( 1021.0,  1053.0)   150.0 :    38.0 ADDRE3S ()
+( 1081.0,  1039.0)-( 1265.0,  1099.0)   184.0 :    60.0 KALAU ()
+( 1292.0,  1042.0)-( 1374.0,  1098.0)    82.0 :    56.0 ST ()
+( 1397.0,  1039.0)-( 1479.0,  1099.0)    82.0 :    60.0 BF ()
+( 1506.0,  1042.0)-( 1724.0,  1098.0)   218.0 :    56.0 RESORT ()
+(  858.0,  1070.0)-( 1062.0,  1195.0)   204.0 :   125.0 PINTI ()
+( 1078.0,  1081.0)-( 1521.0,  1192.0)   443.0 :   111.0 GETNDECRABAN ()
+( 1535.0,  1080.0)-( 1697.0,  1190.0)   162.0 :   110.0 394O' ()
+( 1682.0,  1086.0)-( 1798.0,  1140.0)   116.0 :    54.0 LAS ()
+(  312.0,   252.0)-(  254.0,   391.0)   -58.0 :   139.0 6 ()
+(  352.0,   472.0)-(  412.0,   468.0)    60.0 :    -4.0 DKATAO ()
+(  309.0,   465.0)-(  353.0,   487.0)    44.0 :    22.0 KAD0S: ()
+======================
+Estimating resolution as 263
+Empty page!!
+Estimating resolution as 263
+Empty page!!
+Estimating resolution as 519
+REPUBLIC
+Before: (  528.0,   302.0)-(  840.0,   358.0)   312.0 :    56.0 REPUBLIC ()
+After: (  549.0,   311.0)-(  871.0,   363.0)   322.0 :    50.0 REPUBLIC ()
+Estimating resolution as 536
+OF THE
+Before: (  858.0,   302.0)-( 1086.0,   358.0)   228.0 :    56.0 OF THE ()
+After: (  873.0,   311.0)-( 1106.0,   369.0)   233.0 :    51.0 OF THE (0.9200000166893005)
+Estimating resolution as 531
+PHILIPPINES
+Before: ( 1102.0,   302.0)-( 1492.0,   358.0)   390.0 :    56.0 RHILIPPINES ()
+After: ( 1125.0,   311.0)-( 1527.0,   366.0)   402.0 :    51.0 PHILIPPINES (0.9100000262260437)
+Estimating resolution as 498
+Unified Multi-Purpose 1D
+Estimating resolution as 416
+CRN
+Before: ( 1165.0,   507.0)-( 1265.0,   551.0)   100.0 :    44.0 CRN ()
+After: ( 1176.0,   516.0)-( 1275.0,   558.0)    99.0 :    42.0 CRN (0.9100000262260437)
+Estimating resolution as 522
+Estimating resolution as 450
+Empty page!!
+Estimating resolution as 450
+Empty page!!
+Estimating resolution as 520
+- FRIGILLANA
+Estimating resolution as 328
+Empty page!!
+Estimating resolution as 328
+Empty page!!
+Estimating resolution as 517
+Empty page!!
+Estimating resolution as 517
+Empty page!!
+Estimating resolution as 509
+ANGELI
+Before: ( 1094.0,   754.0)-( 1318.0,   808.0)   224.0 :    54.0 ANGELI ()
+After: ( 1110.0,   763.0)-( 1337.0,   814.0)   227.0 :    49.0 ANGELI ()
+Estimating resolution as 356
+Empty page!!
+Estimating resolution as 356
+Empty page!!
+Estimating resolution as 541
+FAJARDO
+Before: (  874.0,   914.0)-( 1134.0,   970.0)   260.0 :    56.0 FAJARDO ()
+After: (  874.0,   914.0)-( 1139.0,   966.0)   265.0 :    50.0 FAJARDO (0.9100000262260437)
+Estimating resolution as 388
+Empty page!!
+Estimating resolution as 388
+Empty page!!
+Estimating resolution as 361
+DATE OF BIRTH
+Before: ( 1017.0,   985.0)-( 1247.0,  1023.0)   230.0 :    38.0 DATE OF BIRTH ()
+After: ( 1018.0,   990.0)-( 1254.0,  1031.0)   236.0 :    35.0 DATE OF BIRTH ()
+Estimating resolution as 556
+Empty page!!
+Estimating resolution as 556
+Empty page!!
+Estimating resolution as 519
+Empty page!!
+Estimating resolution as 519
+Empty page!!
+Estimating resolution as 517
+Empty page!!
+Estimating resolution as 517
+Empty page!!
+Estimating resolution as 541
+Empty page!!
+Estimating resolution as 541
+Empty page!!
+Estimating resolution as 513
+Estimating resolution as 528
+Empty page!!
+Estimating resolution as 528
+Empty page!!
+Estimating resolution as 1150
+Empty page!!
+Estimating resolution as 1150
+Empty page!!
+Estimating resolution as 736
+Empty page!!
+Estimating resolution as 736
+Empty page!!
+Estimating resolution as 1078
+\\\\\\\
+Before: ( 1535.0,  1080.0)-( 1697.0,  1190.0)   162.0 :   110.0 394O' ()
+After: ( 1535.0,  1080.0)-( 1714.0,  1095.0)   179.0 :    15.0 394O' ()
+Estimating resolution as 553
+LAS
+Before: ( 1682.0,  1086.0)-( 1798.0,  1140.0)   116.0 :    54.0 LAS ()
+After: ( 1682.0,  1086.0)-( 1792.0,  1145.0)   110.0 :    49.0 LAS ()
+Estimating resolution as 225
+Empty page!!
+Estimating resolution as 225
+Empty page!!
+==== Lines read by Tesseract ====
+(   21.0,     9.0)-(  322.0,    52.0)   301.0 :    41.0 REPUBLIC (0.8999999761581421)
+(   15.0,     9.0)-(  233.0,    58.0)   218.0 :    42.0 OF THE (0.9200000166893005)
+(   23.0,     9.0)-(  402.0,    55.0)   379.0 :    42.0 PHILIPPINES (0.9100000262260437)
+(    3.0,     0.0)-(  619.0,    80.0)   616.0 :    56.0 Unified Multi-Purpose 1D (0.4699999988079071)
+(   11.0,     9.0)-(   99.0,    42.0)    88.0 :    33.0 CRN (0.9100000262260437)
+(    0.0,     0.0)-(  379.0,    61.0)   379.0 :    50.0 - FRIGILLANA (0.2800000011920929)
+(   16.0,     9.0)-(  227.0,    51.0)   211.0 :    40.0 ANGELI (0.8299999833106995)
+(    0.0,     0.0)-(  265.0,    52.0)   265.0 :    50.0 FAJARDO (0.9100000262260437)
+(    1.0,     5.0)-(  236.0,    41.0)   235.0 :    30.0 DATE OF BIRTH (0.6600000262260437)
+(    0.0,     0.0)-(  179.0,    15.0)   179.0 :    15.0 \\\\\\\ (0.5299999713897705)
+(    0.0,     0.0)-(  110.0,    59.0)   110.0 :    49.0 LAS (0.8899999856948853)
+======================
+==== Merged lines ====
+(  342.0,   268.0)-(  396.0,   298.0)    54.0 :    30.0 NG ()
+(  549.0,   311.0)-( 1527.0,   369.0)   978.0 :    58.0 REPUBLIC OF THE PHILIPPINES ()
+(  726.0,   351.0)-( 1294.0,   426.0)   568.0 :    75.0 UNIFIED MULTI-PURPOSE ID ()
+( 1176.0,   516.0)-( 1275.0,   558.0)    99.0 :    42.0 CRN (0.9100000262260437)
+( 1295.0,   495.0)-( 1805.0,   555.0)   510.0 :    60.0 01L1-6184420-7 ()
+(  873.0,   623.0)-( 1025.0,   659.0)   152.0 :    36.0 SURNAME ()
+(  874.0,   652.0)-( 1240.0,   708.0)   366.0 :    56.0 FRIGILLANA ()
+(  876.0,   726.0)-( 1060.0,   756.0)   184.0 :    30.0 GIVEN NAME ()
+(  874.0,   754.0)-( 1337.0,   814.0)   463.0 :    60.0 MARIE ANGELI ()
+(  870.0,   880.0)-( 1081.0,   922.0)   211.0 :    42.0 MDDLE NAME ()
+(  874.0,   914.0)-( 1139.0,   966.0)   265.0 :    50.0 FAJARDO (0.9100000262260437)
+(  872.0,   984.0)-(  938.0,  1016.0)    66.0 :    32.0 SEX ()
+( 1018.0,   990.0)-( 1254.0,  1031.0)   236.0 :    35.0 DATE OF BIRTH ()
+( 1257.0,   967.0)-( 1635.0,  1027.0)   378.0 :    60.0 1991/04/17 ()
+(  871.0,  1015.0)-( 1021.0,  1053.0)   150.0 :    38.0 ADDRE3S ()
+( 1081.0,  1039.0)-( 1724.0,  1099.0)   643.0 :    60.0 KALAU ST BF RESORT ()
+(  858.0,  1070.0)-( 1521.0,  1195.0)   663.0 :   125.0 PINTI GETNDECRABAN ()
+( 1535.0,  1080.0)-( 1714.0,  1095.0)   179.0 :    15.0 394O' ()
+( 1682.0,  1086.0)-( 1792.0,  1145.0)   110.0 :    49.0 LAS ()
+(  312.0,   252.0)-(  254.0,   391.0)   -58.0 :   139.0 6 ()
+(  352.0,   472.0)-(  412.0,   468.0)    60.0 :    -4.0 DKATAO ()
+(  309.0,   465.0)-(  353.0,   487.0)    44.0 :    22.0 KAD0S: ()
+======================
+ExtractFieldsFromReadResultOfPHUMID start...
+ExtractFieldsFromReadResultOfPHUMID (0.1044726 sec)
+
+scanPHUMIDResult.Success: True
+scanPHUMIDResult.Error:
+scanPHUMIDResult.lastNameOrFullName: FRIGILLANA
+scanPHUMIDResult.firstName: MARIE ANGELI
+scanPHUMIDResult.middleName: FAJARDO
+scanPHUMIDResult.documentNumber: 0111-6184420-7
+scanPHUMIDResult.nationality: PH
+scanPHUMIDResult.documentIssueDate:
+scanPHUMIDResult.documentExpirationDate:
+scanPHUMIDResult.addressLine1: KALAU ST BF RESORT
+scanPHUMIDResult.addressLine2:
+scanPHUMIDResult.postcode:
+scanPHUMIDResult.gender:
+scanPHUMIDResult.dateOfBirth: 1991-04-17
+
+[1]
+  Scanned Data: dateOfBirth: 1991-04-17
+  Expected    : dateOfBirth: 1991/04/17
+
+[2]
+  Scanned Data: documentNumber: 0111-6184420-7
+  Expected    : documentNumber: 0111-8184420-7
+
+[3]
+  Scanned Data: addressLine1: KALAU ST BF RESORT
+  Expected    : addressLine1: 36 E. KALAW ST BF RESORT
+
+[4]
+  Scanned Data: addressLine2:
+  Expected    : addressLine2: VISTA GRANDE TALON DOS LAS CITY NCR PHL
+
+[5]
+  Scanned Data: postcode:
+  Expected    : postcode: 1740
+
+[6]
+  Scanned Data: gender:
+  Expected    : gender: F
+ --> IsValid: False
+Try another OCR...
+ScanPHUMID imageFileName: F:\WORK\Dev\huggingface\work\ConsoleApp1\test1\bin\Debug\net8.0\testdata\CRN-0111-8184420-7_Test1.jpg
+Dlib DetectFace start...
+(0.6819785 sec)
+
+PostOCRWithRegionRequest start...
+PostOCRWithRegionRequest PostAsync start...
+PostOCRWithRegionRequest PostAsync (14.3860001 sec)
+
+(14.3955848 sec)
+
+(  533.2,   304.7)-( 1500.9,   357.6)   967.7 :    52.9 REPUBLIC OF THE PHILIPPINES ()
+(  246.0,   328.1)-(  472.8,   401.4)   226.8 :    73.3 REPUBLICA NG PIRANIMES ()
+(  736.8,   362.1)-( 1299.3,   415.0)   562.5 :    52.9 UNITED MULTI-PURPOSE ID ()
+( 1174.3,   506.5)-( 1815.4,   556.4)   641.1 :    49.9 CRN - 0111-8184420-7 ()
+(  882.0,   631.3)-( 1031.2,   661.5)   149.2 :    30.2 SURNAME ()
+(  884.0,   661.5)-( 1246.9,   709.9)   362.9 :    48.4 FRIGILLANA ()
+(  884.0,   731.1)-( 1067.5,   761.3)   183.5 :    30.2 GIVEN NAME ()
+(  884.0,   762.8)-( 1327.5,   811.2)   443.5 :    48.4 MARIE ANGELI ()
+(  882.0,   891.3)-( 1087.6,   923.1)   205.6 :    31.8 MIDDLE NAME ()
+(  882.0,   924.6)-( 1140.0,   973.0)   258.0 :    48.4 FAJARDO ()
+(  882.0,   988.1)-( 1027.2,  1025.9)   145.2 :    37.8 SEX F ()
+( 1029.2,   985.8)-( 1644.0,  1030.4)   614.9 :    44.6 DATE OF BIRTH 1991/04/17 ()
+(  882.0,  1031.9)-( 1029.2,  1060.7)   147.2 :    28.7 ADDRESS ()
+(  882.0,  1057.6)-( 1035.2,  1098.5)   153.2 :    40.8 VISA ()
+( 1087.6,  1053.1)-( 1732.8,  1103.0)   645.1 :    49.9 KALAU ST BF RESORT ()
+(  882.0,  1098.5)-( 1807.3,  1148.4)   925.3 :    49.9 VISA GRANDE TALON DOS LAS ()
+(  882.0,  1137.8)-( 1706.5,  1193.7)   824.5 :    55.9 PINAS CITY NCR PHIL 1740 ()
+======================
+==== Lines read by Tesseract ====
+======================
+==== Merged lines ====
+(  533.2,   304.7)-( 1500.9,   357.6)   967.7 :    52.9 REPUBLIC OF THE PHILIPPINES ()
+(  246.0,   328.1)-(  472.8,   401.4)   226.8 :    73.3 REPUBLICA NG PIRANIMES ()
+(  736.8,   362.1)-( 1299.3,   415.0)   562.5 :    52.9 UNITED MULTI-PURPOSE ID ()
+( 1174.3,   506.5)-( 1815.4,   556.4)   641.1 :    49.9 CRN - 0111-8184420-7 ()
+(  882.0,   631.3)-( 1031.2,   661.5)   149.2 :    30.2 SURNAME ()
+(  884.0,   661.5)-( 1246.9,   709.9)   362.9 :    48.4 FRIGILLANA ()
+(  884.0,   731.1)-( 1067.5,   761.3)   183.5 :    30.2 GIVEN NAME ()
+(  884.0,   762.8)-( 1327.5,   811.2)   443.5 :    48.4 MARIE ANGELI ()
+(  882.0,   891.3)-( 1087.6,   923.1)   205.6 :    31.8 MIDDLE NAME ()
+(  882.0,   924.6)-( 1140.0,   973.0)   258.0 :    48.4 FAJARDO ()
+(  882.0,   982.8)-( 1644.0,  1027.4)   762.0 :    44.6 SEX F DATE OF BIRTH 1991/04/17 ()
+(  882.0,  1031.9)-( 1029.2,  1060.7)   147.2 :    28.7 ADDRESS ()
+(  882.0,  1055.4)-( 1732.8,  1100.7)   850.8 :    45.4 VISA  KALAU ST BF RESORT ()
+(  882.0,  1098.5)-( 1807.3,  1148.4)   925.3 :    49.9 VISA GRANDE TALON DOS LAS ()
+(  882.0,  1137.8)-( 1706.5,  1193.7)   824.5 :    55.9 PINAS CITY NCR PHIL 1740 ()
+======================
+ExtractFieldsFromReadResultOfPHUMID start...
+ExtractFieldsFromReadResultOfPHUMID (0.0740193 sec)
+
+scanPHUMIDResult.Success: True
+scanPHUMIDResult.Error:
+scanPHUMIDResult.lastNameOrFullName: FRIGILLANA
+scanPHUMIDResult.firstName: MARIE ANGELI
+scanPHUMIDResult.middleName: FAJARDO
+scanPHUMIDResult.documentNumber: 0111-8184420-7
+scanPHUMIDResult.nationality: PH
+scanPHUMIDResult.documentIssueDate:
+scanPHUMIDResult.documentExpirationDate:
+scanPHUMIDResult.addressLine1: VISA  KALAU ST BF RESORT VISA GRANDE TALON DOS LAS
+scanPHUMIDResult.addressLine2: PINAS CITY NCR PHIL
+scanPHUMIDResult.postcode: 1740
+scanPHUMIDResult.gender: F
+scanPHUMIDResult.dateOfBirth: 1991-04-17
+
+[1]
+  Scanned Data: dateOfBirth: 1991-04-17
+  Expected    : dateOfBirth: 1991/04/17
+
+[2]
+  Scanned Data: addressLine1: VISA  KALAU ST BF RESORT VISA GRANDE TALON DOS LAS
+  Expected    : addressLine1: 36 E. KALAW ST BF RESORT
+
+[3]
+  Scanned Data: addressLine2: PINAS CITY NCR PHIL
+  Expected    : addressLine2: VISTA GRANDE TALON DOS LAS CITY NCR PHL
+ --> IsValid: False
+ScanPHUMID imageFileName: F:\WORK\Dev\huggingface\work\ConsoleApp1\test1\bin\Debug\net8.0\testdata\CRN-0111-8184420-7_Test2.jpg
+Dlib DetectFace start...
+(0.3280077 sec)
+
+PostOCRWithRegionRequest start...
+PostOCRWithRegionRequest PostAsync start...
+PostOCRWithRegionRequest PostAsync (2.9507948 sec)
+
+(2.9538805 sec)
+
+(  266.0,   150.0)-(  751.0,   182.0)   485.0 :    32.0 REPUBLIC OF THE PHILIPPINES ()
+(  365.0,   175.0)-(  655.0,   213.0)   290.0 :    38.0 UNIFIED MULTI-PURPOSE ID ()
+(  586.0,   254.0)-(  638.0,   278.0)    52.0 :    24.0 CRN ()
+(  650.0,   250.0)-(  910.0,   282.0)   260.0 :    32.0 0111-6184420-7 ()
+(  441.0,   315.0)-(  517.0,   333.0)    76.0 :    18.0 SURNAME ()
+(  440.0,   328.0)-(  626.0,   358.0)   186.0 :    30.0 FRIGILLANA ()
+(  441.0,   365.0)-(  535.0,   381.0)    94.0 :    16.0 GIVEN NAME ()
+(  440.0,   378.0)-(  534.0,   408.0)    94.0 :    30.0 MARIE ()
+(  550.0,   378.0)-(  666.0,   410.0)   116.0 :    32.0 ANGELI ()
+(  439.0,   443.0)-(  499.0,   463.0)    60.0 :    20.0 MMDDLE ()
+(  438.0,   460.0)-(  572.0,   490.0)   134.0 :    30.0 FAJARDO ()
+(  513.0,   495.0)-(  629.0,   515.0)   116.0 :    20.0 DATE OF BIRTH ()
+(  632.0,   488.0)-(  824.0,   520.0)   192.0 :    32.0 1991/04/17 ()
+(  650.0,   524.0)-(  692.0,   556.0)    42.0 :    32.0 SI ()
+(  704.0,   524.0)-(  746.0,   554.0)    42.0 :    30.0 BF ()
+(  757.0,   523.0)-(  869.0,   555.0)   112.0 :    32.0 RESORT ()
+(  429.0,   515.0)-(  665.0,   607.0)   236.0 :    92.0 PISKI 8#40862 ()
+(  634.0,   568.0)-(  694.0,   600.0)    60.0 :    32.0 NCR ()
+(  685.0,   541.0)-(  909.0,   603.0)   224.0 :    62.0 APAN RSTOLAS ()
+======================
+Estimating resolution as 279
+REPUBLIC OF THE PHILIPPINES
+Before: (  266.0,   150.0)-(  751.0,   182.0)   485.0 :    32.0 REPUBLIC OF THE PHILIPPINES ()
+After: (  294.0,   154.0)-(  801.0,   189.0)   507.0 :    28.0 REPUBLIC OF THE PHILIPPINES ()
+Estimating resolution as 249
+Detected 12 diacritics
+Unified Multi-Purpose 1D -
+Before: (  365.0,   175.0)-(  655.0,   213.0)   290.0 :    38.0 UNIFIED MULTI-PURPOSE ID ()
+After: (  385.0,   175.0)-(  699.0,   210.0)   314.0 :    31.0 UNIFIED MULTI-PURPOSE ID ()
+Estimating resolution as 216
+CRN
+Before: (  586.0,   254.0)-(  638.0,   278.0)    52.0 :    24.0 CRN ()
+After: (  592.0,   261.0)-(  643.0,   285.0)    51.0 :    23.0 CRN (0.9200000166893005)
+Estimating resolution as 267
+Estimating resolution as 188
+
+Estimating resolution as 269
+
+Estimating resolution as 166
+Empty page!!
+Estimating resolution as 166
+Empty page!!
+Estimating resolution as 259
+
+Estimating resolution as 259
+ANGELI
+Before: (  550.0,   378.0)-(  666.0,   410.0)   116.0 :    32.0 ANGELI ()
+After: (  560.0,   385.0)-(  676.0,   413.0)   116.0 :    27.0 ANGELI ()
+Estimating resolution as 181
+Empty page!!
+Estimating resolution as 181
+Empty page!!
+Estimating resolution as 261
+
+Estimating resolution as 181
+DATE OF BIRTH
+Before: (  513.0,   495.0)-(  629.0,   515.0)   116.0 :    20.0 DATE OF BIRTH ()
+After: (  514.0,   499.0)-(  632.0,   521.0)   118.0 :    19.0 DATE OF BIRTH ()
+Estimating resolution as 273
+, 1993/04/17
+Estimating resolution as 272
+Empty page!!
+Estimating resolution as 272
+Empty page!!
+Estimating resolution as 281
+Empty page!!
+Estimating resolution as 281
+Empty page!!
+Estimating resolution as 273
+RESORT
+Before: (  757.0,   523.0)-(  869.0,   555.0)   112.0 :    32.0 RESORT ()
+After: (  761.0,   527.0)-(  884.0,   562.0)   123.0 :    35.0 RESORT ()
+Estimating resolution as 563
+Empty page!!
+Estimating resolution as 563
+Empty page!!
+Estimating resolution as 356
+Empty page!!
+Estimating resolution as 356
+Empty page!!
+Estimating resolution as 541
+==== Lines read by Tesseract ====
+(   28.0,     4.0)-(  507.0,    35.0)   479.0 :    24.0 REPUBLIC OF THE PHILIPPINES (0.800000011920929)
+(   20.0,     0.0)-(  314.0,    35.0)   294.0 :    31.0 Unified Multi-Purpose 1D - (0.7400000095367432)
+(    6.0,     7.0)-(   51.0,    24.0)    45.0 :    16.0 CRN (0.9200000166893005)
+(   10.0,     7.0)-(  116.0,    28.0)   106.0 :    20.0 ANGELI (0.7699999809265137)
+(    1.0,     4.0)-(  118.0,    22.0)   117.0 :    15.0 DATE OF BIRTH (0.75)
+(    0.0,     5.0)-(  197.0,    28.0)   197.0 :    22.0 , 1993/04/17 (0.05999999865889549)
+(    4.0,     4.0)-(  123.0,    35.0)   119.0 :    31.0 RESORT (0.8299999833106995)
+======================
+==== Merged lines ====
+(  294.0,   154.0)-(  801.0,   189.0)   507.0 :    28.0 REPUBLIC OF THE PHILIPPINES ()
+(  385.0,   175.0)-(  699.0,   210.0)   314.0 :    31.0 UNIFIED MULTI-PURPOSE ID ()
+(  592.0,   261.0)-(  643.0,   285.0)    51.0 :    23.0 CRN (0.9200000166893005)
+(  650.0,   250.0)-(  910.0,   282.0)   260.0 :    32.0 0111-6184420-7 ()
+(  441.0,   315.0)-(  517.0,   333.0)    76.0 :    18.0 SURNAME ()
+(  440.0,   328.0)-(  626.0,   358.0)   186.0 :    30.0 FRIGILLANA ()
+(  441.0,   365.0)-(  535.0,   381.0)    94.0 :    16.0 GIVEN NAME ()
+(  440.0,   378.0)-(  676.0,   413.0)   236.0 :    35.0 MARIE ANGELI ()
+(  439.0,   443.0)-(  499.0,   463.0)    60.0 :    20.0 MMDDLE ()
+(  438.0,   460.0)-(  572.0,   490.0)   134.0 :    30.0 FAJARDO ()
+(  514.0,   499.0)-(  632.0,   521.0)   118.0 :    19.0 DATE OF BIRTH ()
+(  632.0,   488.0)-(  824.0,   520.0)   192.0 :    32.0 1991/04/17 ()
+(  650.0,   524.0)-(  884.0,   562.0)   234.0 :    38.0 SI BF RESORT ()
+(  429.0,   515.0)-(  665.0,   607.0)   236.0 :    92.0 PISKI 8#40862 ()
+(  634.0,   568.0)-(  694.0,   600.0)    60.0 :    32.0 NCR ()
+(  685.0,   541.0)-(  909.0,   603.0)   224.0 :    62.0 APAN RSTOLAS ()
+======================
+ExtractFieldsFromReadResultOfPHUMID start...
+ExtractFieldsFromReadResultOfPHUMID (0.0669213 sec)
+
+scanPHUMIDResult.Success: True
+scanPHUMIDResult.Error:
+scanPHUMIDResult.lastNameOrFullName: FRIGILLANA
+scanPHUMIDResult.firstName: MARIE ANGELI
+scanPHUMIDResult.middleName: FAJARDO
+scanPHUMIDResult.documentNumber: 0111-6184420-7
+scanPHUMIDResult.nationality: PH
+scanPHUMIDResult.documentIssueDate:
+scanPHUMIDResult.documentExpirationDate:
+scanPHUMIDResult.addressLine1: SI BF RESORT
+scanPHUMIDResult.addressLine2:
+scanPHUMIDResult.postcode:
+scanPHUMIDResult.gender:
+scanPHUMIDResult.dateOfBirth: 1991-04-17
+
+[1]
+  Scanned Data: dateOfBirth: 1991-04-17
+  Expected    : dateOfBirth: 1991/04/17
+
+[2]
+  Scanned Data: documentNumber: 0111-6184420-7
+  Expected    : documentNumber: 0111-8184420-7
+
+[3]
+  Scanned Data: addressLine1: SI BF RESORT
+  Expected    : addressLine1: 36 E. KALAW ST BF RESORT
+
+[4]
+  Scanned Data: addressLine2:
+  Expected    : addressLine2: VISTA GRANDE TALON DOS LAS CITY NCR PHL
+
+[5]
+  Scanned Data: postcode:
+  Expected    : postcode: 1740
+
+[6]
+  Scanned Data: gender:
+  Expected    : gender: F
+ --> IsValid: False
+Try another OCR...
+ScanPHUMID imageFileName: F:\WORK\Dev\huggingface\work\ConsoleApp1\test1\bin\Debug\net8.0\testdata\CRN-0111-8184420-7_Test2.jpg
+Dlib DetectFace start...
+(0.3235919 sec)
+
+PostOCRWithRegionRequest start...
+PostOCRWithRegionRequest PostAsync start...
+PostOCRWithRegionRequest PostAsync (12.9493058 sec)
+
+(12.9566659 sec)
+
+(  265.6,   151.6)-(  749.4,   178.8)   483.8 :    27.2 REPUBLIC OF THE PHILIPPINES ()
+(  122.0,   163.3)-(  232.8,   204.1)   110.9 :    40.8 REPUBLICA NG PIRANIMA ()
+(  366.4,   181.1)-(  648.6,   207.5)   282.2 :    26.5 UNITED MULTI-PURPOSE ID ()
+(  586.2,   252.9)-(  905.7,   278.2)   319.5 :    25.3 CRN - 0111-8144420-7 ()
+(  439.0,   314.9)-(  514.6,   330.8)    75.6 :    15.9 SURNAME ()
+(  441.0,   330.8)-(  622.4,   354.9)   181.4 :    24.2 FRIGILLANA ()
+(  441.0,   365.5)-(  532.7,   380.6)    91.7 :    15.1 GIVEN NAME ()
+(  441.0,   380.6)-(  661.8,   405.6)   220.8 :    24.9 MARIE ANGELI ()
+(  439.0,   445.7)-(  542.8,   460.8)   103.8 :    15.1 MIDDLE NAME ()
+(  439.0,   462.3)-(  569.0,   485.7)   130.0 :    23.4 FAJARDO ()
+(  438.0,   493.3)-(  513.6,   512.2)    75.6 :    18.9 SEX F ()
+(  512.6,   492.9)-(  820.0,   516.0)   307.4 :    23.1 DATE OF BIRTH 1991/04/17 ()
+(  438.0,   515.2)-(  513.6,   530.3)    75.6 :    15.1 ADDRESS ()
+(  439.0,   526.6)-(  865.4,   551.5)   426.4 :    24.9 36 E. KALAW ST BF RESORT ()
+(  438.0,   548.5)-(  902.7,   574.2)   464.7 :    25.7 VISTA GRANDE TALON DOS, LAS ()
+(  438.0,   568.9)-(  851.3,   596.9)   413.3 :    28.0 PINAS CITY NCR PHIL 1740 ()
+======================
+==== Lines read by Tesseract ====
+======================
+==== Merged lines ====
+(  265.6,   151.6)-(  749.4,   178.8)   483.8 :    27.2 REPUBLIC OF THE PHILIPPINES ()
+(  122.0,   163.3)-(  232.8,   204.1)   110.9 :    40.8 REPUBLICA NG PIRANIMA ()
+(  366.4,   181.1)-(  648.6,   207.5)   282.2 :    26.5 UNITED MULTI-PURPOSE ID ()
+(  586.2,   252.9)-(  905.7,   278.2)   319.5 :    25.3 CRN - 0111-8144420-7 ()
+(  439.0,   314.9)-(  514.6,   330.8)    75.6 :    15.9 SURNAME ()
+(  441.0,   330.8)-(  622.4,   354.9)   181.4 :    24.2 FRIGILLANA ()
+(  441.0,   365.5)-(  532.7,   380.6)    91.7 :    15.1 GIVEN NAME ()
+(  441.0,   380.6)-(  661.8,   405.6)   220.8 :    24.9 MARIE ANGELI ()
+(  439.0,   445.7)-(  542.8,   460.8)   103.8 :    15.1 MIDDLE NAME ()
+(  439.0,   462.3)-(  569.0,   485.7)   130.0 :    23.4 FAJARDO ()
+(  438.0,   493.3)-(  513.6,   512.2)    75.6 :    18.9 SEX F ()
+(  512.6,   492.9)-(  820.0,   516.0)   307.4 :    23.1 DATE OF BIRTH 1991/04/17 ()
+(  438.0,   515.2)-(  513.6,   530.3)    75.6 :    15.1 ADDRESS ()
+(  439.0,   526.6)-(  865.4,   551.5)   426.4 :    24.9 36 E. KALAW ST BF RESORT ()
+(  438.0,   548.5)-(  902.7,   574.2)   464.7 :    25.7 VISTA GRANDE TALON DOS, LAS ()
+(  438.0,   568.9)-(  851.3,   596.9)   413.3 :    28.0 PINAS CITY NCR PHIL 1740 ()
+======================
+ExtractFieldsFromReadResultOfPHUMID start...
+ExtractFieldsFromReadResultOfPHUMID (0.0793623 sec)
+
+scanPHUMIDResult.Success: True
+scanPHUMIDResult.Error:
+scanPHUMIDResult.lastNameOrFullName: FRIGILLANA
+scanPHUMIDResult.firstName: MARIE ANGELI
+scanPHUMIDResult.middleName: FAJARDO
+scanPHUMIDResult.documentNumber: 0111-8144420-7
+scanPHUMIDResult.nationality: PH
+scanPHUMIDResult.documentIssueDate:
+scanPHUMIDResult.documentExpirationDate:
+scanPHUMIDResult.addressLine1: 36 E. KALAW ST BF RESORT VISTA GRANDE TALON DOS, LAS
+scanPHUMIDResult.addressLine2: PINAS CITY NCR PHIL
+scanPHUMIDResult.postcode: 1740
+scanPHUMIDResult.gender: F
+scanPHUMIDResult.dateOfBirth: 1991-04-17
+
+[1]
+  Scanned Data: dateOfBirth: 1991-04-17
+  Expected    : dateOfBirth: 1991/04/17
+
+[2]
+  Scanned Data: documentNumber: 0111-8144420-7
+  Expected    : documentNumber: 0111-8184420-7
+
+[3]
+  Scanned Data: addressLine1: 36 E. KALAW ST BF RESORT VISTA GRANDE TALON DOS, LAS
+  Expected    : addressLine1: 36 E. KALAW ST BF RESORT
+
+[4]
+  Scanned Data: addressLine2: PINAS CITY NCR PHIL
+  Expected    : addressLine2: VISTA GRANDE TALON DOS LAS CITY NCR PHL
+ --> IsValid: False
+ScanPHUMID imageFileName: F:\WORK\Dev\huggingface\work\ConsoleApp1\test1\bin\Debug\net8.0\testdata\CRN-0111-2588996-9_Test1.jpg
+Dlib DetectFace start...
+(0.6044172 sec)
+
+PostOCRWithRegionRequest start...
+PostOCRWithRegionRequest PostAsync start...
+PostOCRWithRegionRequest PostAsync (8.2357937 sec)
+
+(8.2413097 sec)
+
+(  323.0,   251.0)-(  382.0,   288.0)    59.0 :    37.0 NG ()
+(  517.0,   293.0)-(  837.0,   355.0)   320.0 :    62.0 REPUBLIC ()
+(  853.0,   294.0)-( 1515.0,   359.0)   662.0 :    65.0 OF THE PHILIPPINES ()
+(  720.0,   349.0)-( 1306.0,   426.0)   586.0 :    77.0 UNIFIED MULTI-PURPOSE ID ()
+( 1193.0,   499.0)-( 1301.0,   543.0)   108.0 :    44.0 CRN ()
+( 1334.0,   493.0)-( 1844.0,   553.0)   510.0 :    60.0 0111-2588996-9 ()
+(  202.0,   586.0)-(  352.0,   616.0)   150.0 :    30.0 SURNAME ()
+(  451.0,   567.0)-(  833.0,   627.0)   382.0 :    60.0 ALVERIO III ()
+(  196.0,   699.0)-(  382.0,   732.0)   186.0 :    33.0 GIVEN NAME ()
+(  446.0,   684.0)-(  742.0,   740.0)   296.0 :    56.0 MAXIMINO ()
+(  191.0,   815.0)-(  401.0,   851.0)   210.0 :    36.0 MIDDLE NAME ()
+(  440.0,   800.0)-(  922.0,   856.0)   482.0 :    56.0 ESPIRITUSANTO ()
+(  186.0,   934.0)-(  252.0,   966.0)    66.0 :    32.0 SEX ()
+(  435.0,   919.0)-(  589.0,   979.0)   154.0 :    60.0 MALE ()
+(  181.0,   993.0)-(  415.0,  1029.0)   234.0 :    36.0 DATE OF BIRTH ()
+(  434.0,   976.0)-(  809.0,  1040.0)   375.0 :    64.0 1990/03/08 ()
+(  183.0,  1063.0)-(  331.0,  1095.0)   148.0 :    32.0 ADDRESS ()
+(  179.0,  1095.0)-(  293.0,  1155.0)   114.0 :    60.0 BLK ()
+(  330.0,  1100.0)-(  440.0,  1156.0)   110.0 :    56.0 LBA ()
+(  477.0,  1100.0)-(  739.0,  1160.0)   262.0 :    60.0 CAMELLA ()
+(  781.0,  1103.0)-(  893.0,  1163.0)   112.0 :    60.0 AVE ()
+(  962.0,  1101.0)-( 1225.0,  1167.0)   263.0 :    66.0 CAMELLA ()
+( 1263.0,  1111.0)-( 1303.0,  1163.0)    40.0 :    52.0 1 ()
+(  178.0,  1152.0)-(  334.0,  1208.0)   156.0 :    56.0 BRGY _ ()
+(  378.0,  1151.0)-(  567.0,  1215.0)   189.0 :    64.0 CUYAB ()
+(  586.0,  1158.0)-(  704.0,  1214.0)   118.0 :    56.0 SAN ()
+(  723.0,  1157.0)-(  915.0,  1217.0)   192.0 :    60.0 PEDRO ()
+(  939.0,  1157.0)-( 1169.0,  1219.0)   230.0 :    62.0 LAGUNA ()
+( 1190.0,  1164.0)-( 1306.0,  1220.0)   116.0 :    56.0 PHL ()
+(  177.0,  1199.0)-(  327.0,  1259.0)   150.0 :    60.0 4023 ()
+======================
+Estimating resolution as 269
+H
+Before: (  323.0,   251.0)-(  382.0,   288.0)    59.0 :    37.0 NG ()
+After: (  323.0,   251.0)-(  387.0,   291.0)    64.0 :    40.0 NG ()
+Estimating resolution as 533
+REPUBLIC
+Before: (  517.0,   293.0)-(  837.0,   355.0)   320.0 :    62.0 REPUBLIC ()
+After: (  538.0,   306.0)-(  865.0,   361.0)   327.0 :    54.0 REPUBLIC ()
+Estimating resolution as 548
+. OF THE PHILIPPINES
+Before: (  853.0,   294.0)-( 1515.0,   359.0)   662.0 :    65.0 OF THE PHILIPPINES ()
+After: (  853.0,   306.0)-( 1540.0,   367.0)   687.0 :    54.0 OF THE PHILIPPINES ()
+Estimating resolution as 495
+Unified Multi-Purpose ID
+Before: (  720.0,   349.0)-( 1306.0,   426.0)   586.0 :    77.0 UNIFIED MULTI-PURPOSE ID ()
+After: (  757.0,   349.0)-( 1397.0,   417.0)   640.0 :    55.0 UNIFIED MULTI-PURPOSE ID ()
+Estimating resolution as 422
+CRN
+Before: ( 1193.0,   499.0)-( 1301.0,   543.0)   108.0 :    44.0 CRN ()
+After: ( 1203.0,   508.0)-( 1309.0,   550.0)   106.0 :    42.0 CRN (0.9100000262260437)
+Estimating resolution as 510
+-0111-2588996-9
+Estimating resolution as 282
+Empty page!!
+Estimating resolution as 282
+Empty page!!
+Estimating resolution as 505
+ALVERIO III
+Before: (  451.0,   567.0)-(  833.0,   627.0)   382.0 :    60.0 ALVERIO III ()
+After: (  475.0,   579.0)-(  867.0,   632.0)   392.0 :    50.0 ALVERIO III ()
+Estimating resolution as 292
+GIVEN NAME
+Before: (  196.0,   699.0)-(  382.0,   732.0)   186.0 :    33.0 GIVEN NAME ()
+After: (  209.0,   705.0)-(  402.0,   736.0)   193.0 :    28.0 GIVEN NAME ()
+Estimating resolution as 500
+MAXIMINO
+Before: (  446.0,   684.0)-(  742.0,   740.0)   296.0 :    56.0 MAXIMINO ()
+After: (  466.0,   693.0)-(  768.0,   744.0)   302.0 :    49.0 MAXIMINO ()
+Estimating resolution as 300
+MIDDLE NAME
+Before: (  191.0,   815.0)-(  401.0,   851.0)   210.0 :    36.0 MIDDLE NAME ()
+After: (  204.0,   815.0)-(  421.0,   846.0)   217.0 :    29.0 MIDDLE NAME ()
+Estimating resolution as 516
+"ESPIRITUSANTO
+Before: (  440.0,   800.0)-(  922.0,   856.0)   482.0 :    56.0 ESPIRITUSANTO ()
+After: (  446.0,   800.0)-(  944.0,   852.0)   498.0 :    50.0 ESPIRITUSANTO ()
+Estimating resolution as 297
+Empty page!!
+Estimating resolution as 297
+Empty page!!
+Estimating resolution as 525
+MALE
+Before: (  435.0,   919.0)-(  589.0,   979.0)   154.0 :    60.0 MALE ()
+After: (  451.0,   921.0)-(  603.0,   975.0)   152.0 :    51.0 MALE (0.9100000262260437)
+Estimating resolution as 300
+DATE OF BIRTH
+Before: (  181.0,   993.0)-(  415.0,  1029.0)   234.0 :    36.0 DATE OF BIRTH ()
+After: (  197.0,   999.0)-(  437.0,  1031.0)   240.0 :    29.0 DATE OF BIRTH (0.9100000262260437)
+Estimating resolution as 531
+1990/03/08
+Before: (  434.0,   976.0)-(  809.0,  1040.0)   375.0 :    64.0 1990/03/08 ()
+After: (  461.0,   989.0)-(  846.0,  1046.0)   385.0 :    55.0 1990/03/08 ()
+Estimating resolution as 288
+Empty page!!
+Estimating resolution as 288
+Empty page!!
+Estimating resolution as 522
+Bll
+Before: (  179.0,  1095.0)-(  293.0,  1155.0)   114.0 :    60.0 BLK ()
+After: (  192.0,  1107.0)-(  302.0,  1173.0)   110.0 :    66.0 BLK ()
+Estimating resolution as 528
+LEA
+Before: (  330.0,  1100.0)-(  440.0,  1156.0)   110.0 :    56.0 LBA ()
+After: (  341.0,  1109.0)-(  450.0,  1161.0)   109.0 :    51.0 LBA ()
+Estimating resolution as 533
+CAMELLA
+Before: (  477.0,  1100.0)-(  739.0,  1160.0)   262.0 :    60.0 CAMELLA ()
+After: (  498.0,  1112.0)-(  765.0,  1168.0)   267.0 :    53.0 CAMELLA (0.9100000262260437)
+Estimating resolution as 528
+AVE
+Before: (  781.0,  1103.0)-(  893.0,  1163.0)   112.0 :    60.0 AVE ()
+After: (  790.0,  1115.0)-(  894.0,  1169.0)   104.0 :    53.0 AVE (0.9200000166893005)
+Estimating resolution as 536
+CAMELLA
+Estimating resolution as 538
+Empty page!!
+Estimating resolution as 538
+Empty page!!
+Estimating resolution as 525
+Empty page!!
+Estimating resolution as 525
+Empty page!!
+Estimating resolution as 521
+Estimating resolution as 521
+Estimating resolution as 533
+SAN
+Before: (  586.0,  1158.0)-(  704.0,  1214.0)   118.0 :    56.0 SAN ()
+After: (  598.0,  1167.0)-(  711.0,  1219.0)   113.0 :    51.0 SAN ()
+Estimating resolution as 534
+PEDRO
+Before: (  723.0,  1157.0)-(  915.0,  1217.0)   192.0 :    60.0 PEDRO ()
+After: (  740.0,  1168.0)-(  933.0,  1223.0)   193.0 :    53.0 PEDRO ()
+Estimating resolution as 536
+Detected 1 diacritics
+LAGUNA
+Before: (  939.0,  1157.0)-( 1169.0,  1219.0)   230.0 :    62.0 LAGUNA ()
+After: (  957.0,  1171.0)-( 1188.0,  1229.0)   231.0 :    56.0 LAGUNA (0.9100000262260437)
+Estimating resolution as 534
+PHL
+Before: ( 1190.0,  1164.0)-( 1306.0,  1220.0)   116.0 :    56.0 PHL ()
+After: ( 1202.0,  1172.0)-( 1315.0,  1223.0)   113.0 :    50.0 PHL (0.9100000262260437)
+Estimating resolution as 525
+Estimating resolution as 525
+==== Lines read by Tesseract ====
+(    0.0,     0.0)-(   64.0,    40.0)    64.0 :    40.0 H (0.8500000238418579)
+(   21.0,    13.0)-(  327.0,    55.0)   306.0 :    41.0 REPUBLIC (0.8899999856948853)
+(    0.0,    12.0)-(  687.0,    61.0)   687.0 :    42.0 . OF THE PHILIPPINES (0.7900000214576721)
+(   37.0,     0.0)-(  640.0,    68.0)   603.0 :    55.0 Unified Multi-Purpose ID (0.8299999833106995)
+(   10.0,     9.0)-(  106.0,    42.0)    96.0 :    33.0 CRN (0.9100000262260437)
+(    4.0,    12.0)-(  529.0,    66.0)   525.0 :    39.0 -0111-2588996-9 (0.4699999988079071)
+(   24.0,    12.0)-(  392.0,    53.0)   368.0 :    38.0 ALVERIO III (0.8799999952316284)
+(   13.0,     6.0)-(  193.0,    31.0)   180.0 :    22.0 GIVEN NAME (0.8999999761581421)
+(   20.0,     9.0)-(  302.0,    51.0)   282.0 :    40.0 MAXIMINO (0.8700000047683716)
+(   13.0,     0.0)-(  217.0,    31.0)   204.0 :    29.0 MIDDLE NAME (0.8899999856948853)
+(    6.0,     0.0)-(  498.0,    52.0)   492.0 :    50.0 "ESPIRITUSANTO (0.7799999713897705)
+(   16.0,     2.0)-(  152.0,    54.0)   136.0 :    49.0 MALE (0.9100000262260437)
+(   16.0,     6.0)-(  240.0,    32.0)   224.0 :    23.0 DATE OF BIRTH (0.9100000262260437)
+(   27.0,    13.0)-(  385.0,    57.0)   358.0 :    42.0 1990/03/08 (0.75)
+(   13.0,    12.0)-(  110.0,    66.0)    97.0 :    54.0 Bll (0.8999999761581421)
+(   11.0,     9.0)-(  109.0,    52.0)    98.0 :    42.0 LEA (0.8399999737739563)
+(   21.0,    12.0)-(  267.0,    56.0)   246.0 :    41.0 CAMELLA (0.9100000262260437)
+(    9.0,    12.0)-(  104.0,    54.0)    95.0 :    41.0 AVE (0.9200000166893005)
+(    0.0,    15.0)-(  269.0,    73.0)   269.0 :    58.0 CAMELLA (0.4000000059604645)
+(   12.0,     9.0)-(  113.0,    52.0)   101.0 :    42.0 SAN (0.8899999856948853)
+(   17.0,    11.0)-(  193.0,    55.0)   176.0 :    42.0 PEDRO (0.8600000143051147)
+(   18.0,    14.0)-(  231.0,    58.0)   213.0 :    42.0 LAGUNA (0.9100000262260437)
+(   12.0,     8.0)-(  113.0,    51.0)   101.0 :    42.0 PHL (0.9100000262260437)
+======================
+==== Merged lines ====
+(  323.0,   251.0)-(  387.0,   291.0)    64.0 :    40.0 NG ()
+(  538.0,   306.0)-(  865.0,   361.0)   327.0 :    54.0 REPUBLIC ()
+(  853.0,   306.0)-( 1540.0,   367.0)   687.0 :    54.0 OF THE PHILIPPINES ()
+(  757.0,   349.0)-( 1397.0,   417.0)   640.0 :    55.0 UNIFIED MULTI-PURPOSE ID ()
+( 1203.0,   493.0)-( 1844.0,   553.0)   641.0 :    60.0 CRN 0111-2588996-9 ()
+(  202.0,   579.0)-(  867.0,   632.0)   665.0 :    53.0 SURNAME        ALVERIO III ()
+(  209.0,   693.0)-(  768.0,   744.0)   559.0 :    51.0 GIVEN NAME    MAXIMINO ()
+(  204.0,   800.0)-(  944.0,   852.0)   740.0 :    52.0 MIDDLE NAME ESPIRITUSANTO ()
+(  186.0,   921.0)-(  603.0,   975.0)   417.0 :    54.0 SEX            MALE ()
+(  197.0,   989.0)-(  846.0,  1046.0)   649.0 :    57.0 DATE OF BIRTH 1990/03/08 ()
+(  183.0,  1063.0)-(  331.0,  1095.0)   148.0 :    32.0 ADDRESS ()
+(  192.0,  1101.0)-( 1303.0,  1173.0)  1111.0 :    72.0 BLK LBA CAMELLA AVE  CAMELLA 1 ()
+(  178.0,  1151.0)-( 1315.0,  1229.0)  1137.0 :    78.0 BRGY _ CUYAB SAN PEDRO LAGUNA PHL ()
+(  177.0,  1199.0)-(  327.0,  1259.0)   150.0 :    60.0 4023 ()
+======================
+ExtractFieldsFromReadResultOfPHUMID start...
+ExtractFieldsFromReadResultOfPHUMID (0.0692154 sec)
+
+scanPHUMIDResult.Success: True
+scanPHUMIDResult.Error:
+scanPHUMIDResult.lastNameOrFullName: ALVERIO III
+scanPHUMIDResult.firstName: MAXIMINO
+scanPHUMIDResult.middleName: ESPIRITUSANTO
+scanPHUMIDResult.documentNumber: 0111-2588996-9
+scanPHUMIDResult.nationality: PH
+scanPHUMIDResult.documentIssueDate:
+scanPHUMIDResult.documentExpirationDate:
+scanPHUMIDResult.addressLine1: BLK LBA CAMELLA AVE  CAMELLA 1
+scanPHUMIDResult.addressLine2: BRGY _ CUYAB SAN PEDRO LAGUNA PHL
+scanPHUMIDResult.postcode: 4023
+scanPHUMIDResult.gender: M
+scanPHUMIDResult.dateOfBirth: 1990-03-08
+
+[1]
+  Scanned Data: documentNumber: 0111-2588996-9
+  Expected    : documentNumber: CRN- 0111-2588996-9
+
+[2]
+  Scanned Data: addressLine1: BLK LBA CAMELLA AVE  CAMELLA 1
+  Expected    : addressLine1: B11 LLA CAMELLA AVE. CAMELLA 1 BRGY. CUYAB SAN PEDRO LAGUNA PHL
+
+[3]
+  Scanned Data: addressLine2: BRGY _ CUYAB SAN PEDRO LAGUNA PHL
+  Expected    : addressLine2:
+ --> IsValid: False
+Try another OCR...
+ScanPHUMID imageFileName: F:\WORK\Dev\huggingface\work\ConsoleApp1\test1\bin\Debug\net8.0\testdata\CRN-0111-2588996-9_Test1.jpg
+Dlib DetectFace start...
+(0.6503258 sec)
+
+PostOCRWithRegionRequest start...
+PostOCRWithRegionRequest PostAsync start...
+PostOCRWithRegionRequest PostAsync (13.7003603 sec)
+
+(13.7072957 sec)
+
+(  521.1,   300.1)-( 1523.1,   355.3)  1002.0 :    55.2 REPUBLIC OF THE PHILIPPINES ()
+( 1604.7,   337.9)-( 1606.8,   337.9)     2.0 :     0.0 UNITED ()
+(  449.6,   368.2)-(  449.6,   368.2)     0.0 :     0.0 UNITED ()
+(  728.8,   359.9)-( 1311.4,   415.0)   582.6 :    55.2 UNIFIED MULTI-PURPOSE ID ()
+(  261.1,   340.2)-(  284.3,   346.2)    23.2 :     6.0 ERPUBLIKA NG ()
+( 1202.5,   502.7)-( 1853.7,   551.1)   651.2 :    48.4 CRN - 0111-2588896-9 ()
+(  202.6,   590.4)-(  353.8,   620.7)   151.2 :    30.2 SURNAME ()
+(  454.6,   576.8)-(  833.6,   626.7)   379.0 :    49.9 ALVERIO III ()
+(  196.6,   705.3)-(  386.1,   737.1)   189.5 :    31.8 GIVEN NAME ()
+(  448.6,   691.7)-(  740.9,   741.6)   292.3 :    49.9 MAXIMINO ()
+(  190.5,   811.2)-(  922.3,   861.1)   731.8 :    49.9 MIDDLE NAME ESPIRITUSANTO ()
+(  186.5,   941.2)-(  249.0,   971.5)    62.5 :    30.2 SEX ()
+(  438.5,   932.1)-(  587.7,   979.0)   149.2 :    46.9 MALE ()
+(  182.4,   992.6)-(  809.4,  1042.5)   627.0 :    49.9 DATE OF BIRTH 1990/03/08 ()
+(  182.4,  1072.8)-(  331.6,  1104.5)   149.2 :    31.8 ADDRESS ()
+(  182.4,  1114.3)-( 1313.4,  1168.0)  1131.0 :    53.7 BILL LGA CAMELLA AVE. CAMELLA 1 ()
+(  182.4,  1168.8)-( 1311.4,  1221.7)  1129.0 :    52.9 BRGY. CUYAB SAN PEDRO LAGUNA PHL ()
+(  181.4,  1216.4)-(  323.6,  1263.3)   142.1 :    46.9 4023 ()
+======================
+==== Lines read by Tesseract ====
+======================
+==== Merged lines ====
+(  521.1,   300.1)-( 1523.1,   355.3)  1002.0 :    55.2 REPUBLIC OF THE PHILIPPINES ()
+( 1604.7,   337.9)-( 1606.8,   337.9)     2.0 :     0.0 UNITED ()
+(  449.6,   368.2)-(  449.6,   368.2)     0.0 :     0.0 UNITED ()
+(  728.8,   359.9)-( 1311.4,   415.0)   582.6 :    55.2 UNIFIED MULTI-PURPOSE ID ()
+(  261.1,   340.2)-(  284.3,   346.2)    23.2 :     6.0 ERPUBLIKA NG ()
+( 1202.5,   502.7)-( 1853.7,   551.1)   651.2 :    48.4 CRN - 0111-2588896-9 ()
+(  202.6,   583.6)-(  833.6,   623.7)   631.0 :    40.1 SURNAME      ALVERIO III ()
+(  196.6,   698.5)-(  740.9,   739.4)   544.3 :    40.8 GIVEN NAME   MAXIMINO ()
+(  190.5,   811.2)-(  922.3,   861.1)   731.8 :    49.9 MIDDLE NAME ESPIRITUSANTO ()
+(  186.5,   936.7)-(  587.7,   975.2)   401.2 :    38.6 SEX            MALE ()
+(  182.4,   992.6)-(  809.4,  1042.5)   627.0 :    49.9 DATE OF BIRTH 1990/03/08 ()
+(  182.4,  1072.8)-(  331.6,  1104.5)   149.2 :    31.8 ADDRESS ()
+(  182.4,  1114.3)-( 1313.4,  1168.0)  1131.0 :    53.7 BILL LGA CAMELLA AVE. CAMELLA 1 ()
+(  182.4,  1168.8)-( 1311.4,  1221.7)  1129.0 :    52.9 BRGY. CUYAB SAN PEDRO LAGUNA PHL ()
+(  181.4,  1216.4)-(  323.6,  1263.3)   142.1 :    46.9 4023 ()
+======================
+ExtractFieldsFromReadResultOfPHUMID start...
+ExtractFieldsFromReadResultOfPHUMID (0.0630206 sec)
+
+scanPHUMIDResult.Success: True
+scanPHUMIDResult.Error:
+scanPHUMIDResult.lastNameOrFullName: ALVERIO III
+scanPHUMIDResult.firstName: MAXIMINO
+scanPHUMIDResult.middleName: ESPIRITUSANTO
+scanPHUMIDResult.documentNumber: 0111-2588896-9
+scanPHUMIDResult.nationality: PH
+scanPHUMIDResult.documentIssueDate:
+scanPHUMIDResult.documentExpirationDate:
+scanPHUMIDResult.addressLine1: BILL LGA CAMELLA AVE. CAMELLA 1
+scanPHUMIDResult.addressLine2: BRGY. CUYAB SAN PEDRO LAGUNA PHL
+scanPHUMIDResult.postcode: 4023
+scanPHUMIDResult.gender:
+scanPHUMIDResult.dateOfBirth: 1990-03-08
+
+[1]
+  Scanned Data: documentNumber: 0111-2588896-9
+  Expected    : documentNumber: CRN- 0111-2588996-9
+
+[2]
+  Scanned Data: addressLine1: BILL LGA CAMELLA AVE. CAMELLA 1
+  Expected    : addressLine1: B11 LLA CAMELLA AVE. CAMELLA 1 BRGY. CUYAB SAN PEDRO LAGUNA PHL
+
+[3]
+  Scanned Data: addressLine2: BRGY. CUYAB SAN PEDRO LAGUNA PHL
+  Expected    : addressLine2:
+
+[4]
+  Scanned Data: gender:
+  Expected    : gender: M
+ --> IsValid: False
+ScanPHUMID imageFileName: F:\WORK\Dev\huggingface\work\ConsoleApp1\test1\bin\Debug\net8.0\testdata\CRN-0111-2588996-9_Test2.jpg
+Dlib DetectFace start...
+(0.3392917 sec)
+
+PostOCRWithRegionRequest start...
+PostOCRWithRegionRequest PostAsync start...
+PostOCRWithRegionRequest PostAsync (3.1072606 sec)
+
+(3.11058 sec)
+
+(  259.0,   145.0)-(  765.0,   183.0)   506.0 :    38.0 REPUBLIC OF THE PHILIPPINES ()
+(  793.0,   127.0)-(  813.0,   207.0)    20.0 :    80.0 9 ()
+(  361.0,   176.0)-(  661.0,   216.0)   300.0 :    40.0 UNIFIED MULTI-PURPOSE ID ()
+(  600.0,   250.0)-(  656.0,   276.0)    56.0 :    26.0 CRN ()
+(  671.0,   248.0)-(  931.0,   280.0)   260.0 :    32.0 0111-2588996-9 ()
+(  101.0,   293.0)-(  177.0,   311.0)    76.0 :    18.0 SURNAME ()
+(  226.0,   286.0)-(  420.0,   316.0)   194.0 :    30.0 ALVERIO III ()
+(   99.0,   351.0)-(  193.0,   369.0)    94.0 :    18.0 GIVEN NAME ()
+(  224.0,   344.0)-(  376.0,   374.0)   152.0 :    30.0 MAXIMINO ()
+(   95.0,   409.0)-(  201.0,   429.0)   106.0 :    20.0 MIDDLE NAME ()
+(  222.0,   402.0)-(  466.0,   434.0)   244.0 :    32.0 ESPIRITUSANTO ()
+(   91.0,   469.0)-(  127.0,   487.0)    36.0 :    18.0 SEX ()
+(  220.0,   464.0)-(  298.0,   494.0)    78.0 :    30.0 MALE ()
+(   91.0,   499.0)-(  209.0,   519.0)   118.0 :    20.0 DATE OF BIRTH ()
+(  218.0,   492.0)-(  408.0,   524.0)   190.0 :    32.0 1990/03/08 ()
+(   91.0,   533.0)-(  167.0,   553.0)    76.0 :    20.0 ADDRESS ()
+(   90.0,   552.0)-(  148.0,   584.0)    58.0 :    32.0 BLL ()
+(  164.0,   554.0)-(  224.0,   584.0)    60.0 :    30.0 LGA ()
+(  238.0,   551.0)-(  373.0,   589.0)   135.0 :    38.0 CAMELLA ()
+(  392.0,   556.0)-(  450.0,   588.0)    58.0 :    32.0 AVE ()
+(  484.0,   555.0)-(  618.0,   587.0)   134.0 :    32.0 CAMELLA ()
+(   88.0,   576.0)-(  169.0,   612.0)    81.0 :    36.0 BRGY _ ()
+(  189.0,   579.0)-(  463.0,   615.0)   274.0 :    36.0 CUYAB SAN PEDRO ()
+(  472.0,   584.0)-(  660.0,   616.0)   188.0 :    32.0 LAGUNA PHL ()
+(   88.0,   604.0)-(  166.0,   636.0)    78.0 :    32.0 4023 ()
+======================
+Estimating resolution as 279
+REPUBLIC OF THE PHILIPPINES
+Before: (  259.0,   145.0)-(  765.0,   183.0)   506.0 :    38.0 REPUBLIC OF THE PHILIPPINES ()
+After: (  289.0,   154.0)-(  815.0,   195.0)   526.0 :    30.0 REPUBLIC OF THE PHILIPPINES ()
+Estimating resolution as 250
+Empty page!!
+Estimating resolution as 250
+Empty page!!
+Estimating resolution as 254
+Unified Multi-Purposéilb {
+Estimating resolution as 216
+CRN
+Before: (  600.0,   250.0)-(  656.0,   276.0)    56.0 :    26.0 CRN ()
+After: (  607.0,   256.0)-(  662.0,   279.0)    55.0 :    23.0 CRN (0.9300000071525574)
+Estimating resolution as 260
+-0111-2588996-9
+Estimating resolution as 147
+SURNAME
+Before: (  101.0,   293.0)-(  177.0,   311.0)    76.0 :    18.0 SURNAME ()
+After: (  107.0,   298.0)-(  185.0,   314.0)    78.0 :    16.0 SURNAME ()
+Estimating resolution as 260
+ALVERIO III
+Before: (  226.0,   286.0)-(  420.0,   316.0)   194.0 :    30.0 ALVERIO III ()
+After: (  239.0,   292.0)-(  438.0,   319.0)   199.0 :    26.0 ALVERIO III ()
+Estimating resolution as 156
+Empty page!!
+Estimating resolution as 156
+Empty page!!
+Estimating resolution as 260
+Empty page!!
+Estimating resolution as 260
+Empty page!!
+Estimating resolution as 169
+Empty page!!
+Estimating resolution as 169
+Empty page!!
+Estimating resolution as 261
+"ESPIRITUSANTO
+Before: (  222.0,   402.0)-(  466.0,   434.0)   244.0 :    32.0 ESPIRITUSANTO ()
+After: (  225.0,   402.0)-(  476.0,   430.0)   251.0 :    27.0 ESPIRITUSANTO ()
+Estimating resolution as 163
+Empty page!!
+Estimating resolution as 163
+Empty page!!
+Estimating resolution as 263
+Empty page!!
+Estimating resolution as 263
+Empty page!!
+Estimating resolution as 163
+Empty page!!
+Estimating resolution as 163
+Empty page!!
+Estimating resolution as 272
+1990/03/08
+Before: (  218.0,   492.0)-(  408.0,   524.0)   190.0 :    32.0 1990/03/08 ()
+After: (  233.0,   499.0)-(  428.0,   528.0)   195.0 :    28.0 1990/03/08 ()
+Estimating resolution as 153
+Empty page!!
+Estimating resolution as 153
+Empty page!!
+Estimating resolution as 272
+Error in boxClipToRectangle: box outside rectangle
+Error in pixScanForForeground: invalid box
+L
+Estimating resolution as 270
+LEA
+Estimating resolution as 273
+CAMELLA
+Estimating resolution as 278
+AVE
+Before: (  392.0,   556.0)-(  450.0,   588.0)    58.0 :    32.0 AVE ()
+After: (  392.0,   562.0)-(  454.0,   597.0)    62.0 :    35.0 AVE (0.9100000262260437)
+Estimating resolution as 272
+CAMELLA
+Before: (  484.0,   555.0)-(  618.0,   587.0)   134.0 :    32.0 CAMELLA ()
+After: (  495.0,   563.0)-(  631.0,   593.0)   136.0 :    29.0 CAMELLA (0.9100000262260437)
+Estimating resolution as 270
+00 |
+) 20 |
+131
+| <<
+Estimating resolution as 271
+" CUYAB SAN PEDRO
+Estimating resolution as 273
+LAGUNA PHL |
+Before: (  472.0,   584.0)-(  660.0,   616.0)   188.0 :    32.0 LAGUNA PHL ()
+After: (  487.0,   584.0)-(  694.0,   619.0)   207.0 :    27.0 LAGUNA PHL | (0.9200000166893005)
+Estimating resolution as 269
+Estimating resolution as 269
+==== Lines read by Tesseract ====
+(   30.0,     9.0)-(  526.0,    41.0)   496.0 :    21.0 REPUBLIC OF THE PHILIPPINES (0.8999999761581421)
+(   22.0,     0.0)-(  325.0,    38.0)   303.0 :    28.0 Unified Multi-Purposéilb { (0.38999998569488525)
+(    7.0,     6.0)-(   55.0,    23.0)    48.0 :    17.0 CRN (0.9300000071525574)
+(    3.0,     7.0)-(  268.0,    35.0)   265.0 :    20.0 -0111-2588996-9 (0.20999999344348907)
+(    6.0,     5.0)-(   78.0,    16.0)    72.0 :    11.0 SURNAME (0.8600000143051147)
+(   13.0,     6.0)-(  199.0,    27.0)   186.0 :    20.0 ALVERIO III (0.8199999928474426)
+(    3.0,     0.0)-(  251.0,    28.0)   248.0 :    27.0 "ESPIRITUSANTO (0.5699999928474426)
+(   15.0,     7.0)-(  195.0,    29.0)   180.0 :    21.0 1990/03/08 (0.75)
+(   44.0,     7.0)-(   56.0,    35.0)    12.0 :    28.0 L (0.47999998927116394)
+(    8.0,     6.0)-(   57.0,    27.0)    49.0 :    21.0 LEA (0.3400000035762787)
+(    0.0,    10.0)-(  148.0,    41.0)   148.0 :    31.0 CAMELLA (0.3400000035762787)
+(    0.0,     6.0)-(   62.0,    35.0)    62.0 :    29.0 AVE (0.9100000262260437)
+(   11.0,     8.0)-(  136.0,    30.0)   125.0 :    21.0 CAMELLA (0.9100000262260437)
+(   10.0,     0.0)-(   23.0,    39.0)    13.0 :    39.0 00 | (0.6899999976158142)
+(   28.0,     0.0)-(   41.0,    39.0)    13.0 :    39.0 ) 20 | (0.6899999976158142)
+(   46.0,     0.0)-(   60.0,    39.0)    14.0 :    39.0 131 (0.6899999976158142)
+(   65.0,    10.0)-(   77.0,    39.0)    12.0 :    29.0 | << (0.6899999976158142)
+(    0.0,     0.0)-(  283.0,    32.0)   283.0 :    29.0 " CUYAB SAN PEDRO (0.4699999988079071)
+(   15.0,     0.0)-(  207.0,    35.0)   192.0 :    27.0 LAGUNA PHL | (0.9200000166893005)
+======================
+==== Merged lines ====
+(  289.0,   154.0)-(  815.0,   195.0)   526.0 :    30.0 REPUBLIC OF THE PHILIPPINES ()
+(  793.0,   127.0)-(  813.0,   207.0)    20.0 :    80.0 9 ()
+(  361.0,   176.0)-(  661.0,   216.0)   300.0 :    40.0 UNIFIED MULTI-PURPOSE ID ()
+(  607.0,   248.0)-(  931.0,   280.0)   324.0 :    32.0 CRN 0111-2588996-9 ()
+(  107.0,   292.0)-(  438.0,   319.0)   331.0 :    27.0 SURNAME      ALVERIO III ()
+(   99.0,   344.0)-(  376.0,   374.0)   277.0 :    30.0 GIVEN NAME   MAXIMINO ()
+(   95.0,   402.0)-(  476.0,   430.0)   381.0 :    28.0 MIDDLE NAME  ESPIRITUSANTO ()
+(   91.0,   464.0)-(  298.0,   494.0)   207.0 :    30.0 SEX          MALE ()
+(   91.0,   499.0)-(  428.0,   528.0)   337.0 :    29.0 DATE OF BIRTH  1990/03/08 ()
+(   91.0,   533.0)-(  167.0,   553.0)    76.0 :    20.0 ADDRESS ()
+(   90.0,   551.0)-(  631.0,   597.0)   541.0 :    46.0 BLL LGA CAMELLA AVE CAMELLA ()
+(   88.0,   576.0)-(  694.0,   619.0)   606.0 :    43.0 BRGY _ CUYAB SAN PEDRO LAGUNA PHL | ()
+(   88.0,   604.0)-(  166.0,   636.0)    78.0 :    32.0 4023 ()
+======================
+ExtractFieldsFromReadResultOfPHUMID start...
+ExtractFieldsFromReadResultOfPHUMID (0.0565729 sec)
+
+scanPHUMIDResult.Success: True
+scanPHUMIDResult.Error:
+scanPHUMIDResult.lastNameOrFullName: ALVERIO III
+scanPHUMIDResult.firstName: MAXIMINO
+scanPHUMIDResult.middleName: ESPIRITUSANTO
+scanPHUMIDResult.documentNumber: 0111-2588996-9
+scanPHUMIDResult.nationality: PH
+scanPHUMIDResult.documentIssueDate:
+scanPHUMIDResult.documentExpirationDate:
+scanPHUMIDResult.addressLine1: BLL LGA CAMELLA AVE CAMELLA
+scanPHUMIDResult.addressLine2: BRGY _ CUYAB SAN PEDRO LAGUNA PHL |
+scanPHUMIDResult.postcode: 4023
+scanPHUMIDResult.gender: M
+scanPHUMIDResult.dateOfBirth: 1990-03-08
+
+[1]
+  Scanned Data: documentNumber: 0111-2588996-9
+  Expected    : documentNumber: CRN- 0111-2588996-9
+
+[2]
+  Scanned Data: addressLine1: BLL LGA CAMELLA AVE CAMELLA
+  Expected    : addressLine1: B11 LLA CAMELLA AVE. CAMELLA 1 BRGY. CUYAB SAN PEDRO LAGUNA PHL
+
+[3]
+  Scanned Data: addressLine2: BRGY _ CUYAB SAN PEDRO LAGUNA PHL |
+  Expected    : addressLine2:
+ --> IsValid: False
+Try another OCR...
+ScanPHUMID imageFileName: F:\WORK\Dev\huggingface\work\ConsoleApp1\test1\bin\Debug\net8.0\testdata\CRN-0111-2588996-9_Test2.jpg
+Dlib DetectFace start...
+(0.3442497 sec)
+
+PostOCRWithRegionRequest start...
+PostOCRWithRegionRequest PostAsync start...
+PostOCRWithRegionRequest PostAsync (13.0602074 sec)
+
+(13.0673849 sec)
+
+(  260.6,   149.3)-(  761.5,   177.7)   501.0 :    28.3 REPUBLIC OF THE PHILIPPINES ()
+(  802.4,   169.0)-(  803.4,   169.0)     1.0 :     0.0 UNITED ()
+(  225.3,   170.5)-(  225.3,   170.5)     0.0 :     0.0 UNITED ()
+(  364.4,   179.9)-(  655.7,   207.5)   291.3 :    27.6 UNIFIED MULTI-PURPOSE ID ()
+(  601.3,   250.6)-(  927.9,   275.6)   326.6 :    24.9 CRN - 0111-2588896-9 ()
+(  101.3,   295.2)-(  177.9,   310.3)    76.6 :    15.1 SURNAME ()
+(  228.3,   287.7)-(  417.8,   313.4)   189.5 :    25.7 ALVERIO III ()
+(   99.3,   351.9)-(  194.0,   368.5)    94.8 :    16.6 GIVEN NAME ()
+(  225.3,   345.9)-(  371.4,   370.8)   146.2 :    24.9 MAXIMINO ()
+(   96.3,   405.6)-(  462.2,   430.5)   365.9 :    24.9 MIDDLE NAME ESPIRITUSANTO ()
+(   94.2,   470.6)-(  126.5,   485.7)    32.3 :    15.1 SEX ()
+(  220.2,   465.3)-(  294.8,   489.5)    74.6 :    24.2 MALE ()
+(   92.2,   496.3)-(  405.7,   520.5)   313.5 :    24.2 DATE OF BIRTH 1990/03/08 ()
+(   92.2,   536.4)-(  166.8,   552.3)    74.6 :    15.9 ADDRESS ()
+(   92.2,   556.4)-(  657.7,   583.6)   565.5 :    27.2 BILL LGA CAMELLA AVE. CAMELLIA 1 ()
+(   92.2,   583.6)-(  656.7,   610.8)   564.5 :    27.2 BRGY. CUYAB SAN PEDRO LAGUNA PHL ()
+(   91.7,   607.4)-(  162.8,   631.3)    71.1 :    23.8 4023 ()
+======================
+==== Lines read by Tesseract ====
+======================
+==== Merged lines ====
+(  260.6,   149.3)-(  761.5,   177.7)   501.0 :    28.3 REPUBLIC OF THE PHILIPPINES ()
+(  802.4,   169.0)-(  803.4,   169.0)     1.0 :     0.0 UNITED ()
+(  225.3,   170.5)-(  225.3,   170.5)     0.0 :     0.0 UNITED ()
+(  364.4,   179.9)-(  655.7,   207.5)   291.3 :    27.6 UNIFIED MULTI-PURPOSE ID ()
+(  601.3,   250.6)-(  927.9,   275.6)   326.6 :    24.9 CRN - 0111-2588896-9 ()
+(  101.3,   291.4)-(  417.8,   311.8)   316.5 :    20.4 SURNAME      ALVERIO III ()
+(   99.3,   348.9)-(  371.4,   369.7)   272.2 :    20.8 GIVEN NAME   MAXIMINO ()
+(   96.3,   405.6)-(  462.2,   430.5)   365.9 :    24.9 MIDDLE NAME ESPIRITUSANTO ()
+(   94.2,   468.0)-(  294.8,   487.6)   200.6 :    19.7 SEX            MALE ()
+(   92.2,   496.3)-(  405.7,   520.5)   313.5 :    24.2 DATE OF BIRTH 1990/03/08 ()
+(   92.2,   536.4)-(  166.8,   552.3)    74.6 :    15.9 ADDRESS ()
+(   92.2,   556.4)-(  657.7,   583.6)   565.5 :    27.2 BILL LGA CAMELLA AVE. CAMELLIA 1 ()
+(   92.2,   583.6)-(  656.7,   610.8)   564.5 :    27.2 BRGY. CUYAB SAN PEDRO LAGUNA PHL ()
+(   91.7,   607.4)-(  162.8,   631.3)    71.1 :    23.8 4023 ()
+======================
+ExtractFieldsFromReadResultOfPHUMID start...
+ExtractFieldsFromReadResultOfPHUMID (0.0626884 sec)
+
+scanPHUMIDResult.Success: True
+scanPHUMIDResult.Error:
+scanPHUMIDResult.lastNameOrFullName: ALVERIO III
+scanPHUMIDResult.firstName: MAXIMINO
+scanPHUMIDResult.middleName: ESPIRITUSANTO
+scanPHUMIDResult.documentNumber: 0111-2588896-9
+scanPHUMIDResult.nationality: PH
+scanPHUMIDResult.documentIssueDate:
+scanPHUMIDResult.documentExpirationDate:
+scanPHUMIDResult.addressLine1: BILL LGA CAMELLA AVE. CAMELLIA 1
+scanPHUMIDResult.addressLine2: BRGY. CUYAB SAN PEDRO LAGUNA PHL
+scanPHUMIDResult.postcode: 4023
+scanPHUMIDResult.gender:
+scanPHUMIDResult.dateOfBirth: 1990-03-08
+
+[1]
+  Scanned Data: documentNumber: 0111-2588896-9
+  Expected    : documentNumber: CRN- 0111-2588996-9
+
+[2]
+  Scanned Data: addressLine1: BILL LGA CAMELLA AVE. CAMELLIA 1
+  Expected    : addressLine1: B11 LLA CAMELLA AVE. CAMELLA 1 BRGY. CUYAB SAN PEDRO LAGUNA PHL
+
+[3]
+  Scanned Data: addressLine2: BRGY. CUYAB SAN PEDRO LAGUNA PHL
+  Expected    : addressLine2:
+
+[4]
+  Scanned Data: gender:
+  Expected    : gender: M
+ --> IsValid: False
+ScanPHUMID imageFileName: F:\WORK\Dev\huggingface\work\ConsoleApp1\test1\bin\Debug\net8.0\testdata\CRN-0033-5508686-0_Test1.jpg
+Dlib DetectFace start...
+(0.3232558 sec)
+
+PostOCRWithRegionRequest start...
+PostOCRWithRegionRequest PostAsync start...
+PostOCRWithRegionRequest PostAsync (2.8408697 sec)
+
+(2.8439683 sec)
+
+(  223.0,    45.0)-(  807.0,    85.0)   584.0 :    40.0 REPUBLIC OF THE PHILIPPINES ()
+(  344.0,    80.0)-(  690.0,   128.0)   346.0 :    48.0 UNIFIED MULTI-PURPOSE ID ()
+(  610.0,   180.0)-(  672.0,   208.0)    62.0 :    28.0 CRN ()
+(  688.0,   176.0)-(  994.0,   208.0)   306.0 :    32.0 0033-5508686-0 ()
+(  437.0,   251.0)-(  527.0,   271.0)    90.0 :    20.0 SURNAME ()
+(  438.0,   270.0)-(  590.0,   302.0)   152.0 :    32.0 MIRANDA ()
+(  439.0,   310.0)-(  547.0,   330.0)   108.0 :    20.0 GIVEN NAME ()
+(  440.0,   330.0)-(  590.0,   362.0)   150.0 :    32.0 MICHAEL ()
+(  437.0,   407.0)-(  559.0,   427.0)   122.0 :    20.0 MIDDLE NAME ()
+(  439.0,   425.0)-(  593.0,   461.0)   154.0 :    36.0 DILAGAN ()
+(  437.0,   465.0)-(  475.0,   485.0)    38.0 :    20.0 SEX ()
+(  525.0,   467.0)-(  657.0,   487.0)   132.0 :    20.0 DATE OF BIRT ()
+(  663.0,   455.0)-(  885.0,   491.0)   222.0 :    36.0 1977/04/29 ()
+(  431.0,   477.0)-(  533.0,   563.0)   102.0 :    86.0 PYEY ()
+(  497.0,   495.0)-(  774.0,   563.0)   277.0 :    68.0 INTETZISSFYAE ()
+(  788.0,   500.0)-(  832.0,   532.0)    44.0 :    32.0 ST ()
+(  440.0,   550.0)-(  568.0,   582.0)   128.0 :    32.0 BAGONG ()
+(  574.0,   516.0)-( 1004.0,   614.0)   430.0 :    98.0 "EIEEANS @DETORUE8VY ()
+(  440.0,   576.0)-(  506.0,   608.0)    66.0 :    32.0 NCR ()
+(  519.0,   575.0)-(  587.0,   611.0)    68.0 :    36.0 PHL ()
+======================
+Estimating resolution as 322
+REPUBLIC OF THE PHILIPPINES
+:
+Estimating resolution as 294
+Detected 15 diacritics
+Unified Multi- Purpose D
+Before: (  344.0,    80.0)-(  690.0,   128.0)   346.0 :    48.0 UNIFIED MULTI-PURPOSE ID ()
+After: (  368.0,    91.0)-(  724.0,   132.0)   356.0 :    35.0 UNIFIED MULTI-PURPOSE ID ()
+Estimating resolution as 247
+CRN
+Before: (  610.0,   180.0)-(  672.0,   208.0)    62.0 :    28.0 CRN ()
+After: (  618.0,   186.0)-(  678.0,   211.0)    60.0 :    25.0 CRN ()
+Estimating resolution as 309
+-0033-5508LAL-0
+Estimating resolution as 206
+Empty page!!
+Estimating resolution as 206
+Empty page!!
+Estimating resolution as 303
+MIRANDA
+Before: (  438.0,   270.0)-(  590.0,   302.0)   152.0 :    32.0 MIRANDA ()
+After: (  451.0,   274.0)-(  607.0,   303.0)   156.0 :    28.0 MIRANDA (0.9100000262260437)
+Estimating resolution as 183
+Empty page!!
+Estimating resolution as 183
+Empty page!!
+Estimating resolution as 302
+MICHAEL
+Before: (  440.0,   330.0)-(  590.0,   362.0)   150.0 :    32.0 MICHAEL ()
+After: (  451.0,   335.0)-(  605.0,   365.0)   154.0 :    28.0 MICHAEL ()
+Estimating resolution as 177
+Empty page!!
+Estimating resolution as 177
+Empty page!!
+Estimating resolution as 294
+DILAGAN
+Before: (  439.0,   425.0)-(  593.0,   461.0)   154.0 :    36.0 DILAGAN ()
+After: (  452.0,   425.0)-(  608.0,   455.0)   156.0 :    30.0 DILAGAN (0.9200000166893005)
+Estimating resolution as 169
+Empty page!!
+Estimating resolution as 169
+Empty page!!
+Estimating resolution as 197
+Empty page!!
+Estimating resolution as 197
+Empty page!!
+Estimating resolution as 314
+- 197?7/04/729
+Estimating resolution as 291
+Empty page!!
+Estimating resolution as 291
+Empty page!!
+Estimating resolution as 298
+Empty page!!
+Estimating resolution as 298
+Empty page!!
+Estimating resolution as 294
+Empty page!!
+Estimating resolution as 294
+Empty page!!
+Estimating resolution as 294
+Empty page!!
+Estimating resolution as 294
+Empty page!!
+Estimating resolution as 301
+Empty page!!
+Estimating resolution as 301
+Empty page!!
+Estimating resolution as 291
+Empty page!!
+Estimating resolution as 291
+Empty page!!
+Estimating resolution as 303
+PHL
+Before: (  519.0,   575.0)-(  587.0,   611.0)    68.0 :    36.0 PHL ()
+After: (  519.0,   575.0)-(  594.0,   606.0)    75.0 :    29.0 PHL ()
+==== Lines read by Tesseract ====
+(   36.0,    10.0)-(  609.0,    36.0)   573.0 :    26.0 REPUBLIC OF THE PHILIPPINES (0.8399999737739563)
+(    0.0,    36.0)-(    2.0,    44.0)     2.0 :     8.0 : (0.8399999737739563)
+(   24.0,    11.0)-(  356.0,    41.0)   332.0 :    24.0 Unified Multi- Purpose D (0.800000011920929)
+(    8.0,     6.0)-(   60.0,    25.0)    52.0 :    19.0 CRN (0.8999999761581421)
+(    4.0,     5.0)-(  318.0,    30.0)   314.0 :    23.0 -0033-5508LAL-0 (0.3700000047683716)
+(   13.0,     4.0)-(  156.0,    29.0)   143.0 :    24.0 MIRANDA (0.9100000262260437)
+(   11.0,     5.0)-(  154.0,    30.0)   143.0 :    23.0 MICHAEL (0.8999999761581421)
+(   13.0,     0.0)-(  156.0,    30.0)   143.0 :    30.0 DILAGAN (0.9200000166893005)
+(    0.0,     7.0)-(  227.0,    32.0)   227.0 :    23.0 - 197?7/04/729 (0.019999999552965164)
+(    0.0,     0.0)-(   75.0,    31.0)    75.0 :    29.0 PHL (0.7699999809265137)
+======================
+==== Merged lines ====
+(  223.0,    45.0)-(  807.0,    85.0)   584.0 :    40.0 REPUBLIC OF THE PHILIPPINES ()
+(  368.0,    91.0)-(  724.0,   132.0)   356.0 :    35.0 UNIFIED MULTI-PURPOSE ID ()
+(  618.0,   176.0)-(  994.0,   211.0)   376.0 :    35.0 CRN 0033-5508686-0 ()
+(  437.0,   251.0)-(  527.0,   271.0)    90.0 :    20.0 SURNAME ()
+(  451.0,   274.0)-(  607.0,   303.0)   156.0 :    28.0 MIRANDA (0.9100000262260437)
+(  439.0,   310.0)-(  547.0,   330.0)   108.0 :    20.0 GIVEN NAME ()
+(  451.0,   335.0)-(  605.0,   365.0)   154.0 :    28.0 MICHAEL ()
+(  437.0,   407.0)-(  559.0,   427.0)   122.0 :    20.0 MIDDLE NAME ()
+(  452.0,   425.0)-(  608.0,   455.0)   156.0 :    30.0 DILAGAN (0.9200000166893005)
+(  437.0,   455.0)-(  885.0,   491.0)   448.0 :    36.0 SEX    DATE OF BIRT 1977/04/29 ()
+(  431.0,   477.0)-(  533.0,   563.0)   102.0 :    86.0 PYEY ()
+(  497.0,   495.0)-(  774.0,   563.0)   277.0 :    68.0 INTETZISSFYAE ()
+(  788.0,   500.0)-(  832.0,   532.0)    44.0 :    32.0 ST ()
+(  440.0,   550.0)-(  568.0,   582.0)   128.0 :    32.0 BAGONG ()
+(  574.0,   516.0)-( 1004.0,   614.0)   430.0 :    98.0 "EIEEANS @DETORUE8VY ()
+(  440.0,   575.0)-(  594.0,   608.0)   154.0 :    33.0 NCR PHL ()
+======================
+ExtractFieldsFromReadResultOfPHUMID start...
+ExtractFieldsFromReadResultOfPHUMID (0.0661657 sec)
+
+scanPHUMIDResult.Success: True
+scanPHUMIDResult.Error:
+scanPHUMIDResult.lastNameOrFullName: MIRANDA
+scanPHUMIDResult.firstName: MICHAEL
+scanPHUMIDResult.middleName: DILAGAN
+scanPHUMIDResult.documentNumber: 0033-5508686-0
+scanPHUMIDResult.nationality: PH
+scanPHUMIDResult.documentIssueDate:
+scanPHUMIDResult.documentExpirationDate:
+scanPHUMIDResult.addressLine1: PYEY INTETZISSFYAE
+scanPHUMIDResult.addressLine2: NCR PHL "EIEEANS @DETORUE8VY
+scanPHUMIDResult.postcode:
+scanPHUMIDResult.gender:
+scanPHUMIDResult.dateOfBirth: 1977-04-29
+
+[1]
+  Scanned Data: documentNumber: 0033-5508686-0
+  Expected    : documentNumber: CRN - 0033-5508686-0
+
+[2]
+  Scanned Data: addressLine1: PYEY INTETZISSFYAE
+  Expected    : addressLine1: BLKI LOT31 CEDAR ST FILINVEST SPRING HTS SUBD
+
+[3]
+  Scanned Data: addressLine2: NCR PHL "EIEEANS @DETORUE8VY
+  Expected    : addressLine2: BAGONG SILANGAN QUEZON CITY NCR PHL
+
+[4]
+  Scanned Data: postcode:
+  Expected    : postcode: 1119
+
+[5]
+  Scanned Data: gender:
+  Expected    : gender: M
+ --> IsValid: False
+Try another OCR...
+ScanPHUMID imageFileName: F:\WORK\Dev\huggingface\work\ConsoleApp1\test1\bin\Debug\net8.0\testdata\CRN-0033-5508686-0_Test1.jpg
+Dlib DetectFace start...
+(0.3225219 sec)
+
+PostOCRWithRegionRequest start...
+PostOCRWithRegionRequest PostAsync start...
+PostOCRWithRegionRequest PostAsync (12.3954975 sec)
+
+(12.3992705 sec)
+
+(  226.1,    49.6)-(  802.9,    81.8)   576.8 :    32.2 REPUBLIC OF THE PHILIPPINES ()
+(  346.6,    85.7)-(  682.4,   117.3)   335.8 :    31.5 UNIFIED MULTI-PURPOSE ID ()
+(  611.3,   177.1)-(  990.3,   206.0)   379.0 :    28.9 CRN - 0033-55086-0 ()
+(  437.2,   252.0)-(  524.8,   269.0)    87.5 :    17.1 SURNAME ()
+(  440.3,   271.0)-(  587.6,   297.9)   147.3 :    26.9 MIRANDA ()
+(  439.3,   311.7)-(  546.4,   328.8)   107.1 :    17.1 GIVEN NAME ()
+(  440.3,   330.8)-(  586.6,   359.1)   146.3 :    28.3 MICHAEL ()
+(  439.3,   407.7)-(  557.7,   424.8)   118.5 :    17.1 MIDDLE NAME ()
+(  440.3,   426.7)-(  589.7,   453.7)   149.4 :    26.9 DILAGAN ()
+(  437.2,   458.3)-(  879.1,   486.5)   441.9 :    28.3 SEX M DATE OF BIRTH 1977/04/29 ()
+(  439.3,   486.5)-(  523.8,   503.6)    84.5 :    17.1 ADDRESS ()
+(  439.3,   499.6)-(  827.6,   528.6)   388.3 :    28.9 BLKI LOT31 CEDAR ST ()
+(  440.3,   526.6)-(  950.2,   553.5)   509.9 :    26.9 FILINVEST SPRING HTS SUBD ()
+(  440.3,   551.6)-(  993.4,   578.5)   553.1 :    26.9 BAGONG SILANGAN QUEZON CITY ()
+(  440.3,   576.5)-(  686.5,   604.8)   246.2 :    28.3 NCR PHIL 1119 ()
+======================
+==== Lines read by Tesseract ====
+======================
+==== Merged lines ====
+(  226.1,    49.6)-(  802.9,    81.8)   576.8 :    32.2 REPUBLIC OF THE PHILIPPINES ()
+(  346.6,    85.7)-(  682.4,   117.3)   335.8 :    31.5 UNIFIED MULTI-PURPOSE ID ()
+(  611.3,   177.1)-(  990.3,   206.0)   379.0 :    28.9 CRN - 0033-55086-0 ()
+(  437.2,   252.0)-(  524.8,   269.0)    87.5 :    17.1 SURNAME ()
+(  440.3,   271.0)-(  587.6,   297.9)   147.3 :    26.9 MIRANDA ()
+(  439.3,   311.7)-(  546.4,   328.8)   107.1 :    17.1 GIVEN NAME ()
+(  440.3,   330.8)-(  586.6,   359.1)   146.3 :    28.3 MICHAEL ()
+(  439.3,   407.7)-(  557.7,   424.8)   118.5 :    17.1 MIDDLE NAME ()
+(  440.3,   426.7)-(  589.7,   453.7)   149.4 :    26.9 DILAGAN ()
+(  437.2,   458.3)-(  879.1,   486.5)   441.9 :    28.3 SEX M DATE OF BIRTH 1977/04/29 ()
+(  439.3,   486.5)-(  523.8,   503.6)    84.5 :    17.1 ADDRESS ()
+(  439.3,   499.6)-(  827.6,   528.6)   388.3 :    28.9 BLKI LOT31 CEDAR ST ()
+(  440.3,   526.6)-(  950.2,   553.5)   509.9 :    26.9 FILINVEST SPRING HTS SUBD ()
+(  440.3,   551.6)-(  993.4,   578.5)   553.1 :    26.9 BAGONG SILANGAN QUEZON CITY ()
+(  440.3,   576.5)-(  686.5,   604.8)   246.2 :    28.3 NCR PHIL 1119 ()
+======================
+ExtractFieldsFromReadResultOfPHUMID start...
+ExtractFieldsFromReadResultOfPHUMID (0.0803321 sec)
+
+scanPHUMIDResult.Success: True
+scanPHUMIDResult.Error:
+scanPHUMIDResult.lastNameOrFullName: MIRANDA
+scanPHUMIDResult.firstName: MICHAEL
+scanPHUMIDResult.middleName: DILAGAN
+scanPHUMIDResult.documentNumber: 0033-55086-0
+scanPHUMIDResult.nationality: PH
+scanPHUMIDResult.documentIssueDate:
+scanPHUMIDResult.documentExpirationDate:
+scanPHUMIDResult.addressLine1: BLKI LOT31 CEDAR ST FILINVEST SPRING HTS SUBD
+scanPHUMIDResult.addressLine2: BAGONG SILANGAN QUEZON CITY NCR PHIL
+scanPHUMIDResult.postcode: 1119
+scanPHUMIDResult.gender: M
+scanPHUMIDResult.dateOfBirth: 1977-04-29
+
+[1]
+  Scanned Data: documentNumber: 0033-55086-0
+  Expected    : documentNumber: CRN - 0033-5508686-0
+
+[2]
+  Scanned Data: addressLine2: BAGONG SILANGAN QUEZON CITY NCR PHIL
+  Expected    : addressLine2: BAGONG SILANGAN QUEZON CITY NCR PHL
+ --> IsValid: False
+ScanPHUMID imageFileName: F:\WORK\Dev\huggingface\work\ConsoleApp1\test1\bin\Debug\net8.0\testdata\CRN-0033-5508686-0_Test2.jpg
+Dlib DetectFace start...
+(0.2721921 sec)
+
+PostOCRWithRegionRequest start...
+PostOCRWithRegionRequest PostAsync start...
+PostOCRWithRegionRequest PostAsync (1.3762331 sec)
+
+(1.3790621 sec)
+
+(  111.0,    23.0)-(  403.0,    43.0)   292.0 :    20.0 REPUBLIC OF THE PHILIPPINES ()
+(  173.0,    41.0)-(  325.0,    62.0)   152.0 :    21.0 UNIFIED MULTI-PURPOSE ()
+(  305.0,    85.0)-(  499.0,   105.0)   194.0 :    20.0 CRN- 0033-5508686-0 ()
+(  215.0,   123.0)-(  298.0,   154.0)    83.0 :    31.0 MIRANDA ()
+(  217.0,   163.0)-(  295.0,   183.0)    78.0 :    20.0 HICHAEL ()
+(  219.0,   213.0)-(  297.0,   231.0)    78.0 :    18.0 DILAGAN ()
+(  329.0,   227.0)-(  441.0,   247.0)   112.0 :    20.0 1977/04/29 ()
+(  215.0,   232.0)-(  334.0,   318.0)   119.0 :    86.0 MOH ()
+(  378.0,   246.0)-(  504.0,   298.0)   126.0 :    52.0 ADEIOS"EXTY ()
+======================
+Estimating resolution as 160
+REPUBLIC OF THE PHILIPPINES
+Before: (  111.0,    23.0)-(  403.0,    43.0)   292.0 :    20.0 REPUBLIC OF THE PHILIPPINES ()
+After: (  130.0,    28.0)-(  435.0,    46.0)   305.0 :    17.0 REPUBLIC OF THE PHILIPPINES ()
+Estimating resolution as 152
+Unified Multi-Purpose |
+Before: (  173.0,    41.0)-(  325.0,    62.0)   152.0 :    21.0 UNIFIED MULTI-PURPOSE ()
+After: (  183.0,    41.0)-(  350.0,    61.0)   167.0 :    17.0 UNIFIED MULTI-PURPOSE ()
+Estimating resolution as 158
+Estimating resolution as 157
+Sumnave
+MIRANDA
+Estimating resolution as 159
+MICHAEL
+Before: (  217.0,   163.0)-(  295.0,   183.0)    78.0 :    20.0 HICHAEL ()
+After: (  224.0,   163.0)-(  304.0,   180.0)    80.0 :    17.0 HICHAEL ()
+Estimating resolution as 159
+DILAGAN
+Before: (  219.0,   213.0)-(  297.0,   231.0)    78.0 :    18.0 DILAGAN ()
+After: (  226.0,   216.0)-(  305.0,   231.0)    79.0 :    15.0 DILAGAN ()
+Estimating resolution as 159
+Estimating resolution as 163
+
+Estimating resolution as 158
+Empty page!!
+Estimating resolution as 158
+Empty page!!
+==== Lines read by Tesseract ====
+(   19.0,     5.0)-(  305.0,    18.0)   286.0 :    12.0 REPUBLIC OF THE PHILIPPINES (0.8999999761581421)
+(   10.0,     0.0)-(  167.0,    20.0)   157.0 :    17.0 Unified Multi-Purpose | (0.8999999761581421)
+(   10.0,     6.0)-(   51.0,    14.0)    41.0 :     8.0 Sumnave (0.4300000071525574)
+(   11.0,    15.0)-(   83.0,    28.0)    72.0 :    13.0 MIRANDA (0.4300000071525574)
+(    7.0,     0.0)-(   80.0,    17.0)    73.0 :    17.0 MICHAEL (0.8399999737739563)
+(    7.0,     3.0)-(   79.0,    15.0)    72.0 :    12.0 DILAGAN (0.8799999952316284)
+======================
+==== Merged lines ====
+(  130.0,    28.0)-(  435.0,    46.0)   305.0 :    17.0 REPUBLIC OF THE PHILIPPINES ()
+(  183.0,    41.0)-(  350.0,    61.0)   167.0 :    17.0 UNIFIED MULTI-PURPOSE ()
+(  305.0,    85.0)-(  499.0,   105.0)   194.0 :    20.0 CRN- 0033-5508686-0 ()
+(  215.0,   123.0)-(  298.0,   154.0)    83.0 :    31.0 MIRANDA ()
+(  224.0,   163.0)-(  304.0,   180.0)    80.0 :    17.0 HICHAEL ()
+(  226.0,   216.0)-(  305.0,   231.0)    79.0 :    15.0 DILAGAN ()
+(  329.0,   227.0)-(  441.0,   247.0)   112.0 :    20.0 1977/04/29 ()
+(  215.0,   232.0)-(  334.0,   318.0)   119.0 :    86.0 MOH ()
+(  378.0,   246.0)-(  504.0,   298.0)   126.0 :    52.0 ADEIOS"EXTY ()
+======================
+ExtractFieldsFromReadResultOfPHUMID start...
+ExtractFieldsFromReadResultOfPHUMID (0.0322285 sec)
+
+scanPHUMIDResult.Success: False
+scanPHUMIDResult.Error: Failed to scan [GIVEN_NAME,ADDRESS1]
+scanPHUMIDResult.lastNameOrFullName: MIRANDA
+scanPHUMIDResult.firstName:
+scanPHUMIDResult.middleName:
+scanPHUMIDResult.documentNumber: 0033-5508686-0
+scanPHUMIDResult.nationality: PH
+scanPHUMIDResult.documentIssueDate:
+scanPHUMIDResult.documentExpirationDate:
+scanPHUMIDResult.addressLine1:
+scanPHUMIDResult.addressLine2:
+scanPHUMIDResult.postcode:
+scanPHUMIDResult.gender:
+scanPHUMIDResult.dateOfBirth:
+
+[1]
+  Scanned Data: firstName:
+  Expected    : firstName: MICHAEL
+
+[2]
+  Scanned Data: middleName:
+  Expected    : middleName: DILAGAN
+
+[3]
+  Scanned Data: dateOfBirth:
+  Expected    : dateOfBirth: 1977-04-29
+
+[4]
+  Scanned Data: documentNumber: 0033-5508686-0
+  Expected    : documentNumber: CRN - 0033-5508686-0
+
+[5]
+  Scanned Data: addressLine1:
+  Expected    : addressLine1: BLKI LOT31 CEDAR ST FILINVEST SPRING HTS SUBD
+
+[6]
+  Scanned Data: addressLine2:
+  Expected    : addressLine2: BAGONG SILANGAN QUEZON CITY NCR PHL
+
+[7]
+  Scanned Data: postcode:
+  Expected    : postcode: 1119
+
+[8]
+  Scanned Data: gender:
+  Expected    : gender: M
+ --> IsValid: False
+Try another OCR...
+ScanPHUMID imageFileName: F:\WORK\Dev\huggingface\work\ConsoleApp1\test1\bin\Debug\net8.0\testdata\CRN-0033-5508686-0_Test2.jpg
+Dlib DetectFace start...
+(0.2517549 sec)
+
+PostOCRWithRegionRequest start...
+PostOCRWithRegionRequest PostAsync start...
+PostOCRWithRegionRequest PostAsync (12.386652 sec)
+
+(12.3898753 sec)
+
+(  112.5,    24.2)-(  402.0,    41.3)   289.4 :    17.1 REPUBLIC OF THE PHILIPPINES ()
+(  172.8,    42.3)-(  341.7,    58.9)   168.9 :    16.6 UNIFIED MULTI-PURPOSE ID ()
+(  305.1,    88.3)-(  495.2,   103.5)   190.0 :    15.1 CRN - 0033-55086L-0 ()
+(  218.1,   125.5)-(  262.4,   134.4)    44.3 :     8.9 SURNAME ()
+(  219.1,   135.4)-(  294.3,   149.5)    75.2 :    14.1 MIRANDA ()
+(  219.1,   156.4)-(  273.2,   165.3)    54.1 :     8.9 GIVEN NAME ()
+(  219.1,   165.3)-(  293.3,   179.5)    74.2 :    14.1 MICHAEL ()
+(  219.1,   204.1)-(  278.9,   213.0)    59.7 :     8.9 MIDDLE NAME ()
+(  220.2,   214.0)-(  294.3,   227.2)    74.2 :    13.2 DILAGAN ()
+(  219.1,   229.6)-(  439.6,   244.0)   220.4 :    14.3 SEX M DATE OF BIRTY 1977/04/29 ()
+(  219.1,   244.0)-(  261.4,   252.2)    42.2 :     8.2 ADDRESS ()
+(  219.1,   250.2)-(  413.8,   265.0)   194.7 :    14.8 BLKI LOT31 CEDAR ST ()
+(  219.1,   263.0)-(  475.6,   277.2)   256.5 :    14.1 FILINVEST SPRING HTS SUBD ()
+(  219.1,   276.2)-(  496.2,   290.3)   277.1 :    14.1 BAGONG SILANGAN QUEZON CITY ()
+(  219.1,   289.4)-(  343.8,   303.2)   124.6 :    13.8 NCR PHL 1119 ()
+======================
+==== Lines read by Tesseract ====
+======================
+==== Merged lines ====
+(  112.5,    24.2)-(  402.0,    41.3)   289.4 :    17.1 REPUBLIC OF THE PHILIPPINES ()
+(  172.8,    42.3)-(  341.7,    58.9)   168.9 :    16.6 UNIFIED MULTI-PURPOSE ID ()
+(  305.1,    88.3)-(  495.2,   103.5)   190.0 :    15.1 CRN - 0033-55086L-0 ()
+(  218.1,   125.5)-(  262.4,   134.4)    44.3 :     8.9 SURNAME ()
+(  219.1,   135.4)-(  294.3,   149.5)    75.2 :    14.1 MIRANDA ()
+(  219.1,   156.4)-(  273.2,   165.3)    54.1 :     8.9 GIVEN NAME ()
+(  219.1,   165.3)-(  293.3,   179.5)    74.2 :    14.1 MICHAEL ()
+(  219.1,   204.1)-(  278.9,   213.0)    59.7 :     8.9 MIDDLE NAME ()
+(  220.2,   214.0)-(  294.3,   227.2)    74.2 :    13.2 DILAGAN ()
+(  219.1,   229.6)-(  439.6,   244.0)   220.4 :    14.3 SEX M DATE OF BIRTY 1977/04/29 ()
+(  219.1,   244.0)-(  261.4,   252.2)    42.2 :     8.2 ADDRESS ()
+(  219.1,   250.2)-(  413.8,   265.0)   194.7 :    14.8 BLKI LOT31 CEDAR ST ()
+(  219.1,   263.0)-(  475.6,   277.2)   256.5 :    14.1 FILINVEST SPRING HTS SUBD ()
+(  219.1,   276.2)-(  496.2,   290.3)   277.1 :    14.1 BAGONG SILANGAN QUEZON CITY ()
+(  219.1,   289.4)-(  343.8,   303.2)   124.6 :    13.8 NCR PHL 1119 ()
+======================
+ExtractFieldsFromReadResultOfPHUMID start...
+ExtractFieldsFromReadResultOfPHUMID (0.0830904 sec)
+
+scanPHUMIDResult.Success: True
+scanPHUMIDResult.Error:
+scanPHUMIDResult.lastNameOrFullName: MIRANDA
+scanPHUMIDResult.firstName: MICHAEL
+scanPHUMIDResult.middleName: DILAGAN
+scanPHUMIDResult.documentNumber: 0033-550861-0
+scanPHUMIDResult.nationality: PH
+scanPHUMIDResult.documentIssueDate:
+scanPHUMIDResult.documentExpirationDate:
+scanPHUMIDResult.addressLine1: BLKI LOT31 CEDAR ST FILINVEST SPRING HTS SUBD
+scanPHUMIDResult.addressLine2: BAGONG SILANGAN QUEZON CITY NCR PHL
+scanPHUMIDResult.postcode: 1119
+scanPHUMIDResult.gender: M
+scanPHUMIDResult.dateOfBirth: 1977-04-29
+
+[1]
+  Scanned Data: documentNumber: 0033-550861-0
+  Expected    : documentNumber: CRN - 0033-5508686-0
+ --> IsValid: False
+ScanPHUMID imageFileName: F:\WORK\Dev\huggingface\work\ConsoleApp1\test1\bin\Debug\net8.0\testdata\UMID_sample_1.png
+Dlib DetectFace start...
+ScanPHUMID exception: System.Runtime.InteropServices.SEHException (0x80004005): External component has thrown an exception.
+   at DlibDetectFace(Byte*, Int32, Int32*)
+   at DlibDn47.DlibWrapper.DetectFace(Byte[] imageSrc, ValueType& left, ValueType& top, ValueType& right, ValueType& bottom) in F:\WORK\Dev\huggingface\work\ConsoleApp1\DlibDn47\DlibDn47.cpp:line 159
+   at ScanID.ScanIDOCR.ScanPHUMID(String baseAddrUrl, String imageFileName, String baseAddrUrl_OD) in F:\WORK\Dev\huggingface\work\ConsoleApp1\ScanID\ScanIDOCR.cs:line 351
+   at Program.<<Main>$>g__TestImageFile|0_0(FileInfo fiImage, FileInfo fiImageBack, FileInfo fiData, <>c__DisplayClass0_0&) in F:\WORK\Dev\huggingface\work\ConsoleApp1\test1\Program.cs:line 590
+ScanPHUMID imageFileName: F:\WORK\Dev\huggingface\work\ConsoleApp1\test1\bin\Debug\net8.0\testdata\UMID_sample_3.jpeg
+Dlib DetectFace start...
+(0.2430274 sec)
+
+PostOCRWithRegionRequest start...
+PostOCRWithRegionRequest PostAsync start...
+PostOCRWithRegionRequest PostAsync (0.8157694 sec)
+
+(0.8187292 sec)
+
+(  153.0,    13.0)-(  221.0,    27.0)    68.0 :    14.0 PHILIPPINES ()
+(  153.0,   111.0)-(  215.0,   123.0)    62.0 :    12.0 CRISOITONO ()
+(  177.0,   121.0)-(  239.0,   133.0)    62.0 :    12.0 2004/01/28 ()
+======================
+Estimating resolution as 108
+
+Estimating resolution as 113
+- CRISOSTONO
+Estimating resolution as 97
+~200%/03/28
+==== Lines read by Tesseract ====
+(    0.0,     0.0)-(   63.0,    11.0)    63.0 :    10.0 - CRISOSTONO (0.1899999976158142)
+(    5.0,     3.0)-(   63.0,    10.0)    58.0 :     7.0 ~200%/03/28 (0.4099999964237213)
+======================
+==== Merged lines ====
+(  153.0,    13.0)-(  221.0,    27.0)    68.0 :    14.0 PHILIPPINES ()
+(  153.0,   111.0)-(  215.0,   123.0)    62.0 :    12.0 CRISOITONO ()
+(  177.0,   121.0)-(  239.0,   133.0)    62.0 :    12.0 2004/01/28 ()
+======================
+ExtractFieldsFromReadResultOfPHUMID start...
+CalcPixelPerInch failed
+ExtractFieldsFromReadResultOfPHUMID (0.0046807 sec)
+
+scanPHUMIDResult.Success: False
+scanPHUMIDResult.Error: Failed to scan [SURNAME,GIVEN_NAME,CRN,DOB,ADDRESS1]
+scanPHUMIDResult.lastNameOrFullName:
+scanPHUMIDResult.firstName:
+scanPHUMIDResult.middleName:
+scanPHUMIDResult.documentNumber:
+scanPHUMIDResult.nationality: PH
+scanPHUMIDResult.documentIssueDate:
+scanPHUMIDResult.documentExpirationDate:
+scanPHUMIDResult.addressLine1:
+scanPHUMIDResult.addressLine2:
+scanPHUMIDResult.postcode:
+scanPHUMIDResult.gender:
+scanPHUMIDResult.dateOfBirth:
+
+[1]
+  Scanned Data: lastNameOrFullName:
+  Expected    : lastNameOrFullName: VILLA BUENAVENTURA SANCHEZ
+
+[2]
+  Scanned Data: firstName:
+  Expected    : firstName: MARIA CHRISTINA JOSEFINA
+
+[3]
+  Scanned Data: middleName:
+  Expected    : middleName: VILLA CRISOSTONO
+
+[4]
+  Scanned Data: dateOfBirth:
+  Expected    : dateOfBirth: 2004-03-28
+
+[5]
+  Scanned Data: documentNumber:
+  Expected    : documentNumber: 26 PANGASINAN ST BAGO BANTAY
+
+[6]
+  Scanned Data: addressLine1:
+  Expected    : addressLine1: STO CRISTO QUEZON CITY
+
+[7]
+  Scanned Data: addressLine2:
+  Expected    : addressLine2: PHILIPPINES
+
+[8]
+  Scanned Data: postcode:
+  Expected    : postcode: 1400
+
+[9]
+  Scanned Data: gender:
+  Expected    : gender: M
+ --> IsValid: False
+Try another OCR...
+ScanPHUMID imageFileName: F:\WORK\Dev\huggingface\work\ConsoleApp1\test1\bin\Debug\net8.0\testdata\UMID_sample_3.jpeg
+Dlib DetectFace start...
+(0.235115 sec)
+
+PostOCRWithRegionRequest start...
+PostOCRWithRegionRequest PostAsync start...
+PostOCRWithRegionRequest PostAsync (11.2639512 sec)
+
+(11.2669139 sec)
+
+(   60.1,    13.4)-(  219.2,    23.6)   159.0 :    10.1 REPUBLIC OF THE PHILIPPINES ()
+(   92.4,    23.6)-(  186.1,    32.8)    93.7 :     9.3 UNITED MULTI-PURPOSE ID ()
+(  166.8,    46.4)-(  271.5,    55.6)   104.7 :     9.3 CRN 0033-3115043-3 ()
+(  120.1,    68.6)-(  271.5,    78.4)   151.4 :     9.8 VILLA BUENAVENTURA SANCHEZ ()
+(  120.1,    85.4)-(  258.8,    96.0)   138.7 :    10.7 MARIA CHRISTINA JOSEPINA ()
+(  120.1,   111.7)-(  212.7,   121.0)    92.5 :     9.3 VILLIA CRISOSTONO ()
+(  120.1,   121.5)-(  236.4,   131.1)   116.3 :     9.6 F 200/03/26 ()
+(  120.1,   136.3)-(  274.7,   146.0)   154.5 :     9.8 26 PANGASINAN ST BAGO BANTAY ()
+(  120.1,   145.2)-(  242.4,   153.9)   122.3 :     8.7 STO CRISTO QUEZON CITY ()
+(  120.1,   153.9)-(  188.3,   161.4)    68.2 :     7.5 METRO MANILA ()
+(  120.1,   161.4)-(  209.6,   170.1)    89.4 :     8.7 PHILIPPINESS 3400 ()
+======================
+==== Lines read by Tesseract ====
+======================
+==== Merged lines ====
+(   60.1,    13.4)-(  219.2,    23.6)   159.0 :    10.1 REPUBLIC OF THE PHILIPPINES ()
+(   92.4,    23.6)-(  186.1,    32.8)    93.7 :     9.3 UNITED MULTI-PURPOSE ID ()
+(  166.8,    46.4)-(  271.5,    55.6)   104.7 :     9.3 CRN 0033-3115043-3 ()
+(  120.1,    68.6)-(  271.5,    78.4)   151.4 :     9.8 VILLA BUENAVENTURA SANCHEZ ()
+(  120.1,    85.4)-(  258.8,    96.0)   138.7 :    10.7 MARIA CHRISTINA JOSEPINA ()
+(  120.1,   111.7)-(  212.7,   121.0)    92.5 :     9.3 VILLIA CRISOSTONO ()
+(  120.1,   121.5)-(  236.4,   131.1)   116.3 :     9.6 F 200/03/26 ()
+(  120.1,   136.3)-(  274.7,   146.0)   154.5 :     9.8 26 PANGASINAN ST BAGO BANTAY ()
+(  120.1,   145.2)-(  242.4,   153.9)   122.3 :     8.7 STO CRISTO QUEZON CITY ()
+(  120.1,   153.9)-(  188.3,   161.4)    68.2 :     7.5 METRO MANILA ()
+(  120.1,   161.4)-(  209.6,   170.1)    89.4 :     8.7 PHILIPPINESS 3400 ()
+======================
+ExtractFieldsFromReadResultOfPHUMID start...
+ExtractFieldsFromReadResultOfPHUMID (0.0395096 sec)
+
+scanPHUMIDResult.Success: False
+scanPHUMIDResult.Error: Failed to scan [ADDRESS1]
+scanPHUMIDResult.lastNameOrFullName: VILLA BUENAVENTURA SANCHEZ
+scanPHUMIDResult.firstName: VILLIA CRISOSTONO
+scanPHUMIDResult.middleName:
+scanPHUMIDResult.documentNumber: 0033-3115043-3
+scanPHUMIDResult.nationality: PH
+scanPHUMIDResult.documentIssueDate:
+scanPHUMIDResult.documentExpirationDate:
+scanPHUMIDResult.addressLine1:
+scanPHUMIDResult.addressLine2:
+scanPHUMIDResult.postcode:
+scanPHUMIDResult.gender: F
+scanPHUMIDResult.dateOfBirth:
+
+[1]
+  Scanned Data: firstName: VILLIA CRISOSTONO
+  Expected    : firstName: MARIA CHRISTINA JOSEFINA
+
+[2]
+  Scanned Data: middleName:
+  Expected    : middleName: VILLA CRISOSTONO
+
+[3]
+  Scanned Data: dateOfBirth:
+  Expected    : dateOfBirth: 2004-03-28
+
+[4]
+  Scanned Data: documentNumber: 0033-3115043-3
+  Expected    : documentNumber: 26 PANGASINAN ST BAGO BANTAY
+
+[5]
+  Scanned Data: addressLine1:
+  Expected    : addressLine1: STO CRISTO QUEZON CITY
+
+[6]
+  Scanned Data: addressLine2:
+  Expected    : addressLine2: PHILIPPINES
+
+[7]
+  Scanned Data: postcode:
+  Expected    : postcode: 1400
+
+[8]
+  Scanned Data: gender: F
+  Expected    : gender: M
+ --> IsValid: False
+ObjectCache(00007FFAF1338480)::~ObjectCache(): WARNING! LEAK! object 00000232694F7EC0 still has count 1 (id ./tessdata/eng.traineddatapunc-dawg)
+ObjectCache(00007FFAF1338480)::~ObjectCache(): WARNING! LEAK! object 00000232694F7C90 still has count 1 (id ./tessdata/eng.traineddataword-dawg)
+ObjectCache(00007FFAF1338480)::~ObjectCache(): WARNING! LEAK! object 00000232694F7FA0 still has count 1 (id ./tessdata/eng.traineddatanumber-dawg)
+ObjectCache(00007FFAF1338480)::~ObjectCache(): WARNING! LEAK! object 00000232694F70C0 still has count 1 (id ./tessdata/eng.traineddatabigram-dawg)
+ObjectCache(00007FFAF1338480)::~ObjectCache(): WARNING! LEAK! object 00000232694F7130 still has count 1 (id ./tessdata/eng.traineddatafreq-dawg)
+
+F:\WORK\Dev\huggingface\work\ConsoleApp1\test1\bin\Debug\net8.0\test1.exe (process 25760) exited with code 0 (0x0).
+To automatically close the console when debugging stops, enable Tools->Options->Debugging->Automatically close the console when debugging stops.
+Press any key to close this window . . .

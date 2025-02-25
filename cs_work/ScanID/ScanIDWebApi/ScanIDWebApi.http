@@ -1,0 +1,6 @@
+@ScanIDWebApi_HostAddress = http://localhost:5057
+
+GET {{ScanIDWebApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

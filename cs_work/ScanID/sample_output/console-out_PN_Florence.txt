@@ -1,0 +1,1016 @@
+Try OmniParser OCR...
+ScanPHNI imageFileName: F:\WORK\Dev\huggingface\work\ScanID\test1\bin\Debug\net8.0\testdata\PhilID_2031-8439-2460-5291_Test1.jpg
+ScanPHNI backImageFileName: F:\WORK\Dev\huggingface\work\ScanID\test1\bin\Debug\net8.0\testdata\PhilID_2031-8439-2460-5291_Test1_Back.jpg
+ScanPHNI front...
+PostOCRWithRegionRequest start...
+PostOCRWithRegionRequest PostAsync start...
+PostOCRWithRegionRequest PostAsync (2.7723521 sec)
+
+(2.8845413 sec)
+
+(  332.0,   148.0)-(  604.0,   174.0)   272.0 :    26.0 REPUBLIKA NG PILIPINAS ()
+(  360.0,   174.0)-(  436.0,   198.0)    76.0 :    24.0 REPUBLIC ()
+(  455.0,   179.0)-(  485.0,   195.0)    30.0 :    16.0 THE ()
+(  483.0,   173.0)-(  574.0,   200.0)    91.0 :    27.0 PHILIPPINES ()
+(  278.0,   196.0)-(  656.0,   224.0)   378.0 :    28.0 PAMBANSANG PAGKAKAKILANLAN ()
+(  352.0,   222.0)-(  584.0,   246.0)   232.0 :    24.0 PHILIPPINE IDENTIFICATION CARD ()
+(  112.0,   263.0)-(  375.0,   293.0)   263.0 :    30.0 2031-8439-2460-5291 ()
+(  431.0,   295.0)-(  591.0,   315.0)   160.0 :    20.0 APELYIDO/LAST NAME ()
+(  430.0,   319.0)-(  536.0,   349.0)   106.0 :    30.0 ENRICO ()
+(  432.0,   344.0)-(  654.0,   373.0)   222.0 :    29.0 MGA PANGALAN/GIVEN NAMES ()
+(  430.0,   373.0)-(  574.0,   403.0)   144.0 :    30.0 CHRISTIAN ()
+(  429.0,   425.0)-(  680.0,   450.0)   251.0 :    25.0 GITNANG APELYIDO/ MIDDLE NAME ()
+(  430.0,   452.0)-(  564.0,   480.0)   134.0 :    28.0 CORONEL ()
+(  432.0,   478.0)-(  726.0,   504.0)   294.0 :    26.0 PETSA NG KAPANGANAKAN/DATE OF BIRTH ()
+(  430.0,   504.0)-(  486.0,   534.0)    56.0 :    30.0 JUL ()
+(  502.0,   504.0)-(  608.0,   534.0)   106.0 :    30.0 03, 1997 ()
+(  778.0,   514.0)-(  842.0,   546.0)    64.0 :    32.0 PHL ()
+(  128.0,   536.0)-(  264.0,   560.0)   136.0 :    24.0 TIRAHAN/ ADDRESS ()
+(  122.0,   554.0)-(  572.0,   584.0)   450.0 :    30.0 SITIO SILANGAN, MABATO, ROSARIO BATANGAS ()
+Module Path: F:\WORK\Dev\huggingface\work\ScanID\test1\bin\Debug\net8.0\ScanID.dll
+Estimating resolution as 218
+REPUBLIKA NG PILIPINAS
+Before: (  332.0,   148.0)-(  604.0,   174.0)   272.0 :    26.0 REPUBLIKA NG PILIPINAS ()
+After: (  350.0,   155.0)-(  632.0,   180.0)   282.0 :    23.0 REPUBLIKA NG PILIPINAS ()
+Estimating resolution as 164
+Republic
+Before: (  360.0,   174.0)-(  436.0,   198.0)    76.0 :    24.0 REPUBLIC ()
+After: (  369.0,   180.0)-(  452.0,   203.0)    83.0 :    21.0 REPUBLIC ()
+Estimating resolution as 166
+Empty page!!
+Estimating resolution as 166
+Empty page!!
+Estimating resolution as 168
+: Philippines
+Estimating resolution as 223
+PAMBANSANG PAGKAKAKIL
+
+Estimating resolution as 173
+
+~Philippine identificatiof
+Estimating resolution as 272
+
+Estimating resolution as 168
+
+Estimating resolution as 247
+ENRICO
+Before: (  430.0,   319.0)-(  536.0,   349.0)   106.0 :    30.0 ENRICO ()
+After: (  439.0,   327.0)-(  547.0,   354.0)   108.0 :    27.0 ENRICO ()
+Estimating resolution as 164
+Detected 12 diacritics
+
+Mega Pangafan/Given' "'M? b
+
+Estimating resolution as 246
+CHRISTIAN
+Before: (  430.0,   373.0)-(  574.0,   403.0)   144.0 :    30.0 CHRISTIAN ()
+After: (  441.0,   381.0)-(  589.0,   408.0)   148.0 :    27.0 CHRISTIAN ()
+Estimating resolution as 175
+Gitnang Apelyido/Middle Name
+Before: (  429.0,   425.0)-(  680.0,   450.0)   251.0 :    25.0 GITNANG APELYIDO/ MIDDLE NAME ()
+After: (  447.0,   426.0)-(  716.0,   454.0)   269.0 :    20.0 GITNANG APELYIDO/ MIDDLE NAME ()
+Estimating resolution as 245
+CORONEL
+Before: (  430.0,   452.0)-(  564.0,   480.0)   134.0 :    28.0 CORONEL ()
+After: (  441.0,   457.0)-(  578.0,   482.0)   137.0 :    24.0 CORONEL (0.9200000166893005)
+Estimating resolution as 164
+a ng Kapanganakan/Date of Birth
+
+Estimating resolution as 328
+Estimating resolution as 246
+103, 1997
+Before: (  502.0,   504.0)-(  608.0,   534.0)   106.0 :    30.0 03, 1997 ()
+After: (  502.0,   510.0)-(  611.0,   539.0)   109.0 :    26.0 03, 1997 ()
+Estimating resolution as 344
+Empty page!!
+Estimating resolution as 344
+Empty page!!
+Estimating resolution as 219
+
+Estimating resolution as 243
+
+MABATO, ROSARIG/BATANGAS
+SITIO SILANGAN:
+==== Lines read by Tesseract ====
+(   18.0,     7.0)-(  282.0,    25.0)   264.0 :    16.0 REPUBLIKA NG PILIPINAS (0.8999999761581421)
+(    9.0,     6.0)-(   83.0,    23.0)    74.0 :    15.0 Republic (0.8700000047683716)
+(    0.0,     8.0)-(   92.0,    25.0)    92.0 :    13.0 : Philippines (0.41999998688697815)
+(   24.0,     0.0)-(  318.0,    26.0)   294.0 :    24.0 PAMBANSANG PAGKAKAKIL (0.8600000143051147)
+(    3.0,     0.0)-(  190.0,    24.0)   187.0 :    20.0 ~Philippine identificatiof (0.4699999988079071)
+(    9.0,     8.0)-(  108.0,    27.0)    99.0 :    19.0 ENRICO (0.8899999856948853)
+(   15.0,     5.0)-(  245.0,    32.0)   230.0 :    17.0 Mega Pangafan/Given' "'M? b (0.5699999928474426)
+(   11.0,     8.0)-(  148.0,    27.0)   137.0 :    19.0 CHRISTIAN (0.8999999761581421)
+(   18.0,     1.0)-(  269.0,    28.0)   251.0 :    19.0 Gitnang Apelyido/Middle Name (0.7300000190734863)
+(   11.0,     5.0)-(  137.0,    25.0)   126.0 :    19.0 CORONEL (0.9200000166893005)
+(   51.0,     0.0)-(  306.0,    24.0)   255.0 :    21.0 a ng Kapanganakan/Date of Birth (0.9100000262260437)
+(    0.0,     6.0)-(  109.0,    29.0)   109.0 :    20.0 103, 1997 (0.6800000071525574)
+(  187.0,     0.0)-(  484.0,    33.0)   297.0 :    28.0 MABATO, ROSARIG/BATANGAS (0.7200000286102295)
+(   27.0,     0.0)-(  181.0,    30.0)   154.0 :    28.0 SITIO SILANGAN: (0.7200000286102295)
+======================
+==== Merged lines ====
+(  350.0,   155.0)-(  632.0,   180.0)   282.0 :    23.0 REPUBLIKA NG PILIPINAS ()
+(  369.0,   180.0)-(  452.0,   203.0)    83.0 :    21.0 REPUBLIC ()
+(  455.0,   173.0)-(  574.0,   200.0)   119.0 :    27.0 THE PHILIPPINES ()
+(  278.0,   196.0)-(  656.0,   224.0)   378.0 :    28.0 PAMBANSANG PAGKAKAKILANLAN ()
+(  352.0,   222.0)-(  584.0,   246.0)   232.0 :    24.0 PHILIPPINE IDENTIFICATION CARD ()
+(  112.0,   263.0)-(  375.0,   293.0)   263.0 :    30.0 2031-8439-2460-5291 ()
+(  431.0,   295.0)-(  591.0,   315.0)   160.0 :    20.0 APELYIDO/LAST NAME ()
+(  439.0,   327.0)-(  547.0,   354.0)   108.0 :    27.0 ENRICO ()
+(  432.0,   344.0)-(  654.0,   373.0)   222.0 :    29.0 MGA PANGALAN/GIVEN NAMES ()
+(  441.0,   381.0)-(  589.0,   408.0)   148.0 :    27.0 CHRISTIAN ()
+(  447.0,   426.0)-(  716.0,   454.0)   269.0 :    20.0 GITNANG APELYIDO/ MIDDLE NAME ()
+(  441.0,   457.0)-(  578.0,   482.0)   137.0 :    24.0 CORONEL (0.9200000166893005)
+(  432.0,   478.0)-(  726.0,   504.0)   294.0 :    26.0 PETSA NG KAPANGANAKAN/DATE OF BIRTH ()
+(  430.0,   504.0)-(  842.0,   546.0)   412.0 :    42.0 JUL 03, 1997         PHL ()
+(  128.0,   536.0)-(  264.0,   560.0)   136.0 :    24.0 TIRAHAN/ ADDRESS ()
+(  122.0,   554.0)-(  572.0,   584.0)   450.0 :    30.0 SITIO SILANGAN, MABATO, ROSARIO BATANGAS ()
+======================
+ExtractFieldsFromReadResultOfPHNI start...
+ExtractFieldsFromReadResultOfPHNI (0.1061871 sec)
+
+ScanPHNI back...
+Scan QR code...
+Failed to read QR code. Try OCR
+PostOCRWithRegionRequest start...
+PostOCRWithRegionRequest PostAsync start...
+PostOCRWithRegionRequest PostAsync (2.251667 sec)
+
+(2.2555893 sec)
+
+(  260.0,   268.0)-(  390.0,   292.0)   130.0 :    24.0 NOVEMBER 2021 ()
+(  242.0,   310.0)-(  335.0,   330.0)    93.0 :    20.0 KASARIAN/SEX ()
+(  243.0,   323.0)-(  314.0,   353.0)    71.0 :    30.0 MALE ()
+(  245.0,   351.0)-(  289.0,   369.0)    44.0 :    18.0 URI NG ()
+(  287.0,   343.0)-(  416.0,   371.0)   129.0 :    28.0 DUGO/BLOOD TYPE ()
+(  242.0,   366.0)-(  294.0,   392.0)    52.0 :    26.0 AB+ ()
+(  243.0,   381.0)-(  422.0,   413.0)   179.0 :    32.0 KALAGAYANG SIBIL/MARITAL ()
+(  244.0,   404.0)-(  338.0,   430.0)    94.0 :    26.0 SINGLE ()
+(  245.0,   431.0)-(  309.0,   449.0)    64.0 :    18.0 LUGAR NG ()
+(  307.0,   423.0)-(  434.0,   448.0)   127.0 :    25.0 KAPANGANAKAR/PI ()
+(  244.0,   446.0)-(  290.0,   470.0)    46.0 :    24.0 CITY ()
+(  316.0,   440.0)-(  422.0,   468.0)   106.0 :    28.0 PASIG; NCR ()
+(  244.0,   464.0)-(  408.0,   494.0)   164.0 :    30.0 SECOND DISTRICT ()
+(  249.0,   551.0)-(  361.0,   571.0)   112.0 :    20.0 IF FOUND, PLEASE ()
+(  431.0,   547.0)-(  515.0,   565.0)    84.0 :    18.0 THEINEAREST ()
+(  281.0,   571.0)-(  327.0,   591.0)    46.0 :    20.0 OFFICE ()
+(  565.0,   567.0)-(  625.0,   585.0)    60.0 :    18.0 PSA GOV. ()
+(  717.0,   565.0)-(  818.0,   590.0)   101.0 :    25.0 2.41278158 ()
+==== Merged lines ====
+(  260.0,   268.0)-(  390.0,   292.0)   130.0 :    24.0 NOVEMBER 2021 ()
+(  242.0,   310.0)-(  335.0,   330.0)    93.0 :    20.0 KASARIAN/SEX ()
+(  243.0,   323.0)-(  314.0,   353.0)    71.0 :    30.0 MALE ()
+(  245.0,   343.0)-(  416.0,   371.0)   171.0 :    28.0 URI NG DUGO/BLOOD TYPE ()
+(  242.0,   366.0)-(  294.0,   392.0)    52.0 :    26.0 AB+ ()
+(  243.0,   381.0)-(  422.0,   413.0)   179.0 :    32.0 KALAGAYANG SIBIL/MARITAL ()
+(  244.0,   404.0)-(  338.0,   430.0)    94.0 :    26.0 SINGLE ()
+(  245.0,   423.0)-(  434.0,   449.0)   189.0 :    26.0 LUGAR NG KAPANGANAKAR/PI ()
+(  244.0,   440.0)-(  422.0,   470.0)   178.0 :    30.0 CITY  PASIG; NCR ()
+(  244.0,   464.0)-(  408.0,   494.0)   164.0 :    30.0 SECOND DISTRICT ()
+(  249.0,   551.0)-(  361.0,   571.0)   112.0 :    20.0 IF FOUND, PLEASE ()
+(  431.0,   547.0)-(  515.0,   565.0)    84.0 :    18.0 THEINEAREST ()
+(  281.0,   571.0)-(  327.0,   591.0)    46.0 :    20.0 OFFICE ()
+(  565.0,   565.0)-(  818.0,   590.0)   253.0 :    25.0 PSA GOV.          2.41278158 ()
+======================
+Estimating resolution as 152
+
+4 NOVEMBER 2021
+Estimating resolution as 155
+Kasarian/Sex
+Before: (  242.0,   310.0)-(  335.0,   330.0)    93.0 :    20.0 KASARIAN/SEX ()
+After: (  248.0,   311.0)-(  344.0,   333.0)    96.0 :    15.0 KASARIAN/SEX ()
+Estimating resolution as 222
+
+MALE
+Estimating resolution as 147
+Uring
+Before: (  245.0,   351.0)-(  289.0,   369.0)    44.0 :    18.0 URI NG ()
+After: (  247.0,   354.0)-(  291.0,   373.0)    44.0 :    15.0 URI NG ()
+Estimating resolution as 173
+2 Dugo/Blood Type
+Before: (  287.0,   343.0)-(  416.0,   371.0)   129.0 :    28.0 DUGO/BLOOD TYPE ()
+After: (  287.0,   343.0)-(  419.0,   371.0)   132.0 :    22.0 DUGO/BLOOD TYPE ()
+Estimating resolution as 220
+AB+
+Before: (  242.0,   366.0)-(  294.0,   392.0)    52.0 :    26.0 AB+ ()
+After: (  249.0,   366.0)-(  302.0,   391.0)    53.0 :    25.0 AB+ ()
+Estimating resolution as 158
+
+Estimating resolution as 222
+
+Estimating resolution as 145
+Lugar ng
+Before: (  245.0,   431.0)-(  309.0,   449.0)    64.0 :    18.0 LUGAR NG ()
+After: (  251.0,   434.0)-(  316.0,   451.0)    65.0 :    14.0 LUGAR NG ()
+Estimating resolution as 143
+; Kapanganakdn/ple
+Estimating resolution as 209
+CITY
+Before: (  244.0,   446.0)-(  290.0,   470.0)    46.0 :    24.0 CITY ()
+After: (  251.0,   446.0)-(  296.0,   469.0)    45.0 :    23.0 CITY ()
+Estimating resolution as 211
+
+Estimating resolution as 217
+
+Estimating resolution as 163
+If found, please
+Before: (  249.0,   551.0)-(  361.0,   571.0)   112.0 :    20.0 IF FOUND, PLEASE ()
+After: (  258.0,   551.0)-(  381.0,   573.0)   123.0 :    17.0 IF FOUND, PLEASE ()
+Estimating resolution as 141
+therearest
+Estimating resolution as 203
+Office.
+Before: (  281.0,   571.0)-(  327.0,   591.0)    46.0 :    20.0 OFFICE ()
+After: (  286.0,   575.0)-(  332.0,   595.0)    46.0 :    17.0 OFFICE ()
+Estimating resolution as 155
+Estimating resolution as 166
+
+2.H1278158
+==== Lines read by Tesseract ====
+(    0.0,     0.0)-(  132.0,    22.0)   132.0 :    22.0 4 NOVEMBER 2021 (0.800000011920929)
+(    6.0,     1.0)-(   96.0,    22.0)    90.0 :    14.0 Kasarian/Sex (0.800000011920929)
+(    7.0,     8.0)-(   73.0,    33.0)    66.0 :    19.0 MALE (0.9200000166893005)
+(    2.0,     3.0)-(   44.0,    19.0)    42.0 :    12.0 Uring (0.7300000190734863)
+(    0.0,     0.0)-(  132.0,    28.0)   132.0 :    22.0 2 Dugo/Blood Type (0.7300000190734863)
+(    7.0,     0.0)-(   53.0,    25.0)    46.0 :    25.0 AB+ (0.8899999856948853)
+(    6.0,     3.0)-(   65.0,    17.0)    59.0 :    11.0 Lugar ng (0.7699999809265137)
+(    0.0,     4.0)-(  140.0,    24.0)   140.0 :    16.0 ; Kapanganakdn/ple (0.1899999976158142)
+(    7.0,     0.0)-(   45.0,    23.0)    38.0 :    23.0 CITY (0.8899999856948853)
+(    9.0,     0.0)-(  123.0,    22.0)   114.0 :    17.0 If found, please (0.6499999761581421)
+(    6.0,     3.0)-(   86.0,    16.0)    80.0 :    13.0 therearest (0.25999999046325684)
+(    5.0,     4.0)-(   46.0,    20.0)    41.0 :    13.0 Office. (0.8500000238418579)
+(   12.0,     8.0)-(  103.0,    22.0)    91.0 :    14.0 2.H1278158 (0.7400000095367432)
+======================
+ExtractFieldsFromReadResultOfPHNIBK start...
+{  "DateIssued": "14 November 2021",  "Issuer": "PSA",  "subject": {    "Suffix": "",    "lName": "ENRICO",    "fName": "CHRISTIAN",    "mName": "CORONEL",    "sex": "Male",    "BF": "[1,8]",    "DOB": "July 03, 1997",    "POB": "City of Pasig,NCR, SECOND DISTRICT",    "PCN": "2031-8439-2460-5291"  },  "alg": "EDDSA",  "signature": "Tpputgw+4MK8qmt0hpnS6/RdJgq8nb9+ksdwLovuBRmoSTyLt4L0I553Tzq1afVdDEzxqMCRcu/xv8o4pf2TAQ=="}
+DateIssued: 14 November 2021
+Issuer: PSA
+alg: EDDSA
+signature: Tpputgw+4MK8qmt0hpnS6/RdJgq8nb9+ksdwLovuBRmoSTyLt4L0I553Tzq1afVdDEzxqMCRcu/xv8o4pf2TAQ==
+subject:
+  Suffix:
+  lName: ENRICO
+  fName: CHRISTIAN
+  mName: CORONEL
+  sex: Male
+  BT: [1,8]
+  DOB: July 03, 1997
+  POB: City of Pasig,NCR, SECOND DISTRICT
+  PCN: 2031-8439-2460-5291
+ExtractFieldsFromReadResultOfPHNI (6.5447484 sec)
+
+scanPHNIResult.Success: True
+scanPHNIResult.Error:
+scanPHNIResult.lastNameOrFullName: ENRICO
+scanPHNIResult.firstName: CHRISTIAN
+scanPHNIResult.middleName: CORONEL
+scanPHNIResult.documentNumber: 2031-8439-2460-5291
+scanPHNIResult.nationality: PH
+scanPHNIResult.documentIssueDate: 2021-11-14
+scanPHNIResult.documentExpirationDate:
+scanPHNIResult.addressLine1: SITIO SILANGAN, MABATO, ROSARIO BATANGAS
+scanPHNIResult.addressLine2:
+scanPHNIResult.postcode:
+scanPHNIResult.gender: M
+scanPHNIResult.dateOfBirth: 1997-07-03
+ --> IsValid: True
+Try OmniParser OCR...
+ScanPHNI imageFileName: F:\WORK\Dev\huggingface\work\ScanID\test1\bin\Debug\net8.0\testdata\PhilID_2031-8439-2460-5291_Test2.jpg
+ScanPHNI backImageFileName: F:\WORK\Dev\huggingface\work\ScanID\test1\bin\Debug\net8.0\testdata\PhilID_2031-8439-2460-5291_Test2_Back.jpg
+ScanPHNI front...
+PostOCRWithRegionRequest start...
+PostOCRWithRegionRequest PostAsync start...
+PostOCRWithRegionRequest PostAsync (0.7915727 sec)
+
+(0.7948393 sec)
+
+(  165.0,    75.0)-(  249.0,    89.0)    84.0 :    14.0 REPUBLIKA NG ()
+(  139.0,    99.0)-(  329.0,   113.0)   190.0 :    14.0 PAMBANSANG PAGKAKAKILANLAN ()
+(   57.0,   133.0)-(  189.0,   147.0)   132.0 :    14.0 2031-8439-2460-5291 ()
+(  215.0,   161.0)-(  269.0,   175.0)    54.0 :    14.0 ENRICO ()
+(  215.0,   187.0)-(  289.0,   203.0)    74.0 :    16.0 CHRISTIAN ()
+(  215.0,   225.0)-(  281.0,   241.0)    66.0 :    16.0 CORONEL ()
+(  281.0,   253.0)-(  305.0,   267.0)    24.0 :    14.0 997 ()
+(   61.0,   279.0)-(   91.0,   293.0)    30.0 :    14.0 SITIQ ()
+(  185.0,   277.0)-(  233.0,   291.0)    48.0 :    14.0 ROSARIO ()
+Estimating resolution as 114
+REPUBLIKA NG F
+Before: (  165.0,    75.0)-(  249.0,    89.0)    84.0 :    14.0 REPUBLIKA NG ()
+After: (  173.0,    77.0)-(  266.0,    88.0)    93.0 :    11.0 REPUBLIKA NG ()
+Estimating resolution as 115
+PAMBANSANG PAGKAKAKILANLAN
+Before: (  139.0,    99.0)-(  329.0,   113.0)   190.0 :    14.0 PAMBANSANG PAGKAKAKILANLAN ()
+After: (  151.0,   102.0)-(  348.0,   117.0)   197.0 :    11.0 PAMBANSANG PAGKAKAKILANLAN ()
+Estimating resolution as 134
+2031-8439-2460-5291
+Before: (   57.0,   133.0)-(  189.0,   147.0)   132.0 :    14.0 2031-8439-2460-5291 ()
+After: (   65.0,   135.0)-(  200.0,   147.0)   135.0 :    12.0 2031-8439-2460-5291 ()
+Estimating resolution as 124
+ENRICO
+Before: (  215.0,   161.0)-(  269.0,   175.0)    54.0 :    14.0 ENRICO ()
+After: (  220.0,   163.0)-(  274.0,   175.0)    54.0 :    12.0 ENRICO ()
+Estimating resolution as 123
+CHRISTIAN
+Before: (  215.0,   187.0)-(  289.0,   203.0)    74.0 :    16.0 CHRISTIAN ()
+After: (  221.0,   190.0)-(  295.0,   203.0)    74.0 :    13.0 CHRISTIAN ()
+Estimating resolution as 122
+CORONEL
+Before: (  215.0,   225.0)-(  281.0,   241.0)    66.0 :    16.0 CORONEL ()
+After: (  221.0,   229.0)-(  290.0,   242.0)    69.0 :    13.0 CORONEL ()
+Estimating resolution as 133
+Error in boxClipToRectangle: box outside rectangle
+Error in pixScanForForeground: invalid box
+997
+Before: (  281.0,   253.0)-(  305.0,   267.0)    24.0 :    14.0 997 ()
+After: (  281.0,   255.0)-(  304.0,   267.0)    23.0 :    12.0 997 (0.949999988079071)
+Estimating resolution as 122
+SIMO ¢
+Estimating resolution as 125
+==== Lines read by Tesseract ====
+(    8.0,     2.0)-(   93.0,    11.0)    85.0 :     9.0 REPUBLIKA NG F (0.5899999737739563)
+(   12.0,     3.0)-(  197.0,    15.0)   185.0 :     8.0 PAMBANSANG PAGKAKAKILANLAN (0.800000011920929)
+(    8.0,     2.0)-(  135.0,    12.0)   127.0 :    10.0 2031-8439-2460-5291 (0.8899999856948853)
+(    5.0,     2.0)-(   54.0,    12.0)    49.0 :    10.0 ENRICO (0.8799999952316284)
+(    6.0,     3.0)-(   74.0,    13.0)    68.0 :    10.0 CHRISTIAN (0.8899999856948853)
+(    6.0,     4.0)-(   69.0,    13.0)    63.0 :     9.0 CORONEL (0.8100000023841858)
+(    0.0,     2.0)-(   23.0,    12.0)    23.0 :    10.0 997 (0.949999988079071)
+(    4.0,     3.0)-(   33.0,    12.0)    29.0 :     9.0 SIMO ¢ (0.4399999976158142)
+======================
+==== Merged lines ====
+(  173.0,    77.0)-(  266.0,    88.0)    93.0 :    11.0 REPUBLIKA NG ()
+(  151.0,   102.0)-(  348.0,   117.0)   197.0 :    11.0 PAMBANSANG PAGKAKAKILANLAN ()
+(   65.0,   135.0)-(  200.0,   147.0)   135.0 :    12.0 2031-8439-2460-5291 ()
+(  220.0,   163.0)-(  274.0,   175.0)    54.0 :    12.0 ENRICO ()
+(  221.0,   190.0)-(  295.0,   203.0)    74.0 :    13.0 CHRISTIAN ()
+(  221.0,   229.0)-(  290.0,   242.0)    69.0 :    13.0 CORONEL ()
+(  281.0,   255.0)-(  304.0,   267.0)    23.0 :    12.0 997 (0.949999988079071)
+(   61.0,   277.0)-(  233.0,   293.0)   172.0 :    16.0 SITIQ             ROSARIO ()
+======================
+ExtractFieldsFromReadResultOfPHNI start...
+ExtractFieldsFromReadResultOfPHNI (0.0401097 sec)
+
+ScanPHNI back...
+Scan QR code...
+Failed to read QR code. Try OCR
+PostOCRWithRegionRequest start...
+PostOCRWithRegionRequest PostAsync start...
+PostOCRWithRegionRequest PostAsync (0.7449453 sec)
+
+(0.7469013 sec)
+
+(  130.0,   136.0)-(  174.0,   144.0)    44.0 :     8.0 HOUFMBEK ()
+(  121.0,   163.0)-(  159.0,   177.0)    38.0 :    14.0 MALE ()
+(  119.0,   194.0)-(  172.0,   218.0)    53.0 :    24.0 SINGLE ()
+==== Merged lines ====
+(  130.0,   136.0)-(  174.0,   144.0)    44.0 :     8.0 HOUFMBEK ()
+(  121.0,   163.0)-(  159.0,   177.0)    38.0 :    14.0 MALE ()
+(  119.0,   194.0)-(  172.0,   218.0)    53.0 :    24.0 SINGLE ()
+======================
+Estimating resolution as 122
+MALE
+Before: (  121.0,   163.0)-(  159.0,   177.0)    38.0 :    14.0 MALE ()
+After: (  124.0,   165.0)-(  161.0,   180.0)    37.0 :    12.0 MALE ()
+Estimating resolution as 195
+
+==== Lines read by Tesseract ====
+(    3.0,     2.0)-(   37.0,    15.0)    34.0 :    10.0 MALE (0.8399999737739563)
+======================
+ExtractFieldsFromReadResultOfPHNIBK start...
+CalcPixelPerInch failed
+ExtractFieldsFromReadResultOfPHNI (0.0043104 sec)
+
+scanPHNIResult.Success: True
+scanPHNIResult.Error:
+scanPHNIResult.lastNameOrFullName: ENRICO
+scanPHNIResult.firstName: CHRISTIAN
+scanPHNIResult.middleName: CORONEL
+scanPHNIResult.documentNumber: 2031-8439-2460-5291
+scanPHNIResult.nationality: PH
+scanPHNIResult.documentIssueDate:
+scanPHNIResult.documentExpirationDate:
+scanPHNIResult.addressLine1: SITIQ             ROSARIO
+scanPHNIResult.addressLine2:
+scanPHNIResult.postcode:
+scanPHNIResult.gender:
+scanPHNIResult.dateOfBirth:
+
+[1]
+  Scanned Data: dateOfBirth:
+  Expected    : dateOfBirth: 1997-07-03
+
+[2]
+  Scanned Data: addressLine1: SITIQ             ROSARIO
+  Expected    : addressLine1: SITIO SILANGAN, MABATO, ROSARIO BATANGAS
+
+[3]
+  Scanned Data: gender:
+  Expected    : gender: M
+ --> IsValid: False
+Try OmniParser OCR...
+ScanPHNI imageFileName: F:\WORK\Dev\huggingface\work\ScanID\test1\bin\Debug\net8.0\testdata\PhilID_5931-9426-7546-1037_Test1.jpg
+ScanPHNI backImageFileName: F:\WORK\Dev\huggingface\work\ScanID\test1\bin\Debug\net8.0\testdata\PhilID_5931-9426-7546-1037_Test1_Back.jpg
+ScanPHNI front...
+PostOCRWithRegionRequest start...
+PostOCRWithRegionRequest PostAsync start...
+PostOCRWithRegionRequest PostAsync (7.6387532 sec)
+
+(7.6422767 sec)
+
+(  523.0,   519.0)-( 1005.0,   563.0)   482.0 :    44.0 REPUBLIKA NG PILIPINAS ()
+(  577.0,   567.0)-(  953.0,   607.0)   376.0 :    40.0 REPUBLIC OF THE PHILIPPINES ()
+(  428.0,   602.0)-( 1100.0,   650.0)   672.0 :    48.0 PAMBANSANG PAGKAKAKILANLAN ()
+(  558.0,   650.0)-(  969.0,   692.0)   411.0 :    42.0 PHILIPPINE IDENTIFICATION CARD ()
+(  143.0,   713.0)-(  610.0,   768.0)   467.0 :    55.0 5931-9426-7546-1037 ()
+(  697.0,   777.0)-(  985.0,   815.0)   288.0 :    38.0 APELYIDO/LAST NAME ()
+(  700.0,   816.0)-( 1032.0,   866.0)   332.0 :    50.0 DELOS REYES ()
+(  699.0,   869.0)-( 1095.0,   912.0)   396.0 :    43.0 MGA PANGALAN/GIVEN NAMES ()
+(  696.0,   920.0)-( 1100.0,   972.0)   404.0 :    52.0 CHRISTIAN MARX ()
+(  693.0,  1009.0)-( 1140.0,  1053.0)   447.0 :    44.0 GITNANG APELYIDO/ MIDDLE NAME ()
+(  696.0,  1056.0)-(  888.0,  1106.0)   192.0 :    50.0 LOZADA ()
+(  697.0,  1105.0)-( 1221.0,  1147.0)   524.0 :    42.0 PETSA NG KAPANGANAKAN/DATE OF BIRTH ()
+(  694.0,  1152.0)-(  894.0,  1202.0)   200.0 :    50.0 JEYNE 06, ()
+(  906.0,  1156.0)-( 1018.0,  1204.0)   112.0 :    48.0 1988 ()
+(  163.0,  1201.0)-(  397.0,  1239.0)   234.0 :    38.0 TIRAHAN/ADDRESS ()
+( 1314.0,  1176.0)-( 1426.0,  1232.0)   112.0 :    56.0 PHL ()
+(  167.0,  1239.0)-(  243.0,  1283.0)    76.0 :    44.0 BLK ()
+(  273.0,  1241.0)-(  701.0,  1285.0)   428.0 :    44.0 LOT 10 D SUNLIGHT VIEW ()
+(  791.0,  1242.0)-( 1056.0,  1290.0)   265.0 :    48.0 SINDALAN; CITY ()
+(  164.0,  1278.0)-(  694.0,  1326.0)   530.0 :    48.0 OF SAN FERNANDO; PAMPANGA ()
+Estimating resolution as 365
+REPUBLIKA NG PILIPINAS
+Before: (  523.0,   519.0)-( 1005.0,   563.0)   482.0 :    44.0 REPUBLIKA NG PILIPINAS ()
+After: (  555.0,   530.0)-( 1056.0,   571.0)   501.0 :    39.0 REPUBLIKA NG PILIPINAS (0.9100000262260437)
+Estimating resolution as 289
+Republic of the Philippines
+Before: (  577.0,   567.0)-(  953.0,   607.0)   376.0 :    40.0 REPUBLIC OF THE PHILIPPINES ()
+After: (  601.0,   573.0)-(  989.0,   609.0)   388.0 :    29.0 REPUBLIC OF THE PHILIPPINES ()
+Estimating resolution as 372
+- PAMBANSANG PAGKAKAKILANLAN
+Before: (  428.0,   602.0)-( 1100.0,   650.0)   672.0 :    48.0 PAMBANSANG PAGKAKAKILANLAN ()
+After: (  428.0,   602.0)-( 1127.0,   655.0)   699.0 :    40.0 PAMBANSANG PAGKAKAKILANLAN ()
+Estimating resolution as 283
+~Philippine Identification Caka '
+
+Estimating resolution as 432
+5931-9426-754
+
+Estimating resolution as 276
+
+
+Apelyido/Last Name
+Estimating resolution as 444
+DELOS REYES
+Before: (  700.0,   816.0)-( 1032.0,   866.0)   332.0 :    50.0 DELOS REYES ()
+After: (  721.0,   825.0)-( 1064.0,   872.0)   343.0 :    43.0 DELOS REYES ()
+Estimating resolution as 270
+- Mga Pangalan/Given`/`\lqme's-
+Estimating resolution as 426
+CHRISTIAN MARX
+Before: (  696.0,   920.0)-( 1100.0,   972.0)   404.0 :    52.0 CHRISTIAN MARX ()
+After: (  724.0,   931.0)-( 1143.0,   979.0)   419.0 :    45.0 CHRISTIAN MARX ()
+Estimating resolution as 280
+Gitnang Apelyido/Mit{dle Name
+Before: (  693.0,  1009.0)-( 1140.0,  1053.0)   447.0 :    44.0 GITNANG APELYIDO/ MIDDLE NAME ()
+After: (  723.0,  1019.0)-( 1186.0,  1066.0)   463.0 :    33.0 GITNANG APELYIDO/ MIDDLE NAME ()
+Estimating resolution as 422
+LOZADA
+Before: (  696.0,  1056.0)-(  888.0,  1106.0)   192.0 :    50.0 LOZADA ()
+After: (  696.0,  1068.0)-(  896.0,  1123.0)   200.0 :    46.0 LOZADA ()
+Estimating resolution as 299
+f{fg`???éa ng Ka panganaké`h/Date of Birth
+Before: (  697.0,  1105.0)-( 1221.0,  1147.0)   524.0 :    42.0 PETSA NG KAPANGANAKAN/DATE OF BIRTH ()
+After: (  697.0,  1105.0)-( 1241.0,  1152.0)   544.0 :    32.0 PETSA NG KAPANGANAKAN/DATE OF BIRTH ()
+Estimating resolution as 438
+JUNE 06,
+Before: (  694.0,  1152.0)-(  894.0,  1202.0)   200.0 :    50.0 JEYNE 06, ()
+After: (  699.0,  1152.0)-(  909.0,  1207.0)   210.0 :    46.0 JEYNE 06, ()
+Estimating resolution as 425
+1988
+Before: (  906.0,  1156.0)-( 1018.0,  1204.0)   112.0 :    48.0 1988 ()
+After: (  921.0,  1165.0)-( 1031.0,  1209.0)   110.0 :    42.0 1988 (0.9599999785423279)
+Estimating resolution as 291
+Tirahan/Address
+Before: (  163.0,  1201.0)-(  397.0,  1239.0)   234.0 :    38.0 TIRAHAN/ADDRESS ()
+After: (  178.0,  1208.0)-(  417.0,  1243.0)   239.0 :    30.0 TIRAHAN/ADDRESS ()
+Estimating resolution as 569
+Empty page!!
+Estimating resolution as 569
+Empty page!!
+Estimating resolution as 383
+BLK.
+Before: (  167.0,  1239.0)-(  243.0,  1283.0)    76.0 :    44.0 BLK ()
+After: (  177.0,  1249.0)-(  252.0,  1289.0)    75.0 :    40.0 BLK ()
+Estimating resolution as 395
+2 LOT 10 D, SUNLIGHT VIEWA
+Before: (  273.0,  1241.0)-(  701.0,  1285.0)   428.0 :    44.0 LOT 10 D SUNLIGHT VIEW ()
+After: (  274.0,  1241.0)-(  745.0,  1290.0)   471.0 :    53.0 LOT 10 D SUNLIGHT VIEW ()
+Estimating resolution as 399
+, SINDALAN, CITY
+Before: (  791.0,  1242.0)-( 1056.0,  1290.0)   265.0 :    48.0 SINDALAN; CITY ()
+After: (  795.0,  1244.0)-( 1069.0,  1297.0)   274.0 :    42.0 SINDALAN; CITY ()
+Estimating resolution as 385
+OF SAN FERNANDO. PAMPANGA ~
+Before: (  164.0,  1278.0)-(  694.0,  1326.0)   530.0 :    48.0 OF SAN FERNANDO; PAMPANGA ()
+After: (  199.0,  1278.0)-(  782.0,  1323.0)   583.0 :    40.0 OF SAN FERNANDO; PAMPANGA ()
+==== Lines read by Tesseract ====
+(   32.0,    11.0)-(  501.0,    41.0)   469.0 :    28.0 REPUBLIKA NG PILIPINAS (0.9100000262260437)
+(   24.0,     6.0)-(  388.0,    36.0)   364.0 :    23.0 Republic of the Philippines (0.8999999761581421)
+(    0.0,     0.0)-(  699.0,    53.0)   699.0 :    40.0 - PAMBANSANG PAGKAKAKILANLAN (0.6700000166893005)
+(    3.0,     2.0)-(  449.0,    47.0)   446.0 :    30.0 ~Philippine Identification Caka ' (0.6000000238418579)
+(    5.0,     4.0)-(  344.0,    60.0)   339.0 :    41.0 5931-9426-754 (0.6499999761581421)
+(   18.0,     3.0)-(  299.0,    41.0)   281.0 :    26.0 Apelyido/Last Name (0.9100000262260437)
+(   21.0,     9.0)-(  343.0,    47.0)   322.0 :    34.0 DELOS REYES (0.8999999761581421)
+(    0.0,     2.0)-(  417.0,    41.0)   417.0 :    31.0 - Mga Pangalan/Given`/`\lqme's- (0.1599999964237213)
+(   28.0,    11.0)-(  419.0,    48.0)   391.0 :    34.0 CHRISTIAN MARX (0.8999999761581421)
+(   30.0,    10.0)-(  463.0,    47.0)   433.0 :    23.0 Gitnang Apelyido/Mit{dle Name (0.7900000214576721)
+(    0.0,    12.0)-(  200.0,    55.0)   200.0 :    34.0 LOZADA (0.8700000047683716)
+(    0.0,     0.0)-(  544.0,    47.0)   544.0 :    32.0 f{fg`???éa ng Ka panganaké`h/Date of Birth (0.7300000190734863)
+(    5.0,     0.0)-(  210.0,    55.0)   205.0 :    46.0 JUNE 06, (0.7099999785423279)
+(   15.0,     9.0)-(  110.0,    44.0)    95.0 :    33.0 1988 (0.9599999785423279)
+(   15.0,     7.0)-(  239.0,    35.0)   224.0 :    23.0 Tirahan/Address (0.8999999761581421)
+(   10.0,    10.0)-(   75.0,    40.0)    65.0 :    30.0 BLK. (0.8899999856948853)
+(    1.0,     0.0)-(  471.0,    49.0)   470.0 :    53.0 2 LOT 10 D, SUNLIGHT VIEWA (0.800000011920929)
+(    4.0,     2.0)-(  274.0,    53.0)   270.0 :    40.0 , SINDALAN, CITY (0.800000011920929)
+(   35.0,     0.0)-(  583.0,    45.0)   548.0 :    40.0 OF SAN FERNANDO. PAMPANGA ~ (0.7799999713897705)
+======================
+==== Merged lines ====
+(  555.0,   530.0)-( 1056.0,   571.0)   501.0 :    39.0 REPUBLIKA NG PILIPINAS (0.9100000262260437)
+(  601.0,   573.0)-(  989.0,   609.0)   388.0 :    29.0 REPUBLIC OF THE PHILIPPINES ()
+(  428.0,   602.0)-( 1127.0,   655.0)   699.0 :    40.0 PAMBANSANG PAGKAKAKILANLAN ()
+(  558.0,   650.0)-(  969.0,   692.0)   411.0 :    42.0 PHILIPPINE IDENTIFICATION CARD ()
+(  143.0,   713.0)-(  610.0,   768.0)   467.0 :    55.0 5931-9426-7546-1037 ()
+(  697.0,   777.0)-(  985.0,   815.0)   288.0 :    38.0 APELYIDO/LAST NAME ()
+(  721.0,   825.0)-( 1064.0,   872.0)   343.0 :    43.0 DELOS REYES ()
+(  699.0,   869.0)-( 1095.0,   912.0)   396.0 :    43.0 MGA PANGALAN/GIVEN NAMES ()
+(  724.0,   931.0)-( 1143.0,   979.0)   419.0 :    45.0 CHRISTIAN MARX ()
+(  723.0,  1019.0)-( 1186.0,  1066.0)   463.0 :    33.0 GITNANG APELYIDO/ MIDDLE NAME ()
+(  696.0,  1068.0)-(  896.0,  1123.0)   200.0 :    46.0 LOZADA ()
+(  697.0,  1105.0)-( 1241.0,  1152.0)   544.0 :    32.0 PETSA NG KAPANGANAKAN/DATE OF BIRTH ()
+(  699.0,  1152.0)-( 1031.0,  1209.0)   332.0 :    57.0 JEYNE 06, 1988 ()
+(  178.0,  1208.0)-(  417.0,  1243.0)   239.0 :    30.0 TIRAHAN/ADDRESS ()
+( 1314.0,  1176.0)-( 1426.0,  1232.0)   112.0 :    56.0 PHL ()
+(  177.0,  1241.0)-( 1069.0,  1297.0)   892.0 :    56.0 BLK LOT 10 D SUNLIGHT VIEW  SINDALAN; CITY ()
+(  199.0,  1278.0)-(  782.0,  1323.0)   583.0 :    40.0 OF SAN FERNANDO; PAMPANGA ()
+======================
+ExtractFieldsFromReadResultOfPHNI start...
+ExtractFieldsFromReadResultOfPHNI (0.0802111 sec)
+
+ScanPHNI back...
+Scan QR code...
+ExtractFieldsFromReadResultOfPHNIBK start...
+{  "DateIssued": "12 September 2022",  "Issuer": "PSA",  "subject": {    "Suffix": "",    "lName": "DELOS REYES",    "fName": "CHRISTIAN MARX",    "mName": "LOZADA",    "sex": "Male",    "BF": "[1,9]",    "DOB": "June 06, 1988",    "POB": "City of Caloocan,NCR, THIRD DISTRICT",    "PCN": "5931-9426-7546-1037"  },  "alg": "EDDSA",  "signature": "H6WF1LJOcXPiMlE6VTBgamixsA8GqxJ3tJpxpSDmR9qoCMj4/jBKJo3PyP3PdtmMBwXa/ZlypuIOkkcZxqzrAw=="}
+DateIssued: 12 September 2022
+Issuer: PSA
+alg: EDDSA
+signature: H6WF1LJOcXPiMlE6VTBgamixsA8GqxJ3tJpxpSDmR9qoCMj4/jBKJo3PyP3PdtmMBwXa/ZlypuIOkkcZxqzrAw==
+subject:
+  Suffix:
+  lName: DELOS REYES
+  fName: CHRISTIAN MARX
+  mName: LOZADA
+  sex: Male
+  BT: [1,9]
+  DOB: June 06, 1988
+  POB: City of Caloocan,NCR, THIRD DISTRICT
+  PCN: 5931-9426-7546-1037
+ExtractFieldsFromReadResultOfPHNI (0.0150599 sec)
+
+scanPHNIResult.Success: True
+scanPHNIResult.Error:
+scanPHNIResult.lastNameOrFullName: DELOS REYES
+scanPHNIResult.firstName: CHRISTIAN MARX
+scanPHNIResult.middleName: LOZADA
+scanPHNIResult.documentNumber: 5931-9426-7546-1037
+scanPHNIResult.nationality: PH
+scanPHNIResult.documentIssueDate: 2022-09-12
+scanPHNIResult.documentExpirationDate:
+scanPHNIResult.addressLine1: BLK LOT 10 D SUNLIGHT VIEW  SINDALAN; CITY
+scanPHNIResult.addressLine2: OF SAN FERNANDO; PAMPANGA
+scanPHNIResult.postcode:
+scanPHNIResult.gender: M
+scanPHNIResult.dateOfBirth: 1988-06-06
+
+[1]
+  Scanned Data: addressLine1: BLK LOT 10 D SUNLIGHT VIEW  SINDALAN; CITY
+  Expected    : addressLine1: BLK. 2 LOT 10 D, SUNLIGHT VIEW VILL ., SINDALAN, CITY
+
+[2]
+  Scanned Data: addressLine2: OF SAN FERNANDO; PAMPANGA
+  Expected    : addressLine2: OF SAN FERNANDO, PAMPANGA
+
+[3]
+  Scanned Data: gender: M
+  Expected    : gender:
+ --> IsValid: False
+Try OmniParser OCR...
+ScanPHNI imageFileName: F:\WORK\Dev\huggingface\work\ScanID\test1\bin\Debug\net8.0\testdata\PhilID_5931-9426-7546-1037_Test2.jpg
+ScanPHNI backImageFileName: F:\WORK\Dev\huggingface\work\ScanID\test1\bin\Debug\net8.0\testdata\PhilID_5931-9426-7546-1037_Test2_Back.jpg
+ScanPHNI front...
+PostOCRWithRegionRequest start...
+PostOCRWithRegionRequest PostAsync start...
+PostOCRWithRegionRequest PostAsync (2.5003974 sec)
+
+(2.5030617 sec)
+
+(  262.0,   260.0)-(  508.0,   284.0)   246.0 :    24.0 REPUBLIKA NG PILIPINAS ()
+(  291.0,   287.0)-(  355.0,   305.0)    64.0 :    18.0 REPUBLIC ()
+(  401.0,   287.0)-(  481.0,   303.0)    80.0 :    16.0 PHILIPPINES ()
+(  213.0,   301.0)-(  554.0,   328.0)   341.0 :    27.0 PAMBANSANG PAGKAKAKILANLAN ()
+(  282.0,   327.0)-(  487.0,   348.0)   205.0 :    21.0 PHILIPPINE IDENTIFICATION CARD ()
+(   71.0,   357.0)-(  305.0,   385.0)   234.0 :    28.0 5931-9426-7546-1037 ()
+(  351.0,   393.0)-(  451.0,   409.0)   100.0 :    16.0 APELYIDO LAST ()
+(  352.0,   410.0)-(  520.0,   438.0)   168.0 :    28.0 DELOS REYES ()
+(  501.0,   441.0)-(  551.0,   457.0)    50.0 :    16.0 NAMES ()
+(  350.0,   464.0)-(  554.0,   490.0)   204.0 :    26.0 CHRISTIAN MARX ()
+(  350.0,   509.0)-(  575.0,   529.0)   225.0 :    20.0 GITNANG APELYIDO/ MIDDLE NAME ()
+(  364.0,   532.0)-(  448.0,   558.0)    84.0 :    26.0 OZADA ()
+(  393.0,   559.0)-(  615.0,   577.0)   222.0 :    18.0 NG KAPANGANAKAN/DATE OF BIRTH ()
+(  348.0,   580.0)-(  514.0,   608.0)   166.0 :    28.0 JUNE 06, 1988 ()
+(   82.0,   605.0)-(  199.0,   625.0)   117.0 :    20.0 TIRAHAN/ADDRESS ()
+(  662.0,   592.0)-(  720.0,   622.0)    58.0 :    30.0 PHL ()
+(   82.0,   624.0)-(  176.0,   648.0)    94.0 :    24.0 BLK 2 LOT ()
+(  216.0,   623.0)-(  391.0,   647.0)   175.0 :    24.0 SUNLIGHT VIEWVIEL ()
+(  398.0,   625.0)-(  488.0,   649.0)    90.0 :    24.0 SINDALAN; ()
+(   82.0,   642.0)-(  350.0,   668.0)   268.0 :    26.0 OF SAN FERNANDO; PAMPANGA ()
+Estimating resolution as 184
+REPUBLIKA NG PILIPINAS
+Before: (  262.0,   260.0)-(  508.0,   284.0)   246.0 :    24.0 REPUBLIKA NG PILIPINAS ()
+After: (  280.0,   268.0)-(  534.0,   290.0)   254.0 :    22.0 REPUBLIKA NG PILIPINAS (0.9100000262260437)
+Estimating resolution as 144
+
+Estimating resolution as 145
+Philippines
+Before: (  401.0,   287.0)-(  481.0,   303.0)    80.0 :    16.0 PHILIPPINES ()
+After: (  407.0,   289.0)-(  487.0,   306.0)    80.0 :    14.0 PHILIPPINES ()
+Estimating resolution as 187
+PAMBANSANG PAGKAKAKILANLAN
+Before: (  213.0,   301.0)-(  554.0,   328.0)   341.0 :    27.0 PAMBANSANG PAGKAKAKILANLAN ()
+After: (  237.0,   301.0)-(  592.0,   326.0)   355.0 :    23.0 PAMBANSANG PAGKAKAKILANLAN (0.9100000262260437)
+Estimating resolution as 145
+
+~Philippine Identification Card
+Estimating resolution as 222
+5931-9426-7546.1037
+Estimating resolution as 146
+`Apelyido/Last |
+Estimating resolution as 223
+DELOS REYES
+Before: (  352.0,   410.0)-(  520.0,   438.0)   168.0 :    28.0 DELOS REYES ()
+After: (  364.0,   417.0)-(  538.0,   442.0)   174.0 :    24.0 DELOS REYES (0.9100000262260437)
+Estimating resolution as 112
+Names
+Estimating resolution as 220
+CHRISTIAN MARX
+Before: (  350.0,   464.0)-(  554.0,   490.0)   204.0 :    26.0 CHRISTIAN MARX ()
+After: (  365.0,   470.0)-(  577.0,   495.0)   212.0 :    23.0 CHRISTIAN MARX ()
+Estimating resolution as 146
+Gitnang Apelyido/Middle Name
+Before: (  350.0,   509.0)-(  575.0,   529.0)   225.0 :    20.0 GITNANG APELYIDO/ MIDDLE NAME ()
+After: (  365.0,   514.0)-(  598.0,   534.0)   233.0 :    17.0 GITNANG APELYIDO/ MIDDLE NAME ()
+Estimating resolution as 217
+_OZADA
+Estimating resolution as 144
+a ng Kapanganakan/Date of Birth
+Before: (  393.0,   559.0)-(  615.0,   577.0)   222.0 :    18.0 NG KAPANGANAKAN/DATE OF BIRTH ()
+After: (  395.0,   561.0)-(  626.0,   579.0)   231.0 :    14.0 NG KAPANGANAKAN/DATE OF BIRTH ()
+Estimating resolution as 224
+JUNE 06, 1988
+Before: (  348.0,   580.0)-(  514.0,   608.0)   166.0 :    28.0 JUNE 06, 1988 ()
+After: (  361.0,   584.0)-(  531.0,   615.0)   170.0 :    23.0 JUNE 06, 1988 (0.9300000071525574)
+Estimating resolution as 145
+Tirahan/Address.
+Estimating resolution as 294
+Empty page!!
+Estimating resolution as 294
+Empty page!!
+Estimating resolution as 204
+
+Estimating resolution as 203
+) SUNLIGHT VIEWAAE
+Estimating resolution as 209
+Estimating resolution as 207
+OF SAN FERNANDO. PAMPANGA ~
+Before: (   82.0,   642.0)-(  350.0,   668.0)   268.0 :    26.0 OF SAN FERNANDO; PAMPANGA ()
+After: (  101.0,   642.0)-(  395.0,   667.0)   294.0 :    22.0 OF SAN FERNANDO; PAMPANGA ()
+==== Lines read by Tesseract ====
+(   18.0,     8.0)-(  254.0,    22.0)   236.0 :    14.0 REPUBLIKA NG PILIPINAS (0.9100000262260437)
+(    6.0,     2.0)-(   80.0,    17.0)    74.0 :    12.0 Philippines (0.8899999856948853)
+(   24.0,     0.0)-(  355.0,    25.0)   331.0 :    23.0 PAMBANSANG PAGKAKAKILANLAN (0.9100000262260437)
+(    6.0,     1.0)-(  224.0,    24.0)   218.0 :    16.0 ~Philippine Identification Card (0.6399999856948853)
+(   17.0,     5.0)-(  245.0,    30.0)   228.0 :    20.0 5931-9426-7546.1037 (0.2199999988079071)
+(    0.0,     1.0)-(  110.0,    16.0)   110.0 :    13.0 `Apelyido/Last | (0.4399999976158142)
+(   12.0,     7.0)-(  174.0,    25.0)   162.0 :    17.0 DELOS REYES (0.9100000262260437)
+(    3.0,     3.0)-(   50.0,    14.0)    47.0 :    11.0 Names (0.1599999964237213)
+(   15.0,     6.0)-(  212.0,    25.0)   197.0 :    17.0 CHRISTIAN MARX (0.8999999761581421)
+(   15.0,     5.0)-(  233.0,    20.0)   218.0 :    12.0 Gitnang Apelyido/Middle Name (0.7300000190734863)
+(    0.0,     7.0)-(   87.0,    24.0)    87.0 :    16.0 _OZADA (0.33000001311302185)
+(    2.0,     2.0)-(  231.0,    18.0)   229.0 :    12.0 a ng Kapanganakan/Date of Birth (0.8999999761581421)
+(   13.0,     4.0)-(  170.0,    31.0)   157.0 :    19.0 JUNE 06, 1988 (0.9300000071525574)
+(    8.0,     4.0)-(  121.0,    18.0)   113.0 :    12.0 Tirahan/Address. (0.33000001311302185)
+(    0.0,     0.0)-(  188.0,    27.0)   188.0 :    23.0 ) SUNLIGHT VIEWAAE (0.23999999463558197)
+(   19.0,     0.0)-(  294.0,    25.0)   275.0 :    22.0 OF SAN FERNANDO. PAMPANGA ~ (0.7699999809265137)
+======================
+==== Merged lines ====
+(  280.0,   268.0)-(  534.0,   290.0)   254.0 :    22.0 REPUBLIKA NG PILIPINAS (0.9100000262260437)
+(  291.0,   287.0)-(  487.0,   306.0)   196.0 :    19.0 REPUBLIC     PHILIPPINES ()
+(  237.0,   301.0)-(  592.0,   326.0)   355.0 :    23.0 PAMBANSANG PAGKAKAKILANLAN (0.9100000262260437)
+(  282.0,   327.0)-(  487.0,   348.0)   205.0 :    21.0 PHILIPPINE IDENTIFICATION CARD ()
+(   71.0,   357.0)-(  305.0,   385.0)   234.0 :    28.0 5931-9426-7546-1037 ()
+(  351.0,   393.0)-(  451.0,   409.0)   100.0 :    16.0 APELYIDO LAST ()
+(  364.0,   417.0)-(  538.0,   442.0)   174.0 :    24.0 DELOS REYES (0.9100000262260437)
+(  501.0,   441.0)-(  551.0,   457.0)    50.0 :    16.0 NAMES ()
+(  365.0,   470.0)-(  577.0,   495.0)   212.0 :    23.0 CHRISTIAN MARX ()
+(  365.0,   514.0)-(  598.0,   534.0)   233.0 :    17.0 GITNANG APELYIDO/ MIDDLE NAME ()
+(  364.0,   532.0)-(  448.0,   558.0)    84.0 :    26.0 OZADA ()
+(  395.0,   561.0)-(  626.0,   579.0)   231.0 :    14.0 NG KAPANGANAKAN/DATE OF BIRTH ()
+(  361.0,   584.0)-(  531.0,   615.0)   170.0 :    23.0 JUNE 06, 1988 (0.9300000071525574)
+(   82.0,   605.0)-(  199.0,   625.0)   117.0 :    20.0 TIRAHAN/ADDRESS ()
+(  662.0,   592.0)-(  720.0,   622.0)    58.0 :    30.0 PHL ()
+(   82.0,   623.0)-(  488.0,   649.0)   406.0 :    26.0 BLK 2 LOT   SUNLIGHT VIEWVIEL SINDALAN; ()
+(  101.0,   642.0)-(  395.0,   667.0)   294.0 :    22.0 OF SAN FERNANDO; PAMPANGA ()
+======================
+ExtractFieldsFromReadResultOfPHNI start...
+ExtractFieldsFromReadResultOfPHNI (0.0767477 sec)
+
+ScanPHNI back...
+Scan QR code...
+Failed to read QR code. Try OCR
+PostOCRWithRegionRequest start...
+PostOCRWithRegionRequest PostAsync start...
+PostOCRWithRegionRequest PostAsync (2.2336522 sec)
+
+(2.2373363 sec)
+
+(  111.0,   545.0)-(  229.0,   561.0)   118.0 :    16.0 SEPTEMBER 2022 ()
+(   95.0,   575.0)-(  177.0,   591.0)    82.0 :    16.0 KASARIAN/SEX ()
+(   90.0,   588.0)-(  154.0,   612.0)    64.0 :    24.0 MALE ()
+(  169.0,   609.0)-(  213.0,   625.0)    44.0 :    16.0 {BLOOD ()
+(   89.0,   621.0)-(  207.0,   645.0)   118.0 :    24.0 UNKNOWN ()
+(   95.0,   645.0)-(  291.0,   663.0)   196.0 :    18.0 KALAGAYANG SIBIL/MARITAL STATUS ()
+(   90.0,   656.0)-(  192.0,   680.0)   102.0 :    24.0 MARRIED ()
+(   95.0,   683.0)-(  133.0,   697.0)    38.0 :    14.0 LUGAR ()
+(  150.0,   677.0)-(  283.0,   698.0)   133.0 :    21.0 KAPANGANAKAN/PLACE ()
+(  301.0,   677.0)-(  333.0,   693.0)    32.0 :    16.0 BIRTH ()
+(  155.0,   697.0)-(  283.0,   717.0)   128.0 :    20.0 CALOOCAN NCR ()
+(   88.0,   716.0)-(  212.0,   740.0)   124.0 :    24.0 THIRD DISTRICT ()
+(   95.0,   789.0)-(  193.0,   805.0)    98.0 :    16.0 IF FOUND; PLEASE ()
+(  277.0,   789.0)-(  329.0,   803.0)    52.0 :    14.0 NEAREST ()
+(   95.0,   807.0)-(  163.0,   823.0)    68.0 :    16.0 PSA OFFICE ()
+(  371.0,   807.0)-(  423.0,   821.0)    52.0 :    14.0 PSA BOV ()
+==== Merged lines ====
+(  111.0,   545.0)-(  229.0,   561.0)   118.0 :    16.0 SEPTEMBER 2022 ()
+(   95.0,   575.0)-(  177.0,   591.0)    82.0 :    16.0 KASARIAN/SEX ()
+(   90.0,   588.0)-(  154.0,   612.0)    64.0 :    24.0 MALE ()
+(  169.0,   609.0)-(  213.0,   625.0)    44.0 :    16.0 {BLOOD ()
+(   89.0,   621.0)-(  207.0,   645.0)   118.0 :    24.0 UNKNOWN ()
+(   95.0,   645.0)-(  291.0,   663.0)   196.0 :    18.0 KALAGAYANG SIBIL/MARITAL STATUS ()
+(   90.0,   656.0)-(  192.0,   680.0)   102.0 :    24.0 MARRIED ()
+(   95.0,   677.0)-(  333.0,   698.0)   238.0 :    21.0 LUGAR  KAPANGANAKAN/PLACE BIRTH ()
+(  155.0,   697.0)-(  283.0,   717.0)   128.0 :    20.0 CALOOCAN NCR ()
+(   88.0,   716.0)-(  212.0,   740.0)   124.0 :    24.0 THIRD DISTRICT ()
+(   95.0,   789.0)-(  329.0,   805.0)   234.0 :    16.0 IF FOUND; PLEASE          NEAREST ()
+(   95.0,   807.0)-(  423.0,   823.0)   328.0 :    16.0 PSA OFFICE                          PSA BOV ()
+======================
+Estimating resolution as 134
+SEPTEMBER 2022
+Before: (  111.0,   545.0)-(  229.0,   561.0)   118.0 :    16.0 SEPTEMBER 2022 ()
+After: (  111.0,   547.0)-(  232.0,   560.0)   121.0 :    13.0 SEPTEMBER 2022 ()
+Estimating resolution as 134
+Kasarian/Sex
+Estimating resolution as 197
+MALE
+Before: (   90.0,   588.0)-(  154.0,   612.0)    64.0 :    24.0 MALE ()
+After: (   97.0,   588.0)-(  162.0,   615.0)    65.0 :    21.0 MALE (0.9200000166893005)
+Estimating resolution as 145
+/Blood
+Before: (  169.0,   609.0)-(  213.0,   625.0)    44.0 :    16.0 {BLOOD ()
+After: (  169.0,   609.0)-(  214.0,   626.0)    45.0 :    14.0 {BLOOD ()
+Estimating resolution as 198
+
+Estimating resolution as 133
+Error in boxClipToRectangle: box outside rectangle
+Error in pixScanForForeground: invalid box
+il/Marital Status",
+
+Estimating resolution as 196
+MARRIED
+Before: (   90.0,   656.0)-(  192.0,   680.0)   102.0 :    24.0 MARRIED ()
+After: (   99.0,   656.0)-(  204.0,   679.0)   105.0 :    23.0 MARRIED (0.9200000166893005)
+Estimating resolution as 113
+Lugar
+Before: (   95.0,   683.0)-(  133.0,   697.0)    38.0 :    14.0 LUGAR ()
+After: (   98.0,   683.0)-(  134.0,   696.0)    36.0 :    10.0 LUGAR ()
+Estimating resolution as 133
+; KapanganakanfPlace
+Estimating resolution as 138
+Birth
+Before: (  301.0,   677.0)-(  333.0,   693.0)    32.0 :    16.0 BIRTH ()
+After: (  305.0,   680.0)-(  337.0,   694.0)    32.0 :    14.0 BIRTH ()
+Estimating resolution as 187
+Empty page!!
+Estimating resolution as 187
+Empty page!!
+Estimating resolution as 194
+THIRD DISTRICE
+Before: (   88.0,   716.0)-(  212.0,   740.0)   124.0 :    24.0 THIRD DISTRICT ()
+After: (   99.0,   716.0)-(  236.0,   743.0)   137.0 :    22.0 THIRD DISTRICT ()
+Estimating resolution as 146
+
+Estimating resolution as 111
+nearest
+Before: (  277.0,   789.0)-(  329.0,   803.0)    52.0 :    14.0 NEAREST ()
+After: (  282.0,   791.0)-(  334.0,   802.0)    52.0 :    11.0 NEAREST ()
+Estimating resolution as 141
+PSA Office.
+Before: (   95.0,   807.0)-(  163.0,   823.0)    68.0 :    16.0 PSA OFFICE ()
+After: (  101.0,   809.0)-(  173.0,   825.0)    72.0 :    13.0 PSA OFFICE ()
+Estimating resolution as 130
+PSdi ROV
+==== Lines read by Tesseract ====
+(    0.0,     2.0)-(  121.0,    13.0)   121.0 :    11.0 SEPTEMBER 2022 (0.75)
+(    5.0,     2.0)-(   85.0,    15.0)    80.0 :    12.0 Kasarian/Sex (0.4399999976158142)
+(    7.0,     0.0)-(   65.0,    27.0)    58.0 :    21.0 MALE (0.9200000166893005)
+(    0.0,     0.0)-(   45.0,    17.0)    45.0 :    14.0 /Blood (0.6899999976158142)
+(  103.0,     0.0)-(  215.0,    19.0)   112.0 :    13.0 il/Marital Status", (0.47999998927116394)
+(    9.0,     0.0)-(  105.0,    23.0)    96.0 :    23.0 MARRIED (0.9200000166893005)
+(    3.0,     0.0)-(   36.0,    13.0)    33.0 :    10.0 Lugar (0.6399999856948853)
+(    0.0,     0.0)-(  146.0,    19.0)   146.0 :    17.0 ; KapanganakanfPlace (0.33000001311302185)
+(    4.0,     3.0)-(   32.0,    14.0)    28.0 :    11.0 Birth (0.6499999761581421)
+(   11.0,     0.0)-(  137.0,    27.0)   126.0 :    22.0 THIRD DISTRICE (0.6600000262260437)
+(    5.0,     2.0)-(   52.0,    11.0)    47.0 :     9.0 nearest (0.5699999928474426)
+(    6.0,     2.0)-(   72.0,    16.0)    66.0 :    11.0 PSA Office. (0.800000011920929)
+(    1.0,     2.0)-(   57.0,    13.0)    56.0 :     9.0 PSdi ROV (0.03999999910593033)
+======================
+ExtractFieldsFromReadResultOfPHNIBK start...
+ExtractFieldsFromReadResultOfPHNI (2.8066709 sec)
+
+scanPHNIResult.Success: True
+scanPHNIResult.Error:
+scanPHNIResult.lastNameOrFullName: DELOS REYES
+scanPHNIResult.firstName: CHRISTIAN MARX
+scanPHNIResult.middleName: OZADA
+scanPHNIResult.documentNumber: 5931-9426-7546-1037
+scanPHNIResult.nationality: PH
+scanPHNIResult.documentIssueDate:
+scanPHNIResult.documentExpirationDate:
+scanPHNIResult.addressLine1: BLK 2 LOT   SUNLIGHT VIEWVIEL SINDALAN;
+scanPHNIResult.addressLine2: OF SAN FERNANDO; PAMPANGA
+scanPHNIResult.postcode:
+scanPHNIResult.gender:
+scanPHNIResult.dateOfBirth: 1988-06-06
+
+[1]
+  Scanned Data: middleName: OZADA
+  Expected    : middleName: LOZADA
+
+[2]
+  Scanned Data: addressLine1: BLK 2 LOT   SUNLIGHT VIEWVIEL SINDALAN;
+  Expected    : addressLine1: BLK. 2 LOT 10 D, SUNLIGHT VIEW VILL ., SINDALAN, CITY
+
+[3]
+  Scanned Data: addressLine2: OF SAN FERNANDO; PAMPANGA
+  Expected    : addressLine2: OF SAN FERNANDO, PAMPANGA
+ --> IsValid: False
+Try OmniParser OCR...
+ScanPHNI imageFileName: F:\WORK\Dev\huggingface\work\ScanID\test1\bin\Debug\net8.0\testdata\PhilID_5931-9426-7546-1037_Test3.jpg
+ScanPHNI backImageFileName: F:\WORK\Dev\huggingface\work\ScanID\test1\bin\Debug\net8.0\testdata\PhilID_5931-9426-7546-1037_Test3_Back.jpg
+ScanPHNI front...
+PostOCRWithRegionRequest start...
+PostOCRWithRegionRequest PostAsync start...
+PostOCRWithRegionRequest PostAsync (0.7507657 sec)
+
+(0.7530245 sec)
+
+(  131.0,   131.0)-(  205.0,   143.0)    74.0 :    12.0 REPUBLIKA NG ()
+(  107.0,   151.0)-(  217.0,   165.0)   110.0 :    14.0 PAMBANSANG PAGKAL ()
+(   37.0,   178.0)-(  155.0,   195.0)   118.0 :    17.0 5931-9426-7546-1037 ()
+(  175.0,   205.0)-(  261.0,   219.0)    86.0 :    14.0 DELOS REYES ()
+(  175.0,   231.0)-(  215.0,   245.0)    40.0 :    14.0 CHRIS ()
+(  241.0,   233.0)-(  279.0,   247.0)    38.0 :    14.0 MARX ()
+(  183.0,   265.0)-(  225.0,   281.0)    42.0 :    16.0 OZADA ()
+(   62.0,   314.0)-(   86.0,   322.0)    24.0 :     8.0 ACO ()
+(  153.0,   313.0)-(  195.0,   327.0)    42.0 :    14.0 VEWYRI ()
+Estimating resolution as 97
+REPUBLIKA NG |
+Before: (  131.0,   131.0)-(  205.0,   143.0)    74.0 :    12.0 REPUBLIKA NG ()
+After: (  137.0,   134.0)-(  218.0,   144.0)    81.0 :    10.0 REPUBLIKA NG ()
+Estimating resolution as 101
+PAMBANSANG PAGKAK
+Before: (  107.0,   151.0)-(  217.0,   165.0)   110.0 :    14.0 PAMBANSANG PAGKAL ()
+After: (  116.0,   155.0)-(  235.0,   167.0)   119.0 :    11.0 PAMBANSANG PAGKAL ()
+Estimating resolution as 122
+
+Estimating resolution as 110
+DELOS REYES
+Before: (  175.0,   205.0)-(  261.0,   219.0)    86.0 :    14.0 DELOS REYES ()
+After: (  182.0,   209.0)-(  270.0,   222.0)    88.0 :    12.0 DELOS REYES ()
+Estimating resolution as 120
+CHRIST
+Before: (  175.0,   231.0)-(  215.0,   245.0)    40.0 :    14.0 CHRIS ()
+After: (  179.0,   235.0)-(  223.0,   248.0)    44.0 :    12.0 CHRIS ()
+Estimating resolution as 109
+MARX
+Before: (  241.0,   233.0)-(  279.0,   247.0)    38.0 :    14.0 MARX ()
+After: (  245.0,   236.0)-(  282.0,   247.0)    37.0 :    11.0 MARX ()
+Estimating resolution as 119
+OZADA
+Before: (  183.0,   265.0)-(  225.0,   281.0)    42.0 :    16.0 OZADA ()
+After: (  183.0,   269.0)-(  226.0,   282.0)    43.0 :    13.0 OZADA ()
+Estimating resolution as 108
+Estimating resolution as 108
+Estimating resolution as 117
+
+==== Lines read by Tesseract ====
+(    6.0,     3.0)-(   81.0,    10.0)    75.0 :     7.0 REPUBLIKA NG | (0.7099999785423279)
+(    9.0,     4.0)-(  119.0,    12.0)   110.0 :     7.0 PAMBANSANG PAGKAK (0.8999999761581421)
+(    7.0,     4.0)-(   88.0,    13.0)    81.0 :     8.0 DELOS REYES (0.6899999976158142)
+(    4.0,     4.0)-(   44.0,    13.0)    40.0 :     8.0 CHRIST (0.6899999976158142)
+(    4.0,     3.0)-(   37.0,    11.0)    33.0 :     8.0 MARX (0.8299999833106995)
+(    0.0,     4.0)-(   43.0,    13.0)    43.0 :     9.0 OZADA (0.5299999713897705)
+======================
+==== Merged lines ====
+(  137.0,   134.0)-(  218.0,   144.0)    81.0 :    10.0 REPUBLIKA NG ()
+(  116.0,   155.0)-(  235.0,   167.0)   119.0 :    11.0 PAMBANSANG PAGKAL ()
+(   37.0,   178.0)-(  155.0,   195.0)   118.0 :    17.0 5931-9426-7546-1037 ()
+(  182.0,   209.0)-(  270.0,   222.0)    88.0 :    12.0 DELOS REYES ()
+(  179.0,   235.0)-(  282.0,   248.0)   103.0 :    13.0 CHRIS   MARX ()
+(  183.0,   269.0)-(  226.0,   282.0)    43.0 :    13.0 OZADA ()
+(   62.0,   314.0)-(   86.0,   322.0)    24.0 :     8.0 ACO ()
+(  153.0,   313.0)-(  195.0,   327.0)    42.0 :    14.0 VEWYRI ()
+======================
+ExtractFieldsFromReadResultOfPHNI start...
+ExtractFieldsFromReadResultOfPHNI (0.0510061 sec)
+
+ScanPHNI back...
+Scan QR code...
+Failed to read QR code. Try OCR
+PostOCRWithRegionRequest start...
+PostOCRWithRegionRequest PostAsync start...
+PostOCRWithRegionRequest PostAsync (0.5609769 sec)
+
+(0.5634809 sec)
+
+(   45.0,   327.0)-(   97.0,   341.0)    52.0 :    14.0 MARRIED ()
+(   70.0,   360.0)-(  102.0,   368.0)    32.0 :     8.0 DIST?IC ()
+==== Merged lines ====
+(   45.0,   327.0)-(   97.0,   341.0)    52.0 :    14.0 MARRIED ()
+(   70.0,   360.0)-(  102.0,   368.0)    32.0 :     8.0 DIST?IC ()
+======================
+Estimating resolution as 97
+MARRIED
+Before: (   45.0,   327.0)-(   97.0,   341.0)    52.0 :    14.0 MARRIED ()
+After: (   50.0,   327.0)-(  103.0,   339.0)    53.0 :    12.0 MARRIED ()
+Estimating resolution as 103
+Empty page!!
+Estimating resolution as 103
+Empty page!!
+==== Lines read by Tesseract ====
+(    5.0,     0.0)-(   53.0,    12.0)    48.0 :    12.0 MARRIED (0.8500000238418579)
+======================
+ExtractFieldsFromReadResultOfPHNIBK start...
+CalcPixelPerInch failed
+ExtractFieldsFromReadResultOfPHNI (0.0026405 sec)
+
+scanPHNIResult.Success: False
+scanPHNIResult.Error: Failed to scan [GIVEN_NAMES,MIDDLE_NAME,ADDRESS1]
+scanPHNIResult.lastNameOrFullName: DELOS REYES
+scanPHNIResult.firstName:
+scanPHNIResult.middleName:
+scanPHNIResult.documentNumber: 5931-9426-7546-1037
+scanPHNIResult.nationality: PH
+scanPHNIResult.documentIssueDate:
+scanPHNIResult.documentExpirationDate:
+scanPHNIResult.addressLine1:
+scanPHNIResult.addressLine2:
+scanPHNIResult.postcode:
+scanPHNIResult.gender:
+scanPHNIResult.dateOfBirth:
+
+[1]
+  Scanned Data: firstName:
+  Expected    : firstName: CHRISTIAN MARX
+
+[2]
+  Scanned Data: middleName:
+  Expected    : middleName: LOZADA
+
+[3]
+  Scanned Data: dateOfBirth:
+  Expected    : dateOfBirth: 1988-06-06
+
+[4]
+  Scanned Data: addressLine1:
+  Expected    : addressLine1: BLK. 2 LOT 10 D, SUNLIGHT VIEW VILL ., SINDALAN, CITY
+
+[5]
+  Scanned Data: addressLine2:
+  Expected    : addressLine2: OF SAN FERNANDO, PAMPANGA
+ --> IsValid: False
+ObjectCache(00007FF9A1418480)::~ObjectCache(): WARNING! LEAK! object 000001F1081773B0 still has count 1 (id F:\WORK\Dev\huggingface\work\ScanID\test1\bin\Debug\net8.0\tessdata/eng.traineddatapunc-dawg)
+ObjectCache(00007FF9A1418480)::~ObjectCache(): WARNING! LEAK! object 000001F108177490 still has count 1 (id F:\WORK\Dev\huggingface\work\ScanID\test1\bin\Debug\net8.0\tessdata/eng.traineddataword-dawg)
+ObjectCache(00007FF9A1418480)::~ObjectCache(): WARNING! LEAK! object 000001F108177B90 still has count 1 (id F:\WORK\Dev\huggingface\work\ScanID\test1\bin\Debug\net8.0\tessdata/eng.traineddatanumber-dawg)
+ObjectCache(00007FF9A1418480)::~ObjectCache(): WARNING! LEAK! object 000001F1081772D0 still has count 1 (id F:\WORK\Dev\huggingface\work\ScanID\test1\bin\Debug\net8.0\tessdata/eng.traineddatabigram-dawg)
+ObjectCache(00007FF9A1418480)::~ObjectCache(): WARNING! LEAK! object 000001F1081776C0 still has count 1 (id F:\WORK\Dev\huggingface\work\ScanID\test1\bin\Debug\net8.0\tessdata/eng.traineddatafreq-dawg)
+
+F:\WORK\Dev\huggingface\work\ScanID\test1\bin\Debug\net8.0\test1.exe (process 28152) exited with code 0 (0x0).
+To automatically close the console when debugging stops, enable Tools->Options->Debugging->Automatically close the console when debugging stops.
+Press any key to close this window . . .

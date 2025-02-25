@@ -1,0 +1,3520 @@
+[19:00:27] ==== responseBody ====
+ {
+  "<OCR_WITH_REGION>": {
+    "labels": [
+      "</s>KAD PENGENALIAN",
+      "MALAYSIA",
+      "MyKad",
+      "IDENTIT CARD",
+      "730818-13-5230",
+      "NG HUI LING",
+      "NO 10-12 BLOK A VILLA KRYSTAL",
+      "JALAN SILAT LINCAH",
+      "730811-13.5230",
+      "BANDAR SELESA JAYA",
+      "81300 SKUDAI",
+      "WARGANEGARA",
+      "JOHOR",
+      "PEREMPUAN",
+      "K"
+    ],
+    "quad_boxes": [
+      [
+        244.18798828125,
+        561.4559936523438,
+        802.115966796875,
+        561.4559936523438,
+        802.115966796875,
+        601.7760009765625,
+        244.18798828125,
+        601.7760009765625
+      ],
+      [
+        244.18798828125,
+        593.7120361328125,
+        799.0919799804688,
+        593.7120361328125,
+        799.0919799804688,
+        656.2080078125,
+        244.18798828125,
+        656.2080078125
+      ],
+      [
+        892.8359985351562,
+        589.6799926757812,
+        1071.251953125,
+        587.6640014648438,
+        1071.251953125,
+        640.0800170898438,
+        892.8359985351562,
+        642.0960083007812
+      ],
+      [
+        244.18798828125,
+        644.1119995117188,
+        799.0919799804688,
+        644.1119995117188,
+        799.0919799804688,
+        684.4320068359375,
+        244.18798828125,
+        682.416015625
+      ],
+      [
+        153.46800231933594,
+        706.6080322265625,
+        552.635986328125,
+        708.6240234375,
+        552.635986328125,
+        763.0560302734375,
+        153.46800231933594,
+        761.0400390625
+      ],
+      [
+        148.93199157714844,
+        1047.31201171875,
+        405.97198486328125,
+        1047.31201171875,
+        405.97198486328125,
+        1089.6480712890625,
+        148.93199157714844,
+        1089.6480712890625
+      ],
+      [
+        148.93199157714844,
+        1148.112060546875,
+        747.6839599609375,
+        1148.112060546875,
+        747.6839599609375,
+        1188.4320068359375,
+        148.93199157714844,
+        1188.4320068359375
+      ],
+      [
+        148.93199157714844,
+        1182.384033203125,
+        531.468017578125,
+        1182.384033203125,
+        531.468017578125,
+        1218.6719970703125,
+        148.93199157714844,
+        1218.6719970703125
+      ],
+      [
+        1078.81201171875,
+        1210.6080322265625,
+        1213.3800048828125,
+        1212.6240234375,
+        1213.3800048828125,
+        1232.7840576171875,
+        1078.81201171875,
+        1230.76806640625
+      ],
+      [
+        148.93199157714844,
+        1216.656005859375,
+        561.7080078125,
+        1216.656005859375,
+        561.7080078125,
+        1252.9439697265625,
+        148.93199157714844,
+        1252.9439697265625
+      ],
+      [
+        148.93199157714844,
+        1250.927978515625,
+        401.4360046386719,
+        1250.927978515625,
+        401.4360046386719,
+        1287.216064453125,
+        148.93199157714844,
+        1287.216064453125
+      ],
+      [
+        1031.93994140625,
+        1246.89599609375,
+        1299.56396484375,
+        1248.9119873046875,
+        1299.56396484375,
+        1283.1839599609375,
+        1031.93994140625,
+        1281.16796875
+      ],
+      [
+        148.93199157714844,
+        1285.2000732421875,
+        275.94000244140625,
+        1285.2000732421875,
+        275.94000244140625,
+        1319.4720458984375,
+        148.93199157714844,
+        1319.4720458984375
+      ],
+      [
+        1161.971923828125,
+        1283.1839599609375,
+        1376.676025390625,
+        1283.1839599609375,
+        1376.676025390625,
+        1317.4560546875,
+        1161.971923828125,
+        1317.4560546875
+      ],
+      [
+        1344.9239501953125,
+        1319.4720458984375,
+        1370.6279296875,
+        1319.4720458984375,
+        1370.6279296875,
+        1347.696044921875,
+        1344.9239501953125,
+        1347.696044921875
+      ]
+    ]
+  }
+}
+
+==========
+'test1.exe' (CoreCLR: clrhost): Loaded 'F:\WORK\Dev\huggingface\work\ConsoleApp1\test1\bin\Debug\net8.0\Tesseract.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'test1.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.11\System.Reflection.Emit.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'test1.exe' (CoreCLR: clrhost): Loaded 'InteropRuntimeImplementer.LeptonicaApiSignaturesInstance'. 
+'test1.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.11\System.Reflection.Emit.ILGeneration.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'test1.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.11\System.Reflection.Primitives.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'test1.exe' (CoreCLR: clrhost): Loaded 'InteropRuntimeImplementer.TessApiSignaturesInstance'. 
+MergedLine [MALAYSIA]-[MYKAD] dist: 93.7440185546875 --> [MALAYSIA   MYKAD]
+'test1.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.11\System.Text.RegularExpressions.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'test1.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.11\System.Drawing.Primitives.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'test1.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.11\System.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'test1.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.11\System.Runtime.CompilerServices.VisualC.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'test1.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.11\System.Collections.NonGeneric.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+[19:00:29] --> KAD PENGENALAN
+[19:00:29] Left:244.18798828125 Top:561.4559936523438 Bottom:601.7760009765625
+[19:00:29] --> MALAYSIA
+[19:00:29] Left:244.18798828125 Top:590.6880187988281 Bottom:648.1440124511719
+[19:00:29] --> IDENTITY CARD
+[19:00:29] Left:244.18798828125 Top:644.1119995117188 Bottom:683.4240112304688
+[19:00:29] --> 
+[19:00:29] Left:153.46800231933594 Top:707.6160278320312 Bottom:762.0480346679688
+[19:00:29] --> WARGANEGARA
+[19:00:29] Left:1031.93994140625 Top:1247.9039916992188 Bottom:1282.1759643554688
+[19:00:29] --> PEREMPUAN
+[19:00:29] Left:1161.971923828125 Top:1283.1839599609375 Bottom:1317.4560546875
+KAD PENGENALAN PredictCenterYInPixel: 581.6159973144531
+KAD PENGENALAN PredictCenterXInPixel: 523.1519775390625
+MALAYSIA PredictCenterYInPixel: 619.416015625
+MALAYSIA PredictCenterXInPixel: 657.719970703125
+IDENTITY CARD PredictCenterYInPixel: 663.7680053710938
+IDENTITY CARD PredictCenterXInPixel: 521.6399841308594
+ PredictCenterYInPixel: 734.83203125
+ PredictCenterXInPixel: 353.05199432373047
+WARGANEGARA PredictCenterYInPixel: 1265.0399780273438
+WARGANEGARA PredictCenterXInPixel: 1165.751953125
+PEREMPUAN PredictCenterYInPixel: 1300.3200073242188
+PEREMPUAN PredictCenterXInPixel: 1269.323974609375
+'test1.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.11\System.Numerics.Vectors.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+loadTemplate MyKad_670_MyKad_Gray.png 39 61
+loadTemplate MyKad_670_Flag.png 75 138
+loadTemplate MyKad_670_Flag_Gray.png 71 138
+loadTemplate MyKad_670_Flag_MoonStar.png 25 33
+loadTemplate MyKad_670_Flag_MoonStar_Gray.png 27 30
+loadTemplate MyKad_670_Flower_Front_Gray.png 92 122
+loadTemplate MyKad_670_IC_Chip.png 103 118
+loadTemplate MyKad_670_IC_Chip_Gray.png 92 102
+loadTemplate MyKad_670_IC_Chip_old.png 99 108
+loadTemplate MyKad_670_IC_Chip_old_Gray.png 93 102
+loadTemplate MyKad_670_MSC_Gray.png 54 54
+loadTemplate MyKad_670_MyKad.png 39 59
+[19:00:29] MatchTemplateMyKadResult: System.Collections.Generic.Dictionary`2[System.String,ImgProcLib.MatchTemplateResultItem]
+[19:00:29] key: MyKad_670_Flag MatchResult: 0.8992674350738525 x: 485 y: 19 w: 138 h: 75
+[19:00:29] key: MyKad_670_Flag dist: 0.1340010253525745 
+[19:00:29] key: MyKad_670_Flag_Gray MatchResult: 0.8677037954330444 x: 484 y: 20 w: 138 h: 71
+[19:00:29] key: MyKad_670_Flag_Gray dist: 0.13777255078285952 
+[19:00:29] key: MyKad_670_Flag_MoonStar MatchResult: 0.8728597164154053 x: 497 y: 27 w: 33 h: 25
+[19:00:29] key: MyKad_670_Flag_MoonStar dist: 0.14075692547772883 
+[19:00:29] key: MyKad_670_Flag_MoonStar_Gray MatchResult: 0.9398698806762695 x: 498 y: 27 w: 30 h: 27
+[19:00:29] key: MyKad_670_Flag_MoonStar_Gray dist: 0.14484910164980944 
+[19:00:29] key: MyKad_670_Flower_Front_Gray MatchResult: 0.6941317915916443 x: 279 y: 316 w: 122 h: 92
+[19:00:29] key: MyKad_670_Flower_Front_Gray dist: 0.10049871350885896 
+[19:00:29] key: MyKad_670_IC_Chip MatchResult: 0.4417741000652313 x: 45 y: 130 w: 118 h: 103
+[19:00:29] key: MyKad_670_IC_Chip dist: 0.030923309539638785 
+[19:00:29] key: MyKad_670_IC_Chip_Gray MatchResult: 0.38101744651794434 x: 53 y: 135 w: 102 h: 92
+[19:00:29] key: MyKad_670_IC_Chip_Gray dist: 0.03041382832980791 
+[19:00:29] key: MyKad_670_IC_Chip_old MatchResult: 0.3123820424079895 x: 464 y: 166 w: 108 h: 99
+[19:00:29] key: MyKad_670_IC_Chip_old dist: 2.0477075498777824 
+[19:00:29] key: MyKad_670_IC_Chip_old_Gray MatchResult: 0.2680564522743225 x: 216 y: 57 w: 102 h: 93
+[19:00:29] key: MyKad_670_IC_Chip_old_Gray dist: 0.8732303321833942 
+[19:00:29] key: MyKad_670_MSC_Gray MatchResult: 0.8950484991073608 x: 236 y: 106 w: 54 h: 54
+[19:00:29] key: MyKad_670_MSC_Gray dist: 0.0494974831124345 
+[19:00:29] key: MyKad_670_MyKad MatchResult: 0.9252759218215942 x: 381 y: 10 w: 59 h: 39
+[19:00:29] key: MyKad_670_MyKad dist: 0.09753214150453471 
+[19:00:29] key: MyKad_670_MyKad_Gray MatchResult: 0.9531154632568359 x: 382 y: 11 w: 61 h: 39
+[19:00:29] key: MyKad_670_MyKad_Gray dist: 0.08753580215835886 
+[19:00:29] removed 1 lines predicted as label removed from lsLineMerged [height < labelHeightInPixel (27.94959986040328)].
+line: NG HUI LING EstimateCenterYInInch: 1.3700562090750366
+line: NO 10-12 BLOK A VILLA KRYSTAL EstimateCenterYInInch: 1.6199860655937244
+line: JALAN SILAT LINCAH EstimateCenterYInInch: 1.7007714336155308
+line: BANDAR SELESA JAYA EstimateCenterYInInch: 1.7866058680308192
+line: 81300 SKUDAI EstimateCenterYInInch: 1.8724404553091534
+line: JOHOR EstimateCenterYInInch: 1.9557505093907464
+line: K EstimateCenterYInInch: 2.0340113442158114
+[19:00:29] 730818-13-5230 --> IDNUM
+[19:00:29] WARGANEGARA --> CITIZENSHIP
+[19:00:29] PEREMPUAN --> GENDER
+mergedLinesNearToNationality: NG HUI LING EstimateCenterYInInch: 1.3700562090750366
+[19:00:29] NG HUI LING --> NAME
+[19:00:29] NO 10-12 BLOK A VILLA KRYSTAL --> ADDRESS1
+[19:00:29] JALAN SILAT LINCAH --> ADDRESS2
+[19:00:29] BANDAR SELESA JAYA --> ADDRESS3
+[19:00:29] 81300 SKUDAI --> ADDRESS4
+[19:00:29] JOHOR --> ADDRESS5
+[19:00:29] --> POSTCODE: 81300 CITY: SKUDAI
+[19:00:29] --> STATE: JOHOR
+'test1.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.11\System.Text.Encodings.Web.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'test1.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.11\System.Reflection.Emit.Lightweight.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+ScanIDDLResult: ScanID.ScanMyKadResult
+[19:00:43] ==== responseBody ====
+ {
+  "<OCR_WITH_REGION>": {
+    "labels": [
+      "</s>KAD PENGENALIAN",
+      "MALAYSIA",
+      "MyKad",
+      "IDENTITY CARD",
+      "730818-13-5230",
+      "NG HUI LING",
+      "NO 10-12 BLOK A VILLA KRYSTAL",
+      "JALAN SILAT LINCAH",
+      "730816-13.6230",
+      "BANDAR SELESA JAYA",
+      "81300 SKUDAI",
+      "WARGANEGARA",
+      "JOHOR",
+      "PEREMPUAN",
+      "K"
+    ],
+    "quad_boxes": [
+      [
+        122.093994140625,
+        280.7279968261719,
+        401.0579833984375,
+        280.7279968261719,
+        401.0579833984375,
+        300.88800048828125,
+        122.093994140625,
+        300.88800048828125
+      ],
+      [
+        122.093994140625,
+        296.85601806640625,
+        401.0579833984375,
+        296.85601806640625,
+        401.0579833984375,
+        327.09600830078125,
+        122.093994140625,
+        327.09600830078125
+      ],
+      [
+        446.4179992675781,
+        294.8399963378906,
+        536.3819580078125,
+        294.8399963378906,
+        536.3819580078125,
+        321.0480041503906,
+        446.4179992675781,
+        321.0480041503906
+      ],
+      [
+        122.093994140625,
+        321.0480041503906,
+        399.5459899902344,
+        321.0480041503906,
+        399.5459899902344,
+        342.21600341796875,
+        122.093994140625,
+        341.2080078125
+      ],
+      [
+        76.73400115966797,
+        353.30401611328125,
+        276.3179931640625,
+        354.31201171875,
+        276.3179931640625,
+        381.52801513671875,
+        76.73400115966797,
+        380.52001953125
+      ],
+      [
+        74.46599578857422,
+        523.656005859375,
+        203.7419891357422,
+        523.656005859375,
+        203.7419891357422,
+        544.8240356445312,
+        74.46599578857422,
+        544.8240356445312
+      ],
+      [
+        74.46599578857422,
+        573.0480346679688,
+        373.84197998046875,
+        574.0560302734375,
+        373.84197998046875,
+        594.2160034179688,
+        74.46599578857422,
+        593.2080078125
+      ],
+      [
+        74.46599578857422,
+        591.1920166015625,
+        265.7340087890625,
+        591.1920166015625,
+        265.7340087890625,
+        609.3359985351562,
+        74.46599578857422,
+        609.3359985351562
+      ],
+      [
+        537.8939819335938,
+        605.3040161132812,
+        607.4459838867188,
+        605.3040161132812,
+        607.4459838867188,
+        615.384033203125,
+        537.8939819335938,
+        615.384033203125
+      ],
+      [
+        74.46599578857422,
+        608.3280029296875,
+        280.85400390625,
+        608.3280029296875,
+        280.85400390625,
+        626.4719848632812,
+        74.46599578857422,
+        626.4719848632812
+      ],
+      [
+        74.46599578857422,
+        625.4639892578125,
+        201.4739990234375,
+        625.4639892578125,
+        201.4739990234375,
+        643.6080322265625,
+        74.46599578857422,
+        643.6080322265625
+      ],
+      [
+        514.4580078125,
+        623.447998046875,
+        649.781982421875,
+        624.4559936523438,
+        649.781982421875,
+        641.5919799804688,
+        514.4580078125,
+        640.583984375
+      ],
+      [
+        74.46599578857422,
+        642.6000366210938,
+        137.97000122070312,
+        642.6000366210938,
+        137.97000122070312,
+        658.72802734375,
+        74.46599578857422,
+        658.72802734375
+      ],
+      [
+        580.22998046875,
+        641.5919799804688,
+        688.3380126953125,
+        641.5919799804688,
+        688.3380126953125,
+        657.7200317382812,
+        580.22998046875,
+        657.7200317382812
+      ],
+      [
+        671.7059936523438,
+        659.7360229492188,
+        686.0700073242188,
+        659.7360229492188,
+        686.0700073242188,
+        673.8480224609375,
+        671.7059936523438,
+        673.8480224609375
+      ]
+    ]
+  }
+}
+
+==========
+MergedLine [MALAYSIA]-[MYKAD] dist: 45.360015869140625 --> [MALAYSIA   MYKAD]
+[19:00:43] --> KAD PENGENALAN
+[19:00:43] Left:122.093994140625 Top:280.7279968261719 Bottom:300.88800048828125
+[19:00:43] --> MALAYSIA
+[19:00:43] Left:122.093994140625 Top:295.84800720214844 Bottom:324.07200622558594
+[19:00:43] --> IDENTITY CARD
+[19:00:43] Left:122.093994140625 Top:321.0480041503906 Bottom:341.7120056152344
+[19:00:43] --> 
+[19:00:43] Left:76.73400115966797 Top:353.8080139160156 Bottom:381.0240173339844
+[19:00:43] --> WARGANEGARA
+[19:00:43] Left:514.4580078125 Top:623.9519958496094 Bottom:641.0879821777344
+[19:00:43] --> PEREMPUAN
+[19:00:43] Left:580.22998046875 Top:641.5919799804688 Bottom:657.7200317382812
+KAD PENGENALAN PredictCenterYInPixel: 290.80799865722656
+KAD PENGENALAN PredictCenterXInPixel: 261.57598876953125
+MALAYSIA PredictCenterYInPixel: 309.9600067138672
+MALAYSIA PredictCenterXInPixel: 329.23797607421875
+IDENTITY CARD PredictCenterYInPixel: 331.3800048828125
+IDENTITY CARD PredictCenterXInPixel: 260.8199920654297
+ PredictCenterYInPixel: 367.416015625
+ PredictCenterXInPixel: 176.52599716186523
+WARGANEGARA PredictCenterYInPixel: 632.5199890136719
+WARGANEGARA PredictCenterXInPixel: 582.1199951171875
+PEREMPUAN PredictCenterYInPixel: 649.656005859375
+PEREMPUAN PredictCenterXInPixel: 634.2839965820312
+loadTemplate MyKad_670_MyKad_Gray.png 39 61
+loadTemplate MyKad_670_Flag.png 75 138
+loadTemplate MyKad_670_Flag_Gray.png 71 138
+loadTemplate MyKad_670_Flag_MoonStar.png 25 33
+loadTemplate MyKad_670_Flag_MoonStar_Gray.png 27 30
+loadTemplate MyKad_670_Flower_Front_Gray.png 92 122
+loadTemplate MyKad_670_IC_Chip.png 103 118
+loadTemplate MyKad_670_IC_Chip_Gray.png 92 102
+loadTemplate MyKad_670_IC_Chip_old.png 99 108
+loadTemplate MyKad_670_IC_Chip_old_Gray.png 93 102
+loadTemplate MyKad_670_MSC_Gray.png 54 54
+loadTemplate MyKad_670_MyKad.png 39 59
+[19:00:43] MatchTemplateMyKadResult: System.Collections.Generic.Dictionary`2[System.String,ImgProcLib.MatchTemplateResultItem]
+[19:00:43] key: MyKad_670_Flag MatchResult: 0.9069625735282898 x: 486 y: 19 w: 138 h: 75
+[19:00:43] key: MyKad_670_Flag dist: 0.12915600582964396 
+[19:00:43] key: MyKad_670_Flag_Gray MatchResult: 0.8806713819503784 x: 485 y: 20 w: 138 h: 71
+[19:00:43] key: MyKad_670_Flag_Gray dist: 0.132876915961883 
+[19:00:43] key: MyKad_670_Flag_MoonStar MatchResult: 0.8668218851089478 x: 497 y: 28 w: 33 h: 25
+[19:00:43] key: MyKad_670_Flag_MoonStar dist: 0.14252197027243996 
+[19:00:43] key: MyKad_670_Flag_MoonStar_Gray MatchResult: 0.9275327920913696 x: 498 y: 28 w: 30 h: 27
+[19:00:43] key: MyKad_670_Flag_MoonStar_Gray dist: 0.14673534744277597 
+[19:00:43] key: MyKad_670_Flower_Front_Gray MatchResult: 0.7048064470291138 x: 279 y: 317 w: 122 h: 92
+[19:00:43] key: MyKad_670_Flower_Front_Gray dist: 0.10111870199806199 
+[19:00:43] key: MyKad_670_IC_Chip MatchResult: 0.47440704703330994 x: 45 y: 131 w: 118 h: 103
+[19:00:43] key: MyKad_670_IC_Chip dist: 0.03250002017388442 
+[19:00:43] key: MyKad_670_IC_Chip_Gray MatchResult: 0.4039057195186615 x: 53 y: 136 w: 102 h: 92
+[19:00:43] key: MyKad_670_IC_Chip_Gray dist: 0.031622795450333065 
+[19:00:43] key: MyKad_670_IC_Chip_old MatchResult: 0.31295937299728394 x: 464 y: 167 w: 108 h: 99
+[19:00:43] key: MyKad_670_IC_Chip_old dist: 2.0481470186646487 
+[19:00:43] key: MyKad_670_IC_Chip_old_Gray MatchResult: 0.2672053575515747 x: 217 y: 58 w: 102 h: 93
+[19:00:43] key: MyKad_670_IC_Chip_old_Gray dist: 0.8755605137078364 
+[19:00:43] key: MyKad_670_MSC_Gray MatchResult: 0.9269136190414429 x: 236 y: 107 w: 54 h: 54
+[19:00:43] key: MyKad_670_MSC_Gray dist: 0.0460977326305213 
+[19:00:43] key: MyKad_670_MyKad MatchResult: 0.9210540652275085 x: 382 y: 10 w: 59 h: 39
+[19:00:43] key: MyKad_670_MyKad dist: 0.09253387311026318 
+[19:00:43] key: MyKad_670_MyKad_Gray MatchResult: 0.9360542893409729 x: 383 y: 11 w: 61 h: 39
+[19:00:43] key: MyKad_670_MyKad_Gray dist: 0.08253796523923428 
+[19:00:43] removed 1 lines predicted as label removed from lsLineMerged [height < labelHeightInPixel (13.95520001602173)].
+line: NG HUI LING EstimateCenterYInInch: 1.3714186415989402
+line: NO 10-12 BLOK A VILLA KRYSTAL EstimateCenterYInInch: 1.6191714427857113
+line: JALAN SILAT LINCAH EstimateCenterYInInch: 1.7025983517800232
+line: BANDAR SELESA JAYA EstimateCenterYInInch: 1.788553339648239
+line: 81300 SKUDAI EstimateCenterYInInch: 1.8745084805941945
+line: JOHOR EstimateCenterYInInch: 1.9554074637923422
+line: K EstimateCenterYInInch: 2.03630629391275
+[19:00:43] 730818-13-5230 --> IDNUM
+[19:00:43] WARGANEGARA --> CITIZENSHIP
+[19:00:43] PEREMPUAN --> GENDER
+mergedLinesNearToNationality: NG HUI LING EstimateCenterYInInch: 1.3714186415989402
+[19:00:43] NG HUI LING --> NAME
+[19:00:43] NO 10-12 BLOK A VILLA KRYSTAL --> ADDRESS1
+[19:00:43] JALAN SILAT LINCAH --> ADDRESS2
+[19:00:43] BANDAR SELESA JAYA --> ADDRESS3
+[19:00:43] 81300 SKUDAI --> ADDRESS4
+[19:00:43] JOHOR --> ADDRESS5
+[19:00:43] --> POSTCODE: 81300 CITY: SKUDAI
+[19:00:43] --> STATE: JOHOR
+ScanIDDLResult: ScanID.ScanMyKadResult
+[19:00:56] ==== responseBody ====
+ {
+  "<OCR_WITH_REGION>": {
+    "labels": [
+      "</s>KAD PENGENALAN",
+      "MALAYSIA",
+      "MyKad",
+      "IDENTITY CARD",
+      "730818-13-5230",
+      "NG HUI LING",
+      "NO 10-12 BLOK A VILLA KRYSTAL",
+      "JALAN SILAT LINCAH",
+      "BANDAR SELESA JAYA",
+      "81300 SKUDAI",
+      "WARGANEGARA",
+      "JOHOR",
+      "PEREMPUAN",
+      "K"
+    ],
+    "quad_boxes": [
+      [
+        59.91299819946289,
+        139.3560028076172,
+        199.7729949951172,
+        139.3560028076172,
+        199.7729949951172,
+        149.43600463867188,
+        59.91299819946289,
+        149.43600463867188
+      ],
+      [
+        59.91299819946289,
+        147.9239959716797,
+        199.7729949951172,
+        147.9239959716797,
+        199.7729949951172,
+        162.54000854492188,
+        59.91299819946289,
+        162.54000854492188
+      ],
+      [
+        222.83099365234375,
+        146.91600036621094,
+        268.19097900390625,
+        146.91600036621094,
+        268.19097900390625,
+        160.02000427246094,
+        222.83099365234375,
+        160.02000427246094
+      ],
+      [
+        59.91299819946289,
+        160.02000427246094,
+        199.7729949951172,
+        160.02000427246094,
+        199.7729949951172,
+        170.60400390625,
+        59.91299819946289,
+        170.60400390625
+      ],
+      [
+        37.98899841308594,
+        176.14801025390625,
+        138.15899658203125,
+        177.156005859375,
+        138.15899658203125,
+        190.260009765625,
+        37.98899841308594,
+        189.2519989013672
+      ],
+      [
+        36.85499954223633,
+        261.3240051269531,
+        101.49299621582031,
+        261.3240051269531,
+        101.49299621582031,
+        271.9079895019531,
+        36.85499954223633,
+        271.9079895019531
+      ],
+      [
+        36.85499954223633,
+        286.02001953125,
+        186.92098999023438,
+        286.02001953125,
+        186.92098999023438,
+        296.60400390625,
+        36.85499954223633,
+        296.60400390625
+      ],
+      [
+        36.85499954223633,
+        295.59600830078125,
+        132.86700439453125,
+        295.59600830078125,
+        132.86700439453125,
+        304.16400146484375,
+        36.85499954223633,
+        304.16400146484375
+      ],
+      [
+        36.85499954223633,
+        303.156005859375,
+        139.29299926757812,
+        303.156005859375,
+        139.29299926757812,
+        313.2359924316406,
+        36.85499954223633,
+        313.2359924316406
+      ],
+      [
+        36.85499954223633,
+        312.2279968261719,
+        100.35900115966797,
+        312.2279968261719,
+        100.35900115966797,
+        321.3000183105469,
+        36.85499954223633,
+        321.3000183105469
+      ],
+      [
+        256.4729919433594,
+        311.2200012207031,
+        324.8909912109375,
+        312.2279968261719,
+        324.8909912109375,
+        321.3000183105469,
+        256.4729919433594,
+        320.2919921875
+      ],
+      [
+        36.85499954223633,
+        321.3000183105469,
+        68.60699462890625,
+        321.3000183105469,
+        68.60699462890625,
+        329.364013671875,
+        36.85499954223633,
+        329.364013671875
+      ],
+      [
+        288.6029968261719,
+        320.2919921875,
+        343.7909851074219,
+        321.3000183105469,
+        343.7909851074219,
+        329.364013671875,
+        288.6029968261719,
+        328.35601806640625
+      ],
+      [
+        335.09698486328125,
+        329.364013671875,
+        342.656982421875,
+        329.364013671875,
+        342.656982421875,
+        336.92401123046875,
+        335.09698486328125,
+        336.92401123046875
+      ]
+    ]
+  }
+}
+
+==========
+MergedLine [MALAYSIA]-[MYKAD] dist: 23.057998657226562 --> [MALAYSIA   MYKAD]
+[19:00:56] --> KAD PENGENALAN
+[19:00:56] Left:59.91299819946289 Top:139.3560028076172 Bottom:149.43600463867188
+[19:00:56] --> MALAYSIA
+[19:00:56] Left:59.91299819946289 Top:147.4199981689453 Bottom:161.2800064086914
+[19:00:56] --> IDENTITY CARD
+[19:00:56] Left:59.91299819946289 Top:160.02000427246094 Bottom:170.60400390625
+[19:00:56] --> 
+[19:00:56] Left:37.98899841308594 Top:176.65200805664062 Bottom:189.7560043334961
+[19:00:56] --> WARGANEGARA
+[19:00:56] Left:256.4729919433594 Top:311.7239990234375 Bottom:320.79600524902344
+[19:00:56] --> PEREMPUAN
+[19:00:56] Left:288.6029968261719 Top:320.79600524902344 Bottom:328.8600158691406
+KAD PENGENALAN PredictCenterYInPixel: 144.39600372314453
+KAD PENGENALAN PredictCenterXInPixel: 129.84299659729004
+MALAYSIA PredictCenterYInPixel: 154.35000228881836
+MALAYSIA PredictCenterXInPixel: 164.05198860168457
+IDENTITY CARD PredictCenterYInPixel: 165.31200408935547
+IDENTITY CARD PredictCenterXInPixel: 129.84299659729004
+ PredictCenterYInPixel: 183.20400619506836
+ PredictCenterXInPixel: 88.0739974975586
+WARGANEGARA PredictCenterYInPixel: 316.26000213623047
+WARGANEGARA PredictCenterXInPixel: 290.68199157714844
+PEREMPUAN PredictCenterYInPixel: 324.82801055908203
+PEREMPUAN PredictCenterXInPixel: 316.1969909667969
+loadTemplate MyKad_670_MyKad_Gray.png 39 61
+loadTemplate MyKad_670_Flag.png 75 138
+loadTemplate MyKad_670_Flag_Gray.png 71 138
+loadTemplate MyKad_670_Flag_MoonStar.png 25 33
+loadTemplate MyKad_670_Flag_MoonStar_Gray.png 27 30
+loadTemplate MyKad_670_Flower_Front_Gray.png 92 122
+loadTemplate MyKad_670_IC_Chip.png 103 118
+loadTemplate MyKad_670_IC_Chip_Gray.png 92 102
+loadTemplate MyKad_670_IC_Chip_old.png 99 108
+loadTemplate MyKad_670_IC_Chip_old_Gray.png 93 102
+loadTemplate MyKad_670_MSC_Gray.png 54 54
+loadTemplate MyKad_670_MyKad.png 39 59
+[19:00:57] MatchTemplateMyKadResult: System.Collections.Generic.Dictionary`2[System.String,ImgProcLib.MatchTemplateResultItem]
+[19:00:57] key: MyKad_670_Flag MatchResult: 0.9248754978179932 x: 486 y: 21 w: 138 h: 75
+[19:00:57] key: MyKad_670_Flag dist: 0.1320275495563976 
+[19:00:57] key: MyKad_670_Flag_Gray MatchResult: 0.8778839111328125 x: 485 y: 22 w: 138 h: 71
+[19:00:57] key: MyKad_670_Flag_Gray dist: 0.1353006829086288 
+[19:00:57] key: MyKad_670_Flag_MoonStar MatchResult: 0.8522087931632996 x: 498 y: 30 w: 33 h: 25
+[19:00:57] key: MyKad_670_Flag_MoonStar dist: 0.14199475840428702 
+[19:00:57] key: MyKad_670_Flag_MoonStar_Gray MatchResult: 0.9098764061927795 x: 499 y: 30 w: 30 h: 27
+[19:00:57] key: MyKad_670_Flag_MoonStar_Gray dist: 0.14647956032534287 
+[19:00:57] key: MyKad_670_Flower_Front_Gray MatchResult: 0.7195480465888977 x: 281 y: 318 w: 122 h: 92
+[19:00:57] key: MyKad_670_Flower_Front_Gray dist: 0.09219540836877041 
+[19:00:57] key: MyKad_670_IC_Chip MatchResult: 0.47199878096580505 x: 48 y: 132 w: 118 h: 103
+[19:00:57] key: MyKad_670_IC_Chip dist: 0.02304888700335885 
+[19:00:57] key: MyKad_670_IC_Chip_Gray MatchResult: 0.39543068408966064 x: 55 y: 137 w: 102 h: 92
+[19:00:57] key: MyKad_670_IC_Chip_Gray dist: 0.02500002384186075 
+[19:00:57] key: MyKad_670_IC_Chip_old MatchResult: 0.31245556473731995 x: 465 y: 168 w: 108 h: 99
+[19:00:57] key: MyKad_670_IC_Chip_old dist: 2.0535776611036893 
+[19:00:57] key: MyKad_670_IC_Chip_old_Gray MatchResult: 0.26772597432136536 x: 219 y: 59 w: 102 h: 93
+[19:00:57] key: MyKad_670_IC_Chip_old_Gray dist: 0.8824716500626694 
+[19:00:57] key: MyKad_670_MSC_Gray MatchResult: 0.9199733734130859 x: 237 y: 109 w: 54 h: 54
+[19:00:57] key: MyKad_670_MSC_Gray dist: 0.0360555259797305 
+[19:00:57] key: MyKad_670_MyKad MatchResult: 0.9100774526596069 x: 383 y: 12 w: 59 h: 39
+[19:00:57] key: MyKad_670_MyKad dist: 0.08782093486124308 
+[19:00:57] key: MyKad_670_MyKad_Gray MatchResult: 0.9304059743881226 x: 384 y: 13 w: 61 h: 39
+[19:00:57] key: MyKad_670_MyKad_Gray dist: 0.07850168554209175 
+[19:00:57] removed 0 lines predicted as label removed from lsLineMerged [height < labelHeightInPixel (7.016800133069355)].
+line: NG HUI LING EstimateCenterYInInch: 1.3676675290648401
+line: NO 10-12 BLOK A VILLA KRYSTAL EstimateCenterYInInch: 1.6140363842234056
+line: JALAN SILAT LINCAH EstimateCenterYInInch: 1.6995111751058252
+line: BANDAR SELESA JAYA EstimateCenterYInInch: 1.7824720105047942
+line: 81300 SKUDAI EstimateCenterYInInch: 1.867946953609768
+line: JOHOR EstimateCenterYInInch: 1.9534218967147416
+line: K EstimateCenterYInInch: 2.03135482114681
+[19:00:57] 730818-13-5230 --> IDNUM
+[19:00:57] WARGANEGARA --> CITIZENSHIP
+[19:00:57] PEREMPUAN --> GENDER
+mergedLinesNearToNationality: NG HUI LING EstimateCenterYInInch: 1.3676675290648401
+[19:00:57] NG HUI LING --> NAME
+[19:00:57] NO 10-12 BLOK A VILLA KRYSTAL --> ADDRESS1
+[19:00:57] JALAN SILAT LINCAH --> ADDRESS2
+[19:00:57] BANDAR SELESA JAYA --> ADDRESS3
+[19:00:57] 81300 SKUDAI --> ADDRESS4
+[19:00:57] JOHOR --> ADDRESS5
+[19:00:57] --> POSTCODE: 81300 CITY: SKUDAI
+[19:00:57] --> STATE: JOHOR
+ScanIDDLResult: ScanID.ScanMyKadResult
+[19:01:12] ==== responseBody ====
+ {
+  "<OCR_WITH_REGION>": {
+    "labels": [
+      "</s>TSB199616",
+      "Aif Tatabhasa KSSR Bahasa Malaysia",
+      "Siri Ekspres SPM BAHASA MAAYSIA",
+      "yakin",
+      "Crazy Cow",
+      "A press-the-button picture book",
+      "KAD PENGENALAN",
+      "Malaysia",
+      "MyKad",
+      "IDENTITY CARD",
+      "851026-14-5263",
+      "HAW FOO CHIEN",
+      "NO 660 BATU 5 1/4",
+      "JALAN GOMBAK",
+      "30000 KUALA LUMPUR",
+      "W. PERSERUTUUNKIL)",
+      "W. W. PERERUTUMKIL!"
+    ],
+    "quad_boxes": [
+      [
+        23.07499885559082,
+        2.196000099182129,
+        86.125,
+        2.196000099182129,
+        86.125,
+        15.860000610351562,
+        23.07499885559082,
+        15.860000610351562
+      ],
+      [
+        329.875,
+        0.24400000274181366,
+        637.324951171875,
+        0.24400000274181366,
+        637.324951171875,
+        21.715999603271484,
+        329.875,
+        20.739999771118164
+      ],
+      [
+        153.72499084472656,
+        38.30799865722656,
+        483.2749938964844,
+        38.30799865722656,
+        483.2749938964844,
+        58.80400085449219,
+        153.72499084472656,
+        58.80400085449219
+      ],
+      [
+        591.824951171875,
+        38.30799865722656,
+        649.6749877929688,
+        38.30799865722656,
+        649.6749877929688,
+        62.220001220703125,
+        591.824951171875,
+        62.220001220703125
+      ],
+      [
+        110.82499694824219,
+        70.51599884033203,
+        267.4749755859375,
+        71.49200439453125,
+        267.4749755859375,
+        102.23600006103516,
+        110.82499694824219,
+        101.26000213623047
+      ],
+      [
+        389.0249938964844,
+        81.25199890136719,
+        619.125,
+        82.71600341796875,
+        619.125,
+        102.23600006103516,
+        389.0249938964844,
+        100.77200317382812
+      ],
+      [
+        196.625,
+        121.7560043334961,
+        359.7749938964844,
+        121.7560043334961,
+        359.7749938964844,
+        134.44400024414062,
+        196.625,
+        134.44400024414062
+      ],
+      [
+        196.625,
+        131.51600646972656,
+        358.4749755859375,
+        131.51600646972656,
+        358.4749755859375,
+        148.10800170898438,
+        196.625,
+        148.10800170898438
+      ],
+      [
+        383.17498779296875,
+        130.052001953125,
+        435.17498779296875,
+        129.0760040283203,
+        435.17498779296875,
+        145.66799926757812,
+        383.17498779296875,
+        146.6439971923828
+      ],
+      [
+        196.625,
+        145.66799926757812,
+        358.4749755859375,
+        145.66799926757812,
+        358.4749755859375,
+        158.3560028076172,
+        196.625,
+        158.3560028076172
+      ],
+      [
+        171.92498779296875,
+        168.11599731445312,
+        292.8249816894531,
+        168.11599731445312,
+        292.8249816894531,
+        183.73199462890625,
+        171.92498779296875,
+        183.73199462890625
+      ],
+      [
+        172.5749969482422,
+        265.2279968261719,
+        278.5249938964844,
+        265.2279968261719,
+        278.5249938964844,
+        276.94000244140625,
+        172.5749969482422,
+        276.94000244140625
+      ],
+      [
+        175.17498779296875,
+        295.9720153808594,
+        270.0749816894531,
+        295.9720153808594,
+        270.0749816894531,
+        306.2200012207031,
+        175.17498779296875,
+        306.2200012207031
+      ],
+      [
+        177.125,
+        304.7560119628906,
+        259.0249938964844,
+        304.7560119628906,
+        259.0249938964844,
+        314.5159912109375,
+        177.125,
+        314.5159912109375
+      ],
+      [
+        177.125,
+        314.5159912109375,
+        290.875,
+        314.5159912109375,
+        290.875,
+        324.2760009765625,
+        177.125,
+        324.2760009765625
+      ],
+      [
+        177.125,
+        322.3240051269531,
+        288.92498779296875,
+        322.3240051269531,
+        288.92498779296875,
+        332.5719909667969,
+        177.125,
+        332.5719909667969
+      ],
+      [
+        450.1249694824219,
+        319.39599609375,
+        489.1249694824219,
+        319.39599609375,
+        489.1249694824219,
+        328.17999267578125,
+        450.1249694824219,
+        328.17999267578125
+      ]
+    ]
+  }
+}
+
+==========
+MergedLine [SIRI EKSPRES SPM BAHASA MAAYSIA]-[YAKIN] dist: 108.54995727539062 --> [SIRI EKSPRES SPM BAHASA MAAYSIA          YAKIN]
+MergedLine [MALAYSIA]-[MYKAD] dist: 24.70001220703125 --> [MALAYSIA  MYKAD]
+[19:01:12] --> KAD PENGENALAN
+[19:01:13] Left:196.625 Top:121.7560043334961 Bottom:134.44400024414062
+[19:01:13] --> MALAYSIA
+[19:01:13] Left:196.625 Top:130.29600524902344 Bottom:146.88800048828125
+[19:01:13] --> IDENTITY CARD
+[19:01:13] Left:196.625 Top:145.66799926757812 Bottom:158.3560028076172
+[19:01:13] --> 
+[19:01:13] Left:171.92498779296875 Top:168.11599731445312 Bottom:183.73199462890625
+KAD PENGENALAN PredictCenterYInPixel: 128.10000228881836
+KAD PENGENALAN PredictCenterXInPixel: 278.1999969482422
+MALAYSIA PredictCenterYInPixel: 138.59200286865234
+MALAYSIA PredictCenterXInPixel: 315.8999938964844
+IDENTITY CARD PredictCenterYInPixel: 152.01200103759766
+IDENTITY CARD PredictCenterXInPixel: 277.54998779296875
+ PredictCenterYInPixel: 175.9239959716797
+ PredictCenterXInPixel: 232.37498474121094
+loadTemplate MyKad_670_MyKad_Gray.png 39 61
+loadTemplate MyKad_670_Flag.png 75 138
+loadTemplate MyKad_670_Flag_Gray.png 71 138
+loadTemplate MyKad_670_Flag_MoonStar.png 25 33
+loadTemplate MyKad_670_Flag_MoonStar_Gray.png 27 30
+loadTemplate MyKad_670_Flower_Front_Gray.png 92 122
+loadTemplate MyKad_670_IC_Chip.png 103 118
+loadTemplate MyKad_670_IC_Chip_Gray.png 92 102
+loadTemplate MyKad_670_IC_Chip_old.png 99 108
+loadTemplate MyKad_670_IC_Chip_old_Gray.png 93 102
+loadTemplate MyKad_670_MSC_Gray.png 54 54
+loadTemplate MyKad_670_MyKad.png 39 59
+[19:01:13] MatchTemplateMyKadResult: System.Collections.Generic.Dictionary`2[System.String,ImgProcLib.MatchTemplateResultItem]
+[19:01:13] key: MyKad_670_Flag MatchResult: 0.7788314819335938 x: 461 y: 19 w: 138 h: 75
+[19:01:13] key: MyKad_670_Flag dist: 0.2521037438907343 
+[19:01:13] key: MyKad_670_Flag_Gray MatchResult: 0.7786531448364258 x: 458 y: 20 w: 138 h: 71
+[19:01:13] key: MyKad_670_Flag_Gray dist: 0.266423160676297 
+[19:01:13] key: MyKad_670_Flag_MoonStar MatchResult: 0.8510569334030151 x: 474 y: 29 w: 33 h: 25
+[19:01:13] key: MyKad_670_Flag_MoonStar dist: 0.2540915640433349 
+[19:01:13] key: MyKad_670_Flag_MoonStar_Gray MatchResult: 0.8347612023353577 x: 475 y: 29 w: 30 h: 27
+[19:01:13] key: MyKad_670_Flag_MoonStar_Gray dist: 0.2576941464154785 
+[19:01:13] key: MyKad_670_Flower_Front_Gray MatchResult: 0.5754343867301941 x: 261 y: 294 w: 122 h: 92
+[19:01:13] key: MyKad_670_Flower_Front_Gray dist: 0.21470904113113015 
+[19:01:13] key: MyKad_670_IC_Chip MatchResult: 0.22063066065311432 x: 433 y: 125 w: 118 h: 103
+[19:01:13] key: MyKad_670_IC_Chip dist: 1.9100801563357457 
+[19:01:13] key: MyKad_670_IC_Chip_Gray MatchResult: 0.2874733805656433 x: 0 y: 112 w: 102 h: 92
+[19:01:13] key: MyKad_670_IC_Chip_Gray dist: 0.31484123266837216 
+[19:01:13] key: MyKad_670_IC_Chip_old MatchResult: 0.30327752232551575 x: 209 y: 81 w: 108 h: 99
+[19:01:13] key: MyKad_670_IC_Chip_old dist: 0.8040405586531439 
+[19:01:13] key: MyKad_670_IC_Chip_old_Gray MatchResult: 0.25120991468429565 x: 213 y: 57 w: 102 h: 93
+[19:01:13] key: MyKad_670_IC_Chip_old_Gray dist: 0.859771023821313 
+[19:01:13] key: MyKad_670_MSC_Gray MatchResult: 0.8885892629623413 x: 225 y: 104 w: 54 h: 54
+[19:01:13] key: MyKad_670_MSC_Gray dist: 0.10062307498109728 
+[19:01:13] key: MyKad_670_MyKad MatchResult: 0.842243492603302 x: 363 y: 12 w: 59 h: 39
+[19:01:13] key: MyKad_670_MyKad dist: 0.18765003510095346 
+[19:01:13] key: MyKad_670_MyKad_Gray MatchResult: 0.8739826083183289 x: 364 y: 13 w: 61 h: 39
+[19:01:13] key: MyKad_670_MyKad_Gray dist: 0.1779396912058571 
+[19:01:13] removed 0 lines predicted as label removed from lsLineMerged [height < labelHeightInPixel (8.369198805421604)].
+line: TSB199616 EstimateCenterYInInch: -0.8428573131066358
+line: AIF TATABHASA KSSR BAHASA MALAYSIA EstimateCenterYInInch: -0.8285716009849838
+line: SIRI EKSPRES SPM BAHASA MAAYSIA          YAKIN EstimateCenterYInInch: -0.5051021656618448
+line: CRAZY COW EstimateCenterYInInch: -0.19591843410992335
+line: A PRESS-THE-BUTTON PICTURE BOOK EstimateCenterYInInch: -0.15102046807133432
+line: HAW FOO CHIEN EstimateCenterYInInch: 1.3489797377406993
+line: NO 660 BATU 5 1/4 EstimateCenterYInInch: 1.600000255292845
+line: JALAN GOMBAK EstimateCenterYInInch: 1.6714287810660833
+line: 30000 KUALA LUMPUR EstimateCenterYInInch: 1.753061400181863
+line: W. PERSERUTUUNKIL) EstimateCenterYInInch: 1.8204083651928153
+line: W. W. PERERUTUMKIL! EstimateCenterYInInch: 1.7897960851651915
+[19:01:13] 851026-14-5263 --> IDNUM
+mergedLinesNearToCitizenship: W. W. PERERUTUMKIL! EstimateCenterYInInch: 1.7897960851651915
+[19:01:13] W. W. PERERUTUMKIL! --> CITIZENSHIP
+mergedLinesNearToNationality: HAW FOO CHIEN EstimateCenterYInInch: 1.3489797377406993
+[19:01:13] HAW FOO CHIEN --> NAME
+[19:01:13] NO 660 BATU 5 1/4 --> ADDRESS1
+[19:01:13] JALAN GOMBAK --> ADDRESS2
+[19:01:13] 30000 KUALA LUMPUR --> ADDRESS3
+[19:01:13] W. PERSERUTUUNKIL) --> ADDRESS4
+mergedLinesNearToAddress5: CRAZY COW EstimateCenterYInInch: -0.19591843410992335
+mergedLinesNearToAddress5: SIRI EKSPRES SPM BAHASA MAAYSIA          YAKIN EstimateCenterYInInch: -0.5051021656618448
+mergedLinesNearToAddress5: AIF TATABHASA KSSR BAHASA MALAYSIA EstimateCenterYInInch: -0.8285716009849838
+mergedLinesNearToAddress5: TSB199616 EstimateCenterYInInch: -0.8428573131066358
+[19:01:13] --> POSTCODE: 30000 CITY: KUALA LUMPUR
+[19:01:13] --> STATE: W. PERSERUTUUNKIL)
+ExtractFieldsFromReadResultOfMyKad result NOT success
+ScanIDDLResult: ScanID.ScanMyKadResult
+[19:01:25] ==== responseBody ====
+ {
+  "<OCR_WITH_REGION>": {
+    "labels": [
+      "</s>KAD PENGENALAN",
+      "MALAYSIA",
+      "MyKad",
+      "DENTITY CARD",
+      "790604-12-536",
+      "ALEX CHAN",
+      "NO 77 JALAN BU 102",
+      "BANDAR UTAMA",
+      "47800 PETALING JAYA",
+      "WARGANEGARA",
+      "selANGOR",
+      "LELAKI",
+      "H"
+    ],
+    "quad_boxes": [
+      [
+        912.2879638671875,
+        407.55999755859375,
+        1682.5919189453125,
+        403.8800048828125,
+        1682.5919189453125,
+        455.3999938964844,
+        912.2879638671875,
+        459.08001708984375
+      ],
+      [
+        912.2879638671875,
+        453.55999755859375,
+        1676.06396484375,
+        453.55999755859375,
+        1676.06396484375,
+        527.1600341796875,
+        912.2879638671875,
+        527.1600341796875
+      ],
+      [
+        1796.8319091796875,
+        440.6800231933594,
+        2051.424072265625,
+        431.4800109863281,
+        2054.68798828125,
+        503.2400207519531,
+        1800.095947265625,
+        512.4400024414062
+      ],
+      [
+        935.135986328125,
+        521.6400146484375,
+        1676.06396484375,
+        521.6400146484375,
+        1676.06396484375,
+        571.3200073242188,
+        935.135986328125,
+        571.3200073242188
+      ],
+      [
+        788.2559814453125,
+        632.0400390625,
+        1356.1920166015625,
+        632.0400390625,
+        1356.1920166015625,
+        701.9600219726562,
+        788.2559814453125,
+        701.9600219726562
+      ],
+      [
+        771.9359741210938,
+        1106.760009765625,
+        1121.1839599609375,
+        1106.760009765625,
+        1121.1839599609375,
+        1161.9599609375,
+        771.9359741210938,
+        1161.9599609375
+      ],
+      [
+        768.6719970703125,
+        1294.4400634765625,
+        1303.968017578125,
+        1294.4400634765625,
+        1303.968017578125,
+        1345.9600830078125,
+        768.6719970703125,
+        1345.9600830078125
+      ],
+      [
+        768.6719970703125,
+        1342.280029296875,
+        1186.4639892578125,
+        1342.280029296875,
+        1186.4639892578125,
+        1391.9600830078125,
+        768.6719970703125,
+        1391.9600830078125
+      ],
+      [
+        768.6719970703125,
+        1391.9600830078125,
+        1336.6080322265625,
+        1391.9600830078125,
+        1336.6080322265625,
+        1441.6400146484375,
+        768.6719970703125,
+        1441.6400146484375
+      ],
+      [
+        2008.991943359375,
+        1360.6800537109375,
+        2387.615966796875,
+        1360.6800537109375,
+        2387.615966796875,
+        1406.6800537109375,
+        2008.991943359375,
+        1406.6800537109375
+      ],
+      [
+        768.6719970703125,
+        1439.800048828125,
+        1059.16796875,
+        1439.800048828125,
+        1059.16796875,
+        1487.6400146484375,
+        768.6719970703125,
+        1487.6400146484375
+      ],
+      [
+        2198.303955078125,
+        1406.6800537109375,
+        2364.76806640625,
+        1406.6800537109375,
+        2364.76806640625,
+        1449.0,
+        2198.303955078125,
+        1449.0
+      ],
+      [
+        2452.89599609375,
+        1450.8399658203125,
+        2492.06396484375,
+        1450.8399658203125,
+        2492.06396484375,
+        1483.9600830078125,
+        2452.89599609375,
+        1483.9600830078125
+      ]
+    ]
+  }
+}
+
+==========
+MergedLine [MALAYSIA]-[MYKAD] dist: 122.39996337890625 --> [MALAYSIA   MYKAD]
+[19:01:26] --> KAD PENGENALAN
+[19:01:26] Left:912.2879638671875 Top:405.7200012207031 Bottom:457.24000549316406
+[19:01:26] --> MALAYSIA
+[19:01:26] Left:912.2879638671875 Top:442.52000427246094 Bottom:515.2000274658203
+[19:01:26] --> IDENTITY CARD
+[19:01:26] Left:935.135986328125 Top:521.6400146484375 Bottom:571.3200073242188
+[19:01:26] --> WARGANEGARA
+[19:01:26] Left:2008.991943359375 Top:1360.6800537109375 Bottom:1406.6800537109375
+[19:01:26] --> LELAKI
+[19:01:26] Left:2198.303955078125 Top:1406.6800537109375 Bottom:1449
+KAD PENGENALAN PredictCenterYInPixel: 431.4800033569336
+KAD PENGENALAN PredictCenterXInPixel: 1297.43994140625
+MALAYSIA PredictCenterYInPixel: 478.8600158691406
+MALAYSIA PredictCenterXInPixel: 1482.6719970703125
+IDENTITY CARD PredictCenterYInPixel: 546.4800109863281
+IDENTITY CARD PredictCenterXInPixel: 1305.5999755859375
+WARGANEGARA PredictCenterYInPixel: 1383.6800537109375
+WARGANEGARA PredictCenterXInPixel: 2198.303955078125
+LELAKI PredictCenterYInPixel: 1427.8400268554688
+LELAKI PredictCenterXInPixel: 2281.5360107421875
+loadTemplate MyKad_670_MyKad_Gray.png 39 61
+loadTemplate MyKad_670_Flag.png 75 138
+loadTemplate MyKad_670_Flag_Gray.png 71 138
+loadTemplate MyKad_670_Flag_MoonStar.png 25 33
+loadTemplate MyKad_670_Flag_MoonStar_Gray.png 27 30
+loadTemplate MyKad_670_Flower_Front_Gray.png 92 122
+loadTemplate MyKad_670_IC_Chip.png 103 118
+loadTemplate MyKad_670_IC_Chip_Gray.png 92 102
+loadTemplate MyKad_670_IC_Chip_old.png 99 108
+loadTemplate MyKad_670_IC_Chip_old_Gray.png 93 102
+loadTemplate MyKad_670_MSC_Gray.png 54 54
+loadTemplate MyKad_670_MyKad.png 39 59
+[19:01:26] MatchTemplateMyKadResult: System.Collections.Generic.Dictionary`2[System.String,ImgProcLib.MatchTemplateResultItem]
+[19:01:26] key: MyKad_670_Flag MatchResult: 0.8256685137748718 x: 479 y: 15 w: 138 h: 75
+[19:01:26] key: MyKad_670_Flag dist: 0.16048763353475917 
+[19:01:26] key: MyKad_670_Flag_Gray MatchResult: 0.8961414098739624 x: 478 y: 16 w: 138 h: 71
+[19:01:26] key: MyKad_670_Flag_Gray dist: 0.16517046186065346 
+[19:01:26] key: MyKad_670_Flag_MoonStar MatchResult: 0.8753492832183838 x: 491 y: 24 w: 33 h: 25
+[19:01:26] key: MyKad_670_Flag_MoonStar dist: 0.16571817978055314 
+[19:01:26] key: MyKad_670_Flag_MoonStar_Gray MatchResult: 0.9375770092010498 x: 492 y: 24 w: 30 h: 27
+[19:01:26] key: MyKad_670_Flag_MoonStar_Gray dist: 0.1692077577671711 
+[19:01:26] key: MyKad_670_Flower_Front_Gray MatchResult: 0.8365224599838257 x: 278 y: 317 w: 122 h: 92
+[19:01:26] key: MyKad_670_Flower_Front_Gray dist: 0.10606597671702121 
+[19:01:26] key: MyKad_670_IC_Chip MatchResult: 0.6106634736061096 x: 40 y: 134 w: 118 h: 103
+[19:01:26] key: MyKad_670_IC_Chip dist: 0.06149189070605229 
+[19:01:26] key: MyKad_670_IC_Chip_Gray MatchResult: 0.6903286576271057 x: 48 y: 138 w: 102 h: 92
+[19:01:26] key: MyKad_670_IC_Chip_Gray dist: 0.058523518904601196 
+[19:01:26] key: MyKad_670_IC_Chip_old MatchResult: 0.2752704322338104 x: 210 y: 76 w: 108 h: 99
+[19:01:26] key: MyKad_670_IC_Chip_old dist: 0.8167963140514026 
+[19:01:26] key: MyKad_670_IC_Chip_old_Gray MatchResult: 0.24229586124420166 x: 213 y: 56 w: 102 h: 93
+[19:01:26] key: MyKad_670_IC_Chip_old_Gray dist: 0.8620070841729378 
+[19:01:26] key: MyKad_670_MSC_Gray MatchResult: 0.8594582080841064 x: 230 y: 105 w: 54 h: 54
+[19:01:26] key: MyKad_670_MSC_Gray dist: 0.07632170166976054 
+[19:01:26] key: MyKad_670_MyKad MatchResult: 0.9255335927009583 x: 376 y: 8 w: 59 h: 39
+[19:01:26] key: MyKad_670_MyKad dist: 0.12313619904009353 
+[19:01:26] key: MyKad_670_MyKad_Gray MatchResult: 0.9470007419586182 x: 377 y: 9 w: 61 h: 39
+[19:01:26] key: MyKad_670_MyKad_Gray dist: 0.11274981839048875 
+[19:01:26] removed 1 lines predicted as label removed from lsLineMerged [height < labelHeightInPixel (38.747333513983975)].
+line: 790604-12-536 EstimateCenterYInInch: 0.5727701126503743
+line: ALEX CHAN EstimateCenterYInInch: 1.4170913603526467
+line: NO 77 JALAN BU 102 EstimateCenterYInInch: 1.7528255910199908
+line: BANDAR UTAMA EstimateCenterYInInch: 1.8375901030478659
+line: 47800 PETALING JAYA EstimateCenterYInInch: 1.927340782300553
+line: SELANGOR EstimateCenterYInInch: 2.0121052943284283
+mergedLinesNearToIDNUM: 790604-12-536 EstimateCenterYInInch: 0.5727701126503743
+[19:01:26] 790604-12-536 --> possibly IDNUM
+[19:01:26] WARGANEGARA --> CITIZENSHIP
+[19:01:26] LELAKI --> GENDER
+mergedLinesNearToNationality: ALEX CHAN EstimateCenterYInInch: 1.4170913603526467
+[19:01:26] ALEX CHAN --> NAME
+[19:01:26] NO 77 JALAN BU 102 --> ADDRESS1
+[19:01:26] BANDAR UTAMA --> ADDRESS2
+[19:01:26] 47800 PETALING JAYA --> ADDRESS3
+[19:01:26] SELANGOR --> ADDRESS4
+[19:01:26] --> POSTCODE: 47800 CITY: PETALING JAYA
+[19:01:26] --> STATE: SELANGOR
+ScanIDDLResult: ScanID.ScanMyKadResult
+[19:01:38] ==== responseBody ====
+ {
+  "<OCR_WITH_REGION>": {
+    "labels": [
+      "</s>KAD PENGENALAN",
+      "MALAYSIA",
+      "MyKad",
+      "IDENTITY CARD",
+      "790804-12-531",
+      "ALEX CHAN BU 10/2",
+      "NO 77 JALAN BU 10/02",
+      "BANDAR UTAMA",
+      "47800 PETALING JAYA",
+      "WARGANEGARA",
+      "selANGOR",
+      "LELAKI",
+      "H"
+    ],
+    "quad_boxes": [
+      [
+        180.55450439453125,
+        80.40799713134766,
+        335.968505859375,
+        79.30400085449219,
+        335.968505859375,
+        90.71199798583984,
+        180.55450439453125,
+        91.81600189208984
+      ],
+      [
+        180.55450439453125,
+        90.71199798583984,
+        335.968505859375,
+        90.71199798583984,
+        335.968505859375,
+        105.06400299072266,
+        180.55450439453125,
+        105.06400299072266
+      ],
+      [
+        359.47650146484375,
+        86.66400146484375,
+        410.4104919433594,
+        84.45600128173828,
+        411.0635070800781,
+        101.01599884033203,
+        359.47650146484375,
+        103.95999908447266
+      ],
+      [
+        180.55450439453125,
+        103.2239990234375,
+        335.968505859375,
+        103.2239990234375,
+        335.968505859375,
+        114.63200378417969,
+        180.55450439453125,
+        114.63200378417969
+      ],
+      [
+        155.74049377441406,
+        126.04000091552734,
+        271.3215026855469,
+        126.04000091552734,
+        271.3215026855469,
+        140.39199829101562,
+        155.74049377441406,
+        140.39199829101562
+      ],
+      [
+        153.781494140625,
+        221.3520050048828,
+        281.7695007324219,
+        221.3520050048828,
+        281.7695007324219,
+        232.75999450683594,
+        153.781494140625,
+        232.75999450683594
+      ],
+      [
+        153.781494140625,
+        258.5199890136719,
+        260.2204895019531,
+        258.5199890136719,
+        260.2204895019531,
+        268.8240051269531,
+        153.781494140625,
+        268.8240051269531
+      ],
+      [
+        153.781494140625,
+        268.8240051269531,
+        237.36549377441406,
+        268.8240051269531,
+        237.36549377441406,
+        278.3919982910156,
+        153.781494140625,
+        278.3919982910156
+      ],
+      [
+        153.781494140625,
+        278.3919982910156,
+        266.75048828125,
+        278.3919982910156,
+        266.75048828125,
+        287.9599914550781,
+        153.781494140625,
+        287.9599914550781
+      ],
+      [
+        400.6155090332031,
+        272.135986328125,
+        477.0165100097656,
+        272.135986328125,
+        477.0165100097656,
+        280.9679870605469,
+        400.6155090332031,
+        280.9679870605469
+      ],
+      [
+        153.781494140625,
+        287.9599914550781,
+        211.24549865722656,
+        287.9599914550781,
+        211.24549865722656,
+        297.52801513671875,
+        153.781494140625,
+        297.52801513671875
+      ],
+      [
+        439.1424865722656,
+        280.9679870605469,
+        472.44549560546875,
+        280.9679870605469,
+        472.44549560546875,
+        289.79998779296875,
+        439.1424865722656,
+        289.79998779296875
+      ],
+      [
+        490.7294921875,
+        289.79998779296875,
+        498.56549072265625,
+        289.79998779296875,
+        498.56549072265625,
+        297.52801513671875,
+        490.7294921875,
+        297.52801513671875
+      ]
+    ]
+  }
+}
+
+==========
+MergedLine [MALAYSIA]-[MYKAD] dist: 23.50799560546875 --> [MALAYSIA   MYKAD]
+[19:01:39] --> KAD PENGENALAN
+[19:01:39] Left:180.55450439453125 Top:79.85599899291992 Bottom:91.26399993896484
+[19:01:39] --> MALAYSIA
+[19:01:39] Left:180.55450439453125 Top:87.58399963378906 Bottom:103.04000091552734
+[19:01:39] --> IDENTITY CARD
+[19:01:39] Left:180.55450439453125 Top:103.2239990234375 Bottom:114.63200378417969
+[19:01:39] --> WARGANEGARA
+[19:01:39] Left:400.6155090332031 Top:272.135986328125 Bottom:280.9679870605469
+[19:01:39] --> LELAKI
+[19:01:39] Left:439.1424865722656 Top:280.9679870605469 Bottom:289.79998779296875
+KAD PENGENALAN PredictCenterYInPixel: 85.55999946594238
+KAD PENGENALAN PredictCenterXInPixel: 258.2615051269531
+MALAYSIA PredictCenterYInPixel: 95.3120002746582
+MALAYSIA PredictCenterXInPixel: 295.645751953125
+IDENTITY CARD PredictCenterYInPixel: 108.9280014038086
+IDENTITY CARD PredictCenterXInPixel: 258.2615051269531
+WARGANEGARA PredictCenterYInPixel: 276.55198669433594
+WARGANEGARA PredictCenterXInPixel: 438.8160095214844
+LELAKI PredictCenterYInPixel: 285.3839874267578
+LELAKI PredictCenterXInPixel: 455.7939910888672
+loadTemplate MyKad_670_MyKad_Gray.png 39 61
+loadTemplate MyKad_670_Flag.png 75 138
+loadTemplate MyKad_670_Flag_Gray.png 71 138
+loadTemplate MyKad_670_Flag_MoonStar.png 25 33
+loadTemplate MyKad_670_Flag_MoonStar_Gray.png 27 30
+loadTemplate MyKad_670_Flower_Front_Gray.png 92 122
+loadTemplate MyKad_670_IC_Chip.png 103 118
+loadTemplate MyKad_670_IC_Chip_Gray.png 92 102
+loadTemplate MyKad_670_IC_Chip_old.png 99 108
+loadTemplate MyKad_670_IC_Chip_old_Gray.png 93 102
+loadTemplate MyKad_670_MSC_Gray.png 54 54
+loadTemplate MyKad_670_MyKad.png 39 59
+[19:01:39] MatchTemplateMyKadResult: System.Collections.Generic.Dictionary`2[System.String,ImgProcLib.MatchTemplateResultItem]
+[19:01:39] key: MyKad_670_Flag MatchResult: 0.8385711312294006 x: 483 y: 17 w: 138 h: 75
+[19:01:39] key: MyKad_670_Flag dist: 0.14179660328403504 
+[19:01:39] key: MyKad_670_Flag_Gray MatchResult: 0.8931986689567566 x: 482 y: 18 w: 138 h: 71
+[19:01:39] key: MyKad_670_Flag_Gray dist: 0.14605231137015362 
+[19:01:39] key: MyKad_670_Flag_MoonStar MatchResult: 0.8466137051582336 x: 495 y: 25 w: 33 h: 25
+[19:01:39] key: MyKad_670_Flag_MoonStar dist: 0.14735166487972387 
+[19:01:39] key: MyKad_670_Flag_MoonStar_Gray MatchResult: 0.9073732495307922 x: 496 y: 25 w: 30 h: 27
+[19:01:39] key: MyKad_670_Flag_MoonStar_Gray dist: 0.15110017644476917 
+[19:01:39] key: MyKad_670_Flower_Front_Gray MatchResult: 0.8282756209373474 x: 282 y: 319 w: 122 h: 92
+[19:01:39] key: MyKad_670_Flower_Front_Gray dist: 0.0886001934419933 
+[19:01:39] key: MyKad_670_IC_Chip MatchResult: 0.6196228265762329 x: 44 y: 136 w: 118 h: 103
+[19:01:39] key: MyKad_670_IC_Chip dist: 0.051295736885291744 
+[19:01:39] key: MyKad_670_IC_Chip_Gray MatchResult: 0.680565357208252 x: 52 y: 140 w: 102 h: 92
+[19:01:39] key: MyKad_670_IC_Chip_Gray dist: 0.046097746853585087 
+[19:01:39] key: MyKad_670_IC_Chip_old MatchResult: 0.27990955114364624 x: 214 y: 77 w: 108 h: 99
+[19:01:39] key: MyKad_670_IC_Chip_old dist: 0.8340600808152486 
+[19:01:39] key: MyKad_670_IC_Chip_old_Gray MatchResult: 0.2494388371706009 x: 295 y: 235 w: 102 h: 93
+[19:01:39] key: MyKad_670_IC_Chip_old_Gray dist: 1.2845062265579308 
+[19:01:39] key: MyKad_670_MSC_Gray MatchResult: 0.8946015238761902 x: 234 y: 107 w: 54 h: 54
+[19:01:39] key: MyKad_670_MSC_Gray dist: 0.05408328235704808 
+[19:01:39] key: MyKad_670_MyKad MatchResult: 0.9104498028755188 x: 380 y: 9 w: 59 h: 39
+[19:01:39] key: MyKad_670_MyKad dist: 0.10277411950359687 
+[19:01:39] key: MyKad_670_MyKad_Gray MatchResult: 0.9273431301116943 x: 381 y: 10 w: 61 h: 39
+[19:01:39] key: MyKad_670_MyKad_Gray dist: 0.09253387311026318 
+[19:01:39] removed 1 lines predicted as label removed from lsLineMerged [height < labelHeightInPixel (7.770932718100383)].
+line: 790804-12-531 EstimateCenterYInInch: 0.5755248892664089
+line: ALEX CHAN BU 10/2 EstimateCenterYInInch: 1.4208288285666844
+line: NO 77 JALAN BU 10/02 EstimateCenterYInInch: 1.7506630860367058
+line: BANDAR UTAMA EstimateCenterYInInch: 1.84016589771955
+line: 47800 PETALING JAYA EstimateCenterYInInch: 1.926353688636312
+line: SELANGOR EstimateCenterYInInch: 2.012541617003143
+mergedLinesNearToIDNUM: 790804-12-531 EstimateCenterYInInch: 0.5755248892664089
+[19:01:39] 790804-12-531 --> possibly IDNUM
+[19:01:39] WARGANEGARA --> CITIZENSHIP
+[19:01:39] LELAKI --> GENDER
+mergedLinesNearToNationality: ALEX CHAN BU 10/2 EstimateCenterYInInch: 1.4208288285666844
+[19:01:39] ALEX CHAN BU 10/2 --> NAME
+[19:01:39] NO 77 JALAN BU 10/02 --> ADDRESS1
+[19:01:39] BANDAR UTAMA --> ADDRESS2
+[19:01:39] 47800 PETALING JAYA --> ADDRESS3
+[19:01:39] SELANGOR --> ADDRESS4
+[19:01:39] --> POSTCODE: 47800 CITY: PETALING JAYA
+[19:01:39] --> STATE: SELANGOR
+ScanIDDLResult: ScanID.ScanMyKadResult
+[19:01:50] ==== responseBody ====
+ {
+  "<OCR_WITH_REGION>": {
+    "labels": [
+      "</s>KAD PENGENALAN",
+      "MALAYSIA",
+      "MyKad",
+      "700504-08-5456",
+      "HO MUN YEE",
+      "21 JALAN BU 3/4",
+      "BANDAR UTAMA",
+      "47800 PETALING JAYA",
+      "WARGANE GARA",
+      "SELANGOR",
+      "PEREMPUAN"
+    ],
+    "quad_boxes": [
+      [
+        892.7039794921875,
+        451.7200012207031,
+        1617.31201171875,
+        451.7200012207031,
+        1617.31201171875,
+        506.9200134277344,
+        892.7039794921875,
+        506.9200134277344
+      ],
+      [
+        892.7039794921875,
+        505.08001708984375,
+        1607.52001953125,
+        505.08001708984375,
+        1607.52001953125,
+        597.0800170898438,
+        892.7039794921875,
+        597.0800170898438
+      ],
+      [
+        1744.60791015625,
+        484.8399963378906,
+        1986.1439208984375,
+        475.6400146484375,
+        1989.407958984375,
+        545.5599975585938,
+        1747.8719482421875,
+        554.760009765625
+      ],
+      [
+        739.2959594726562,
+        615.4800415039062,
+        1326.81591796875,
+        615.4800415039062,
+        1326.81591796875,
+        685.4000244140625,
+        739.2959594726562,
+        685.4000244140625
+      ],
+      [
+        736.031982421875,
+        1093.8800048828125,
+        1108.1279296875,
+        1093.8800048828125,
+        1108.1279296875,
+        1149.080078125,
+        736.031982421875,
+        1149.080078125
+      ],
+      [
+        736.031982421875,
+        1246.5999755859375,
+        1147.2960205078125,
+        1246.5999755859375,
+        1147.2960205078125,
+        1296.280029296875,
+        736.031982421875,
+        1296.280029296875
+      ],
+      [
+        736.031982421875,
+        1296.280029296875,
+        1150.5599365234375,
+        1296.280029296875,
+        1150.5599365234375,
+        1344.1199951171875,
+        736.031982421875,
+        1342.280029296875
+      ],
+      [
+        736.031982421875,
+        1342.280029296875,
+        1300.7039794921875,
+        1342.280029296875,
+        1300.7039794921875,
+        1391.9600830078125,
+        736.031982421875,
+        1390.1199951171875
+      ],
+      [
+        1907.8079833984375,
+        1331.239990234375,
+        2286.431884765625,
+        1333.080078125,
+        2286.431884765625,
+        1377.239990234375,
+        1907.8079833984375,
+        1375.4000244140625
+      ],
+      [
+        745.823974609375,
+        1386.4400634765625,
+        1020.0,
+        1388.280029296875,
+        1020.0,
+        1436.1199951171875,
+        745.823974609375,
+        1434.280029296875
+      ],
+      [
+        2084.06396484375,
+        1375.4000244140625,
+        2377.823974609375,
+        1375.4000244140625,
+        2377.823974609375,
+        1417.719970703125,
+        2084.06396484375,
+        1417.719970703125
+      ]
+    ]
+  }
+}
+
+==========
+[19:01:51] --> KAD PENGENALAN
+[19:01:51] Left:892.7039794921875 Top:451.7200012207031 Bottom:506.9200134277344
+[19:01:51] --> MALAYSIA
+[19:01:51] Left:892.7039794921875 Top:505.08001708984375 Bottom:597.0800170898438
+[19:01:51] --> 
+[19:01:51] Left:739.2959594726562 Top:615.4800415039062 Bottom:685.4000244140625
+[19:01:51] --> WARGANEGARA
+[19:01:51] Left:1907.8079833984375 Top:1332.1600341796875 Bottom:1376.3200073242188
+[19:01:51] --> PEREMPUAN
+[19:01:51] Left:2084.06396484375 Top:1375.4000244140625 Bottom:1417.719970703125
+KAD PENGENALAN PredictCenterYInPixel: 479.32000732421875
+KAD PENGENALAN PredictCenterXInPixel: 1255.0079956054688
+MALAYSIA PredictCenterYInPixel: 551.0800170898438
+MALAYSIA PredictCenterXInPixel: 1250.1119995117188
+ PredictCenterYInPixel: 650.4400329589844
+ PredictCenterXInPixel: 1033.0559387207031
+WARGANEGARA PredictCenterYInPixel: 1354.2400207519531
+WARGANEGARA PredictCenterXInPixel: 2097.1199340820312
+PEREMPUAN PredictCenterYInPixel: 1396.5599975585938
+PEREMPUAN PredictCenterXInPixel: 2230.9439697265625
+loadTemplate MyKad_670_MyKad_Gray.png 39 61
+loadTemplate MyKad_670_Flag.png 75 138
+loadTemplate MyKad_670_Flag_Gray.png 71 138
+loadTemplate MyKad_670_Flag_MoonStar.png 25 33
+loadTemplate MyKad_670_Flag_MoonStar_Gray.png 27 30
+loadTemplate MyKad_670_Flower_Front_Gray.png 92 122
+loadTemplate MyKad_670_IC_Chip.png 103 118
+loadTemplate MyKad_670_IC_Chip_Gray.png 92 102
+loadTemplate MyKad_670_IC_Chip_old.png 99 108
+loadTemplate MyKad_670_IC_Chip_old_Gray.png 93 102
+loadTemplate MyKad_670_MSC_Gray.png 54 54
+loadTemplate MyKad_670_MyKad.png 39 59
+[19:01:51] MatchTemplateMyKadResult: System.Collections.Generic.Dictionary`2[System.String,ImgProcLib.MatchTemplateResultItem]
+[19:01:51] key: MyKad_670_Flag MatchResult: 0.8974770307540894 x: 504 y: 13 w: 138 h: 75
+[19:01:51] key: MyKad_670_Flag dist: 0.035089267244120315 
+[19:01:52] key: MyKad_670_Flag_Gray MatchResult: 0.848103940486908 x: 503 y: 14 w: 138 h: 71
+[19:01:52] key: MyKad_670_Flag_Gray dist: 0.04007814403641511 
+[19:01:52] key: MyKad_670_Flag_MoonStar MatchResult: 0.9069485664367676 x: 515 y: 22 w: 33 h: 25
+[19:01:52] key: MyKad_670_Flag_MoonStar dist: 0.048088499507649804 
+[19:01:52] key: MyKad_670_Flag_MoonStar_Gray MatchResult: 0.9015880823135376 x: 517 y: 22 w: 30 h: 27
+[19:01:52] key: MyKad_670_Flag_MoonStar_Gray dist: 0.04854125551398539 
+[19:01:52] key: MyKad_670_Flower_Front_Gray MatchResult: 0.442753404378891 x: 206 y: 331 w: 122 h: 92
+[19:01:52] key: MyKad_670_Flower_Front_Gray dist: 0.4727049436597639 
+[19:01:52] key: MyKad_670_IC_Chip MatchResult: 0.18940742313861847 x: 46 y: 127 w: 118 h: 103
+[19:01:52] key: MyKad_670_IC_Chip dist: 0.026100770839561215 
+[19:01:52] key: MyKad_670_IC_Chip_Gray MatchResult: 0.2092791199684143 x: 283 y: 63 w: 102 h: 92
+[19:01:52] key: MyKad_670_IC_Chip_Gray dist: 1.1749148719670717 
+[19:01:52] key: MyKad_670_IC_Chip_old MatchResult: 0.4734739661216736 x: 48 y: 129 w: 108 h: 99
+[19:01:52] key: MyKad_670_IC_Chip_old dist: 0.04069705881322578 
+[19:01:52] key: MyKad_670_IC_Chip_old_Gray MatchResult: 0.4163259267807007 x: 52 y: 130 w: 102 h: 93
+[19:01:52] key: MyKad_670_IC_Chip_old_Gray dist: 0.03913118960625541 
+[19:01:52] key: MyKad_670_MSC_Gray MatchResult: 0.8323180079460144 x: 256 y: 97 w: 54 h: 54
+[19:01:52] key: MyKad_670_MSC_Gray dist: 0.1030776163539425 
+[19:01:52] key: MyKad_670_MyKad MatchResult: 0.8040866255760193 x: 399 y: 6 w: 59 h: 39
+[19:01:52] key: MyKad_670_MyKad dist: 0.023717118263851228 
+[19:01:52] key: MyKad_670_MyKad_Gray MatchResult: 0.7948930263519287 x: 400 y: 7 w: 61 h: 39
+[19:01:52] key: MyKad_670_MyKad_Gray dist: 0.01767766194348755 
+[19:01:52] removed 0 lines predicted as label removed from lsLineMerged [height < labelHeightInPixel (35.67044338971011)].
+line: MYKAD EstimateCenterYInInch: 0.22169505778003723
+line: HO MUN YEE EstimateCenterYInInch: 1.411464478413788
+line: 21 JALAN BU 3/4 EstimateCenterYInInch: 1.705747260257332
+line: BANDAR UTAMA EstimateCenterYInInch: 1.8005316524554995
+line: 47800 PETALING JAYA EstimateCenterYInInch: 1.892607910606866
+line: SELANGOR EstimateCenterYInInch: 1.980170592050908
+[19:01:52] 700504-08-5456 --> IDNUM
+[19:01:52] WARGANE GARA --> CITIZENSHIP
+[19:01:52] PEREMPUAN --> GENDER
+mergedLinesNearToNationality: HO MUN YEE EstimateCenterYInInch: 1.411464478413788
+[19:01:52] HO MUN YEE --> NAME
+[19:01:52] 21 JALAN BU 3/4 --> ADDRESS1
+[19:01:52] BANDAR UTAMA --> ADDRESS2
+[19:01:52] 47800 PETALING JAYA --> ADDRESS3
+[19:01:52] SELANGOR --> ADDRESS4
+mergedLinesNearToAddress5: MYKAD EstimateCenterYInInch: 0.22169505778003723
+[19:01:52] --> POSTCODE: 47800 CITY: PETALING JAYA
+[19:01:52] --> STATE: SELANGOR
+ScanIDDLResult: ScanID.ScanMyKadResult
+[19:02:03] ==== responseBody ====
+ {
+  "<OCR_WITH_REGION>": {
+    "labels": [
+      "</s>KAD PENGENALAN",
+      "MALAYSIA",
+      "MyKad",
+      "700504-08-5456",
+      "HO MUN YEE",
+      "21 JALAN BU 3/4",
+      "BANDAR UTAMA",
+      "47800 PETALING JAYA",
+      "WARGANE GARA",
+      "SELANGOR",
+      "PEREMPUJAN"
+    ],
+    "quad_boxes": [
+      [
+        178.5955047607422,
+        89.60800170898438,
+        323.5614929199219,
+        89.60800170898438,
+        323.5614929199219,
+        101.01599884033203,
+        178.5955047607422,
+        101.01599884033203
+      ],
+      [
+        178.5955047607422,
+        101.01599884033203,
+        321.6025085449219,
+        101.01599884033203,
+        321.6025085449219,
+        119.41600036621094,
+        178.5955047607422,
+        119.41600036621094
+      ],
+      [
+        348.37548828125,
+        95.86399841308594,
+        398.0035095214844,
+        94.76000213623047,
+        398.0035095214844,
+        109.4800033569336,
+        348.37548828125,
+        110.58399963378906
+      ],
+      [
+        148.5574951171875,
+        122.36000061035156,
+        265.4444885253906,
+        122.36000061035156,
+        265.4444885253906,
+        136.71200561523438,
+        148.5574951171875,
+        136.71200561523438
+      ],
+      [
+        147.25149536132812,
+        218.0399932861328,
+        222.34649658203125,
+        218.0399932861328,
+        222.34649658203125,
+        229.447998046875,
+        147.25149536132812,
+        229.447998046875
+      ],
+      [
+        147.25149536132812,
+        248.95199584960938,
+        230.8354949951172,
+        248.95199584960938,
+        230.8354949951172,
+        259.2560119628906,
+        147.25149536132812,
+        259.2560119628906
+      ],
+      [
+        147.25149536132812,
+        259.2560119628906,
+        230.8354949951172,
+        259.2560119628906,
+        230.8354949951172,
+        268.8240051269531,
+        147.25149536132812,
+        268.8240051269531
+      ],
+      [
+        147.25149536132812,
+        268.0880126953125,
+        260.8735046386719,
+        268.0880126953125,
+        260.8735046386719,
+        278.3919982910156,
+        147.25149536132812,
+        278.3919982910156
+      ],
+      [
+        381.6784973144531,
+        265.5119934082031,
+        457.4264831542969,
+        265.5119934082031,
+        457.4264831542969,
+        275.8160095214844,
+        381.6784973144531,
+        275.8160095214844
+      ],
+      [
+        148.5574951171875,
+        276.552001953125,
+        204.0625,
+        277.656005859375,
+        204.0625,
+        287.2239990234375,
+        148.5574951171875,
+        286.1199951171875
+      ],
+      [
+        416.2875061035156,
+        274.7120056152344,
+        476.3634948730469,
+        274.7120056152344,
+        476.3634948730469,
+        283.1759948730469,
+        416.2875061035156,
+        283.1759948730469
+      ]
+    ]
+  }
+}
+
+==========
+[19:02:03] --> KAD PENGENALAN
+[19:02:03] Left:178.5955047607422 Top:89.60800170898438 Bottom:101.01599884033203
+[19:02:03] --> MALAYSIA
+[19:02:03] Left:178.5955047607422 Top:101.01599884033203 Bottom:119.41600036621094
+[19:02:03] --> 
+[19:02:03] Left:148.5574951171875 Top:122.36000061035156 Bottom:136.71200561523438
+[19:02:03] --> WARGANEGARA
+[19:02:03] Left:381.6784973144531 Top:265.5119934082031 Bottom:275.8160095214844
+[19:02:03] --> PEREMPUAN
+[19:02:03] Left:416.2875061035156 Top:274.7120056152344 Bottom:283.1759948730469
+KAD PENGENALAN PredictCenterYInPixel: 95.3120002746582
+KAD PENGENALAN PredictCenterXInPixel: 251.07849884033203
+MALAYSIA PredictCenterYInPixel: 110.21599960327148
+MALAYSIA PredictCenterXInPixel: 250.09900665283203
+ PredictCenterYInPixel: 129.53600311279297
+ PredictCenterXInPixel: 207.00099182128906
+WARGANEGARA PredictCenterYInPixel: 270.66400146484375
+WARGANEGARA PredictCenterXInPixel: 419.552490234375
+PEREMPUAN PredictCenterYInPixel: 278.9440002441406
+PEREMPUAN PredictCenterXInPixel: 446.32550048828125
+loadTemplate MyKad_670_MyKad_Gray.png 39 61
+loadTemplate MyKad_670_Flag.png 75 138
+loadTemplate MyKad_670_Flag_Gray.png 71 138
+loadTemplate MyKad_670_Flag_MoonStar.png 25 33
+loadTemplate MyKad_670_Flag_MoonStar_Gray.png 27 30
+loadTemplate MyKad_670_Flower_Front_Gray.png 92 122
+loadTemplate MyKad_670_IC_Chip.png 103 118
+loadTemplate MyKad_670_IC_Chip_Gray.png 92 102
+loadTemplate MyKad_670_IC_Chip_old.png 99 108
+loadTemplate MyKad_670_IC_Chip_old_Gray.png 93 102
+loadTemplate MyKad_670_MSC_Gray.png 54 54
+loadTemplate MyKad_670_MyKad.png 39 59
+[19:02:03] MatchTemplateMyKadResult: System.Collections.Generic.Dictionary`2[System.String,ImgProcLib.MatchTemplateResultItem]
+[19:02:03] key: MyKad_670_Flag MatchResult: 0.9089645743370056 x: 506 y: 14 w: 138 h: 75
+[19:02:03] key: MyKad_670_Flag dist: 0.026100857617723544 
+[19:02:03] key: MyKad_670_Flag_Gray MatchResult: 0.8463901281356812 x: 505 y: 15 w: 138 h: 71
+[19:02:03] key: MyKad_670_Flag_Gray dist: 0.03010408148499115 
+[19:02:03] key: MyKad_670_Flag_MoonStar MatchResult: 0.910134494304657 x: 517 y: 23 w: 33 h: 25
+[19:02:03] key: MyKad_670_Flag_MoonStar dist: 0.042573498465809594 
+[19:02:03] key: MyKad_670_Flag_MoonStar_Gray MatchResult: 0.9187042713165283 x: 518 y: 23 w: 30 h: 27
+[19:02:03] key: MyKad_670_Flag_MoonStar_Gray dist: 0.04776246382288316 
+[19:02:03] key: MyKad_670_Flower_Front_Gray MatchResult: 0.466915488243103 x: 208 y: 332 w: 122 h: 92
+[19:02:03] key: MyKad_670_Flower_Front_Gray dist: 0.46381565863055124 
+[19:02:03] key: MyKad_670_IC_Chip MatchResult: 0.18709172308444977 x: 534 y: 298 w: 118 h: 103
+[19:02:03] key: MyKad_670_IC_Chip dist: 2.5593907933009885 
+[19:02:03] key: MyKad_670_IC_Chip_Gray MatchResult: 0.21205180883407593 x: 284 y: 64 w: 102 h: 92
+[19:02:03] key: MyKad_670_IC_Chip_Gray dist: 1.1781871483294197 
+[19:02:03] key: MyKad_670_IC_Chip_old MatchResult: 0.45691561698913574 x: 49 y: 130 w: 108 h: 99
+[19:02:03] key: MyKad_670_IC_Chip_old dist: 0.03508918231102639 
+[19:02:03] key: MyKad_670_IC_Chip_old_Gray MatchResult: 0.3884568512439728 x: 53 y: 131 w: 102 h: 93
+[19:02:03] key: MyKad_670_IC_Chip_old_Gray dist: 0.03250000183399995 
+[19:02:03] key: MyKad_670_MSC_Gray MatchResult: 0.8436859846115112 x: 257 y: 98 w: 54 h: 54
+[19:02:03] key: MyKad_670_MSC_Gray dist: 0.10259139766082363 
+[19:02:03] key: MyKad_670_MyKad MatchResult: 0.8225498199462891 x: 401 y: 7 w: 59 h: 39
+[19:02:03] key: MyKad_670_MyKad dist: 0.01767766194348755 
+[19:02:03] key: MyKad_670_MyKad_Gray MatchResult: 0.8144842982292175 x: 402 y: 8 w: 61 h: 39
+[19:02:03] key: MyKad_670_MyKad_Gray dist: 0.01767760630953618 
+[19:02:03] removed 0 lines predicted as label removed from lsLineMerged [height < labelHeightInPixel (7.141244308130244)].
+line: MYKAD EstimateCenterYInInch: 0.22206412860522923
+line: HO MUN YEE EstimateCenterYInInch: 1.4088376522526556
+line: 21 JALAN BU 3/4 EstimateCenterYInInch: 1.7064329303487558
+line: BANDAR UTAMA EstimateCenterYInInch: 1.8038277676709222
+line: 47800 PETALING JAYA EstimateCenterYInInch: 1.8940081005837142
+line: SELANGOR EstimateCenterYInInch: 1.9787775925819517
+[19:02:03] 700504-08-5456 --> IDNUM
+[19:02:03] WARGANE GARA --> CITIZENSHIP
+[19:02:03] PEREMPUJAN --> GENDER
+mergedLinesNearToNationality: HO MUN YEE EstimateCenterYInInch: 1.4088376522526556
+[19:02:03] HO MUN YEE --> NAME
+[19:02:03] 21 JALAN BU 3/4 --> ADDRESS1
+[19:02:03] BANDAR UTAMA --> ADDRESS2
+[19:02:03] 47800 PETALING JAYA --> ADDRESS3
+[19:02:03] SELANGOR --> ADDRESS4
+mergedLinesNearToAddress5: MYKAD EstimateCenterYInInch: 0.22206412860522923
+[19:02:03] --> POSTCODE: 47800 CITY: PETALING JAYA
+[19:02:03] --> STATE: SELANGOR
+ExtractFieldsFromReadResultOfMyKad result NOT success
+ScanIDDLResult: ScanID.ScanMyKadResult
+[19:02:16] ==== responseBody ====
+ {
+  "<OCR_WITH_REGION>": {
+    "labels": [
+      "</s>CAD PENGENALAN",
+      "MALAYSIA",
+      "MyKad",
+      "ENTITY CARD",
+      "70/08-02-5591",
+      "SURJAN",
+      "SURIJAN MULAU",
+      "B60 JALAN 16",
+      "CINTA SAYANG RESORT HOMES",
+      "08000 SANGI PETANI",
+      "WargANGARAR",
+      "KEDAH",
+      "LEAKI"
+    ],
+    "quad_boxes": [
+      [
+        1104.864013671875,
+        394.67999267578125,
+        1891.4879150390625,
+        391.0,
+        1891.4879150390625,
+        440.6800231933594,
+        1104.864013671875,
+        444.3600158691406
+      ],
+      [
+        1111.3919677734375,
+        438.8399963378906,
+        1829.471923828125,
+        438.8399963378906,
+        1829.471923828125,
+        512.4400024414062,
+        1111.3919677734375,
+        512.4400024414062
+      ],
+      [
+        1953.50390625,
+        427.8000183105469,
+        2198.303955078125,
+        420.44000244140625,
+        2201.56787109375,
+        484.8399963378906,
+        1953.50390625,
+        492.20001220703125
+      ],
+      [
+        1163.615966796875,
+        505.08001708984375,
+        1826.2080078125,
+        505.08001708984375,
+        1826.2080078125,
+        554.760009765625,
+        1163.615966796875,
+        554.760009765625
+      ],
+      [
+        974.303955078125,
+        587.8800048828125,
+        1538.9759521484375,
+        587.8800048828125,
+        1538.9759521484375,
+        657.7999877929688,
+        974.303955078125,
+        657.7999877929688
+      ],
+      [
+        974.303955078125,
+        1062.5999755859375,
+        1271.3280029296875,
+        1062.5999755859375,
+        1271.3280029296875,
+        1114.1199951171875,
+        974.303955078125,
+        1114.1199951171875
+      ],
+      [
+        1248.47998046875,
+        1062.5999755859375,
+        1597.72802734375,
+        1060.760009765625,
+        1597.72802734375,
+        1114.1199951171875,
+        1248.47998046875,
+        1117.800048828125
+      ],
+      [
+        980.8319702148438,
+        1215.320068359375,
+        1336.6080322265625,
+        1215.320068359375,
+        1336.6080322265625,
+        1261.320068359375,
+        980.8319702148438,
+        1261.320068359375
+      ],
+      [
+        980.8319702148438,
+        1263.1600341796875,
+        1803.3599853515625,
+        1263.1600341796875,
+        1803.3599853515625,
+        1312.8399658203125,
+        980.8319702148438,
+        1312.8399658203125
+      ],
+      [
+        980.8319702148438,
+        1311.0,
+        1545.5040283203125,
+        1311.0,
+        1545.5040283203125,
+        1360.6800537109375,
+        980.8319702148438,
+        1360.6800537109375
+      ],
+      [
+        2175.4560546875,
+        1292.5999755859375,
+        2547.552001953125,
+        1292.5999755859375,
+        2547.552001953125,
+        1336.760009765625,
+        2175.4560546875,
+        1336.760009765625
+      ],
+      [
+        980.8319702148438,
+        1360.6800537109375,
+        1170.1439208984375,
+        1360.6800537109375,
+        1170.1439208984375,
+        1406.6800537109375,
+        980.8319702148438,
+        1406.6800537109375
+      ],
+      [
+        2351.7119140625,
+        1334.9200439453125,
+        2524.703857421875,
+        1334.9200439453125,
+        2524.703857421875,
+        1377.239990234375,
+        2351.7119140625,
+        1377.239990234375
+      ]
+    ]
+  }
+}
+
+==========
+MergedLine [SURJAN]-[SURIJAN MULAU] dist: -22.8480224609375 --> [SURJAN SURIJAN MULAU]
+[19:02:16] --> KAD PENGENALAN
+[19:02:16] Left:1104.864013671875 Top:392.8399963378906 Bottom:442.52001953125
+[19:02:16] --> MALAYSIA
+[19:02:16] Left:1111.3919677734375 Top:438.8399963378906 Bottom:512.4400024414062
+[19:02:16] --> IDENTITY CARD
+[19:02:16] Left:1163.615966796875 Top:505.08001708984375 Bottom:554.760009765625
+[19:02:16] --> WARGANEGARA
+[19:02:16] Left:2175.4560546875 Top:1292.5999755859375 Bottom:1336.760009765625
+[19:02:16] --> LELAKI
+[19:02:16] Left:2351.7119140625 Top:1334.9200439453125 Bottom:1377.239990234375
+KAD PENGENALAN PredictCenterYInPixel: 417.6800079345703
+KAD PENGENALAN PredictCenterXInPixel: 1498.1759643554688
+MALAYSIA PredictCenterYInPixel: 475.63999938964844
+MALAYSIA PredictCenterXInPixel: 1470.4319458007812
+IDENTITY CARD PredictCenterYInPixel: 529.9200134277344
+IDENTITY CARD PredictCenterXInPixel: 1494.9119873046875
+WARGANEGARA PredictCenterYInPixel: 1314.6799926757812
+WARGANEGARA PredictCenterXInPixel: 2361.5040283203125
+LELAKI PredictCenterYInPixel: 1356.0800170898438
+LELAKI PredictCenterXInPixel: 2438.2078857421875
+loadTemplate MyKad_670_MyKad_Gray.png 39 61
+loadTemplate MyKad_670_Flag.png 75 138
+loadTemplate MyKad_670_Flag_Gray.png 71 138
+loadTemplate MyKad_670_Flag_MoonStar.png 25 33
+loadTemplate MyKad_670_Flag_MoonStar_Gray.png 27 30
+loadTemplate MyKad_670_Flower_Front_Gray.png 92 122
+loadTemplate MyKad_670_IC_Chip.png 103 118
+loadTemplate MyKad_670_IC_Chip_Gray.png 92 102
+loadTemplate MyKad_670_IC_Chip_old.png 99 108
+loadTemplate MyKad_670_IC_Chip_old_Gray.png 93 102
+loadTemplate MyKad_670_MSC_Gray.png 54 54
+loadTemplate MyKad_670_MyKad.png 39 59
+[19:02:17] MatchTemplateMyKadResult: System.Collections.Generic.Dictionary`2[System.String,ImgProcLib.MatchTemplateResultItem]
+[19:02:17] key: MyKad_670_Flag MatchResult: 0.8908661603927612 x: 491 y: 15 w: 138 h: 75
+[19:02:17] key: MyKad_670_Flag dist: 0.10077831648472532 
+[19:02:17] key: MyKad_670_Flag_Gray MatchResult: 0.9213935732841492 x: 490 y: 16 w: 138 h: 71
+[19:02:17] key: MyKad_670_Flag_Gray dist: 0.10526761148221116 
+[19:02:17] key: MyKad_670_Flag_MoonStar MatchResult: 0.9478740692138672 x: 502 y: 23 w: 33 h: 25
+[19:02:17] key: MyKad_670_Flag_MoonStar dist: 0.11096174982477387 
+[19:02:17] key: MyKad_670_Flag_MoonStar_Gray MatchResult: 0.9651007056236267 x: 503 y: 23 w: 30 h: 27
+[19:02:17] key: MyKad_670_Flag_MoonStar_Gray dist: 0.11470074151019961 
+[19:02:17] key: MyKad_670_Flower_Front_Gray MatchResult: 0.8295103311538696 x: 284 y: 324 w: 122 h: 92
+[19:02:17] key: MyKad_670_Flower_Front_Gray dist: 0.0901387686615407 
+[19:02:17] key: MyKad_670_IC_Chip MatchResult: 0.5177736282348633 x: 41 y: 137 w: 118 h: 103
+[19:02:17] key: MyKad_670_IC_Chip dist: 0.06562204826620036 
+[19:02:17] key: MyKad_670_IC_Chip_Gray MatchResult: 0.5819084644317627 x: 49 y: 141 w: 102 h: 92
+[19:02:17] key: MyKad_670_IC_Chip_Gray dist: 0.06103280151708312 
+[19:02:17] key: MyKad_670_IC_Chip_old MatchResult: 0.34024086594581604 x: 45 y: 140 w: 108 h: 99
+[19:02:17] key: MyKad_670_IC_Chip_old dist: 0.07267223387428928 
+[19:02:17] key: MyKad_670_IC_Chip_old_Gray MatchResult: 0.27937552332878113 x: 49 y: 141 w: 102 h: 93
+[19:02:17] key: MyKad_670_IC_Chip_old_Gray dist: 0.06250002384185904 
+[19:02:17] key: MyKad_670_MSC_Gray MatchResult: 0.8603824377059937 x: 234 y: 107 w: 54 h: 54
+[19:02:17] key: MyKad_670_MSC_Gray dist: 0.05408328235704808 
+[19:02:17] key: MyKad_670_MyKad MatchResult: 0.9274714589118958 x: 384 y: 6 w: 59 h: 39
+[19:02:17] key: MyKad_670_MyKad dist: 0.08551325045778736 
+[19:02:17] key: MyKad_670_MyKad_Gray MatchResult: 0.9265151023864746 x: 385 y: 8 w: 61 h: 39
+[19:02:17] key: MyKad_670_MyKad_Gray dist: 0.07356978984133576 
+[19:02:17] removed 0 lines predicted as label removed from lsLineMerged [height < labelHeightInPixel (36.493332998840906)].
+line: MYKAD EstimateCenterYInInch: 0.21470588966639906
+line: 70/08-02-5591 EstimateCenterYInInch: 0.5341176375863296
+line: SURJAN SURIJAN MULAU EstimateCenterYInInch: 1.4261764684071327
+line: B60 JALAN 16 EstimateCenterYInInch: 1.7147060268764962
+line: CINTA SAYANG RESORT HOMES EstimateCenterYInInch: 1.8100000146785964
+line: 08000 SANGI PETANI EstimateCenterYInInch: 1.901764773305785
+line: KEDAH EstimateCenterYInInch: 1.9935295319329733
+mergedLinesNearToIDNUM: 70/08-02-5591 EstimateCenterYInInch: 0.5341176375863296
+[19:02:17] 70/08-02-5591 --> possibly IDNUM
+mergedLinesNearToIDNUMUnderFaceImage: MYKAD EstimateCenterYInInch: 0.21470588966639906
+[19:02:17] WARGANGARAR --> CITIZENSHIP
+[19:02:17] LEAKI --> GENDER
+mergedLinesNearToNationality: SURJAN SURIJAN MULAU EstimateCenterYInInch: 1.4261764684071327
+[19:02:17] SURJAN SURIJAN MULAU --> NAME
+[19:02:17] B60 JALAN 16 --> ADDRESS1
+[19:02:17] CINTA SAYANG RESORT HOMES --> ADDRESS2
+[19:02:17] 08000 SANGI PETANI --> ADDRESS3
+[19:02:17] KEDAH --> ADDRESS4
+mergedLinesNearToAddress5: MYKAD EstimateCenterYInInch: 0.21470588966639906
+Exception thrown: 'System.FormatException' in System.Private.CoreLib.dll
+[19:02:17] --> POSTCODE: 08000 CITY: SANGI PETANI
+[19:02:17] --> STATE: KEDAH
+ExtractFieldsFromReadResultOfMyKad result NOT success
+ScanIDDLResult: ScanID.ScanMyKadResult
+[19:02:29] ==== responseBody ====
+ {
+  "<OCR_WITH_REGION>": {
+    "labels": [
+      "</s>CAD PENGENALAN",
+      "MALAYSIA MYKad",
+      "INERENTITY CARD",
+      "7702028-02-5591",
+      "SURJAN A AASSAU",
+      "B60 JALAN 16",
+      "CINTA SAYANG RESORT HOMES",
+      "08000 SANGI PETANI",
+      "WargANGGARA",
+      "KEDAH",
+      "LELAKI"
+    ],
+    "quad_boxes": [
+      [
+        219.0814971923828,
+        78.56800079345703,
+        373.8424987792969,
+        77.46399688720703,
+        373.8424987792969,
+        88.13600158691406,
+        219.0814971923828,
+        89.97599792480469
+      ],
+      [
+        217.12249755859375,
+        88.13600158691406,
+        439.7955017089844,
+        84.08799743652344,
+        439.7955017089844,
+        97.7040023803711,
+        217.12249755859375,
+        102.48799896240234
+      ],
+      [
+        217.12249755859375,
+        101.75199890136719,
+        365.3534851074219,
+        101.75199890136719,
+        365.3534851074219,
+        111.31999969482422,
+        217.12249755859375,
+        111.31999969482422
+      ],
+      [
+        194.2675018310547,
+        117.20800018310547,
+        307.8894958496094,
+        117.20800018310547,
+        307.8894958496094,
+        131.55999755859375,
+        194.2675018310547,
+        131.55999755859375
+      ],
+      [
+        194.2675018310547,
+        212.15199279785156,
+        318.9905090332031,
+        212.15199279785156,
+        318.9905090332031,
+        222.82400512695312,
+        194.2675018310547,
+        222.82400512695312
+      ],
+      [
+        196.22650146484375,
+        243.06399536132812,
+        268.0564880371094,
+        243.06399536132812,
+        268.0564880371094,
+        252.6320037841797,
+        196.22650146484375,
+        252.6320037841797
+      ],
+      [
+        196.22650146484375,
+        252.6320037841797,
+        360.7825012207031,
+        252.6320037841797,
+        360.7825012207031,
+        262.9360046386719,
+        196.22650146484375,
+        262.9360046386719
+      ],
+      [
+        196.22650146484375,
+        262.20001220703125,
+        309.8485107421875,
+        262.20001220703125,
+        309.8485107421875,
+        272.5039978027344,
+        196.22650146484375,
+        272.5039978027344
+      ],
+      [
+        435.87750244140625,
+        258.5199890136719,
+        509.66650390625,
+        258.5199890136719,
+        509.66650390625,
+        268.0880126953125,
+        435.87750244140625,
+        268.0880126953125
+      ],
+      [
+        196.22650146484375,
+        271.76800537109375,
+        234.10049438476562,
+        271.76800537109375,
+        234.10049438476562,
+        281.33599853515625,
+        196.22650146484375,
+        281.33599853515625
+      ],
+      [
+        470.48651123046875,
+        266.9840087890625,
+        505.0954895019531,
+        266.9840087890625,
+        505.0954895019531,
+        275.447998046875,
+        470.48651123046875,
+        275.447998046875
+      ]
+    ]
+  }
+}
+
+==========
+[19:02:29] --> KAD PENGENALAN
+[19:02:29] Left:219.0814971923828 Top:78.01599884033203 Bottom:89.05599975585938
+[19:02:29] --> MALAYSIA
+[19:02:29] Left:217.12249755859375 Top:86.11199951171875 Bottom:100.09600067138672
+[19:02:29] --> IDENTITY CARD
+[19:02:29] Left:217.12249755859375 Top:101.75199890136719 Bottom:111.31999969482422
+[19:02:29] --> WARGANEGARA
+[19:02:29] Left:435.87750244140625 Top:258.5199890136719 Bottom:268.0880126953125
+[19:02:29] --> LELAKI
+[19:02:29] Left:470.48651123046875 Top:266.9840087890625 Bottom:275.447998046875
+KAD PENGENALAN PredictCenterYInPixel: 83.5359992980957
+KAD PENGENALAN PredictCenterXInPixel: 296.46199798583984
+MALAYSIA PredictCenterYInPixel: 93.10400009155273
+MALAYSIA PredictCenterXInPixel: 328.45899963378906
+IDENTITY CARD PredictCenterYInPixel: 106.5359992980957
+IDENTITY CARD PredictCenterXInPixel: 291.2379913330078
+WARGANEGARA PredictCenterYInPixel: 263.3040008544922
+WARGANEGARA PredictCenterXInPixel: 472.7720031738281
+LELAKI PredictCenterYInPixel: 271.21600341796875
+LELAKI PredictCenterXInPixel: 487.79100036621094
+loadTemplate MyKad_670_MyKad_Gray.png 39 61
+loadTemplate MyKad_670_Flag.png 75 138
+loadTemplate MyKad_670_Flag_Gray.png 71 138
+loadTemplate MyKad_670_Flag_MoonStar.png 25 33
+loadTemplate MyKad_670_Flag_MoonStar_Gray.png 27 30
+loadTemplate MyKad_670_Flower_Front_Gray.png 92 122
+loadTemplate MyKad_670_IC_Chip.png 103 118
+loadTemplate MyKad_670_IC_Chip_Gray.png 92 102
+loadTemplate MyKad_670_IC_Chip_old.png 99 108
+loadTemplate MyKad_670_IC_Chip_old_Gray.png 93 102
+loadTemplate MyKad_670_MSC_Gray.png 54 54
+loadTemplate MyKad_670_MyKad.png 39 59
+[19:02:29] MatchTemplateMyKadResult: System.Collections.Generic.Dictionary`2[System.String,ImgProcLib.MatchTemplateResultItem]
+[19:02:29] key: MyKad_670_Flag MatchResult: 0.9028843641281128 x: 482 y: 16 w: 138 h: 75
+[19:02:29] key: MyKad_670_Flag dist: 0.14605231137015362 
+[19:02:29] key: MyKad_670_Flag_Gray MatchResult: 0.9330259561538696 x: 481 y: 17 w: 138 h: 71
+[19:02:29] key: MyKad_670_Flag_Gray dist: 0.1505200272729134 
+[19:02:29] key: MyKad_670_Flag_MoonStar MatchResult: 0.9079629182815552 x: 493 y: 24 w: 33 h: 25
+[19:02:29] key: MyKad_670_Flag_MoonStar dist: 0.1559247066891757 
+[19:02:29] key: MyKad_670_Flag_MoonStar_Gray MatchResult: 0.9398182034492493 x: 494 y: 24 w: 30 h: 27
+[19:02:29] key: MyKad_670_Flag_MoonStar_Gray dist: 0.1594718292831665 
+[19:02:29] key: MyKad_670_Flower_Front_Gray MatchResult: 0.8148484826087952 x: 275 y: 326 w: 122 h: 92
+[19:02:29] key: MyKad_670_Flower_Front_Gray dist: 0.13416405732519673 
+[19:02:29] key: MyKad_670_IC_Chip MatchResult: 0.5414834022521973 x: 32 y: 139 w: 118 h: 103
+[19:02:29] key: MyKad_670_IC_Chip dist: 0.1085414886961308 
+[19:02:29] key: MyKad_670_IC_Chip_Gray MatchResult: 0.6005121469497681 x: 40 y: 143 w: 102 h: 92
+[19:02:29] key: MyKad_670_IC_Chip_Gray dist: 0.10511900118791281 
+[19:02:29] key: MyKad_670_IC_Chip_old MatchResult: 0.33573946356773376 x: 36 y: 141 w: 108 h: 99
+[19:02:29] key: MyKad_670_IC_Chip_old dist: 0.11294359161803551 
+[19:02:29] key: MyKad_670_IC_Chip_old_Gray MatchResult: 0.2513715922832489 x: 221 y: 74 w: 102 h: 93
+[19:02:29] key: MyKad_670_IC_Chip_old_Gray dist: 0.8629056822748303 
+[19:02:29] key: MyKad_670_MSC_Gray MatchResult: 0.8906120657920837 x: 224 y: 109 w: 54 h: 54
+[19:02:29] key: MyKad_670_MSC_Gray dist: 0.09708246006934812 
+[19:02:29] key: MyKad_670_MyKad MatchResult: 0.9330142736434937 x: 375 y: 8 w: 59 h: 39
+[19:02:29] key: MyKad_670_MyKad dist: 0.128111375247149 
+[19:02:29] key: MyKad_670_MyKad_Gray MatchResult: 0.9301272630691528 x: 376 y: 9 w: 61 h: 39
+[19:02:29] key: MyKad_670_MyKad_Gray dist: 0.11773921394659677 
+[19:02:29] removed 0 lines predicted as label removed from lsLineMerged [height < labelHeightInPixel (7.298666688777782)].
+line: 7702028-02-5591 EstimateCenterYInInch: 0.5344705855716679
+line: SURJAN A AASSAU EstimateCenterYInInch: 1.4274117640168524
+line: B60 JALAN 16 EstimateCenterYInInch: 1.7185882408164082
+line: CINTA SAYANG RESORT HOMES EstimateCenterYInInch: 1.8138824030690293
+line: 08000 SANGI PETANI EstimateCenterYInInch: 1.9056471166739515
+line: KEDAH EstimateCenterYInInch: 1.9938823816311746
+mergedLinesNearToIDNUM: 7702028-02-5591 EstimateCenterYInInch: 0.5344705855716679
+[19:02:29] 7702028-02-5591 --> possibly IDNUM
+[19:02:29] WARGANGGARA --> CITIZENSHIP
+[19:02:29] LELAKI --> GENDER
+mergedLinesNearToNationality: SURJAN A AASSAU EstimateCenterYInInch: 1.4274117640168524
+[19:02:29] SURJAN A AASSAU --> NAME
+[19:02:29] B60 JALAN 16 --> ADDRESS1
+[19:02:29] CINTA SAYANG RESORT HOMES --> ADDRESS2
+[19:02:29] 08000 SANGI PETANI --> ADDRESS3
+[19:02:29] KEDAH --> ADDRESS4
+[19:02:29] --> POSTCODE: 08000 CITY: SANGI PETANI
+[19:02:29] --> STATE: KEDAH
+ScanIDDLResult: ScanID.ScanMyKadResult
+'test1.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.11\System.Net.Quic.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+The thread 45376 has exited with code 0 (0x0).
+[19:02:40] ==== responseBody ====
+ {
+  "<OCR_WITH_REGION>": {
+    "labels": [
+      "</s>KAD PENGENALAN",
+      "MALAYSIA",
+      "MyKad",
+      "IDENTITY CARD",
+      "570911-04-5295",
+      "CHEW SIAN",
+      "NO 30 JALAN 8/8",
+      "4630 PETALING JAYA",
+      "WargANEGARA",
+      "selangor",
+      "LELAK"
+    ],
+    "quad_boxes": [
+      [
+        967.7760009765625,
+        407.55999755859375,
+        1718.4959716796875,
+        407.55999755859375,
+        1718.4959716796875,
+        459.08001708984375,
+        967.7760009765625,
+        459.08001708984375
+      ],
+      [
+        967.7760009765625,
+        453.55999755859375,
+        1695.64794921875,
+        453.55999755859375,
+        1695.64794921875,
+        527.1600341796875,
+        967.7760009765625,
+        527.1600341796875
+      ],
+      [
+        1832.7359619140625,
+        442.52001953125,
+        2067.743896484375,
+        442.52001953125,
+        2067.743896484375,
+        505.08001708984375,
+        1832.7359619140625,
+        505.08001708984375
+      ],
+      [
+        967.7760009765625,
+        517.9600219726562,
+        1760.927978515625,
+        517.9600219726562,
+        1760.927978515625,
+        571.3200073242188,
+        967.7760009765625,
+        571.3200073242188
+      ],
+      [
+        847.0079956054688,
+        611.7999877929688,
+        1388.83203125,
+        611.7999877929688,
+        1388.83203125,
+        679.8800048828125,
+        847.0079956054688,
+        679.8800048828125
+      ],
+      [
+        847.0079956054688,
+        1071.800048828125,
+        1147.2960205078125,
+        1071.800048828125,
+        1147.2960205078125,
+        1121.47998046875,
+        847.0079956054688,
+        1121.47998046875
+      ],
+      [
+        847.0079956054688,
+        1257.6400146484375,
+        1241.9520263671875,
+        1257.6400146484375,
+        1241.9520263671875,
+        1305.47998046875,
+        847.0079956054688,
+        1305.47998046875
+      ],
+      [
+        847.0079956054688,
+        1305.47998046875,
+        1382.303955078125,
+        1305.47998046875,
+        1382.303955078125,
+        1355.1600341796875,
+        847.0079956054688,
+        1355.1600341796875
+      ],
+      [
+        2012.2559814453125,
+        1288.9200439453125,
+        2364.76806640625,
+        1288.9200439453125,
+        2364.76806640625,
+        1333.080078125,
+        2012.2559814453125,
+        1333.080078125
+      ],
+      [
+        847.0079956054688,
+        1351.47998046875,
+        1124.447998046875,
+        1351.47998046875,
+        1124.447998046875,
+        1397.47998046875,
+        847.0079956054688,
+        1397.47998046875
+      ],
+      [
+        2188.511962890625,
+        1338.5999755859375,
+        2351.7119140625,
+        1338.5999755859375,
+        2351.7119140625,
+        1379.080078125,
+        2188.511962890625,
+        1379.080078125
+      ]
+    ]
+  }
+}
+
+==========
+[19:02:41] --> KAD PENGENALAN
+[19:02:41] Left:967.7760009765625 Top:407.55999755859375 Bottom:459.08001708984375
+[19:02:41] --> MALAYSIA
+[19:02:41] Left:967.7760009765625 Top:453.55999755859375 Bottom:527.1600341796875
+[19:02:41] --> IDENTITY CARD
+[19:02:41] Left:967.7760009765625 Top:517.9600219726562 Bottom:571.3200073242188
+[19:02:41] --> 
+[19:02:41] Left:847.0079956054688 Top:611.7999877929688 Bottom:679.8800048828125
+[19:02:41] --> WARGANEGARA
+[19:02:41] Left:2012.2559814453125 Top:1288.9200439453125 Bottom:1333.080078125
+[19:02:41] --> LELAKI
+[19:02:41] Left:2188.511962890625 Top:1338.5999755859375 Bottom:1379.080078125
+KAD PENGENALAN PredictCenterYInPixel: 433.32000732421875
+KAD PENGENALAN PredictCenterXInPixel: 1343.135986328125
+MALAYSIA PredictCenterYInPixel: 490.3600158691406
+MALAYSIA PredictCenterXInPixel: 1331.7119750976562
+IDENTITY CARD PredictCenterYInPixel: 544.6400146484375
+IDENTITY CARD PredictCenterXInPixel: 1364.3519897460938
+ PredictCenterYInPixel: 645.8399963378906
+ PredictCenterXInPixel: 1117.9200134277344
+WARGANEGARA PredictCenterYInPixel: 1311.0000610351562
+WARGANEGARA PredictCenterXInPixel: 2188.5120239257812
+LELAKI PredictCenterYInPixel: 1358.8400268554688
+LELAKI PredictCenterXInPixel: 2270.1119384765625
+loadTemplate MyKad_670_MyKad_Gray.png 39 61
+loadTemplate MyKad_670_Flag.png 75 138
+loadTemplate MyKad_670_Flag_Gray.png 71 138
+loadTemplate MyKad_670_Flag_MoonStar.png 25 33
+loadTemplate MyKad_670_Flag_MoonStar_Gray.png 27 30
+loadTemplate MyKad_670_Flower_Front_Gray.png 92 122
+loadTemplate MyKad_670_IC_Chip.png 103 118
+loadTemplate MyKad_670_IC_Chip_Gray.png 92 102
+loadTemplate MyKad_670_IC_Chip_old.png 99 108
+loadTemplate MyKad_670_IC_Chip_old_Gray.png 93 102
+loadTemplate MyKad_670_MSC_Gray.png 54 54
+loadTemplate MyKad_670_MyKad.png 39 59
+[19:02:41] MatchTemplateMyKadResult: System.Collections.Generic.Dictionary`2[System.String,ImgProcLib.MatchTemplateResultItem]
+[19:02:41] key: MyKad_670_Flag MatchResult: 0.8759430050849915 x: 506 y: 15 w: 138 h: 75
+[19:02:41] key: MyKad_670_Flag dist: 0.02795093501800391 
+[19:02:41] key: MyKad_670_Flag_Gray MatchResult: 0.9296560883522034 x: 505 y: 16 w: 138 h: 71
+[19:02:41] key: MyKad_670_Flag_Gray dist: 0.030923384712139568 
+[19:02:41] key: MyKad_670_Flag_MoonStar MatchResult: 0.8942797183990479 x: 516 y: 24 w: 33 h: 25
+[19:02:41] key: MyKad_670_Flag_MoonStar dist: 0.04962361523358408 
+[19:02:41] key: MyKad_670_Flag_MoonStar_Gray MatchResult: 0.9457895159721375 x: 517 y: 24 w: 30 h: 27
+[19:02:41] key: MyKad_670_Flag_MoonStar_Gray dist: 0.054829311209103546 
+[19:02:41] key: MyKad_670_Flower_Front_Gray MatchResult: 0.8030933141708374 x: 295 y: 325 w: 122 h: 92
+[19:02:41] key: MyKad_670_Flower_Front_Gray dist: 0.058523528070893435 
+[19:02:41] key: MyKad_670_IC_Chip MatchResult: 0.7769072651863098 x: 52 y: 134 w: 118 h: 103
+[19:02:41] key: MyKad_670_IC_Chip dist: 0.027950871043557948 
+[19:02:41] key: MyKad_670_IC_Chip_Gray MatchResult: 0.7981474995613098 x: 60 y: 138 w: 102 h: 92
+[19:02:41] key: MyKad_670_IC_Chip_Gray dist: 0.02061554836684534 
+[19:02:41] key: MyKad_670_IC_Chip_old MatchResult: 0.3681252896785736 x: 55 y: 136 w: 108 h: 99
+[19:02:41] key: MyKad_670_IC_Chip_old dist: 0.02795087530851555 
+[19:02:41] key: MyKad_670_IC_Chip_old_Gray MatchResult: 0.31173571944236755 x: 60 y: 137 w: 102 h: 93
+[19:02:41] key: MyKad_670_IC_Chip_old_Gray dist: 0.018200294372796494 
+[19:02:41] key: MyKad_670_MSC_Gray MatchResult: 0.9194375276565552 x: 247 y: 109 w: 54 h: 54
+[19:02:41] key: MyKad_670_MSC_Gray dist: 0.028284245959354092 
+[19:02:41] key: MyKad_670_MyKad MatchResult: 0.9242607355117798 x: 398 y: 6 w: 59 h: 39
+[19:02:41] key: MyKad_670_MyKad dist: 0.02573912687749564 
+[19:02:41] key: MyKad_670_MyKad_Gray MatchResult: 0.9264163374900818 x: 399 y: 7 w: 61 h: 39
+[19:02:41] key: MyKad_670_MyKad_Gray dist: 0.017677688917461618 
+[19:02:41] removed 0 lines predicted as label removed from lsLineMerged [height < labelHeightInPixel (35.99244452294008)].
+line: MYKAD EstimateCenterYInInch: 0.22077535655682554
+line: CHEW SIAN EstimateCenterYInInch: 1.4321073599022796
+line: NO 30 JALAN 8/8 EstimateCenterYInInch: 1.7917494745291749
+line: 4630 PETALING JAYA EstimateCenterYInInch: 1.8865805076353017
+line: SELANGOR EstimateCenterYInInch: 1.972465147432626
+[19:02:41] 570911-04-5295 --> IDNUM
+[19:02:41] WARGANEGARA --> CITIZENSHIP
+[19:02:41] LELAK --> GENDER
+mergedLinesNearToNationality: CHEW SIAN EstimateCenterYInInch: 1.4321073599022796
+[19:02:41] CHEW SIAN --> NAME
+[19:02:41] NO 30 JALAN 8/8 --> ADDRESS1
+[19:02:41] 4630 PETALING JAYA --> ADDRESS2
+[19:02:41] SELANGOR --> ADDRESS3
+mergedLinesNearToAddress4: MYKAD EstimateCenterYInInch: 0.22077535655682554
+mergedLinesNearToAddress5: MYKAD EstimateCenterYInInch: 0.22077535655682554
+[19:02:41] --> POSTCODE: 4630 CITY: PETALING JAYA
+[19:02:41] --> STATE: SELANGOR
+ExtractFieldsFromReadResultOfMyKad result NOT success
+ScanIDDLResult: ScanID.ScanMyKadResult
+[19:02:54] ==== responseBody ====
+ {
+  "<OCR_WITH_REGION>": {
+    "labels": [
+      "</s>KAD PENGENALAN",
+      "MALAYSIA",
+      "identITY CARD",
+      "MyKad",
+      "810611-05-5049",
+      "WONG WELL",
+      "NO.3 JALAN JUJOR 1/4",
+      "81611-45-5040",
+      "TAMAN BAKTI",
+      "WarganeGARA",
+      "68000 AMPANG",
+      "LELAKI",
+      "SELANGOR"
+    ],
+    "quad_boxes": [
+      [
+        791.5199584960938,
+        273.239990234375,
+        1725.02392578125,
+        273.239990234375,
+        1725.02392578125,
+        337.6400146484375,
+        791.5199584960938,
+        337.6400146484375
+      ],
+      [
+        791.5199584960938,
+        328.44000244140625,
+        1718.4959716796875,
+        328.44000244140625,
+        1718.4959716796875,
+        420.44000244140625,
+        791.5199584960938,
+        420.44000244140625
+      ],
+      [
+        791.5199584960938,
+        407.55999755859375,
+        1711.968017578125,
+        407.55999755859375,
+        1711.968017578125,
+        471.96002197265625,
+        791.5199584960938,
+        471.96002197265625
+      ],
+      [
+        1868.6400146484375,
+        328.44000244140625,
+        2152.60791015625,
+        322.9200134277344,
+        2155.8720703125,
+        400.20001220703125,
+        1868.6400146484375,
+        405.7200012207031
+      ],
+      [
+        638.1119995117188,
+        527.1600341796875,
+        1317.02392578125,
+        527.1600341796875,
+        1317.02392578125,
+        617.3200073242188,
+        638.1119995117188,
+        617.3200073242188
+      ],
+      [
+        634.8479614257812,
+        1108.5999755859375,
+        1104.864013671875,
+        1108.5999755859375,
+        1104.864013671875,
+        1174.8399658203125,
+        634.8479614257812,
+        1174.8399658203125
+      ],
+      [
+        634.8479614257812,
+        1318.3599853515625,
+        1317.02392578125,
+        1312.8399658203125,
+        1317.02392578125,
+        1369.8800048828125,
+        634.8479614257812,
+        1377.239990234375
+      ],
+      [
+        2168.927978515625,
+        1314.6800537109375,
+        2390.8798828125,
+        1314.6800537109375,
+        2390.8798828125,
+        1344.1199951171875,
+        2168.927978515625,
+        1345.9600830078125
+      ],
+      [
+        638.1119995117188,
+        1369.8800048828125,
+        1068.9599609375,
+        1368.0400390625,
+        1068.9599609375,
+        1421.4000244140625,
+        638.1119995117188,
+        1425.080078125
+      ],
+      [
+        2093.85595703125,
+        1368.0400390625,
+        2518.176025390625,
+        1366.2000732421875,
+        2518.176025390625,
+        1417.719970703125,
+        2093.85595703125,
+        1421.4000244140625
+      ],
+      [
+        641.3759765625,
+        1423.239990234375,
+        1101.5999755859375,
+        1421.4000244140625,
+        1101.5999755859375,
+        1472.9200439453125,
+        641.3759765625,
+        1476.5999755859375
+      ],
+      [
+        2302.751953125,
+        1423.239990234375,
+        2488.800048828125,
+        1421.4000244140625,
+        2488.800048828125,
+        1467.4000244140625,
+        2302.751953125,
+        1469.239990234375
+      ],
+      [
+        638.1119995117188,
+        1474.760009765625,
+        984.0960083007812,
+        1474.760009765625,
+        984.0960083007812,
+        1528.1199951171875,
+        638.1119995117188,
+        1528.1199951171875
+      ]
+    ]
+  }
+}
+
+==========
+[19:02:55] --> KAD PENGENALAN
+[19:02:55] Left:791.5199584960938 Top:273.239990234375 Bottom:337.6400146484375
+[19:02:55] --> MALAYSIA
+[19:02:55] Left:791.5199584960938 Top:328.44000244140625 Bottom:420.44000244140625
+[19:02:55] --> IDENTITY CARD
+[19:02:55] Left:791.5199584960938 Top:407.55999755859375 Bottom:471.96002197265625
+[19:02:55] --> 
+[19:02:55] Left:638.1119995117188 Top:527.1600341796875 Bottom:617.3200073242188
+[19:02:55] --> WARGANEGARA
+[19:02:55] Left:2093.85595703125 Top:1367.1200561523438 Bottom:1419.5599975585938
+[19:02:55] --> LELAKI
+[19:02:55] Left:2302.751953125 Top:1422.3200073242188 Bottom:1468.3200073242188
+KAD PENGENALAN PredictCenterYInPixel: 305.44000244140625
+KAD PENGENALAN PredictCenterXInPixel: 1258.2719421386719
+MALAYSIA PredictCenterYInPixel: 374.44000244140625
+MALAYSIA PredictCenterXInPixel: 1255.0079650878906
+IDENTITY CARD PredictCenterYInPixel: 439.760009765625
+IDENTITY CARD PredictCenterXInPixel: 1251.7439880371094
+ PredictCenterYInPixel: 572.2400207519531
+ PredictCenterXInPixel: 977.5679626464844
+WARGANEGARA PredictCenterYInPixel: 1393.3400268554688
+WARGANEGARA PredictCenterXInPixel: 2306.0159912109375
+LELAKI PredictCenterYInPixel: 1445.3200073242188
+LELAKI PredictCenterXInPixel: 2395.7760009765625
+loadTemplate MyKad_670_MyKad_Gray.png 39 61
+loadTemplate MyKad_670_Flag.png 75 138
+loadTemplate MyKad_670_Flag_Gray.png 71 138
+loadTemplate MyKad_670_Flag_MoonStar.png 25 33
+loadTemplate MyKad_670_Flag_MoonStar_Gray.png 27 30
+loadTemplate MyKad_670_Flower_Front_Gray.png 92 122
+loadTemplate MyKad_670_IC_Chip.png 103 118
+loadTemplate MyKad_670_IC_Chip_Gray.png 92 102
+loadTemplate MyKad_670_IC_Chip_old.png 99 108
+loadTemplate MyKad_670_IC_Chip_old_Gray.png 93 102
+loadTemplate MyKad_670_MSC_Gray.png 54 54
+loadTemplate MyKad_670_MyKad.png 39 59
+[19:02:55] MatchTemplateMyKadResult: System.Collections.Generic.Dictionary`2[System.String,ImgProcLib.MatchTemplateResultItem]
+[19:02:55] key: MyKad_670_Flag MatchResult: 0.8536041378974915 x: 503 y: 20 w: 138 h: 75
+[19:02:55] key: MyKad_670_Flag dist: 0.054829350072781585 
+[19:02:55] key: MyKad_670_Flag_Gray MatchResult: 0.8869962096214294 x: 501 y: 21 w: 138 h: 71
+[19:02:55] key: MyKad_670_Flag_Gray dist: 0.05963438216961963 
+[19:02:55] key: MyKad_670_Flag_MoonStar MatchResult: 0.8321006298065186 x: 515 y: 28 w: 33 h: 25
+[19:02:55] key: MyKad_670_Flag_MoonStar dist: 0.06754630580031279 
+[19:02:55] key: MyKad_670_Flag_MoonStar_Gray MatchResult: 0.8916293382644653 x: 517 y: 28 w: 30 h: 27
+[19:02:55] key: MyKad_670_Flag_MoonStar_Gray dist: 0.0700446509681228 
+[19:02:55] key: MyKad_670_Flower_Front_Gray MatchResult: 0.7836756706237793 x: 301 y: 326 w: 122 h: 92
+[19:02:55] key: MyKad_670_Flower_Front_Gray dist: 0.06082768017707707 
+[19:02:55] key: MyKad_670_IC_Chip MatchResult: 0.4683370888233185 x: 51 y: 136 w: 118 h: 103
+[19:02:55] key: MyKad_670_IC_Chip dist: 0.037500023841859804 
+[19:02:55] key: MyKad_670_IC_Chip_Gray MatchResult: 0.5490932464599609 x: 59 y: 139 w: 102 h: 92
+[19:02:55] key: MyKad_670_IC_Chip_Gray dist: 0.025000023841860796 
+[19:02:55] key: MyKad_670_IC_Chip_old MatchResult: 0.34399160742759705 x: 55 y: 138 w: 108 h: 99
+[19:02:55] key: MyKad_670_IC_Chip_old dist: 0.03783189008428396 
+[19:02:55] key: MyKad_670_IC_Chip_old_Gray MatchResult: 0.281576544046402 x: 60 y: 139 w: 102 h: 93
+[19:02:55] key: MyKad_670_IC_Chip_old_Gray dist: 0.027950871043557948 
+[19:02:55] key: MyKad_670_MSC_Gray MatchResult: 0.8790726065635681 x: 251 y: 109 w: 54 h: 54
+[19:02:55] key: MyKad_670_MSC_Gray dist: 0.044721332893988185 
+[19:02:55] key: MyKad_670_MyKad MatchResult: 0.9232165217399597 x: 400 y: 9 w: 59 h: 39
+[19:02:55] key: MyKad_670_MyKad dist: 0.007905729963340274 
+[19:02:55] key: MyKad_670_MyKad_Gray MatchResult: 0.9307920932769775 x: 401 y: 10 w: 61 h: 39
+[19:02:55] key: MyKad_670_MyKad_Gray dist: 0.007905605561877043 
+[19:02:55] removed 1 lines predicted as label removed from lsLineMerged [height < labelHeightInPixel (44.328666017761954)].
+line: MYKAD EstimateCenterYInInch: 0.23292977758323685
+line: WONG WELL EstimateCenterYInInch: 1.4605326485201169
+line: NO.3 JALAN JUJOR 1/4 EstimateCenterYInInch: 1.7808716626832541
+line: TAMAN BAKTI EstimateCenterYInInch: 1.862227675456729
+line: 68000 AMPANG EstimateCenterYInInch: 1.9450363493930358
+line: SELANGOR EstimateCenterYInInch: 2.0285714502922056
+[19:02:55] 810611-05-5049 --> IDNUM
+[19:02:55] WARGANEGARA --> CITIZENSHIP
+[19:02:55] LELAKI --> GENDER
+mergedLinesNearToNationality: WONG WELL EstimateCenterYInInch: 1.4605326485201169
+[19:02:55] WONG WELL --> NAME
+[19:02:55] NO.3 JALAN JUJOR 1/4 --> ADDRESS1
+[19:02:55] TAMAN BAKTI --> ADDRESS2
+[19:02:55] 68000 AMPANG --> ADDRESS3
+[19:02:55] SELANGOR --> ADDRESS4
+mergedLinesNearToAddress5: MYKAD EstimateCenterYInInch: 0.23292977758323685
+[19:02:55] --> POSTCODE: 68000 CITY: AMPANG
+[19:02:55] --> STATE: SELANGOR
+ScanIDDLResult: ScanID.ScanMyKadResult
+[19:03:07] ==== responseBody ====
+ {
+  "<OCR_WITH_REGION>": {
+    "labels": [
+      "</s>KAD PENGENALAN",
+      "MALAYSIA",
+      "MyKad",
+      "IDENTITY CARD",
+      "790336-01-6473",
+      "LAI CHIN FOR",
+      "103",
+      "JALAN WAWASAN 1/6",
+      "PUSAT BANDAR PUCHONG",
+      "47180 PUCHOONG",
+      "Warganegara",
+      "selANGOR",
+      "LELAKI"
+    ],
+    "quad_boxes": [
+      [
+        811.10400390625,
+        389.1600036621094,
+        1630.367919921875,
+        389.1600036621094,
+        1630.367919921875,
+        444.3600158691406,
+        811.10400390625,
+        444.3600158691406
+      ],
+      [
+        817.6319580078125,
+        435.1600036621094,
+        1620.575927734375,
+        435.1600036621094,
+        1620.575927734375,
+        517.9600219726562,
+        817.6319580078125,
+        517.9600219726562
+      ],
+      [
+        1770.719970703125,
+        429.6400146484375,
+        2022.0479736328125,
+        424.1199951171875,
+        2025.31201171875,
+        495.8800048828125,
+        1770.719970703125,
+        503.2400207519531
+      ],
+      [
+        811.10400390625,
+        512.4400024414062,
+        1627.10400390625,
+        512.4400024414062,
+        1627.10400390625,
+        565.7999877929688,
+        811.10400390625,
+        565.7999877929688
+      ],
+      [
+        696.864013671875,
+        619.1600341796875,
+        1284.384033203125,
+        619.1600341796875,
+        1284.384033203125,
+        694.6000366210938,
+        696.864013671875,
+        694.6000366210938
+      ],
+      [
+        690.3359985351562,
+        1130.6800537109375,
+        1062.4320068359375,
+        1130.6800537109375,
+        1062.4320068359375,
+        1185.8800048828125,
+        690.3359985351562,
+        1185.8800048828125
+      ],
+      [
+        690.3359985351562,
+        1252.1199951171875,
+        781.7279663085938,
+        1252.1199951171875,
+        781.7279663085938,
+        1296.280029296875,
+        690.3359985351562,
+        1296.280029296875
+      ],
+      [
+        690.3359985351562,
+        1298.1199951171875,
+        1255.0079345703125,
+        1298.1199951171875,
+        1255.0079345703125,
+        1347.800048828125,
+        690.3359985351562,
+        1347.800048828125
+      ],
+      [
+        690.3359985351562,
+        1347.800048828125,
+        1392.095947265625,
+        1347.800048828125,
+        1392.095947265625,
+        1397.47998046875,
+        690.3359985351562,
+        1397.47998046875
+      ],
+      [
+        690.3359985351562,
+        1399.320068359375,
+        1127.7120361328125,
+        1399.320068359375,
+        1127.7120361328125,
+        1449.0,
+        690.3359985351562,
+        1449.0
+      ],
+      [
+        1986.1439208984375,
+        1369.8800048828125,
+        2364.76806640625,
+        1369.8800048828125,
+        2364.76806640625,
+        1419.56005859375,
+        1986.1439208984375,
+        1419.56005859375
+      ],
+      [
+        693.5999755859375,
+        1449.0,
+        990.6239624023438,
+        1449.0,
+        990.6239624023438,
+        1500.52001953125,
+        693.5999755859375,
+        1500.52001953125
+      ],
+      [
+        2168.927978515625,
+        1421.4000244140625,
+        2341.919921875,
+        1421.4000244140625,
+        2341.919921875,
+        1465.56005859375,
+        2168.927978515625,
+        1465.56005859375
+      ]
+    ]
+  }
+}
+
+==========
+MergedLine [MALAYSIA]-[MYKAD] dist: 150.14404296875 --> [MALAYSIA   MYKAD]
+[19:03:08] --> KAD PENGENALAN
+[19:03:08] Left:811.10400390625 Top:389.1600036621094 Bottom:444.3600158691406
+[19:03:08] --> MALAYSIA
+[19:03:08] Left:817.6319580078125 Top:429.63999938964844 Bottom:506.9200134277344
+[19:03:08] --> IDENTITY CARD
+[19:03:08] Left:811.10400390625 Top:512.4400024414062 Bottom:565.7999877929688
+[19:03:08] --> 
+[19:03:08] Left:696.864013671875 Top:619.1600341796875 Bottom:694.6000366210938
+[19:03:08] --> WARGANEGARA
+[19:03:08] Left:1986.1439208984375 Top:1369.8800048828125 Bottom:1419.56005859375
+[19:03:08] --> LELAKI
+[19:03:08] Left:2168.927978515625 Top:1421.4000244140625 Bottom:1465.56005859375
+KAD PENGENALAN PredictCenterYInPixel: 416.760009765625
+KAD PENGENALAN PredictCenterXInPixel: 1220.7359619140625
+MALAYSIA PredictCenterYInPixel: 468.2800064086914
+MALAYSIA PredictCenterXInPixel: 1420.6559753417969
+IDENTITY CARD PredictCenterYInPixel: 539.1199951171875
+IDENTITY CARD PredictCenterXInPixel: 1219.10400390625
+ PredictCenterYInPixel: 656.8800354003906
+ PredictCenterXInPixel: 990.6240234375
+WARGANEGARA PredictCenterYInPixel: 1394.7200317382812
+WARGANEGARA PredictCenterXInPixel: 2175.4559936523438
+LELAKI PredictCenterYInPixel: 1443.4800415039062
+LELAKI PredictCenterXInPixel: 2255.4239501953125
+loadTemplate MyKad_670_MyKad_Gray.png 39 61
+loadTemplate MyKad_670_Flag.png 75 138
+loadTemplate MyKad_670_Flag_Gray.png 71 138
+loadTemplate MyKad_670_Flag_MoonStar.png 25 33
+loadTemplate MyKad_670_Flag_MoonStar_Gray.png 27 30
+loadTemplate MyKad_670_Flower_Front_Gray.png 92 122
+loadTemplate MyKad_670_IC_Chip.png 103 118
+loadTemplate MyKad_670_IC_Chip_Gray.png 92 102
+loadTemplate MyKad_670_IC_Chip_old.png 99 108
+loadTemplate MyKad_670_IC_Chip_old_Gray.png 93 102
+loadTemplate MyKad_670_MSC_Gray.png 54 54
+loadTemplate MyKad_670_MyKad.png 39 59
+[19:03:09] MatchTemplateMyKadResult: System.Collections.Generic.Dictionary`2[System.String,ImgProcLib.MatchTemplateResultItem]
+[19:03:09] key: MyKad_670_Flag MatchResult: 0.8568393588066101 x: 488 y: 17 w: 138 h: 75
+[19:03:09] key: MyKad_670_Flag dist: 0.11718051004547787 
+[19:03:09] key: MyKad_670_Flag_Gray MatchResult: 0.8595552444458008 x: 487 y: 18 w: 138 h: 71
+[19:03:09] key: MyKad_670_Flag_Gray dist: 0.12126942272556894 
+[19:03:09] key: MyKad_670_Flag_MoonStar MatchResult: 0.9075101017951965 x: 500 y: 25 w: 33 h: 25
+[19:03:09] key: MyKad_670_Flag_MoonStar dist: 0.12333900744955217 
+[19:03:09] key: MyKad_670_Flag_MoonStar_Gray MatchResult: 0.9236767888069153 x: 501 y: 25 w: 30 h: 27
+[19:03:09] key: MyKad_670_Flag_MoonStar_Gray dist: 0.1273038135228266 
+[19:03:09] key: MyKad_670_Flower_Front_Gray MatchResult: 0.7690421938896179 x: 284 y: 322 w: 122 h: 92
+[19:03:09] key: MyKad_670_Flower_Front_Gray dist: 0.08499998036555322 
+[19:03:09] key: MyKad_670_IC_Chip MatchResult: 0.545213520526886 x: 41 y: 136 w: 118 h: 103
+[19:03:09] key: MyKad_670_IC_Chip dist: 0.06250002384185904 
+[19:03:09] key: MyKad_670_IC_Chip_Gray MatchResult: 0.47596341371536255 x: 49 y: 140 w: 102 h: 92
+[19:03:09] key: MyKad_670_IC_Chip_Gray dist: 0.05830954143710173 
+[19:03:09] key: MyKad_670_IC_Chip_old MatchResult: 0.3042287826538086 x: 219 y: 77 w: 108 h: 99
+[19:03:09] key: MyKad_670_IC_Chip_old dist: 0.8577769044533039 
+[19:03:09] key: MyKad_670_IC_Chip_old_Gray MatchResult: 0.2488020807504654 x: 222 y: 72 w: 102 h: 93
+[19:03:09] key: MyKad_670_IC_Chip_old_Gray dist: 0.8710804876164681 
+[19:03:09] key: MyKad_670_MSC_Gray MatchResult: 0.7734312415122986 x: 236 y: 107 w: 54 h: 54
+[19:03:09] key: MyKad_670_MSC_Gray dist: 0.0460977326305213 
+[19:03:09] key: MyKad_670_MyKad MatchResult: 0.9533905386924744 x: 384 y: 8 w: 59 h: 39
+[19:03:09] key: MyKad_670_MyKad dist: 0.0834416915255616 
+[19:03:09] key: MyKad_670_MyKad_Gray MatchResult: 0.9386951923370361 x: 385 y: 9 w: 61 h: 39
+[19:03:09] key: MyKad_670_MyKad_Gray dist: 0.07288699416009461 
+[19:03:09] removed 0 lines predicted as label removed from lsLineMerged [height < labelHeightInPixel (39.9280004787445)].
+line: LAI CHIN FOR EstimateCenterYInInch: 1.4432795955306885
+line: 103 EstimateCenterYInInch: 1.6465053704496566
+line: JALAN WAWASAN 1/6 EstimateCenterYInInch: 1.7319892578770366
+line: PUSAT BANDAR PUCHONG EstimateCenterYInInch: 1.8190860185565945
+line: 47180 PUCHOONG EstimateCenterYInInch: 1.909408632744638
+line: SELANGOR EstimateCenterYInInch: 1.9981182666763737
+[19:03:09] 790336-01-6473 --> IDNUM
+[19:03:09] WARGANEGARA --> CITIZENSHIP
+[19:03:09] LELAKI --> GENDER
+mergedLinesNearToNationality: LAI CHIN FOR EstimateCenterYInInch: 1.4432795955306885
+[19:03:09] LAI CHIN FOR --> NAME
+[19:03:09] 103 --> ADDRESS1
+[19:03:09] JALAN WAWASAN 1/6 --> ADDRESS2
+[19:03:09] PUSAT BANDAR PUCHONG --> ADDRESS3
+[19:03:09] 47180 PUCHOONG --> ADDRESS4
+[19:03:09] SELANGOR --> ADDRESS5
+[19:03:09] --> POSTCODE: 47180 CITY: PUCHOONG
+[19:03:09] --> STATE: SELANGOR
+ScanIDDLResult: ScanID.ScanMyKadResult
+[19:03:20] ==== responseBody ====
+ {
+  "<OCR_WITH_REGION>": {
+    "labels": [
+      "</s>KAD PENGENALAN",
+      "MALAYSIA",
+      "MyKad",
+      "IDENTITY CARD",
+      "9000101-02-5507",
+      "LIM CHINING",
+      "NO 85 H",
+      "JALAN PERGAM",
+      "08000 SUNGAI PETANI",
+      "WARGANEGARA",
+      "KEDAH",
+      "LELAKI"
+    ],
+    "quad_boxes": [
+      [
+        980.8319702148438,
+        345.0,
+        1813.1519775390625,
+        345.0,
+        1813.1519775390625,
+        402.0400085449219,
+        980.8319702148438,
+        402.0400085449219
+      ],
+      [
+        990.6239624023438,
+        396.52001953125,
+        1813.1519775390625,
+        396.52001953125,
+        1813.1519775390625,
+        477.4800109863281,
+        990.6239624023438,
+        477.4800109863281
+      ],
+      [
+        1953.50390625,
+        383.6400146484375,
+        2208.095947265625,
+        379.96002197265625,
+        2208.095947265625,
+        453.55999755859375,
+        1953.50390625,
+        457.2400207519531
+      ],
+      [
+        987.3599853515625,
+        470.1199951171875,
+        1806.6240234375,
+        470.1199951171875,
+        1806.6240234375,
+        525.3200073242188,
+        987.3599853515625,
+        525.3200073242188
+      ],
+      [
+        850.27197265625,
+        563.9600219726562,
+        1480.2239990234375,
+        563.9600219726562,
+        1480.2239990234375,
+        639.4000244140625,
+        850.27197265625,
+        639.4000244140625
+      ],
+      [
+        853.5360107421875,
+        1090.2000732421875,
+        1405.1519775390625,
+        1084.6800537109375,
+        1405.1519775390625,
+        1150.9200439453125,
+        853.5360107421875,
+        1156.4400634765625
+      ],
+      [
+        869.85595703125,
+        1263.1600341796875,
+        1101.5999755859375,
+        1263.1600341796875,
+        1101.5999755859375,
+        1312.8399658203125,
+        869.85595703125,
+        1312.8399658203125
+      ],
+      [
+        869.85595703125,
+        1316.52001953125,
+        1330.0799560546875,
+        1314.6800537109375,
+        1330.0799560546875,
+        1364.3599853515625,
+        869.85595703125,
+        1366.2000732421875
+      ],
+      [
+        869.85595703125,
+        1368.0400390625,
+        1490.0159912109375,
+        1364.3599853515625,
+        1490.0159912109375,
+        1415.8800048828125,
+        869.85595703125,
+        1419.56005859375
+      ],
+      [
+        2178.719970703125,
+        1336.760009765625,
+        2576.927978515625,
+        1336.760009765625,
+        2576.927978515625,
+        1386.4400634765625,
+        2178.719970703125,
+        1386.4400634765625
+      ],
+      [
+        869.85595703125,
+        1415.8800048828125,
+        1075.488037109375,
+        1415.8800048828125,
+        1075.488037109375,
+        1465.56005859375,
+        869.85595703125,
+        1465.56005859375
+      ],
+      [
+        2368.031982421875,
+        1380.9200439453125,
+        2547.552001953125,
+        1380.9200439453125,
+        2547.552001953125,
+        1425.080078125,
+        2368.031982421875,
+        1425.080078125
+      ]
+    ]
+  }
+}
+
+==========
+MergedLine [MALAYSIA]-[MYKAD] dist: 140.3519287109375 --> [MALAYSIA   MYKAD]
+[19:03:21] --> KAD PENGENALAN
+[19:03:21] Left:980.8319702148438 Top:345 Bottom:402.0400085449219
+[19:03:21] --> MALAYSIA
+[19:03:21] Left:990.6239624023438 Top:388.2400207519531 Bottom:465.52000427246094
+[19:03:21] --> IDENTITY CARD
+[19:03:21] Left:987.3599853515625 Top:470.1199951171875 Bottom:525.3200073242188
+[19:03:21] --> WARGANEGARA
+[19:03:21] Left:2178.719970703125 Top:1336.760009765625 Bottom:1386.4400634765625
+[19:03:21] --> LELAKI
+[19:03:21] Left:2368.031982421875 Top:1380.9200439453125 Bottom:1425.080078125
+KAD PENGENALAN PredictCenterYInPixel: 373.52000427246094
+KAD PENGENALAN PredictCenterXInPixel: 1396.9919738769531
+MALAYSIA PredictCenterYInPixel: 426.88001251220703
+MALAYSIA PredictCenterXInPixel: 1599.3599548339844
+IDENTITY CARD PredictCenterYInPixel: 497.7200012207031
+IDENTITY CARD PredictCenterXInPixel: 1396.9920043945312
+WARGANEGARA PredictCenterYInPixel: 1361.6000366210938
+WARGANEGARA PredictCenterXInPixel: 2377.823974609375
+LELAKI PredictCenterYInPixel: 1403.0000610351562
+LELAKI PredictCenterXInPixel: 2457.7919921875
+loadTemplate MyKad_670_MyKad_Gray.png 39 61
+loadTemplate MyKad_670_Flag.png 75 138
+loadTemplate MyKad_670_Flag_Gray.png 71 138
+loadTemplate MyKad_670_Flag_MoonStar.png 25 33
+loadTemplate MyKad_670_Flag_MoonStar_Gray.png 27 30
+loadTemplate MyKad_670_Flower_Front_Gray.png 92 122
+loadTemplate MyKad_670_IC_Chip.png 103 118
+loadTemplate MyKad_670_IC_Chip_Gray.png 92 102
+loadTemplate MyKad_670_IC_Chip_old.png 99 108
+loadTemplate MyKad_670_IC_Chip_old_Gray.png 93 102
+loadTemplate MyKad_670_MSC_Gray.png 54 54
+loadTemplate MyKad_670_MyKad.png 39 59
+[19:03:22] MatchTemplateMyKadResult: System.Collections.Generic.Dictionary`2[System.String,ImgProcLib.MatchTemplateResultItem]
+[19:03:22] key: MyKad_670_Flag MatchResult: 0.8966408967971802 x: 485 y: 16 w: 138 h: 75
+[19:03:22] key: MyKad_670_Flag dist: 0.13117269073835955 
+[19:03:22] key: MyKad_670_Flag_Gray MatchResult: 0.8648686408996582 x: 484 y: 17 w: 138 h: 71
+[19:03:22] key: MyKad_670_Flag_Gray dist: 0.13557756359079332 
+[19:03:22] key: MyKad_670_Flag_MoonStar MatchResult: 0.91087406873703 x: 496 y: 24 w: 33 h: 25
+[19:03:22] key: MyKad_670_Flag_MoonStar dist: 0.14128875654344888 
+[19:03:22] key: MyKad_670_Flag_MoonStar_Gray MatchResult: 0.94173663854599 x: 497 y: 24 w: 30 h: 27
+[19:03:22] key: MyKad_670_Flag_MoonStar_Gray dist: 0.14493537492416367 
+[19:03:22] key: MyKad_670_Flower_Front_Gray MatchResult: 0.8201593160629272 x: 281 y: 324 w: 122 h: 92
+[19:03:22] key: MyKad_670_Flower_Front_Gray dist: 0.10295628288408289 
+[19:03:22] key: MyKad_670_IC_Chip MatchResult: 0.5160365104675293 x: 37 y: 137 w: 118 h: 103
+[19:03:22] key: MyKad_670_IC_Chip dist: 0.08189171933406142 
+[19:03:22] key: MyKad_670_IC_Chip_Gray MatchResult: 0.5399775505065918 x: 45 y: 141 w: 102 h: 92
+[19:03:22] key: MyKad_670_IC_Chip_Gray dist: 0.07826240053730031 
+[19:03:22] key: MyKad_670_IC_Chip_old MatchResult: 0.30359527468681335 x: 228 y: 74 w: 108 h: 99
+[19:03:22] key: MyKad_670_IC_Chip_old dist: 0.905210592086368 
+[19:03:22] key: MyKad_670_IC_Chip_old_Gray MatchResult: 0.2639106512069702 x: 233 y: 74 w: 102 h: 93
+[19:03:22] key: MyKad_670_IC_Chip_old_Gray dist: 0.9194597408650793 
+[19:03:22] key: MyKad_670_MSC_Gray MatchResult: 0.8680040836334229 x: 231 y: 109 w: 54 h: 54
+[19:03:22] key: MyKad_670_MSC_Gray dist: 0.06324557205201402 
+[19:03:22] key: MyKad_670_MyKad MatchResult: 0.943027675151825 x: 379 y: 7 w: 59 h: 39
+[19:03:22] key: MyKad_670_MyKad dist: 0.10891519964000981 
+[19:03:22] key: MyKad_670_MyKad_Gray MatchResult: 0.9051421880722046 x: 380 y: 9 w: 61 h: 39
+[19:03:22] key: MyKad_670_MyKad_Gray dist: 0.09778813162171178 
+[19:03:22] removed 0 lines predicted as label removed from lsLineMerged [height < labelHeightInPixel (40.0353347832185)].
+line: 9000101-02-5507 EstimateCenterYInInch: 0.5413136991164376
+line: LIM CHINING EstimateCenterYInInch: 1.4485523379173417
+line: NO 85 H EstimateCenterYInInch: 1.7413136202146853
+line: JALAN PERGAM EstimateCenterYInInch: 1.833002682954731
+line: 08000 SUNGAI PETANI EstimateCenterYInInch: 1.923083089821289
+line: KEDAH EstimateCenterYInInch: 2.0083377958605166
+mergedLinesNearToIDNUM: 9000101-02-5507 EstimateCenterYInInch: 0.5413136991164376
+[19:03:22] 9000101-02-5507 --> possibly IDNUM
+[19:03:22] WARGANEGARA --> CITIZENSHIP
+[19:03:22] LELAKI --> GENDER
+mergedLinesNearToNationality: LIM CHINING EstimateCenterYInInch: 1.4485523379173417
+[19:03:22] LIM CHINING --> NAME
+[19:03:22] NO 85 H --> ADDRESS1
+[19:03:22] JALAN PERGAM --> ADDRESS2
+[19:03:22] 08000 SUNGAI PETANI --> ADDRESS3
+[19:03:22] KEDAH --> ADDRESS4
+[19:03:22] --> POSTCODE: 08000 CITY: SUNGAI PETANI
+[19:03:22] --> STATE: KEDAH
+ScanIDDLResult: ScanID.ScanMyKadResult
+[19:03:34] ==== responseBody ====
+ {
+  "<OCR_WITH_REGION>": {
+    "labels": [
+      "</s>KAD PENGENALAN",
+      "MALAYSIA",
+      "MyKad",
+      "751002-14-5383",
+      "TAN BOON KEE",
+      "LOT 1998",
+      "Jalan SULH BUDIMAN 1",
+      "Taman SULuh BUDUMAN",
+      "45600 BTG BERJUNTA",
+      "WARGANEGARA",
+      "SELANGOR",
+      "LELAKI"
+    ],
+    "quad_boxes": [
+      [
+        850.27197265625,
+        354.20001220703125,
+        1656.47998046875,
+        354.20001220703125,
+        1656.47998046875,
+        416.760009765625,
+        850.27197265625,
+        416.760009765625
+      ],
+      [
+        856.7999877929688,
+        416.760009765625,
+        1646.68798828125,
+        416.760009765625,
+        1646.68798828125,
+        514.280029296875,
+        856.7999877929688,
+        514.280029296875
+      ],
+      [
+        1793.5679931640625,
+        391.0,
+        2064.47998046875,
+        379.96002197265625,
+        2067.743896484375,
+        460.9200134277344,
+        1796.8319091796875,
+        471.96002197265625
+      ],
+      [
+        677.2799682617188,
+        543.7200317382812,
+        1323.552001953125,
+        543.7200317382812,
+        1323.552001953125,
+        617.3200073242188,
+        677.2799682617188,
+        617.3200073242188
+      ],
+      [
+        687.0719604492188,
+        1068.1199951171875,
+        1179.93603515625,
+        1066.280029296875,
+        1179.93603515625,
+        1121.47998046875,
+        687.0719604492188,
+        1123.320068359375
+      ],
+      [
+        687.0719604492188,
+        1182.2000732421875,
+        941.6640014648438,
+        1182.2000732421875,
+        941.6640014648438,
+        1230.0400390625,
+        687.0719604492188,
+        1230.0400390625
+      ],
+      [
+        687.0719604492188,
+        1231.8800048828125,
+        1405.1519775390625,
+        1230.0400390625,
+        1405.1519775390625,
+        1277.8800048828125,
+        687.0719604492188,
+        1279.719970703125
+      ],
+      [
+        690.3359985351562,
+        1283.4000244140625,
+        1382.303955078125,
+        1279.719970703125,
+        1382.303955078125,
+        1327.56005859375,
+        690.3359985351562,
+        1331.239990234375
+      ],
+      [
+        690.3359985351562,
+        1331.239990234375,
+        1330.0799560546875,
+        1329.4000244140625,
+        1330.0799560546875,
+        1377.239990234375,
+        690.3359985351562,
+        1380.9200439453125
+      ],
+      [
+        1963.2960205078125,
+        1307.320068359375,
+        2358.239990234375,
+        1307.320068359375,
+        2358.239990234375,
+        1353.320068359375,
+        1963.2960205078125,
+        1353.320068359375
+      ],
+      [
+        696.864013671875,
+        1380.9200439453125,
+        1003.6799926757812,
+        1380.9200439453125,
+        1003.6799926757812,
+        1430.5999755859375,
+        696.864013671875,
+        1430.5999755859375
+      ],
+      [
+        2146.080078125,
+        1355.1600341796875,
+        2322.3359375,
+        1355.1600341796875,
+        2322.3359375,
+        1395.6400146484375,
+        2146.080078125,
+        1395.6400146484375
+      ]
+    ]
+  }
+}
+
+==========
+[19:03:35] --> KAD PENGENALAN
+[19:03:35] Left:850.27197265625 Top:354.20001220703125 Bottom:416.760009765625
+[19:03:35] --> MALAYSIA
+[19:03:35] Left:856.7999877929688 Top:416.760009765625 Bottom:514.280029296875
+[19:03:35] --> 
+[19:03:35] Left:677.2799682617188 Top:543.7200317382812 Bottom:617.3200073242188
+[19:03:35] --> WARGANEGARA
+[19:03:35] Left:1963.2960205078125 Top:1307.320068359375 Bottom:1353.320068359375
+[19:03:35] --> LELAKI
+[19:03:35] Left:2146.080078125 Top:1355.1600341796875 Bottom:1395.6400146484375
+KAD PENGENALAN PredictCenterYInPixel: 385.4800109863281
+KAD PENGENALAN PredictCenterXInPixel: 1253.3759765625
+MALAYSIA PredictCenterYInPixel: 465.52001953125
+MALAYSIA PredictCenterXInPixel: 1251.7439880371094
+ PredictCenterYInPixel: 580.52001953125
+ PredictCenterXInPixel: 1000.4159851074219
+WARGANEGARA PredictCenterYInPixel: 1330.320068359375
+WARGANEGARA PredictCenterXInPixel: 2160.7680053710938
+LELAKI PredictCenterYInPixel: 1375.4000244140625
+LELAKI PredictCenterXInPixel: 2234.2080078125
+loadTemplate MyKad_670_MyKad_Gray.png 39 61
+loadTemplate MyKad_670_Flag.png 75 138
+loadTemplate MyKad_670_Flag_Gray.png 71 138
+loadTemplate MyKad_670_Flag_MoonStar.png 25 33
+loadTemplate MyKad_670_Flag_MoonStar_Gray.png 27 30
+loadTemplate MyKad_670_Flower_Front_Gray.png 92 122
+loadTemplate MyKad_670_IC_Chip.png 103 118
+loadTemplate MyKad_670_IC_Chip_Gray.png 92 102
+loadTemplate MyKad_670_IC_Chip_old.png 99 108
+loadTemplate MyKad_670_IC_Chip_old_Gray.png 93 102
+loadTemplate MyKad_670_MSC_Gray.png 54 54
+loadTemplate MyKad_670_MyKad.png 39 59
+[19:03:35] MatchTemplateMyKadResult: System.Collections.Generic.Dictionary`2[System.String,ImgProcLib.MatchTemplateResultItem]
+[19:03:35] key: MyKad_670_Flag MatchResult: 0.8882330656051636 x: 515 y: 13 w: 138 h: 75
+[19:03:35] key: MyKad_670_Flag dist: 0.020155549739757198 
+[19:03:35] key: MyKad_670_Flag_Gray MatchResult: 0.8706163167953491 x: 514 y: 14 w: 138 h: 71
+[19:03:35] key: MyKad_670_Flag_Gray dist: 0.015206812255898565 
+[19:03:35] key: MyKad_670_Flag_MoonStar MatchResult: 0.8960115909576416 x: 526 y: 22 w: 33 h: 25
+[19:03:35] key: MyKad_670_Flag_MoonStar dist: 0.02573904698485376 
+[19:03:35] key: MyKad_670_Flag_MoonStar_Gray MatchResult: 0.9336826801300049 x: 527 y: 22 w: 30 h: 27
+[19:03:35] key: MyKad_670_Flag_MoonStar_Gray dist: 0.029261727879645885 
+[19:03:35] key: MyKad_670_Flower_Front_Gray MatchResult: 0.470767080783844 x: 220 y: 329 w: 122 h: 92
+[19:03:35] key: MyKad_670_Flower_Front_Gray dist: 0.4020571719077107 
+[19:03:35] key: MyKad_670_IC_Chip MatchResult: 0.3066340982913971 x: 53 y: 136 w: 118 h: 103
+[19:03:35] key: MyKad_670_IC_Chip dist: 0.03881045670591208 
+[19:03:35] key: MyKad_670_IC_Chip_Gray MatchResult: 0.28021886944770813 x: 2 y: 99 w: 102 h: 92
+[19:03:35] key: MyKad_670_IC_Chip_Gray dist: 0.33443982784692367 
+[19:03:35] key: MyKad_670_IC_Chip_old MatchResult: 0.2996664047241211 x: 257 y: 70 w: 108 h: 99
+[19:03:35] key: MyKad_670_IC_Chip_old dist: 1.0495385708084337 
+[19:03:35] key: MyKad_670_IC_Chip_old_Gray MatchResult: 0.2534216642379761 x: 496 y: 137 w: 102 h: 93
+[19:03:35] key: MyKad_670_IC_Chip_old_Gray dist: 2.185070067238121 
+[19:03:35] key: MyKad_670_MSC_Gray MatchResult: 0.8564398288726807 x: 264 y: 99 w: 54 h: 54
+[19:03:35] key: MyKad_670_MSC_Gray dist: 0.1261942681910732 
+[19:03:35] key: MyKad_670_MyKad MatchResult: 0.7694797515869141 x: 409 y: 5 w: 59 h: 39
+[19:03:35] key: MyKad_670_MyKad dist: 0.050621064998703634 
+[19:03:35] key: MyKad_670_MyKad_Gray MatchResult: 0.7653408646583557 x: 410 y: 6 w: 61 h: 39
+[19:03:35] key: MyKad_670_MyKad_Gray dist: 0.05711821298543681 
+[19:03:35] removed 0 lines predicted as label removed from lsLineMerged [height < labelHeightInPixel (38.49688868263622)].
+line: MYKAD EstimateCenterYInInch: 0.21996281028200745
+line: TAN BOON KEE EstimateCenterYInInch: 1.4361338329069382
+line: LOT 1998 EstimateCenterYInInch: 1.6385502605393472
+line: JALAN SULUH BUDIMAN 1 EstimateCenterYInInch: 1.727211878204151
+line: TAMAN SULUH BUDUMAN EstimateCenterYInInch: 1.8192193251312496
+line: 45600 BTG BERJUNTA EstimateCenterYInInch: 1.908717469475365
+line: SELANGOR EstimateCenterYInInch: 2.0015613320997945
+[19:03:35] 751002-14-5383 --> IDNUM
+[19:03:35] WARGANEGARA --> CITIZENSHIP
+[19:03:35] LELAKI --> GENDER
+mergedLinesNearToNationality: TAN BOON KEE EstimateCenterYInInch: 1.4361338329069382
+[19:03:35] TAN BOON KEE --> NAME
+[19:03:35] LOT 1998 --> ADDRESS1
+[19:03:35] JALAN SULUH BUDIMAN 1 --> ADDRESS2
+[19:03:35] TAMAN SULUH BUDUMAN --> ADDRESS3
+[19:03:35] 45600 BTG BERJUNTA --> ADDRESS4
+[19:03:35] SELANGOR --> ADDRESS5
+[19:03:35] --> POSTCODE: 45600 CITY: BTG BERJUNTA
+[19:03:35] --> STATE: SELANGOR
+ScanIDDLResult: ScanID.ScanMyKadResult
+The program '[41060] test1.exe' has exited with code 0 (0x0).

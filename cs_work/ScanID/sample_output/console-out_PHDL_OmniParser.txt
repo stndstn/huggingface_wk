@@ -1,0 +1,2499 @@
+ScanPHDL imageFileName: F:\WORK\Dev\huggingface\work\ConsoleApp1\test1\bin\Debug\net8.0\testdata\PHDL1_Test1.jpg
+PostOCRWithRegionRequest start...
+PostOCRWithRegionRequest PostAsync start...
+PostOCRWithRegionRequest PostAsync (8.4833445 sec)
+
+(8.5929237 sec)
+
+(  605.0,   252.0)-( 1436.0,   325.0)   831.0 :    73.0 REPUBLIC OF THE PHILIPPINES ()
+(  591.0,   314.0)-( 1452.0,   386.0)   861.0 :    72.0 DEPARTMENT OF TRANSPORTATION ()
+(  638.0,   370.0)-( 1405.0,   435.0)   767.0 :    65.0 LAND TRANSPORTATION OFFICE ()
+( 1716.0,   386.0)-( 1780.0,   410.0)    64.0 :    24.0 LTO ()
+(  473.0,   441.0)-( 1618.0,   521.0)  1145.0 :    80.0 NON-PROFESSIONAL DRIVER'S LICENSE ()
+( 1664.0,   427.0)-( 1843.0,   511.0)   179.0 :    84.0 W) ()
+(  752.0,   560.0)-( 1382.0,   613.0)   630.0 :    53.0 LAST NAME FIRST NAME. MIDDLE NAME ()
+(  748.0,   592.0)-( 1557.0,   684.0)   809.0 :    92.0 DIZON, TCHAICOVSKY CRUZ ()
+(  752.0,   686.0)-(  945.0,   743.0)   193.0 :    57.0 NATIONALITY ()
+( 1003.0,   695.0)-( 1076.0,   740.0)    73.0 :    45.0 SEX ()
+( 1147.0,   698.0)-( 1361.0,   742.0)   214.0 :    44.0 DATE %F BIRTH ()
+( 1450.0,   698.0)-( 1653.0,   753.0)   203.0 :    55.0 WEIGHT {KG} ()
+( 1681.0,   703.0)-( 1854.0,   754.0)   173.0 :    51.0 HEIEHUM} ()
+(  752.0,   738.0)-(  852.0,   790.0)   100.0 :    52.0 PHL ()
+( 1140.0,   742.0)-( 1424.0,   797.0)   284.0 :    55.0 1976/08/08 ()
+( 1750.0,   750.0)-( 1817.0,   801.0)    67.0 :    51.0 65 ()
+(  753.0,   806.0)-(  902.0,   855.0)   149.0 :    49.0 ADDRESS ()
+(  749.0,   856.0)-( 1835.0,   920.0)  1086.0 :    64.0 0167 FELICIANQ ST LAGUNDI MORONG RIZAL ()
+(  751.0,   987.0)-(  887.0,  1027.0)   136.0 :    40.0 LICENSE ()
+( 1184.0,   986.0)-( 1447.0,  1036.0)   263.0 :    50.0 EXPIRATION DATE ()
+( 1491.0,   987.0)-( 1716.0,  1038.0)   225.0 :    51.0 AGENCY CODE ()
+(  748.0,  1026.0)-( 1148.0,  1082.0)   400.0 :    56.0 NO2-96-314856 ()
+( 1180.0,  1028.0)-( 1477.0,  1092.0)   297.0 :    64.0 2025/09/P8 ()
+( 1552.0,  1031.0)-( 1653.0,  1087.0)   101.0 :    56.0 DT9 ()
+(  749.0,  1098.0)-(  944.0,  1148.0)   195.0 :    50.0 BTOOC FYPEL ()
+( 1036.0,  1100.0)-( 1218.0,  1148.0)   182.0 :    48.0 EXES CDLOR ()
+(  348.0,  1128.0)-(  584.0,  1182.0)   236.0 :    54.0 2019103/14 ()
+(  796.0,  1140.0)-(  894.0,  1188.0)    98.0 :    48.0 AB+ ()
+( 1048.0,  1138.0)-( 1206.0,  1192.0)   158.0 :    54.0 BLACK ()
+(  333.0,  1203.0)-(  357.0,  1219.0)    24.0 :    16.0 26 ()
+(  364.0,  1195.0)-(  482.0,  1221.0)   118.0 :    26.0 3*4856DIZCN, ()
+(  487.0,  1201.0)-(  559.0,  1217.0)    72.0 :    16.0 PCHACO ()
+(  601.0,  1197.0)-(  649.0,  1217.0)    48.0 :    20.0 CRUZ ()
+(  749.0,  1215.0)-(  947.0,  1255.0)   198.0 :    40.0 RESIRICTIONS ()
+( 1040.0,  1212.0)-( 1227.0,  1257.0)   187.0 :    45.0 CONDITIONE ()
+(  806.0,  1250.0)-(  887.0,  1307.0)    81.0 :    57.0 142 ()
+( 1062.0,  1252.0)-( 1202.0,  1306.0)   140.0 :    54.0 NONE ()
+( 1291.0,  1289.0)-( 1419.0,  1331.0)   128.0 :    42.0 EDGAR ()
+( 1459.0,  1283.0)-( 1650.0,  1335.0)   191.0 :    52.0 GALVANTE ()
+(  272.0,  1338.0)-(  656.0,  1393.0)   384.0 :    55.0 SIGNATURE AF LLCENSEE ()
+( 1285.0,  1332.0)-( 1614.0,  1382.0)   329.0 :    50.0 ASSISTAR: SECRETARY ()
+( 1734.0,   288.0)-( 1807.0,   345.0)    73.0 :    57.0 ORTATIORR ()
+Estimating resolution as 475
+Detected 37 diacritics
+REPUBLIC OF THE FHILIPPINES
+Before: (  605.0,   252.0)-( 1436.0,   325.0)   831.0 :    73.0 REPUBLIC OF THE PHILIPPINES ()
+After: (  655.0,   264.0)-( 1520.0,   332.0)   865.0 :    49.0 REPUBLIC OF THE PHILIPPINES ()
+Estimating resolution as 471
+Detected 50 diacritics
+DEPARTMENT OF TRANSPORTATION
+Before: (  591.0,   314.0)-( 1452.0,   386.0)   861.0 :    72.0 DEPARTMENT OF TRANSPORTATION ()
+After: (  643.0,   314.0)-( 1539.0,   393.0)   896.0 :    52.0 DEPARTMENT OF TRANSPORTATION (0.9100000262260437)
+Estimating resolution as 450
+LAND TRANSPORTATION OFFICE
+Before: (  638.0,   370.0)-( 1405.0,   435.0)   767.0 :    65.0 LAND TRANSPORTATION OFFICE ()
+After: (  683.0,   370.0)-( 1527.0,   430.0)   844.0 :    45.0 LAND TRANSPORTATION OFFICE (0.9100000262260437)
+Estimating resolution as 220
+
+Estimating resolution as 535
+NON-PROFESSIONAL DRIVER'S LICENSE |
+Before: (  473.0,   441.0)-( 1618.0,   521.0)  1145.0 :    80.0 NON-PROFESSIONAL DRIVER'S LICENSE ()
+After: (  537.0,   441.0)-( 1797.0,   519.0)  1260.0 :    53.0 NON-PROFESSIONAL DRIVER'S LICENSE ()
+Estimating resolution as 326
+
+Estimating resolution as 414
+Last Name. First Name, Middie Name
+Before: (  752.0,   560.0)-( 1382.0,   613.0)   630.0 :    53.0 LAST NAME FIRST NAME. MIDDLE NAME ()
+After: (  793.0,   570.0)-( 1455.0,   628.0)   662.0 :    48.0 LAST NAME FIRST NAME. MIDDLE NAME ()
+Estimating resolution as 600
+Detected 36 diacritics
+R e A ol
+DIZON, TCHAICOVSKY CRUZ
+
+Estimating resolution as 369
+Nationality
+Before: (  752.0,   686.0)-(  945.0,   743.0)   193.0 :    57.0 NATIONALITY ()
+After: (  771.0,   701.0)-(  965.0,   754.0)   194.0 :    44.0 NATIONALITY ()
+Estimating resolution as 450
+Empty page!!
+Estimating resolution as 450
+Empty page!!
+Estimating resolution as 453
+Empty page!!
+Estimating resolution as 453
+Empty page!!
+Estimating resolution as 507
+
+Estimating resolution as 525
+Empty page!!
+Estimating resolution as 525
+Empty page!!
+Estimating resolution as 516
+PHL
+Before: (  752.0,   738.0)-(  852.0,   790.0)   100.0 :    52.0 PHL ()
+After: (  764.0,   747.0)-(  863.0,   798.0)    99.0 :    50.0 PHL ()
+Estimating resolution as 588
+Empty page!!
+Estimating resolution as 588
+Empty page!!
+Estimating resolution as 445
+45
+Before: ( 1750.0,   750.0)-( 1817.0,   801.0)    67.0 :    51.0 65 ()
+After: ( 1750.0,   751.0)-( 1815.0,   799.0)    65.0 :    48.0 65 ()
+Estimating resolution as 366
+Address
+Before: (  753.0,   806.0)-(  902.0,   855.0)   149.0 :    49.0 ADDRESS ()
+After: (  769.0,   811.0)-(  920.0,   855.0)   151.0 :    41.0 ADDRESS ()
+Estimating resolution as 513
+0167 FELICIANQ $T LAGUND! MORONG RIZAL
+Before: (  749.0,   856.0)-( 1835.0,   920.0)  1086.0 :    64.0 0167 FELICIANQ ST LAGUNDI MORONG RIZAL ()
+After: (  812.0,   856.0)-( 1948.0,   927.0)  1136.0 :    96.0 0167 FELICIANQ ST LAGUNDI MORONG RIZAL ()
+Estimating resolution as 378
+Licanse
+Before: (  751.0,   987.0)-(  887.0,  1027.0)   136.0 :    40.0 LICENSE ()
+After: (  762.0,   988.0)-(  901.0,  1032.0)   139.0 :    44.0 LICENSE ()
+Estimating resolution as 475
+Ekpiration Date
+Before: ( 1184.0,   986.0)-( 1447.0,  1036.0)   263.0 :    50.0 EXPIRATION DATE ()
+After: ( 1204.0,   986.0)-( 1488.0,  1041.0)   284.0 :    55.0 EXPIRATION DATE ()
+Estimating resolution as 491
+Empty page!!
+Estimating resolution as 491
+Empty page!!
+Estimating resolution as 563
+NO2:96-3 14884
+Estimating resolution as 694
+2028/08/08
+Estimating resolution as 491
+D9
+Estimating resolution as 445
+
+Estimating resolution as 430
+Empty page!!
+Estimating resolution as 430
+Empty page!!
+Estimating resolution as 603
+2019/03/14
+Before: (  348.0,  1128.0)-(  584.0,  1182.0)   236.0 :    54.0 2019103/14 ()
+After: (  367.0,  1130.0)-(  606.0,  1178.0)   239.0 :    46.0 2019103/14 ()
+Estimating resolution as 578
+AB~*
+Before: (  796.0,  1140.0)-(  894.0,  1188.0)    98.0 :    48.0 AB+ ()
+After: (  806.0,  1140.0)-(  903.0,  1192.0)    97.0 :    51.0 AB+ ()
+Estimating resolution as 641
+Estimating resolution as 175
+
+Estimating resolution as 173
+- 314856 DIZON,
+Before: (  364.0,  1195.0)-(  482.0,  1221.0)   118.0 :    26.0 3*4856DIZCN, ()
+After: (  366.0,  1203.0)-(  489.0,  1226.0)   123.0 :    22.0 3*4856DIZCN, ()
+Estimating resolution as 138
+TCHAIC
+Before: (  487.0,  1201.0)-(  559.0,  1217.0)    72.0 :    16.0 PCHACO ()
+After: (  491.0,  1203.0)-(  549.0,  1217.0)    58.0 :    12.0 PCHACO ()
+Estimating resolution as 163
+Empty page!!
+Estimating resolution as 163
+Empty page!!
+Estimating resolution as 519
+Empty page!!
+Estimating resolution as 519
+Empty page!!
+Estimating resolution as 638
+Empty page!!
+Estimating resolution as 638
+Empty page!!
+Estimating resolution as 541
+N2
+Estimating resolution as 691
+NONE
+Estimating resolution as 566
+Empty page!!
+Estimating resolution as 566
+Empty page!!
+Estimating resolution as 480
+Empty page!!
+Estimating resolution as 480
+Empty page!!
+Estimating resolution as 405
+Sighature of Licensge
+Estimating resolution as 619
+Empty page!!
+Estimating resolution as 619
+Empty page!!
+Estimating resolution as 278
+
+==== Lines read by Tesseract ====
+(   50.0,    12.0)-(  865.0,    68.0)   815.0 :    37.0 REPUBLIC OF THE FHILIPPINES (0.7699999809265137)
+(   52.0,     0.0)-(  896.0,    79.0)   844.0 :    52.0 DEPARTMENT OF TRANSPORTATION (0.9100000262260437)
+(   45.0,     0.0)-(  844.0,    60.0)   799.0 :    45.0 LAND TRANSPORTATION OFFICE (0.9100000262260437)
+(   64.0,     0.0)-( 1260.0,    78.0)  1196.0 :    53.0 NON-PROFESSIONAL DRIVER'S LICENSE | (0.8399999737739563)
+(   41.0,    10.0)-(  662.0,    58.0)   621.0 :    38.0 Last Name. First Name, Middie Name (0.6200000047683716)
+(   55.0,     0.0)-(  188.0,    13.0)   133.0 :    12.0 R e A ol (0.5)
+(   53.0,    24.0)-(  835.0,    99.0)   782.0 :    50.0 DIZON, TCHAICOVSKY CRUZ (0.5)
+(   19.0,    15.0)-(  194.0,    53.0)   175.0 :    29.0 Nationality (0.7300000190734863)
+(   12.0,     9.0)-(   99.0,    51.0)    87.0 :    41.0 PHL (0.8700000047683716)
+(    0.0,     1.0)-(   65.0,    48.0)    65.0 :    47.0 45 (0.7200000286102295)
+(   16.0,     5.0)-(  151.0,    44.0)   135.0 :    36.0 Address (0.8199999928474426)
+(   63.0,     0.0)-( 1136.0,    71.0)  1073.0 :    96.0 0167 FELICIANQ $T LAGUND! MORONG RIZAL (0.8299999833106995)
+(   11.0,     1.0)-(  139.0,    44.0)   128.0 :    43.0 Licanse (0.6600000262260437)
+(   20.0,     0.0)-(  284.0,    55.0)   264.0 :    55.0 Ekpiration Date (0.7099999785423279)
+(   26.0,     0.0)-(  432.0,    61.0)   406.0 :    52.0 NO2:96-3 14884 (0.07000000029802322)
+(   22.0,     0.0)-(  303.0,    63.0)   281.0 :    59.0 2028/08/08 (0.2800000011920929)
+(   13.0,     0.0)-(   99.0,    51.0)    86.0 :    51.0 D9 (0.3199999928474426)
+(   19.0,     2.0)-(  239.0,    48.0)   220.0 :    44.0 2019/03/14 (0.8700000047683716)
+(   10.0,     0.0)-(   97.0,    52.0)    87.0 :    51.0 AB~* (0.5199999809265137)
+(    2.0,     8.0)-(  123.0,    23.0)   121.0 :    14.0 - 314856 DIZON, (0.8199999928474426)
+(    4.0,     2.0)-(   58.0,    14.0)    54.0 :    10.0 TCHAIC (0.5099999904632568)
+(    0.0,     0.0)-(   90.0,    62.0)    90.0 :    56.0 N2 (0.07999999821186066)
+(    6.0,     0.0)-(  149.0,    55.0)   143.0 :    55.0 NONE (0.47999998927116394)
+(    7.0,     0.0)-(  418.0,    60.0)   411.0 :    60.0 Sighature of Licensge (0.2800000011920929)
+======================
+ExtractFieldsFromReadResultOfPHDL start...
+ExtractFieldsFromReadResultOfPHDL (5.5555074 sec)
+
+scanPHDLResult.Success: False
+scanPHDLResult.Error: Failed to scan [EXPIRY,SEX]
+scanPHDLResult.lastNameOrFullName: DIZON
+scanPHDLResult.firstName:  TCHAICOVSKY CRUZ
+scanPHDLResult.middleName:
+scanPHDLResult.documentNumber: NO2-96-314856
+scanPHDLResult.nationality: PH
+scanPHDLResult.documentIssueDate:
+scanPHDLResult.documentExpirationDate:
+scanPHDLResult.addressLine1: 0167 FELICIANQ ST LAGUNDI MORONG RIZAL
+scanPHDLResult.addressLine2:
+scanPHDLResult.postcode:
+scanPHDLResult.gender:
+scanPHDLResult.dateOfBirth: 1976-08-08
+
+[1]
+  Scanned Data: addressLine1: 0167 FELICIANQ ST LAGUNDI MORONG RIZAL
+  Expected    : addressLine1: 0167 FELICIANO ST LAGUNDI MORONG RIZAL
+
+[2]
+  Scanned Data: gender:
+  Expected    : gender: M
+ --> IsValid: False
+ScanPHDL imageFileName: F:\WORK\Dev\huggingface\work\ConsoleApp1\test1\bin\Debug\net8.0\testdata\PHDL1_Test2.jpg
+PostOCRWithRegionRequest start...
+PostOCRWithRegionRequest PostAsync start...
+PostOCRWithRegionRequest PostAsync (6.0006308 sec)
+
+(6.0060101 sec)
+
+(  492.0,   204.0)-( 1173.0,   265.0)   681.0 :    61.0 REPUBLIC OF THE PHILIPPINES ()
+(  482.0,   254.0)-( 1187.0,   315.0)   705.0 :    61.0 DEPARTMENT OF TRANSPORTATION ()
+(  520.0,   302.0)-( 1148.0,   354.0)   628.0 :    52.0 LAND TRANSPORTATION OFFICE ()
+(  384.0,   357.0)-( 1321.0,   423.0)   937.0 :    66.0 NON-PROFESSIONAL DRIVER'S LICENSE ()
+( 1352.0,   352.0)-( 1495.0,   413.0)   143.0 :    61.0 N/ ()
+(  615.0,   458.0)-( 1129.0,   501.0)   514.0 :    43.0 LAST NAME. FIRST NAME. MIDDLE NAME ()
+(  612.0,   490.0)-( 1271.0,   555.0)   659.0 :    65.0 DIZON; TCHAICOVSKY CRUZ ()
+(  615.0,   561.0)-(  770.0,   605.0)   155.0 :    44.0 NATIONALITY ()
+(  819.0,   567.0)-(  879.0,   603.0)    60.0 :    36.0 SEX ()
+(  935.0,   571.0)-( 1113.0,   607.0)   178.0 :    36.0 BATE OF BIRTH ()
+( 1184.0,   572.0)-( 1348.0,   614.0)   164.0 :    42.0 WEIGHT {KG} ()
+( 1372.0,   574.0)-( 1515.0,   617.0)   143.0 :    43.0 HEIEHUM} ()
+(  613.0,   601.0)-(  693.0,   643.0)    80.0 :    42.0 PHL ()
+(  931.0,   607.0)-( 1162.0,   652.0)   231.0 :    45.0 1976/08/08 ()
+( 1237.0,   615.0)-( 1289.0,   651.0)    52.0 :    36.0 72 ()
+( 1403.0,   615.0)-( 1483.0,   653.0)    80.0 :    38.0 1.65 ()
+(  615.0,   661.0)-(  737.0,   697.0)   122.0 :    36.0 ADDRESS ()
+(  610.0,   697.0)-( 1498.0,   751.0)   888.0 :    54.0 0167 FELICIANQ ST LAGUNDI MORONG RIZAL ()
+(  611.0,   801.0)-(  776.0,   840.0)   165.0 :    39.0 LICENSE NO ()
+(  968.0,   804.0)-( 1179.0,   845.0)   211.0 :    41.0 EXBIRATION DATE ()
+( 1214.0,   804.0)-( 1402.0,   852.0)   188.0 :    48.0 AGENCY CODE ()
+(  608.0,   834.0)-(  936.0,   884.0)   328.0 :    50.0 NOZ-96-314856 ()
+(  961.0,   836.0)-( 1204.0,   891.0)   243.0 :    55.0 2025/09/P8 ()
+( 1267.0,   843.0)-( 1347.0,   885.0)    80.0 :    42.0 DTQ ()
+(  610.0,   895.0)-(  771.0,   937.0)   161.0 :    42.0 BTOOC TYPEL ()
+(  845.0,   899.0)-(  993.0,   935.0)   148.0 :    36.0 EXES COLOR ()
+(  283.0,   921.0)-(  475.0,   963.0)   192.0 :    42.0 2019103/14 ()
+(  651.0,   931.0)-(  729.0,   971.0)    78.0 :    40.0 AB+ ()
+(  855.0,   927.0)-(  983.0,   971.0)   128.0 :    44.0 BLACK ()
+(  299.0,   979.0)-(  393.0,   995.0)    94.0 :    16.0 5 4856 DIZON; ()
+(  431.0,   979.0)-(  455.0,   993.0)    24.0 :    14.0 CC ()
+(  610.0,   992.0)-(  772.0,  1024.0)   162.0 :    32.0 RESIRICTIONS ()
+(  848.0,   986.0)-( 1003.0,  1027.0)   155.0 :    41.0 CONDITIONE ()
+(  863.0,  1016.0)-(  982.0,  1068.0)   119.0 :    52.0 NONE ()
+( 1055.0,  1053.0)-( 1159.0,  1089.0)   104.0 :    36.0 EDGAR ()
+( 1193.0,  1049.0)-( 1347.0,  1089.0)   154.0 :    40.0 GALVANTE ()
+(  221.0,  1090.0)-(  538.0,  1139.0)   317.0 :    49.0 SIGNATURE AF LICENSEE ()
+( 1048.0,  1085.0)-( 1318.0,  1133.0)   270.0 :    48.0 ASSISTAR: GECRETARY ()
+Estimating resolution as 384
+Detected 21 diacritics
+REPUBLIC OF THE P(HILIPPINES
+Before: (  492.0,   204.0)-( 1173.0,   265.0)   681.0 :    61.0 REPUBLIC OF THE PHILIPPINES ()
+After: (  535.0,   217.0)-( 1244.0,   274.0)   709.0 :    43.0 REPUBLIC OF THE PHILIPPINES ()
+Estimating resolution as 372
+Detected 29 diacritics
+DEPARTMENT OF TRANSPORTATION
+EALE\\ Batatid Y XYY YWY WY WV WY
+Estimating resolution as 372
+LAND TRANSPORTATION OFFICE
+Before: (  520.0,   302.0)-( 1148.0,   354.0)   628.0 :    52.0 LAND TRANSPORTATION OFFICE ()
+After: (  557.0,   302.0)-( 1246.0,   351.0)   689.0 :    37.0 LAND TRANSPORTATION OFFICE ()
+Estimating resolution as 436
+NON-PROFESSIONAL DRIVER'S LICENSE .
+Before: (  384.0,   357.0)-( 1321.0,   423.0)   937.0 :    66.0 NON-PROFESSIONAL DRIVER'S LICENSE ()
+After: (  438.0,   357.0)-( 1464.0,   423.0)  1026.0 :    46.0 NON-PROFESSIONAL DRIVER'S LICENSE ()
+Estimating resolution as 328
+
+Estimating resolution as 317
+Last Name. First Namé. Middie Name
+Before: (  615.0,   458.0)-( 1129.0,   501.0)   514.0 :    43.0 LAST NAME. FIRST NAME. MIDDLE NAME ()
+After: (  648.0,   466.0)-( 1187.0,   514.0)   539.0 :    33.0 LAST NAME. FIRST NAME. MIDDLE NAME ()
+Estimating resolution as 506
+DIZON, TCHAICOVSIKY CRUZ
+Before: (  612.0,   490.0)-( 1271.0,   555.0)   659.0 :    65.0 DIZON; TCHAICOVSKY CRUZ ()
+After: (  654.0,   490.0)-( 1369.0,   557.0)   715.0 :    53.0 DIZON; TCHAICOVSKY CRUZ ()
+Estimating resolution as 292
+Natignality
+Before: (  615.0,   561.0)-(  770.0,   605.0)   155.0 :    44.0 NATIONALITY ()
+After: (  629.0,   573.0)-(  786.0,   615.0)   157.0 :    35.0 NATIONALITY ()
+Estimating resolution as 363
+Empty page!!
+Estimating resolution as 363
+Empty page!!
+Estimating resolution as 350
+Empty page!!
+Estimating resolution as 350
+Empty page!!
+Estimating resolution as 594
+Empty page!!
+Estimating resolution as 594
+Empty page!!
+Estimating resolution as 531
+Empty page!!
+Estimating resolution as 531
+Empty page!!
+Estimating resolution as 395
+PHL
+Before: (  613.0,   601.0)-(  693.0,   643.0)    80.0 :    42.0 PHL ()
+After: (  625.0,   612.0)-(  707.0,   655.0)    82.0 :    39.0 PHL ()
+Estimating resolution as 491
+Empty page!!
+Estimating resolution as 491
+Empty page!!
+Estimating resolution as 369
+Empty page!!
+Estimating resolution as 369
+Empty page!!
+Estimating resolution as 369
+Empty page!!
+Estimating resolution as 369
+Empty page!!
+Estimating resolution as 303
+Address
+Before: (  615.0,   661.0)-(  737.0,   697.0)   122.0 :    36.0 ADDRESS ()
+After: (  628.0,   662.0)-(  751.0,   694.0)   123.0 :    30.0 ADDRESS ()
+Estimating resolution as 423
+0167 FELICIANQ $T LAGUND! MORONG RIZAL
+Before: (  610.0,   697.0)-( 1498.0,   751.0)   888.0 :    54.0 0167 FELICIANQ ST LAGUNDI MORONG RIZAL ()
+After: (  663.0,   697.0)-( 1591.0,   756.0)   928.0 :    41.0 0167 FELICIANQ ST LAGUNDI MORONG RIZAL ()
+Estimating resolution as 310
+
+Estimating resolution as 466
+(Ekpiratigh Date
+Estimating resolution as 309
+Empty page!!
+Estimating resolution as 309
+Empty page!!
+Estimating resolution as 475
+N02:96-3 14854
+Before: (  608.0,   834.0)-(  936.0,   884.0)   328.0 :    50.0 NOZ-96-314856 ()
+After: (  632.0,   834.0)-(  986.0,   888.0)   354.0 :    45.0 NOZ-96-314856 ()
+Estimating resolution as 594
+Empty page!!
+Estimating resolution as 594
+Empty page!!
+Estimating resolution as 391
+D19
+Estimating resolution as 444
+Blood Type.
+Before: (  610.0,   895.0)-(  771.0,   937.0)   161.0 :    42.0 BTOOC TYPEL ()
+After: (  626.0,   895.0)-(  804.0,   942.0)   178.0 :    45.0 BTOOC TYPEL ()
+Estimating resolution as 472
+Empty page!!
+Estimating resolution as 472
+Empty page!!
+Estimating resolution as 491
+2019/03/14
+Estimating resolution as 469
+AB*
+Before: (  651.0,   931.0)-(  729.0,   971.0)    78.0 :    40.0 AB+ ()
+After: (  658.0,   931.0)-(  735.0,   971.0)    77.0 :    33.0 AB+ ()
+Estimating resolution as 553
+Estimating resolution as 145
+34856 DO
+
+Estimating resolution as 144
+Estimating resolution as 419
+Empty page!!
+Estimating resolution as 419
+Empty page!!
+Estimating resolution as 550
+Empty page!!
+Estimating resolution as 550
+Empty page!!
+Estimating resolution as 622
+Empty page!!
+Estimating resolution as 622
+Empty page!!
+Estimating resolution as 441
+Estimating resolution as 354
+Empty page!!
+Estimating resolution as 354
+Empty page!!
+Estimating resolution as 369
+$ighature of Licgnsge
+Estimating resolution as 488
+==== Lines read by Tesseract ====
+(   43.0,    13.0)-(  709.0,    57.0)   666.0 :    30.0 REPUBLIC OF THE P(HILIPPINES (0.8199999928474426)
+(   43.0,     9.0)-(  731.0,    58.0)   688.0 :    34.0 DEPARTMENT OF TRANSPORTATION (0.5400000214576721)
+(  148.0,    59.0)-(  468.0,    68.0)   320.0 :     9.0 EALE\\ Batatid Y XYY YWY WY WV WY (0.5400000214576721)
+(   37.0,     0.0)-(  689.0,    49.0)   652.0 :    37.0 LAND TRANSPORTATION OFFICE (0.8899999856948853)
+(   54.0,     0.0)-( 1026.0,    66.0)   972.0 :    46.0 NON-PROFESSIONAL DRIVER'S LICENSE . (0.7300000190734863)
+(   33.0,     8.0)-(  539.0,    48.0)   506.0 :    25.0 Last Name. First Namé. Middie Name (0.6000000238418579)
+(   42.0,     0.0)-(  715.0,    67.0)   673.0 :    53.0 DIZON, TCHAICOVSIKY CRUZ (0.6299999952316284)
+(   14.0,    12.0)-(  157.0,    42.0)   143.0 :    23.0 Natignality (0.8799999952316284)
+(   12.0,    11.0)-(   82.0,    43.0)    70.0 :    28.0 PHL (0.8899999856948853)
+(   13.0,     1.0)-(  123.0,    32.0)   110.0 :    29.0 Address (0.8600000143051147)
+(   53.0,     0.0)-(  928.0,    59.0)   875.0 :    41.0 0167 FELICIANQ $T LAGUND! MORONG RIZAL (0.7799999713897705)
+(    0.0,     0.0)-(  217.0,    46.0)   217.0 :    46.0 (Ekpiratigh Date (0.23000000417232513)
+(   24.0,     0.0)-(  354.0,    54.0)   330.0 :    45.0 N02:96-3 14854 (0.5199999809265137)
+(   10.0,     0.0)-(   77.0,    40.0)    67.0 :    40.0 D19 (0.27000001072883606)
+(   16.0,     0.0)-(  178.0,    47.0)   162.0 :    45.0 Blood Type. (0.5899999737739563)
+(    9.0,     0.0)-(  196.0,    39.0)   187.0 :     5.0 2019/03/14 (0.14000000059604645)
+(    7.0,     0.0)-(   77.0,    40.0)    70.0 :    33.0 AB* (0.7400000095367432)
+(    7.0,     3.0)-(   86.0,    14.0)    79.0 :    11.0 34856 DO (0.5299999713897705)
+(    6.0,     0.0)-(  341.0,    54.0)   335.0 :    51.0 $ighature of Licgnsge (0.4399999976158142)
+======================
+ExtractFieldsFromReadResultOfPHDL start...
+ExtractFieldsFromReadResultOfPHDL (0.1431597 sec)
+
+scanPHDLResult.Success: False
+scanPHDLResult.Error: Failed to scan [EXPIRY,SEX]
+scanPHDLResult.lastNameOrFullName: DIZON;
+scanPHDLResult.firstName: TCHAICOVSKY CRUZ
+scanPHDLResult.middleName:
+scanPHDLResult.documentNumber: NOZ-96-314856
+scanPHDLResult.nationality: PH
+scanPHDLResult.documentIssueDate:
+scanPHDLResult.documentExpirationDate:
+scanPHDLResult.addressLine1: 0167 FELICIANQ ST LAGUNDI MORONG RIZAL
+scanPHDLResult.addressLine2:
+scanPHDLResult.postcode:
+scanPHDLResult.gender:
+scanPHDLResult.dateOfBirth: 1976-08-08
+
+[1]
+  Scanned Data: lastNameOrFullName: DIZON;
+  Expected    : lastNameOrFullName: DIZON
+
+[2]
+  Scanned Data: documentNumber: NOZ-96-314856
+  Expected    : documentNumber: NO2-96-314856
+
+[3]
+  Scanned Data: addressLine1: 0167 FELICIANQ ST LAGUNDI MORONG RIZAL
+  Expected    : addressLine1: 0167 FELICIANO ST LAGUNDI MORONG RIZAL
+
+[4]
+  Scanned Data: gender:
+  Expected    : gender: M
+ --> IsValid: False
+ScanPHDL imageFileName: F:\WORK\Dev\huggingface\work\ConsoleApp1\test1\bin\Debug\net8.0\testdata\PHDL1_Test3.jpg
+PostOCRWithRegionRequest start...
+PostOCRWithRegionRequest PostAsync start...
+PostOCRWithRegionRequest PostAsync (2.2671286 sec)
+
+(2.2695804 sec)
+
+(  245.0,   100.0)-(  586.0,   132.0)   341.0 :    32.0 REPUBLIC OF THE PHILIPPINES ()
+(  239.0,   127.0)-(  592.0,   158.0)   353.0 :    31.0 DEPARTMENT OF TRANSPORTATION ()
+(  258.0,   149.0)-(  574.0,   178.0)   316.0 :    29.0 LAND TRANSPORTATION OFFICE ()
+(  190.0,   175.0)-(  661.0,   213.0)   471.0 :    38.0 NON-PROFESSIONAL DRIVER'S LICENSE ()
+(  309.0,   231.0)-(  565.0,   249.0)   256.0 :    18.0 LAST NAME. FIRST NAME. MIDDLE NAME ()
+(  305.0,   244.0)-(  635.0,   281.0)   330.0 :    37.0 DIZON; TCHAICOVSKY CRUZ ()
+(  308.0,   282.0)-(  385.0,   302.0)    77.0 :    20.0 NATIONALITY ()
+(  467.0,   287.0)-(  503.0,   301.0)    36.0 :    14.0 DATE ()
+(  521.0,   287.0)-(  557.0,   303.0)    36.0 :    16.0 BIRTH ()
+(  592.0,   286.0)-(  673.0,   307.0)    81.0 :    21.0 WEIGHT {KG} ()
+(  687.0,   289.0)-(  757.0,   307.0)    70.0 :    18.0 HEIGHTLM} ()
+(  306.0,   300.0)-(  346.0,   324.0)    40.0 :    24.0 PHL ()
+(  464.0,   302.0)-(  582.0,   326.0)   118.0 :    24.0 1976/08/08 ()
+(  699.0,   307.0)-(  741.0,   327.0)    42.0 :    20.0 165 ()
+(  308.0,   330.0)-(  369.0,   350.0)    61.0 :    20.0 ADDRESS ()
+(  304.0,   348.0)-(  472.0,   374.0)   168.0 :    26.0 0167 FELICIANO ()
+(  502.0,   350.0)-(  748.0,   376.0)   246.0 :    26.0 LAGUNDI MORONG RIZAL ()
+(  307.0,   403.0)-(  363.0,   419.0)    56.0 :    16.0 LICENSE ()
+(  485.0,   403.0)-(  591.0,   421.0)   106.0 :    18.0 EXPIRATION DATE ()
+(  609.0,   405.0)-(  701.0,   423.0)    92.0 :    18.0 AGENCY CODE ()
+(  304.0,   416.0)-(  468.0,   442.0)   164.0 :    26.0 N0Z-96-314856 ()
+(  482.0,   418.0)-(  602.0,   444.0)   120.0 :    26.0 2023/08/08 ()
+(  632.0,   420.0)-(  674.0,   444.0)    42.0 :    24.0 D19 ()
+(  307.0,   449.0)-(  349.0,   465.0)    42.0 :    16.0 BLOOU ()
+(  459.0,   451.0)-(  497.0,   465.0)    38.0 :    14.0 COLOR ()
+(  142.0,   458.0)-(  238.0,   482.0)    96.0 :    24.0 2019103/14 ()
+(  325.0,   465.0)-(  363.0,   485.0)    38.0 :    20.0 AB+ ()
+(  426.0,   462.0)-(  492.0,   486.0)    66.0 :    24.0 BLACK ()
+(  305.0,   497.0)-(  387.0,   513.0)    82.0 :    16.0 RESIRICTIONS ()
+(  425.0,   495.0)-(  501.0,   513.0)    76.0 :    18.0 CONDITIONS ()
+(  432.0,   508.0)-(  490.0,   534.0)    58.0 :    26.0 NONE ()
+(  527.0,   525.0)-(  579.0,   545.0)    52.0 :    20.0 EDGAR ()
+(  592.0,   522.0)-(  674.0,   546.0)    82.0 :    24.0 KALVANTE ()
+(  111.0,   545.0)-(  270.0,   569.0)   159.0 :    24.0 SIGNATURE AF LICENSEE ()
+(  524.0,   544.0)-(  658.0,   574.0)   134.0 :    30.0 ASSISTARY SECRETARY ()
+Estimating resolution as 187
+Error in boxClipToRectangle: box outside rectangle
+Error in pixScanForForeground: invalid box
+REPUBLIC OF THE PHILIPPINES
+Before: (  245.0,   100.0)-(  586.0,   132.0)   341.0 :    32.0 REPUBLIC OF THE PHILIPPINES ()
+After: (  268.0,   109.0)-(  624.0,   140.0)   356.0 :    23.0 REPUBLIC OF THE PHILIPPINES (0.9100000262260437)
+Estimating resolution as 185
+TRANSPORTATION
+
+Estimating resolution as 183
+Detected 6 diacritics
+
+NSV Y T TTE LT KEE KA
+LAND TRANSPORTATION OFFICE
+Estimating resolution as 211
+NON-PROFESSIONAL DRIVER'S LICENSE b
+Before: (  190.0,   175.0)-(  661.0,   213.0)   471.0 :    38.0 NON-PROFESSIONAL DRIVER'S LICENSE ()
+After: (  220.0,   175.0)-(  738.0,   211.0)   518.0 :    26.0 NON-PROFESSIONAL DRIVER'S LICENSE ()
+Estimating resolution as 155
+Last Name. First Name. Middle Name
+Before: (  309.0,   231.0)-(  565.0,   249.0)   256.0 :    18.0 LAST NAME. FIRST NAME. MIDDLE NAME ()
+After: (  324.0,   232.0)-(  589.0,   249.0)   265.0 :    13.0 LAST NAME. FIRST NAME. MIDDLE NAME ()
+Estimating resolution as 249
+Detected 6 diacritics
+
+DIZON TCHAICOVSKY CRUZ
+Estimating resolution as 146
+Nationality
+Before: (  308.0,   282.0)-(  385.0,   302.0)    77.0 :    20.0 NATIONALITY ()
+After: (  315.0,   286.0)-(  393.0,   305.0)    78.0 :    16.0 NATIONALITY (0.9200000166893005)
+Estimating resolution as 153
+Date
+Estimating resolution as 153
+Empty page!!
+Estimating resolution as 153
+Empty page!!
+Estimating resolution as 188
+Weight {kg)
+Before: (  592.0,   286.0)-(  673.0,   307.0)    81.0 :    21.0 WEIGHT {KG} ()
+After: (  600.0,   286.0)-(  682.0,   310.0)    82.0 :    17.0 WEIGHT {KG} ()
+Estimating resolution as 181
+Empty page!!
+Estimating resolution as 181
+Empty page!!
+Estimating resolution as 195
+PHL
+Before: (  306.0,   300.0)-(  346.0,   324.0)    40.0 :    24.0 PHL ()
+After: (  312.0,   307.0)-(  352.0,   329.0)    40.0 :    20.0 PHL ()
+Estimating resolution as 187
+1976 /08 /08
+Estimating resolution as 184
+1.65
+Before: (  699.0,   307.0)-(  741.0,   327.0)    42.0 :    20.0 165 ()
+After: (  707.0,   311.0)-(  749.0,   329.0)    42.0 :    18.0 165 ()
+Estimating resolution as 152
+Address
+Before: (  308.0,   330.0)-(  369.0,   350.0)    61.0 :    20.0 ADDRESS ()
+After: (  315.0,   334.0)-(  376.0,   350.0)    61.0 :    16.0 ADDRESS (0.9100000262260437)
+Estimating resolution as 198
+0167 FELICIANQ !
+Before: (  304.0,   348.0)-(  472.0,   374.0)   168.0 :    26.0 0167 FELICIANO ()
+After: (  318.0,   354.0)-(  503.0,   378.0)   185.0 :    22.0 0167 FELICIANO ()
+Estimating resolution as 197
+T LAGUND] MORONG RIZAL
+Before: (  502.0,   350.0)-(  748.0,   376.0)   246.0 :    26.0 LAGUNDI MORONG RIZAL ()
+After: (  502.0,   357.0)-(  759.0,   381.0)   257.0 :    20.0 LAGUNDI MORONG RIZAL ()
+Estimating resolution as 131
+License
+Before: (  307.0,   403.0)-(  363.0,   419.0)    56.0 :    16.0 LICENSE ()
+After: (  312.0,   405.0)-(  368.0,   420.0)    56.0 :    14.0 LICENSE ()
+Estimating resolution as 173
+`kkpiration Date
+Estimating resolution as 175
+Empty page!!
+Estimating resolution as 175
+Empty page!!
+Estimating resolution as 233
+N02-96-314854
+Estimating resolution as 302
+Empty page!!
+Estimating resolution as 302
+Empty page!!
+Estimating resolution as 203
+D19
+Estimating resolution as 163
+Empty page!!
+Estimating resolution as 163
+Empty page!!
+Estimating resolution as 169
+Empty page!!
+Estimating resolution as 169
+Empty page!!
+Estimating resolution as 281
+Empty page!!
+Estimating resolution as 281
+Empty page!!
+Estimating resolution as 208
+AB+
+Before: (  325.0,   465.0)-(  363.0,   485.0)    38.0 :    20.0 AB+ ()
+After: (  329.0,   468.0)-(  368.0,   488.0)    39.0 :    20.0 AB+ ()
+Estimating resolution as 206
+
+BLAEK
+Estimating resolution as 175
+Empty page!!
+Estimating resolution as 175
+Empty page!!
+Estimating resolution as 219
+Empty page!!
+Estimating resolution as 219
+Empty page!!
+Estimating resolution as 303
+Empty page!!
+Estimating resolution as 303
+Empty page!!
+Estimating resolution as 194
+Empty page!!
+Estimating resolution as 194
+Empty page!!
+Estimating resolution as 227
+CALVANTE
+Estimating resolution as 172
+$ighature of Licgnsge
+Before: (  111.0,   545.0)-(  270.0,   569.0)   159.0 :    24.0 SIGNATURE AF LICENSEE ()
+After: (  122.0,   545.0)-(  284.0,   568.0)   162.0 :    20.0 SIGNATURE AF LICENSEE ()
+Estimating resolution as 243
+@!Mmew?am
+==== Lines read by Tesseract ====
+(   23.0,     9.0)-(  356.0,    31.0)   333.0 :    14.0 REPUBLIC OF THE PHILIPPINES (0.9100000262260437)
+(  194.0,    12.0)-(  367.0,    34.0)   173.0 :    14.0 TRANSPORTATION (0.9300000071525574)
+(  192.0,     0.0)-(  347.0,     7.0)   155.0 :     5.0 NSV Y T TTE LT KEE KA (0.41999998688697815)
+(   21.0,     7.0)-(  329.0,    27.0)   308.0 :    14.0 LAND TRANSPORTATION OFFICE (0.41999998688697815)
+(   30.0,     0.0)-(  518.0,    36.0)   488.0 :    26.0 NON-PROFESSIONAL DRIVER'S LICENSE b (0.699999988079071)
+(   15.0,     1.0)-(  265.0,    17.0)   250.0 :    12.0 Last Name. First Name. Middle Name (0.8500000238418579)
+(   23.0,     7.0)-(  342.0,    33.0)   319.0 :    20.0 DIZON TCHAICOVSKY CRUZ (0.8899999856948853)
+(    7.0,     4.0)-(   78.0,    19.0)    71.0 :    12.0 Nationality (0.9200000166893005)
+(    5.0,     1.0)-(   35.0,    13.0)    30.0 :    12.0 Date (0.4699999988079071)
+(    8.0,     0.0)-(   82.0,    24.0)    74.0 :    17.0 Weight {kg) (0.5299999713897705)
+(    6.0,     7.0)-(   40.0,    22.0)    34.0 :    13.0 PHL (0.8899999856948853)
+(   12.0,     5.0)-(  123.0,    25.0)   111.0 :    15.0 1976 /08 /08 (0.10999999940395355)
+(    8.0,     4.0)-(   42.0,    18.0)    34.0 :    14.0 1.65 (0.8999999761581421)
+(    7.0,     4.0)-(   61.0,    16.0)    54.0 :    12.0 Address (0.9100000262260437)
+(   14.0,     6.0)-(  185.0,    24.0)   171.0 :    16.0 0167 FELICIANQ ! (0.7799999713897705)
+(    0.0,     7.0)-(  257.0,    24.0)   257.0 :    13.0 T LAGUND] MORONG RIZAL (0.699999988079071)
+(    5.0,     2.0)-(   56.0,    15.0)    51.0 :    12.0 License (0.7599999904632568)
+(    3.0,     1.0)-(  108.0,    19.0)   105.0 :    13.0 `kkpiration Date (0.18000000715255737)
+(   13.0,     0.0)-(  176.0,    29.0)   163.0 :    24.0 N02-96-314854 (0.28999999165534973)
+(    8.0,     0.0)-(   41.0,    22.0)    33.0 :    22.0 D19 (0.3100000023841858)
+(    4.0,     3.0)-(   39.0,    20.0)    35.0 :    17.0 AB+ (0.6399999856948853)
+(    7.0,     0.0)-(   69.0,    26.0)    62.0 :    23.0 BLAEK (0.6800000071525574)
+(    0.0,     0.0)-(   83.0,    27.0)    83.0 :    21.0 CALVANTE (0.3199999928474426)
+(   11.0,     0.0)-(  162.0,    23.0)   151.0 :    20.0 $ighature of Licgnsge (0.6200000047683716)
+(    9.0,     0.0)-(  138.0,    29.0)   129.0 :    22.0 @!Mmew?am (0.4000000059604645)
+======================
+ExtractFieldsFromReadResultOfPHDL start...
+ExtractFieldsFromReadResultOfPHDL (0.1215615 sec)
+
+scanPHDLResult.Success: False
+scanPHDLResult.Error: Failed to scan [SEX]
+scanPHDLResult.lastNameOrFullName: DIZON;
+scanPHDLResult.firstName: TCHAICOVSKY CRUZ
+scanPHDLResult.middleName:
+scanPHDLResult.documentNumber: N0Z-96-314856
+scanPHDLResult.nationality: PH
+scanPHDLResult.documentIssueDate:
+scanPHDLResult.documentExpirationDate: 2023-08-08
+scanPHDLResult.addressLine1: 0167 FELICIANO LAGUNDI MORONG RIZAL
+scanPHDLResult.addressLine2:
+scanPHDLResult.postcode:
+scanPHDLResult.gender:
+scanPHDLResult.dateOfBirth: 1976-08-08
+
+[1]
+  Scanned Data: lastNameOrFullName: DIZON;
+  Expected    : lastNameOrFullName: DIZON
+
+[2]
+  Scanned Data: documentNumber: N0Z-96-314856
+  Expected    : documentNumber: NO2-96-314856
+
+[3]
+  Scanned Data: addressLine1: 0167 FELICIANO LAGUNDI MORONG RIZAL
+  Expected    : addressLine1: 0167 FELICIANO ST LAGUNDI MORONG RIZAL
+
+[4]
+  Scanned Data: gender:
+  Expected    : gender: M
+ --> IsValid: False
+ScanPHDL imageFileName: F:\WORK\Dev\huggingface\work\ConsoleApp1\test1\bin\Debug\net8.0\testdata\PHDL2_Test1.jpg
+PostOCRWithRegionRequest start...
+PostOCRWithRegionRequest PostAsync start...
+PostOCRWithRegionRequest PostAsync (3.1076664 sec)
+
+(3.1161263 sec)
+
+(  336.0,    34.0)-(  494.0,    64.0)   158.0 :    30.0 REPUBLIC ()
+(  500.0,    36.0)-(  542.0,    60.0)    42.0 :    24.0 OF ()
+(  550.0,    34.0)-(  816.0,    62.0)   266.0 :    28.0 THE PHILIPPINES ()
+(  328.0,    67.0)-(  825.0,    98.0)   497.0 :    31.0 DEPARTMENT OF TRANSPORTATION ()
+(  354.0,    93.0)-(  799.0,   126.0)   445.0 :    33.0 LAND TRANSPORTATION OFFICE ()
+(  251.0,   127.0)-(  939.0,   163.0)   688.0 :    36.0 NON-PROFESSIONAL DRIVER' $ LICENSE ()
+(  414.0,   190.0)-(  650.0,   221.0)   236.0 :    31.0 LAST NAME. FIRST NAME ()
+(  656.0,   192.0)-(  794.0,   216.0)   138.0 :    24.0 MIDDLE NAME ()
+(  411.0,   210.0)-(  954.0,   260.0)   543.0 :    50.0 TANIG, JOHN ERVIN BANIQUED ()
+(  413.0,   267.0)-(  526.0,   296.0)   113.0 :    29.0 NATIONALITY ()
+(  566.0,   268.0)-(  608.0,   294.0)    42.0 :    26.0 SEX ()
+(  652.0,   268.0)-(  784.0,   294.0)   132.0 :    26.0 DATE OF BIRTH ()
+(  842.0,   266.0)-(  962.0,   294.0)   120.0 :    28.0 WEIGHT (KG} ()
+(  984.0,   266.0)-( 1092.0,   294.0)   108.0 :    28.0 HEIGNTLM} ()
+(  414.0,   296.0)-(  472.0,   326.0)    58.0 :    30.0 PHL ()
+(  652.0,   296.0)-(  828.0,   328.0)   176.0 :    32.0 1993/04/23 ()
+(  876.0,   294.0)-(  928.0,   322.0)    52.0 :    28.0 110 ()
+( 1010.0,   294.0)-( 1070.0,   320.0)    60.0 :    26.0 175 ()
+(  416.0,   336.0)-(  502.0,   362.0)    86.0 :    26.0 ADDRESS ()
+(  414.0,   364.0)-(  970.0,   396.0)   556.0 :    32.0 L5 TH DELA CRUZ ST VILLA TALNOVA ()
+(  413.0,   397.0)-(  659.0,   433.0)   246.0 :    36.0 CALOOCAN CITY ()
+(  414.0,   440.0)-(  532.0,   464.0)   118.0 :    24.0 LICENSE NOJ ()
+(  682.0,   438.0)-(  842.0,   464.0)   160.0 :    26.0 EXPIRATION DATE ()
+(  874.0,   436.0)-( 1012.0,   464.0)   138.0 :    28.0 AGENCY CODE ()
+(  413.0,   463.0)-(  659.0,   505.0)   246.0 :    42.0 N25-11-025458 ()
+(  682.0,   462.0)-(  758.0,   494.0)    76.0 :    32.0 2022 ()
+(  916.0,   462.0)-(  962.0,   492.0)    46.0 :    30.0 N3 ()
+(  414.0,   506.0)-(  530.0,   534.0)   116.0 :    28.0 BIOOD TYPE ()
+(  174.0,   526.0)-(  312.0,   558.0)   138.0 :    32.0 ZLAY ()
+(  412.0,   576.0)-(  534.0,   600.0)   122.0 :    24.0 RESTRICIIONS ()
+(  752.0,   616.0)-(  836.0,   646.0)    84.0 :    30.0 EDGAR ()
+(  854.0,   616.0)-(  980.0,   642.0)   126.0 :    26.0 GALVANTE ()
+(  125.0,   649.0)-(  358.0,   682.0)   233.0 :    33.0 SIGNATURE OF LICENSEE ()
+(  749.0,   643.0)-(  956.0,   674.0)   207.0 :    31.0 ASSISTAN: SECRETARY ()
+(  570.0,   543.0)-(  700.0,   592.0)   130.0 :    49.0 NEN ()
+Estimating resolution as 260
+REPUBLIC
+Estimating resolution as 247
+Empty page!!
+Estimating resolution as 247
+Empty page!!
+Estimating resolution as 246
+" THE PHILIPPINES
+Estimating resolution as 271
+DEPARTMENT OF TRANSPORTATION
+Before: (  328.0,    67.0)-(  825.0,    98.0)   497.0 :    31.0 DEPARTMENT OF TRANSPORTATION ()
+After: (  357.0,    69.0)-(  876.0,   101.0)   519.0 :    27.0 DEPARTMENT OF TRANSPORTATION ()
+Estimating resolution as 260
+~ LAND TRANSPORTATION OFFICE
+Before: (  354.0,    93.0)-(  799.0,   126.0)   445.0 :    33.0 LAND TRANSPORTATION OFFICE ()
+After: (  359.0,    93.0)-(  842.0,   127.0)   483.0 :    29.0 LAND TRANSPORTATION OFFICE ()
+Estimating resolution as 296
+~ NON-PROFESSIONAL DRIVER'S LICENSE %
+Before: (  251.0,   127.0)-(  939.0,   163.0)   688.0 :    36.0 NON-PROFESSIONAL DRIVER' $ LICENSE ()
+After: (  251.0,   127.0)-( 1008.0,   159.0)   757.0 :    31.0 NON-PROFESSIONAL DRIVER' $ LICENSE ()
+Estimating resolution as 209
+Last Name, First Name.
+Before: (  414.0,   190.0)-(  650.0,   221.0)   236.0 :    31.0 LAST NAME. FIRST NAME ()
+After: (  430.0,   192.0)-(  689.0,   222.0)   259.0 :    26.0 LAST NAME. FIRST NAME ()
+Estimating resolution as 223
+. Middte Name
+Before: (  656.0,   192.0)-(  794.0,   216.0)   138.0 :    24.0 MIDDLE NAME ()
+After: (  656.0,   198.0)-(  799.0,   223.0)   143.0 :    23.0 MIDDLE NAME ()
+Estimating resolution as 361
+TANIG, JOHN ERVIN BANIQUED
+Before: (  411.0,   210.0)-(  954.0,   260.0)   543.0 :    50.0 TANIG, JOHN ERVIN BANIQUED ()
+After: (  444.0,   210.0)-( 1011.0,   263.0)   567.0 :    43.0 TANIG, JOHN ERVIN BANIQUED ()
+Estimating resolution as 206
+Nationality
+Before: (  413.0,   267.0)-(  526.0,   296.0)   113.0 :    29.0 NATIONALITY ()
+After: (  424.0,   274.0)-(  542.0,   302.0)   118.0 :    24.0 NATIONALITY ()
+Estimating resolution as 228
+Sex
+Before: (  566.0,   268.0)-(  608.0,   294.0)    42.0 :    26.0 SEX ()
+After: (  572.0,   274.0)-(  615.0,   298.0)    43.0 :    24.0 SEX ()
+Estimating resolution as 225
+Date of Birth
+Before: (  652.0,   268.0)-(  784.0,   294.0)   132.0 :    26.0 DATE OF BIRTH ()
+After: (  663.0,   273.0)-(  800.0,   296.0)   137.0 :    23.0 DATE OF BIRTH ()
+Estimating resolution as 269
+Weight tkg)
+Before: (  842.0,   266.0)-(  962.0,   294.0)   120.0 :    28.0 WEIGHT (KG} ()
+After: (  851.0,   272.0)-(  975.0,   300.0)   124.0 :    27.0 WEIGHT (KG} ()
+Estimating resolution as 263
+Heighttm)
+Estimating resolution as 272
+PHL
+Before: (  414.0,   296.0)-(  472.0,   326.0)    58.0 :    30.0 PHL ()
+After: (  421.0,   302.0)-(  479.0,   330.0)    58.0 :    27.0 PHL ()
+Estimating resolution as 281
+1993/04/23
+Before: (  652.0,   296.0)-(  828.0,   328.0)   176.0 :    32.0 1993/04/23 ()
+After: (  666.0,   301.0)-(  847.0,   333.0)   181.0 :    27.0 1993/04/23 ()
+Estimating resolution as 266
+Empty page!!
+Estimating resolution as 266
+Empty page!!
+Estimating resolution as 269
+
+Estimating resolution as 220
+Address
+Before: (  416.0,   336.0)-(  502.0,   362.0)    86.0 :    26.0 ADDRESS ()
+After: (  424.0,   342.0)-(  512.0,   366.0)    88.0 :    24.0 ADDRESS (0.9100000262260437)
+Estimating resolution as 278
+L5 TH DELA CRUZ ST VILLA TAL NOVA
+Before: (  414.0,   364.0)-(  970.0,   396.0)   556.0 :    32.0 L5 TH DELA CRUZ ST VILLA TALNOVA ()
+After: (  446.0,   366.0)-( 1028.0,   395.0)   582.0 :    29.0 L5 TH DELA CRUZ ST VILLA TALNOVA ()
+Estimating resolution as 275
+CALOOCAN CITY!
+Before: (  413.0,   397.0)-(  659.0,   433.0)   246.0 :    36.0 CALOOCAN CITY ()
+After: (  429.0,   406.0)-(  689.0,   442.0)   260.0 :    31.0 CALOOCAN CITY ()
+Estimating resolution as 186
+License No,
+Before: (  414.0,   440.0)-(  532.0,   464.0)   118.0 :    24.0 LICENSE NOJ ()
+After: (  423.0,   440.0)-(  549.0,   467.0)   126.0 :    23.0 LICENSE NOJ ()
+Estimating resolution as 215
+Expiration Date
+Before: (  682.0,   438.0)-(  842.0,   464.0)   160.0 :    26.0 EXPIRATION DATE ()
+After: (  695.0,   442.0)-(  863.0,   468.0)   168.0 :    22.0 EXPIRATION DATE ()
+Estimating resolution as 223
+Agency Code
+Before: (  874.0,   436.0)-( 1012.0,   464.0)   138.0 :    28.0 AGENCY CODE ()
+After: (  884.0,   441.0)-( 1027.0,   468.0)   143.0 :    23.0 AGENCY CODE (0.9100000262260437)
+Estimating resolution as 323
+
+Estimating resolution as 263
+2022
+Before: (  682.0,   462.0)-(  758.0,   494.0)    76.0 :    32.0 2022 ()
+After: (  690.0,   469.0)-(  765.0,   499.0)    75.0 :    30.0 2022 (0.9399999976158142)
+Estimating resolution as 272
+N3
+Before: (  916.0,   462.0)-(  962.0,   492.0)    46.0 :    30.0 N3 ()
+After: (  921.0,   462.0)-(  972.0,   490.0)    51.0 :    28.0 N3 ()
+Estimating resolution as 303
+Empty page!!
+Estimating resolution as 303
+Empty page!!
+Estimating resolution as 375
+Empty page!!
+Estimating resolution as 375
+Empty page!!
+Estimating resolution as 227
+Reéstrictions
+Before: (  412.0,   576.0)-(  534.0,   600.0)   122.0 :    24.0 RESTRICIIONS ()
+After: (  423.0,   578.0)-(  549.0,   604.0)   126.0 :    22.0 RESTRICIIONS ()
+Estimating resolution as 234
+EDGAR |
+Before: (  752.0,   616.0)-(  836.0,   646.0)    84.0 :    30.0 EDGAR ()
+After: (  762.0,   623.0)-(  855.0,   651.0)    93.0 :    26.0 EDGAR ()
+Estimating resolution as 247
+GALVANTE
+Estimating resolution as 245
+
+Estimating resolution as 275
+
+Estimating resolution as 575
+Empty page!!
+Estimating resolution as 575
+Empty page!!
+==== Lines read by Tesseract ====
+(   11.0,     5.0)-(  163.0,    26.0)   152.0 :    21.0 REPUBLIC (0.4399999976158142)
+(    0.0,     5.0)-(  275.0,    25.0)   275.0 :    20.0 " THE PHILIPPINES (0.46000000834465027)
+(   29.0,     2.0)-(  519.0,    32.0)   490.0 :    25.0 DEPARTMENT OF TRANSPORTATION (0.8899999856948853)
+(    5.0,     0.0)-(  483.0,    34.0)   478.0 :    29.0 ~ LAND TRANSPORTATION OFFICE (0.6200000047683716)
+(    0.0,     0.0)-(  757.0,    32.0)   757.0 :    31.0 ~ NON-PROFESSIONAL DRIVER'S LICENSE % (0.699999988079071)
+(   16.0,     2.0)-(  259.0,    30.0)   243.0 :    24.0 Last Name, First Name. (0.7400000095367432)
+(    0.0,     6.0)-(  143.0,    25.0)   143.0 :    17.0 . Middte Name (0.6000000238418579)
+(   33.0,     0.0)-(  567.0,    53.0)   534.0 :    43.0 TANIG, JOHN ERVIN BANIQUED (0.8999999761581421)
+(   11.0,     7.0)-(  118.0,    28.0)   107.0 :    17.0 Nationality (0.8899999856948853)
+(    6.0,     6.0)-(   43.0,    24.0)    37.0 :    18.0 Sex (0.8600000143051147)
+(   11.0,     5.0)-(  137.0,    23.0)   126.0 :    18.0 Date of Birth (0.8799999952316284)
+(    9.0,     6.0)-(  124.0,    28.0)   115.0 :    21.0 Weight tkg) (0.5099999904632568)
+(   11.0,     4.0)-(  112.0,    27.0)   101.0 :    22.0 Heighttm) (0.18000000715255737)
+(    7.0,     6.0)-(   58.0,    28.0)    51.0 :    21.0 PHL (0.8999999761581421)
+(   14.0,     5.0)-(  181.0,    32.0)   167.0 :    22.0 1993/04/23 (0.8999999761581421)
+(    8.0,     6.0)-(   88.0,    24.0)    80.0 :    18.0 Address (0.9100000262260437)
+(   32.0,     2.0)-(  582.0,    29.0)   550.0 :    27.0 L5 TH DELA CRUZ ST VILLA TAL NOVA (0.8999999761581421)
+(   16.0,     9.0)-(  260.0,    36.0)   244.0 :    22.0 CALOOCAN CITY! (0.6200000047683716)
+(    9.0,     0.0)-(  126.0,    27.0)   117.0 :    23.0 License No, (0.800000011920929)
+(   13.0,     4.0)-(  168.0,    26.0)   155.0 :    18.0 Expiration Date (0.7799999713897705)
+(   10.0,     5.0)-(  143.0,    27.0)   133.0 :    18.0 Agency Code (0.9100000262260437)
+(    8.0,     7.0)-(   75.0,    30.0)    67.0 :    23.0 2022 (0.9399999976158142)
+(    5.0,     0.0)-(   51.0,    28.0)    46.0 :    28.0 N3 (0.75)
+(   11.0,     2.0)-(  126.0,    26.0)   115.0 :    20.0 Reéstrictions (0.6600000262260437)
+(   10.0,     7.0)-(   93.0,    28.0)    83.0 :    19.0 EDGAR | (0.8199999928474426)
+(    0.0,     0.0)-(  130.0,    29.0)   130.0 :    24.0 GALVANTE (0.12999999523162842)
+======================
+ExtractFieldsFromReadResultOfPHDL start...
+ExtractFieldsFromReadResultOfPHDL (0.1145765 sec)
+
+scanPHDLResult.Success: False
+scanPHDLResult.Error: Failed to scan [EXPIRY,SEX]
+scanPHDLResult.lastNameOrFullName: TANIG
+scanPHDLResult.firstName:  JOHN ERVIN BANIQUED
+scanPHDLResult.middleName:
+scanPHDLResult.documentNumber: N25-11-025458
+scanPHDLResult.nationality: PH
+scanPHDLResult.documentIssueDate:
+scanPHDLResult.documentExpirationDate:
+scanPHDLResult.addressLine1: L5 TH DELA CRUZ ST VILLA TALNOVA
+scanPHDLResult.addressLine2: CALOOCAN CITY
+scanPHDLResult.postcode:
+scanPHDLResult.gender:
+scanPHDLResult.dateOfBirth: 1993-04-23
+
+[1]
+  Scanned Data: addressLine1: L5 TH DELA CRUZ ST VILLA TALNOVA
+  Expected    : addressLine1: L5 TH DELA CRUZ ST VILLA TAL NOVA
+
+[2]
+  Scanned Data: gender:
+  Expected    : gender: M
+ --> IsValid: False
+ScanPHDL imageFileName: F:\WORK\Dev\huggingface\work\ConsoleApp1\test1\bin\Debug\net8.0\testdata\PHDL2_Test2.jpg
+PostOCRWithRegionRequest start...
+PostOCRWithRegionRequest PostAsync start...
+PostOCRWithRegionRequest PostAsync (1.1777323 sec)
+
+(1.1798752 sec)
+
+(  169.0,    17.0)-(  247.0,    33.0)    78.0 :    16.0 REPUBLIC ()
+(  251.0,    17.0)-(  273.0,    31.0)    22.0 :    14.0 OF ()
+(  165.0,    35.0)-(  261.0,    51.0)    96.0 :    16.0 DEPARTMENT ()
+(  284.0,    33.0)-(  415.0,    50.0)   131.0 :    17.0 TRANSPORTATION ()
+(  175.0,    46.0)-(  401.0,    63.0)   226.0 :    17.0 LAND TRANSPORTATION OFFICE ()
+(  123.0,    63.0)-(  375.0,    81.0)   252.0 :    18.0 NON-PROFESSIONAL DRIVER ()
+(  391.0,    61.0)-(  469.0,    81.0)    78.0 :    20.0 LICENSE ()
+(  204.0,   106.0)-(  478.0,   130.0)   274.0 :    24.0 TANIG, JOHN ERVIN BANIQUED ()
+(  327.0,   149.0)-(  363.0,   163.0)    36.0 :    14.0 1993 ()
+(  369.0,   149.0)-(  415.0,   163.0)    46.0 :    14.0 04/23 ()
+(  439.0,   147.0)-(  467.0,   163.0)    28.0 :    16.0 110 ()
+(  253.0,   181.0)-(  407.0,   199.0)   154.0 :    18.0 DELA CRUZ ST VILLA ()
+(  441.0,   181.0)-(  485.0,   197.0)    44.0 :    16.0 NOVA ()
+(  207.0,   199.0)-(  329.0,   217.0)   122.0 :    18.0 CALOOCAN CITY ()
+(  207.0,   233.0)-(  241.0,   249.0)    34.0 :    16.0 N25 ()
+(  253.0,   229.0)-(  329.0,   249.0)    76.0 :    20.0 1-025458 ()
+(  340.0,   229.0)-(  379.0,   249.0)    39.0 :    20.0 2022 ()
+(  457.0,   233.0)-(  481.0,   247.0)    24.0 :    14.0 N3 ()
+(  377.0,   309.0)-(  417.0,   325.0)    40.0 :    16.0 EDGAR ()
+(  377.0,   323.0)-(  479.0,   337.0)   102.0 :    14.0 ASSISTANE SECRETARY ()
+(  283.0,   273.0)-(  353.0,   294.0)    70.0 :    21.0 NEN ()
+Estimating resolution as 125
+REPUBLIC
+Before: (  169.0,    17.0)-(  247.0,    33.0)    78.0 :    16.0 REPUBLIC ()
+After: (  174.0,    20.0)-(  254.0,    33.0)    80.0 :    13.0 REPUBLIC ()
+Estimating resolution as 131
+Empty page!!
+Estimating resolution as 131
+Empty page!!
+Estimating resolution as 134
+DEPARTMENT
+Before: (  165.0,    35.0)-(  261.0,    51.0)    96.0 :    16.0 DEPARTMENT ()
+After: (  171.0,    37.0)-(  276.0,    49.0)   105.0 :    12.0 DEPARTMENT ()
+Estimating resolution as 136
+
+TRANSPORTATION
+Estimating resolution as 133
+~ LAND TRANSPORTATION OFFICE
+Before: (  175.0,    46.0)-(  401.0,    63.0)   226.0 :    17.0 LAND TRANSPORTATION OFFICE ()
+After: (  179.0,    46.0)-(  414.0,    61.0)   235.0 :    15.0 LAND TRANSPORTATION OFFICE ()
+Estimating resolution as 147
+NON-PROFESSIONAL DRIVER'!
+
+Estimating resolution as 153
+LICENSE
+Before: (  391.0,    61.0)-(  469.0,    81.0)    78.0 :    20.0 LICENSE ()
+After: (  398.0,    67.0)-(  478.0,    85.0)    80.0 :    18.0 LICENSE ()
+Estimating resolution as 180
+TANIG, JOHN ERVIN BANIQUED
+Before: (  204.0,   106.0)-(  478.0,   130.0)   274.0 :    24.0 TANIG, JOHN ERVIN BANIQUED ()
+After: (  222.0,   106.0)-(  506.0,   130.0)   284.0 :    21.0 TANIG, JOHN ERVIN BANIQUED (0.9100000262260437)
+Estimating resolution as 122
+1993,
+Before: (  327.0,   149.0)-(  363.0,   163.0)    36.0 :    14.0 1993 ()
+After: (  331.0,   152.0)-(  370.0,   167.0)    39.0 :    12.0 1993, (0.9599999785423279)
+Estimating resolution as 134
+'04/23
+Before: (  369.0,   149.0)-(  415.0,   163.0)    46.0 :    14.0 04/23 ()
+After: (  369.0,   151.0)-(  414.0,   165.0)    45.0 :    12.0 04/23 ()
+Estimating resolution as 134
+110
+Before: (  439.0,   147.0)-(  467.0,   163.0)    28.0 :    16.0 110 ()
+After: (  442.0,   151.0)-(  469.0,   165.0)    27.0 :    14.0 110 ()
+Estimating resolution as 136
+{ DELA CRUZ ST VILLA
+Before: (  253.0,   181.0)-(  407.0,   199.0)   154.0 :    18.0 DELA CRUZ ST VILLA ()
+After: (  253.0,   185.0)-(  422.0,   200.0)   169.0 :    15.0 DELA CRUZ ST VILLA ()
+Estimating resolution as 134
+NOVA
+Before: (  441.0,   181.0)-(  485.0,   197.0)    44.0 :    16.0 NOVA ()
+After: (  446.0,   185.0)-(  492.0,   199.0)    46.0 :    14.0 NOVA ()
+Estimating resolution as 144
+CALOOCAN CITY
+Before: (  207.0,   199.0)-(  329.0,   217.0)   122.0 :    18.0 CALOOCAN CITY ()
+After: (  215.0,   203.0)-(  342.0,   218.0)   127.0 :    15.0 CALOOCAN CITY ()
+Estimating resolution as 158
+Empty page!!
+Estimating resolution as 158
+Empty page!!
+Estimating resolution as 159
+
+1 1-025458
+Estimating resolution as 138
+2022
+Before: (  340.0,   229.0)-(  379.0,   249.0)    39.0 :    20.0 2022 ()
+After: (  345.0,   229.0)-(  384.0,   246.0)    39.0 :    17.0 2022 (0.949999988079071)
+Estimating resolution as 134
+N3
+Before: (  457.0,   233.0)-(  481.0,   247.0)    24.0 :    14.0 N3 ()
+After: (  462.0,   235.0)-(  484.0,   247.0)    22.0 :    12.0 N3 (0.949999988079071)
+Estimating resolution as 132
+EDGAR
+Estimating resolution as 127
+
+Estimating resolution as 283
+Empty page!!
+Estimating resolution as 283
+Empty page!!
+==== Lines read by Tesseract ====
+(    5.0,     3.0)-(   80.0,    13.0)    75.0 :    10.0 REPUBLIC (0.8799999952316284)
+(    6.0,     2.0)-(  105.0,    12.0)    99.0 :    10.0 DEPARTMENT (0.8299999833106995)
+(   10.0,     2.0)-(  134.0,    14.0)   124.0 :    12.0 TRANSPORTATION (0.7699999809265137)
+(    4.0,     0.0)-(  235.0,    15.0)   231.0 :    15.0 ~ LAND TRANSPORTATION OFFICE (0.5699999928474426)
+(   17.0,     4.0)-(  267.0,    16.0)   250.0 :    12.0 NON-PROFESSIONAL DRIVER'! (0.7699999809265137)
+(    7.0,     6.0)-(   80.0,    18.0)    73.0 :    12.0 LICENSE (0.8799999952316284)
+(   18.0,     0.0)-(  284.0,    24.0)   266.0 :    21.0 TANIG, JOHN ERVIN BANIQUED (0.9100000262260437)
+(    4.0,     3.0)-(   39.0,    15.0)    35.0 :     9.0 1993, (0.9599999785423279)
+(    0.0,     2.0)-(   45.0,    14.0)    45.0 :    10.0 '04/23 (0.6499999761581421)
+(    3.0,     4.0)-(   27.0,    14.0)    24.0 :    10.0 110 (0.8500000238418579)
+(    0.0,     4.0)-(  169.0,    15.0)   169.0 :    11.0 { DELA CRUZ ST VILLA (0.800000011920929)
+(    5.0,     4.0)-(   46.0,    14.0)    41.0 :    10.0 NOVA (0.8999999761581421)
+(    8.0,     4.0)-(  127.0,    15.0)   119.0 :    11.0 CALOOCAN CITY (0.6800000071525574)
+(    0.0,     6.0)-(   78.0,    18.0)    78.0 :    12.0 1 1-025458 (0.5600000023841858)
+(    5.0,     0.0)-(   39.0,    17.0)    34.0 :    17.0 2022 (0.949999988079071)
+(    5.0,     2.0)-(   22.0,    12.0)    17.0 :    10.0 N3 (0.949999988079071)
+(    4.0,     3.0)-(   40.0,    13.0)    36.0 :     9.0 EDGAR (0.4699999988079071)
+======================
+ExtractFieldsFromReadResultOfPHDL start...
+CalcPixelPerInch failed
+ExtractFieldsFromReadResultOfPHDL (0.0336745 sec)
+
+scanPHDLResult.Success: False
+scanPHDLResult.Error: Failed to scan [LAST_NAME_FISRT_MIDDLE_NAME,LICENSE_NO,EXPIRY,NATIONALITY,SEX,DOB,ADDRESS_1]
+scanPHDLResult.lastNameOrFullName:
+scanPHDLResult.firstName:
+scanPHDLResult.middleName:
+scanPHDLResult.documentNumber:
+scanPHDLResult.nationality:
+scanPHDLResult.documentIssueDate:
+scanPHDLResult.documentExpirationDate:
+scanPHDLResult.addressLine1:
+scanPHDLResult.addressLine2:
+scanPHDLResult.postcode:
+scanPHDLResult.gender:
+scanPHDLResult.dateOfBirth:
+
+[1]
+  Scanned Data: lastNameOrFullName:
+  Expected    : lastNameOrFullName: TANIG
+
+[2]
+  Scanned Data: firstName:
+  Expected    : firstName:  JOHN ERVIN BANIQUED
+
+[3]
+  Scanned Data: dateOfBirth:
+  Expected    : dateOfBirth: 1993-04-23
+
+[4]
+  Scanned Data: documentNumber:
+  Expected    : documentNumber: N25-11-025458
+
+[5]
+  Scanned Data: nationality:
+  Expected    : nationality: PH
+
+[6]
+  Scanned Data: addressLine1:
+  Expected    : addressLine1: L5 TH DELA CRUZ ST VILLA TAL NOVA
+
+[7]
+  Scanned Data: addressLine2:
+  Expected    : addressLine2: CALOOCAN CITY
+
+[8]
+  Scanned Data: gender:
+  Expected    : gender: M
+ --> IsValid: False
+ScanPHDL imageFileName: F:\WORK\Dev\huggingface\work\ConsoleApp1\test1\bin\Debug\net8.0\testdata\PHDL3_Test1.jpg
+PostOCRWithRegionRequest start...
+PostOCRWithRegionRequest PostAsync start...
+PostOCRWithRegionRequest PostAsync (7.2287335 sec)
+
+(7.2357345 sec)
+
+(  568.0,    52.0)-( 1440.0,   104.0)   872.0 :    52.0 REPUBLIC OF THE PHILIPPINES ()
+( 1696.0,    59.0)-( 1855.0,   123.0)   159.0 :    64.0 @NGO ()
+(  553.0,   116.0)-( 1460.0,   172.0)   907.0 :    56.0 DEPARTMENT OF TRANSPORTATION ()
+(  600.0,   171.0)-( 1409.0,   228.0)   809.0 :    57.0 LAND TRANSPORTATION OFFICE ()
+(  411.0,   243.0)-( 1653.0,   307.0)  1242.0 :    64.0 NON-PROFESSIONAL DRIVER'S LICENSE ()
+(  709.0,   362.0)-( 1389.0,   407.0)   680.0 :    45.0 LAST NAME. FIRST NAME. MIDDLE NAME ()
+(  702.0,   394.0)-( 1632.0,   492.0)   930.0 :    98.0 MIRANDA, MICHAEL DILAGAN ()
+(  704.0,   496.0)-(  909.0,   550.0)   205.0 :    54.0 NATIONALITY ()
+(  975.0,   502.0)-( 1052.0,   545.0)    77.0 :    43.0 SEX ()
+( 1133.0,   501.0)-( 1365.0,   543.0)   232.0 :    42.0 DATE OF BIRTH ()
+( 1468.0,   498.0)-( 1682.0,   550.0)   214.0 :    52.0 WEIGHT (KG} ()
+( 1724.0,   498.0)-( 1912.0,   546.0)   188.0 :    48.0 HEIGHTLM) ()
+(  706.0,   550.0)-(  808.0,   600.0)   102.0 :    50.0 PHL ()
+( 1129.0,   549.0)-( 1439.0,   609.0)   310.0 :    60.0 1977/04/29 ()
+( 1536.0,   550.0)-( 1606.0,   598.0)    70.0 :    48.0 75 ()
+( 1764.0,   548.0)-( 1870.0,   596.0)   106.0 :    48.0 1.64 ()
+(  705.0,   620.0)-(  862.0,   669.0)   157.0 :    49.0 ADDRESS ()
+(  706.0,   674.0)-(  774.0,   722.0)    68.0 :    48.0 B1 ()
+(  788.0,   672.0)-(  860.0,   722.0)    72.0 :    50.0 L3 ()
+(  897.0,   665.0)-( 1875.0,   725.0)   978.0 :    60.0 SPRING HEIGHTS FILINVEST BAGONG ()
+(  701.0,   731.0)-( 1348.0,   785.0)   647.0 :    54.0 SILANGAN QUEZON CITY ()
+(  704.0,   803.0)-(  911.0,   847.0)   207.0 :    44.0 LICENSE NO_ ()
+( 1174.0,   800.0)-( 1454.0,   848.0)   280.0 :    48.0 EXPIRATION DATE ()
+( 1506.0,   796.0)-( 1752.0,   853.0)   246.0 :    57.0 AGENCY CODE ()
+(  702.0,   844.0)-( 1130.0,   900.0)   428.0 :    56.0 N01-08-009726 ()
+( 1170.0,   841.0)-( 1487.0,   906.0)   317.0 :    65.0 2022/04/29 ()
+( 1576.0,   844.0)-( 1680.0,   894.0)   104.0 :    50.0 N03 ()
+(  704.0,   918.0)-(  908.0,   966.0)   204.0 :    48.0 BLOOD TYPE ()
+( 1012.0,   918.0)-( 1204.0,   966.0)   192.0 :    48.0 EYES COLOR ()
+(  769.0,   961.0)-(  839.0,  1005.0)    70.0 :    44.0 0+ ()
+( 1024.0,   958.0)-( 1190.0,  1008.0)   166.0 :    50.0 BLACK ()
+(  301.0,  1019.0)-(  339.0,  1035.0)    38.0 :    16.0 CCE ()
+(  702.0,  1034.0)-(  912.0,  1074.0)   210.0 :    40.0 RESTRICTIONS ()
+( 1015.0,  1033.0)-( 1211.0,  1073.0)   196.0 :    40.0 CONDITIONS ()
+(  768.0,  1076.0)-(  846.0,  1124.0)    78.0 :    48.0 1.2 ()
+( 1035.0,  1071.0)-( 1186.0,  1124.0)   151.0 :    53.0 NONE ()
+( 1285.0,  1109.0)-( 1421.0,  1151.0)   136.0 :    42.0 EDGAR ()
+( 1471.0,  1109.0)-( 1673.0,  1151.0)   202.0 :    42.0 GALVANTE ()
+(  211.0,  1152.0)-(  609.0,  1212.0)   398.0 :    60.0 SIGNATURE OF LICENSEE ()
+( 1279.0,  1155.0)-( 1634.0,  1204.0)   355.0 :    49.0 ASSISTANT SECRETARY ()
+( 1747.0,   266.0)-( 1884.0,   249.0)   137.0 :   -17.0 QUANBOOO ()
+(  403.0,  1063.0)-(  527.0,  1150.0)   124.0 :    87.0 RF ()
+Estimating resolution as 474
+REPUBLIC OF THE PHILIPPINES
+Before: (  568.0,    52.0)-( 1440.0,   104.0)   872.0 :    52.0 REPUBLIC OF THE PHILIPPINES ()
+After: (  617.0,    61.0)-( 1527.0,   109.0)   910.0 :    47.0 REPUBLIC OF THE PHILIPPINES (0.9100000262260437)
+Estimating resolution as 366
+Empty page!!
+Estimating resolution as 366
+Empty page!!
+Estimating resolution as 473
+DEPARTMENT OF TRANSPORTATION
+Before: (  553.0,   116.0)-( 1460.0,   172.0)   907.0 :    56.0 DEPARTMENT OF TRANSPORTATION ()
+After: (  606.0,   127.0)-( 1548.0,   178.0)   942.0 :    50.0 DEPARTMENT OF TRANSPORTATION (0.9200000166893005)
+Estimating resolution as 465
+LAND TRANSPORTATION OFFICE
+Before: (  600.0,   171.0)-( 1409.0,   228.0)   809.0 :    57.0 LAND TRANSPORTATION OFFICE ()
+After: (  646.0,   183.0)-( 1488.0,   234.0)   842.0 :    51.0 LAND TRANSPORTATION OFFICE (0.9100000262260437)
+Estimating resolution as 513
+NON-PROFESSIONAL DRIVER'S LICENSE -
+Before: (  411.0,   243.0)-( 1653.0,   307.0)  1242.0 :    64.0 NON-PROFESSIONAL DRIVER'S LICENSE ()
+After: (  479.0,   243.0)-( 1846.0,   301.0)  1367.0 :    57.0 NON-PROFESSIONAL DRIVER'S LICENSE ()
+Estimating resolution as 382
+Last Name. First Name. Middle Name
+Before: (  709.0,   362.0)-( 1389.0,   407.0)   680.0 :    45.0 LAST NAME. FIRST NAME. MIDDLE NAME ()
+After: (  748.0,   372.0)-( 1457.0,   415.0)   709.0 :    42.0 LAST NAME. FIRST NAME. MIDDLE NAME ()
+Estimating resolution as 614
+MIRANDA, MICHAEL DILAGAN
+Before: (  702.0,   394.0)-( 1632.0,   492.0)   930.0 :    98.0 MIRANDA, MICHAEL DILAGAN ()
+After: (  760.0,   394.0)-( 1725.0,   497.0)   965.0 :    77.0 MIRANDA, MICHAEL DILAGAN (0.9200000166893005)
+Estimating resolution as 384
+Nationality
+Before: (  704.0,   496.0)-(  909.0,   550.0)   205.0 :    54.0 NATIONALITY ()
+After: (  724.0,   510.0)-(  932.0,   561.0)   208.0 :    45.0 NATIONALITY (0.9200000166893005)
+Estimating resolution as 391
+Sex
+Before: (  975.0,   502.0)-( 1052.0,   545.0)    77.0 :    43.0 SEX ()
+After: (  985.0,   510.0)-( 1059.0,   549.0)    74.0 :    39.0 SEX ()
+Estimating resolution as 386
+Date of Birth
+Before: ( 1133.0,   501.0)-( 1365.0,   543.0)   232.0 :    42.0 DATE OF BIRTH ()
+After: ( 1150.0,   510.0)-( 1388.0,   550.0)   238.0 :    40.0 DATE OF BIRTH (0.9100000262260437)
+Estimating resolution as 459
+Weight (kg)
+Before: ( 1468.0,   498.0)-( 1682.0,   550.0)   214.0 :    52.0 WEIGHT (KG} ()
+After: ( 1480.0,   498.0)-( 1697.0,   546.0)   217.0 :    46.0 WEIGHT (KG} ()
+Estimating resolution as 500
+Empty page!!
+Estimating resolution as 500
+Empty page!!
+Estimating resolution as 466
+PHL
+Before: (  706.0,   550.0)-(  808.0,   600.0)   102.0 :    50.0 PHL ()
+After: (  718.0,   560.0)-(  820.0,   607.0)   102.0 :    45.0 PHL (0.9100000262260437)
+Estimating resolution as 456
+1977/04/29
+Before: ( 1129.0,   549.0)-( 1439.0,   609.0)   310.0 :    60.0 1977/04/29 ()
+After: ( 1154.0,   560.0)-( 1471.0,   617.0)   317.0 :    48.0 1977/04/29 ()
+Estimating resolution as 456
+Empty page!!
+Estimating resolution as 456
+Empty page!!
+Estimating resolution as 434
+1.64
+Before: ( 1764.0,   548.0)-( 1870.0,   596.0)   106.0 :    48.0 1.64 ()
+After: ( 1771.0,   554.0)-( 1877.0,   600.0)   106.0 :    45.0 1.64 (0.9200000166893005)
+Estimating resolution as 377
+Address
+Before: (  705.0,   620.0)-(  862.0,   669.0)   157.0 :    49.0 ADDRESS ()
+After: (  721.0,   632.0)-(  880.0,   675.0)   159.0 :    42.0 ADDRESS ()
+Estimating resolution as 456
+Empty page!!
+Estimating resolution as 456
+Empty page!!
+Estimating resolution as 459
+Empty page!!
+Estimating resolution as 459
+Empty page!!
+Estimating resolution as 491
+1 SPRING HEIGHTS FILINVEST BAGONG
+Before: (  897.0,   665.0)-( 1875.0,   725.0)   978.0 :    60.0 SPRING HEIGHTS FILINVEST BAGONG ()
+After: (  897.0,   665.0)-( 1916.0,   720.0)  1019.0 :    55.0 1 SPRING HEIGHTS FILINVEST BAGONG (0.9100000262260437)
+Estimating resolution as 473
+SILANGAN QUEZON CITY
+Before: (  701.0,   731.0)-( 1348.0,   785.0)   647.0 :    54.0 SILANGAN QUEZON CITY ()
+After: (  741.0,   743.0)-( 1415.0,   793.0)   674.0 :    49.0 SILANGAN QUEZON CITY ()
+Estimating resolution as 313
+License Mo,
+Before: (  704.0,   803.0)-(  911.0,   847.0)   207.0 :    44.0 LICENSE NO_ ()
+After: (  721.0,   810.0)-(  942.0,   848.0)   221.0 :    37.0 LICENSE NO_ ()
+Estimating resolution as 363
+Expiration Date
+Before: ( 1174.0,   800.0)-( 1454.0,   848.0)   280.0 :    48.0 EXPIRATION DATE ()
+After: ( 1193.0,   808.0)-( 1480.0,   852.0)   287.0 :    39.0 EXPIRATION DATE ()
+Estimating resolution as 388
+Agep_c:g f:ode
+Before: ( 1506.0,   796.0)-( 1752.0,   853.0)   246.0 :    57.0 AGENCY CODE ()
+After: ( 1527.0,   807.0)-( 1778.0,   869.0)   251.0 :    41.0 AGENCY CODE ()
+Estimating resolution as 544
+N01-08-009726
+Before: (  702.0,   844.0)-( 1130.0,   900.0)   428.0 :    56.0 N01-08-009726 ()
+After: (  732.0,   851.0)-( 1174.0,   906.0)   442.0 :    50.0 N01-08-009726 ()
+Estimating resolution as 559
+2022/04/29
+Before: ( 1170.0,   841.0)-( 1487.0,   906.0)   317.0 :    65.0 2022/04/29 ()
+After: ( 1192.0,   841.0)-( 1515.0,   904.0)   323.0 :    55.0 2022/04/29 ()
+Estimating resolution as 458
+NO3
+Before: ( 1576.0,   844.0)-( 1680.0,   894.0)   104.0 :    50.0 N03 ()
+After: ( 1588.0,   855.0)-( 1690.0,   903.0)   102.0 :    47.0 N03 ()
+Estimating resolution as 369
+Blood Typa'"
+Estimating resolution as 391
+Eyes Color
+Before: ( 1012.0,   918.0)-( 1204.0,   966.0)   192.0 :    48.0 EYES COLOR ()
+After: ( 1027.0,   927.0)-( 1222.0,   980.0)   195.0 :    53.0 EYES COLOR ()
+Estimating resolution as 456
+O+
+Before: (  769.0,   961.0)-(  839.0,  1005.0)    70.0 :    44.0 0+ ()
+After: (  777.0,   969.0)-(  847.0,  1013.0)    70.0 :    44.0 0+ ()
+Estimating resolution as 470
+Empty page!!
+Estimating resolution as 470
+Empty page!!
+Estimating resolution as 188
+
+Estimating resolution as 363
+Restrictions
+Before: (  702.0,  1034.0)-(  912.0,  1074.0)   210.0 :    40.0 RESTRICTIONS ()
+After: (  719.0,  1040.0)-(  934.0,  1081.0)   215.0 :    36.0 RESTRICTIONS ()
+Estimating resolution as 350
+Conditions
+Before: ( 1015.0,  1033.0)-( 1211.0,  1073.0)   196.0 :    40.0 CONDITIONS ()
+After: ( 1028.0,  1040.0)-( 1227.0,  1084.0)   199.0 :    36.0 CONDITIONS ()
+Estimating resolution as 466
+Empty page!!
+Estimating resolution as 466
+Empty page!!
+Estimating resolution as 469
+NONE
+Before: ( 1035.0,  1071.0)-( 1186.0,  1124.0)   151.0 :    53.0 NONE ()
+After: ( 1051.0,  1071.0)-( 1206.0,  1120.0)   155.0 :    49.0 NONE (0.9200000166893005)
+Estimating resolution as 409
+EDGAR
+Before: ( 1285.0,  1109.0)-( 1421.0,  1151.0)   136.0 :    42.0 EDGAR ()
+After: ( 1298.0,  1110.0)-( 1435.0,  1151.0)   137.0 :    39.0 EDGAR (0.9100000262260437)
+Estimating resolution as 394
+/GALVANTE
+Estimating resolution as 370
+Signature of Licensee
+Before: (  211.0,  1152.0)-(  609.0,  1212.0)   398.0 :    60.0 SIGNATURE OF LICENSEE ()
+After: (  241.0,  1152.0)-(  652.0,  1203.0)   411.0 :    44.0 SIGNATURE OF LICENSEE (0.9100000262260437)
+Estimating resolution as 359
+Assistang Secretary
+Before: ( 1279.0,  1155.0)-( 1634.0,  1204.0)   355.0 :    49.0 ASSISTANT SECRETARY ()
+After: ( 1301.0,  1155.0)-( 1668.0,  1209.0)   367.0 :    39.0 ASSISTANT SECRETARY ()
+Estimating resolution as 1178
+Empty page!!
+Estimating resolution as 1178
+Empty page!!
+==== Lines read by Tesseract ====
+(   49.0,     9.0)-(  910.0,    48.0)   861.0 :    38.0 REPUBLIC OF THE PHILIPPINES (0.9100000262260437)
+(   53.0,    11.0)-(  942.0,    51.0)   889.0 :    39.0 DEPARTMENT OF TRANSPORTATION (0.9200000166893005)
+(   46.0,    12.0)-(  842.0,    51.0)   796.0 :    39.0 LAND TRANSPORTATION OFFICE (0.9100000262260437)
+(   68.0,     0.0)-( 1367.0,    58.0)  1299.0 :    57.0 NON-PROFESSIONAL DRIVER'S LICENSE - (0.7099999785423279)
+(   39.0,    10.0)-(  709.0,    43.0)   670.0 :    32.0 Last Name. First Name. Middle Name (0.8999999761581421)
+(   58.0,     0.0)-(  965.0,   103.0)   907.0 :    77.0 MIRANDA, MICHAEL DILAGAN (0.9200000166893005)
+(   20.0,    14.0)-(  208.0,    51.0)   188.0 :    31.0 Nationality (0.9200000166893005)
+(   10.0,     8.0)-(   74.0,    39.0)    64.0 :    31.0 Sex (0.8899999856948853)
+(   17.0,     9.0)-(  238.0,    40.0)   221.0 :    31.0 Date of Birth (0.9100000262260437)
+(   12.0,     0.0)-(  217.0,    48.0)   205.0 :    46.0 Weight (kg) (0.7400000095367432)
+(   12.0,    10.0)-(  102.0,    47.0)    90.0 :    35.0 PHL (0.9100000262260437)
+(   25.0,    11.0)-(  317.0,    57.0)   292.0 :    37.0 1977/04/29 (0.7699999809265137)
+(    7.0,     6.0)-(  106.0,    46.0)    99.0 :    39.0 1.64 (0.9200000166893005)
+(   16.0,    12.0)-(  159.0,    43.0)   143.0 :    30.0 Address (0.8999999761581421)
+(    0.0,     0.0)-( 1019.0,    55.0)  1019.0 :    55.0 1 SPRING HEIGHTS FILINVEST BAGONG (0.9100000262260437)
+(   40.0,    12.0)-(  674.0,    50.0)   634.0 :    37.0 SILANGAN QUEZON CITY (0.8999999761581421)
+(   17.0,     7.0)-(  221.0,    38.0)   204.0 :    30.0 License Mo, (0.6499999761581421)
+(   19.0,     8.0)-(  287.0,    44.0)   268.0 :    31.0 Expiration Date (0.8899999856948853)
+(   21.0,    11.0)-(  251.0,    62.0)   230.0 :    30.0 Agep_c:g f:ode (0.5199999809265137)
+(   30.0,     7.0)-(  442.0,    55.0)   412.0 :    43.0 N01-08-009726 (0.75)
+(   22.0,     0.0)-(  323.0,    63.0)   301.0 :    55.0 2022/04/29 (0.8999999761581421)
+(   12.0,    11.0)-(  102.0,    48.0)    90.0 :    36.0 NO3 (0.8500000238418579)
+(   16.0,     8.0)-(  225.0,    53.0)   209.0 :    30.0 Blood Typa'" (0.4399999976158142)
+(   15.0,     9.0)-(  195.0,    53.0)   180.0 :    44.0 Eyes Color (0.8899999856948853)
+(    8.0,     8.0)-(   70.0,    44.0)    62.0 :    36.0 O+ (0.7900000214576721)
+(   17.0,     6.0)-(  215.0,    41.0)   198.0 :    30.0 Restrictions (0.8999999761581421)
+(   13.0,     7.0)-(  199.0,    44.0)   186.0 :    29.0 Conditions (0.8799999952316284)
+(   16.0,     0.0)-(  155.0,    49.0)   139.0 :    49.0 NONE (0.9200000166893005)
+(   13.0,     1.0)-(  137.0,    41.0)   124.0 :    38.0 EDGAR (0.9100000262260437)
+(    0.0,     0.0)-(  206.0,    46.0)   206.0 :    38.0 /GALVANTE (0.25999999046325684)
+(   30.0,     0.0)-(  411.0,    51.0)   381.0 :    44.0 Signature of Licensee (0.9100000262260437)
+(   22.0,     0.0)-(  367.0,    54.0)   345.0 :    39.0 Assistang Secretary (0.6800000071525574)
+======================
+ExtractFieldsFromReadResultOfPHDL start...
+ExtractFieldsFromReadResultOfPHDL (0.1288373 sec)
+
+scanPHDLResult.Success: False
+scanPHDLResult.Error: Failed to scan [SEX]
+scanPHDLResult.lastNameOrFullName: MIRANDA
+scanPHDLResult.firstName:  MICHAEL DILAGAN
+scanPHDLResult.middleName:
+scanPHDLResult.documentNumber: N01-08-009726
+scanPHDLResult.nationality: PH
+scanPHDLResult.documentIssueDate:
+scanPHDLResult.documentExpirationDate: 2022-04-29
+scanPHDLResult.addressLine1: B1 L3 1 SPRING HEIGHTS FILINVEST BAGONG
+scanPHDLResult.addressLine2: SILANGAN QUEZON CITY
+scanPHDLResult.postcode:
+scanPHDLResult.gender:
+scanPHDLResult.dateOfBirth: 1977-04-29
+
+[1]
+  Scanned Data: addressLine1: B1 L3 1 SPRING HEIGHTS FILINVEST BAGONG
+  Expected    : addressLine1: B1 L31 SPRING HEIGHTS FILINVEST BAGONG
+
+[2]
+  Scanned Data: gender:
+  Expected    : gender: M
+ --> IsValid: False
+ScanPHDL imageFileName: F:\WORK\Dev\huggingface\work\ConsoleApp1\test1\bin\Debug\net8.0\testdata\PHDL3_Test2.jpg
+PostOCRWithRegionRequest start...
+PostOCRWithRegionRequest PostAsync start...
+PostOCRWithRegionRequest PostAsync (3.4270359 sec)
+
+(3.4310749 sec)
+
+(  341.0,    29.0)-(  869.0,    65.0)   528.0 :    36.0 REPUBLIC OF THE PHILIPPINES ()
+(  333.0,    68.0)-(  879.0,   106.0)   546.0 :    38.0 DEPARTMENT OF TRANSPORTATION ()
+(  359.0,   103.0)-(  849.0,   139.0)   490.0 :    36.0 LAND TRANSPORTATION OFFICE ()
+(  247.0,   147.0)-(  995.0,   185.0)   748.0 :    38.0 NON-PROFESSIONAL DRIVER'S LICENSE ()
+(  422.0,   218.0)-(  836.0,   247.0)   414.0 :    29.0 LAST NAME. FIRST NAME. MIDDLE NAME ()
+(  422.0,   242.0)-(  982.0,   294.0)   560.0 :    52.0 MIRANDA, MICHAEL DILAGAN ()
+(  425.0,   299.0)-(  546.0,   330.0)   121.0 :    31.0 NATIONALITY ()
+(  586.0,   302.0)-(  632.0,   328.0)    46.0 :    26.0 SEX ()
+(  680.0,   300.0)-(  820.0,   328.0)   140.0 :    28.0 DATE OF BIRTH ()
+(  884.0,   300.0)-( 1012.0,   332.0)   128.0 :    32.0 WEIGHT (KG} ()
+( 1036.0,   300.0)-( 1150.0,   328.0)   114.0 :    28.0 HEIGHTLM) ()
+(  424.0,   332.0)-(  486.0,   362.0)    62.0 :    30.0 PHL ()
+(  594.0,   332.0)-(  626.0,   362.0)    32.0 :    30.0 M ()
+(  679.0,   331.0)-(  867.0,   367.0)   188.0 :    36.0 1977/04/29 ()
+(  924.0,   332.0)-(  968.0,   362.0)    44.0 :    30.0 75 ()
+( 1060.0,   330.0)-( 1126.0,   360.0)    66.0 :    30.0 1.64 ()
+(  426.0,   374.0)-(  518.0,   400.0)    92.0 :    26.0 ADDRESS ()
+(  424.0,   404.0)-(  518.0,   436.0)    94.0 :    32.0 B1 L3 ()
+(  541.0,   401.0)-( 1129.0,   437.0)   588.0 :    36.0 SPRING HEIGHTS FILINVEST BAGONG ()
+(  421.0,   439.0)-(  813.0,   475.0)   392.0 :    36.0 SILANGAN QUEZON CITY ()
+(  422.0,   482.0)-(  510.0,   508.0)    88.0 :    26.0 LICENSE ()
+(  705.0,   479.0)-(  874.0,   510.0)   169.0 :    31.0 EXPIRATION DATE ()
+(  905.0,   480.0)-( 1052.0,   512.0)   147.0 :    32.0 AGENCY CODE ()
+(  423.0,   507.0)-(  681.0,   543.0)   258.0 :    36.0 NO1-08-009726 ()
+(  705.0,   507.0)-(  895.0,   545.0)   190.0 :    38.0 2022/04/29 ()
+(  948.0,   508.0)-( 1012.0,   540.0)    64.0 :    32.0 N03 ()
+(  421.0,   550.0)-(  546.0,   580.0)   125.0 :    30.0 BLOOD TYPE ()
+(  608.0,   552.0)-(  724.0,   580.0)   116.0 :    28.0 EYES COLOR ()
+(  172.0,   572.0)-(  296.0,   602.0)   124.0 :    30.0 ZTN ()
+(  462.0,   578.0)-(  504.0,   606.0)    42.0 :    28.0 0+ ()
+(  616.0,   576.0)-(  718.0,   608.0)   102.0 :    32.0 BLACK ()
+(  422.0,   620.0)-(  548.0,   646.0)   126.0 :    26.0 RESTRICTIONS ()
+(  610.0,   620.0)-(  728.0,   646.0)   118.0 :    26.0 CONDITIONS ()
+(  170.0,   622.0)-(  318.0,   700.0)   148.0 :    78.0 DRF ()
+(  624.0,   646.0)-(  714.0,   678.0)    90.0 :    32.0 NONE ()
+(  772.0,   666.0)-(  856.0,   696.0)    84.0 :    30.0 EDGAR ()
+(  878.0,   666.0)-( 1006.0,   692.0)   128.0 :    26.0 KALVANTE ()
+(  126.0,   692.0)-(  367.0,   728.0)   241.0 :    36.0 SIGNATURE OF LICENSEE ()
+(  767.0,   691.0)-(  983.0,   730.0)   216.0 :    39.0 ASSISTAR/ SECRETARY ()
+(  512.0,   479.0)-(  546.0,   509.0)    34.0 :    30.0 NO_ ()
+Estimating resolution as 283
+REPUBLIC OF THE PHILIPPINES
+Before: (  341.0,    29.0)-(  869.0,    65.0)   528.0 :    36.0 REPUBLIC OF THE PHILIPPINES ()
+After: (  371.0,    37.0)-(  920.0,    68.0)   549.0 :    31.0 REPUBLIC OF THE PHILIPPINES (0.9100000262260437)
+Estimating resolution as 285
+DEPARTMENT OF TRANSPORTATION
+Before: (  333.0,    68.0)-(  879.0,   106.0)   546.0 :    38.0 DEPARTMENT OF TRANSPORTATION ()
+After: (  365.0,    77.0)-(  932.0,   110.0)   567.0 :    32.0 DEPARTMENT OF TRANSPORTATION (0.9100000262260437)
+Estimating resolution as 283
+LAND TRANSPORTATION OFFICE
+Before: (  359.0,   103.0)-(  849.0,   139.0)   490.0 :    36.0 LAND TRANSPORTATION OFFICE ()
+After: (  389.0,   110.0)-(  898.0,   141.0)   509.0 :    30.0 LAND TRANSPORTATION OFFICE (0.9100000262260437)
+Estimating resolution as 309
+NON-PROFESSIONAL DRIVER'S LICENSE *
+Before: (  247.0,   147.0)-(  995.0,   185.0)   748.0 :    38.0 NON-PROFESSIONAL DRIVER'S LICENSE ()
+After: (  289.0,   147.0)-( 1112.0,   181.0)   823.0 :    33.0 NON-PROFESSIONAL DRIVER'S LICENSE ()
+Estimating resolution as 233
+Last Name. First Name. Middle Name
+Before: (  422.0,   218.0)-(  836.0,   247.0)   414.0 :    29.0 LAST NAME. FIRST NAME. MIDDLE NAME ()
+After: (  451.0,   224.0)-(  882.0,   250.0)   431.0 :    25.0 LAST NAME. FIRST NAME. MIDDLE NAME ()
+Estimating resolution as 372
+MIRANDA, MICHAEL DILAGAN
+Before: (  422.0,   242.0)-(  982.0,   294.0)   560.0 :    52.0 MIRANDA, MICHAEL DILAGAN ()
+After: (  457.0,   242.0)-( 1037.0,   292.0)   580.0 :    41.0 MIRANDA, MICHAEL DILAGAN (0.9100000262260437)
+Estimating resolution as 222
+Nationality
+Before: (  425.0,   299.0)-(  546.0,   330.0)   121.0 :    31.0 NATIONALITY ()
+After: (  436.0,   307.0)-(  560.0,   338.0)   124.0 :    26.0 NATIONALITY ()
+Estimating resolution as 228
+Sex
+Before: (  586.0,   302.0)-(  632.0,   328.0)    46.0 :    26.0 SEX ()
+After: (  593.0,   307.0)-(  638.0,   331.0)    45.0 :    23.0 SEX ()
+Estimating resolution as 233
+Date of Birth
+Before: (  680.0,   300.0)-(  820.0,   328.0)   140.0 :    28.0 DATE OF BIRTH ()
+After: (  691.0,   307.0)-(  835.0,   333.0)   144.0 :    25.0 DATE OF BIRTH ()
+Estimating resolution as 281
+Weight {kg)
+Before: (  884.0,   300.0)-( 1012.0,   332.0)   128.0 :    32.0 WEIGHT (KG} ()
+After: (  891.0,   303.0)-( 1021.0,   332.0)   130.0 :    27.0 WEIGHT (KG} ()
+Estimating resolution as 292
+Height(m)
+Before: ( 1036.0,   300.0)-( 1150.0,   328.0)   114.0 :    28.0 HEIGHTLM) ()
+After: ( 1047.0,   305.0)-( 1162.0,   333.0)   115.0 :    28.0 HEIGHTLM) ()
+Estimating resolution as 283
+PHL
+Before: (  424.0,   332.0)-(  486.0,   362.0)    62.0 :    30.0 PHL ()
+After: (  432.0,   337.0)-(  494.0,   364.0)    62.0 :    26.0 PHL ()
+Estimating resolution as 275
+Empty page!!
+Estimating resolution as 275
+Empty page!!
+Estimating resolution as 274
+1977/04/29
+Before: (  679.0,   331.0)-(  867.0,   367.0)   188.0 :    36.0 1977/04/29 ()
+After: (  694.0,   337.0)-(  885.0,   371.0)   191.0 :    28.0 1977/04/29 ()
+Estimating resolution as 281
+Empty page!!
+Estimating resolution as 281
+Empty page!!
+Estimating resolution as 259
+1.64
+Before: ( 1060.0,   330.0)-( 1126.0,   360.0)    66.0 :    30.0 1.64 ()
+After: ( 1066.0,   337.0)-( 1131.0,   364.0)    65.0 :    27.0 1.64 ()
+Estimating resolution as 228
+Address
+Before: (  426.0,   374.0)-(  518.0,   400.0)    92.0 :    26.0 ADDRESS ()
+After: (  434.0,   380.0)-(  528.0,   405.0)    94.0 :    24.0 ADDRESS ()
+Estimating resolution as 283
+B1L3
+Before: (  424.0,   404.0)-(  518.0,   436.0)    94.0 :    32.0 B1 L3 ()
+After: (  433.0,   411.0)-(  524.0,   440.0)    91.0 :    29.0 B1 L3 ()
+Estimating resolution as 292
+1 SPRING HEIGHTS FILINVEST BAGONG
+Before: (  541.0,   401.0)-( 1129.0,   437.0)   588.0 :    36.0 SPRING HEIGHTS FILINVEST BAGONG ()
+After: (  551.0,   407.0)-( 1163.0,   439.0)   612.0 :    32.0 1 SPRING HEIGHTS FILINVEST BAGONG (0.9100000262260437)
+Estimating resolution as 286
+SILANGAN QUEZON CITY
+Before: (  421.0,   439.0)-(  813.0,   475.0)   392.0 :    36.0 SILANGAN QUEZON CITY ()
+After: (  446.0,   447.0)-(  852.0,   478.0)   406.0 :    31.0 SILANGAN QUEZON CITY ()
+Estimating resolution as 184
+License
+Before: (  422.0,   482.0)-(  510.0,   508.0)    88.0 :    26.0 LICENSE ()
+After: (  432.0,   488.0)-(  521.0,   512.0)    89.0 :    24.0 LICENSE ()
+Estimating resolution as 224
+Expiration Date
+Before: (  705.0,   479.0)-(  874.0,   510.0)   169.0 :    31.0 EXPIRATION DATE ()
+After: (  718.0,   487.0)-(  892.0,   516.0)   174.0 :    26.0 EXPIRATION DATE (0.9200000166893005)
+Estimating resolution as 234
+Agency Code
+Before: (  905.0,   480.0)-( 1052.0,   512.0)   147.0 :    32.0 AGENCY CODE ()
+After: (  919.0,   486.0)-( 1071.0,   515.0)   152.0 :    24.0 AGENCY CODE (0.9100000262260437)
+Estimating resolution as 326
+N01-08-009726
+Before: (  423.0,   507.0)-(  681.0,   543.0)   258.0 :    36.0 NO1-08-009726 ()
+After: (  440.0,   514.0)-(  705.0,   547.0)   265.0 :    31.0 NO1-08-009726 ()
+Estimating resolution as 319
+2022/04/29
+Before: (  705.0,   507.0)-(  895.0,   545.0)   190.0 :    38.0 2022/04/29 ()
+After: (  718.0,   507.0)-(  911.0,   543.0)   193.0 :    31.0 2022/04/29 ()
+Estimating resolution as 283
+NO3
+Before: (  948.0,   508.0)-( 1012.0,   540.0)    64.0 :    32.0 N03 ()
+After: (  956.0,   515.0)-( 1018.0,   544.0)    62.0 :    29.0 N03 ()
+Estimating resolution as 228
+Blood Type'
+Before: (  421.0,   550.0)-(  546.0,   580.0)   125.0 :    30.0 BLOOD TYPE ()
+After: (  433.0,   558.0)-(  566.0,   591.0)   133.0 :    25.0 BLOOD TYPE ()
+Estimating resolution as 233
+Eyes Color
+Before: (  608.0,   552.0)-(  724.0,   580.0)   116.0 :    28.0 EYES COLOR ()
+After: (  618.0,   558.0)-(  736.0,   587.0)   118.0 :    24.0 EYES COLOR ()
+Estimating resolution as 363
+
+Estimating resolution as 269
+Empty page!!
+Estimating resolution as 269
+Empty page!!
+Estimating resolution as 288
+BLACK
+Before: (  616.0,   576.0)-(  718.0,   608.0)   102.0 :    32.0 BLACK ()
+After: (  626.0,   576.0)-(  728.0,   605.0)   102.0 :    28.0 BLACK ()
+Estimating resolution as 223
+Restrictions
+Before: (  422.0,   620.0)-(  548.0,   646.0)   126.0 :    26.0 RESTRICTIONS ()
+After: (  433.0,   627.0)-(  563.0,   655.0)   130.0 :    24.0 RESTRICTIONS ()
+Estimating resolution as 222
+Conditions
+Before: (  610.0,   620.0)-(  728.0,   646.0)   118.0 :    26.0 CONDITIONS ()
+After: (  618.0,   626.0)-(  738.0,   655.0)   120.0 :    24.0 CONDITIONS ()
+Estimating resolution as 928
+Empty page!!
+Estimating resolution as 928
+Empty page!!
+Estimating resolution as 283
+NONE
+Before: (  624.0,   646.0)-(  714.0,   678.0)    90.0 :    32.0 NONE ()
+After: (  633.0,   652.0)-(  722.0,   680.0)    89.0 :    28.0 NONE ()
+Estimating resolution as 242
+EDGAR
+Estimating resolution as 243
+GALVANTE
+Before: (  878.0,   666.0)-( 1006.0,   692.0)   128.0 :    26.0 KALVANTE ()
+After: (  878.0,   666.0)-( 1009.0,   695.0)   131.0 :    23.0 KALVANTE ()
+Estimating resolution as 213
+Signature of Licensee
+Before: (  126.0,   692.0)-(  367.0,   728.0)   241.0 :    36.0 SIGNATURE OF LICENSEE ()
+After: (  146.0,   692.0)-(  395.0,   724.0)   249.0 :    28.0 SIGNATURE OF LICENSEE (0.9100000262260437)
+Estimating resolution as 222
+Assistang Secretary
+Before: (  767.0,   691.0)-(  983.0,   730.0)   216.0 :    39.0 ASSISTAR/ SECRETARY ()
+After: (  783.0,   700.0)-( 1006.0,   732.0)   223.0 :    27.0 ASSISTAR/ SECRETARY ()
+Estimating resolution as 238
+Empty page!!
+Estimating resolution as 238
+Empty page!!
+==== Lines read by Tesseract ====
+(   30.0,     8.0)-(  549.0,    31.0)   519.0 :    23.0 REPUBLIC OF THE PHILIPPINES (0.9100000262260437)
+(   32.0,     9.0)-(  567.0,    33.0)   535.0 :    23.0 DEPARTMENT OF TRANSPORTATION (0.9100000262260437)
+(   30.0,     7.0)-(  509.0,    31.0)   479.0 :    23.0 LAND TRANSPORTATION OFFICE (0.9100000262260437)
+(   42.0,     0.0)-(  823.0,    34.0)   781.0 :    33.0 NON-PROFESSIONAL DRIVER'S LICENSE * (0.6899999976158142)
+(   29.0,     6.0)-(  431.0,    26.0)   402.0 :    19.0 Last Name. First Name. Middle Name (0.8999999761581421)
+(   35.0,     0.0)-(  580.0,    50.0)   545.0 :    41.0 MIRANDA, MICHAEL DILAGAN (0.9100000262260437)
+(   11.0,     8.0)-(  124.0,    31.0)   113.0 :    18.0 Nationality (0.8999999761581421)
+(    7.0,     5.0)-(   45.0,    24.0)    38.0 :    18.0 Sex (0.8899999856948853)
+(   11.0,     7.0)-(  144.0,    26.0)   133.0 :    18.0 Date of Birth (0.8999999761581421)
+(    7.0,     3.0)-(  130.0,    29.0)   123.0 :    24.0 Weight {kg) (0.7200000286102295)
+(   11.0,     5.0)-(  115.0,    28.0)   104.0 :    23.0 Height(m) (0.6600000262260437)
+(    8.0,     5.0)-(   62.0,    27.0)    54.0 :    21.0 PHL (0.8899999856948853)
+(   15.0,     6.0)-(  191.0,    34.0)   176.0 :    22.0 1977/04/29 (0.7099999785423279)
+(    6.0,     7.0)-(   65.0,    27.0)    59.0 :    20.0 1.64 (0.8999999761581421)
+(    8.0,     6.0)-(   94.0,    25.0)    86.0 :    18.0 Address (0.8999999761581421)
+(    9.0,     7.0)-(   91.0,    29.0)    82.0 :    22.0 B1L3 (0.6200000047683716)
+(   10.0,     6.0)-(  612.0,    32.0)   602.0 :    26.0 1 SPRING HEIGHTS FILINVEST BAGONG (0.9100000262260437)
+(   25.0,     8.0)-(  406.0,    31.0)   381.0 :    23.0 SILANGAN QUEZON CITY (0.8999999761581421)
+(   10.0,     6.0)-(   89.0,    24.0)    79.0 :    18.0 License (0.8899999856948853)
+(   13.0,     8.0)-(  174.0,    29.0)   161.0 :    18.0 Expiration Date (0.9200000166893005)
+(   14.0,     6.0)-(  152.0,    29.0)   138.0 :    18.0 Agency Code (0.9100000262260437)
+(   17.0,     7.0)-(  265.0,    33.0)   248.0 :    24.0 N01-08-009726 (0.6899999976158142)
+(   13.0,     0.0)-(  193.0,    36.0)   180.0 :    31.0 2022/04/29 (0.8799999952316284)
+(    8.0,     7.0)-(   62.0,    29.0)    54.0 :    22.0 NO3 (0.8299999833106995)
+(   12.0,     8.0)-(  133.0,    33.0)   121.0 :    17.0 Blood Type' (0.5199999809265137)
+(   10.0,     6.0)-(  118.0,    29.0)   108.0 :    18.0 Eyes Color (0.8600000143051147)
+(   10.0,     0.0)-(  102.0,    29.0)    92.0 :    28.0 BLACK (0.8999999761581421)
+(   11.0,     7.0)-(  130.0,    28.0)   119.0 :    17.0 Restrictions (0.8999999761581421)
+(    8.0,     6.0)-(  120.0,    29.0)   112.0 :    18.0 Conditions (0.8799999952316284)
+(    9.0,     6.0)-(   89.0,    28.0)    80.0 :    22.0 NONE (0.8899999856948853)
+(    9.0,     6.0)-(   93.0,    26.0)    84.0 :    19.0 EDGAR (0.10000000149011612)
+(    0.0,     0.0)-(  131.0,    29.0)   131.0 :    23.0 GALVANTE (0.5400000214576721)
+(   20.0,     0.0)-(  249.0,    32.0)   229.0 :    28.0 Signature of Licensee (0.9100000262260437)
+(   16.0,     9.0)-(  223.0,    32.0)   207.0 :    18.0 Assistang Secretary (0.5799999833106995)
+======================
+ExtractFieldsFromReadResultOfPHDL start...
+ExtractFieldsFromReadResultOfPHDL (0.1350439 sec)
+
+scanPHDLResult.Success: True
+scanPHDLResult.Error:
+scanPHDLResult.lastNameOrFullName: MIRANDA
+scanPHDLResult.firstName:  MICHAEL DILAGAN
+scanPHDLResult.middleName:
+scanPHDLResult.documentNumber: NO1-08-009726
+scanPHDLResult.nationality: PH
+scanPHDLResult.documentIssueDate:
+scanPHDLResult.documentExpirationDate: 2022-04-29
+scanPHDLResult.addressLine1: B1 L3 1 SPRING HEIGHTS FILINVEST BAGONG
+scanPHDLResult.addressLine2: SILANGAN QUEZON CITY
+scanPHDLResult.postcode:
+scanPHDLResult.gender: M
+scanPHDLResult.dateOfBirth: 1977-04-29
+
+[1]
+  Scanned Data: documentNumber: NO1-08-009726
+  Expected    : documentNumber: N01-08-009726
+
+[2]
+  Scanned Data: addressLine1: B1 L3 1 SPRING HEIGHTS FILINVEST BAGONG
+  Expected    : addressLine1: B1 L31 SPRING HEIGHTS FILINVEST BAGONG
+ --> IsValid: False
+ScanPHDL imageFileName: F:\WORK\Dev\huggingface\work\ConsoleApp1\test1\bin\Debug\net8.0\testdata\PHDL3_Test3.jpg
+PostOCRWithRegionRequest start...
+PostOCRWithRegionRequest PostAsync start...
+PostOCRWithRegionRequest PostAsync (1.4988604 sec)
+
+(1.5013175 sec)
+
+(  168.0,    13.0)-(  435.0,    32.0)   267.0 :    19.0 REPUBLIC OF THE PHILIPPINES ()
+(  165.0,    32.0)-(  438.0,    53.0)   273.0 :    21.0 DEPARTMENT OF TRANSPORTATION ()
+(  181.0,    49.0)-(  425.0,    69.0)   244.0 :    20.0 LAND TRANSPORTATION OFFICE ()
+(  122.0,    69.0)-(  498.0,    95.0)   376.0 :    26.0 NON-PROFESSIONAL DRIVER'S LICENSE ()
+(  383.0,   109.0)-(  419.0,   123.0)    36.0 :    14.0 NAME ()
+(  210.0,   120.0)-(  490.0,   146.0)   280.0 :    26.0 MIRANDA, MICHAEL DILAGAN ()
+(  213.0,   151.0)-(  275.0,   165.0)    62.0 :    14.0 NATIONALITY ()
+(  293.0,   151.0)-(  317.0,   165.0)    24.0 :    14.0 SEX ()
+(  383.0,   151.0)-(  413.0,   165.0)    30.0 :    14.0 BIRTH ()
+(  213.0,   165.0)-(  243.0,   181.0)    30.0 :    16.0 PHL ()
+(  341.0,   167.0)-(  379.0,   181.0)    38.0 :    14.0 1977_ ()
+(  385.0,   165.0)-(  433.0,   183.0)    48.0 :    18.0 04/29 ()
+(  531.0,   165.0)-(  563.0,   181.0)    32.0 :    16.0 1.64 ()
+(  213.0,   189.0)-(  261.0,   201.0)    48.0 :    12.0 ADDRESS ()
+(  213.0,   201.0)-(  259.0,   219.0)    46.0 :    18.0 B1 L3 ()
+(  271.0,   199.0)-(  565.0,   219.0)   294.0 :    20.0 SPRING HEIGHTS FILINVEST BAGONG ()
+(  211.0,   219.0)-(  407.0,   237.0)   196.0 :    18.0 SILANGAN QUEZON CITY ()
+(  455.0,   241.0)-(  527.0,   257.0)    72.0 :    16.0 AGENCY CODE ()
+(  211.0,   251.0)-(  341.0,   271.0)   130.0 :    20.0 N0 1-08-009726 ()
+(  353.0,   253.0)-(  447.0,   271.0)    94.0 :    18.0 2022/04/29 ()
+(  475.0,   255.0)-(  507.0,   271.0)    32.0 :    16.0 N03 ()
+(  211.0,   277.0)-(  245.0,   289.0)    34.0 :    12.0 BLOOD ()
+(  309.0,   289.0)-(  359.0,   305.0)    50.0 :    16.0 BLACK ()
+(  211.0,   311.0)-(  273.0,   323.0)    62.0 :    12.0 RESTRICTIONS ()
+(  311.0,   321.0)-(  357.0,   339.0)    46.0 :    18.0 NONE ()
+(  387.0,   333.0)-(  429.0,   349.0)    42.0 :    16.0 EDGAR ()
+(   65.0,   349.0)-(  119.0,   363.0)    54.0 :    14.0 SIGNATURE ()
+(  133.0,   349.0)-(  183.0,   361.0)    50.0 :    12.0 LICENSEE ()
+(  437.0,   349.0)-(  493.0,   363.0)    56.0 :    14.0 SECRETARY ()
+Estimating resolution as 147
+REPUBLIC OF THE PHILIPPINES
+Before: (  168.0,    13.0)-(  435.0,    32.0)   267.0 :    19.0 REPUBLIC OF THE PHILIPPINES ()
+After: (  186.0,    19.0)-(  464.0,    36.0)   278.0 :    17.0 REPUBLIC OF THE PHILIPPINES ()
+Estimating resolution as 147
+DEPARTMENT OF TRANSPORTATION
+Before: (  165.0,    32.0)-(  438.0,    53.0)   273.0 :    21.0 DEPARTMENT OF TRANSPORTATION ()
+After: (  183.0,    40.0)-(  468.0,    59.0)   285.0 :    19.0 DEPARTMENT OF TRANSPORTATION (0.9100000262260437)
+Estimating resolution as 144
+
+'LAND TRANSPORTATION OFFICE
+Estimating resolution as 158
+NON-PROFESSIONAL DRIVER'S LICENSE N
+Before: (  122.0,    69.0)-(  498.0,    95.0)   376.0 :    26.0 NON-PROFESSIONAL DRIVER'S LICENSE ()
+After: (  145.0,    69.0)-(  557.0,    91.0)   412.0 :    22.0 NON-PROFESSIONAL DRIVER'S LICENSE ()
+Estimating resolution as 125
+Name
+Before: (  383.0,   109.0)-(  419.0,   123.0)    36.0 :    14.0 NAME ()
+After: (  388.0,   112.0)-(  423.0,   124.0)    35.0 :    12.0 NAME ()
+Estimating resolution as 186
+MIRANDA, MICHAEL DILAGAN
+Before: (  210.0,   120.0)-(  490.0,   146.0)   280.0 :    26.0 MIRANDA, MICHAEL DILAGAN ()
+After: (  229.0,   120.0)-(  520.0,   146.0)   291.0 :    22.0 MIRANDA, MICHAEL DILAGAN (0.9100000262260437)
+Estimating resolution as 125
+Nationality
+Before: (  213.0,   151.0)-(  275.0,   165.0)    62.0 :    14.0 NATIONALITY ()
+After: (  219.0,   154.0)-(  281.0,   168.0)    62.0 :    12.0 NATIONALITY ()
+Estimating resolution as 119
+Sex
+Before: (  293.0,   151.0)-(  317.0,   165.0)    24.0 :    14.0 SEX ()
+After: (  297.0,   154.0)-(  320.0,   166.0)    23.0 :    12.0 SEX ()
+Estimating resolution as 131
+Empty page!!
+Estimating resolution as 131
+Empty page!!
+Estimating resolution as 141
+PHL
+Before: (  213.0,   165.0)-(  243.0,   181.0)    30.0 :    16.0 PHL ()
+After: (  216.0,   169.0)-(  246.0,   184.0)    30.0 :    14.0 PHL (0.9200000166893005)
+Estimating resolution as 141
+1977,
+Before: (  341.0,   167.0)-(  379.0,   181.0)    38.0 :    14.0 1977_ ()
+After: (  345.0,   169.0)-(  386.0,   184.0)    41.0 :    12.0 1977, (0.9599999785423279)
+Estimating resolution as 148
+04/29
+Before: (  385.0,   165.0)-(  433.0,   183.0)    48.0 :    18.0 04/29 ()
+After: (  385.0,   169.0)-(  433.0,   186.0)    48.0 :    15.0 04/29 ()
+Estimating resolution as 141
+
+Estimating resolution as 116
+Address
+Estimating resolution as 134
+B1L3
+Before: (  213.0,   201.0)-(  259.0,   219.0)    46.0 :    18.0 B1 L3 ()
+After: (  217.0,   206.0)-(  262.0,   221.0)    45.0 :    15.0 B1 L3 ()
+Estimating resolution as 147
+1 SPRING HEIGHTS FILINVEST BAGONG
+Before: (  271.0,   199.0)-(  565.0,   219.0)   294.0 :    20.0 SPRING HEIGHTS FILINVEST BAGONG ()
+After: (  276.0,   205.0)-(  582.0,   223.0)   306.0 :    18.0 SPRING HEIGHTS FILINVEST BAGONG ()
+Estimating resolution as 147
+SILANGAN QUEZON CITY
+Before: (  211.0,   219.0)-(  407.0,   237.0)   196.0 :    18.0 SILANGAN QUEZON CITY ()
+After: (  223.0,   224.0)-(  426.0,   240.0)   203.0 :    16.0 SILANGAN QUEZON CITY ()
+Estimating resolution as 122
+`Agency Code
+Before: (  455.0,   241.0)-(  527.0,   257.0)    72.0 :    16.0 AGENCY CODE ()
+After: (  460.0,   243.0)-(  534.0,   256.0)    74.0 :    11.0 AGENCY CODE ()
+Estimating resolution as 162
+NO1-08-009726
+Estimating resolution as 161
+Empty page!!
+Estimating resolution as 161
+Empty page!!
+Estimating resolution as 141
+NO3
+Before: (  475.0,   255.0)-(  507.0,   271.0)    32.0 :    16.0 N03 ()
+After: (  478.0,   257.0)-(  508.0,   270.0)    30.0 :    13.0 N03 ()
+Estimating resolution as 122
+Empty page!!
+Estimating resolution as 122
+Empty page!!
+Estimating resolution as 138
+BLACK
+Before: (  309.0,   289.0)-(  359.0,   305.0)    50.0 :    16.0 BLACK ()
+After: (  313.0,   291.0)-(  363.0,   304.0)    50.0 :    13.0 BLACK ()
+Estimating resolution as 116
+Restrictions
+Estimating resolution as 147
+
+Estimating resolution as 121
+EDGAR
+Before: (  387.0,   333.0)-(  429.0,   349.0)    42.0 :    16.0 EDGAR ()
+After: (  392.0,   336.0)-(  439.0,   349.0)    47.0 :    13.0 EDGAR ()
+Estimating resolution as 144
+Signature
+Estimating resolution as 116
+Licensee
+Before: (  133.0,   349.0)-(  183.0,   361.0)    50.0 :    12.0 LICENSEE ()
+After: (  138.0,   351.0)-(  189.0,   362.0)    51.0 :    11.0 LICENSEE ()
+Estimating resolution as 113
+`Secretary
+==== Lines read by Tesseract ====
+(   18.0,     6.0)-(  278.0,    17.0)   260.0 :    11.0 REPUBLIC OF THE PHILIPPINES (0.8999999761581421)
+(   18.0,     8.0)-(  285.0,    19.0)   267.0 :    11.0 DEPARTMENT OF TRANSPORTATION (0.9100000262260437)
+(   12.0,     0.0)-(  254.0,    18.0)   242.0 :    18.0 'LAND TRANSPORTATION OFFICE (0.7200000286102295)
+(   23.0,     0.0)-(  412.0,    22.0)   389.0 :    22.0 NON-PROFESSIONAL DRIVER'S LICENSE N (0.8899999856948853)
+(    5.0,     3.0)-(   35.0,    12.0)    30.0 :     9.0 Name (0.7699999809265137)
+(   19.0,     0.0)-(  291.0,    26.0)   272.0 :    22.0 MIRANDA, MICHAEL DILAGAN (0.9100000262260437)
+(    6.0,     3.0)-(   62.0,    14.0)    56.0 :     9.0 Nationality (0.7300000190734863)
+(    4.0,     3.0)-(   23.0,    12.0)    19.0 :     9.0 Sex (0.6499999761581421)
+(    3.0,     4.0)-(   30.0,    15.0)    27.0 :    10.0 PHL (0.9200000166893005)
+(    4.0,     2.0)-(   41.0,    15.0)    37.0 :    10.0 1977, (0.9599999785423279)
+(    0.0,     4.0)-(   48.0,    17.0)    48.0 :    11.0 04/29 (0.6399999856948853)
+(    5.0,     1.0)-(   47.0,    10.0)    42.0 :     9.0 Address (0.41999998688697815)
+(    4.0,     5.0)-(   45.0,    15.0)    41.0 :    10.0 B1L3 (0.5799999833106995)
+(    5.0,     6.0)-(  306.0,    18.0)   301.0 :    12.0 1 SPRING HEIGHTS FILINVEST BAGONG (0.8999999761581421)
+(   12.0,     5.0)-(  203.0,    16.0)   191.0 :    11.0 SILANGAN QUEZON CITY (0.8999999761581421)
+(    5.0,     2.0)-(   74.0,    13.0)    69.0 :     9.0 `Agency Code (0.550000011920929)
+(   10.0,     0.0)-(  134.0,    19.0)   124.0 :    18.0 NO1-08-009726 (0.41999998688697815)
+(    3.0,     2.0)-(   30.0,    13.0)    27.0 :    11.0 NO3 (0.8500000238418579)
+(    4.0,     2.0)-(   50.0,    13.0)    46.0 :    11.0 BLACK (0.8999999761581421)
+(    6.0,     3.0)-(   66.0,    13.0)    60.0 :     8.0 Restrictions (0.46000000834465027)
+(    5.0,     3.0)-(   47.0,    13.0)    42.0 :    10.0 EDGAR (0.7699999809265137)
+(    4.0,     0.0)-(   54.0,    13.0)    50.0 :    12.0 Signature (0.27000001072883606)
+(    5.0,     2.0)-(   51.0,    11.0)    46.0 :     9.0 Licensee (0.8899999856948853)
+(    0.0,     0.0)-(   56.0,    12.0)    56.0 :    10.0 `Secretary (0.25)
+======================
+ExtractFieldsFromReadResultOfPHDL start...
+ExtractFieldsFromReadResultOfPHDL (0.1070341 sec)
+
+scanPHDLResult.Success: False
+scanPHDLResult.Error: Failed to scan [EXPIRY,SEX,DOB]
+scanPHDLResult.lastNameOrFullName: MIRANDA
+scanPHDLResult.firstName:  MICHAEL DILAGAN
+scanPHDLResult.middleName:
+scanPHDLResult.documentNumber: 2022/04/29
+scanPHDLResult.nationality: PH
+scanPHDLResult.documentIssueDate:
+scanPHDLResult.documentExpirationDate:
+scanPHDLResult.addressLine1: B1 L3 SPRING HEIGHTS FILINVEST BAGONG
+scanPHDLResult.addressLine2: SILANGAN QUEZON CITY
+scanPHDLResult.postcode:
+scanPHDLResult.gender:
+scanPHDLResult.dateOfBirth:
+
+[1]
+  Scanned Data: dateOfBirth:
+  Expected    : dateOfBirth: 1977-04-29
+
+[2]
+  Scanned Data: documentNumber: 2022/04/29
+  Expected    : documentNumber: N01-08-009726
+
+[3]
+  Scanned Data: addressLine1: B1 L3 SPRING HEIGHTS FILINVEST BAGONG
+  Expected    : addressLine1: B1 L31 SPRING HEIGHTS FILINVEST BAGONG
+
+[4]
+  Scanned Data: gender:
+  Expected    : gender: M
+ --> IsValid: False
+ScanPHDL imageFileName: F:\WORK\Dev\huggingface\work\ConsoleApp1\test1\bin\Debug\net8.0\testdata\PHDL4_Test1.jpg
+PostOCRWithRegionRequest start...
+PostOCRWithRegionRequest PostAsync start...
+PostOCRWithRegionRequest PostAsync (2.7957483 sec)
+
+(2.7976591 sec)
+
+(  240.0,   272.0)-(  556.0,   299.0)   316.0 :    27.0 REPUBLIC OF THE PHILIPPINES ()
+(  236.0,   298.0)-(  562.0,   322.0)   326.0 :    24.0 DEPARTMENT OF TRANSPORTATION ()
+(  250.0,   316.0)-(  546.0,   340.0)   296.0 :    24.0 LAND TRANSPORTATION OFFICE ()
+(  182.0,   340.0)-(  628.0,   366.0)   446.0 :    26.0 NON-PROFESSIONAL DRIVER'S LICENSE ()
+(  445.0,   387.0)-(  491.0,   403.0)    46.0 :    16.0 MIDDLE ()
+(  288.0,   398.0)-(  668.0,   428.0)   380.0 :    30.0 MAITIM, JOSE ANTONIO SAYO ()
+(  289.0,   437.0)-(  361.0,   453.0)    72.0 :    16.0 NATIONALITY ()
+(  441.0,   435.0)-(  525.0,   451.0)    84.0 :    16.0 DATE OT BIRTH ()
+(  563.0,   433.0)-(  643.0,   453.0)    80.0 :    20.0 WEIGHT (KG) ()
+(  659.0,   435.0)-(  727.0,   451.0)    68.0 :    16.0 HEIGHTLM} ()
+(  287.0,   451.0)-(  329.0,   471.0)    42.0 :    20.0 PHL ()
+(  436.0,   448.0)-(  540.0,   472.0)   104.0 :    24.0 1970/06/13 ()
+(  583.0,   451.0)-(  621.0,   471.0)    38.0 :    20.0 104 ()
+(  685.0,   451.0)-(  713.0,   471.0)    28.0 :    20.0 80 ()
+(  289.0,   479.0)-(  347.0,   495.0)    58.0 :    16.0 ADDRESS ()
+(  287.0,   495.0)-(  335.0,   515.0)    48.0 :    20.0 40-A ()
+(  358.0,   494.0)-(  546.0,   518.0)   188.0 :    24.0 PELAEZ ST PROJ ()
+(  564.0,   492.0)-(  718.0,   516.0)   154.0 :    24.0 QUEZON CITY ()
+(  289.0,   545.0)-(  341.0,   561.0)    52.0 :    16.0 LICENSE ()
+(  527.0,   543.0)-(  561.0,   559.0)    34.0 :    16.0 DATE ()
+(  581.0,   545.0)-(  635.0,   563.0)    54.0 :    18.0 AGENCY ()
+(  286.0,   554.0)-(  444.0,   580.0)   158.0 :    26.0 N02-89-106564 ()
+(  454.0,   555.0)-(  560.0,   579.0)   106.0 :    24.0 2022/06/13 ()
+(  604.0,   558.0)-(  648.0,   582.0)    44.0 :    24.0 N22 ()
+(  433.0,   587.0)-(  469.0,   603.0)    36.0 :    16.0 COLOR ()
+(  302.0,   598.0)-(  348.0,   622.0)    46.0 :    24.0 AB+ ()
+(  396.0,   598.0)-(  472.0,   622.0)    76.0 :    24.0 BLACK ()
+(  286.0,   628.0)-(  365.0,   646.0)    79.0 :    18.0 RESTRICTIONS ()
+(  401.0,   629.0)-(  473.0,   645.0)    72.0 :    16.0 CONDITIONS ()
+(  406.0,   640.0)-(  468.0,   664.0)    62.0 :    24.0 NONE ()
+(  501.0,   659.0)-(  553.0,   675.0)    52.0 :    16.0 EDGAR ()
+(  569.0,   657.0)-(  647.0,   675.0)    78.0 :    18.0 GGALVANTE ()
+(  113.0,   675.0)-(  177.0,   693.0)    64.0 :    18.0 SIGNATURE ()
+(  193.0,   677.0)-(  253.0,   691.0)    60.0 :    14.0 LICENSEE ()
+(  563.0,   677.0)-(  633.0,   693.0)    70.0 :    16.0 SECRETARY ()
+(  633.0,   540.0)-(  671.0,   563.0)    38.0 :    23.0 CODE ()
+Estimating resolution as 173
+REPUBLIC OF THE PHILIPPINES
+Before: (  240.0,   272.0)-(  556.0,   299.0)   316.0 :    27.0 REPUBLIC OF THE PHILIPPINES ()
+After: (  261.0,   281.0)-(  589.0,   306.0)   328.0 :    25.0 REPUBLIC OF THE PHILIPPINES (0.9100000262260437)
+Estimating resolution as 178
+DEPARTMENT OF TRANSPOR'
+
+1ON
+Estimating resolution as 173
+
+LAND TRANSPORTATION OFFICE
+Estimating resolution as 190
+NON-PROFESSIONAL DRIVER'S LICENSE S
+Before: (  182.0,   340.0)-(  628.0,   366.0)   446.0 :    26.0 NON-PROFESSIONAL DRIVER'S LICENSE ()
+After: (  209.0,   340.0)-(  700.0,   369.0)   491.0 :    24.0 NON-PROFESSIONAL DRIVER'S LICENSE ()
+Estimating resolution as 147
+Middie
+Before: (  445.0,   387.0)-(  491.0,   403.0)    46.0 :    16.0 MIDDLE ()
+After: (  449.0,   388.0)-(  495.0,   401.0)    46.0 :    13.0 MIDDLE ()
+Estimating resolution as 245
+MAITIM, JOSE ANTONIO SAYO
+Before: (  288.0,   398.0)-(  668.0,   428.0)   380.0 :    30.0 MAITIM, JOSE ANTONIO SAYO ()
+After: (  310.0,   398.0)-(  704.0,   428.0)   394.0 :    27.0 MAITIM, JOSE ANTONIO SAYO ()
+Estimating resolution as 150
+
+Estimating resolution as 146
+Date of Birth
+Before: (  441.0,   435.0)-(  525.0,   451.0)    84.0 :    16.0 DATE OT BIRTH ()
+After: (  447.0,   438.0)-(  534.0,   452.0)    87.0 :    14.0 DATE OT BIRTH ()
+Estimating resolution as 203
+Empty page!!
+Estimating resolution as 203
+Empty page!!
+Estimating resolution as 173
+Empty page!!
+Estimating resolution as 173
+Empty page!!
+Estimating resolution as 184
+PHL
+Before: (  287.0,   451.0)-(  329.0,   471.0)    42.0 :    20.0 PHL ()
+After: (  294.0,   455.0)-(  338.0,   473.0)    44.0 :    18.0 PHL ()
+Estimating resolution as 184
+1970/06/13
+Before: (  436.0,   448.0)-(  540.0,   472.0)   104.0 :    24.0 1970/06/13 ()
+After: (  446.0,   448.0)-(  553.0,   470.0)   107.0 :    22.0 1970/06/13 ()
+Estimating resolution as 184
+Empty page!!
+Estimating resolution as 184
+Empty page!!
+Estimating resolution as 188
+Empty page!!
+Estimating resolution as 188
+Empty page!!
+Estimating resolution as 145
+`Address
+Estimating resolution as 195
+40-A
+Before: (  287.0,   495.0)-(  335.0,   515.0)    48.0 :    20.0 40-A ()
+After: (  293.0,   499.0)-(  343.0,   518.0)    50.0 :    18.0 40-A (0.9200000166893005)
+Estimating resolution as 196
+> PELAEZ ST PROJ ¢
+Before: (  358.0,   494.0)-(  546.0,   518.0)   188.0 :    24.0 PELAEZ ST PROJ ()
+After: (  358.0,   500.0)-(  565.0,   521.0)   207.0 :    21.0 PELAEZ ST PROJ ()
+Estimating resolution as 200
+QUEZON CITY
+Before: (  564.0,   492.0)-(  718.0,   516.0)   154.0 :    24.0 QUEZON CITY ()
+After: (  564.0,   499.0)-(  723.0,   522.0)   159.0 :    23.0 QUEZON CITY ()
+Estimating resolution as 144
+
+Estimating resolution as 163
+Empty page!!
+Estimating resolution as 163
+Empty page!!
+Estimating resolution as 181
+Agency |
+Before: (  581.0,   545.0)-(  635.0,   563.0)    54.0 :    18.0 AGENCY ()
+After: (  586.0,   547.0)-(  645.0,   563.0)    59.0 :    12.0 AGENCY ()
+Estimating resolution as 212
+
+N02-89-106564
+Estimating resolution as 206
+
+Estimating resolution as 188
+Empty page!!
+Estimating resolution as 188
+Empty page!!
+Estimating resolution as 200
+
+Estimating resolution as 194
+
+Estimating resolution as 200
+
+Estimating resolution as 213
+
+Estimating resolution as 166
+Empty page!!
+Estimating resolution as 166
+Empty page!!
+Estimating resolution as 195
+
+NONE
+Estimating resolution as 178
+Empty page!!
+Estimating resolution as 178
+Empty page!!
+Estimating resolution as 163
+Empty page!!
+Estimating resolution as 163
+Empty page!!
+Estimating resolution as 169
+Signature
+Before: (  113.0,   675.0)-(  177.0,   693.0)    64.0 :    18.0 SIGNATURE ()
+After: (  118.0,   675.0)-(  189.0,   692.0)    71.0 :    14.0 SIGNATURE ()
+Estimating resolution as 147
+Licensee
+Before: (  193.0,   677.0)-(  253.0,   691.0)    60.0 :    14.0 LICENSEE ()
+After: (  198.0,   678.0)-(  259.0,   692.0)    61.0 :    12.0 LICENSEE ()
+Estimating resolution as 178
+[ Secretary
+Before: (  563.0,   677.0)-(  633.0,   693.0)    70.0 :    16.0 SECRETARY ()
+After: (  563.0,   677.0)-(  633.0,   693.0)    70.0 :    14.0 SECRETARY ()
+Estimating resolution as 163
+
+==== Lines read by Tesseract ====
+(   21.0,     9.0)-(  328.0,    25.0)   307.0 :    16.0 REPUBLIC OF THE PHILIPPINES (0.9100000262260437)
+(   21.0,     7.0)-(  275.0,    27.0)   254.0 :    15.0 DEPARTMENT OF TRANSPOR' (0.6800000071525574)
+(  310.0,     6.0)-(  339.0,    27.0)    29.0 :    14.0 1ON (0.6800000071525574)
+(    5.0,     0.0)-(  307.0,    23.0)   302.0 :    23.0 LAND TRANSPORTATION OFFICE (0.6899999976158142)
+(   27.0,     0.0)-(  491.0,    29.0)   464.0 :    24.0 NON-PROFESSIONAL DRIVER'S LICENSE S (0.800000011920929)
+(    4.0,     1.0)-(   46.0,    13.0)    42.0 :    12.0 Middie (0.8100000023841858)
+(   22.0,     0.0)-(  394.0,    30.0)   372.0 :    27.0 MAITIM, JOSE ANTONIO SAYO (0.8500000238418579)
+(    6.0,     3.0)-(   87.0,    14.0)    81.0 :    11.0 Date of Birth (0.7900000214576721)
+(    7.0,     4.0)-(   44.0,    18.0)    37.0 :    14.0 PHL (0.8999999761581421)
+(   10.0,     0.0)-(  107.0,    22.0)    97.0 :    22.0 1970/06/13 (0.7300000190734863)
+(    5.0,     3.0)-(   57.0,    14.0)    52.0 :    11.0 `Address (0.23999999463558197)
+(    6.0,     4.0)-(   50.0,    19.0)    44.0 :    14.0 40-A (0.9200000166893005)
+(    0.0,     6.0)-(  207.0,    21.0)   207.0 :    15.0 > PELAEZ ST PROJ ¢ (0.800000011920929)
+(    0.0,     7.0)-(  159.0,    23.0)   159.0 :    16.0 QUEZON CITY (0.5199999809265137)
+(    5.0,     2.0)-(   59.0,    16.0)    54.0 :    10.0 Agency | (0.7599999904632568)
+(   12.0,     2.0)-(  164.0,    25.0)   152.0 :    22.0 N02-89-106564 (0.8199999928474426)
+(    7.0,     7.0)-(   62.0,    23.0)    55.0 :    15.0 NONE (0.9300000071525574)
+(    5.0,     0.0)-(   71.0,    17.0)    66.0 :    14.0 Signature (0.7699999809265137)
+(    5.0,     1.0)-(   61.0,    14.0)    56.0 :    11.0 Licensee (0.8299999833106995)
+(    0.0,     0.0)-(   70.0,    16.0)    70.0 :    14.0 [ Secretary (0.6399999856948853)
+======================
+ExtractFieldsFromReadResultOfPHDL start...
+ExtractFieldsFromReadResultOfPHDL (0.124182 sec)
+
+scanPHDLResult.Success: False
+scanPHDLResult.Error: Failed to scan [SEX]
+scanPHDLResult.lastNameOrFullName: MAITIM
+scanPHDLResult.firstName:  JOSE ANTONIO SAYO
+scanPHDLResult.middleName:
+scanPHDLResult.documentNumber: N02-89-106564
+scanPHDLResult.nationality: PH
+scanPHDLResult.documentIssueDate:
+scanPHDLResult.documentExpirationDate: 2022-06-13
+scanPHDLResult.addressLine1: 40-A PELAEZ ST PROJ QUEZON CITY
+scanPHDLResult.addressLine2:
+scanPHDLResult.postcode:
+scanPHDLResult.gender:
+scanPHDLResult.dateOfBirth: 1970-06-13
+
+[1]
+  Scanned Data: addressLine1: 40-A PELAEZ ST PROJ QUEZON CITY
+  Expected    : addressLine1: 40-A P PELAEZ ST PROJ 4 QUEZON CITY
+
+[2]
+  Scanned Data: gender:
+  Expected    : gender: M
+ --> IsValid: False
+ScanPHDL imageFileName: F:\WORK\Dev\huggingface\work\ConsoleApp1\test1\bin\Debug\net8.0\testdata\PHDL4_Test2.jpg
+PostOCRWithRegionRequest start...
+PostOCRWithRegionRequest PostAsync start...
+PostOCRWithRegionRequest PostAsync (0.9368449 sec)
+
+(0.9385041 sec)
+
+(  121.0,   139.0)-(  175.0,   151.0)    54.0 :    12.0 REPUBLIC ()
+(  198.0,   149.0)-(  280.0,   157.0)    82.0 :     8.0 TDANSPORIATGN ()
+(  126.0,   160.0)-(  152.0,   168.0)    26.0 :     8.0 LAHD ()
+(  203.0,   157.0)-(  273.0,   171.0)    70.0 :    14.0 TATIO" OFFICE ()
+(  263.0,   171.0)-(  315.0,   183.0)    52.0 :    12.0 LICENSE ()
+(  143.0,   199.0)-(  335.0,   215.0)   192.0 :    16.0 MAITIM; JOSE ANTONIO SAYO ()
+(  143.0,   225.0)-(  167.0,   237.0)    24.0 :    12.0 PHL ()
+(  219.0,   225.0)-(  271.0,   237.0)    52.0 :    12.0 1970/06/13 ()
+(  291.0,   225.0)-(  313.0,   237.0)    22.0 :    12.0 104 ()
+(  179.0,   247.0)-(  225.0,   259.0)    46.0 :    12.0 PELAEZ ()
+(  241.0,   247.0)-(  273.0,   259.0)    32.0 :    12.0 PROJ ()
+(  283.0,   247.0)-(  333.0,   259.0)    50.0 :    12.0 QUEZON ()
+(  183.0,   273.0)-(  283.0,   291.0)   100.0 :    18.0 106564   202200841; ()
+(  201.0,   321.0)-(  235.0,   333.0)    34.0 :    12.0 NONE ()
+Estimating resolution as 97
+Detected 3 diacritics
+
+RTATION OFFICE
+
+Estimating resolution as 100
+LICENSE
+Before: (  263.0,   171.0)-(  315.0,   183.0)    52.0 :    12.0 LICENSE ()
+After: (  268.0,   174.0)-(  320.0,   185.0)    52.0 :    10.0 LICENSE ()
+Estimating resolution as 122
+'MAITIM, JOSE ANTONIO SAYO
+Before: (  143.0,   199.0)-(  335.0,   215.0)   192.0 :    16.0 MAITIM; JOSE ANTONIO SAYO ()
+After: (  155.0,   199.0)-(  353.0,   214.0)   198.0 :    13.0 MAITIM; JOSE ANTONIO SAYO ()
+Estimating resolution as 100
+Empty page!!
+Estimating resolution as 100
+Empty page!!
+Estimating resolution as 97
+1970/06/13
+Estimating resolution as 97
+Empty page!!
+Estimating resolution as 97
+Empty page!!
+Estimating resolution as 97
+
+Estimating resolution as 97
+PROJ
+Before: (  241.0,   247.0)-(  273.0,   259.0)    32.0 :    12.0 PROJ ()
+After: (  244.0,   250.0)-(  275.0,   260.0)    31.0 :    10.0 PROJ ()
+Estimating resolution as 97
+'QUEZON
+Estimating resolution as 108
+i Saamlios
+106564 2022008113
+Estimating resolution as 97
+'NONE
+==== Lines read by Tesseract ====
+(    0.0,     5.0)-(   72.0,    12.0)    72.0 :     7.0 RTATION OFFICE (0.8799999952316284)
+(    5.0,     3.0)-(   52.0,    11.0)    47.0 :     7.0 LICENSE (0.8600000143051147)
+(   12.0,     0.0)-(  198.0,    15.0)   186.0 :    13.0 'MAITIM, JOSE ANTONIO SAYO (0.7400000095367432)
+(    4.0,     3.0)-(   53.0,    10.0)    49.0 :     7.0 1970/06/13 (0.4399999976158142)
+(    3.0,     3.0)-(   31.0,    10.0)    28.0 :     7.0 PROJ (0.8999999761581421)
+(    4.0,     3.0)-(   55.0,    10.0)    51.0 :     7.0 'QUEZON (0.05999999865889549)
+(    0.0,     0.0)-(  101.0,     7.0)   101.0 :     6.0 i Saamlios (0.28999999165534973)
+(    0.0,     8.0)-(  101.0,    16.0)   101.0 :     8.0 106564 2022008113 (0.28999999165534973)
+(    5.0,     0.0)-(   33.0,    10.0)    28.0 :    10.0 'NONE (0.25999999046325684)
+======================
+ExtractFieldsFromReadResultOfPHDL start...
+CalcPixelPerInch failed
+ExtractFieldsFromReadResultOfPHDL (0.0198238 sec)
+
+scanPHDLResult.Success: False
+scanPHDLResult.Error: Failed to scan [LAST_NAME_FISRT_MIDDLE_NAME,LICENSE_NO,EXPIRY,NATIONALITY,SEX,DOB,ADDRESS_1]
+scanPHDLResult.lastNameOrFullName:
+scanPHDLResult.firstName:
+scanPHDLResult.middleName:
+scanPHDLResult.documentNumber:
+scanPHDLResult.nationality:
+scanPHDLResult.documentIssueDate:
+scanPHDLResult.documentExpirationDate:
+scanPHDLResult.addressLine1:
+scanPHDLResult.addressLine2:
+scanPHDLResult.postcode:
+scanPHDLResult.gender:
+scanPHDLResult.dateOfBirth:
+
+[1]
+  Scanned Data: lastNameOrFullName:
+  Expected    : lastNameOrFullName: MAITIM
+
+[2]
+  Scanned Data: firstName:
+  Expected    : firstName:  JOSE ANTONIO SAYO
+
+[3]
+  Scanned Data: dateOfBirth:
+  Expected    : dateOfBirth: 1970-06-13
+
+[4]
+  Scanned Data: documentNumber:
+  Expected    : documentNumber: N02-89-106564
+
+[5]
+  Scanned Data: nationality:
+  Expected    : nationality: PH
+
+[6]
+  Scanned Data: addressLine1:
+  Expected    : addressLine1: 40-A P PELAEZ ST PROJ 4 QUEZON CITY
+
+[7]
+  Scanned Data: gender:
+  Expected    : gender: M
+ --> IsValid: False
+ScanPHDL imageFileName: F:\WORK\Dev\huggingface\work\ConsoleApp1\test1\bin\Debug\net8.0\testdata\PHDL5_Test1.jpg
+PostOCRWithRegionRequest start...
+PostOCRWithRegionRequest PostAsync start...
+PostOCRWithRegionRequest PostAsync (1.8194598 sec)
+
+(1.8215332 sec)
+
+(  198.0,    12.0)-(  514.0,    39.0)   316.0 :    27.0 REPUBLIC OF THE PHILIPPINES ()
+(  194.0,    38.0)-(  520.0,    62.0)   326.0 :    24.0 DEPARTMENT OF TRANSPORTATION ()
+(  208.0,    54.0)-(  504.0,    80.0)   296.0 :    26.0 LAND TRANSPORTATION OFFICE ()
+(  139.0,    81.0)-(  586.0,   106.0)   447.0 :    25.0 NON-PROFESSIONAL DRIVER'$ LICENSE ()
+(  355.0,   127.0)-(  397.0,   141.0)    42.0 :    14.0 NAME ()
+(  246.0,   138.0)-(  626.0,   168.0)   380.0 :    30.0 MAITIM, JOSE ANTONIO SAYO ()
+(  247.0,   177.0)-(  319.0,   191.0)    72.0 :    14.0 NATIONALITY ()
+(  399.0,   175.0)-(  485.0,   191.0)    86.0 :    16.0 DATE OT BIRTH ()
+(  521.0,   173.0)-(  601.0,   193.0)    80.0 :    20.0 WEIGHT (KG) ()
+(  245.0,   191.0)-(  287.0,   211.0)    42.0 :    20.0 PHL ()
+(  394.0,   187.0)-(  500.0,   211.0)   106.0 :    24.0 1970/06/13 ()
+(  541.0,   191.0)-(  579.0,   211.0)    38.0 :    20.0 104 ()
+(  629.0,   191.0)-(  671.0,   211.0)    42.0 :    20.0 1.80 ()
+(  249.0,   219.0)-(  305.0,   235.0)    56.0 :    16.0 ADDRESS ()
+(  245.0,   235.0)-(  293.0,   255.0)    48.0 :    20.0 40-A ()
+(  316.0,   234.0)-(  504.0,   258.0)   188.0 :    24.0 PELAEZ ST PROJ ()
+(  522.0,   232.0)-(  676.0,   256.0)   154.0 :    24.0 QUEZON CITY ()
+(  247.0,   285.0)-(  299.0,   301.0)    52.0 :    16.0 LICENSE ()
+(  485.0,   285.0)-(  519.0,   299.0)    34.0 :    14.0 DATE ()
+(  539.0,   285.0)-(  631.0,   303.0)    92.0 :    18.0 AGENCY CODE ()
+(  244.0,   294.0)-(  402.0,   320.0)   158.0 :    26.0 N02-89-106564 ()
+(  412.0,   296.0)-(  520.0,   320.0)   108.0 :    24.0 2022/06/13 ()
+(  563.0,   299.0)-(  605.0,   319.0)    42.0 :    20.0 N22 ()
+(  247.0,   327.0)-(  287.0,   343.0)    40.0 :    16.0 BLOOD ()
+(  262.0,   338.0)-(  306.0,   362.0)    44.0 :    24.0 AB+ ()
+(  355.0,   334.0)-(  430.0,   362.0)    75.0 :    28.0 BLACK ()
+(  244.0,   368.0)-(  323.0,   386.0)    79.0 :    18.0 RESTRICTIONS ()
+(  359.0,   369.0)-(  431.0,   385.0)    72.0 :    16.0 CONDITIONS ()
+(  362.0,   380.0)-(  426.0,   404.0)    64.0 :    24.0 NONE ()
+(  459.0,   399.0)-(  511.0,   415.0)    52.0 :    16.0 EDGAR ()
+(  527.0,   397.0)-(  605.0,   415.0)    78.0 :    18.0 GALVANTE ()
+(   70.0,   414.0)-(  211.0,   434.0)   141.0 :    20.0 SIGNATURE OF LICENSEE ()
+(  458.0,   415.0)-(  591.0,   435.0)   133.0 :    20.0 ASSISTANY SECRETARY ()
+Estimating resolution as 175
+REPUBLIC OF THE PHILIPPINES
+Before: (  198.0,    12.0)-(  514.0,    39.0)   316.0 :    27.0 REPUBLIC OF THE PHILIPPINES ()
+After: (  219.0,    21.0)-(  547.0,    46.0)   328.0 :    25.0 REPUBLIC OF THE PHILIPPINES (0.9100000262260437)
+Estimating resolution as 178
+DEPARTMENT OF TRANSPOR'
+
+1ON
+Estimating resolution as 171
+Detected 4 diacritics
+LAND TRANSPORTATION OFFICE
+
+Estimating resolution as 187
+NON-PROFESSIONAL DRIVER'S LICENSE
+Before: (  139.0,    81.0)-(  586.0,   106.0)   447.0 :    25.0 NON-PROFESSIONAL DRIVER'$ LICENSE ()
+After: (  167.0,    81.0)-(  659.0,   105.0)   492.0 :    23.0 NON-PROFESSIONAL DRIVER'$ LICENSE ()
+Estimating resolution as 150
+Empty page!!
+Estimating resolution as 150
+Empty page!!
+Estimating resolution as 246
+MAITIM, JOSE ANTONIO SAYO
+Before: (  246.0,   138.0)-(  626.0,   168.0)   380.0 :    30.0 MAITIM, JOSE ANTONIO SAYO ()
+After: (  268.0,   138.0)-(  662.0,   168.0)   394.0 :    27.0 MAITIM, JOSE ANTONIO SAYO ()
+Estimating resolution as 147
+`Nationality
+Estimating resolution as 147
+Date of Birth
+Before: (  399.0,   175.0)-(  485.0,   191.0)    86.0 :    16.0 DATE OT BIRTH ()
+After: (  405.0,   178.0)-(  492.0,   192.0)    87.0 :    14.0 DATE OT BIRTH ()
+Estimating resolution as 191
+Empty page!!
+Estimating resolution as 191
+Empty page!!
+Estimating resolution as 184
+PHL
+Before: (  245.0,   191.0)-(  287.0,   211.0)    42.0 :    20.0 PHL ()
+After: (  252.0,   195.0)-(  296.0,   213.0)    44.0 :    18.0 PHL (0.9100000262260437)
+Estimating resolution as 184
+1970/06/13
+Before: (  394.0,   187.0)-(  500.0,   211.0)   106.0 :    24.0 1970/06/13 ()
+After: (  404.0,   187.0)-(  511.0,   210.0)   107.0 :    23.0 1970/06/13 ()
+Estimating resolution as 184
+Empty page!!
+Estimating resolution as 184
+Empty page!!
+Estimating resolution as 219
+41.80
+Estimating resolution as 147
+Address
+Before: (  249.0,   219.0)-(  305.0,   235.0)    56.0 :    16.0 ADDRESS ()
+After: (  252.0,   222.0)-(  307.0,   236.0)    55.0 :    14.0 ADDRESS ()
+Estimating resolution as 195
+40-A
+Before: (  245.0,   235.0)-(  293.0,   255.0)    48.0 :    20.0 40-A ()
+After: (  251.0,   239.0)-(  301.0,   258.0)    50.0 :    18.0 40-A (0.9200000166893005)
+Estimating resolution as 196
+> PELAEZ ST PROJ ¢
+Before: (  316.0,   234.0)-(  504.0,   258.0)   188.0 :    24.0 PELAEZ ST PROJ ()
+After: (  316.0,   240.0)-(  523.0,   261.0)   207.0 :    21.0 PELAEZ ST PROJ ()
+Estimating resolution as 203
+QUEZON CITY
+Before: (  522.0,   232.0)-(  676.0,   256.0)   154.0 :    24.0 QUEZON CITY ()
+After: (  522.0,   239.0)-(  681.0,   262.0)   159.0 :    23.0 QUEZON CITY ()
+Estimating resolution as 144
+
+Estimating resolution as 163
+Empty page!!
+Estimating resolution as 163
+Empty page!!
+Estimating resolution as 178
+Agency
+Code
+Estimating resolution as 212
+N02-89-106564
+Before: (  244.0,   294.0)-(  402.0,   320.0)   158.0 :    26.0 N02-89-106564 ()
+After: (  256.0,   294.0)-(  420.0,   319.0)   164.0 :    24.0 N02-89-106564 ()
+Estimating resolution as 206
+
+Estimating resolution as 188
+Empty page!!
+Estimating resolution as 188
+Empty page!!
+Estimating resolution as 163
+
+Estimating resolution as 181
+
+Estimating resolution as 212
+Detected 2 diacritics
+BLACK
+Before: (  355.0,   334.0)-(  430.0,   362.0)    75.0 :    28.0 BLACK ()
+After: (  363.0,   334.0)-(  438.0,   359.0)    75.0 :    25.0 BLACK (0.9100000262260437)
+Estimating resolution as 213
+
+Estimating resolution as 206
+Empty page!!
+Estimating resolution as 206
+Empty page!!
+Estimating resolution as 203
+
+Estimating resolution as 178
+Empty page!!
+Estimating resolution as 178
+Empty page!!
+Estimating resolution as 163
+Empty page!!
+Estimating resolution as 163
+Empty page!!
+Estimating resolution as 154
+
+Estimating resolution as 188
+`Assistanf Secretary
+Before: (  458.0,   415.0)-(  591.0,   435.0)   133.0 :    20.0 ASSISTANY SECRETARY ()
+After: (  466.0,   415.0)-(  602.0,   437.0)   136.0 :    15.0 ASSISTANY SECRETARY ()
+==== Lines read by Tesseract ====
+(   21.0,     9.0)-(  328.0,    25.0)   307.0 :    16.0 REPUBLIC OF THE PHILIPPINES (0.9100000262260437)
+(   21.0,     7.0)-(  275.0,    27.0)   254.0 :    15.0 DEPARTMENT OF TRANSPOR' (0.6800000071525574)
+(  310.0,     6.0)-(  339.0,    27.0)    29.0 :    14.0 1ON (0.6800000071525574)
+(   21.0,    10.0)-(  307.0,    25.0)   286.0 :    14.0 LAND TRANSPORTATION OFFICE (0.8799999952316284)
+(   28.0,     0.0)-(  492.0,    24.0)   464.0 :    23.0 NON-PROFESSIONAL DRIVER'S LICENSE (0.800000011920929)
+(   22.0,     0.0)-(  394.0,    30.0)   372.0 :    27.0 MAITIM, JOSE ANTONIO SAYO (0.8600000143051147)
+(    6.0,     1.0)-(   73.0,    15.0)    67.0 :    11.0 `Nationality (0.41999998688697815)
+(    6.0,     3.0)-(   87.0,    14.0)    81.0 :    11.0 Date of Birth (0.7599999904632568)
+(    7.0,     4.0)-(   44.0,    18.0)    37.0 :    14.0 PHL (0.9100000262260437)
+(   10.0,     0.0)-(  107.0,    23.0)    97.0 :    23.0 1970/06/13 (0.7799999713897705)
+(    5.0,     2.0)-(   42.0,    19.0)    37.0 :    17.0 41.80 (0.47999998927116394)
+(    3.0,     3.0)-(   55.0,    14.0)    52.0 :    11.0 Address (0.8899999856948853)
+(    6.0,     4.0)-(   50.0,    19.0)    44.0 :    14.0 40-A (0.9200000166893005)
+(    0.0,     6.0)-(  207.0,    21.0)   207.0 :    15.0 > PELAEZ ST PROJ ¢ (0.800000011920929)
+(    0.0,     7.0)-(  159.0,    23.0)   159.0 :    16.0 QUEZON CITY (0.5099999904632568)
+(    7.0,     2.0)-(   55.0,    16.0)    48.0 :    14.0 Agency (0.8600000143051147)
+(   59.0,     1.0)-(   93.0,    13.0)    34.0 :    12.0 Code (0.8600000143051147)
+(   12.0,     0.0)-(  164.0,    25.0)   152.0 :    24.0 N02-89-106564 (0.6800000071525574)
+(    8.0,     0.0)-(   75.0,    25.0)    67.0 :    25.0 BLACK (0.9100000262260437)
+(    8.0,     0.0)-(  136.0,    22.0)   128.0 :    15.0 `Assistanf Secretary (0.6200000047683716)
+======================
+ExtractFieldsFromReadResultOfPHDL start...
+ExtractFieldsFromReadResultOfPHDL (0.1121241 sec)
+
+scanPHDLResult.Success: False
+scanPHDLResult.Error: Failed to scan [SEX]
+scanPHDLResult.lastNameOrFullName: MAITIM
+scanPHDLResult.firstName:  JOSE ANTONIO SAYO
+scanPHDLResult.middleName:
+scanPHDLResult.documentNumber: N02-89-106564
+scanPHDLResult.nationality: PH
+scanPHDLResult.documentIssueDate:
+scanPHDLResult.documentExpirationDate: 2022-06-13
+scanPHDLResult.addressLine1: 40-A PELAEZ ST PROJ QUEZON CITY
+scanPHDLResult.addressLine2:
+scanPHDLResult.postcode:
+scanPHDLResult.gender:
+scanPHDLResult.dateOfBirth: 1970-06-13
+
+[1]
+  Scanned Data: documentNumber: N02-89-106564
+  Expected    : documentNumber: NO2-89-106564
+
+[2]
+  Scanned Data: addressLine1: 40-A PELAEZ ST PROJ QUEZON CITY
+  Expected    : addressLine1: 40-A P PELAEZ ST PROJ 4 QUEZON CITY
+
+[3]
+  Scanned Data: gender:
+  Expected    : gender: M
+ --> IsValid: False
+ScanPHDL imageFileName: F:\WORK\Dev\huggingface\work\ConsoleApp1\test1\bin\Debug\net8.0\testdata\PHDL5_Test2.jpg
+PostOCRWithRegionRequest start...
+PostOCRWithRegionRequest PostAsync start...
+PostOCRWithRegionRequest PostAsync (0.7224812 sec)
+
+(0.7244151 sec)
+
+(  174.0,    18.0)-(  260.0,    30.0)    86.0 :    12.0 TRANSPORTATIOY ()
+(  131.0,    30.0)-(  215.0,    38.0)    84.0 :     8.0 TRINSPORTAO ()
+(   71.0,    39.0)-(  295.0,    55.0)   224.0 :    16.0 NON-PROFESSIONAL DRIVER'$ LICENSE ()
+(  123.0,    65.0)-(  313.0,    85.0)   190.0 :    20.0 MAITIM, JOSE ANTONIO SAYO ()
+(  197.0,    95.0)-(  251.0,   107.0)    54.0 :    12.0 1970/06/13 ()
+(  124.0,   118.0)-(  146.0,   126.0)    22.0 :     8.0 4N-A ()
+(  157.0,   117.0)-(  205.0,   129.0)    48.0 :    12.0 PELAEZ ()
+(  219.0,   117.0)-(  253.0,   129.0)    34.0 :    12.0 PROJ ()
+(  261.0,   115.0)-(  311.0,   129.0)    50.0 :    14.0 QUEZON ()
+(  121.0,   147.0)-(  163.0,   161.0)    42.0 :    14.0 NOZ-89- ()
+(  167.0,   147.0)-(  203.0,   161.0)    36.0 :    14.0 06564 ()
+(  177.0,   165.0)-(  217.0,   181.0)    40.0 :    16.0 BLACK ()
+(  181.0,   191.0)-(  215.0,   203.0)    34.0 :    12.0 MONE ()
+Estimating resolution as 97
+F TRANSPORTATION
+Before: (  174.0,    18.0)-(  260.0,    30.0)    86.0 :    12.0 TRANSPORTATIOY ()
+After: (  174.0,    22.0)-(  264.0,    34.0)    90.0 :    12.0 TRANSPORTATIOY ()
+Estimating resolution as 97
+3 TRANSPORTATION ¢
+Before: (  131.0,    30.0)-(  215.0,    38.0)    84.0 :     8.0 TRINSPORTAO ()
+After: (  131.0,    32.0)-(  224.0,    41.0)    93.0 :     9.0 TRINSPORTAO ()
+Estimating resolution as 98
+'NON-PROFESSIONAL DRIVER'S LICENSE °
+Before: (   71.0,    39.0)-(  295.0,    55.0)   224.0 :    16.0 NON-PROFESSIONAL DRIVER'$ LICENSE ()
+After: (   84.0,    39.0)-(  331.0,    52.0)   247.0 :    13.0 NON-PROFESSIONAL DRIVER'$ LICENSE ()
+Estimating resolution as 125
+Detected 6 diacritics
+MAITIM, JOSE ANTONIO SAYO
+Before: (  123.0,    65.0)-(  313.0,    85.0)   190.0 :    20.0 MAITIM, JOSE ANTONIO SAYO ()
+After: (  135.0,    73.0)-(  333.0,    93.0)   198.0 :    18.0 MAITIM, JOSE ANTONIO SAYO ()
+Estimating resolution as 97
+1970/06/13
+Before: (  197.0,    95.0)-(  251.0,   107.0)    54.0 :    12.0 1970/06/13 ()
+After: (  203.0,    98.0)-(  257.0,   108.0)    54.0 :    10.0 1970/06/13 ()
+Estimating resolution as 97
+A0-A
+Estimating resolution as 97
+' PELAEZ !
+Before: (  157.0,   117.0)-(  205.0,   129.0)    48.0 :    12.0 PELAEZ ()
+After: (  157.0,   120.0)-(  210.0,   130.0)    53.0 :    10.0 PELAEZ ()
+Estimating resolution as 97
+PROJ
+Before: (  219.0,   117.0)-(  253.0,   129.0)    34.0 :    12.0 PROJ ()
+After: (  224.0,   120.0)-(  257.0,   130.0)    33.0 :    10.0 PROJ ()
+Estimating resolution as 97
+Error in boxClipToRectangle: box outside rectangle
+Error in pixScanForForeground: invalid box
+QUEZON
+Before: (  261.0,   115.0)-(  311.0,   129.0)    50.0 :    14.0 QUEZON ()
+After: (  261.0,   120.0)-(  312.0,   132.0)    51.0 :    12.0 QUEZON ()
+Estimating resolution as 109
+Estimating resolution as 113
+106564
+Before: (  167.0,   147.0)-(  203.0,   161.0)    36.0 :    14.0 06564 ()
+After: (  167.0,   151.0)-(  202.0,   163.0)    35.0 :    12.0 06564 ()
+Estimating resolution as 178
+Empty page!!
+Estimating resolution as 178
+Empty page!!
+Estimating resolution as 97
+NONE
+==== Lines read by Tesseract ====
+(    0.0,     4.0)-(   90.0,    12.0)    90.0 :     8.0 F TRANSPORTATION (0.8999999761581421)
+(    0.0,     2.0)-(   93.0,     9.0)    93.0 :     7.0 3 TRANSPORTATION ¢ (0.6399999856948853)
+(   13.0,     0.0)-(  247.0,    13.0)   234.0 :    13.0 'NON-PROFESSIONAL DRIVER'S LICENSE ° (0.5299999713897705)
+(   12.0,     8.0)-(  198.0,    20.0)   186.0 :    10.0 MAITIM, JOSE ANTONIO SAYO (0.8500000238418579)
+(    6.0,     3.0)-(   54.0,    10.0)    48.0 :     7.0 1970/06/13 (0.550000011920929)
+(    2.0,     2.0)-(   24.0,     9.0)    22.0 :     7.0 A0-A (0.44999998807907104)
+(    0.0,     3.0)-(   53.0,    10.0)    53.0 :     7.0 ' PELAEZ ! (0.6700000166893005)
+(    5.0,     3.0)-(   33.0,    10.0)    28.0 :     7.0 PROJ (0.75)
+(    0.0,     5.0)-(   51.0,    12.0)    51.0 :     7.0 QUEZON (0.5199999809265137)
+(    0.0,     4.0)-(   35.0,    12.0)    35.0 :     8.0 106564 (0.6899999976158142)
+(    5.0,     0.0)-(   36.0,    10.0)    31.0 :    10.0 NONE (0.4099999964237213)
+======================
+ExtractFieldsFromReadResultOfPHDL start...
+CalcPixelPerInch failed
+ExtractFieldsFromReadResultOfPHDL (0.0172598 sec)
+
+scanPHDLResult.Success: False
+scanPHDLResult.Error: Failed to scan [LAST_NAME_FISRT_MIDDLE_NAME,LICENSE_NO,EXPIRY,NATIONALITY,SEX,DOB,ADDRESS_1]
+scanPHDLResult.lastNameOrFullName:
+scanPHDLResult.firstName:
+scanPHDLResult.middleName:
+scanPHDLResult.documentNumber:
+scanPHDLResult.nationality:
+scanPHDLResult.documentIssueDate:
+scanPHDLResult.documentExpirationDate:
+scanPHDLResult.addressLine1:
+scanPHDLResult.addressLine2:
+scanPHDLResult.postcode:
+scanPHDLResult.gender:
+scanPHDLResult.dateOfBirth:
+
+[1]
+  Scanned Data: lastNameOrFullName:
+  Expected    : lastNameOrFullName: MAITIM
+
+[2]
+  Scanned Data: firstName:
+  Expected    : firstName:  JOSE ANTONIO SAYO
+
+[3]
+  Scanned Data: dateOfBirth:
+  Expected    : dateOfBirth: 1970-06-13
+
+[4]
+  Scanned Data: documentNumber:
+  Expected    : documentNumber: NO2-89-106564
+
+[5]
+  Scanned Data: nationality:
+  Expected    : nationality: PH
+
+[6]
+  Scanned Data: addressLine1:
+  Expected    : addressLine1: 40-A P PELAEZ ST PROJ 4 QUEZON CITY
+
+[7]
+  Scanned Data: gender:
+  Expected    : gender: M
+ --> IsValid: False
+ObjectCache(00007FFDE7958480)::~ObjectCache(): WARNING! LEAK! object 0000023B101B8B80 still has count 1 (id ./tessdata/eng.traineddatapunc-dawg)
+ObjectCache(00007FFDE7958480)::~ObjectCache(): WARNING! LEAK! object 0000023B101B8BF0 still has count 1 (id ./tessdata/eng.traineddataword-dawg)
+ObjectCache(00007FFDE7958480)::~ObjectCache(): WARNING! LEAK! object 0000023B101B8DB0 still has count 1 (id ./tessdata/eng.traineddatanumber-dawg)
+ObjectCache(00007FFDE7958480)::~ObjectCache(): WARNING! LEAK! object 0000023B101B8090 still has count 1 (id ./tessdata/eng.traineddatabigram-dawg)
+ObjectCache(00007FFDE7958480)::~ObjectCache(): WARNING! LEAK! object 0000023B101B8170 still has count 1 (id ./tessdata/eng.traineddatafreq-dawg)
+
+F:\WORK\Dev\huggingface\work\ConsoleApp1\test1\bin\Debug\net8.0\test1.exe (process 27384) exited with code 0 (0x0).
+To automatically close the console when debugging stops, enable Tools->Options->Debugging->Automatically close the console when debugging stops.
+Press any key to close this window . . .

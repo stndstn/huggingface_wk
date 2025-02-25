@@ -1,0 +1,2745 @@
+Module Path: F:\WORK\Dev\huggingface\work\ScanID\test1\bin\Debug\net8.0\test1.dll
+[ INFO:0@3.243] global registry_parallel.impl.hpp:96 cv::parallel::ParallelBackendRegistry::ParallelBackendRegistry core(parallel): Enabled backends(3, sorted by priority): ONETBB(1000); TBB(990); OPENMP(980)
+[ INFO:0@3.244] global plugin_loader.impl.hpp:67 cv::plugin::impl::DynamicLib::libraryLoad load C:\Windows\SYSTEM32\opencv_core_parallel_onetbb490_64d.dll => FAILED
+[ INFO:0@3.247] global plugin_loader.impl.hpp:67 cv::plugin::impl::DynamicLib::libraryLoad load opencv_core_parallel_onetbb490_64d.dll => FAILED
+[ INFO:0@3.247] global plugin_loader.impl.hpp:67 cv::plugin::impl::DynamicLib::libraryLoad load C:\Windows\SYSTEM32\opencv_core_parallel_tbb490_64d.dll => FAILED
+[ INFO:0@3.248] global plugin_loader.impl.hpp:67 cv::plugin::impl::DynamicLib::libraryLoad load opencv_core_parallel_tbb490_64d.dll => FAILED
+[ INFO:0@3.248] global plugin_loader.impl.hpp:67 cv::plugin::impl::DynamicLib::libraryLoad load C:\Windows\SYSTEM32\opencv_core_parallel_openmp490_64d.dll => FAILED
+[ INFO:0@3.249] global plugin_loader.impl.hpp:67 cv::plugin::impl::DynamicLib::libraryLoad load opencv_core_parallel_openmp490_64d.dll => FAILED
+calling OCRIDImageOSS BASEADDR_URL_FLORENCE...
+ScanID imageFileName: F:\WORK\Dev\huggingface\work\ScanID\test1\bin\Debug\net8.0\testdata\MYDL_TZ1145051_Test1.jpg
+ScanID imageFileNameBack:
+PostOCRWithRegionRequest start... URL:http://127.0.0.1:8085/
+PostOCRWithRegionRequest PostAsync start...
+PostOCRWithRegionRequest PostAsync (77.7213163 sec)
+
+(78.4062138 sec)
+
+(  326.2,   635.0)-(  654.8,   669.0)   328.5 :    34.0 LESEN MEMANDU ()
+(  884.2,   652.0)-( 1163.2,   702.0)   279.0 :    50.0 MALAYSIA ()
+(  326.2,   675.0)-(  656.2,   704.0)   330.0 :    29.0 DRIVING LICENCE ()
+(  542.2,   759.0)-(  899.2,   801.0)   357.0 :    42.0 TAKUMI TATEISHI ()
+(  537.8,   842.0)-( 1118.2,   870.0)   580.5 :    28.0 WARGANEGARA / NATIONALITY NO. ()
+(  542.2,   871.0)-(  609.8,   899.0)    67.5 :    28.0 JPN ()
+(  825.8,   846.0)-( 1118.2,   871.0)   292.5 :    25.0 NO. PENGGALAN / IDENTITY NO. ()
+(  831.8,   875.0)-( 1082.2,   909.0)   250.5 :    34.0 TZ1145051JPN ()
+(  542.2,   949.0)-(  621.8,   981.0)    79.5 :    32.0 B2 D ()
+(  540.8,  1002.0)-(  711.8,  1026.0)   171.0 :    24.0 TEMPO / VALIDITY ()
+(  540.8,  1041.0)-(  926.2,  1075.0)   385.5 :    34.0 17/04/2021 - 18/042026 ()
+(  537.8,  1080.0)-(  710.2,  1104.0)   172.5 :    24.0 ALMAT / ADDRESS ()
+(  537.8,  1113.0)-(  888.8,  1149.0)   351.0 :    36.0 42-12F CITY TOWER ()
+(  537.8,  1157.0)-(  954.8,  1193.0)   417.0 :    36.0 JLN ALOR BKT BINTANG ()
+(  533.2,  1199.0)-(  920.2,  1234.0)   387.0 :    35.0 50200 KUALA LUMPUR ()
+(  533.2,  1247.0)-( 1262.2,  1284.0)   729.0 :    37.0 WILAYAH PERSEKUTUAN KUALA LUMPURI ()
+======================
+Module Path: F:\WORK\Dev\huggingface\work\ScanID\test1\bin\Debug\net8.0\ScanID.dll
+Estimating resolution as 321
+LESEN MEMANDU
+Before: (  326.2,   635.0)-(  654.8,   669.0)   328.5 :    34.0 LESEN MEMANDU ()
+After: (  326.2,   635.0)-(  654.8,   669.0)   328.5 :    34.0 LESEN MEMANDU (0.8999999761581421)
+Estimating resolution as 511
+Empty page!!
+Estimating resolution as 511
+Empty page!!
+Estimating resolution as 259
+DRIVING LICENCE
+Before: (  326.2,   675.0)-(  656.2,   704.0)   330.0 :    29.0 DRIVING LICENCE ()
+After: (  326.2,   675.0)-(  656.2,   704.0)   330.0 :    29.0 DRIVING LICENCE (0.9100000262260437)
+Estimating resolution as 372
+TAKUMI TATEISHI
+Before: (  542.2,   759.0)-(  899.2,   801.0)   357.0 :    42.0 TAKUMI TATEISHI ()
+After: (  542.2,   759.0)-(  899.2,   801.0)   357.0 :    42.0 TAKUMI TATEISHI (0.8999999761581421)
+Estimating resolution as 256
+Warganegara / Nationality No.Pengenalan / Identity No.
+Before: (  537.8,   842.0)-( 1118.2,   870.0)   580.5 :    28.0 WARGANEGARA / NATIONALITY NO. ()
+After: (  537.8,   842.0)-( 1118.2,   870.0)   580.5 :    28.0 WARGANEGARA / NATIONALITY NO. ()
+Estimating resolution as 303
+Empty page!!
+Estimating resolution as 303
+Empty page!!
+Estimating resolution as 208
+No. Pengenalan / Identity No.
+Before: (  825.8,   846.0)-( 1118.2,   871.0)   292.5 :    25.0 NO. PENGGALAN / IDENTITY NO. ()
+After: (  825.8,   846.0)-( 1118.2,   871.0)   292.5 :    25.0 NO. PENGGALAN / IDENTITY NO. ()
+Estimating resolution as 323
+TZ1145051JPN
+Before: (  831.8,   875.0)-( 1082.2,   909.0)   250.5 :    34.0 TZ1145051JPN ()
+After: (  831.8,   875.0)-( 1082.2,   909.0)   250.5 :    34.0 TZ1145051JPN (0.8899999856948853)
+Estimating resolution as 328
+O
+Before: (  542.2,   949.0)-(  621.8,   981.0)    79.5 :    32.0 B2 D ()
+After: (  542.2,   949.0)-(  621.8,   981.0)    79.5 :    32.0 B2 D ()
+Estimating resolution as 197
+fempoh / Validity
+Before: (  540.8,  1002.0)-(  711.8,  1026.0)   171.0 :    24.0 TEMPO / VALIDITY ()
+After: (  540.8,  1002.0)-(  711.8,  1026.0)   171.0 :    24.0 TEMPO / VALIDITY ()
+Estimating resolution as 310
+17/04/2021 - 18/04/2026
+Before: (  540.8,  1041.0)-(  926.2,  1075.0)   385.5 :    34.0 17/04/2021 - 18/042026 ()
+After: (  540.8,  1041.0)-(  926.2,  1075.0)   385.5 :    34.0 17/04/2021 - 18/04/2026 (0.9100000262260437)
+Estimating resolution as 192
+Alamat / Address
+Before: (  537.8,  1080.0)-(  710.2,  1104.0)   172.5 :    24.0 ALMAT / ADDRESS ()
+After: (  537.8,  1080.0)-(  710.2,  1104.0)   172.5 :    24.0 ALAMAT / ADDRESS (0.8999999761581421)
+Estimating resolution as 331
+42-12F CITY TOWER
+Before: (  537.8,  1113.0)-(  888.8,  1149.0)   351.0 :    36.0 42-12F CITY TOWER ()
+After: (  537.8,  1113.0)-(  888.8,  1149.0)   351.0 :    36.0 42-12F CITY TOWER (0.9100000262260437)
+Estimating resolution as 325
+JLN ALOR BKT BINTANG
+Before: (  537.8,  1157.0)-(  954.8,  1193.0)   417.0 :    36.0 JLN ALOR BKT BINTANG ()
+After: (  537.8,  1157.0)-(  954.8,  1193.0)   417.0 :    36.0 JLN ALOR BKT BINTANG (0.9100000262260437)
+Estimating resolution as 335
+50200 KUALA LUMPUR
+Before: (  533.2,  1199.0)-(  920.2,  1234.0)   387.0 :    35.0 50200 KUALA LUMPUR ()
+After: (  533.2,  1199.0)-(  920.2,  1234.0)   387.0 :    35.0 50200 KUALA LUMPUR (0.8999999761581421)
+Estimating resolution as 335
+WILAYAH PERSEKUTUAN KUALA LUMPUR
+Before: (  533.2,  1247.0)-( 1262.2,  1284.0)   729.0 :    37.0 WILAYAH PERSEKUTUAN KUALA LUMPURI ()
+After: (  533.2,  1247.0)-( 1262.2,  1284.0)   729.0 :    37.0 WILAYAH PERSEKUTUAN KUALA LUMPUR (0.9100000262260437)
+==== Lines read by Tesseract ====
+(    4.0,     5.0)-(  325.0,    38.0)   321.0 :    25.0 LESEN MEMANDU (0.8999999761581421)
+(    2.0,     5.0)-(  324.0,    31.0)   322.0 :    19.0 DRIVING LICENCE (0.9100000262260437)
+(    3.0,     6.0)-(  352.0,    42.0)   349.0 :    29.0 TAKUMI TATEISHI (0.8999999761581421)
+(    3.0,     0.0)-(  580.0,    33.0)   577.0 :    25.0 Warganegara / Nationality No.Pengenalan / Identity No. (0.8199999928474426)
+(    0.0,     5.0)-(  292.0,    27.0)   292.0 :    15.0 No. Pengenalan / Identity No. (0.8199999928474426)
+(    0.0,     7.0)-(  247.0,    36.0)   247.0 :    25.0 TZ1145051JPN (0.8899999856948853)
+(   53.0,     5.0)-(   75.0,    31.0)    22.0 :    26.0 O (0.7300000190734863)
+(    0.0,     3.0)-(  170.0,    25.0)   170.0 :    15.0 fempoh / Validity (0.5799999833106995)
+(    3.0,     4.0)-(  382.0,    35.0)   379.0 :    24.0 17/04/2021 - 18/04/2026 (0.9100000262260437)
+(    0.0,     3.0)-(  172.0,    22.0)   172.0 :    17.0 Alamat / Address (0.8999999761581421)
+(    1.0,     6.0)-(  348.0,    37.0)   347.0 :    25.0 42-12F CITY TOWER (0.9100000262260437)
+(    0.0,     5.0)-(  414.0,    37.0)   414.0 :    26.0 JLN ALOR BKT BINTANG (0.9100000262260437)
+(    3.0,     6.0)-(  381.0,    39.0)   378.0 :    26.0 50200 KUALA LUMPUR (0.8999999761581421)
+(    1.0,     6.0)-(  723.0,    47.0)   722.0 :    25.0 WILAYAH PERSEKUTUAN KUALA LUMPUR (0.9100000262260437)
+======================
+==== Merged lines ====
+(  326.2,   635.0)-(  654.8,   669.0)   328.5 :    34.0 LESEN MEMANDU (0.8999999761581421)
+(  884.2,   652.0)-( 1163.2,   702.0)   279.0 :    50.0 MALAYSIA ()
+(  326.2,   675.0)-(  656.2,   704.0)   330.0 :    29.0 DRIVING LICENCE (0.9100000262260437)
+(  542.2,   759.0)-(  899.2,   801.0)   357.0 :    42.0 TAKUMI TATEISHI (0.8999999761581421)
+(  537.8,   842.0)-( 1118.2,   870.0)   580.5 :    28.0 WARGANEGARA / NATIONALITY NO. ()
+(  542.2,   871.0)-(  609.8,   899.0)    67.5 :    28.0 JPN ()
+(  825.8,   846.0)-( 1118.2,   871.0)   292.5 :    25.0 NO. PENGGALAN / IDENTITY NO. ()
+(  831.8,   875.0)-( 1082.2,   909.0)   250.5 :    34.0 TZ1145051JPN (0.8899999856948853)
+(  542.2,   949.0)-(  621.8,   981.0)    79.5 :    32.0 B2 D ()
+(  540.8,  1002.0)-(  711.8,  1026.0)   171.0 :    24.0 TEMPO / VALIDITY ()
+(  540.8,  1041.0)-(  926.2,  1075.0)   385.5 :    34.0 17/04/2021 - 18/04/2026 (0.9100000262260437)
+(  537.8,  1080.0)-(  710.2,  1104.0)   172.5 :    24.0 ALAMAT / ADDRESS (0.8999999761581421)
+(  537.8,  1113.0)-(  888.8,  1149.0)   351.0 :    36.0 42-12F CITY TOWER (0.9100000262260437)
+(  537.8,  1157.0)-(  954.8,  1193.0)   417.0 :    36.0 JLN ALOR BKT BINTANG (0.9100000262260437)
+(  533.2,  1199.0)-(  920.2,  1234.0)   387.0 :    35.0 50200 KUALA LUMPUR (0.8999999761581421)
+(  533.2,  1247.0)-( 1262.2,  1284.0)   729.0 :    37.0 WILAYAH PERSEKUTUAN KUALA LUMPUR (0.9100000262260437)
+======================
+OpenCV(4.9.0) Error: Assertion failed (s >= 0) in cv::setSize, file C:\GHA-OCV-1\_work\ci-gha-workflow\ci-gha-workflow\opencv\modules\core\src\matrix.cpp, line 246
+Unknown exceptionMatchTemplate key: MYDL_670_COA_Gray MatchResult: 0.8216567635536194/0.800000011920929 x: 22 y: 27 w: 60 h: 47 dist: 0.04007806075241737--> Match
+MatchTemplate key: MYDL_670_Flag_Gray MatchResult: 0.9356647729873657/0.800000011920929 x: 300 y: 36 w: 49 h: 29 dist: 0.12752450744856844--> Match
+MatchTemplate key: MYDL_670_Flower_Gray MatchResult: 0.9001772403717041/0.800000011920929 x: 552 y: 221 w: 60 h: 54 dist: 0.12727923747231898--> Match
+ExtractFieldsFromReadResultOfMYDL (3.6813277 sec)
+
+scanMYDLResult.Success: True
+scanMYDLResult.Error:
+scanMYDLResult.lastNameOrFullName: TAKUMI TATEISHI
+scanMYDLResult.firstName:
+scanMYDLResult.middleName:
+scanMYDLResult.documentNumber: TZ1145051JPN
+scanMYDLResult.nationality: JP
+scanMYDLResult.documentIssueDate: 17/04/2021
+scanMYDLResult.documentExpirationDate: 18/04/2026
+scanMYDLResult.addressLine1: 42-12F CITY TOWER
+scanMYDLResult.addressLine2: JLN ALOR BKT BINTANG KUALA LUMPUR WILAYAH PERSEKUTUAN KUALA LUMPUR
+scanMYDLResult.postcode: 50200
+scanMYDLResult.gender:
+scanMYDLResult.dateOfBirth:
+
+[1]
+  Scanned Data: nationality: JP
+  Expected    : nationality: JPN
+ --> IsValid: False
+ Calling Azure VisionOCR...  Elapsed: 00:00:02.3377097
+==== Merged lines ====
+(  326.5,   641.0)-(  657.5,   673.0)   331.0 :    32.0 LESEN MEMANDU ()
+(  802.0,   635.0)-(  930.5,   649.5)   128.5 :    14.5 ASPIRA LIALAYMA MALAYSIA ()
+(  889.0,   655.5)-( 1171.0,   706.5)   282.0 :    51.0 MALAYSIA ()
+(  327.0,   680.0)-(  660.0,   707.5)   333.0 :    27.5 DRIVING LICENCE ()
+(  902.5,   722.0)-(  933.5,   742.5)    31.0 :    20.5 C ()
+(  548.0,   765.0)-(  901.5,   805.5)   353.5 :    40.5 TAKUMI TATEISHI ()
+(  541.0,   851.5)-( 1125.0,   877.5)   584.0 :    26.0 Warganegara / Nationality No. Pengenalan / Identity No. ()
+(  544.0,   876.0)-(  613.0,   910.5)    69.0 :    34.5 JPN ()
+(  839.0,   883.5)-( 1088.5,   916.5)   249.5 :    33.0 TZ1145051JPN ()
+(  541.0,   928.0)-(  668.0,   952.0)   127.0 :    24.0 Kelas / Class ()
+(  541.0,   958.0)-(  623.0,   989.5)    82.0 :    31.5 B2 D ()
+(  539.0,  1009.5)-(  718.0,  1032.5)   179.0 :    23.0 Tempoh / Validity ()
+(  544.5,  1049.5)-(  930.5,  1082.5)   386.0 :    33.0 17/04/2021 - 18/04/2026 ()
+(  536.0,  1086.5)-(  720.0,  1113.0)   184.0 :    26.5 Alamat / Address ()
+(  539.0,  1124.5)-(  897.0,  1157.5)   358.0 :    33.0 42-12F CITY TOWER ()
+(  535.0,  1167.0)-(  965.0,  1202.0)   430.0 :    35.0 JLN ALOR BKT BINTANG ()
+(  533.5,  1211.5)-(  926.5,  1244.5)   393.0 :    33.0 50200 KUALA LUMPUR ()
+(  536.0,  1258.0)-( 1274.5,  1294.0)   738.5 :    36.0 WILAYAH PERSEKUTUAN KUALA LUMPUR ()
+======================
+OpenCV(4.9.0) Error: Assertion failed (s >= 0) in cv::setSize, file C:\GHA-OCV-1\_work\ci-gha-workflow\ci-gha-workflow\opencv\modules\core\src\matrix.cpp, line 246
+Unknown exceptionMatchTemplate key: MYDL_670_COA_Gray MatchResult: 0.8303921222686768/0.800000011920929 x: 23 y: 27 w: 60 h: 47 dist: 0.03508918400967979--> Match
+MatchTemplate key: MYDL_670_Flag_Gray MatchResult: 0.9383754134178162/0.800000011920929 x: 302 y: 36 w: 49 h: 29 dist: 0.11752659273543152--> Match
+MatchTemplate key: MYDL_670_Flower_Gray MatchResult: 0.8935474157333374/0.800000011920929 x: 554 y: 221 w: 60 h: 54 dist: 0.12041596360755082--> Match
+ExtractFieldsFromReadResultOfMYDL (3.512859 sec)
+
+
+[1]
+  Scanned Data: nationality: JP
+  Expected    : nationality: JPN
+ --> IsValid: False
+calling OCRIDImageOSS BASEADDR_URL_FLORENCE...
+ScanID imageFileName: F:\WORK\Dev\huggingface\work\ScanID\test1\bin\Debug\net8.0\testdata\MYDL_TZ1145051_Test2.jpg
+ScanID imageFileNameBack:
+PostOCRWithRegionRequest start... URL:http://127.0.0.1:8085/
+PostOCRWithRegionRequest PostAsync start...
+PostOCRWithRegionRequest PostAsync (54.2180491 sec)
+
+(54.3604008 sec)
+
+(  163.7,   320.0)-(  330.0,   337.2)   166.3 :    17.1 LESEN MEMANDU ()
+(  444.9,   328.6)-(  585.5,   353.8)   140.6 :    25.2 MALAYSIA ()
+(  163.7,   340.2)-(  330.0,   355.8)   166.3 :    15.6 DRIVING LICENCE ()
+(  273.3,   384.0)-(  452.5,   404.2)   179.2 :    20.2 TAKUMI TATEISHI ()
+(  271.0,   426.4)-(  562.8,   439.5)   291.8 :    13.1 WARGARGARGARA / NATIONALITY NO. ()
+(  273.3,   440.0)-(  307.3,   454.1)    34.0 :    14.1 JPN ()
+(  416.2,   427.9)-(  562.8,   440.0)   146.7 :    12.1 NO. PENGGENALAN / IDENTITY NO. ()
+(  418.4,   442.0)-(  545.5,   460.2)   127.0 :    18.1 TZ1145051JPN ()
+(  271.0,   464.7)-(  333.0,   476.8)    62.0 :    12.1 KELAS / CLASS ()
+(  271.0,   479.3)-(  313.4,   495.4)    42.3 :    16.1 B2 D ()
+(  271.0,   506.0)-(  358.0,   517.1)    86.9 :    11.1 TEMPH / VALIDITY ()
+(  271.0,   525.7)-(  465.3,   542.8)   194.3 :    17.1 17/04/2021 - 18/042026 ()
+(  271.0,   545.3)-(  358.0,   556.4)    86.9 :    11.1 ALARMAT / ADDRESS ()
+(  271.0,   562.5)-(  447.2,   579.6)   176.1 :    17.1 42-12F CITY TOWER ()
+(  271.0,   584.1)-(  481.2,   602.3)   210.2 :    18.1 JLN ALOR BKT BINTANG ()
+(  268.0,   605.8)-(  462.3,   623.4)   194.3 :    17.6 50200 KUALA LUMPUR ()
+(  268.0,   629.5)-(  636.2,   648.1)   368.2 :    18.6 WILAYAH PERSEKUTUAN KUALA LUMPURI ()
+======================
+Module Path: F:\WORK\Dev\huggingface\work\ScanID\test1\bin\Debug\net8.0\ScanID.dll
+Estimating resolution as 161
+LESEN MEMANDU
+Before: (  163.7,   320.0)-(  330.0,   337.2)   166.3 :    17.1 LESEN MEMANDU ()
+After: (  163.7,   320.0)-(  330.0,   337.2)   166.3 :    17.1 LESEN MEMANDU (0.8899999856948853)
+Estimating resolution as 261
+Empty page!!
+Estimating resolution as 261
+Empty page!!
+Estimating resolution as 144
+DRIVING LICENCE
+Before: (  163.7,   340.2)-(  330.0,   355.8)   166.3 :    15.6 DRIVING LICENCE ()
+After: (  163.7,   340.2)-(  330.0,   355.8)   166.3 :    15.6 DRIVING LICENCE (0.8999999761581421)
+Estimating resolution as 189
+Empty page!!
+Estimating resolution as 189
+Empty page!!
+Estimating resolution as 141
+Warganegara | Nationality No.Pengenalan | identity No.
+Before: (  271.0,   426.4)-(  562.8,   439.5)   291.8 :    13.1 WARGARGARGARA / NATIONALITY NO. ()
+After: (  271.0,   426.4)-(  562.8,   439.5)   291.8 :    13.1 WARGARGARGARA / NATIONALITY NO. ()
+Estimating resolution as 169
+Empty page!!
+Estimating resolution as 169
+Empty page!!
+Estimating resolution as 134
+Empty page!!
+Estimating resolution as 134
+Empty page!!
+Estimating resolution as 170
+TZ1145051JPN
+Before: (  418.4,   442.0)-(  545.5,   460.2)   127.0 :    18.1 TZ1145051JPN ()
+After: (  418.4,   442.0)-(  545.5,   460.2)   127.0 :    18.1 TZ1145051JPN (0.9100000262260437)
+Estimating resolution as 116
+Class
+Before: (  271.0,   464.7)-(  333.0,   476.8)    62.0 :    12.1 KELAS / CLASS ()
+After: (  271.0,   464.7)-(  333.0,   476.8)    62.0 :    12.1 KELAS / CLASS ()
+Estimating resolution as 172
+Empty page!!
+Estimating resolution as 172
+Empty page!!
+Estimating resolution as 100
+Tempoh ' Validity
+Before: (  271.0,   506.0)-(  358.0,   517.1)    86.9 :    11.1 TEMPH / VALIDITY ()
+After: (  271.0,   506.0)-(  358.0,   517.1)    86.9 :    11.1 TEMPH / VALIDITY ()
+Estimating resolution as 169
+17/04/2021 - 18/04/2026
+Before: (  271.0,   525.7)-(  465.3,   542.8)   194.3 :    17.1 17/04/2021 - 18/042026 ()
+After: (  271.0,   525.7)-(  465.3,   542.8)   194.3 :    17.1 17/04/2021 - 18/04/2026 (0.8999999761581421)
+Estimating resolution as 131
+Alamat  Address
+Estimating resolution as 170
+Empty page!!
+Estimating resolution as 170
+Empty page!!
+Estimating resolution as 171
+Empty page!!
+Estimating resolution as 171
+Empty page!!
+Estimating resolution as 170
+50200 KUALA LUMPUR
+Before: (  268.0,   605.8)-(  462.3,   623.4)   194.3 :    17.6 50200 KUALA LUMPUR ()
+After: (  268.0,   605.8)-(  462.3,   623.4)   194.3 :    17.6 50200 KUALA LUMPUR (0.8999999761581421)
+Estimating resolution as 172
+WILAYAH PERSEKUTUAN KUALA LUMPUR
+Before: (  268.0,   629.5)-(  636.2,   648.1)   368.2 :    18.6 WILAYAH PERSEKUTUAN KUALA LUMPURI ()
+After: (  268.0,   629.5)-(  636.2,   648.1)   368.2 :    18.6 WILAYAH PERSEKUTUAN KUALA LUMPUR (0.8999999761581421)
+==== Lines read by Tesseract ====
+(    4.0,     3.0)-(  165.0,    19.0)   161.0 :    12.0 LESEN MEMANDU (0.8899999856948853)
+(    3.0,     2.0)-(  165.0,    16.0)   162.0 :    11.0 DRIVING LICENCE (0.8999999761581421)
+(    1.0,     0.0)-(  291.0,    16.0)   290.0 :    12.0 Warganegara | Nationality No.Pengenalan | identity No. (0.6000000238418579)
+(    1.0,     2.0)-(  125.0,    17.0)   124.0 :    13.0 TZ1145051JPN (0.9100000262260437)
+(   36.0,     2.0)-(   61.0,    10.0)    25.0 :     8.0 Class (0.6100000143051147)
+(    0.0,     1.0)-(   86.0,    12.0)    86.0 :     7.0 Tempoh ' Validity (0.6600000262260437)
+(    3.0,     1.0)-(  194.0,    18.0)   191.0 :    13.0 17/04/2021 - 18/04/2026 (0.8999999761581421)
+(    0.0,     1.0)-(   86.0,    11.0)    86.0 :     9.0 Alamat  Address (0.30000001192092896)
+(    2.0,     1.0)-(  193.0,    18.0)   191.0 :    13.0 50200 KUALA LUMPUR (0.8999999761581421)
+(    1.0,     2.0)-(  365.0,    23.0)   364.0 :    13.0 WILAYAH PERSEKUTUAN KUALA LUMPUR (0.8999999761581421)
+======================
+==== Merged lines ====
+(  163.7,   320.0)-(  330.0,   337.2)   166.3 :    17.1 LESEN MEMANDU (0.8899999856948853)
+(  444.9,   328.6)-(  585.5,   353.8)   140.6 :    25.2 MALAYSIA ()
+(  163.7,   340.2)-(  330.0,   355.8)   166.3 :    15.6 DRIVING LICENCE (0.8999999761581421)
+(  273.3,   384.0)-(  452.5,   404.2)   179.2 :    20.2 TAKUMI TATEISHI ()
+(  271.0,   426.4)-(  562.8,   439.5)   291.8 :    13.1 WARGARGARGARA / NATIONALITY NO. ()
+(  273.3,   440.0)-(  307.3,   454.1)    34.0 :    14.1 JPN ()
+(  416.2,   427.9)-(  562.8,   440.0)   146.7 :    12.1 NO. PENGGENALAN / IDENTITY NO. ()
+(  418.4,   442.0)-(  545.5,   460.2)   127.0 :    18.1 TZ1145051JPN (0.9100000262260437)
+(  271.0,   464.7)-(  333.0,   476.8)    62.0 :    12.1 KELAS / CLASS ()
+(  271.0,   479.3)-(  313.4,   495.4)    42.3 :    16.1 B2 D ()
+(  271.0,   506.0)-(  358.0,   517.1)    86.9 :    11.1 TEMPH / VALIDITY ()
+(  271.0,   525.7)-(  465.3,   542.8)   194.3 :    17.1 17/04/2021 - 18/04/2026 (0.8999999761581421)
+(  271.0,   545.3)-(  358.0,   556.4)    86.9 :    11.1 ALARMAT / ADDRESS ()
+(  271.0,   562.5)-(  447.2,   579.6)   176.1 :    17.1 42-12F CITY TOWER ()
+(  271.0,   584.1)-(  481.2,   602.3)   210.2 :    18.1 JLN ALOR BKT BINTANG ()
+(  268.0,   605.8)-(  462.3,   623.4)   194.3 :    17.6 50200 KUALA LUMPUR (0.8999999761581421)
+(  268.0,   629.5)-(  636.2,   648.1)   368.2 :    18.6 WILAYAH PERSEKUTUAN KUALA LUMPUR (0.8999999761581421)
+======================
+OpenCV(4.9.0) Error: Assertion failed (s >= 0) in cv::setSize, file C:\GHA-OCV-1\_work\ci-gha-workflow\ci-gha-workflow\opencv\modules\core\src\matrix.cpp, line 246
+Unknown exceptionMatchTemplate key: MYDL_670_COA_Gray MatchResult: 0.8345461487770081/0.800000011920929 x: 25 y: 25 w: 60 h: 47 dist: 0.026100777690455677--> Match
+MatchTemplate key: MYDL_670_Flag_Gray MatchResult: 0.9266975522041321/0.800000011920929 x: 303 y: 35 w: 49 h: 29 dist: 0.11252777434926903--> Match
+MatchTemplate key: MYDL_670_Flower_Gray MatchResult: 0.91270512342453/0.800000011920929 x: 555 y: 219 w: 60 h: 54 dist: 0.10965857839083022--> Match
+ExtractFieldsFromReadResultOfMYDL (3.6059168 sec)
+
+scanMYDLResult.Success: True
+scanMYDLResult.Error:
+scanMYDLResult.lastNameOrFullName: TAKUMI TATEISHI
+scanMYDLResult.firstName:
+scanMYDLResult.middleName:
+scanMYDLResult.documentNumber: TZ1145051JPN
+scanMYDLResult.nationality: JP
+scanMYDLResult.documentIssueDate: 17/04/2021
+scanMYDLResult.documentExpirationDate: 18/04/2026
+scanMYDLResult.addressLine1: 42-12F CITY TOWER
+scanMYDLResult.addressLine2: JLN ALOR BKT BINTANG KUALA LUMPUR WILAYAH PERSEKUTUAN KUALA LUMPUR
+scanMYDLResult.postcode: 50200
+scanMYDLResult.gender:
+scanMYDLResult.dateOfBirth:
+
+[1]
+  Scanned Data: nationality: JP
+  Expected    : nationality: JPN
+ --> IsValid: False
+ Calling Azure VisionOCR...  Elapsed: 00:00:01.3793156
+==== Merged lines ====
+(  162.5,   320.0)-(  329.0,   336.5)   166.5 :    16.5 LESEN MEMANDU ()
+(  443.0,   327.5)-(  585.0,   352.5)   142.0 :    25.0 MALAYSIA ()
+(  164.0,   339.5)-(  330.0,   354.5)   166.0 :    15.0 DRIVING LICENCE ()
+(  273.0,   382.0)-(  451.0,   402.5)   178.0 :    20.5 TAKUMI TATEISHI ()
+(  271.0,   425.0)-(  562.0,   438.5)   291.0 :    13.5 Warganegara / Nationality No. Pengenalan / Identity No. ()
+(  271.5,   438.5)-(  306.0,   455.5)    34.5 :    17.0 JPN ()
+(  419.0,   441.0)-(  544.5,   458.0)   125.5 :    17.0 TZ1145051JPN ()
+(  270.0,   463.5)-(  333.5,   475.5)    63.5 :    12.0 Kelas / Class ()
+(  269.5,   479.0)-(  312.0,   494.5)    42.5 :    15.5 B2 D ()
+(  270.0,   504.5)-(  359.0,   516.0)    89.0 :    11.5 Tempoh / Validity ()
+(  271.0,   524.0)-(  466.0,   541.0)   195.0 :    17.0 17/04/2021 - 18/04/2026 ()
+(  268.0,   543.5)-(  360.0,   556.5)    92.0 :    13.0 Alamat / Address ()
+(  267.5,   561.5)-(  446.0,   578.5)   178.5 :    17.0 42-12F CITY TOWER ()
+(  268.0,   583.0)-(  481.5,   601.0)   213.5 :    18.0 JLN ALOR BKT BINTANG ()
+(  267.0,   605.0)-(  461.5,   622.0)   194.5 :    17.0 50200 KUALA LUMPUR ()
+(  267.0,   628.5)-(  637.5,   647.5)   370.5 :    19.0 WILAYAH PERSEKUTUAN KUALA LUMPUR ()
+======================
+OpenCV(4.9.0) Error: Assertion failed (s >= 0) in cv::setSize, file C:\GHA-OCV-1\_work\ci-gha-workflow\ci-gha-workflow\opencv\modules\core\src\matrix.cpp, line 246
+Unknown exceptionMatchTemplate key: MYDL_670_COA_Gray MatchResult: 0.8340057134628296/0.800000011920929 x: 24 y: 26 w: 60 h: 47 dist: 0.030103998326731923--> Match
+MatchTemplate key: MYDL_670_Flag_Gray MatchResult: 0.9315119385719299/0.800000011920929 x: 303 y: 36 w: 49 h: 29 dist: 0.11252777434926903--> Match
+MatchTemplate key: MYDL_670_Flower_Gray MatchResult: 0.9070437550544739/0.800000011920929 x: 555 y: 220 w: 60 h: 54 dist: 0.11335785836507524--> Match
+ExtractFieldsFromReadResultOfMYDL (3.5000806 sec)
+
+
+[1]
+  Scanned Data: nationality: JP
+  Expected    : nationality: JPN
+ --> IsValid: False
+calling OCRIDImageOSS BASEADDR_URL_FLORENCE...
+ScanID imageFileName: F:\WORK\Dev\huggingface\work\ScanID\test1\bin\Debug\net8.0\testdata\MYDL_810701105740_hologram_Test1.jpg
+ScanID imageFileNameBack:
+PostOCRWithRegionRequest start... URL:http://127.0.0.1:8085/
+PostOCRWithRegionRequest PostAsync start...
+PostOCRWithRegionRequest PostAsync (46.3570407 sec)
+
+(46.4291654 sec)
+
+(  643.0,   283.1)-( 1031.0,   323.9)   388.0 :    40.7 LESEN MEMANDU ()
+(  643.0,   329.3)-( 1031.0,   364.6)   388.0 :    35.3 DRIVING LICENCE ()
+( 1297.0,   295.4)-( 1629.0,   355.1)   332.0 :    59.8 MALAYSIA ()
+(  889.0,   410.8)-( 1181.0,   455.6)   292.0 :    44.8 FOO MINZHI ()
+(  889.0,   560.2)-( 1101.0,   600.9)   212.0 :    40.7 MALAYSI ()
+( 1247.0,   562.9)-( 1529.0,   605.0)   282.0 :    42.1 310 01105740 ()
+(  889.0,   615.9)-( 1039.0,   647.1)   150.0 :    31.2 KELAS / CLAS ()
+(  903.0,   656.6)-(  937.0,   690.5)    34.0 :    34.0 D ()
+(  889.0,   713.6)-( 1103.0,   744.9)   214.0 :    31.2 TEMPEK / HIDATY ()
+(  889.0,   757.1)-( 1355.0,   800.5)   466.0 :    43.5 28/07/2018 - 01/072024 ()
+(  889.0,   807.3)-( 1105.0,   839.9)   216.0 :    32.6 ALARM / ADDRESS ()
+(  889.0,   846.7)-(  993.0,   886.1)   104.0 :    39.4 NO 5 ()
+(  889.0,   906.5)-( 1865.0,   954.0)   976.0 :    47.5 LORONG BATU NIAM19 D BANDAR BUKIT TING ()
+(  887.0,  1021.2)-( 1175.0,  1062.0)   288.0 :    40.7 41200 KLANG ()
+(  885.0,  1078.3)-( 1129.0,  1120.4)   244.0 :    42.1 SELANGOR ()
+======================
+Module Path: F:\WORK\Dev\huggingface\work\ScanID\test1\bin\Debug\net8.0\ScanID.dll
+Estimating resolution as 388
+Empty page!!
+Estimating resolution as 388
+Empty page!!
+Estimating resolution as 318
+DRIVING LICENCE
+Before: (  643.0,   329.3)-( 1031.0,   364.6)   388.0 :    35.3 DRIVING LICENCE ()
+After: (  643.0,   329.3)-( 1031.0,   364.6)   388.0 :    35.3 DRIVING LICENCE (0.9100000262260437)
+Estimating resolution as 619
+Empty page!!
+Estimating resolution as 619
+Empty page!!
+Estimating resolution as 456
+Empty page!!
+Estimating resolution as 456
+Empty page!!
+Estimating resolution as 414
+Empty page!!
+Estimating resolution as 414
+Empty page!!
+Estimating resolution as 413
+Empty page!!
+Estimating resolution as 413
+Empty page!!
+Estimating resolution as 266
+Kedas / Che:
+Estimating resolution as 413
+Empty page!!
+Estimating resolution as 413
+Empty page!!
+Estimating resolution as 341
+Tempat | Yeadls,
+Estimating resolution as 410
+Empty page!!
+Estimating resolution as 410
+Empty page!!
+Estimating resolution as 291
+Aol / At
+Estimating resolution as 420
+Empty page!!
+Estimating resolution as 420
+Empty page!!
+Estimating resolution as 452
+LORONG BATU N!' ""* 9D BANDAR BUKIT 71
+Before: (  889.0,   906.5)-( 1865.0,   954.0)   976.0 :    47.5 LORONG BATU NIAM19 D BANDAR BUKIT TING ()
+After: (  889.0,   906.5)-( 1865.0,   954.0)   976.0 :    47.5 LORONG BATU NIAM19 D BANDAR BUKIT TING ()
+Estimating resolution as 432
+Empty page!!
+Estimating resolution as 432
+Empty page!!
+Estimating resolution as 430
+Empty page!!
+Estimating resolution as 430
+Empty page!!
+==== Lines read by Tesseract ====
+(    3.0,     0.0)-(  384.0,    31.0)   381.0 :    30.0 DRIVING LICENCE (0.9100000262260437)
+(    5.0,     5.0)-(  145.0,    26.0)   140.0 :    20.0 Kedas / Che: (0.18000000715255737)
+(    4.0,     4.0)-(  212.0,    31.0)   208.0 :    19.0 Tempat | Yeadls, (0.2199999988079071)
+(    3.0,     3.0)-(  215.0,    29.0)   212.0 :    26.0 Aol / At (0.3400000035762787)
+(    0.0,     0.0)-(  976.0,    56.0)   976.0 :    42.0 LORONG BATU N!' ""* 9D BANDAR BUKIT 71 (0.5699999928474426)
+======================
+==== Merged lines ====
+(  643.0,   283.1)-( 1031.0,   323.9)   388.0 :    40.7 LESEN MEMANDU ()
+(  643.0,   329.3)-( 1031.0,   364.6)   388.0 :    35.3 DRIVING LICENCE (0.9100000262260437)
+( 1297.0,   295.4)-( 1629.0,   355.1)   332.0 :    59.8 MALAYSIA ()
+(  889.0,   410.8)-( 1181.0,   455.6)   292.0 :    44.8 FOO MINZHI ()
+(  889.0,   561.5)-( 1529.0,   605.0)   640.0 :    43.5 MALAYSI       310 01105740 ()
+(  889.0,   615.9)-( 1039.0,   647.1)   150.0 :    31.2 KELAS / CLAS ()
+(  903.0,   656.6)-(  937.0,   690.5)    34.0 :    34.0 D ()
+(  889.0,   713.6)-( 1103.0,   744.9)   214.0 :    31.2 TEMPEK / HIDATY ()
+(  889.0,   757.1)-( 1355.0,   800.5)   466.0 :    43.5 28/07/2018 - 01/072024 ()
+(  889.0,   807.3)-( 1105.0,   839.9)   216.0 :    32.6 ALARM / ADDRESS ()
+(  889.0,   846.7)-(  993.0,   886.1)   104.0 :    39.4 NO 5 ()
+(  889.0,   906.5)-( 1865.0,   954.0)   976.0 :    47.5 LORONG BATU NIAM19 D BANDAR BUKIT TING ()
+(  887.0,  1021.2)-( 1175.0,  1062.0)   288.0 :    40.7 41200 KLANG ()
+(  885.0,  1078.3)-( 1129.0,  1120.4)   244.0 :    42.1 SELANGOR ()
+======================
+OpenCV(4.9.0) Error: Assertion failed (s >= 0) in cv::setSize, file C:\GHA-OCV-1\_work\ci-gha-workflow\ci-gha-workflow\opencv\modules\core\src\matrix.cpp, line 246
+Unknown exceptionMatchTemplate key: MYDL_670_COA_Gray MatchResult: 0.7863507866859436/0.800000011920929 x: 44 y: 29 w: 60 h: 47 dist: 0.0711073015313483--> Possibly Negative
+MatchTemplate key: MYDL_670_Flag_Gray MatchResult: 0.9401249885559082/0.800000011920929 x: 319 y: 36 w: 49 h: 29 dist: 0.03259601202601321--> Match
+MatchTemplate key: MYDL_670_Flower_Gray MatchResult: 0.8672617077827454/0.800000011920929 x: 573 y: 213 w: 60 h: 54 dist: 0.05220155538091139--> Match
+ExtractFieldsFromReadResultOfMYDL (3.4770607 sec)
+
+scanMYDLResult.Success: True
+scanMYDLResult.Error:
+scanMYDLResult.lastNameOrFullName: FOO MINZHI
+scanMYDLResult.firstName:
+scanMYDLResult.middleName:
+scanMYDLResult.documentNumber: 31001105740
+scanMYDLResult.nationality: MALAYSI
+scanMYDLResult.documentIssueDate: 28/07/2018
+scanMYDLResult.documentExpirationDate: 01/07/2024
+scanMYDLResult.addressLine1: NO 5
+scanMYDLResult.addressLine2: LORONG BATU NIAM19 D BANDAR BUKIT TING KLANG SELANGOR
+scanMYDLResult.postcode: 41200
+scanMYDLResult.gender:
+scanMYDLResult.dateOfBirth:
+
+[1]
+  Scanned Data: documentNumber: 31001105740
+  Expected    : documentNumber: 810701105740
+
+[2]
+  Scanned Data: nationality: MALAYSI
+  Expected    : nationality: MALAYSIA
+
+[3]
+  Scanned Data: addressLine2: LORONG BATU NIAM19 D BANDAR BUKIT TING KLANG SELANGOR
+  Expected    : addressLine2: LORONG BATU NILAM 9D BANDAR BUKIT TING KLANG SELANGOR
+ --> IsValid: False
+ Calling Azure VisionOCR...  Elapsed: 00:00:01.5133069
+==== Merged lines ====
+(  853.0,   373.0)-( 1372.0,   427.0)   519.0 :    54.0 LESEN MEMANDU ()
+( 1718.0,   389.5)-( 2157.0,   470.5)   439.0 :    81.0 MALAYSIA ()
+(  851.0,   435.0)-( 1361.0,   480.5)   510.0 :    45.5 DRIVING LICENCE ()
+( 1178.0,   540.0)-( 1561.0,   603.0)   383.0 :    63.0 FOO MINZHI ()
+( 1175.0,   743.0)-( 2019.5,   802.0)   844.5 :    59.0 MALAYSIA      810701105740 ()
+( 1173.0,   813.0)-( 1377.5,   851.0)   204.5 :    38.0 Kalas / Class ()
+( 1182.0,   943.0)-( 1458.0,   980.5)   276.0 :    37.5 Tempeh / Voc.Aty ()
+( 1175.0,  1002.5)-( 1795.0,  1056.5)   620.0 :    54.0 28/07/2018 - 01/07/2024 ()
+( 1168.0,  1067.5)-( 1471.5,  1110.5)   303.5 :    43.0 Alamal / Address ()
+( 1174.0,  1120.5)-( 1314.0,  1171.0)   140.0 :    50.5 NO 5 ()
+( 1167.5,  1201.5)-( 2472.5,  1258.0)  1305.0 :    56.5 LORONG BATU NILAM 9 D BANDAR BUKIT TING ()
+( 1176.5,  1352.0)-( 1556.5,  1403.5)   380.0 :    51.5 41200 KLANG ()
+( 1168.0,  1425.5)-( 1491.0,  1478.5)   323.0 :    53.0 SELANGOR ()
+======================
+OpenCV(4.9.0) Error: Assertion failed (s >= 0) in cv::setSize, file C:\GHA-OCV-1\_work\ci-gha-workflow\ci-gha-workflow\opencv\modules\core\src\matrix.cpp, line 246
+Unknown exceptionMatchTemplate key: MYDL_670_COA_Gray MatchResult: 0.776290774345398/0.800000011920929 x: 44 y: 30 w: 60 h: 47 dist: 0.0721543368833093--> Possibly Negative
+MatchTemplate key: MYDL_670_Flag_Gray MatchResult: 0.9300261735916138/0.800000011920929 x: 319 y: 37 w: 49 h: 29 dist: 0.03335416016031581--> Match
+MatchTemplate key: MYDL_670_Flower_Gray MatchResult: 0.8690229654312134/0.800000011920929 x: 572 y: 214 w: 60 h: 54 dist: 0.05590172289478154--> Match
+ExtractFieldsFromReadResultOfMYDL (3.3305525 sec)
+
+
+[1]
+  Scanned Data: nationality: MY
+  Expected    : nationality: MALAYSIA
+
+[2]
+  Scanned Data: addressLine2: LORONG BATU NILAM 9 D BANDAR BUKIT TING KLANG SELANGOR
+  Expected    : addressLine2: LORONG BATU NILAM 9D BANDAR BUKIT TING KLANG SELANGOR
+ --> IsValid: False
+calling OCRIDImageOSS BASEADDR_URL_FLORENCE...
+ScanID imageFileName: F:\WORK\Dev\huggingface\work\ScanID\test1\bin\Debug\net8.0\testdata\MYDL_810701105740_hologram_Test2.jpg
+ScanID imageFileNameBack:
+PostOCRWithRegionRequest start... URL:http://127.0.0.1:8085/
+PostOCRWithRegionRequest PostAsync start...
+PostOCRWithRegionRequest PostAsync (46.2465548 sec)
+
+(46.3200115 sec)
+
+(  425.7,   186.5)-(  681.2,   212.6)   255.5 :    26.1 LESEN MEMANDU ()
+(  425.7,   216.2)-(  682.5,   240.5)   256.9 :    24.3 DRIVING LICENCE ()
+(  858.6,   193.7)-( 1078.4,   234.2)   219.8 :    40.5 MALAYSIA ()
+(  588.5,   270.1)-(  781.8,   300.7)   193.3 :    30.6 FOO MINZHI ()
+(  588.5,   369.0)-(  728.9,   397.8)   140.3 :    28.8 MALAYSI ()
+(  820.2,   370.8)-( 1012.2,   399.6)   192.0 :    28.8 310 01105740 ()
+(  588.5,   405.9)-(  687.8,   426.6)    99.3 :    20.7 KELAS / CLAS ()
+(  597.8,   432.9)-(  620.3,   455.3)    22.5 :    22.5 D ()
+(  588.5,   470.6)-(  730.2,   492.2)   141.7 :    21.6 TEMPEK / MABATY ()
+(  588.5,   499.8)-(  897.0,   528.6)   308.5 :    28.8 28/07/2018 - 01/072024 ()
+(  588.5,   532.7)-(  732.8,   554.2)   144.3 :    21.6 ALARM / ADDRESS ()
+(  588.5,   559.6)-(  657.4,   584.8)    68.8 :    25.2 NO 5 ()
+(  587.2,   598.7)-( 1234.6,   630.2)   647.4 :    31.5 LORONG BATU NILAM9 D BANDAR BUKIT TING ()
+(  587.2,   674.2)-(  777.8,   701.7)   190.7 :    27.4 41200 KLANG ()
+(  585.9,   712.0)-(  747.4,   739.9)   161.5 :    27.9 SELANGOR ()
+======================
+Module Path: F:\WORK\Dev\huggingface\work\ScanID\test1\bin\Debug\net8.0\ScanID.dll
+Estimating resolution as 338
+Empty page!!
+Estimating resolution as 338
+Empty page!!
+Estimating resolution as 220
+DRIVING LICENCE
+Before: (  425.7,   216.2)-(  682.5,   240.5)   256.9 :    24.3 DRIVING LICENCE ()
+After: (  425.7,   216.2)-(  682.5,   240.5)   256.9 :    24.3 DRIVING LICENCE (0.8799999952316284)
+Estimating resolution as 419
+Empty page!!
+Estimating resolution as 419
+Empty page!!
+Estimating resolution as 303
+Empty page!!
+Estimating resolution as 303
+Empty page!!
+Estimating resolution as 280
+?
+Estimating resolution as 275
+310701105740
+Before: (  820.2,   370.8)-( 1012.2,   399.6)   192.0 :    28.8 310 01105740 ()
+After: (  820.2,   370.8)-( 1012.2,   399.6)   192.0 :    28.8 310 01105740 ()
+Estimating resolution as 169
+Kedas 1 Che:
+Estimating resolution as 263
+Empty page!!
+Estimating resolution as 263
+Empty page!!
+Estimating resolution as 175
+
+Estimating resolution as 280
+Empty page!!
+Estimating resolution as 280
+Empty page!!
+Estimating resolution as 191
+Empty page!!
+Estimating resolution as 191
+Empty page!!
+Estimating resolution as 278
+Empty page!!
+Estimating resolution as 278
+Empty page!!
+Estimating resolution as 298
+LORONG BATU NI! ~"" 90 BANDAR BUKIT Tiud
+Before: (  587.2,   598.7)-( 1234.6,   630.2)   647.4 :    31.5 LORONG BATU NILAM9 D BANDAR BUKIT TING ()
+After: (  587.2,   598.7)-( 1234.6,   630.2)   647.4 :    31.5 LORONG BATU NILAM9 D BANDAR BUKIT TING ()
+Estimating resolution as 280
+Empty page!!
+Estimating resolution as 280
+Empty page!!
+Estimating resolution as 283
+Empty page!!
+Estimating resolution as 283
+Empty page!!
+==== Lines read by Tesseract ====
+(    3.0,     5.0)-(  254.0,    23.0)   251.0 :    17.0 DRIVING LICENCE (0.8799999952316284)
+(   78.0,     5.0)-(   98.0,    25.0)    20.0 :    20.0 ? (0.33000001311302185)
+(    0.0,     6.0)-(  190.0,    29.0)   190.0 :    20.0 310701105740 (0.8199999928474426)
+(    5.0,     6.0)-(   97.0,    19.0)    92.0 :    12.0 Kedas 1 Che: (0.18000000715255737)
+(    0.0,     0.0)-(  647.0,    39.0)   647.0 :    30.0 LORONG BATU NI! ~"" 90 BANDAR BUKIT Tiud (0.5899999737739563)
+======================
+==== Merged lines ====
+(  425.7,   186.5)-(  681.2,   212.6)   255.5 :    26.1 LESEN MEMANDU ()
+(  425.7,   216.2)-(  682.5,   240.5)   256.9 :    24.3 DRIVING LICENCE (0.8799999952316284)
+(  858.6,   193.7)-( 1078.4,   234.2)   219.8 :    40.5 MALAYSIA ()
+(  588.5,   270.1)-(  781.8,   300.7)   193.3 :    30.6 FOO MINZHI ()
+(  588.5,   369.9)-( 1012.2,   398.7)   423.7 :    28.8 MALAYSI      310 01105740 ()
+(  588.5,   405.9)-(  687.8,   426.6)    99.3 :    20.7 KELAS / CLAS ()
+(  597.8,   432.9)-(  620.3,   455.3)    22.5 :    22.5 D ()
+(  588.5,   470.6)-(  730.2,   492.2)   141.7 :    21.6 TEMPEK / MABATY ()
+(  588.5,   499.8)-(  897.0,   528.6)   308.5 :    28.8 28/07/2018 - 01/072024 ()
+(  588.5,   532.7)-(  732.8,   554.2)   144.3 :    21.6 ALARM / ADDRESS ()
+(  588.5,   559.6)-(  657.4,   584.8)    68.8 :    25.2 NO 5 ()
+(  587.2,   598.7)-( 1234.6,   630.2)   647.4 :    31.5 LORONG BATU NILAM9 D BANDAR BUKIT TING ()
+(  587.2,   674.2)-(  777.8,   701.7)   190.7 :    27.4 41200 KLANG ()
+(  585.9,   712.0)-(  747.4,   739.9)   161.5 :    27.9 SELANGOR ()
+======================
+OpenCV(4.9.0) Error: Assertion failed (s >= 0) in cv::setSize, file C:\GHA-OCV-1\_work\ci-gha-workflow\ci-gha-workflow\opencv\modules\core\src\matrix.cpp, line 246
+Unknown exceptionMatchTemplate key: MYDL_670_COA_Gray MatchResult: 0.7879441380500793/0.800000011920929 x: 44 y: 30 w: 60 h: 47 dist: 0.0721543368833093--> Possibly Negative
+MatchTemplate key: MYDL_670_Flag_Gray MatchResult: 0.9222894906997681/0.800000011920929 x: 319 y: 37 w: 49 h: 29 dist: 0.03335416016031581--> Match
+MatchTemplate key: MYDL_670_Flower_Gray MatchResult: 0.8682074546813965/0.800000011920929 x: 574 y: 214 w: 60 h: 54 dist: 0.05852352196002003--> Match
+ExtractFieldsFromReadResultOfMYDL (3.4139227 sec)
+
+scanMYDLResult.Success: True
+scanMYDLResult.Error:
+scanMYDLResult.lastNameOrFullName: FOO MINZHI
+scanMYDLResult.firstName:
+scanMYDLResult.middleName:
+scanMYDLResult.documentNumber: 31001105740
+scanMYDLResult.nationality: MALAYSI
+scanMYDLResult.documentIssueDate: 28/07/2018
+scanMYDLResult.documentExpirationDate: 01/07/2024
+scanMYDLResult.addressLine1: NO 5
+scanMYDLResult.addressLine2: LORONG BATU NILAM9 D BANDAR BUKIT TING KLANG SELANGOR
+scanMYDLResult.postcode: 41200
+scanMYDLResult.gender:
+scanMYDLResult.dateOfBirth:
+
+[1]
+  Scanned Data: documentNumber: 31001105740
+  Expected    : documentNumber: 810701105740
+
+[2]
+  Scanned Data: nationality: MALAYSI
+  Expected    : nationality: MALAYSIA
+
+[3]
+  Scanned Data: addressLine2: LORONG BATU NILAM9 D BANDAR BUKIT TING KLANG SELANGOR
+  Expected    : addressLine2: LORONG BATU NILAM 9D BANDAR BUKIT TING KLANG SELANGOR
+ --> IsValid: False
+ Calling Azure VisionOCR...  Elapsed: 00:00:01.3754608
+==== Merged lines ====
+(  427.0,   186.0)-(  686.0,   212.5)   259.0 :    26.5 LESEN MEMANDU ()
+(  859.0,   194.5)-( 1079.0,   234.5)   220.0 :    40.0 MALAYSIA ()
+(  426.0,   218.0)-(  680.0,   240.0)   254.0 :    22.0 DRIVING LICENCE ()
+(  588.0,   270.0)-(  781.0,   301.5)   193.0 :    31.5 FOO MINZHI ()
+(  895.0,   344.0)-( 1050.0,   369.0)   155.0 :    25.0 salun /identity No. ()
+(  829.0,   373.0)-( 1011.5,   400.5)   182.5 :    27.5 110701105740 ()
+(  588.0,   404.0)-(  739.0,   430.5)   151.0 :    26.5 Kelas / Class ()
+(  590.0,   470.0)-(  734.0,   490.0)   144.0 :    20.0 Tempoh I Vob-dky ()
+(  582.0,   500.5)-(  896.5,   528.5)   314.5 :    28.0 28/07/2018 - 01/07/2024 ()
+(  586.0,   533.5)-(  730.0,   554.5)   144.0 :    21.0 Alamat / Address ()
+(  587.5,   559.5)-(  657.0,   585.0)    69.5 :    25.5 NO 5 ()
+(  583.5,   600.0)-( 1236.5,   629.0)   653.0 :    29.0 LORONG BATU NILAM 9 D BANDAR BUKIT TING ()
+(  587.5,   675.0)-(  777.0,   701.0)   189.5 :    26.0 41200 KLANG ()
+(  586.0,   712.5)-(  746.5,   739.0)   160.5 :    26.5 SELANGOR ()
+======================
+OpenCV(4.9.0) Error: Assertion failed (s >= 0) in cv::setSize, file C:\GHA-OCV-1\_work\ci-gha-workflow\ci-gha-workflow\opencv\modules\core\src\matrix.cpp, line 246
+Unknown exceptionMatchTemplate key: MYDL_670_COA_Gray MatchResult: 0.7802889943122864/0.800000011920929 x: 36 y: 30 w: 60 h: 47 dist: 0.03473109967657814--> Possibly Negative
+MatchTemplate key: MYDL_670_Flag_Gray MatchResult: 0.9169424176216125/0.800000011920929 x: 310 y: 37 w: 49 h: 29 dist: 0.07786205751198709--> Match
+MatchTemplate key: MYDL_670_Flower_Gray MatchResult: 0.86210697889328/0.800000011920929 x: 564 y: 214 w: 60 h: 54 dist: 0.06264984136137086--> Match
+ExtractFieldsFromReadResultOfMYDL (3.3456397 sec)
+
+
+[1]
+  Scanned Data: documentNumber: 110701105740
+  Expected    : documentNumber: 810701105740
+
+[2]
+  Scanned Data: nationality:
+  Expected    : nationality: MALAYSIA
+
+[3]
+  Scanned Data: addressLine2: LORONG BATU NILAM 9 D BANDAR BUKIT TING KLANG SELANGOR
+  Expected    : addressLine2: LORONG BATU NILAM 9D BANDAR BUKIT TING KLANG SELANGOR
+ --> IsValid: False
+calling OCRIDImageOSS BASEADDR_URL_FLORENCE...
+ScanID imageFileName: F:\WORK\Dev\huggingface\work\ScanID\test1\bin\Debug\net8.0\testdata\MYKAD_730818-13-5230_Test1.jpg
+ScanID imageFileNameBack:
+PostOCRWithRegionRequest start... URL:http://127.0.0.1:8085/
+PostOCRWithRegionRequest PostAsync start...
+PostOCRWithRegionRequest PostAsync (46.5470783 sec)
+
+(46.6220091 sec)
+
+(  243.8,   557.0)-(  797.2,   599.0)   553.5 :    42.0 KAD PENGENALAN ()
+(  243.8,   585.0)-(  797.2,   649.0)   553.5 :    64.0 MALAYSIA ()
+(  888.8,   585.0)-( 1062.8,   635.0)   174.0 :    50.0 MYKAD ()
+(  237.8,   635.0)-(  792.8,   680.0)   555.0 :    45.0 IDENTITY CARD ()
+(  153.8,   702.0)-(  546.8,   756.0)   393.0 :    54.0 730818-13-5230 ()
+(  146.2,  1039.0)-(  402.8,  1081.0)   256.5 :    42.0 NG HUI LING ()
+(  146.2,  1139.0)-(  740.2,  1179.0)   594.0 :    40.0 NO 10-12 BLOK A VILLA KRYSTAL ()
+(  146.2,  1173.0)-(  527.2,  1209.0)   381.0 :    36.0 JALAN SILAT LINCAH ()
+(  146.2,  1205.0)-(  557.2,  1243.0)   411.0 :    38.0 BANDAR SELESA JAYA ()
+( 1065.8,  1201.0)-( 1205.2,  1223.0)   139.5 :    22.0 7308 18-13.5230 ()
+(  146.2,  1241.0)-(  398.2,  1277.0)   252.0 :    36.0 81300 SKUDAI ()
+( 1020.8,  1237.0)-( 1289.2,  1271.0)   268.5 :    34.0 WARGANEGARA ()
+(  146.2,  1275.0)-(  273.8,  1309.0)   127.5 :    34.0 JOHOR ()
+( 1149.8,  1274.0)-( 1364.2,  1306.0)   214.5 :    32.0 PEREMPUAN ()
+( 1332.8,  1309.0)-( 1359.8,  1337.0)    27.0 :    28.0 K ()
+======================
+Module Path: F:\WORK\Dev\huggingface\work\ScanID\test1\bin\Debug\net8.0\ScanID.dll
+Estimating resolution as 369
+Empty page!!
+Estimating resolution as 369
+Empty page!!
+Estimating resolution as 691
+Empty page!!
+Estimating resolution as 691
+Empty page!!
+Estimating resolution as 509
+Empty page!!
+Estimating resolution as 509
+Empty page!!
+Estimating resolution as 428
+
+Estimating resolution as 536
+730818-13-5230
+Before: (  153.8,   702.0)-(  546.8,   756.0)   393.0 :    54.0 730818-13-5230 ()
+After: (  153.8,   702.0)-(  546.8,   756.0)   393.0 :    54.0 730818-13-5230 (0.8999999761581421)
+Estimating resolution as 413
+Estimating resolution as 359
+Empty page!!
+Estimating resolution as 359
+Empty page!!
+Estimating resolution as 346
+Empty page!!
+Estimating resolution as 346
+Empty page!!
+Estimating resolution as 358
+Empty page!!
+Estimating resolution as 358
+Empty page!!
+Estimating resolution as 188
+£30818-13-5230
+Estimating resolution as 361
+Empty page!!
+Estimating resolution as 361
+Empty page!!
+Estimating resolution as 337
+WARGANEGARA
+Before: ( 1020.8,  1237.0)-( 1289.2,  1271.0)   268.5 :    34.0 WARGANEGARA ()
+After: ( 1020.8,  1237.0)-( 1289.2,  1271.0)   268.5 :    34.0 WARGANEGARA (0.9100000262260437)
+Estimating resolution as 349
+Empty page!!
+Estimating resolution as 349
+Empty page!!
+Estimating resolution as 327
+PEREMPUAN
+Before: ( 1149.8,  1274.0)-( 1364.2,  1306.0)   214.5 :    32.0 PEREMPUAN ()
+After: ( 1149.8,  1274.0)-( 1364.2,  1306.0)   214.5 :    32.0 PEREMPUAN (0.9100000262260437)
+Estimating resolution as 313
+Empty page!!
+Estimating resolution as 313
+Empty page!!
+==== Lines read by Tesseract ====
+(    6.0,     0.0)-(  393.0,    56.0)   387.0 :    45.0 730818-13-5230 (0.8999999761581421)
+(    5.0,     1.0)-(  135.0,    17.0)   130.0 :    14.0 £30818-13-5230 (0.09000000357627869)
+(    3.0,     4.0)-(  264.0,    34.0)   261.0 :    26.0 WARGANEGARA (0.9100000262260437)
+(    4.0,     0.0)-(  211.0,    30.0)   207.0 :    26.0 PEREMPUAN (0.9100000262260437)
+======================
+==== Merged lines ====
+(  243.8,   557.0)-(  797.2,   599.0)   553.5 :    42.0 KAD PENGENALAN ()
+(  243.8,   585.0)-( 1062.8,   649.0)   819.0 :    64.0 MALAYSIA  MYKAD ()
+(  237.8,   635.0)-(  792.8,   680.0)   555.0 :    45.0 IDENTITY CARD ()
+(  153.8,   702.0)-(  546.8,   756.0)   393.0 :    54.0 730818-13-5230 (0.8999999761581421)
+(  146.2,  1039.0)-(  402.8,  1081.0)   256.5 :    42.0 NG HUI LING ()
+(  146.2,  1139.0)-(  740.2,  1179.0)   594.0 :    40.0 NO 10-12 BLOK A VILLA KRYSTAL ()
+(  146.2,  1173.0)-(  527.2,  1209.0)   381.0 :    36.0 JALAN SILAT LINCAH ()
+(  146.2,  1205.0)-(  557.2,  1243.0)   411.0 :    38.0 BANDAR SELESA JAYA ()
+( 1065.8,  1201.0)-( 1205.2,  1223.0)   139.5 :    22.0 7308 18-13.5230 ()
+(  146.2,  1241.0)-(  398.2,  1277.0)   252.0 :    36.0 81300 SKUDAI ()
+( 1020.8,  1237.0)-( 1289.2,  1271.0)   268.5 :    34.0 WARGANEGARA (0.9100000262260437)
+(  146.2,  1275.0)-(  273.8,  1309.0)   127.5 :    34.0 JOHOR ()
+( 1149.8,  1274.0)-( 1364.2,  1306.0)   214.5 :    32.0 PEREMPUAN (0.9100000262260437)
+( 1332.8,  1309.0)-( 1359.8,  1337.0)    27.0 :    28.0 K ()
+======================
+ExtractFieldsFromReadResultOfMyKad start...
+OpenCV(4.9.0) Error: Assertion failed (s >= 0) in cv::setSize, file C:\GHA-OCV-1\_work\ci-gha-workflow\ci-gha-workflow\opencv\modules\core\src\matrix.cpp, line 246
+Unknown exceptionMatchTemplate key: MyKad_670_Flag MatchResult: 0.7984806299209595/0.800000011920929 x: 475 y: 33 w: 138 h: 75 dist: 0.20713832173763602--> Not match
+MatchTemplate key: MyKad_670_Flag_MoonStar MatchResult: 0.8024641871452332/0.800000011920929 x: 488 y: 43 w: 33 h: 25 dist: 0.21854636901079597--> Not match
+MatchTemplate key: MyKad_670_Flower_Front_Gray MatchResult: 0.5726689696311951/0.6000000238418579 x: 276 y: 312 w: 122 h: 92 dist: 0.11543391217088494--> Possibly Negative
+MatchTemplate key: MyKad_670_IC_Chip MatchResult: 0.30412188172340393/0.4000000059604645 x: 54 y: 136 w: 118 h: 103 dist: 0.04038875376280115--> Possibly Negative
+MatchTemplate key: MyKad_670_MSC_Gray MatchResult: 0.8642467856407166/0.800000011920929 x: 241 y: 118 w: 54 h: 54 dist: 0.026925843958626697--> Match
+MatchTemplate key: MyKad_670_MyKad MatchResult: 0.8136057257652283/0.800000011920929 x: 377 y: 27 w: 59 h: 39 dist: 0.1435706147785085--> Match
+ExtractFieldsFromReadResultOfMyKad (3.2386238 sec)
+
+scanMyKadResult.Success: True
+scanMyKadResult.Error:
+scanMyKadResult.lastNameOrFullName: NG HUI LING
+scanMyKadResult.firstName:
+scanMyKadResult.middleName:
+scanMyKadResult.documentNumber: 730818-13-5230
+scanMyKadResult.addressLine1: NO 10-12 BLOK A VILLA KRYSTAL JALAN SILAT LINCAH
+scanMyKadResult.addressLine2: BANDAR SELESA JAYA SKUDAI JOHOR
+scanMyKadResult.postcode: 81300
+scanMyKadResult.gender: F
+scanMyKadResult.dateOfBirth: 1973-08-18
+ --> IsValid: True
+ Calling Azure VisionOCR...  Elapsed: 00:00:01.3983354
+==== Merged lines ====
+(  245.0,   560.0)-(  804.0,   605.5)   559.0 :    45.5 KAD PENGENALAN ()
+(  243.0,   609.0)-(  807.0,   673.0)   564.0 :    64.0 MALAYSIA IDENTITY CARD ()
+(  892.0,   582.0)-( 1065.0,   636.0)   173.0 :    54.0 MyKad ()
+(  156.0,   708.5)-(  550.0,   759.5)   394.0 :    51.0 730818-13-5230 ()
+(  758.0,   935.5)-(  859.0,   955.0)   101.0 :    19.5 MALAYSIAKERS ()
+(  148.0,  1045.5)-(  405.5,  1086.0)   257.5 :    40.5 NG HUI LING ()
+(  145.5,  1145.0)-(  751.0,  1184.5)   605.5 :    39.5 NO 10-12 BLOK A VILLA KRYSTAL ()
+(  147.0,  1180.5)-(  542.0,  1213.5)   395.0 :    33.0 JALAN SILAT LINCAH ()
+(  150.0,  1216.0)-(  560.5,  1250.0)   410.5 :    34.0 BANDAR SELESA JAYA ()
+( 1076.0,  1208.0)-( 1214.0,  1230.0)   138.0 :    22.0 730818-13-5230 ()
+(  147.0,  1250.5)-(  399.0,  1283.0)   252.0 :    32.5 81300 SKUDAI ()
+( 1026.0,  1247.0)-( 1294.5,  1279.0)   268.5 :    32.0 WARGANEGARA ()
+(  140.0,  1282.5)-(  275.0,  1316.5)   135.0 :    34.0 JOHOR ()
+( 1157.5,  1281.0)-( 1375.5,  1312.0)   218.0 :    31.0 PEREMPUAN ()
+( 1344.0,  1319.0)-( 1367.0,  1347.0)    23.0 :    28.0 K ()
+======================
+ExtractFieldsFromReadResultOfMyKad start...
+OpenCV(4.9.0) Error: Assertion failed (s >= 0) in cv::setSize, file C:\GHA-OCV-1\_work\ci-gha-workflow\ci-gha-workflow\opencv\modules\core\src\matrix.cpp, line 246
+Unknown exceptionMatchTemplate key: MyKad_670_Flag MatchResult: 0.8073760867118835/0.800000011920929 x: 490 y: 32 w: 138 h: 75 dist: 0.14328736869371894--> Match
+MatchTemplate key: MyKad_670_Flag_MoonStar MatchResult: 0.7774193286895752/0.800000011920929 x: 503 y: 42 w: 33 h: 25 dist: 0.15972635447805797--> Possibly Negative
+MatchTemplate key: MyKad_670_Flower_Front_Gray MatchResult: 0.5770716667175293/0.6000000238418579 x: 291 y: 313 w: 122 h: 92 dist: 0.04031123551158068--> Possibly Negative
+MatchTemplate key: MyKad_670_IC_Chip MatchResult: 0.3229178786277771/0.4000000059604645 x: 68 y: 135 w: 118 h: 103 dist: 0.0910013709960655--> Possibly Negative
+MatchTemplate key: MyKad_670_MSC_Gray MatchResult: 0.8686130046844482/0.800000011920929 x: 255 y: 116 w: 54 h: 54 dist: 0.06184656414551757--> Match
+MatchTemplate key: MyKad_670_MyKad MatchResult: 0.8452264666557312/0.800000011920929 x: 392 y: 25 w: 59 h: 39 dist: 0.08403872465699058--> Match
+ExtractFieldsFromReadResultOfMyKad (3.2381396 sec)
+
+ --> IsValid: True
+calling OCRIDImageOSS BASEADDR_URL_FLORENCE...
+ScanID imageFileName: F:\WORK\Dev\huggingface\work\ScanID\test1\bin\Debug\net8.0\testdata\MYKAD_730818-13-5230_Test2.jpg
+ScanID imageFileNameBack:
+PostOCRWithRegionRequest start... URL:http://127.0.0.1:8085/
+PostOCRWithRegionRequest PostAsync start...
+PostOCRWithRegionRequest PostAsync (48.932496 sec)
+
+(49.0039333 sec)
+
+(  122.8,   280.2)-(  400.3,   300.9)   277.5 :    20.7 KAD PENGENALAN ()
+(  122.8,   294.8)-(  400.3,   327.1)   277.5 :    32.3 MALAYSIA ()
+(  447.9,   294.8)-(  535.6,   320.0)    87.7 :    25.2 MYKAD ()
+(  122.8,   319.0)-(  400.3,   341.7)   277.5 :    22.7 IDENTITY CARD ()
+(   76.7,   353.8)-(  275.6,   381.0)   198.8 :    27.2 730818-13-5230 ()
+(   73.7,   523.7)-(  203.0,   544.8)   129.3 :    21.2 NG HUI LING ()
+(   73.7,   574.1)-(  373.8,   593.7)   300.1 :    19.7 NO 10-12 BLOK A VILLA KRYSTAL ()
+(   73.7,   591.2)-(  265.7,   609.3)   192.0 :    18.1 JALAN SILAT LINCAH ()
+(   73.7,   607.3)-(  280.9,   626.5)   207.1 :    19.2 BANDAR SELESA JAYA ()
+(  537.1,   605.3)-(  607.4,   616.4)    70.3 :    11.1 7308 18-13.5230 ()
+(   73.7,   625.5)-(  200.7,   643.6)   127.0 :    18.1 81300 SKUDAI ()
+(  514.5,   623.4)-(  649.0,   641.1)   134.6 :    17.6 WARGANEGARA ()
+(   73.7,   642.6)-(  138.0,   659.7)    64.3 :    17.1 JOHOR ()
+(  579.5,   642.1)-(  688.3,   657.2)   108.9 :    15.1 PEREMPUAN ()
+(  671.7,   659.7)-(  686.1,   673.8)    14.4 :    14.1 K ()
+======================
+Module Path: F:\WORK\Dev\huggingface\work\ScanID\test1\bin\Debug\net8.0\ScanID.dll
+Estimating resolution as 182
+
+Estimating resolution as 338
+
+Estimating resolution as 267
+Empty page!!
+Estimating resolution as 267
+Empty page!!
+Estimating resolution as 194
+IDENTITY CARD
+Before: (  122.8,   319.0)-(  400.3,   341.7)   277.5 :    22.7 IDENTITY CARD ()
+After: (  122.8,   319.0)-(  400.3,   341.7)   277.5 :    22.7 IDENTITY CARD ()
+Estimating resolution as 269
+Empty page!!
+Estimating resolution as 269
+Empty page!!
+Estimating resolution as 216
+
+Estimating resolution as 184
+Empty page!!
+Estimating resolution as 184
+Empty page!!
+Estimating resolution as 183
+Empty page!!
+Estimating resolution as 183
+Empty page!!
+Estimating resolution as 183
+Empty page!!
+Estimating resolution as 183
+Empty page!!
+Estimating resolution as 97
+730818135230
+Estimating resolution as 183
+Empty page!!
+Estimating resolution as 183
+Empty page!!
+Estimating resolution as 170
+Empty page!!
+Estimating resolution as 170
+Empty page!!
+Estimating resolution as 183
+Empty page!!
+Estimating resolution as 183
+Empty page!!
+Estimating resolution as 168
+Empty page!!
+Estimating resolution as 168
+Empty page!!
+Estimating resolution as 163
+Empty page!!
+Estimating resolution as 163
+Empty page!!
+==== Lines read by Tesseract ====
+(    2.0,     0.0)-(  276.0,    21.0)   274.0 :    17.0 IDENTITY CARD (0.8700000047683716)
+(    3.0,     1.0)-(   68.0,     9.0)    65.0 :     8.0 730818135230 (0.4399999976158142)
+======================
+==== Merged lines ====
+(  122.8,   280.2)-(  400.3,   300.9)   277.5 :    20.7 KAD PENGENALAN ()
+(  122.8,   294.8)-(  535.6,   327.1)   412.8 :    32.3 MALAYSIA  MYKAD ()
+(  122.8,   319.0)-(  400.3,   341.7)   277.5 :    22.7 IDENTITY CARD ()
+(   76.7,   353.8)-(  275.6,   381.0)   198.8 :    27.2 730818-13-5230 ()
+(   73.7,   523.7)-(  203.0,   544.8)   129.3 :    21.2 NG HUI LING ()
+(   73.7,   574.1)-(  373.8,   593.7)   300.1 :    19.7 NO 10-12 BLOK A VILLA KRYSTAL ()
+(   73.7,   591.2)-(  265.7,   609.3)   192.0 :    18.1 JALAN SILAT LINCAH ()
+(   73.7,   607.3)-(  280.9,   626.5)   207.1 :    19.2 BANDAR SELESA JAYA ()
+(  537.1,   605.3)-(  607.4,   616.4)    70.3 :    11.1 7308 18-13.5230 ()
+(   73.7,   625.5)-(  200.7,   643.6)   127.0 :    18.1 81300 SKUDAI ()
+(  514.5,   623.4)-(  649.0,   641.1)   134.6 :    17.6 WARGANEGARA ()
+(   73.7,   642.6)-(  138.0,   659.7)    64.3 :    17.1 JOHOR ()
+(  579.5,   642.1)-(  688.3,   657.2)   108.9 :    15.1 PEREMPUAN ()
+(  671.7,   659.7)-(  686.1,   673.8)    14.4 :    14.1 K ()
+======================
+ExtractFieldsFromReadResultOfMyKad start...
+OpenCV(4.9.0) Error: Assertion failed (s >= 0) in cv::setSize, file C:\GHA-OCV-1\_work\ci-gha-workflow\ci-gha-workflow\opencv\modules\core\src\matrix.cpp, line 246
+Unknown exceptionMatchTemplate key: MyKad_670_Flag MatchResult: 0.8075042366981506/0.800000011920929 x: 476 y: 34 w: 138 h: 75 dist: 0.20538082524571308--> Not match
+MatchTemplate key: MyKad_670_Flag_MoonStar MatchResult: 0.7750742435455322/0.800000011920929 x: 488 y: 44 w: 33 h: 25 dist: 0.22150059897932184--> Not match
+MatchTemplate key: MyKad_670_Flower_Front_Gray MatchResult: 0.5923926830291748/0.6000000238418579 x: 276 y: 313 w: 122 h: 92 dist: 0.11510859462226415--> Possibly Negative
+MatchTemplate key: MyKad_670_IC_Chip MatchResult: 0.31955480575561523/0.4000000059604645 x: 54 y: 137 w: 118 h: 103 dist: 0.0450694094584205--> Possibly Negative
+MatchTemplate key: MyKad_670_MSC_Gray MatchResult: 0.8840504288673401/0.800000011920929 x: 241 y: 118 w: 54 h: 54 dist: 0.026925843958626697--> Match
+MatchTemplate key: MyKad_670_MyKad MatchResult: 0.8360093832015991/0.800000011920929 x: 377 y: 27 w: 59 h: 39 dist: 0.1435706147785085--> Match
+ExtractFieldsFromReadResultOfMyKad (3.2557151 sec)
+
+scanMyKadResult.Success: True
+scanMyKadResult.Error:
+scanMyKadResult.lastNameOrFullName: NG HUI LING
+scanMyKadResult.firstName:
+scanMyKadResult.middleName:
+scanMyKadResult.documentNumber: 730818-13-5230
+scanMyKadResult.addressLine1: NO 10-12 BLOK A VILLA KRYSTAL JALAN SILAT LINCAH
+scanMyKadResult.addressLine2: BANDAR SELESA JAYA SKUDAI JOHOR
+scanMyKadResult.postcode: 81300
+scanMyKadResult.gender: F
+scanMyKadResult.dateOfBirth: 1973-08-18
+ --> IsValid: True
+ Calling Azure VisionOCR...  Elapsed: 00:00:01.3582884
+==== Merged lines ====
+(  121.5,   280.5)-(  399.0,   300.0)   277.5 :    19.5 KAD PENGENALAN ()
+(  121.0,   296.0)-(  401.0,   328.5)   280.0 :    32.5 MALAYSIA ()
+(  122.0,   312.0)-(  403.0,   341.0)   281.0 :    29.0 IDENTITY CARD ()
+(  446.0,   292.0)-(  535.5,   319.5)    89.5 :    27.5 MyKad ()
+(   76.0,   353.5)-(  275.5,   380.0)   199.5 :    26.5 730818-13-5230 ()
+(   73.0,   523.5)-(  202.0,   542.5)   129.0 :    19.0 NG HUI LING ()
+(   72.0,   572.5)-(  376.0,   592.0)   304.0 :    19.5 NO 10-12 BLOK A VILLA KRYSTAL ()
+(   74.0,   590.5)-(  263.0,   606.5)   189.0 :    16.0 JALAN SILAT LINCAH ()
+(   73.0,   608.0)-(  278.0,   624.5)   205.0 :    16.5 BANDAR SELESA JAYA ()
+(  538.0,   603.0)-(  606.0,   615.0)    68.0 :    12.0 730618-13-5230 ()
+(   73.0,   625.0)-(  198.0,   641.5)   125.0 :    16.5 81300 SKUDAI ()
+(  513.0,   623.0)-(  647.0,   639.5)   134.0 :    16.5 WARGANEGARA ()
+(   69.0,   641.0)-(  138.0,   658.0)    69.0 :    17.0 JOHOR ()
+(  578.5,   640.5)-(  687.0,   656.5)   108.5 :    16.0 PEREMPUAN ()
+(  670.5,   659.0)-(  683.5,   673.0)    13.0 :    14.0 K ()
+======================
+ExtractFieldsFromReadResultOfMyKad start...
+OpenCV(4.9.0) Error: Assertion failed (s >= 0) in cv::setSize, file C:\GHA-OCV-1\_work\ci-gha-workflow\ci-gha-workflow\opencv\modules\core\src\matrix.cpp, line 246
+Unknown exceptionMatchTemplate key: MyKad_670_Flag MatchResult: 0.8139611482620239/0.800000011920929 x: 490 y: 34 w: 138 h: 75 dist: 0.1502706559084965--> Match
+MatchTemplate key: MyKad_670_Flag_MoonStar MatchResult: 0.7942788004875183/0.800000011920929 x: 503 y: 44 w: 33 h: 25 dist: 0.16751868013938304--> Possibly Negative
+MatchTemplate key: MyKad_670_Flower_Front_Gray MatchResult: 0.5978521108627319/0.6000000238418579 x: 291 y: 314 w: 122 h: 92 dist: 0.03999995231631259--> Possibly Negative
+MatchTemplate key: MyKad_670_IC_Chip MatchResult: 0.3295743465423584/0.4000000059604645 x: 68 y: 137 w: 118 h: 103 dist: 0.09503288904374481--> Possibly Negative
+MatchTemplate key: MyKad_670_MSC_Gray MatchResult: 0.8840069770812988/0.800000011920929 x: 255 y: 119 w: 54 h: 54 dist: 0.0670820233313925--> Match
+MatchTemplate key: MyKad_670_MyKad MatchResult: 0.844622790813446/0.800000011920929 x: 392 y: 27 w: 59 h: 39 dist: 0.09280359434183673--> Match
+ExtractFieldsFromReadResultOfMyKad (3.3316298 sec)
+
+ --> IsValid: True
+calling OCRIDImageOSS BASEADDR_URL_FLORENCE...
+ScanID imageFileName: F:\WORK\Dev\huggingface\work\ScanID\test1\bin\Debug\net8.0\testdata\PhilID_2031-8439-2460-5291_Test1.jpg
+ScanID imageFileNameBack: F:\WORK\Dev\huggingface\work\ScanID\test1\bin\Debug\net8.0\testdata\PhilID_2031-8439-2460-5291_Test1_Back.jpg
+PostOCRWithRegionRequest start... URL:http://127.0.0.1:8085/
+PostOCRWithRegionRequest PostAsync start...
+PostOCRWithRegionRequest PostAsync (51.8116363 sec)
+
+(51.9420381 sec)
+
+(  333.3,   149.4)-(  601.6,   171.6)   268.3 :    22.3 REPUBLIKA NG PILIPINAS ()
+(  364.0,   176.3)-(  571.9,   194.7)   207.9 :    18.4 REPUBLIC OF THE PHILIPPINES ()
+(  280.1,   197.8)-(  654.8,   220.8)   374.8 :    23.0 PAMBANSANG PACKAKAKAKILANLANLAN ()
+(  354.8,   224.6)-(  581.1,   243.8)   226.3 :    19.2 PHILIPPINE IDENTIFICATION CARD ()
+(  112.1,   265.3)-(  373.2,   290.7)   261.1 :    25.3 2031-8439-2460-5291 ()
+(  432.6,   295.3)-(  591.4,   313.7)   158.7 :    18.4 APELYIDO/LAST NAME ()
+(  431.6,   322.2)-(  533.0,   345.2)   101.4 :    23.0 ENRICO ()
+(  433.7,   349.1)-(  651.8,   366.7)   218.1 :    17.7 MGA PANGALAN/GIVEN NAMES ()
+(  431.6,   375.9)-(  571.9,   399.7)   140.3 :    23.8 CHRISTIAN ()
+(  433.7,   428.2)-(  677.4,   445.8)   243.7 :    17.7 GITANG APELYIDIO/MIDDLE NAME ()
+(  433.7,   452.7)-(  561.7,   475.8)   128.0 :    23.0 CORONEL ()
+(  435.7,   481.2)-(  724.5,   500.4)   288.8 :    19.2 PETSA NG KAPANGANAKAN/DATE OF BIRTH ()
+(  431.6,   505.0)-(  606.7,   530.3)   175.1 :    25.3 JULY 03, 1997 ()
+(  130.6,   538.0)-(  260.6,   555.6)   130.0 :    17.7 TIRAHAN/ADDRESS ()
+(  780.8,   515.7)-(  839.2,   541.8)    58.4 :    26.1 PHL ()
+(  125.4,   557.2)-(  570.9,   579.8)   445.4 :    22.7 SITITO SILANGAN, MABATO, ROSARIO, BATANGAS ()
+======================
+Module Path: F:\WORK\Dev\huggingface\work\ScanID\test1\bin\Debug\net8.0\ScanID.dll
+Estimating resolution as 213
+Empty page!!
+Estimating resolution as 213
+Empty page!!
+Estimating resolution as 163
+Republic of the Philippines
+Before: (  364.0,   176.3)-(  571.9,   194.7)   207.9 :    18.4 REPUBLIC OF THE PHILIPPINES ()
+After: (  364.0,   176.3)-(  571.9,   194.7)   207.9 :    18.4 REPUBLIC OF THE PHILIPPINES (0.8999999761581421)
+Estimating resolution as 213
+PAMBANSANG PAGKAKAKILANLAN
+Before: (  280.1,   197.8)-(  654.8,   220.8)   374.8 :    23.0 PAMBANSANG PACKAKAKAKILANLANLAN ()
+After: (  280.1,   197.8)-(  654.8,   220.8)   374.8 :    23.0 PAMBANSANG PACKAKAKAKILANLANLAN ()
+Estimating resolution as 160
+
+Philippine Identification Cat
+Estimating resolution as 250
+Empty page!!
+Estimating resolution as 250
+Empty page!!
+Estimating resolution as 166
+
+Apelvido/Last Namse
+Estimating resolution as 247
+Empty page!!
+Estimating resolution as 247
+Empty page!!
+Estimating resolution as 156
+Mea Pangalan/Given Names
+Before: (  433.7,   349.1)-(  651.8,   366.7)   218.1 :    17.7 MGA PANGALAN/GIVEN NAMES ()
+After: (  433.7,   349.1)-(  651.8,   366.7)   218.1 :    17.7 MGA PANGALAN/GIVEN NAMES ()
+Estimating resolution as 243
+Empty page!!
+Estimating resolution as 243
+Empty page!!
+Estimating resolution as 169
+Gitnang Apelvido/Middle Name
+Before: (  433.7,   428.2)-(  677.4,   445.8)   243.7 :    17.7 GITANG APELYIDIO/MIDDLE NAME ()
+After: (  433.7,   428.2)-(  677.4,   445.8)   243.7 :    17.7 GITANG APELYIDIO/MIDDLE NAME ()
+Estimating resolution as 236
+Empty page!!
+Estimating resolution as 236
+Empty page!!
+Estimating resolution as 169
+
+Patsa ng Kapanganakan/Date o}
+Estimating resolution as 249
+Empty page!!
+Estimating resolution as 249
+Empty page!!
+Estimating resolution as 166
+Tirahan/Address
+Before: (  130.6,   538.0)-(  260.6,   555.6)   130.0 :    17.7 TIRAHAN/ADDRESS ()
+After: (  130.6,   538.0)-(  260.6,   555.6)   130.0 :    17.7 TIRAHAN/ADDRESS (0.9100000262260437)
+Estimating resolution as 308
+Empty page!!
+Estimating resolution as 308
+Empty page!!
+Estimating resolution as 217
+CITIO QI ANGAN MARAT!
+() ROSARIGZBATANGAS
+==== Lines read by Tesseract ====
+(    1.0,     2.0)-(  206.0,    18.0)   205.0 :    13.0 Republic of the Philippines (0.8999999761581421)
+(    3.0,     4.0)-(  372.0,    22.0)   369.0 :    16.0 PAMBANSANG PAGKAKAKILANLAN (0.8899999856948853)
+(    2.0,     0.0)-(  210.0,    19.0)   208.0 :    16.0 Philippine Identification Cat (0.7799999713897705)
+(    2.0,     1.0)-(  149.0,    18.0)   147.0 :    15.0 Apelvido/Last Namse (0.6299999952316284)
+(    3.0,     2.0)-(  218.0,    17.0)   215.0 :    13.0 Mea Pangalan/Given Names (0.7599999904632568)
+(    1.0,     1.0)-(  244.0,    17.0)   243.0 :    14.0 Gitnang Apelvido/Middle Name (0.8500000238418579)
+(    0.0,     1.0)-(  240.0,    19.0)   240.0 :    15.0 Patsa ng Kapanganakan/Date o} (0.8700000047683716)
+(    1.0,     0.0)-(  130.0,    18.0)   129.0 :    17.0 Tirahan/Address (0.9100000262260437)
+(    2.0,     3.0)-(  223.0,    19.0)   221.0 :    16.0 CITIO QI ANGAN MARAT! (0.36000001430511475)
+(  225.0,     0.0)-(  444.0,    19.0)   219.0 :    19.0 () ROSARIGZBATANGAS (0.36000001430511475)
+======================
+==== Merged lines ====
+(  333.3,   149.4)-(  601.6,   171.6)   268.3 :    22.3 REPUBLIKA NG PILIPINAS ()
+(  364.0,   176.3)-(  571.9,   194.7)   207.9 :    18.4 REPUBLIC OF THE PHILIPPINES (0.8999999761581421)
+(  280.1,   197.8)-(  654.8,   220.8)   374.8 :    23.0 PAMBANSANG PACKAKAKAKILANLANLAN ()
+(  354.8,   224.6)-(  581.1,   243.8)   226.3 :    19.2 PHILIPPINE IDENTIFICATION CARD ()
+(  112.1,   265.3)-(  373.2,   290.7)   261.1 :    25.3 2031-8439-2460-5291 ()
+(  432.6,   295.3)-(  591.4,   313.7)   158.7 :    18.4 APELYIDO/LAST NAME ()
+(  431.6,   322.2)-(  533.0,   345.2)   101.4 :    23.0 ENRICO ()
+(  433.7,   349.1)-(  651.8,   366.7)   218.1 :    17.7 MGA PANGALAN/GIVEN NAMES ()
+(  431.6,   375.9)-(  571.9,   399.7)   140.3 :    23.8 CHRISTIAN ()
+(  433.7,   428.2)-(  677.4,   445.8)   243.7 :    17.7 GITANG APELYIDIO/MIDDLE NAME ()
+(  433.7,   452.7)-(  561.7,   475.8)   128.0 :    23.0 CORONEL ()
+(  435.7,   481.2)-(  724.5,   500.4)   288.8 :    19.2 PETSA NG KAPANGANAKAN/DATE OF BIRTH ()
+(  431.6,   505.0)-(  606.7,   530.3)   175.1 :    25.3 JULY 03, 1997 ()
+(  130.6,   538.0)-(  260.6,   555.6)   130.0 :    17.7 TIRAHAN/ADDRESS (0.9100000262260437)
+(  780.8,   515.7)-(  839.2,   541.8)    58.4 :    26.1 PHL ()
+(  125.4,   557.2)-(  570.9,   579.8)   445.4 :    22.7 SITITO SILANGAN, MABATO, ROSARIO, BATANGAS ()
+======================
+ExtractFieldsFromReadResultOfPHNI start...
+OpenCV(4.9.0) Error: Assertion failed (s >= 0) in cv::setSize, file C:\GHA-OCV-1\_work\ci-gha-workflow\ci-gha-workflow\opencv\modules\core\src\matrix.cpp, line 246
+Unknown exceptionMatchTemplate key: PHNI_670_COA MatchResult: 0.9019181132316589/0.800000011920929 x: 73 y: 38 w: 60 h: 70 dist: 0.0667083087049835--> Match
+MatchTemplate key: PHNI_670_Logo_Fingerprint MatchResult: 0.5501610636711121/0.800000011920929 x: 535 y: 49 w: 62 h: 60 dist: 0.19474341512622095--> Possibly Negative
+MatchTemplate key: PHNI_670_Logo_Right_Bottom MatchResult: 0.7780537605285645/0.800000011920929 x: 590 y: 370 w: 36 h: 32 dist: 0.1456022698340937--> Possibly Negative
+MatchTemplate key: PHNI_670_PHL MatchResult: 0.8641305565834045/0.800000011920929 x: 582 y: 332 w: 54 h: 26 dist: 0.1350037700480125--> Match
+MatchTemplate key: PHNI_670_PSA_Watermark MatchResult: 0.7216062545776367/0.800000011920929 x: 472 y: 340 w: 96 h: 30 dist: 0.1149825891666387--> Possibly Negative
+ExtractFieldsFromReadResultOfPHDL (3.0891762 sec)
+
+ScanPHNI back...
+Scan QR code...
+Failed to read QR code. Try OCR
+PostOCRWithRegionRequest start... URL:http://127.0.0.1:8085/
+PostOCRWithRegionRequest PostAsync start...
+PostOCRWithRegionRequest PostAsync (49.2259244 sec)
+
+(49.294436 sec)
+
+(  240.1,   258.0)-(  409.6,   270.7)   169.5 :    12.7 ARAW NG PAKAKALOOD/DATE OF ISSUE ()
+(  241.2,   274.2)-(  385.5,   288.8)   144.4 :    14.6 14 NOVEMBER 2021 ()
+(  242.2,   312.2)-(  333.8,   326.8)    91.6 :    14.6 KASARIAN/SEX ()
+(  243.2,   329.5)-(  312.8,   348.3)    69.6 :    18.8 MALE ()
+(  244.2,   349.1)-(  413.7,   366.0)   169.5 :    16.9 URB+ DUGO/BLOOD TYPE ()
+(  244.2,   370.6)-(  293.4,   389.0)    49.2 :    18.4 AB+ ()
+(  244.2,   389.0)-(  465.9,   405.1)   221.7 :    16.1 KALAYANG SIBIL/MARITAL STATUS ()
+(  244.2,   406.7)-(  336.9,   427.4)    92.7 :    20.7 SINGLE ()
+(  245.2,   427.0)-(  515.1,   443.1)   269.8 :    16.1 LUGUG NG KAPAPANGANAKANAKAN/PLACE OF BIRTH ()
+(  246.3,   446.2)-(  417.8,   466.2)   171.5 :    20.0 CITY OF PASIG NCR ()
+(  246.3,   470.0)-(  403.5,   488.8)   157.2 :    18.8 SECOND DISTRICT ()
+(  248.3,   550.7)-(  513.0,   566.8)   264.7 :    16.1 IF FOUND, PLEASE RETURN TO THE NEAREST ()
+(  249.3,   573.7)-(  327.2,   590.6)    77.8 :    16.9 PSA OFFICE. ()
+(  521.7,   567.2)-(  643.6,   581.8)   121.9 :    14.6 WWW.PSA.GOV.PH ()
+(  720.4,   571.0)-(  814.6,   586.0)    94.2 :    15.0 2:H12781858 ()
+Estimating resolution as 97
+
+Estimating resolution as 130
+144 NOVENBERK 2V,
+Before: (  241.2,   274.2)-(  385.5,   288.8)   144.4 :    14.6 14 NOVEMBER 2021 ()
+After: (  241.2,   274.2)-(  385.5,   288.8)   144.4 :    14.6 14 NOVEMBER 2021 ()
+Estimating resolution as 128
+Estimating resolution as 206
+Empty page!!
+Estimating resolution as 206
+Empty page!!
+Estimating resolution as 140
+tiri ne Dueo/Blooag 1ype
+Before: (  244.2,   349.1)-(  413.7,   366.0)   169.5 :    16.9 URB+ DUGO/BLOOD TYPE ()
+After: (  244.2,   349.1)-(  413.7,   366.0)   169.5 :    16.9 URB+ DUGO/BLOOD TYPE ()
+Estimating resolution as 216
+Empty page!!
+Estimating resolution as 216
+Empty page!!
+Estimating resolution as 116
+Yalsaavano SIDH/IVIAOTNTLUL DAL O
+Estimating resolution as 217
+Empty page!!
+Estimating resolution as 217
+Empty page!!
+Estimating resolution as 170
+
+Estimating resolution as 170
+Empty page!!
+Estimating resolution as 170
+Empty page!!
+Estimating resolution as 97
+Empty page!!
+Estimating resolution as 97
+Empty page!!
+Estimating resolution as 162
+Empty page!!
+Estimating resolution as 162
+Empty page!!
+Estimating resolution as 127
+Empty page!!
+Estimating resolution as 127
+Empty page!!
+Estimating resolution as 158
+Empty page!!
+Estimating resolution as 158
+Empty page!!
+==== Lines read by Tesseract ====
+(    2.0,     0.0)-(  129.0,    10.0)   127.0 :    10.0 144 NOVENBERK 2V, (0.5899999737739563)
+(    1.0,     0.0)-(  168.0,    12.0)   167.0 :    12.0 tiri ne Dueo/Blooag 1ype (0.550000011920929)
+(    3.0,     0.0)-(  220.0,     9.0)   217.0 :     9.0 Yalsaavano SIDH/IVIAOTNTLUL DAL O (0.3199999928474426)
+======================
+==== Merged lines ====
+(  240.1,   258.0)-(  409.6,   270.7)   169.5 :    12.7 ARAW NG PAKAKALOOD/DATE OF ISSUE ()
+(  241.2,   274.2)-(  385.5,   288.8)   144.4 :    14.6 14 NOVEMBER 2021 ()
+(  242.2,   312.2)-(  333.8,   326.8)    91.6 :    14.6 KASARIAN/SEX ()
+(  243.2,   329.5)-(  312.8,   348.3)    69.6 :    18.8 MALE ()
+(  244.2,   349.1)-(  413.7,   366.0)   169.5 :    16.9 URB+ DUGO/BLOOD TYPE ()
+(  244.2,   370.6)-(  293.4,   389.0)    49.2 :    18.4 AB+ ()
+(  244.2,   389.0)-(  465.9,   405.1)   221.7 :    16.1 KALAYANG SIBIL/MARITAL STATUS ()
+(  244.2,   406.7)-(  336.9,   427.4)    92.7 :    20.7 SINGLE ()
+(  245.2,   427.0)-(  515.1,   443.1)   269.8 :    16.1 LUGUG NG KAPAPANGANAKANAKAN/PLACE OF BIRTH ()
+(  246.3,   446.2)-(  417.8,   466.2)   171.5 :    20.0 CITY OF PASIG NCR ()
+(  246.3,   470.0)-(  403.5,   488.8)   157.2 :    18.8 SECOND DISTRICT ()
+(  248.3,   550.7)-(  513.0,   566.8)   264.7 :    16.1 IF FOUND, PLEASE RETURN TO THE NEAREST ()
+(  249.3,   573.7)-(  327.2,   590.6)    77.8 :    16.9 PSA OFFICE. ()
+(  521.7,   569.5)-(  814.6,   586.0)   292.9 :    16.5 WWW.PSA.GOV.PH          2:H12781858 ()
+======================
+ExtractFieldsFromReadResultOfPHNIBK start...
+{  "DateIssued": "14 November 2021",  "Issuer": "PSA",  "subject": {    "Suffix": "",    "lName": "ENRICO",    "fName": "CHRISTIAN",    "mName": "CORONEL",    "sex": "Male",    "BF": "[1,8]",    "DOB": "July 03, 1997",    "POB": "City of Pasig,NCR, SECOND DISTRICT",    "PCN": "2031-8439-2460-5291"  },  "alg": "EDDSA",  "signature": "Tpputgw+4MK8qmt0hpnS6/RdJgq8nb9+ksdwLovuBRmoSTyLt4L0I553Tzq1afVdDEzxqMCRcu/xv8o4pf2TAQ=="}
+DateIssued: 14 November 2021
+Issuer: PSA
+alg: EDDSA
+signature: Tpputgw+4MK8qmt0hpnS6/RdJgq8nb9+ksdwLovuBRmoSTyLt4L0I553Tzq1afVdDEzxqMCRcu/xv8o4pf2TAQ==
+subject:
+  Suffix:
+  lName: ENRICO
+  fName: CHRISTIAN
+  mName: CORONEL
+  sex: Male
+  BT: [1,8]
+  DOB: July 03, 1997
+  POB: City of Pasig,NCR, SECOND DISTRICT
+  PCN: 2031-8439-2460-5291
+ExtractFieldsFromReadResultOfPHNI (1.1005633 sec)
+
+scanPHNIResult.Success: True
+scanPHNIResult.Error:
+scanPHNIResult.lastNameOrFullName: ENRICO
+scanPHNIResult.firstName: CHRISTIAN
+scanPHNIResult.middleName: CORONEL
+scanPHNIResult.documentNumber: 2031-8439-2460-5291
+scanPHNIResult.nationality: PH
+scanPHNIResult.documentIssueDate: 2021-11-14
+scanPHNIResult.documentExpirationDate:
+scanPHNIResult.addressLine1: SITITO SILANGAN, MABATO, ROSARIO, BATANGAS
+scanPHNIResult.addressLine2:
+scanPHNIResult.postcode:
+scanPHNIResult.gender: M
+scanPHNIResult.dateOfBirth: 1997-07-03
+
+[1]
+  Scanned Data: addressLine1: SITITO SILANGAN, MABATO, ROSARIO, BATANGAS
+  Expected    : addressLine1: SITIO SILANGAN, MABATO, ROSARIO BATANGAS
+ --> IsValid: False
+ Calling Azure VisionOCR...  Elapsed: 00:00:01.3830273
+==== Merged lines ====
+(  332.0,   149.0)-(  603.5,   172.0)   271.5 :    23.0 REPUBLIKA NG PILIPINAS ()
+(  362.0,   175.5)-(  570.0,   195.5)   208.0 :    20.0 Republic of the Philippines ()
+(  278.0,   198.5)-(  654.0,   220.5)   376.0 :    22.0 PAMBANSANG PAGKAKAKILANLAN ()
+(  355.0,   225.0)-(  580.0,   243.5)   225.0 :    18.5 Philippine Identification Card ()
+(  179.5,   238.0)-(  224.0,   247.5)    44.5 :     9.5 A NG PILIPINA ()
+(  113.0,   264.0)-(  370.0,   290.0)   257.0 :    26.0 2031-8439-2460-5291 ()
+(  430.0,   296.0)-(  590.0,   313.0)   160.0 :    17.0 Apelyido/Last Name ()
+(  432.0,   323.0)-(  535.0,   345.0)   103.0 :    22.0 ENRICO ()
+(  433.0,   349.0)-(  651.0,   367.5)   218.0 :    18.5 Mga Pangalan/Given Names ()
+(  432.0,   376.5)-(  571.0,   399.5)   139.0 :    23.0 CHRISTIAN ()
+(  432.0,   427.0)-(  678.0,   446.5)   246.0 :    19.5 Gitnang Apelyido/Middle Name ()
+(  433.0,   453.0)-(  560.0,   475.5)   127.0 :    22.5 CORONEL ()
+(  435.0,   480.0)-(  724.0,   499.5)   289.0 :    19.5 Petsa ng Kapanganakan/Date of Birth ()
+(  428.0,   505.5)-(  606.0,   530.0)   178.0 :    24.5 JULY 03, 1997 ()
+(  777.0,   513.0)-(  835.0,   545.0)    58.0 :    32.0 PHI ()
+(  126.0,   538.5)-(  258.0,   555.5)   132.0 :    17.0 Tirahan/Address ()
+(  123.0,   557.0)-(  570.0,   579.5)   447.0 :    22.5 SITIO SILANGAN, MABATO, ROSARIO BATANGAS ()
+======================
+ Calling Azure VisionOCR...  Elapsed: 00:00:03.6856226
+==== Merged lines ====
+(  332.0,   149.0)-(  603.5,   172.0)   271.5 :    23.0 REPUBLIKA NG PILIPINAS ()
+(  362.0,   175.5)-(  570.0,   195.5)   208.0 :    20.0 Republic of the Philippines ()
+(  278.0,   198.5)-(  654.0,   220.5)   376.0 :    22.0 PAMBANSANG PAGKAKAKILANLAN ()
+(  355.0,   225.0)-(  580.0,   243.5)   225.0 :    18.5 Philippine Identification Card ()
+(  179.5,   238.0)-(  224.0,   247.5)    44.5 :     9.5 A NG PILIPINA ()
+(  113.0,   264.0)-(  370.0,   290.0)   257.0 :    26.0 2031-8439-2460-5291 ()
+(  430.0,   296.0)-(  590.0,   313.0)   160.0 :    17.0 Apelyido/Last Name ()
+(  432.0,   323.0)-(  535.0,   345.0)   103.0 :    22.0 ENRICO ()
+(  433.0,   349.0)-(  651.0,   367.5)   218.0 :    18.5 Mga Pangalan/Given Names ()
+(  432.0,   376.5)-(  571.0,   399.5)   139.0 :    23.0 CHRISTIAN ()
+(  432.0,   427.0)-(  678.0,   446.5)   246.0 :    19.5 Gitnang Apelyido/Middle Name ()
+(  433.0,   453.0)-(  560.0,   475.5)   127.0 :    22.5 CORONEL ()
+(  435.0,   480.0)-(  724.0,   499.5)   289.0 :    19.5 Petsa ng Kapanganakan/Date of Birth ()
+(  428.0,   505.5)-(  606.0,   530.0)   178.0 :    24.5 JULY 03, 1997 ()
+(  777.0,   513.0)-(  835.0,   545.0)    58.0 :    32.0 PHI ()
+(  126.0,   538.5)-(  258.0,   555.5)   132.0 :    17.0 Tirahan/Address ()
+(  123.0,   557.0)-(  570.0,   579.5)   447.0 :    22.5 SITIO SILANGAN, MABATO, ROSARIO BATANGAS ()
+======================
+ExtractFieldsFromReadResultOfPHNI start...
+OpenCV(4.9.0) Error: Assertion failed (s >= 0) in cv::setSize, file C:\GHA-OCV-1\_work\ci-gha-workflow\ci-gha-workflow\opencv\modules\core\src\matrix.cpp, line 246
+Unknown exceptionMatchTemplate key: PHNI_670_COA MatchResult: 0.8995584845542908/0.800000011920929 x: 71 y: 39 w: 60 h: 70 dist: 0.0701783323474567--> Match
+MatchTemplate key: PHNI_670_Logo_Fingerprint MatchResult: 0.5579899549484253/0.800000011920929 x: 532 y: 50 w: 62 h: 60 dist: 0.21029740277952644--> Not match
+MatchTemplate key: PHNI_670_Logo_Right_Bottom MatchResult: 0.7393649220466614/0.800000011920929 x: 587 y: 371 w: 36 h: 32 dist: 0.15890255724013388--> Possibly Negative
+MatchTemplate key: PHNI_670_PHL MatchResult: 0.8764178156852722/0.800000011920929 x: 578 y: 333 w: 54 h: 26 dist: 0.15505167230261865--> Match
+MatchTemplate key: PHNI_670_PSA_Watermark MatchResult: 0.7071096301078796/0.800000011920929 x: 470 y: 340 w: 96 h: 30 dist: 0.12490394527169775--> Possibly Negative
+ExtractFieldsFromReadResultOfPHDL (3.1013139 sec)
+
+ScanPHNI back...
+Scan QR code...
+ExtractFieldsFromReadResultOfPHNIBK start...
+CalcPixelPerInch failed
+ExtractFieldsFromReadResultOfPHNI (0.0010299 sec)
+
+
+[1]
+  Scanned Data: gender:
+  Expected    : gender: M
+ --> IsValid: False
+calling OCRIDImageOSS BASEADDR_URL_FLORENCE...
+ScanID imageFileName: F:\WORK\Dev\huggingface\work\ScanID\test1\bin\Debug\net8.0\testdata\PhilID_5931-9426-7546-1037_Test1.jpg
+ScanID imageFileNameBack: F:\WORK\Dev\huggingface\work\ScanID\test1\bin\Debug\net8.0\testdata\PhilID_5931-9426-7546-1037_Test1_Back.jpg
+PostOCRWithRegionRequest start... URL:http://127.0.0.1:8085/
+PostOCRWithRegionRequest PostAsync start...
+PostOCRWithRegionRequest PostAsync (51.3598515 sec)
+
+(51.4358892 sec)
+
+(  525.8,   521.0)-( 1002.8,   561.0)   477.0 :    40.0 REPUBLIKA NG PILIPINAS ()
+(  578.2,   567.0)-(  947.2,   599.0)   369.0 :    32.0 REPUBLIC OF PHILIPPINES ()
+(  431.2,   605.0)-( 1097.2,   645.0)   666.0 :    40.0 PAMBANSANG PACKAKAKAKILANLAN ()
+(  560.2,   651.0)-(  965.2,   685.0)   405.0 :    34.0 PHILIPPINE IDENTIFICATION CARD ()
+(  147.8,   717.0)-(  606.8,   763.0)   459.0 :    46.0 5931-9426-7546-1037 ()
+(  698.2,   777.0)-(  981.8,   811.0)   283.5 :    34.0 APELYIDO/LAST NAME ()
+(  699.8,   817.0)-( 1029.8,   861.0)   330.0 :    44.0 DELOS REYES ()
+(  699.8,   874.0)-( 1089.8,   906.0)   390.0 :    32.0 MGA PANGALAN/GIVEN NAMES ()
+(  699.8,   923.0)-( 1097.2,   967.0)   397.5 :    44.0 CHRISTIAN MARX ()
+(  698.2,  1012.0)-( 1137.8,  1046.0)   439.5 :    34.0 GITANG APELYIDO/MIDDLE NAME ()
+(  699.8,  1060.0)-(  888.8,  1102.0)   189.0 :    42.0 LOZADA ()
+(  699.8,  1107.0)-( 1218.8,  1143.0)   519.0 :    36.0 PETASA NG NG KAPANGANAKANAN/DATE OF BIRTH ()
+(  699.8,  1154.0)-( 1014.8,  1198.0)   315.0 :    44.0 JUNE 06, 1988 ()
+(  164.2,  1201.0)-(  395.2,  1235.0)   231.0 :    34.0 TIRAHAN/ADDRESS ()
+(  170.2,  1241.0)-( 1053.8,  1286.0)   883.5 :    45.0 BLK, 2 LOT 10 D. SUNLIGHT VIEW VIEW VIL. SINDALAN, CITY ()
+( 1317.8,  1179.0)-( 1421.2,  1223.0)   103.5 :    44.0 PHL ()
+(  170.2,  1281.0)-(  690.8,  1319.0)   520.5 :    38.0 OF SAN FERNANDO, PAMPANGA ()
+======================
+Module Path: F:\WORK\Dev\huggingface\work\ScanID\test1\bin\Debug\net8.0\ScanID.dll
+Estimating resolution as 367
+Empty page!!
+Estimating resolution as 367
+Empty page!!
+Estimating resolution as 284
+Republic of the Philippines
+Before: (  578.2,   567.0)-(  947.2,   599.0)   369.0 :    32.0 REPUBLIC OF PHILIPPINES ()
+After: (  578.2,   567.0)-(  947.2,   599.0)   369.0 :    32.0 REPUBLIC OF THE PHILIPPINES (0.9100000262260437)
+Estimating resolution as 371
+Empty page!!
+Estimating resolution as 371
+Empty page!!
+Estimating resolution as 284
+Philippine Identification Card
+Before: (  560.2,   651.0)-(  965.2,   685.0)   405.0 :    34.0 PHILIPPINE IDENTIFICATION CARD ()
+After: (  560.2,   651.0)-(  965.2,   685.0)   405.0 :    34.0 PHILIPPINE IDENTIFICATION CARD ()
+Estimating resolution as 430
+5931-9426-7546-1037
+Before: (  147.8,   717.0)-(  606.8,   763.0)   459.0 :    46.0 5931-9426-7546-1037 ()
+After: (  147.8,   717.0)-(  606.8,   763.0)   459.0 :    46.0 5931-9426-7546-1037 (0.8799999952316284)
+Estimating resolution as 273
+Apelyido/Last/Name
+Estimating resolution as 441
+Empty page!!
+Estimating resolution as 441
+Empty page!!
+Estimating resolution as 273
+Mega Pangalan/Given Names
+Before: (  699.8,   874.0)-( 1089.8,   906.0)   390.0 :    32.0 MGA PANGALAN/GIVEN NAMES ()
+After: (  699.8,   874.0)-( 1089.8,   906.0)   390.0 :    32.0 MGA PANGALAN/GIVEN NAMES ()
+Estimating resolution as 414
+HRISTIAN MARX
+Before: (  699.8,   923.0)-( 1097.2,   967.0)   397.5 :    44.0 CHRISTIAN MARX ()
+After: (  699.8,   923.0)-( 1097.2,   967.0)   397.5 :    44.0 HRISTIAN MARX (0.8999999761581421)
+Estimating resolution as 285
+Gitnang Apelyido/Middle Name
+Before: (  698.2,  1012.0)-( 1137.8,  1046.0)   439.5 :    34.0 GITANG APELYIDO/MIDDLE NAME ()
+After: (  698.2,  1012.0)-( 1137.8,  1046.0)   439.5 :    34.0 GITANG APELYIDO/MIDDLE NAME ()
+Estimating resolution as 428
+Empty page!!
+Estimating resolution as 428
+Empty page!!
+Estimating resolution as 280
+Petsa ng Kapanganakan/Date of Birth
+Before: (  699.8,  1107.0)-( 1218.8,  1143.0)   519.0 :    36.0 PETASA NG NG KAPANGANAKANAN/DATE OF BIRTH ()
+After: (  699.8,  1107.0)-( 1218.8,  1143.0)   519.0 :    36.0 PETASA NG NG KAPANGANAKANAN/DATE OF BIRTH ()
+Estimating resolution as 417
+Empty page!!
+Estimating resolution as 417
+Empty page!!
+Estimating resolution as 281
+Tirahan/Address
+Before: (  164.2,  1201.0)-(  395.2,  1235.0)   231.0 :    34.0 TIRAHAN/ADDRESS ()
+After: (  164.2,  1201.0)-(  395.2,  1235.0)   231.0 :    34.0 TIRAHAN/ADDRESS (0.8999999761581421)
+Estimating resolution as 397
+SUNLIGHT VIEWAZE ., SINDALAN. CITY
+
+Estimating resolution as 550
+Empty page!!
+Estimating resolution as 550
+Empty page!!
+Estimating resolution as 379
+OF SAN FERNANDO: PAMPANGA
+Before: (  170.2,  1281.0)-(  690.8,  1319.0)   520.5 :    38.0 OF SAN FERNANDO, PAMPANGA ()
+After: (  170.2,  1281.0)-(  690.8,  1319.0)   520.5 :    38.0 OF SAN FERNANDO, PAMPANGA ()
+==== Lines read by Tesseract ====
+(    4.0,     3.0)-(  367.0,    32.0)   363.0 :    23.0 Republic of the Philippines (0.9100000262260437)
+(    0.0,     0.0)-(  405.0,    34.0)   405.0 :    28.0 Philippine Identification Card (0.5899999737739563)
+(    4.0,     6.0)-(  457.0,    46.0)   453.0 :    34.0 5931-9426-7546-1037 (0.8799999952316284)
+(    2.0,     1.0)-(  281.0,    33.0)   279.0 :    27.0 Apelyido/Last/Name (0.25999999046325684)
+(    3.0,     0.0)-(  388.0,    34.0)   385.0 :    26.0 Mega Pangalan/Given Names (0.6899999976158142)
+(   40.0,     6.0)-(  395.0,    42.0)   355.0 :    33.0 HRISTIAN MARX (0.8999999761581421)
+(    2.0,     5.0)-(  435.0,    35.0)   433.0 :    23.0 Gitnang Apelyido/Middle Name (0.6700000166893005)
+(    0.0,     0.0)-(  515.0,    36.0)   515.0 :    34.0 Petsa ng Kapanganakan/Date of Birth (0.7400000095367432)
+(    3.0,     5.0)-(  227.0,    33.0)   224.0 :    23.0 Tirahan/Address (0.8999999761581421)
+(  275.0,     0.0)-(  881.0,    50.0)   606.0 :    34.0 SUNLIGHT VIEWAZE ., SINDALAN. CITY (0.5400000214576721)
+(    2.0,     0.0)-(  518.0,    38.0)   516.0 :    33.0 OF SAN FERNANDO: PAMPANGA (0.75)
+======================
+==== Merged lines ====
+(  525.8,   521.0)-( 1002.8,   561.0)   477.0 :    40.0 REPUBLIKA NG PILIPINAS ()
+(  578.2,   567.0)-(  947.2,   599.0)   369.0 :    32.0 REPUBLIC OF THE PHILIPPINES (0.9100000262260437)
+(  431.2,   605.0)-( 1097.2,   645.0)   666.0 :    40.0 PAMBANSANG PACKAKAKAKILANLAN ()
+(  560.2,   651.0)-(  965.2,   685.0)   405.0 :    34.0 PHILIPPINE IDENTIFICATION CARD ()
+(  147.8,   717.0)-(  606.8,   763.0)   459.0 :    46.0 5931-9426-7546-1037 (0.8799999952316284)
+(  698.2,   777.0)-(  981.8,   811.0)   283.5 :    34.0 APELYIDO/LAST NAME ()
+(  699.8,   817.0)-( 1029.8,   861.0)   330.0 :    44.0 DELOS REYES ()
+(  699.8,   874.0)-( 1089.8,   906.0)   390.0 :    32.0 MGA PANGALAN/GIVEN NAMES ()
+(  699.8,   923.0)-( 1097.2,   967.0)   397.5 :    44.0 HRISTIAN MARX (0.8999999761581421)
+(  698.2,  1012.0)-( 1137.8,  1046.0)   439.5 :    34.0 GITANG APELYIDO/MIDDLE NAME ()
+(  699.8,  1060.0)-(  888.8,  1102.0)   189.0 :    42.0 LOZADA ()
+(  699.8,  1107.0)-( 1218.8,  1143.0)   519.0 :    36.0 PETASA NG NG KAPANGANAKANAN/DATE OF BIRTH ()
+(  699.8,  1154.0)-( 1014.8,  1198.0)   315.0 :    44.0 JUNE 06, 1988 ()
+(  164.2,  1201.0)-(  395.2,  1235.0)   231.0 :    34.0 TIRAHAN/ADDRESS (0.8999999761581421)
+(  170.2,  1241.0)-( 1053.8,  1286.0)   883.5 :    45.0 BLK, 2 LOT 10 D. SUNLIGHT VIEW VIEW VIL. SINDALAN, CITY ()
+( 1317.8,  1179.0)-( 1421.2,  1223.0)   103.5 :    44.0 PHL ()
+(  170.2,  1281.0)-(  690.8,  1319.0)   520.5 :    38.0 OF SAN FERNANDO, PAMPANGA ()
+======================
+ExtractFieldsFromReadResultOfPHNI start...
+OpenCV(4.9.0) Error: Assertion failed (s >= 0) in cv::setSize, file C:\GHA-OCV-1\_work\ci-gha-workflow\ci-gha-workflow\opencv\modules\core\src\matrix.cpp, line 246
+Unknown exceptionMatchTemplate key: PHNI_670_COA MatchResult: 0.8790830373764038/0.800000011920929 x: 70 y: 36 w: 60 h: 70 dist: 0.05499998807907103--> Match
+MatchTemplate key: PHNI_670_Logo_Fingerprint MatchResult: 0.5770183801651001/0.800000011920929 x: 538 y: 47 w: 62 h: 60 dist: 0.17677668956466563--> Possibly Negative
+MatchTemplate key: PHNI_670_Logo_Right_Bottom MatchResult: 0.7822011113166809/0.800000011920929 x: 591 y: 374 w: 36 h: 32 dist: 0.13647351086880946--> Possibly Negative
+MatchTemplate key: PHNI_670_PHL MatchResult: 0.7122029066085815/0.800000011920929 x: 583 y: 339 w: 54 h: 26 dist: 0.13437269314939684--> Possibly Negative
+MatchTemplate key: PHNI_670_PSA_Watermark MatchResult: 0.6234281659126282/0.800000011920929 x: 10 y: 225 w: 96 h: 30 dist: 2.494769706858489--> Not match
+ExtractFieldsFromReadResultOfPHDL (3.1848975 sec)
+
+ScanPHNI back...
+Scan QR code...
+ExtractFieldsFromReadResultOfPHNIBK start...
+{  "DateIssued": "12 September 2022",  "Issuer": "PSA",  "subject": {    "Suffix": "",    "lName": "DELOS REYES",    "fName": "CHRISTIAN MARX",    "mName": "LOZADA",    "sex": "Male",    "BF": "[1,9]",    "DOB": "June 06, 1988",    "POB": "City of Caloocan,NCR, THIRD DISTRICT",    "PCN": "5931-9426-7546-1037"  },  "alg": "EDDSA",  "signature": "H6WF1LJOcXPiMlE6VTBgamixsA8GqxJ3tJpxpSDmR9qoCMj4/jBKJo3PyP3PdtmMBwXa/ZlypuIOkkcZxqzrAw=="}
+DateIssued: 12 September 2022
+Issuer: PSA
+alg: EDDSA
+signature: H6WF1LJOcXPiMlE6VTBgamixsA8GqxJ3tJpxpSDmR9qoCMj4/jBKJo3PyP3PdtmMBwXa/ZlypuIOkkcZxqzrAw==
+subject:
+  Suffix:
+  lName: DELOS REYES
+  fName: CHRISTIAN MARX
+  mName: LOZADA
+  sex: Male
+  BT: [1,9]
+  DOB: June 06, 1988
+  POB: City of Caloocan,NCR, THIRD DISTRICT
+  PCN: 5931-9426-7546-1037
+ExtractFieldsFromReadResultOfPHNI (0.0101354 sec)
+
+scanPHNIResult.Success: True
+scanPHNIResult.Error:
+scanPHNIResult.lastNameOrFullName: DELOS REYES
+scanPHNIResult.firstName: CHRISTIAN MARX
+scanPHNIResult.middleName: LOZADA
+scanPHNIResult.documentNumber: 5931-9426-7546-1037
+scanPHNIResult.nationality: PH
+scanPHNIResult.documentIssueDate: 2022-09-12
+scanPHNIResult.documentExpirationDate:
+scanPHNIResult.addressLine1: BLK, 2 LOT 10 D. SUNLIGHT VIEW VIEW VIL. SINDALAN, CITY
+scanPHNIResult.addressLine2: OF SAN FERNANDO, PAMPANGA
+scanPHNIResult.postcode:
+scanPHNIResult.gender: M
+scanPHNIResult.dateOfBirth: 1988-06-06
+
+[1]
+  Scanned Data: addressLine1: BLK, 2 LOT 10 D. SUNLIGHT VIEW VIEW VIL. SINDALAN, CITY
+  Expected    : addressLine1: BLK. 2 LOT 10 D, SUNLIGHT VIEW VILL ., SINDALAN, CITY
+
+[2]
+  Scanned Data: gender: M
+  Expected    : gender:
+ --> IsValid: False
+ Calling Azure VisionOCR...  Elapsed: 00:00:01.4280361
+==== Merged lines ====
+(  526.0,   525.5)-( 1007.0,   562.5)   481.0 :    37.0 REPUBLIKA NG PILIPINAS ()
+(  582.0,   571.0)-(  954.0,   605.0)   372.0 :    34.0 Republic of the Philippines ()
+(  430.0,   611.0)-( 1103.0,   648.0)   673.0 :    37.0 PAMBANSANG PAGKAKAKILANLAN ()
+(  199.0,   674.5)-(  343.5,   697.5)   144.5 :    23.0 REPUBLIKA NG PILIPINAS ()
+(  570.0,   656.5)-(  971.0,   690.5)   401.0 :    34.0 Philippine Identification Card ()
+(  145.5,   722.5)-(  607.5,   768.5)   462.0 :    46.0 5931-9426-7546-1037 ()
+(  699.0,   785.0)-(  989.0,   817.0)   290.0 :    32.0 Apelyido/Last Name ()
+(  708.0,   827.0)-( 1038.5,   868.0)   330.5 :    41.0 DELOS REYES ()
+(  704.0,   881.0)-( 1096.0,   912.0)   392.0 :    31.0 Mga Pangalan/Given Names ()
+(  704.0,   933.5)-( 1109.0,   973.5)   405.0 :    40.0 CHRISTIAN MARX ()
+(  703.0,  1022.5)-( 1145.0,  1053.5)   442.0 :    31.0 Gitnang Apelyido/Middle Name ()
+(  702.5,  1070.5)-(  894.5,  1111.5)   192.0 :    41.0 LOZADA ()
+(  700.0,  1116.5)-( 1233.0,  1150.5)   533.0 :    34.0 Petsa ng Kapanganakan/Date of Birth ()
+(  693.0,  1162.5)-( 1023.0,  1211.5)   330.0 :    49.0 JUNE 06, 1988 ()
+(  168.0,  1213.0)-(  394.0,  1243.0)   226.0 :    30.0 Tirahan/Address ()
+( 1330.0,  1188.0)-( 1427.5,  1236.0)    97.5 :    48.0 PHI ()
+(  170.0,  1253.5)-( 1060.5,  1292.5)   890.5 :    39.0 BLK. 2 LOT 10 D, SUNLIGHT VIEW VILL ., SINDALAN, CITY ()
+(  170.5,  1292.0)-(  693.0,  1330.5)   522.5 :    38.5 OF SAN FERNANDO, PAMPANGA ()
+======================
+ Calling Azure VisionOCR...  Elapsed: 00:00:01.4066939
+==== Merged lines ====
+(  526.0,   525.5)-( 1007.0,   562.5)   481.0 :    37.0 REPUBLIKA NG PILIPINAS ()
+(  582.0,   571.0)-(  954.0,   605.0)   372.0 :    34.0 Republic of the Philippines ()
+(  430.0,   611.0)-( 1103.0,   648.0)   673.0 :    37.0 PAMBANSANG PAGKAKAKILANLAN ()
+(  199.0,   674.5)-(  343.5,   697.5)   144.5 :    23.0 REPUBLIKA NG PILIPINAS ()
+(  570.0,   656.5)-(  971.0,   690.5)   401.0 :    34.0 Philippine Identification Card ()
+(  145.5,   722.5)-(  607.5,   768.5)   462.0 :    46.0 5931-9426-7546-1037 ()
+(  699.0,   785.0)-(  989.0,   817.0)   290.0 :    32.0 Apelyido/Last Name ()
+(  708.0,   827.0)-( 1038.5,   868.0)   330.5 :    41.0 DELOS REYES ()
+(  704.0,   881.0)-( 1096.0,   912.0)   392.0 :    31.0 Mga Pangalan/Given Names ()
+(  704.0,   933.5)-( 1109.0,   973.5)   405.0 :    40.0 CHRISTIAN MARX ()
+(  703.0,  1022.5)-( 1145.0,  1053.5)   442.0 :    31.0 Gitnang Apelyido/Middle Name ()
+(  702.5,  1070.5)-(  894.5,  1111.5)   192.0 :    41.0 LOZADA ()
+(  700.0,  1116.5)-( 1233.0,  1150.5)   533.0 :    34.0 Petsa ng Kapanganakan/Date of Birth ()
+(  693.0,  1162.5)-( 1023.0,  1211.5)   330.0 :    49.0 JUNE 06, 1988 ()
+(  168.0,  1213.0)-(  394.0,  1243.0)   226.0 :    30.0 Tirahan/Address ()
+( 1330.0,  1188.0)-( 1427.5,  1236.0)    97.5 :    48.0 PHI ()
+(  170.0,  1253.5)-( 1060.5,  1292.5)   890.5 :    39.0 BLK. 2 LOT 10 D, SUNLIGHT VIEW VILL ., SINDALAN, CITY ()
+(  170.5,  1292.0)-(  693.0,  1330.5)   522.5 :    38.5 OF SAN FERNANDO, PAMPANGA ()
+======================
+ExtractFieldsFromReadResultOfPHNI start...
+OpenCV(4.9.0) Error: Assertion failed (s >= 0) in cv::setSize, file C:\GHA-OCV-1\_work\ci-gha-workflow\ci-gha-workflow\opencv\modules\core\src\matrix.cpp, line 246
+Unknown exceptionMatchTemplate key: PHNI_670_COA MatchResult: 0.8763282895088196/0.800000011920929 x: 69 y: 38 w: 60 h: 70 dist: 0.0651920121662108--> Match
+MatchTemplate key: PHNI_670_Logo_Fingerprint MatchResult: 0.6017184257507324/0.800000011920929 x: 538 y: 49 w: 62 h: 60 dist: 0.1817965833975534--> Possibly Negative
+MatchTemplate key: PHNI_670_Logo_Right_Bottom MatchResult: 0.7980523705482483/0.800000011920929 x: 591 y: 376 w: 36 h: 32 dist: 0.13536993239510192--> Possibly Negative
+MatchTemplate key: PHNI_670_PHL MatchResult: 0.7543590664863586/0.800000011920929 x: 583 y: 341 w: 54 h: 26 dist: 0.13724438654083365--> Possibly Negative
+MatchTemplate key: PHNI_670_PSA_Watermark MatchResult: 0.62251877784729/0.800000011920929 x: 9 y: 227 w: 96 h: 30 dist: 2.497286705784543--> Not match
+ExtractFieldsFromReadResultOfPHDL (3.1610704 sec)
+
+ScanPHNI back...
+Scan QR code...
+ExtractFieldsFromReadResultOfPHNIBK start...
+CalcPixelPerInch failed
+ExtractFieldsFromReadResultOfPHNI (0.0010996 sec)
+
+ --> IsValid: True
+calling OCRIDImageOSS BASEADDR_URL_FLORENCE...
+ScanID imageFileName: F:\WORK\Dev\huggingface\work\ScanID\test1\bin\Debug\net8.0\testdata\PhilID_5931-9426-7546-1037_Test2.jpg
+ScanID imageFileNameBack: F:\WORK\Dev\huggingface\work\ScanID\test1\bin\Debug\net8.0\testdata\PhilID_5931-9426-7546-1037_Test2_Back.jpg
+PostOCRWithRegionRequest start... URL:http://127.0.0.1:8085/
+PostOCRWithRegionRequest PostAsync start...
+PostOCRWithRegionRequest PostAsync (51.7812921 sec)
+
+(51.8971325 sec)
+
+(  263.5,   262.6)-(  504.6,   282.7)   241.2 :    20.2 REPUBLIKA NG PILIPINAS ()
+(  290.7,   287.3)-(  478.2,   302.4)   187.5 :    15.1 REPUBLIC OF PHILIPPINES ()
+(  215.8,   305.9)-(  552.3,   326.1)   336.4 :    20.2 PAMBANSANG PAGKAKAKILANLAN ()
+(  280.9,   329.1)-(  485.0,   346.2)   204.1 :    17.1 PHILIPPINE IDENTIFICATION CARD ()
+(   73.7,   362.9)-(  304.3,   385.1)   230.6 :    22.2 5931-9426-7546-1037 ()
+(  351.2,   393.6)-(  494.8,   408.7)   143.6 :    15.1 APELYIDO/LAST NAME ()
+(  351.2,   413.8)-(  517.5,   436.0)   166.3 :    22.2 DELOS REYES ()
+(  351.2,   441.5)-(  548.5,   457.6)   197.3 :    16.1 MGA PANGALAN/GIVEN NAMES ()
+(  352.7,   466.2)-(  552.3,   488.4)   199.6 :    22.2 CHRISTIAN MARX ()
+(  351.2,   511.1)-(  572.7,   528.2)   221.5 :    17.1 GITHANG APELYDO/MIDDLE NAME ()
+(  351.2,   536.3)-(  447.2,   556.4)    96.0 :    20.2 LOZADA ()
+(  351.2,   559.4)-(  613.5,   576.6)   262.3 :    17.1 PETASA NG KAPANGANAKAN/DATE OF BIRTH ()
+(  351.2,   582.6)-(  510.7,   605.8)   159.5 :    23.2 JUNE 06, 1988 ()
+(   82.0,   607.3)-(  197.7,   623.4)   115.7 :    16.1 TIRAHAN/ADDRESS ()
+(   83.5,   627.0)-(  529.6,   648.6)   446.0 :    21.7 BLK, 2 LOT 10 D. SUNLIGHT VIEW VIELL, SINDALAN, CITY ()
+(  662.6,   594.2)-(  716.3,   618.4)    53.7 :    24.2 PHL ()
+(   83.5,   646.6)-(  347.4,   666.8)   263.8 :    20.2 OF SAN FERNANDO, PAMPANGA ()
+======================
+Module Path: F:\WORK\Dev\huggingface\work\ScanID\test1\bin\Debug\net8.0\ScanID.dll
+Estimating resolution as 184
+Empty page!!
+Estimating resolution as 184
+Empty page!!
+Estimating resolution as 147
+
+Estimating resolution as 186
+PAMBANSANG PAGKAKAKILANLAN
+Before: (  215.8,   305.9)-(  552.3,   326.1)   336.4 :    20.2 PAMBANSANG PAGKAKAKILANLAN ()
+After: (  215.8,   305.9)-(  552.3,   326.1)   336.4 :    20.2 PAMBANSANG PAGKAKAKILANLAN (0.9100000262260437)
+Estimating resolution as 145
+Philippine Identification Card
+Before: (  280.9,   329.1)-(  485.0,   346.2)   204.1 :    17.1 PHILIPPINE IDENTIFICATION CARD ()
+After: (  280.9,   329.1)-(  485.0,   346.2)   204.1 :    17.1 PHILIPPINE IDENTIFICATION CARD ()
+Estimating resolution as 219
+Detected 2 diacritics
+5931-94.
+26-7546-1037
+Estimating resolution as 144
+Apelvido/Last Name
+Before: (  351.2,   393.6)-(  494.8,   408.7)   143.6 :    15.1 APELYIDO/LAST NAME ()
+After: (  351.2,   393.6)-(  494.8,   408.7)   143.6 :    15.1 APELYIDO/LAST NAME ()
+Estimating resolution as 222
+Empty page!!
+Estimating resolution as 222
+Empty page!!
+Estimating resolution as 139
+Mega Pangalan/Given Names
+Before: (  351.2,   441.5)-(  548.5,   457.6)   197.3 :    16.1 MGA PANGALAN/GIVEN NAMES ()
+After: (  351.2,   441.5)-(  548.5,   457.6)   197.3 :    16.1 MGA PANGALAN/GIVEN NAMES ()
+Estimating resolution as 214
+Empty page!!
+Estimating resolution as 214
+Empty page!!
+Estimating resolution as 146
+Gitnang Apelyido/Middlé Name
+Before: (  351.2,   511.1)-(  572.7,   528.2)   221.5 :    17.1 GITHANG APELYDO/MIDDLE NAME ()
+After: (  351.2,   511.1)-(  572.7,   528.2)   221.5 :    17.1 GITHANG APELYDO/MIDDLE NAME ()
+Estimating resolution as 216
+Empty page!!
+Estimating resolution as 216
+Empty page!!
+Estimating resolution as 145
+Petsa ng Kapanganakan/Date of Birth
+Before: (  351.2,   559.4)-(  613.5,   576.6)   262.3 :    17.1 PETASA NG KAPANGANAKAN/DATE OF BIRTH ()
+After: (  351.2,   559.4)-(  613.5,   576.6)   262.3 :    17.1 PETSA NG KAPANGANAKAN/DATE OF BIRTH (0.9100000262260437)
+Estimating resolution as 224
+Empty page!!
+Estimating resolution as 224
+Empty page!!
+Estimating resolution as 145
+Tirahan/Address
+Before: (   82.0,   607.3)-(  197.7,   623.4)   115.7 :    16.1 TIRAHAN/ADDRESS ()
+After: (   82.0,   607.3)-(  197.7,   623.4)   115.7 :    16.1 TIRAHAN/ADDRESS (0.8899999856948853)
+Estimating resolution as 202
+BLK. 2 LOT 10 D, SUNLIGHT VIEW
+
+. SINDALAN. CITY
+Estimating resolution as 278
+Empty page!!
+Estimating resolution as 278
+Empty page!!
+Estimating resolution as 204
+Empty page!!
+Estimating resolution as 204
+Empty page!!
+==== Lines read by Tesseract ====
+(    4.0,     3.0)-(  335.0,    19.0)   331.0 :    14.0 PAMBANSANG PAGKAKAKILANLAN (0.9100000262260437)
+(    0.0,     2.0)-(  204.0,    17.0)   204.0 :    11.0 Philippine Identification Card (0.6899999976158142)
+(    3.0,     2.0)-(   87.0,    19.0)    84.0 :    16.0 5931-94. (0.8100000023841858)
+(   89.0,     3.0)-(  231.0,    21.0)   142.0 :    16.0 26-7546-1037 (0.8100000023841858)
+(    1.0,     0.0)-(  143.0,    15.0)   142.0 :    13.0 Apelvido/Last Name (0.7699999809265137)
+(    1.0,     1.0)-(  197.0,    15.0)   196.0 :    11.0 Mega Pangalan/Given Names (0.7699999809265137)
+(    2.0,     2.0)-(  220.0,    17.0)   218.0 :    12.0 Gitnang Apelyido/Middlé Name (0.6499999761581421)
+(    0.0,     0.0)-(  261.0,    19.0)   261.0 :    14.0 Petsa ng Kapanganakan/Date of Birth (0.9100000262260437)
+(    2.0,     1.0)-(  115.0,    15.0)   113.0 :    12.0 Tirahan/Address (0.8899999856948853)
+(    4.0,     2.0)-(  269.0,    23.0)   265.0 :    15.0 BLK. 2 LOT 10 D, SUNLIGHT VIEW (0.7900000214576721)
+(  311.0,     4.0)-(  446.0,    22.0)   135.0 :    15.0 . SINDALAN. CITY (0.7900000214576721)
+======================
+==== Merged lines ====
+(  263.5,   262.6)-(  504.6,   282.7)   241.2 :    20.2 REPUBLIKA NG PILIPINAS ()
+(  290.7,   287.3)-(  478.2,   302.4)   187.5 :    15.1 REPUBLIC OF PHILIPPINES ()
+(  215.8,   305.9)-(  552.3,   326.1)   336.4 :    20.2 PAMBANSANG PAGKAKAKILANLAN (0.9100000262260437)
+(  280.9,   329.1)-(  485.0,   346.2)   204.1 :    17.1 PHILIPPINE IDENTIFICATION CARD ()
+(   73.7,   362.9)-(  304.3,   385.1)   230.6 :    22.2 5931-9426-7546-1037 ()
+(  351.2,   393.6)-(  494.8,   408.7)   143.6 :    15.1 APELYIDO/LAST NAME ()
+(  351.2,   413.8)-(  517.5,   436.0)   166.3 :    22.2 DELOS REYES ()
+(  351.2,   441.5)-(  548.5,   457.6)   197.3 :    16.1 MGA PANGALAN/GIVEN NAMES ()
+(  352.7,   466.2)-(  552.3,   488.4)   199.6 :    22.2 CHRISTIAN MARX ()
+(  351.2,   511.1)-(  572.7,   528.2)   221.5 :    17.1 GITHANG APELYDO/MIDDLE NAME ()
+(  351.2,   536.3)-(  447.2,   556.4)    96.0 :    20.2 LOZADA ()
+(  351.2,   559.4)-(  613.5,   576.6)   262.3 :    17.1 PETSA NG KAPANGANAKAN/DATE OF BIRTH (0.9100000262260437)
+(  351.2,   582.6)-(  510.7,   605.8)   159.5 :    23.2 JUNE 06, 1988 ()
+(   82.0,   607.3)-(  197.7,   623.4)   115.7 :    16.1 TIRAHAN/ADDRESS (0.8899999856948853)
+(   83.5,   627.0)-(  529.6,   648.6)   446.0 :    21.7 BLK, 2 LOT 10 D. SUNLIGHT VIEW VIELL, SINDALAN, CITY ()
+(  662.6,   594.2)-(  716.3,   618.4)    53.7 :    24.2 PHL ()
+(   83.5,   646.6)-(  347.4,   666.8)   263.8 :    20.2 OF SAN FERNANDO, PAMPANGA ()
+======================
+ExtractFieldsFromReadResultOfPHNI start...
+OpenCV(4.9.0) Error: Assertion failed (s >= 0) in cv::setSize, file C:\GHA-OCV-1\_work\ci-gha-workflow\ci-gha-workflow\opencv\modules\core\src\matrix.cpp, line 246
+Unknown exceptionMatchTemplate key: PHNI_670_COA MatchResult: 0.8761263489723206/0.800000011920929 x: 73 y: 37 w: 60 h: 70 dist: 0.061846572819265144--> Match
+MatchTemplate key: PHNI_670_Logo_Fingerprint MatchResult: 0.5963144898414612/0.800000011920929 x: 540 y: 48 w: 62 h: 60 dist: 0.17066047537210524--> Possibly Negative
+MatchTemplate key: PHNI_670_Logo_Right_Bottom MatchResult: 0.7474780678749084/0.800000011920929 x: 593 y: 375 w: 36 h: 32 dist: 0.12589685281059515--> Possibly Negative
+MatchTemplate key: PHNI_670_PHL MatchResult: 0.7575705051422119/0.800000011920929 x: 585 y: 339 w: 54 h: 26 dist: 0.12472377210892018--> Possibly Negative
+MatchTemplate key: PHNI_670_PSA_Watermark MatchResult: 0.6221897602081299/0.800000011920929 x: 13 y: 226 w: 96 h: 30 dist: 2.479013088114059--> Not match
+ExtractFieldsFromReadResultOfPHDL (3.1026569 sec)
+
+ScanPHNI back...
+Scan QR code...
+Failed to read QR code. Try OCR
+PostOCRWithRegionRequest start... URL:http://127.0.0.1:8085/
+PostOCRWithRegionRequest PostAsync start...
+PostOCRWithRegionRequest PostAsync (49.5399125 sec)
+
+(49.6088898 sec)
+
+(   94.9,   530.2)-(  243.8,   541.3)   148.9 :    11.1 ARW ARW NG PAGKAKALOBOB/DATE OF HUUR ()
+(   93.4,   544.8)-(  227.2,   557.9)   133.8 :    13.1 12 SEPTEMBER 2022 ()
+(   93.4,   575.1)-(  176.5,   588.2)    83.2 :    13.1 KASARIAN/SEX ()
+(   91.9,   590.2)-(  152.3,   607.3)    60.5 :    17.1 MALE ()
+(   93.4,   609.3)-(  243.8,   623.4)   150.4 :    14.1 URING DUGO/BLOOD TYPE ()
+(   93.4,   624.5)-(  206.0,   641.6)   112.6 :    17.1 UNKNOWN ()
+(   93.4,   644.6)-(  290.7,   659.7)   197.3 :    15.1 KALAGAYANG SIBIL/MARITAL/STATUS ()
+(   91.9,   659.7)-(  189.4,   676.9)    97.5 :    17.1 MARRIED ()
+(   91.9,   676.9)-(  331.5,   694.0)   239.7 :    17.1 LUGAR OF KAPANGANGANAKAN/PLACE OF BIRTH ()
+(   91.9,   697.0)-(  280.9,   716.2)   189.0 :    19.2 CITY OF CALOOCAN NCR ()
+(   91.9,   719.2)-(  211.3,   736.3)   119.4 :    17.1 THIRD DISTRICT ()
+(   94.9,   787.8)-(  326.2,   802.9)   231.3 :    15.1 IF FOUND, PLEASE RETURN TO THE NEAREST ()
+(   94.9,   804.9)-(  164.4,   821.0)    69.6 :    16.1 PSA OFFICE. ()
+(  333.8,   805.9)-(  437.3,   818.0)   103.6 :    12.1 WWW.PSA.GOV.PH ()
+(  510.7,   809.9)-(  588.5,   822.0)    77.9 :    12.1 21E1747184 ()
+Estimating resolution as 114
+Araw ng pagkakaloob/Dote of iSsue
+Before: (   94.9,   530.2)-(  243.8,   541.3)   148.9 :    11.1 ARW ARW NG PAGKAKALOBOB/DATE OF HUUR ()
+After: (   94.9,   530.2)-(  243.8,   541.3)   148.9 :    11.1 ARW ARW NG PAGKAKALOBOB/DATE OF HUUR ()
+Estimating resolution as 131
+12 SEPTEMBER 2022
+Before: (   93.4,   544.8)-(  227.2,   557.9)   133.8 :    13.1 12 SEPTEMBER 2022 ()
+After: (   93.4,   544.8)-(  227.2,   557.9)   133.8 :    13.1 12 SEPTEMBER 2022 (0.9200000166893005)
+Estimating resolution as 119
+Kasarian/Sex
+Before: (   93.4,   575.1)-(  176.5,   588.2)    83.2 :    13.1 KASARIAN/SEX ()
+After: (   93.4,   575.1)-(  176.5,   588.2)    83.2 :    13.1 KASARIAN/SEX (0.9100000262260437)
+Estimating resolution as 197
+Empty page!!
+Estimating resolution as 197
+Empty page!!
+Estimating resolution as 131
+Uri ng Dugo/Blood Type
+Before: (   93.4,   609.3)-(  243.8,   623.4)   150.4 :    14.1 URING DUGO/BLOOD TYPE ()
+After: (   93.4,   609.3)-(  243.8,   623.4)   150.4 :    14.1 URING DUGO/BLOOD TYPE ()
+Estimating resolution as 186
+Empty page!!
+Estimating resolution as 186
+Empty page!!
+Estimating resolution as 130
+Kalagayang Sibil/Marital Status
+Before: (   93.4,   644.6)-(  290.7,   659.7)   197.3 :    15.1 KALAGAYANG SIBIL/MARITAL/STATUS ()
+After: (   93.4,   644.6)-(  290.7,   659.7)   197.3 :    15.1 KALAGAYANG SIBIL/MARITAL/STATUS ()
+Estimating resolution as 191
+Empty page!!
+Estimating resolution as 191
+Empty page!!
+Estimating resolution as 142
+Lugar ng KapanganakanfPlace of Birth
+Estimating resolution as 203
+
+Estimating resolution as 184
+Empty page!!
+Estimating resolution as 184
+Empty page!!
+Estimating resolution as 129
+If found. pleasereturnito the nearest
+Estimating resolution as 138
+PSA Office.
+Before: (   94.9,   804.9)-(  164.4,   821.0)    69.6 :    16.1 PSA OFFICE. ()
+After: (   94.9,   804.9)-(  164.4,   821.0)    69.6 :    16.1 PSA OFFICE. (0.9100000262260437)
+Estimating resolution as 114
+WWWwW psagovinh
+Estimating resolution as 131
+21E1747184
+Before: (  510.7,   809.9)-(  588.5,   822.0)    77.9 :    12.1 21E1747184 ()
+After: (  510.7,   809.9)-(  588.5,   822.0)    77.9 :    12.1 21E1747184 ()
+==== Lines read by Tesseract ====
+(    2.0,     0.0)-(  149.0,    10.0)   147.0 :     8.0 Araw ng pagkakaloob/Dote of iSsue (0.5799999833106995)
+(    1.0,     3.0)-(  133.0,    13.0)   132.0 :    10.0 12 SEPTEMBER 2022 (0.9200000166893005)
+(    3.0,     1.0)-(   82.0,    13.0)    79.0 :    11.0 Kasarian/Sex (0.9100000262260437)
+(    3.0,     2.0)-(  150.0,    14.0)   147.0 :    11.0 Uri ng Dugo/Blood Type (0.7900000214576721)
+(    3.0,     0.0)-(  197.0,    15.0)   194.0 :    14.0 Kalagayang Sibil/Marital Status (0.75)
+(    5.0,     0.0)-(  240.0,    18.0)   235.0 :    16.0 Lugar ng KapanganakanfPlace of Birth (0.4699999988079071)
+(    3.0,     1.0)-(  232.0,    15.0)   229.0 :    12.0 If found. pleasereturnito the nearest (0.4300000071525574)
+(    3.0,     4.0)-(   69.0,    17.0)    66.0 :    11.0 PSA Office. (0.9100000262260437)
+(    3.0,     0.0)-(  104.0,    12.0)   101.0 :    12.0 WWWwW psagovinh (0.14000000059604645)
+(    4.0,     3.0)-(   78.0,    13.0)    74.0 :    10.0 21E1747184 (0.5600000023841858)
+======================
+==== Merged lines ====
+(   94.9,   530.2)-(  243.8,   541.3)   148.9 :    11.1 ARW ARW NG PAGKAKALOBOB/DATE OF HUUR ()
+(   93.4,   544.8)-(  227.2,   557.9)   133.8 :    13.1 12 SEPTEMBER 2022 (0.9200000166893005)
+(   93.4,   575.1)-(  176.5,   588.2)    83.2 :    13.1 KASARIAN/SEX (0.9100000262260437)
+(   91.9,   590.2)-(  152.3,   607.3)    60.5 :    17.1 MALE ()
+(   93.4,   609.3)-(  243.8,   623.4)   150.4 :    14.1 URING DUGO/BLOOD TYPE ()
+(   93.4,   624.5)-(  206.0,   641.6)   112.6 :    17.1 UNKNOWN ()
+(   93.4,   644.6)-(  290.7,   659.7)   197.3 :    15.1 KALAGAYANG SIBIL/MARITAL/STATUS ()
+(   91.9,   659.7)-(  189.4,   676.9)    97.5 :    17.1 MARRIED ()
+(   91.9,   676.9)-(  331.5,   694.0)   239.7 :    17.1 LUGAR OF KAPANGANGANAKAN/PLACE OF BIRTH ()
+(   91.9,   697.0)-(  280.9,   716.2)   189.0 :    19.2 CITY OF CALOOCAN NCR ()
+(   91.9,   719.2)-(  211.3,   736.3)   119.4 :    17.1 THIRD DISTRICT ()
+(   94.9,   787.8)-(  326.2,   802.9)   231.3 :    15.1 IF FOUND, PLEASE RETURN TO THE NEAREST ()
+(   94.9,   805.4)-(  437.3,   821.0)   342.5 :    15.6 PSA OFFICE.                     WWW.PSA.GOV.PH ()
+(  510.7,   809.9)-(  588.5,   822.0)    77.9 :    12.1 21E1747184 ()
+======================
+ExtractFieldsFromReadResultOfPHNIBK start...
+{  "DateIssued": "12 September 2022",  "Issuer": "PSA",  "subject": {    "Suffix": "",    "lName": "DELOS REYES",    "fName": "CHRISTIAN MARX",    "mName": "LOZADA",    "sex": "Male",    "BF": "[1,9]",    "DOB": "June 06, 1988",    "POB": "City of Caloocan,NCR, THIRD DISTRICT",    "PCN": "5931-9426-7546-1037"  },  "alg": "EDDSA",  "signature": "H6WF1LJOcXPiMlE6VTBgamixsA8GqxJ3tJpxpSDmR9qoCMj4/jBKJo3PyP3PdtmMBwXa/ZlypuIOkkcZxqzrAw=="}
+DateIssued: 12 September 2022
+Issuer: PSA
+alg: EDDSA
+signature: H6WF1LJOcXPiMlE6VTBgamixsA8GqxJ3tJpxpSDmR9qoCMj4/jBKJo3PyP3PdtmMBwXa/ZlypuIOkkcZxqzrAw==
+subject:
+  Suffix:
+  lName: DELOS REYES
+  fName: CHRISTIAN MARX
+  mName: LOZADA
+  sex: Male
+  BT: [1,9]
+  DOB: June 06, 1988
+  POB: City of Caloocan,NCR, THIRD DISTRICT
+  PCN: 5931-9426-7546-1037
+ExtractFieldsFromReadResultOfPHNI (1.0037567 sec)
+
+scanPHNIResult.Success: True
+scanPHNIResult.Error:
+scanPHNIResult.lastNameOrFullName: DELOS REYES
+scanPHNIResult.firstName: CHRISTIAN MARX
+scanPHNIResult.middleName: LOZADA
+scanPHNIResult.documentNumber: 5931-9426-7546-1037
+scanPHNIResult.nationality: PH
+scanPHNIResult.documentIssueDate: 2022-09-12
+scanPHNIResult.documentExpirationDate:
+scanPHNIResult.addressLine1: BLK, 2 LOT 10 D. SUNLIGHT VIEW VIELL, SINDALAN, CITY
+scanPHNIResult.addressLine2: OF SAN FERNANDO, PAMPANGA
+scanPHNIResult.postcode:
+scanPHNIResult.gender: M
+scanPHNIResult.dateOfBirth: 1988-06-06
+
+[1]
+  Scanned Data: addressLine1: BLK, 2 LOT 10 D. SUNLIGHT VIEW VIELL, SINDALAN, CITY
+  Expected    : addressLine1: BLK. 2 LOT 10 D, SUNLIGHT VIEW VILL ., SINDALAN, CITY
+
+[2]
+  Scanned Data: gender: M
+  Expected    : gender:
+ --> IsValid: False
+ Calling Azure VisionOCR...  Elapsed: 00:00:01.3101890
+==== Merged lines ====
+(  265.0,   262.5)-(  503.0,   281.5)   238.0 :    19.0 REPUBLIKA NG PILIPINAS ()
+(  289.0,   285.5)-(  478.0,   301.5)   189.0 :    16.0 Republic of the Philippines ()
+(  215.0,   305.5)-(  552.0,   323.5)   337.0 :    18.0 PAMBANSANG PAGKAKAKILANLAN ()
+(  282.0,   328.5)-(  485.0,   345.0)   203.0 :    16.5 Philippine Identification Card ()
+(   73.0,   361.5)-(  305.0,   383.5)   232.0 :    22.0 5931-9426-7546-1037 ()
+(  351.0,   392.0)-(  493.0,   408.0)   142.0 :    16.0 Apelyido/Last Name ()
+(  353.0,   413.0)-(  519.0,   434.0)   166.0 :    21.0 DELOS REYES ()
+(  350.0,   440.0)-(  547.0,   455.0)   197.0 :    15.0 Mga Pangalan/Given Names ()
+(  351.0,   466.5)-(  552.5,   487.0)   201.5 :    20.5 CHRISTIAN MARX ()
+(  351.0,   510.0)-(  572.0,   526.5)   221.0 :    16.5 Gitnang Apelyido/Middle Name ()
+(  350.0,   534.5)-(  448.0,   555.5)    98.0 :    21.0 LOZADA ()
+(  350.0,   558.0)-(  613.0,   575.0)   263.0 :    17.0 Petsa ng Kapanganakan/Date of Birth ()
+(  346.5,   582.0)-(  512.5,   604.0)   166.0 :    22.0 JUNE 06, 1988 ()
+(   83.0,   606.0)-(  196.0,   622.0)   113.0 :    16.0 Tirahan/Address ()
+(  662.0,   592.5)-(  714.0,   618.0)    52.0 :    25.5 PHI ()
+(   82.5,   626.0)-(  529.5,   646.0)   447.0 :    20.0 BLK. 2 LOT 10 D, SUNLIGHT VIEW VILL ., SINDALAN, CITY ()
+(   84.0,   645.0)-(  348.0,   665.0)   264.0 :    20.0 OF SAN FERNANDO, PAMPANGA ()
+======================
+ Calling Azure VisionOCR...  Elapsed: 00:00:01.3386737
+==== Merged lines ====
+(  265.0,   262.5)-(  503.0,   281.5)   238.0 :    19.0 REPUBLIKA NG PILIPINAS ()
+(  289.0,   285.5)-(  478.0,   301.5)   189.0 :    16.0 Republic of the Philippines ()
+(  215.0,   305.5)-(  552.0,   323.5)   337.0 :    18.0 PAMBANSANG PAGKAKAKILANLAN ()
+(  282.0,   328.5)-(  485.0,   345.0)   203.0 :    16.5 Philippine Identification Card ()
+(   73.0,   361.5)-(  305.0,   383.5)   232.0 :    22.0 5931-9426-7546-1037 ()
+(  351.0,   392.0)-(  493.0,   408.0)   142.0 :    16.0 Apelyido/Last Name ()
+(  353.0,   413.0)-(  519.0,   434.0)   166.0 :    21.0 DELOS REYES ()
+(  350.0,   440.0)-(  547.0,   455.0)   197.0 :    15.0 Mga Pangalan/Given Names ()
+(  351.0,   466.5)-(  552.5,   487.0)   201.5 :    20.5 CHRISTIAN MARX ()
+(  351.0,   510.0)-(  572.0,   526.5)   221.0 :    16.5 Gitnang Apelyido/Middle Name ()
+(  350.0,   534.5)-(  448.0,   555.5)    98.0 :    21.0 LOZADA ()
+(  350.0,   558.0)-(  613.0,   575.0)   263.0 :    17.0 Petsa ng Kapanganakan/Date of Birth ()
+(  346.5,   582.0)-(  512.5,   604.0)   166.0 :    22.0 JUNE 06, 1988 ()
+(   83.0,   606.0)-(  196.0,   622.0)   113.0 :    16.0 Tirahan/Address ()
+(  662.0,   592.5)-(  714.0,   618.0)    52.0 :    25.5 PHI ()
+(   82.5,   626.0)-(  529.5,   646.0)   447.0 :    20.0 BLK. 2 LOT 10 D, SUNLIGHT VIEW VILL ., SINDALAN, CITY ()
+(   84.0,   645.0)-(  348.0,   665.0)   264.0 :    20.0 OF SAN FERNANDO, PAMPANGA ()
+======================
+ExtractFieldsFromReadResultOfPHNI start...
+OpenCV(4.9.0) Error: Assertion failed (s >= 0) in cv::setSize, file C:\GHA-OCV-1\_work\ci-gha-workflow\ci-gha-workflow\opencv\modules\core\src\matrix.cpp, line 246
+Unknown exceptionMatchTemplate key: PHNI_670_COA MatchResult: 0.8757921457290649/0.800000011920929 x: 69 y: 38 w: 60 h: 70 dist: 0.0651920121662108--> Match
+MatchTemplate key: PHNI_670_Logo_Fingerprint MatchResult: 0.6014603972434998/0.800000011920929 x: 538 y: 49 w: 62 h: 60 dist: 0.1817965833975534--> Possibly Negative
+MatchTemplate key: PHNI_670_Logo_Right_Bottom MatchResult: 0.7835473418235779/0.800000011920929 x: 591 y: 376 w: 36 h: 32 dist: 0.13536993239510192--> Possibly Negative
+MatchTemplate key: PHNI_670_PHL MatchResult: 0.7592852711677551/0.800000011920929 x: 583 y: 341 w: 54 h: 26 dist: 0.13724438654083365--> Possibly Negative
+MatchTemplate key: PHNI_670_PSA_Watermark MatchResult: 0.6220971345901489/0.800000011920929 x: 10 y: 227 w: 96 h: 30 dist: 2.4924236981343544--> Not match
+ExtractFieldsFromReadResultOfPHDL (3.1394265 sec)
+
+ScanPHNI back...
+Scan QR code...
+ExtractFieldsFromReadResultOfPHNIBK start...
+CalcPixelPerInch failed
+ExtractFieldsFromReadResultOfPHNI (0.001058 sec)
+
+ --> IsValid: True
+calling OCRIDImageOSS BASEADDR_URL_FLORENCE...
+ScanID imageFileName: F:\WORK\Dev\huggingface\work\ScanID\test1\bin\Debug\net8.0\testdata\PHDL1_Test1.jpg
+ScanID imageFileNameBack:
+PostOCRWithRegionRequest start... URL:http://127.0.0.1:8085/
+PostOCRWithRegionRequest PostAsync start...
+PostOCRWithRegionRequest PostAsync (106.5805463 sec)
+
+(106.7319808 sec)
+
+(  609.0,   265.5)-( 1433.0,   311.2)   824.0 :    45.8 REPUBLIC OF THE PHILIPPINES ()
+(  597.0,   327.8)-( 1449.0,   373.5)   852.0 :    45.8 DEPARTMENT OF TRANSPORTATION ()
+(  635.0,   379.5)-( 1405.0,   424.5)   770.0 :    45.0 LAND TRANSPORATION OFFICE ()
+( 1717.0,   386.2)-( 1783.0,   411.8)    66.0 :    25.5 LTO ()
+(  476.0,   454.5)-( 1615.0,   506.2)  1139.0 :    51.8 NON-PROFESSIONAL DRIVER'S LICENSE ()
+(  763.0,   567.8)-( 1383.0,   607.5)   620.0 :    39.8 LAST NAME. FIRST NAME, MIDDLE NAME ()
+(  757.0,   609.8)-( 1551.0,   672.8)   794.0 :    63.0 DIZON, TCHAICOVSKY CRUZ ()
+(  759.0,   696.8)-(  941.0,   735.0)   182.0 :    38.2 NATIONALITY ()
+( 1011.0,   700.5)-( 1073.0,   734.2)    62.0 :    33.8 SEX ()
+( 1149.0,   701.2)-( 1361.0,   738.0)   212.0 :    36.8 DATE OF BIRTH ()
+( 1459.0,   705.8)-( 1851.0,   748.5)   392.0 :    42.8 WEIGHT (KG) HEIGHT(M) ()
+(  759.0,   744.0)-(  843.0,   786.0)    84.0 :    42.0 PHL ()
+( 1017.0,   744.8)-( 1065.0,   789.8)    48.0 :    45.0 M ()
+( 1147.0,   747.8)-( 1427.0,   795.8)   280.0 :    48.0 1976/08/08 ()
+( 1523.0,   753.8)-( 1579.0,   795.8)    56.0 :    42.0 72 ()
+( 1719.0,   758.2)-( 1813.0,   797.2)    94.0 :    39.0 1.65 ()
+(  759.0,   815.2)-(  899.0,   849.0)   140.0 :    33.8 ADDRESS ()
+(  757.0,   864.8)-( 1833.0,   914.2)  1076.0 :    49.5 0167 FELICIANO ST LAGUNDI MORONG RIZAL ()
+(  757.0,   987.8)-(  951.0,  1023.8)   194.0 :    36.0 LICENSE NO. ()
+( 1195.0,   989.2)-( 1445.0,  1026.8)   250.0 :    37.5 EXPIRATION DATE ()
+( 1493.0,   993.8)-( 1711.0,  1031.2)   218.0 :    37.5 AGENCY CODE ()
+(  751.0,  1030.5)-( 1473.0,  1081.5)   722.0 :    51.0 N02-96-3144856 2023/08 /08 ()
+( 1557.0,  1038.8)-( 1647.0,  1079.2)    90.0 :    40.5 D19 ()
+(  349.0,  1134.8)-(  579.0,  1179.8)   230.0 :    45.0 2019/03/14 ()
+(  753.0,  1101.8)-(  941.0,  1140.8)   188.0 :    39.0 BLOOD TYPE ()
+( 1041.0,  1104.8)-( 1211.0,  1139.2)   170.0 :    34.5 EYES COLOR ()
+(  799.0,  1145.2)-(  891.0,  1184.2)    92.0 :    39.0 AB+ ()
+( 1051.0,  1143.8)-( 1203.0,  1185.8)   152.0 :    42.0 BLACK ()
+(  289.0,  1197.8)-(  647.0,  1220.2)   358.0 :    22.5 NO: 9-94-9466-946-3/04/10/04-10/14/14-KX-1/14 ()
+(  753.0,  1218.8)-(  945.0,  1251.8)   192.0 :    33.0 RESTRICTIONS ()
+( 1041.0,  1217.2)-( 1223.0,  1251.8)   182.0 :    34.5 CONDITIONS ()
+(  817.0,  1257.8)-(  879.0,  1305.8)    62.0 :    48.0 1/2 ()
+( 1061.0,  1260.8)-( 1197.0,  1302.8)   136.0 :    42.0 NONE ()
+(  281.0,  1344.8)-(  655.0,  1385.2)   374.0 :    40.5 SIGNATURE OF LICENSEE ()
+( 1297.0,  1290.0)-( 1645.0,  1330.5)   348.0 :    40.5 EDGAR C. GALVANTE ()
+( 1293.0,  1340.2)-( 1611.0,  1380.8)   318.0 :    40.5 ASSISTANT SECRETARY ()
+======================
+Module Path: F:\WORK\Dev\huggingface\work\ScanID\test1\bin\Debug\net8.0\ScanID.dll
+Estimating resolution as 469
+REPUBLIC OF THE PHILIPPINES
+Before: (  609.0,   265.5)-( 1433.0,   311.2)   824.0 :    45.8 REPUBLIC OF THE PHILIPPINES ()
+After: (  609.0,   265.5)-( 1433.0,   311.2)   824.0 :    45.8 REPUBLIC OF THE PHILIPPINES (0.8999999761581421)
+Estimating resolution as 462
+DEPARTMENT OF TRANSPORTATION
+Before: (  597.0,   327.8)-( 1449.0,   373.5)   852.0 :    45.8 DEPARTMENT OF TRANSPORTATION ()
+After: (  597.0,   327.8)-( 1449.0,   373.5)   852.0 :    45.8 DEPARTMENT OF TRANSPORTATION (0.9100000262260437)
+Estimating resolution as 453
+LAND TRANSPORTATION OFFICE
+Before: (  635.0,   379.5)-( 1405.0,   424.5)   770.0 :    45.0 LAND TRANSPORATION OFFICE ()
+After: (  635.0,   379.5)-( 1405.0,   424.5)   770.0 :    45.0 LAND TRANSPORTATION OFFICE (0.8999999761581421)
+Estimating resolution as 238
+LTO)]
+Before: ( 1717.0,   386.2)-( 1783.0,   411.8)    66.0 :    25.5 LTO ()
+After: ( 1717.0,   386.2)-( 1783.0,   411.8)    66.0 :    25.5 LTO ()
+Estimating resolution as 525
+NON-PROFESSIONAL DRIVER'S LICENSE
+Before: (  476.0,   454.5)-( 1615.0,   506.2)  1139.0 :    51.8 NON-PROFESSIONAL DRIVER'S LICENSE ()
+After: (  476.0,   454.5)-( 1615.0,   506.2)  1139.0 :    51.8 NON-PROFESSIONAL DRIVER'S LICENSE ()
+Estimating resolution as 397
+Last Name. First Name, Middle Name
+Before: (  763.0,   567.8)-( 1383.0,   607.5)   620.0 :    39.8 LAST NAME. FIRST NAME, MIDDLE NAME ()
+After: (  763.0,   567.8)-( 1383.0,   607.5)   620.0 :    39.8 LAST NAME. FIRST NAME, MIDDLE NAME ()
+Estimating resolution as 645
+DIZON, TCHAICOVSKY CRUZ
+Before: (  757.0,   609.8)-( 1551.0,   672.8)   794.0 :    63.0 DIZON, TCHAICOVSKY CRUZ ()
+After: (  757.0,   609.8)-( 1551.0,   672.8)   794.0 :    63.0 DIZON, TCHAICOVSKY CRUZ ()
+Estimating resolution as 367
+Nationality
+Estimating resolution as 450
+Empty page!!
+Estimating resolution as 450
+Empty page!!
+Estimating resolution as 441
+Empty page!!
+Estimating resolution as 441
+Empty page!!
+Estimating resolution as 475
+Estimating resolution as 475
+Estimating resolution as 513
+Empty page!!
+Estimating resolution as 513
+Empty page!!
+Estimating resolution as 513
+Empty page!!
+Estimating resolution as 513
+Empty page!!
+Estimating resolution as 553
+Empty page!!
+Estimating resolution as 553
+Empty page!!
+Estimating resolution as 456
+Empty page!!
+Estimating resolution as 456
+Empty page!!
+Estimating resolution as 453
+Empty page!!
+Estimating resolution as 453
+Empty page!!
+Estimating resolution as 366
+Empty page!!
+Estimating resolution as 366
+Empty page!!
+Estimating resolution as 540
+0167 FELICIANQ ST LAGUNDI MORONG R
+
+Estimating resolution as 381
+Empty page!!
+Estimating resolution as 381
+Empty page!!
+Estimating resolution as 494
+Empty page!!
+Estimating resolution as 494
+Empty page!!
+Estimating resolution as 388
+Empty page!!
+Estimating resolution as 388
+Empty page!!
+Estimating resolution as 652
+NO2-96-3 14854 < 2028/08 /08
+Estimating resolution as 491
+Dio
+Estimating resolution as 247
+
+Estimating resolution as 459
+Empty page!!
+Estimating resolution as 459
+Empty page!!
+Estimating resolution as 442
+Empty page!!
+Estimating resolution as 442
+Empty page!!
+Estimating resolution as 478
+Empty page!!
+Estimating resolution as 478
+Empty page!!
+Estimating resolution as 533
+Empty page!!
+Estimating resolution as 533
+Empty page!!
+Estimating resolution as 169
+ND2- 96- 314856 DIZON, TCHAICC Y SK'Y CRUZ
+Before: (  289.0,  1197.8)-(  647.0,  1220.2)   358.0 :    22.5 NO: 9-94-9466-946-3/04/10/04-10/14/14-KX-1/14 ()
+After: (  289.0,  1197.8)-(  647.0,  1220.2)   358.0 :    22.5 NO: 9-94-9466-946-3/04/10/04-10/14/14-KX-1/14 ()
+Estimating resolution as 416
+Estimating resolution as 488
+Empty page!!
+Estimating resolution as 488
+Empty page!!
+Estimating resolution as 553
+Empty page!!
+Estimating resolution as 553
+Empty page!!
+Estimating resolution as 528
+Empty page!!
+Estimating resolution as 528
+Empty page!!
+Estimating resolution as 385
+Sighature of Licensée
+Estimating resolution as 475
+Empty page!!
+Estimating resolution as 475
+Empty page!!
+Estimating resolution as 411
+Assistant Jecretany
+==== Lines read by Tesseract ====
+(    4.0,     3.0)-(  819.0,    63.0)   815.0 :    37.0 REPUBLIC OF THE PHILIPPINES (0.8999999761581421)
+(    2.0,     0.0)-(  845.0,    61.0)   843.0 :    46.0 DEPARTMENT OF TRANSPORTATION (0.9100000262260437)
+(    9.0,     0.0)-(  770.0,    54.0)   761.0 :    40.0 LAND TRANSPORTATION OFFICE (0.8999999761581421)
+(    3.0,     2.0)-(   61.0,    20.0)    58.0 :    18.0 LTO)] (0.6299999952316284)
+(    0.0,     6.0)-( 1138.0,    69.0)  1138.0 :    41.0 NON-PROFESSIONAL DRIVER'S LICENSE (0.8500000238418579)
+(    0.0,     3.0)-(  620.0,    44.0)   620.0 :    32.0 Last Name. First Name, Middle Name (0.7799999713897705)
+(    3.0,     5.0)-(  794.0,    69.0)   791.0 :    66.0 DIZON, TCHAICOVSKY CRUZ (0.8700000047683716)
+(    2.0,     3.0)-(  177.0,    42.0)   175.0 :    29.0 Nationality (0.05999999865889549)
+(    0.0,     0.0)-(  964.0,    57.0)   964.0 :    45.0 0167 FELICIANQ ST LAGUNDI MORONG R (0.7400000095367432)
+(    3.0,     0.0)-(  717.0,    55.0)   714.0 :    46.0 NO2-96-3 14854 < 2028/08 /08 (0.14000000059604645)
+(    2.0,     0.0)-(   85.0,    41.0)    83.0 :    41.0 Dio (0.18000000715255737)
+(    0.0,     4.0)-(  356.0,    23.0)   356.0 :    15.0 ND2- 96- 314856 DIZON, TCHAICC Y SK'Y CRUZ (0.5699999928474426)
+(    0.0,     0.0)-(  369.0,    41.0)   369.0 :    41.0 Sighature of Licensée (0.4399999976158142)
+(    0.0,     0.0)-(  313.0,    40.0)   313.0 :    34.0 Assistant Jecretany (0.07000000029802322)
+======================
+==== Merged lines ====
+(  609.0,   265.5)-( 1433.0,   311.2)   824.0 :    45.8 REPUBLIC OF THE PHILIPPINES (0.8999999761581421)
+(  597.0,   327.8)-( 1449.0,   373.5)   852.0 :    45.8 DEPARTMENT OF TRANSPORTATION (0.9100000262260437)
+(  635.0,   379.5)-( 1405.0,   424.5)   770.0 :    45.0 LAND TRANSPORTATION OFFICE (0.8999999761581421)
+( 1717.0,   386.2)-( 1783.0,   411.8)    66.0 :    25.5 LTO ()
+(  476.0,   454.5)-( 1615.0,   506.2)  1139.0 :    51.8 NON-PROFESSIONAL DRIVER'S LICENSE ()
+(  763.0,   567.8)-( 1383.0,   607.5)   620.0 :    39.8 LAST NAME. FIRST NAME, MIDDLE NAME ()
+(  757.0,   609.8)-( 1551.0,   672.8)   794.0 :    63.0 DIZON, TCHAICOVSKY CRUZ ()
+(  759.0,   700.5)-( 1851.0,   748.5)  1092.0 :    48.0 NATIONALITY   SEX    DATE OF BIRTH     WEIGHT (KG) HEIGHT(M) ()
+(  759.0,   750.8)-( 1813.0,   796.5)  1054.0 :    45.8 PHL        M   1976/08/08   72     1.65 ()
+(  759.0,   815.2)-(  899.0,   849.0)   140.0 :    33.8 ADDRESS ()
+(  757.0,   864.8)-( 1833.0,   914.2)  1076.0 :    49.5 0167 FELICIANO ST LAGUNDI MORONG RIZAL ()
+(  757.0,   987.8)-(  951.0,  1023.8)   194.0 :    36.0 LICENSE NO. ()
+( 1195.0,   990.8)-( 1711.0,  1028.2)   516.0 :    37.5 EXPIRATION DATE  AGENCY CODE ()
+(  751.0,  1033.5)-( 1647.0,  1081.5)   896.0 :    48.0 N02-96-3144856 2023/08 /08   D19 ()
+(  349.0,  1134.8)-(  579.0,  1179.8)   230.0 :    45.0 2019/03/14 ()
+(  753.0,  1103.2)-( 1211.0,  1140.8)   458.0 :    37.5 BLOOD TYPE     EYES COLOR ()
+(  799.0,  1143.8)-( 1203.0,  1185.8)   404.0 :    42.0 AB+        BLACK ()
+(  289.0,  1197.8)-(  647.0,  1220.2)   358.0 :    22.5 NO: 9-94-9466-946-3/04/10/04-10/14/14-KX-1/14 ()
+(  753.0,  1217.2)-( 1223.0,  1251.8)   470.0 :    34.5 RESTRICTIONS     CONDITIONS ()
+(  817.0,  1259.2)-( 1197.0,  1305.8)   380.0 :    46.5 1/2       NONE ()
+(  281.0,  1344.8)-(  655.0,  1385.2)   374.0 :    40.5 SIGNATURE OF LICENSEE ()
+( 1297.0,  1290.0)-( 1645.0,  1330.5)   348.0 :    40.5 EDGAR C. GALVANTE ()
+( 1293.0,  1340.2)-( 1611.0,  1380.8)   318.0 :    40.5 ASSISTANT SECRETARY ()
+======================
+ExtractFieldsFromReadResultOfPHDL start...
+OpenCV(4.9.0) Error: Assertion failed (s >= 0) in cv::setSize, file C:\GHA-OCV-1\_work\ci-gha-workflow\ci-gha-workflow\opencv\modules\core\src\matrix.cpp, line 246
+Unknown exceptionMatchTemplate key: PHDL_Flag MatchResult: 0.9408906698226929/0.800000011920929 x: 27 y: 42 w: 96 h: 48 dist: 0.0715891116440964--> Match
+MatchTemplate key: PHDL_Logo MatchResult: 0.7406107187271118/0.800000011920929 x: 544 y: 47 w: 74 h: 74 dist: 0.1530522693035854--> Possibly Negative
+ExtractFieldsFromReadResultOfPHDL (3.1510857 sec)
+
+scanPHDLResult.Success: True
+scanPHDLResult.Error:
+scanPHDLResult.lastNameOrFullName: DIZON
+scanPHDLResult.firstName:  TCHAICOVSKY CRUZ
+scanPHDLResult.middleName:
+scanPHDLResult.documentNumber: N02-96-3144856
+scanPHDLResult.nationality: PH
+scanPHDLResult.documentIssueDate:
+scanPHDLResult.documentExpirationDate: 2023-08-08
+scanPHDLResult.addressLine1: 0167 FELICIANO ST LAGUNDI MORONG RIZAL
+scanPHDLResult.addressLine2:
+scanPHDLResult.postcode:
+scanPHDLResult.gender: M
+scanPHDLResult.dateOfBirth: 1976-08-08
+
+[1]
+  Scanned Data: documentNumber: N02-96-3144856
+  Expected    : documentNumber: NO2-96-314856
+ --> IsValid: False
+ Calling Azure VisionOCR...  Elapsed: 00:00:01.7869936
+==== Merged lines ====
+(  995.0,   431.5)-( 2339.0,   505.0)  1344.0 :    73.5 REPUBLIC OF THE PHILIPPINES ()
+(  968.5,   535.0)-( 2358.0,   608.5)  1389.5 :    73.5 DEPARTMENT OF TRANSPORTATION ()
+( 1042.5,   617.0)-( 2288.0,   689.5)  1245.5 :    72.5 LAND TRANSPORTATION OFFICE ()
+( 2805.0,   619.0)-( 2903.0,   671.0)    98.0 :    52.0 LTO ()
+(  776.0,   740.5)-( 2637.5,   823.5)  1861.5 :    83.0 NON-PROFESSIONAL DRIVER'S LICENSE ()
+( 1238.5,   922.0)-( 2250.5,   989.0)  1012.0 :    67.0 Last Name, First Name, Middle Name ()
+( 1237.0,   998.0)-( 2537.5,  1091.5)  1300.5 :    93.5 DIZON, TCHAICOVSKY CRUZ ()
+( 1231.5,  1143.5)-( 3018.0,  1213.0)  1786.5 :    69.5 Nationality   Sex    Date of Birth    Weight (kg) Height(m) ()
+( 1231.5,  1221.0)-( 2571.0,  1298.5)  1339.5 :    77.5 PHL        M   1976/08/08   72 ()
+( 2816.5,  1239.5)-( 2953.5,  1301.5)   137.0 :    62.0 1.65 ()
+( 1239.5,  1326.0)-( 1464.5,  1385.5)   225.0 :    59.5 Address ()
+( 1227.5,  1407.5)-( 2986.5,  1486.5)  1759.0 :    79.0 0167 FELICIANO ST LAGUNDI MORONG RIZAL ()
+( 1224.5,  1609.5)-( 1547.5,  1667.0)   323.0 :    57.5 License No. ()
+( 1939.5,  1613.5)-( 2792.5,  1676.5)   853.0 :    63.0 Expiration Date  Agency Code ()
+( 1225.0,  1684.0)-( 2684.5,  1773.0)  1459.5 :    89.0 NO2-96-314856 2028/08/08  D19 ()
+( 1221.5,  1798.5)-( 1536.5,  1857.0)   315.0 :    58.5 Blood Type ()
+(  571.0,  1846.5)-(  943.5,  1916.5)   372.5 :    70.0 2019/03/14 ()
+( 1691.0,  1797.0)-( 1970.0,  1861.5)   279.0 :    64.5 Eyes Color ()
+( 1306.5,  1863.5)-( 1958.0,  1936.5)   651.5 :    73.0 AB+        BLACK ()
+(  467.0,  1946.5)-( 1056.5,  1987.5)   589.5 :    41.0 NO2 - 96- 314856 DIZON, 7CHAICOYSKY CRUZ ()
+( 1222.5,  1977.5)-( 1993.0,  2043.0)   770.5 :    65.5 Restrictions     Conditions ()
+(  503.0,  2035.5)-(  804.5,  2172.0)   301.5 :   136.5 Jediz ()
+( 2421.0,  1910.5)-( 2926.5,  2064.5)   505.5 :   154.0 Summit ()
+( 1325.0,  2050.0)-( 1956.5,  2122.5)   631.5 :    72.5 1,2        NONE ()
+( 2103.0,  2100.5)-( 2691.0,  2170.0)   588.0 :    69.5 EDGAR C. GALVANTE ()
+(  455.0,  2190.5)-( 1065.5,  2252.5)   610.5 :    62.0 Signature of Licensee ()
+( 2099.5,  2184.0)-( 2626.0,  2250.0)   526.5 :    66.0 Assistant Secretary ()
+======================
+ExtractFieldsFromReadResultOfPHDL start...
+OpenCV(4.9.0) Error: Assertion failed (s >= 0) in cv::setSize, file C:\GHA-OCV-1\_work\ci-gha-workflow\ci-gha-workflow\opencv\modules\core\src\matrix.cpp, line 246
+Unknown exceptionMatchTemplate key: PHDL_Flag MatchResult: 0.936516284942627/0.800000011920929 x: 27 y: 43 w: 96 h: 48 dist: 0.07648529924997569--> Match
+MatchTemplate key: PHDL_Logo MatchResult: 0.74798583984375/0.800000011920929 x: 545 y: 47 w: 74 h: 74 dist: 0.1499999904632569--> Possibly Negative
+ExtractFieldsFromReadResultOfPHDL (3.5117871 sec)
+
+ --> IsValid: True
+calling OCRIDImageOSS BASEADDR_URL_FLORENCE...
+ScanID imageFileName: F:\WORK\Dev\huggingface\work\ScanID\test1\bin\Debug\net8.0\testdata\PHDL1_Test2.jpg
+ScanID imageFileNameBack:
+PostOCRWithRegionRequest start... URL:http://127.0.0.1:8085/
+PostOCRWithRegionRequest PostAsync start...
+PostOCRWithRegionRequest PostAsync (87.2856012 sec)
+
+(87.4044323 sec)
+
+(  496.9,   215.4)-( 1169.3,   254.0)   672.4 :    38.6 REPUBLIC OF THE PHILIPPINES ()
+(  487.2,   266.8)-( 1180.8,   304.2)   693.6 :    37.3 DEPARTMENT OF TRANSPORTATION ()
+(  518.2,   309.1)-( 1146.5,   345.2)   628.3 :    36.1 LAND TRANSPORATION OFFICE ()
+( 1401.1,   315.2)-( 1453.3,   333.5)    52.2 :    18.4 LTO ()
+(  389.2,   369.0)-( 1317.8,   412.5)   928.6 :    43.5 NON-PROFESSIONAL DRIVER'S LICENSE ()
+(  619.3,   462.1)-( 1128.5,   494.5)   509.2 :    32.4 LAST NAME. FIRST NAME, MIDDLE NAME ()
+(  617.7,   497.6)-( 1265.6,   546.5)   647.9 :    49.0 DIZON, TCHAICOVSKY CRUZ ()
+(  619.3,   567.3)-(  767.9,   598.5)   148.5 :    31.2 NATIONALITY ()
+(  825.0,   570.4)-(  875.6,   597.9)    50.6 :    27.5 SEX ()
+(  937.6,   571.6)-( 1110.6,   600.4)   173.0 :    28.8 DATE OF BIRTH ()
+( 1190.5,   574.7)-( 1510.4,   609.6)   319.9 :    34.9 WEIGHT (KG) HEIGHT(M) ()
+(  619.3,   605.3)-(  689.5,   640.8)    70.2 :    35.5 PHL ()
+(  829.9,   607.1)-(  869.0,   641.4)    39.2 :    34.3 M ()
+(  937.6,   607.7)-( 1164.4,   648.1)   226.8 :    40.4 1976/08/08 ()
+( 1242.8,   613.2)-( 1288.5,   647.5)    45.7 :    34.3 72 ()
+( 1402.7,   616.3)-( 1479.4,   649.9)    76.7 :    33.7 1.65 ()
+(  619.3,   664.0)-(  733.6,   690.9)   114.2 :    26.9 ADDRESS ()
+(  617.7,   704.4)-( 1495.7,   743.6)   878.0 :    39.2 0167 FELICIANO ST LAGUNDI MORONG RIZAL ()
+(  617.7,   804.8)-(  776.0,   834.2)   158.3 :    29.4 LICENSE NO. ()
+(  975.1,   806.0)-( 1180.8,   836.6)   205.6 :    30.6 EXPIRATION DATE ()
+( 1218.3,   809.7)-( 1396.2,   840.3)   177.9 :    30.6 AGENCY CODE ()
+(  612.8,   839.1)-( 1202.0,   880.7)   589.2 :    41.6 N02-96-3144856 2023/08 /08 ()
+( 1272.1,   846.4)-( 1344.0,   879.4)    71.8 :    33.0 D19 ()
+(  286.4,   923.5)-(  472.5,   960.2)   186.0 :    36.7 2019/03/14 ()
+(  614.4,   897.8)-(  767.9,   929.6)   153.4 :    31.8 BLOOD TYPE ()
+(  851.1,   900.3)-(  986.5,   928.4)   135.5 :    28.2 EYES COLOR ()
+(  652.0,   933.3)-(  727.1,   963.9)    75.1 :    30.6 AB+ ()
+(  859.2,   930.9)-(  981.6,   966.3)   122.4 :    35.5 BLACK ()
+(  239.1,   975.5)-(  529.6,   993.9)   290.5 :    18.4 NO: 9-94-9466-946-9/07/07, TOAOIADO/04/14 (KU/14) ()
+(  614.4,   993.3)-(  771.1,  1020.2)   156.7 :    26.9 RESTRICTIONS ()
+(  851.1,   990.8)-(  998.0,  1020.2)   146.9 :    29.4 CONDITIONS ()
+(  666.7,  1026.3)-(  717.3,  1063.0)    50.6 :    36.7 1/2 ()
+(  869.0,  1026.3)-(  976.8,  1060.6)   107.7 :    34.3 NONE ()
+(  227.7,  1096.1)-(  534.5,  1127.9)   306.8 :    31.8 SIGNATURE OF LICENSEE ()
+( 1058.4,  1051.4)-( 1342.3,  1083.2)   284.0 :    31.8 EDGAR C. GALVANTE ()
+( 1055.1,  1091.2)-( 1312.9,  1124.2)   257.9 :    33.0 ASSISTANT SECRETARY ()
+======================
+Module Path: F:\WORK\Dev\huggingface\work\ScanID\test1\bin\Debug\net8.0\ScanID.dll
+Estimating resolution as 372
+REPUBLIC OF THE PHILIPPINES
+Before: (  496.9,   215.4)-( 1169.3,   254.0)   672.4 :    38.6 REPUBLIC OF THE PHILIPPINES ()
+After: (  496.9,   215.4)-( 1169.3,   254.0)   672.4 :    38.6 REPUBLIC OF THE PHILIPPINES (0.8999999761581421)
+Estimating resolution as 370
+DEPARTMENT OF TRANSPORTATION
+Before: (  487.2,   266.8)-( 1180.8,   304.2)   693.6 :    37.3 DEPARTMENT OF TRANSPORTATION ()
+After: (  487.2,   266.8)-( 1180.8,   304.2)   693.6 :    37.3 DEPARTMENT OF TRANSPORTATION (0.9200000166893005)
+Estimating resolution as 360
+LAND TRANSPORTATION OFFICE
+Before: (  518.2,   309.1)-( 1146.5,   345.2)   628.3 :    36.1 LAND TRANSPORATION OFFICE ()
+After: (  518.2,   309.1)-( 1146.5,   345.2)   628.3 :    36.1 LAND TRANSPORATION OFFICE ()
+Estimating resolution as 184
+o)
+Before: ( 1401.1,   315.2)-( 1453.3,   333.5)    52.2 :    18.4 LTO ()
+After: ( 1401.1,   315.2)-( 1453.3,   333.5)    52.2 :    18.4 LTO ()
+Estimating resolution as 429
+NON-PROFESSIONAL DRIVER'S LICENSE
+Before: (  389.2,   369.0)-( 1317.8,   412.5)   928.6 :    43.5 NON-PROFESSIONAL DRIVER'S LICENSE ()
+After: (  389.2,   369.0)-( 1317.8,   412.5)   928.6 :    43.5 NON-PROFESSIONAL DRIVER'S LICENSE (0.8899999856948853)
+Estimating resolution as 319
+Last Namve, First Namé, Middle Name
+Before: (  619.3,   462.1)-( 1128.5,   494.5)   509.2 :    32.4 LAST NAME. FIRST NAME, MIDDLE NAME ()
+After: (  619.3,   462.1)-( 1128.5,   494.5)   509.2 :    32.4 LAST NAME. FIRST NAME, MIDDLE NAME ()
+Estimating resolution as 508
+Empty page!!
+Estimating resolution as 508
+Empty page!!
+Estimating resolution as 284
+Nationality
+Before: (  619.3,   567.3)-(  767.9,   598.5)   148.5 :    31.2 NATIONALITY ()
+After: (  619.3,   567.3)-(  767.9,   598.5)   148.5 :    31.2 NATIONALITY ()
+Estimating resolution as 331
+SEX
+Before: (  825.0,   570.4)-(  875.6,   597.9)    50.6 :    27.5 SEX ()
+After: (  825.0,   570.4)-(  875.6,   597.9)    50.6 :    27.5 SEX ()
+Estimating resolution as 323
+Date of Birth
+Before: (  937.6,   571.6)-( 1110.6,   600.4)   173.0 :    28.8 DATE OF BIRTH ()
+After: (  937.6,   571.6)-( 1110.6,   600.4)   173.0 :    28.8 DATE OF BIRTH ()
+Estimating resolution as 403
+Empty page!!
+Estimating resolution as 403
+Empty page!!
+Estimating resolution as 391
+Empty page!!
+Estimating resolution as 391
+Empty page!!
+Estimating resolution as 388
+Empty page!!
+Estimating resolution as 388
+Empty page!!
+Estimating resolution as 444
+Empty page!!
+Estimating resolution as 444
+Empty page!!
+Estimating resolution as 369
+Empty page!!
+Estimating resolution as 369
+Empty page!!
+Estimating resolution as 353
+Empty page!!
+Estimating resolution as 353
+Empty page!!
+Estimating resolution as 295
+Address
+Before: (  619.3,   664.0)-(  733.6,   690.9)   114.2 :    26.9 ADDRESS ()
+After: (  619.3,   664.0)-(  733.6,   690.9)   114.2 :    26.9 ADDRESS ()
+Estimating resolution as 422
+0167 FELICIANQO 87 LAGUNDI MORONG RIZAL
+Before: (  617.7,   704.4)-( 1495.7,   743.6)   878.0 :    39.2 0167 FELICIANO ST LAGUNDI MORONG RIZAL ()
+After: (  617.7,   704.4)-( 1495.7,   743.6)   878.0 :    39.2 0167 FELICIANO ST LAGUNDI MORONG RIZAL ()
+Estimating resolution as 269
+Licanse No.
+Before: (  617.7,   804.8)-(  776.0,   834.2)   158.3 :    29.4 LICENSE NO. ()
+After: (  617.7,   804.8)-(  776.0,   834.2)   158.3 :    29.4 LICENSE NO. ()
+Estimating resolution as 403
+Empty page!!
+Estimating resolution as 403
+Empty page!!
+Estimating resolution as 309
+Empty page!!
+Estimating resolution as 309
+Empty page!!
+Estimating resolution as 493
+Empty page!!
+Estimating resolution as 493
+Empty page!!
+Estimating resolution as 366
+Empty page!!
+Estimating resolution as 366
+Empty page!!
+Estimating resolution as 350
+Empty page!!
+Estimating resolution as 350
+Empty page!!
+Estimating resolution as 350
+Empty page!!
+Estimating resolution as 350
+Empty page!!
+Estimating resolution as 355
+Empty page!!
+Estimating resolution as 355
+Empty page!!
+Estimating resolution as 378
+Empty page!!
+Estimating resolution as 378
+Empty page!!
+Estimating resolution as 453
+Empty page!!
+Estimating resolution as 453
+Empty page!!
+Estimating resolution as 141
+D796 314856 DIZON, TCHAICCYSKY CRUZ
+
+Estimating resolution as 344
+Empty page!!
+Estimating resolution as 344
+Empty page!!
+Estimating resolution as 381
+Empty page!!
+Estimating resolution as 381
+Empty page!!
+Estimating resolution as 453
+12
+Estimating resolution as 434
+Empty page!!
+Estimating resolution as 434
+Empty page!!
+Estimating resolution as 308
+Empty page!!
+Estimating resolution as 308
+Empty page!!
+Estimating resolution as 377
+EDGAR ? SALNANTE
+Before: ( 1058.4,  1051.4)-( 1342.3,  1083.2)   284.0 :    31.8 EDGAR C. GALVANTE ()
+After: ( 1058.4,  1051.4)-( 1342.3,  1083.2)   284.0 :    31.8 EDGAR C. GALVANTE ()
+Estimating resolution as 338
+Assistant Secretary
+==== Lines read by Tesseract ====
+(    4.0,     5.0)-(  669.0,    49.0)   665.0 :    30.0 REPUBLIC OF THE PHILIPPINES (0.8999999761581421)
+(    2.0,     0.0)-(  690.0,    51.0)   688.0 :    33.0 DEPARTMENT OF TRANSPORTATION (0.9200000166893005)
+(    7.0,     0.0)-(  628.0,    46.0)   621.0 :    34.0 LAND TRANSPORTATION OFFICE (0.8600000143051147)
+(   33.0,     3.0)-(   49.0,    17.0)    16.0 :    14.0 o) (0.5099999904632568)
+(    2.0,     7.0)-(  926.0,    58.0)   924.0 :    31.0 NON-PROFESSIONAL DRIVER'S LICENSE (0.8899999856948853)
+(    3.0,     4.0)-(  509.0,    37.0)   506.0 :    25.0 Last Namve, First Namé, Middle Name (0.6700000166893005)
+(    2.0,     4.0)-(  145.0,    34.0)   143.0 :    23.0 Nationality (0.5899999737739563)
+(    1.0,     1.0)-(   48.0,    29.0)    47.0 :    26.0 SEX (0.5699999928474426)
+(    0.0,     2.0)-(  171.0,    31.0)   171.0 :    26.0 Date of Birth (0.699999988079071)
+(    2.0,     0.0)-(  112.0,    29.0)   110.0 :    27.0 Address (0.8700000047683716)
+(    1.0,     0.0)-(  876.0,    45.0)   875.0 :    34.0 0167 FELICIANQO 87 LAGUNDI MORONG RIZAL (0.6800000071525574)
+(    1.0,     0.0)-(  159.0,    30.0)   158.0 :    28.0 Licanse No. (0.6700000166893005)
+(    0.0,     4.0)-(  288.0,    16.0)   288.0 :    12.0 D796 314856 DIZON, TCHAICCYSKY CRUZ (0.6299999952316284)
+(    1.0,     1.0)-(   49.0,    37.0)    48.0 :    34.0 12 (0.03999999910593033)
+(    0.0,     0.0)-(  282.0,    30.0)   282.0 :    30.0 EDGAR ? SALNANTE (0.5099999904632568)
+(    0.0,     0.0)-(  254.0,    33.0)   254.0 :    30.0 Assistant Secretary (0.3499999940395355)
+======================
+==== Merged lines ====
+(  496.9,   215.4)-( 1169.3,   254.0)   672.4 :    38.6 REPUBLIC OF THE PHILIPPINES (0.8999999761581421)
+(  487.2,   266.8)-( 1180.8,   304.2)   693.6 :    37.3 DEPARTMENT OF TRANSPORTATION (0.9200000166893005)
+(  518.2,   309.1)-( 1146.5,   345.2)   628.3 :    36.1 LAND TRANSPORATION OFFICE ()
+( 1401.1,   315.2)-( 1453.3,   333.5)    52.2 :    18.4 LTO ()
+(  389.2,   369.0)-( 1317.8,   412.5)   928.6 :    43.5 NON-PROFESSIONAL DRIVER'S LICENSE (0.8899999856948853)
+(  619.3,   462.1)-( 1128.5,   494.5)   509.2 :    32.4 LAST NAME. FIRST NAME, MIDDLE NAME ()
+(  617.7,   497.6)-( 1265.6,   546.5)   647.9 :    49.0 DIZON, TCHAICOVSKY CRUZ ()
+(  619.3,   571.0)-( 1510.4,   609.6)   891.1 :    38.6 NATIONALITY   SEX    DATE OF BIRTH     WEIGHT (KG) HEIGHT(M) ()
+(  619.3,   610.8)-( 1479.4,   649.3)   860.1 :    38.6 PHL       M   1976/08/08   72     1.65 ()
+(  619.3,   664.0)-(  733.6,   690.9)   114.2 :    26.9 ADDRESS ()
+(  617.7,   704.4)-( 1495.7,   743.6)   878.0 :    39.2 0167 FELICIANO ST LAGUNDI MORONG RIZAL ()
+(  617.7,   804.8)-(  776.0,   834.2)   158.3 :    29.4 LICENSE NO. ()
+(  975.1,   807.2)-( 1396.2,   837.8)   421.1 :    30.6 EXPIRATION DATE  AGENCY CODE ()
+(  612.8,   842.1)-( 1344.0,   880.7)   731.1 :    38.6 N02-96-3144856 2023/08 /08   D19 ()
+(  286.4,   923.5)-(  472.5,   960.2)   186.0 :    36.7 2019/03/14 ()
+(  614.4,   899.0)-(  986.5,   929.6)   372.1 :    30.6 BLOOD TYPE     EYES COLOR ()
+(  652.0,   930.9)-(  981.6,   966.3)   329.7 :    35.5 AB+        BLACK ()
+(  239.1,   975.5)-(  529.6,   993.9)   290.5 :    18.4 NO: 9-94-9466-946-9/07/07, TOAOIADO/04/14 (KU/14) ()
+(  614.4,   990.8)-(  998.0,  1020.2)   383.5 :    29.4 RESTRICTIONS     CONDITIONS ()
+(  666.7,  1026.3)-(  976.8,  1063.0)   310.1 :    36.7 1/2        NONE ()
+(  227.7,  1096.1)-(  534.5,  1127.9)   306.8 :    31.8 SIGNATURE OF LICENSEE ()
+( 1058.4,  1051.4)-( 1342.3,  1083.2)   284.0 :    31.8 EDGAR C. GALVANTE ()
+( 1055.1,  1091.2)-( 1312.9,  1124.2)   257.9 :    33.0 ASSISTANT SECRETARY ()
+======================
+ExtractFieldsFromReadResultOfPHDL start...
+OpenCV(4.9.0) Error: Assertion failed (s >= 0) in cv::setSize, file C:\GHA-OCV-1\_work\ci-gha-workflow\ci-gha-workflow\opencv\modules\core\src\matrix.cpp, line 246
+Unknown exceptionMatchTemplate key: PHDL_Flag MatchResult: 0.9384801387786865/0.800000011920929 x: 26 y: 42 w: 96 h: 48 dist: 0.07280110413269672--> Match
+MatchTemplate key: PHDL_Logo MatchResult: 0.754357635974884/0.800000011920929 x: 544 y: 47 w: 74 h: 74 dist: 0.1530522693035854--> Possibly Negative
+ExtractFieldsFromReadResultOfPHDL (3.0933234 sec)
+
+scanPHDLResult.Success: True
+scanPHDLResult.Error:
+scanPHDLResult.lastNameOrFullName: DIZON
+scanPHDLResult.firstName:  TCHAICOVSKY CRUZ
+scanPHDLResult.middleName:
+scanPHDLResult.documentNumber: N02-96-3144856
+scanPHDLResult.nationality: PH
+scanPHDLResult.documentIssueDate:
+scanPHDLResult.documentExpirationDate: 2023-08-08
+scanPHDLResult.addressLine1: 0167 FELICIANO ST LAGUNDI MORONG RIZAL
+scanPHDLResult.addressLine2:
+scanPHDLResult.postcode:
+scanPHDLResult.gender: M
+scanPHDLResult.dateOfBirth: 1976-08-08
+
+[1]
+  Scanned Data: documentNumber: N02-96-3144856
+  Expected    : documentNumber: NO2-96-314856
+ --> IsValid: False
+ Calling Azure VisionOCR...  Elapsed: 00:00:01.4354274
+==== Merged lines ====
+(  495.5,   215.0)-( 1167.5,   252.5)   672.0 :    37.5 REPUBLIC OF THE PHILIPPINES ()
+(  483.5,   267.0)-( 1182.5,   304.0)   699.0 :    37.0 DEPARTMENT OF TRANSPORTATION ()
+(  520.5,   308.5)-( 1144.5,   344.0)   624.0 :    35.5 LAND TRANSPORTATION OFFICE ()
+( 1400.5,   307.0)-( 1451.0,   337.0)    50.5 :    30.0 LTO ()
+(  386.0,   370.5)-( 1490.5,   411.5)  1104.5 :    41.0 NON-PROFESSIONAL DRIVER'S LICENSE  artment of Transporte ()
+(  618.0,   461.0)-( 1125.5,   494.0)   507.5 :    33.0 Last Name, First Name. Middle Name ()
+(  618.0,   498.5)-( 1261.5,   546.0)   643.5 :    47.5 DIZON, TCHAICOVSKY CRUZ ()
+(  616.5,   571.5)-( 1511.0,   608.0)   894.5 :    36.5 Nationality   Sex    Date of Birth    Weight (kg) Height(m) ()
+(  615.0,   610.0)-( 1280.5,   648.5)   665.5 :    38.5 PHL       M    1976/08/08   72 ()
+( 1408.0,   619.5)-( 1476.5,   650.5)    68.5 :    31.0 1.65 ()
+(  617.5,   662.0)-(  733.5,   692.5)   116.0 :    30.5 Address ()
+(  614.0,   703.5)-( 1500.5,   743.5)   886.5 :    40.0 0167 FELICIANO ST LAGUNDI MORONG RIZAL ()
+(  612.0,   805.0)-(  773.5,   834.5)   161.5 :    29.5 License No. ()
+(  969.0,   805.5)-( 1395.5,   838.0)   426.5 :    32.5 Expiration Date  Agency Code ()
+(  613.0,   842.5)-( 1345.0,   883.0)   732.0 :    40.5 NO2-96-314856 2028/08/08  D19 ()
+(  611.5,   899.5)-(  764.5,   929.5)   153.0 :    30.0 Blood Type ()
+(  286.0,   923.5)-(  472.0,   958.5)   186.0 :    35.0 2019/03/14 ()
+(  848.0,   898.5)-(  984.5,   930.5)   136.5 :    32.0 Eyes Color ()
+(  651.5,   931.0)-(  977.0,   967.0)   325.5 :    36.0 AB+        BLACK ()
+(  233.0,   974.0)-(  527.0,   993.5)   294.0 :    19.5 NO2-96-314856 DIZON, 7CHAICOYSKY CRUZ ()
+(  610.0,   988.0)-(  997.0,  1022.0)   387.0 :    34.0 Restrictions     Conditions ()
+(  677.0,  1024.5)-(  976.0,  1061.5)   299.0 :    37.0 ¥2         NONE ()
+( 1055.0,  1050.0)-( 1345.0,  1085.0)   290.0 :    35.0 EDGAR C. GALVANTE ()
+(  224.0,  1094.5)-(  531.5,  1125.5)   307.5 :    31.0 Signature of Licensee ()
+( 1050.0,  1090.5)-( 1314.0,  1123.5)   264.0 :    33.0 Assistant Secretary ()
+======================
+ExtractFieldsFromReadResultOfPHDL start...
+OpenCV(4.9.0) Error: Assertion failed (s >= 0) in cv::setSize, file C:\GHA-OCV-1\_work\ci-gha-workflow\ci-gha-workflow\opencv\modules\core\src\matrix.cpp, line 246
+Unknown exceptionMatchTemplate key: PHDL_Flag MatchResult: 0.9313516020774841/0.800000011920929 x: 19 y: 44 w: 96 h: 48 dist: 0.0970824389491559--> Match
+MatchTemplate key: PHDL_Logo MatchResult: 0.8165574669837952/0.800000011920929 x: 543 y: 49 w: 74 h: 74 dist: 0.1640121852197532--> Match
+ExtractFieldsFromReadResultOfPHDL (3.1799501 sec)
+
+ --> IsValid: True
+calling OCRIDImageOSS BASEADDR_URL_FLORENCE...
+ScanID imageFileName: F:\WORK\Dev\huggingface\work\ScanID\test1\bin\Debug\net8.0\testdata\PHDL1_Test3.jpg
+ScanID imageFileNameBack:
+PostOCRWithRegionRequest start... URL:http://127.0.0.1:8085/
+PostOCRWithRegionRequest PostAsync start...
+PostOCRWithRegionRequest PostAsync (93.3016825 sec)
+
+(93.4399011 sec)
+
+(  248.5,   108.0)-(  583.8,   126.7)   335.4 :    18.7 REPUBLIC OF THE PHILIPPINES ()
+(  243.6,   133.7)-(  590.4,   152.4)   346.8 :    18.7 DEPARTMENT OF TRANSPORTATION ()
+(  260.7,   154.5)-(  573.2,   173.5)   312.5 :    19.0 LAND TRANSPORATION OFFICE ()
+(  194.6,   185.4)-(  658.9,   206.9)   464.3 :    21.4 NON-PROFESSIONAL DRIVER'S LICENSE ()
+(  308.9,   231.9)-(  563.4,   247.6)   254.6 :    15.6 LAST NAME. FIRST NAME, MIDDLE NAME ()
+(  308.0,   249.1)-(  632.8,   273.6)   324.8 :    24.5 DIZON, TCHAICOVSKY CRUZ ()
+(  308.9,   283.7)-(  383.9,   299.3)    75.1 :    15.6 NATIONALITY ()
+(  411.7,   285.2)-(  437.8,   299.6)    26.1 :    14.4 SEX ()
+(  468.8,   286.1)-(  555.3,   301.1)    86.5 :    15.0 DATE OF BIRTH ()
+(  593.6,   288.3)-(  755.2,   304.8)   161.6 :    16.5 WEIGHT (KG) HEIGHT(M) ()
+(  308.9,   303.2)-(  344.8,   321.0)    35.9 :    17.7 PHL ()
+(  414.9,   305.1)-(  433.7,   321.6)    18.8 :    16.5 M ()
+(  468.8,   305.1)-(  582.2,   324.1)   113.4 :    19.0 1976/08/08 ()
+(  619.8,   308.1)-(  643.4,   324.1)    23.7 :    15.9 72 ()
+(  701.4,   308.1)-(  739.7,   325.3)    38.4 :    17.1 1.65 ()
+(  309.7,   332.6)-(  366.8,   346.4)    57.1 :    13.8 ADDRESS ()
+(  308.0,   352.5)-(  747.9,   372.1)   439.8 :    19.6 0167 FELICIANO ST LAGUNDI MORONG RIZAL ()
+(  308.0,   403.0)-(  388.0,   417.7)    80.0 :    14.7 LICENSE NO. ()
+(  485.9,   403.9)-(  590.4,   418.0)   104.4 :    14.1 EXPIRATION DATE ()
+(  609.1,   404.8)-(  698.9,   420.8)    89.8 :    15.9 AGENCY CODE ()
+(  306.4,   419.8)-(  601.0,   441.9)   294.6 :    22.0 N02-96-314856 2025/08 /08 ()
+(  635.3,   423.8)-(  671.2,   440.9)    35.9 :    17.1 D19 ()
+(  306.4,   448.9)-(  383.9,   464.8)    77.5 :    15.9 BLOOD TYPE ()
+(  143.2,   462.4)-(  236.2,   480.1)    93.0 :    17.7 2019/03/14 ()
+(  326.8,   467.9)-(  363.5,   483.8)    36.7 :    15.9 AB+ ()
+(  424.7,   450.7)-(  493.3,   464.8)    68.5 :    14.1 TYES COLOR ()
+(  429.6,   466.0)-(  490.0,   483.8)    60.4 :    17.7 BLACK ()
+(  116.3,   488.7)-(  265.6,   496.6)   149.3 :     8.0 NO-9-144556-DUCA-DUTA-DORO (D-CRU ()
+(  306.4,   496.6)-(  385.6,   510.7)    79.2 :    14.1 RESTRICTIONS ()
+(  426.4,   496.6)-(  499.0,   510.7)    72.6 :    14.1 CONDITIONS ()
+(  332.5,   513.8)-(  358.6,   533.4)    26.1 :    19.6 1/2 ()
+(  434.5,   513.8)-(  488.4,   530.9)    53.9 :    17.1 NONE ()
+(  113.8,   548.0)-(  266.4,   564.6)   152.6 :    16.5 SIGNATURE OF LICENSEE ()
+(  529.2,   526.6)-(  671.2,   542.5)   142.0 :    15.9 EDGAR C. GALVANTE ()
+(  527.5,   545.6)-(  655.7,   563.3)   128.1 :    17.7 ASSISTANY SECRETARY ()
+======================
+Module Path: F:\WORK\Dev\huggingface\work\ScanID\test1\bin\Debug\net8.0\ScanID.dll
+Estimating resolution as 185
+REPUBLIC OF THE PHILIPPINES
+Before: (  248.5,   108.0)-(  583.8,   126.7)   335.4 :    18.7 REPUBLIC OF THE PHILIPPINES ()
+After: (  248.5,   108.0)-(  583.8,   126.7)   335.4 :    18.7 REPUBLIC OF THE PHILIPPINES (0.8999999761581421)
+Estimating resolution as 184
+DEPARTMENT OF TRANSPORTATION
+Before: (  243.6,   133.7)-(  590.4,   152.4)   346.8 :    18.7 DEPARTMENT OF TRANSPORTATION ()
+After: (  243.6,   133.7)-(  590.4,   152.4)   346.8 :    18.7 DEPARTMENT OF TRANSPORTATION (0.9100000262260437)
+Estimating resolution as 184
+LAND TRANSPORTATION OFFICE
+Before: (  260.7,   154.5)-(  573.2,   173.5)   312.5 :    19.0 LAND TRANSPORATION OFFICE ()
+After: (  260.7,   154.5)-(  573.2,   173.5)   312.5 :    19.0 LAND TRANSPORTATION OFFICE (0.8999999761581421)
+Estimating resolution as 208
+NON-PROFESSIONAL DRIVER'S LICENSE
+Before: (  194.6,   185.4)-(  658.9,   206.9)   464.3 :    21.4 NON-PROFESSIONAL DRIVER'S LICENSE ()
+After: (  194.6,   185.4)-(  658.9,   206.9)   464.3 :    21.4 NON-PROFESSIONAL DRIVER'S LICENSE (0.8899999856948853)
+Estimating resolution as 154
+Last Name. First Name. Middle Name
+Before: (  308.9,   231.9)-(  563.4,   247.6)   254.6 :    15.6 LAST NAME. FIRST NAME, MIDDLE NAME ()
+After: (  308.9,   231.9)-(  563.4,   247.6)   254.6 :    15.6 LAST NAME. FIRST NAME. MIDDLE NAME (0.8799999952316284)
+Estimating resolution as 246
+DIZON, TCHAICOVSKY CRUZ
+Before: (  308.0,   249.1)-(  632.8,   273.6)   324.8 :    24.5 DIZON, TCHAICOVSKY CRUZ ()
+After: (  308.0,   249.1)-(  632.8,   273.6)   324.8 :    24.5 DIZON, TCHAICOVSKY CRUZ (0.8799999952316284)
+Estimating resolution as 147
+Nationality
+Before: (  308.9,   283.7)-(  383.9,   299.3)    75.1 :    15.6 NATIONALITY ()
+After: (  308.9,   283.7)-(  383.9,   299.3)    75.1 :    15.6 NATIONALITY (0.8899999856948853)
+Estimating resolution as 153
+Sex
+Before: (  411.7,   285.2)-(  437.8,   299.6)    26.1 :    14.4 SEX ()
+After: (  411.7,   285.2)-(  437.8,   299.6)    26.1 :    14.4 SEX (0.8899999856948853)
+Estimating resolution as 154
+Empty page!!
+Estimating resolution as 154
+Empty page!!
+Estimating resolution as 183
+Weight tkg] Heightim)
+Before: (  593.6,   288.3)-(  755.2,   304.8)   161.6 :    16.5 WEIGHT (KG) HEIGHT(M) ()
+After: (  593.6,   288.3)-(  755.2,   304.8)   161.6 :    16.5 WEIGHT (KG) HEIGHT(M) ()
+Estimating resolution as 183
+Empty page!!
+Estimating resolution as 183
+Empty page!!
+Estimating resolution as 213
+Empty page!!
+Estimating resolution as 213
+Empty page!!
+Estimating resolution as 186
+Empty page!!
+Estimating resolution as 186
+Empty page!!
+Estimating resolution as 181
+Empty page!!
+Estimating resolution as 181
+Empty page!!
+Estimating resolution as 183
+Empty page!!
+Estimating resolution as 183
+Empty page!!
+Estimating resolution as 128
+Address
+Before: (  309.7,   332.6)-(  366.8,   346.4)    57.1 :    13.8 ADDRESS ()
+After: (  309.7,   332.6)-(  366.8,   346.4)    57.1 :    13.8 ADDRESS (0.8999999761581421)
+Estimating resolution as 195
+0167 FELICIANQ ST LAGUNDI MORONG RIZAL
+Before: (  308.0,   352.5)-(  747.9,   372.1)   439.8 :    19.6 0167 FELICIANO ST LAGUNDI MORONG RIZAL ()
+After: (  308.0,   352.5)-(  747.9,   372.1)   439.8 :    19.6 0167 FELICIANO ST LAGUNDI MORONG RIZAL ()
+Estimating resolution as 125
+License No.
+Before: (  308.0,   403.0)-(  388.0,   417.7)    80.0 :    14.7 LICENSE NO. ()
+After: (  308.0,   403.0)-(  388.0,   417.7)    80.0 :    14.7 LICENSE NO. ()
+Estimating resolution as 155
+Empty page!!
+Estimating resolution as 155
+Empty page!!
+Estimating resolution as 149
+Agency Code
+Before: (  609.1,   404.8)-(  698.9,   420.8)    89.8 :    15.9 AGENCY CODE ()
+After: (  609.1,   404.8)-(  698.9,   420.8)    89.8 :    15.9 AGENCY CODE ()
+Estimating resolution as 247
+Empty page!!
+Estimating resolution as 247
+Empty page!!
+Estimating resolution as 183
+Empty page!!
+Estimating resolution as 183
+Empty page!!
+Estimating resolution as 177
+Empty page!!
+Estimating resolution as 177
+Empty page!!
+Estimating resolution as 225
+
+Estimating resolution as 203
+Empty page!!
+Estimating resolution as 203
+Empty page!!
+Estimating resolution as 175
+Empty page!!
+Estimating resolution as 175
+Empty page!!
+Estimating resolution as 196
+Empty page!!
+Estimating resolution as 196
+Empty page!!
+Estimating resolution as 161
+Empty page!!
+Estimating resolution as 161
+Empty page!!
+Estimating resolution as 181
+Empty page!!
+Estimating resolution as 181
+Empty page!!
+Estimating resolution as 216
+Empty page!!
+Estimating resolution as 216
+Empty page!!
+Estimating resolution as 206
+Empty page!!
+Estimating resolution as 206
+Empty page!!
+Estimating resolution as 153
+Empty page!!
+Estimating resolution as 153
+Empty page!!
+Estimating resolution as 165
+Empty page!!
+Estimating resolution as 165
+Empty page!!
+Estimating resolution as 158
+Agsistand' Secretary
+==== Lines read by Tesseract ====
+(    2.0,     3.0)-(  335.0,    25.0)   333.0 :    14.0 REPUBLIC OF THE PHILIPPINES (0.8999999761581421)
+(    2.0,     2.0)-(  345.0,    24.0)   343.0 :    14.0 DEPARTMENT OF TRANSPORTATION (0.9100000262260437)
+(    3.0,     0.0)-(  313.0,    23.0)   310.0 :    17.0 LAND TRANSPORTATION OFFICE (0.8999999761581421)
+(    2.0,     3.0)-(  462.0,    27.0)   460.0 :    15.0 NON-PROFESSIONAL DRIVER'S LICENSE (0.8899999856948853)
+(    3.0,     1.0)-(  253.0,    17.0)   250.0 :    12.0 Last Name. First Name. Middle Name (0.8799999952316284)
+(    3.0,     3.0)-(  322.0,    28.0)   319.0 :    19.0 DIZON, TCHAICOVSKY CRUZ (0.8799999952316284)
+(    3.0,     2.0)-(   74.0,    17.0)    71.0 :    12.0 Nationality (0.8899999856948853)
+(    2.0,     2.0)-(   24.0,    15.0)    22.0 :    12.0 Sex (0.8899999856948853)
+(    2.0,     2.0)-(  161.0,    18.0)   159.0 :    15.0 Weight tkg] Heightim) (0.6600000262260437)
+(    2.0,     1.0)-(   56.0,    13.0)    54.0 :    11.0 Address (0.8999999761581421)
+(    1.0,     2.0)-(  438.0,    22.0)   437.0 :    16.0 0167 FELICIANQ ST LAGUNDI MORONG RIZAL (0.8500000238418579)
+(    1.0,     0.0)-(   79.0,    14.0)    78.0 :    13.0 License No. (0.8700000047683716)
+(    1.0,     2.0)-(   88.0,    16.0)    87.0 :    14.0 Agency Code (0.8700000047683716)
+(    1.0,     0.0)-(  128.0,    18.0)   127.0 :    14.0 Agsistand' Secretary (0.18000000715255737)
+======================
+==== Merged lines ====
+(  248.5,   108.0)-(  583.8,   126.7)   335.4 :    18.7 REPUBLIC OF THE PHILIPPINES (0.8999999761581421)
+(  243.6,   133.7)-(  590.4,   152.4)   346.8 :    18.7 DEPARTMENT OF TRANSPORTATION (0.9100000262260437)
+(  260.7,   154.5)-(  573.2,   173.5)   312.5 :    19.0 LAND TRANSPORTATION OFFICE (0.8999999761581421)
+(  194.6,   185.4)-(  658.9,   206.9)   464.3 :    21.4 NON-PROFESSIONAL DRIVER'S LICENSE (0.8899999856948853)
+(  308.9,   231.9)-(  563.4,   247.6)   254.6 :    15.6 LAST NAME. FIRST NAME. MIDDLE NAME (0.8799999952316284)
+(  308.0,   249.1)-(  632.8,   273.6)   324.8 :    24.5 DIZON, TCHAICOVSKY CRUZ (0.8799999952316284)
+(  308.9,   286.1)-(  755.2,   303.2)   446.4 :    17.1 NATIONALITY   SEX    DATE OF BIRTH    WEIGHT (KG) HEIGHT(M) ()
+(  308.9,   305.7)-(  739.7,   324.7)   430.8 :    19.0 PHL       M    1976/08/08   72      1.65 ()
+(  309.7,   332.6)-(  366.8,   346.4)    57.1 :    13.8 ADDRESS (0.8999999761581421)
+(  308.0,   352.5)-(  747.9,   372.1)   439.8 :    19.6 0167 FELICIANO ST LAGUNDI MORONG RIZAL ()
+(  308.0,   403.0)-(  388.0,   417.7)    80.0 :    14.7 LICENSE NO. ()
+(  485.9,   403.9)-(  698.9,   420.8)   213.0 :    16.8 EXPIRATION DATE  AGENCY CODE ()
+(  306.4,   421.4)-(  671.2,   441.9)   364.8 :    20.5 N02-96-314856 2025/08 /08   D19 ()
+(  306.4,   448.9)-(  383.9,   464.8)    77.5 :    15.9 BLOOD TYPE ()
+(  143.2,   462.4)-(  236.2,   480.1)    93.0 :    17.7 2019/03/14 ()
+(  326.8,   467.9)-(  363.5,   483.8)    36.7 :    15.9 AB+ ()
+(  424.7,   450.7)-(  493.3,   464.8)    68.5 :    14.1 TYES COLOR ()
+(  429.6,   466.0)-(  490.0,   483.8)    60.4 :    17.7 BLACK ()
+(  116.3,   488.7)-(  265.6,   496.6)   149.3 :     8.0 NO-9-144556-DUCA-DUTA-DORO (D-CRU ()
+(  306.4,   496.6)-(  499.0,   510.7)   192.6 :    14.1 RESTRICTIONS     CONDITIONS ()
+(  332.5,   513.8)-(  488.4,   533.4)   155.9 :    19.6 1/2       NONE ()
+(  113.8,   548.0)-(  266.4,   564.6)   152.6 :    16.5 SIGNATURE OF LICENSEE ()
+(  529.2,   526.6)-(  671.2,   542.5)   142.0 :    15.9 EDGAR C. GALVANTE ()
+(  527.5,   545.6)-(  655.7,   563.3)   128.1 :    17.7 ASSISTANY SECRETARY ()
+======================
+ExtractFieldsFromReadResultOfPHDL start...
+OpenCV(4.9.0) Error: Assertion failed (s >= 0) in cv::setSize, file C:\GHA-OCV-1\_work\ci-gha-workflow\ci-gha-workflow\opencv\modules\core\src\matrix.cpp, line 246
+Unknown exceptionMatchTemplate key: PHDL_Flag MatchResult: 0.941435694694519/0.800000011920929 x: 27 y: 42 w: 96 h: 48 dist: 0.0715891116440964--> Match
+MatchTemplate key: PHDL_Logo MatchResult: 0.7323053479194641/0.800000011920929 x: 544 y: 47 w: 74 h: 74 dist: 0.1530522693035854--> Possibly Negative
+ExtractFieldsFromReadResultOfPHDL (3.1575998 sec)
+
+scanPHDLResult.Success: True
+scanPHDLResult.Error:
+scanPHDLResult.lastNameOrFullName: DIZON
+scanPHDLResult.firstName:  TCHAICOVSKY CRUZ
+scanPHDLResult.middleName:
+scanPHDLResult.documentNumber: N02-96-314856
+scanPHDLResult.nationality: PH
+scanPHDLResult.documentIssueDate:
+scanPHDLResult.documentExpirationDate: 2025-08-08
+scanPHDLResult.addressLine1: 0167 FELICIANO ST LAGUNDI MORONG RIZAL
+scanPHDLResult.addressLine2:
+scanPHDLResult.postcode:
+scanPHDLResult.gender: M
+scanPHDLResult.dateOfBirth: 1976-08-08
+
+[1]
+  Scanned Data: documentNumber: N02-96-314856
+  Expected    : documentNumber: NO2-96-314856
+ --> IsValid: False
+ Calling Azure VisionOCR...  Elapsed: 00:00:01.4233701
+==== Merged lines ====
+(  248.0,   106.5)-(  584.0,   126.0)   336.0 :    19.5 REPUBLIC OF THE PHILIPPINES ()
+(  241.5,   133.5)-(  590.0,   151.5)   348.5 :    18.0 DEPARTMENT OF TRANSPORTATION ()
+(  260.5,   154.0)-(  572.0,   172.0)   311.5 :    18.0 LAND TRANSPORTATION OFFICE ()
+(  700.5,   153.0)-(  728.0,   167.0)    27.5 :    14.0 LTO ()
+(  193.0,   185.0)-(  658.0,   206.0)   465.0 :    21.0 NON-PROFESSIONAL DRIVER'S LICENSE ()
+(  309.0,   230.5)-(  562.0,   247.0)   253.0 :    16.5 Last Name. First Name. Middle Name ()
+(  308.0,   248.5)-(  631.0,   272.5)   323.0 :    24.0 DIZON, TCHAICOVSKY CRUZ ()
+(  308.0,   285.5)-(  754.5,   303.5)   446.5 :    18.0 Nationality   Sex    Date of Birth    Weight (kg) Height(m) ()
+(  308.0,   305.5)-(  736.0,   324.0)   428.0 :    18.5 PHL        M    1976/08/08   72      1.65 ()
+(  310.0,   331.5)-(  366.0,   346.0)    56.0 :    14.5 Address ()
+(  307.0,   351.0)-(  750.0,   371.5)   443.0 :    20.5 0167 FELICIANO ST LAGUNDI MORONG RIZAL ()
+(  306.0,   402.0)-(  389.0,   417.5)    83.0 :    15.5 License No. ()
+(  481.5,   403.0)-(  697.0,   420.5)   215.5 :    17.5 Expiration Date Agency Code ()
+(  306.0,   420.5)-(  670.5,   440.5)   364.5 :    20.0 NO2-96-314856 2028/08/08   D19 ()
+(  306.5,   450.0)-(  389.5,   464.5)    83.0 :    14.5 Blood Type ()
+(  142.0,   461.5)-(  237.0,   479.0)    95.0 :    17.5 2019/03/14 ()
+(  424.0,   450.0)-(  493.0,   465.0)    69.0 :    15.0 Eyes Color ()
+(  326.0,   466.0)-(  489.0,   483.0)   163.0 :    17.0 AB+        BLACK ()
+(  305.0,   494.5)-(  497.5,   510.5)   192.5 :    16.0 Restrictions     Conditions ()
+(  122.5,   507.5)-(  212.5,   544.5)    90.0 :    37.0 Jediz ()
+(  331.5,   513.0)-(  488.0,   531.5)   156.5 :    18.5 1,2        NONE ()
+(  527.0,   525.0)-(  671.0,   542.0)   144.0 :    17.0 EDGAR C, GALVANTE ()
+(  111.0,   546.5)-(  266.0,   562.0)   155.0 :    15.5 Signature of Licensee ()
+(  525.0,   545.0)-(  656.0,   562.0)   131.0 :    17.0 Assistant Secretary ()
+======================
+ExtractFieldsFromReadResultOfPHDL start...
+OpenCV(4.9.0) Error: Assertion failed (s >= 0) in cv::setSize, file C:\GHA-OCV-1\_work\ci-gha-workflow\ci-gha-workflow\opencv\modules\core\src\matrix.cpp, line 246
+Unknown exceptionMatchTemplate key: PHDL_Flag MatchResult: 0.9434654712677002/0.800000011920929 x: 28 y: 43 w: 96 h: 48 dist: 0.0756637373145781--> Match
+MatchTemplate key: PHDL_Logo MatchResult: 0.7236118316650391/0.800000011920929 x: 544 y: 48 w: 74 h: 74 dist: 0.15700317519008314--> Possibly Negative
+ExtractFieldsFromReadResultOfPHDL (3.0666835 sec)
+
+ --> IsValid: True
+calling OCRIDImageOSS BASEADDR_URL_FLORENCE...
+ScanID imageFileName: F:\WORK\Dev\huggingface\work\ScanID\test1\bin\Debug\net8.0\testdata\PHDL2_Test1.jpg
+ScanID imageFileNameBack:
+PostOCRWithRegionRequest start... URL:http://127.0.0.1:8085/
+PostOCRWithRegionRequest PostAsync start...

@@ -1,0 +1,4013 @@
+[15:28:26] ==== responseBody ====
+ {
+  "<OCR_WITH_REGION>": {
+    "labels": [
+      "REPUBLIC OF THE PHILIPPINES",
+      "DEPARTMENT OF TRANSPORTATION",
+      "LAND TRANSPORTATION OFFICE",
+      "LTO",
+      "NON-PROFESSIONAL DRIVER'S LICENSE",
+      "W)",
+      "Last Name First Name. Middle Name",
+      "DIZON, TCHAICOVSKY CRUZ",
+      "Nationality",
+      "Sex",
+      "Date %f Birth",
+      "Weight {kg}",
+      "Heiehum}",
+      "PHL",
+      "1976/08/08",
+      "65",
+      "Address",
+      "0167 FELICIANQ ST LAGUNDI MORONG RIZAL",
+      "License",
+      "Expiration Date",
+      "Agency Code",
+      "No2-96-314856",
+      "2025/09/p8",
+      "Dt9",
+      "Btooc Fypel",
+      "Exes Cdlor",
+      "2019103/14",
+      "AB+",
+      "BLACK",
+      "26",
+      "3*4856Dizcn,",
+      "PCHACo",
+      "CRUZ",
+      "Resirictions",
+      "conditione",
+      "142 ",
+      "NONE",
+      "EDGAR",
+      "GALVANTE",
+      "Signature af Llcensee",
+      "Assistar: Secretary",
+      "orTATIORr"
+    ],
+    "quad_boxes": [
+      [
+        604.9999389648438,
+        252.0,
+        1436.0,
+        325.0
+      ],
+      [
+        591.0,
+        314.0,
+        1452.0,
+        386.0
+      ],
+      [
+        638.0,
+        369.9999694824219,
+        1405.0,
+        434.9999694824219
+      ],
+      [
+        1715.9998779296875,
+        386.0000305175781,
+        1779.9998779296875,
+        410.0000305175781
+      ],
+      [
+        473.0,
+        441.0,
+        1618.0,
+        521.0
+      ],
+      [
+        1664.0,
+        426.99993896484375,
+        1843.0,
+        511.0
+      ],
+      [
+        751.9998779296875,
+        560.0,
+        1381.9998779296875,
+        613.0
+      ],
+      [
+        748.0,
+        592.0,
+        1557.0,
+        684.0
+      ],
+      [
+        752.0,
+        686.0,
+        945.0,
+        743.0
+      ],
+      [
+        1003.0,
+        695.0000610351562,
+        1076.0,
+        740.0000610351562
+      ],
+      [
+        1147.0,
+        698.0,
+        1361.0,
+        742.0
+      ],
+      [
+        1450.0001220703125,
+        698.0,
+        1653.0001220703125,
+        753.0
+      ],
+      [
+        1680.9998779296875,
+        703.0,
+        1853.9998779296875,
+        754.0
+      ],
+      [
+        752.0,
+        737.9999389648438,
+        852.0,
+        789.9999389648438
+      ],
+      [
+        1140.0001220703125,
+        742.0,
+        1424.0001220703125,
+        797.0
+      ],
+      [
+        1750.0,
+        749.9999389648438,
+        1817.0,
+        800.9999389648438
+      ],
+      [
+        753.0,
+        806.0,
+        902.0,
+        855.0
+      ],
+      [
+        749.0,
+        856.0,
+        1835.0,
+        920.0
+      ],
+      [
+        751.0,
+        987.0,
+        887.0,
+        1027.0
+      ],
+      [
+        1184.0,
+        986.0000610351562,
+        1447.0,
+        1036.0001220703125
+      ],
+      [
+        1491.0,
+        986.9999389648438,
+        1716.0,
+        1037.9998779296875
+      ],
+      [
+        748.0,
+        1026.0,
+        1148.0,
+        1082.0
+      ],
+      [
+        1180.0,
+        1028.0,
+        1477.0,
+        1092.0
+      ],
+      [
+        1552.0,
+        1031.0,
+        1653.0,
+        1087.0
+      ],
+      [
+        749.0000610351562,
+        1098.0,
+        944.0000610351562,
+        1148.0
+      ],
+      [
+        1036.0001220703125,
+        1100.0001220703125,
+        1218.0001220703125,
+        1148.0001220703125
+      ],
+      [
+        348.0,
+        1128.0,
+        584.0,
+        1182.0
+      ],
+      [
+        796.0,
+        1140.0,
+        894.0,
+        1188.0
+      ],
+      [
+        1048.0,
+        1138.0,
+        1206.0,
+        1192.0
+      ],
+      [
+        333.0,
+        1203.0,
+        357.0,
+        1219.0
+      ],
+      [
+        363.9999694824219,
+        1195.0001220703125,
+        481.9999694824219,
+        1221.0001220703125
+      ],
+      [
+        487.0,
+        1201.0,
+        559.0,
+        1217.0
+      ],
+      [
+        601.0,
+        1197.0,
+        649.0,
+        1217.0
+      ],
+      [
+        749.0000610351562,
+        1215.0,
+        947.0000610351562,
+        1255.0
+      ],
+      [
+        1040.0,
+        1212.0,
+        1227.0,
+        1257.0
+      ],
+      [
+        806.0000610351562,
+        1250.0,
+        887.0000610351562,
+        1307.0
+      ],
+      [
+        1062.0,
+        1252.0,
+        1202.0,
+        1306.0
+      ],
+      [
+        1291.0,
+        1289.0,
+        1419.0,
+        1331.0
+      ],
+      [
+        1459.0,
+        1283.0,
+        1650.0,
+        1335.0
+      ],
+      [
+        272.0000305175781,
+        1338.0,
+        656.0,
+        1393.0
+      ],
+      [
+        1285.0,
+        1332.0,
+        1614.0,
+        1382.0
+      ],
+      [
+        1734.0,
+        288.0,
+        1807.0,
+        345.0
+      ]
+    ]
+  },
+  "image_height": 1500,
+  "image_width": 2000
+}
+
+==========
+'test1.exe' (CoreCLR: clrhost): Loaded 'F:\WORK\Dev\huggingface\work\ConsoleApp1\test1\bin\Debug\net8.0\Tesseract.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'test1.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.10\System.Reflection.Emit.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'test1.exe' (CoreCLR: clrhost): Loaded 'InteropRuntimeImplementer.LeptonicaApiSignaturesInstance'. 
+'test1.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.10\System.Reflection.Emit.ILGeneration.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'test1.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.10\System.Reflection.Primitives.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'test1.exe' (CoreCLR: clrhost): Loaded 'InteropRuntimeImplementer.TessApiSignaturesInstance'. 
+[15:28:28] linesAll REPUBLIC OF THE PHILIPPINES Height:49
+[15:28:28] linesAll DEPARTMENT OF TRANSPORTATION Height:52
+[15:28:28] --> REPUBLIC OF THE PHILIPPINES
+[15:28:28] Left:654.9999389648438 Top:264 Bottom:332
+[15:28:28] linesAll LAND TRANSPORTATION OFFICE Height:45
+[15:28:28] --> DEPARTMENT OF TRANSPORTATION
+[15:28:28] Left:643 Top:314 Bottom:393
+[15:28:28] linesAll LTO Height:24
+[15:28:28] --> LAND TRANSPORTATION OFFICE
+[15:28:28] Left:683 Top:369.9999694824219 Bottom:429.9999694824219
+[15:28:28] linesAll NON-PROFESSIONAL DRIVER'S LICENSE Height:53
+IsLineAboveOrSmallerThanLabel baseline line: LTO Height * 0.5 = 24.5 label: ScanID.LabelInfo Height: 24
+[15:28:28] linesAll W) Height:84.00006103515625
+MergedLine [NON-PROFESSIONAL DRIVER'S LICENSE]-[W)] dist: -133 --> [NON-PROFESSIONAL DRIVER'S LICENSE W)]
+[15:28:28] linesAll LAST NAME FIRST NAME. MIDDLE NAME Height:48
+[15:28:28] linesAll DIZON, TCHAICOVSKY CRUZ Height:92
+[15:28:28] --> Last Name, First Name, Middle Name
+[15:28:28] Left:792.9998779296875 Top:570 Bottom:628
+[15:28:28] linesAll NATIONALITY Height:44
+[15:28:28] linesAll SEX Height:45
+MergedLine [NATIONALITY]-[SEX] dist: 38 --> [NATIONALITY SEX]
+[15:28:28] linesAll DATE %F BIRTH Height:44
+MergedLine [NATIONALITY SEX]-[DATE %F BIRTH] dist: 71 --> [NATIONALITY SEX  DATE %F BIRTH]
+[15:28:28] linesAll WEIGHT {KG} Height:55
+MergedLine [NATIONALITY SEX  DATE %F BIRTH]-[WEIGHT {KG}] dist: 89.0001220703125 --> [NATIONALITY SEX  DATE %F BIRTH   WEIGHT {KG}]
+[15:28:28] linesAll HEIEHUM} Height:51
+MergedLine [NATIONALITY SEX  DATE %F BIRTH   WEIGHT {KG}]-[HEIEHUM}] dist: 27.999755859375 --> [NATIONALITY SEX  DATE %F BIRTH   WEIGHT {KG} HEIEHUM}]
+[15:28:28] linesAll PHL Height:50
+[15:28:28] --> Nationality
+[15:28:28] Left:771 Top:701 Bottom:754
+[15:28:28] lineMergedToCheck: NATIONALITY SEX  DATE %F BIRTH   WEIGHT {KG} HEIEHUM} is not field.
+[15:28:28] linesAll 1976/08/08 Height:55
+MergedLine [PHL]-[1976/08/08] dist: 277.0001220703125 --> [PHL           1976/08/08]
+[15:28:28] linesAll 65 Height:48
+MergedLine [PHL           1976/08/08]-[65] dist: 325.9998779296875 --> [PHL           1976/08/08           65]
+[15:28:28] linesAll ADDRESS Height:41
+[15:28:28] linesAll 0167 FELICIANQ ST LAGUNDI MORONG RIZAL Height:96
+[15:28:28] --> Address
+[15:28:28] Left:769 Top:811 Bottom:855
+[15:28:28] linesAll LICENSE Height:44
+[15:28:28] linesAll EXPIRATION DATE Height:55
+MergedLine [LICENSE]-[EXPIRATION DATE] dist: 303 --> [LICENSE             EXPIRATION DATE]
+[15:28:28] linesAll AGENCY CODE Height:50.99993896484375
+MergedLine [LICENSE             EXPIRATION DATE]-[AGENCY CODE] dist: 3 --> [LICENSE             EXPIRATION DATE AGENCY CODE]
+[15:28:28] linesAll NO2-96-314856 Height:56
+[15:28:28] --> Expiration Date
+[15:28:28] Left:1204 Top:986.0000610351562 Bottom:1041.0000610351562
+[15:28:28] lineMergedToCheck: LICENSE             EXPIRATION DATE AGENCY CODE is not field.
+[15:28:28] linesAll 2025/09/P8 Height:64
+MergedLine [NO2-96-314856]-[2025/09/P8] dist: 32 --> [NO2-96-314856 2025/09/P8]
+[15:28:28] linesAll DT9 Height:56
+MergedLine [NO2-96-314856 2025/09/P8]-[DT9] dist: 75 --> [NO2-96-314856 2025/09/P8  DT9]
+[15:28:28] linesAll BTOOC FYPEL Height:50
+[15:28:28] linesAll EXES CDLOR Height:48
+MergedLine [BTOOC FYPEL]-[EXES CDLOR] dist: 92.00006103515625 --> [BTOOC FYPEL   EXES CDLOR]
+[15:28:28] linesAll 2019103/14 Height:46
+[15:28:28] linesAll AB+ Height:51
+MergedLine [2019103/14]-[AB+] dist: 200 --> [2019103/14        AB+]
+[15:28:28] linesAll BLACK Height:54
+MergedLine [2019103/14        AB+]-[BLACK] dist: 145 --> [2019103/14        AB+    BLACK]
+[15:28:28] linesAll 26 Height:16
+[15:28:28] linesAll 3*4856DIZCN, Height:22
+IsLineAboveOrSmallerThanLabel baseline line: 26 Height * 0.5 = 24.5 label: ScanID.LabelInfo Height: 16
+[15:28:28] linesAll PCHACO Height:12
+IsLineAboveOrSmallerThanLabel baseline line: 3*4856DIZCN, Height * 0.5 = 24.5 label: ScanID.LabelInfo Height: 22
+[15:28:28] linesAll CRUZ Height:20
+MergedLine [PCHACO]-[CRUZ] dist: 52 --> [PCHACO        CRUZ]
+[15:28:28] linesAll RESIRICTIONS Height:40
+IsLineAboveOrSmallerThanLabel baseline line: PCHACO Height * 0.5 = 24.5 label: ScanID.LabelInfo Height: 12
+IsLineAboveOrSmallerThanLabel baseline line: CRUZ Height * 0.5 = 24.5 label: ScanID.LabelInfo Height: 20
+[15:28:28] linesAll CONDITIONE Height:45
+MergedLine [RESIRICTIONS]-[CONDITIONE] dist: 92.99993896484375 --> [RESIRICTIONS    CONDITIONE]
+[15:28:28] linesAll 142 Height:57
+[15:28:28] linesAll NONE Height:54
+MergedLine [142]-[NONE] dist: 174.99993896484375 --> [142      NONE]
+[15:28:28] linesAll EDGAR Height:42
+[15:28:28] linesAll GALVANTE Height:52
+MergedLine [EDGAR]-[GALVANTE] dist: 40 --> [EDGAR GALVANTE]
+[15:28:28] linesAll SIGNATURE AF LLCENSEE Height:55
+[15:28:28] linesAll ASSISTAR: SECRETARY Height:50
+MergedLine [SIGNATURE AF LLCENSEE]-[ASSISTAR: SECRETARY] dist: 629 --> [SIGNATURE AF LLCENSEE                      ASSISTAR: SECRETARY]
+[15:28:28] linesAll ORTATIORR Height:57
+REPUBLIC OF THE PHILIPPINES PredictCenterYInPixel: 298
+DEPARTMENT OF TRANSPORTATION PredictCenterYInPixel: 353.5
+LAND TRANSPORTATION OFFICE PredictCenterYInPixel: 399.9999694824219
+Last Name, First Name, Middle Name PredictCenterYInPixel: 599
+Nationality PredictCenterYInPixel: 727.5
+Address PredictCenterYInPixel: 833
+'test1.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.10\System.Numerics.Vectors.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+[15:28:28] removed 2 lines predicted as label removed from linesField [height < labelHeightInPixel (43.67346756157159)].
+[15:28:28] removed 4 lines predicted as label removed from lsLineMerged [height < labelHeightInPixel (43.67346756157159)].
+line: NON-PROFESSIONAL DRIVER'S LICENSE EstimateCenterYInInch: 0.47061371232973104
+line: W) EstimateCenterYInInch: 0.45046412332592634
+line: DIZON, TCHAICOVSKY CRUZ EstimateCenterYInInch: 0.760034278710312
+line: PHL EstimateCenterYInInch: 1.0064080034784049
+line: 1976/08/08 EstimateCenterYInInch: 1.0009127880713653
+line: 65 EstimateCenterYInInch: 1.0109874428198697
+line: 0167 FELICIANQ ST LAGUNDI MORONG RIZAL EstimateCenterYInInch: 1.224389427934852
+line: NO2-96-314856 EstimateCenterYInInch: 1.5220529851300697
+line: 2025/09/P8 EstimateCenterYInInch: 1.5330436395495854
+line: DT9 EstimateCenterYInInch: 1.5312118638129995
+line: BTOOC FYPEL EstimateCenterYInInch: 1.6484455109545006
+line: EXES CDLOR EstimateCenterYInInch: 1.6502775102965233
+line: 2019103/14 EstimateCenterYInInch: 1.7052305587886654
+line: AB+ EstimateCenterYInInch: 1.7272118676276969
+line: BLACK EstimateCenterYInInch: 1.7253800918911109
+line: CONDITIONE EstimateCenterYInInch: 1.8526885055838347
+line: 142 EstimateCenterYInInch: 1.9332866379936167
+line: NONE EstimateCenterYInInch: 1.9342025258619095
+line: GALVANTE EstimateCenterYInInch: 1.9891557979594883
+line: SIGNATURE AF LLCENSEE EstimateCenterYInInch: 2.0926511270765946
+line: ASSISTAR: SECRETARY EstimateCenterYInInch: 2.077081033315614
+mergedLinesNearToLast_Name_First_Name_Middle_Name: DIZON, TCHAICOVSKY CRUZ EstimateCenterYInInch: 0.760034278710312
+[15:28:28] DIZON, TCHAICOVSKY CRUZ --> LAST_NAME_FISRT_MIDDLE_NAME
+mergedLinesNearToNationality: PHL           1976/08/08           65 EstimateCenterYInInch: 1.002744507906592
+[15:28:28] PHL --> NATIONALITY
+[15:28:28] 1976/08/08 --> DOB
+mergedLinesNearToNationality: 0167 FELICIANQ ST LAGUNDI MORONG RIZAL EstimateCenterYInInch: 1.224389427934852
+mergedLinesNearToNationality: DIZON, TCHAICOVSKY CRUZ EstimateCenterYInInch: 0.760034278710312
+mergedLinesNearToNationality: NO2-96-314856 2025/09/P8  DT9 EstimateCenterYInInch: 1.5312118638129995
+mergedLinesNearToNationality: NON-PROFESSIONAL DRIVER'S LICENSE W) EstimateCenterYInInch: 0.45779122627227015
+mergedLinesNearToNationality: BTOOC FYPEL   EXES CDLOR EstimateCenterYInInch: 1.6484456227572188
+mergedLinesNearToNationality: 2019103/14        AB+    BLACK EstimateCenterYInInch: 1.7180529889447669
+mergedLinesNearToNationality: RESIRICTIONS    CONDITIONE EstimateCenterYInInch: 1.8526885055838347
+mergedLinesNearToNationality: 142      NONE EstimateCenterYInInch: 1.9332866379936167
+mergedLinesNearToNationality: EDGAR GALVANTE EstimateCenterYInInch: 1.9891557979594883
+mergedLinesNearToNationality: SIGNATURE AF LLCENSEE                      ASSISTAR: SECRETARY EstimateCenterYInInch: 2.087155799866837
+mergedLinesNearToAddress1: 0167 FELICIANQ ST LAGUNDI MORONG RIZAL EstimateCenterYInInch: 1.224389427934852
+[15:28:28] 0167 FELICIANQ ST LAGUNDI MORONG RIZAL --> ADDRESS_1
+mergedLinesNearToAddress2: 0167 FELICIANQ ST LAGUNDI MORONG RIZAL EstimateCenterYInInch: 1.224389427934852
+mergedLinesNearToAddress2: NO2-96-314856 2025/09/P8  DT9 EstimateCenterYInInch: 1.5312118638129995
+mergedLinesNearToAddress2: PHL           1976/08/08           65 EstimateCenterYInInch: 1.002744507906592
+mergedLinesNearToAddress2: BTOOC FYPEL   EXES CDLOR EstimateCenterYInInch: 1.6484456227572188
+mergedLinesNearToAddress2: 2019103/14        AB+    BLACK EstimateCenterYInInch: 1.7180529889447669
+mergedLinesNearToAddress2: DIZON, TCHAICOVSKY CRUZ EstimateCenterYInInch: 0.760034278710312
+mergedLinesNearToAddress2: RESIRICTIONS    CONDITIONE EstimateCenterYInInch: 1.8526885055838347
+mergedLinesNearToAddress2: 142      NONE EstimateCenterYInInch: 1.9332866379936167
+mergedLinesNearToAddress2: EDGAR GALVANTE EstimateCenterYInInch: 1.9891557979594883
+mergedLinesNearToAddress2: SIGNATURE AF LLCENSEE                      ASSISTAR: SECRETARY EstimateCenterYInInch: 2.087155799866837
+mergedLinesNearToAddress2: NON-PROFESSIONAL DRIVER'S LICENSE W) EstimateCenterYInInch: 0.45779122627227015
+mergedLinesNearLicenseNo: NO2-96-314856 2025/09/P8  DT9 EstimateCenterYInInch: 1.5312118638129995
+'test1.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\PrivateAssemblies\Runtime\Microsoft.VisualStudio.Debugger.Runtime.NetCoreApp.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+Exception thrown: 'System.FormatException' in System.Private.CoreLib.dll
+The input string 'P8' was not in a correct format.
+ExtractFieldsFromReadResultOfPHDL result NOT success
+'test1.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.10\System.Text.Encodings.Web.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'test1.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.10\System.Reflection.Emit.Lightweight.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+ScanPHDLResult: ScanID.ScanPHDLResult
+[15:28:39] ==== responseBody ====
+ {
+  "<OCR_WITH_REGION>": {
+    "labels": [
+      "REPUBLIC OF THE PHILIPPINES",
+      "DEPARTMENT OF TRANSPORTATION",
+      "LAND TRANSPORTATION OFFICE",
+      "NON-PROFESSIONAL DRIVER'S LICENSE",
+      "N/",
+      "Last Name. First Name. Middle Name",
+      "DIZON; TCHAICOVSKY CRUZ",
+      "Nationality",
+      "Sex",
+      "Bate of Birth",
+      "Weight {kg}",
+      "Heiehum}",
+      "PHL",
+      "1976/08/08",
+      "72",
+      "1.65",
+      "Address",
+      "0167 FELICIANQ ST LAGUNDI MORONG RIZAL",
+      "License No",
+      "Exbiration Date",
+      "Agency Code",
+      "Noz-96-314856",
+      "2025/09/p8",
+      "Dtq",
+      "Btooc Typel",
+      "Exes Color",
+      "2019103/14",
+      "AB+",
+      "BLACK",
+      "5 4856 Dizon;",
+      "CC",
+      "Resirictions",
+      "Conditione",
+      "NONE",
+      "EDGAR",
+      "GALVANTE",
+      "Signature af Licensee",
+      "Assistar: Gecretary"
+    ],
+    "quad_boxes": [
+      [
+        491.99993896484375,
+        204.00001525878906,
+        1173.0,
+        265.0
+      ],
+      [
+        482.0,
+        254.0,
+        1187.0,
+        315.0
+      ],
+      [
+        520.0,
+        301.9999694824219,
+        1148.0,
+        353.9999694824219
+      ],
+      [
+        384.0,
+        357.0,
+        1321.0,
+        423.0
+      ],
+      [
+        1352.0001220703125,
+        352.0,
+        1495.0001220703125,
+        413.0
+      ],
+      [
+        615.0,
+        458.0,
+        1129.0,
+        501.0
+      ],
+      [
+        612.0,
+        490.0,
+        1271.0,
+        555.0
+      ],
+      [
+        615.0000610351562,
+        561.0,
+        770.0000610351562,
+        605.0
+      ],
+      [
+        819.0,
+        567.0,
+        879.0,
+        603.0
+      ],
+      [
+        935.0,
+        571.0,
+        1113.0,
+        607.0
+      ],
+      [
+        1184.0,
+        572.0,
+        1348.0,
+        614.0
+      ],
+      [
+        1372.0,
+        573.9999389648438,
+        1515.0,
+        616.9999389648438
+      ],
+      [
+        612.9999389648438,
+        601.0,
+        692.9999389648438,
+        643.0
+      ],
+      [
+        931.0,
+        607.0,
+        1162.0,
+        652.0
+      ],
+      [
+        1237.0,
+        615.0,
+        1289.0,
+        651.0
+      ],
+      [
+        1403.0,
+        615.0000610351562,
+        1483.0,
+        653.0000610351562
+      ],
+      [
+        615.0,
+        660.9999389648438,
+        737.0,
+        696.9999389648438
+      ],
+      [
+        610.0,
+        697.0,
+        1498.0,
+        751.0
+      ],
+      [
+        611.0,
+        801.0,
+        776.0,
+        840.0
+      ],
+      [
+        968.0,
+        804.0,
+        1179.0,
+        845.0
+      ],
+      [
+        1214.0,
+        804.0,
+        1402.0,
+        852.0
+      ],
+      [
+        608.0,
+        834.0,
+        936.0,
+        884.0
+      ],
+      [
+        961.0,
+        836.0,
+        1204.0,
+        891.0
+      ],
+      [
+        1267.0,
+        842.9999389648438,
+        1347.0,
+        884.9999389648438
+      ],
+      [
+        610.0,
+        895.0,
+        771.0,
+        937.0
+      ],
+      [
+        845.0,
+        899.0,
+        993.0,
+        935.0
+      ],
+      [
+        283.0,
+        921.0,
+        475.0,
+        963.0
+      ],
+      [
+        651.0,
+        930.9999389648438,
+        729.0,
+        970.9999389648438
+      ],
+      [
+        855.0,
+        927.0,
+        983.0,
+        971.0
+      ],
+      [
+        299.0000305175781,
+        978.9999389648438,
+        393.0000305175781,
+        994.9999389648438
+      ],
+      [
+        431.0,
+        979.0000610351562,
+        455.0,
+        993.0000610351562
+      ],
+      [
+        609.9999389648438,
+        992.0,
+        771.9999389648438,
+        1024.0
+      ],
+      [
+        848.0,
+        986.0,
+        1003.0,
+        1026.9998779296875
+      ],
+      [
+        862.9999389648438,
+        1016.0,
+        981.9999389648438,
+        1068.0
+      ],
+      [
+        1055.0,
+        1053.0,
+        1159.0,
+        1089.0
+      ],
+      [
+        1193.0,
+        1049.0,
+        1347.0,
+        1089.0
+      ],
+      [
+        221.0,
+        1090.0001220703125,
+        538.0,
+        1139.0001220703125
+      ],
+      [
+        1048.0,
+        1085.0,
+        1318.0,
+        1133.0
+      ]
+    ]
+  },
+  "image_height": 1224,
+  "image_width": 1632
+}
+
+==========
+[15:28:40] linesAll REPUBLIC OF THE PHILIPPINES Height:43
+[15:28:40] linesAll DEPARTMENT OF TRANSPORTATION Height:61
+[15:28:41] --> REPUBLIC OF THE PHILIPPINES
+[15:28:41] Left:534.9999389648438 Top:217.00001525878906 Bottom:274.00001525878906
+[15:28:41] linesAll LAND TRANSPORTATION OFFICE Height:37
+[15:28:41] --> DEPARTMENT OF TRANSPORTATION
+[15:28:41] Left:482 Top:254 Bottom:315
+[15:28:41] linesAll NON-PROFESSIONAL DRIVER'S LICENSE Height:46
+[15:28:41] --> LAND TRANSPORTATION OFFICE
+[15:28:41] Left:557 Top:301.9999694824219 Bottom:350.9999694824219
+[15:28:41] linesAll N/ Height:61
+MergedLine [NON-PROFESSIONAL DRIVER'S LICENSE]-[N/] dist: -111.9998779296875 --> [NON-PROFESSIONAL DRIVER'S LICENSE N/]
+[15:28:41] linesAll LAST NAME. FIRST NAME. MIDDLE NAME Height:33
+[15:28:41] linesAll DIZON; TCHAICOVSKY CRUZ Height:53
+[15:28:41] --> Last Name, First Name, Middle Name
+[15:28:41] Left:648 Top:466 Bottom:514
+[15:28:41] linesAll NATIONALITY Height:35
+[15:28:41] linesAll SEX Height:36
+[15:28:41] --> Nationality
+[15:28:41] Left:629.0000610351562 Top:573 Bottom:615
+[15:28:41] linesAll BATE OF BIRTH Height:36
+MergedLine [SEX]-[BATE OF BIRTH] dist: 56 --> [SEX   BATE OF BIRTH]
+[15:28:41] linesAll WEIGHT {KG} Height:42
+MergedLine [SEX   BATE OF BIRTH]-[WEIGHT {KG}] dist: 71 --> [SEX   BATE OF BIRTH   WEIGHT {KG}]
+[15:28:41] linesAll HEIEHUM} Height:43
+MergedLine [SEX   BATE OF BIRTH   WEIGHT {KG}]-[HEIEHUM}] dist: 24 --> [SEX   BATE OF BIRTH   WEIGHT {KG} HEIEHUM}]
+[15:28:41] linesAll PHL Height:39
+[15:28:41] --> Sex
+[15:28:41] Left:819 Top:567 Bottom:603
+[15:28:41] lineMergedToCheck: SEX   BATE OF BIRTH   WEIGHT {KG} HEIEHUM} is not field.
+[15:28:41] linesAll 1976/08/08 Height:45
+MergedLine [PHL]-[1976/08/08] dist: 224.00006103515625 --> [PHL           1976/08/08]
+[15:28:41] linesAll 72 Height:36
+MergedLine [PHL           1976/08/08]-[72] dist: 75 --> [PHL           1976/08/08   72]
+[15:28:41] linesAll 1.65 Height:38
+MergedLine [PHL           1976/08/08   72]-[1.65] dist: 114 --> [PHL           1976/08/08   72    1.65]
+[15:28:41] linesAll ADDRESS Height:30
+[15:28:41] linesAll 0167 FELICIANQ ST LAGUNDI MORONG RIZAL Height:41
+[15:28:41] --> Address
+[15:28:41] Left:628 Top:661.9999389648438 Bottom:693.9999389648438
+[15:28:41] linesAll LICENSE NO Height:39
+[15:28:41] linesAll EXBIRATION DATE Height:41
+MergedLine [LICENSE NO]-[EXBIRATION DATE] dist: 192 --> [LICENSE NO         EXBIRATION DATE]
+[15:28:41] linesAll AGENCY CODE Height:48
+MergedLine [LICENSE NO         EXBIRATION DATE]-[AGENCY CODE] dist: 35 --> [LICENSE NO         EXBIRATION DATE AGENCY CODE]
+[15:28:41] linesAll NOZ-96-314856 Height:45
+[15:28:41] --> License No.
+[15:28:41] Left:611 Top:801 Bottom:840
+[15:28:41] lineMergedToCheck: LICENSE NO         EXBIRATION DATE AGENCY CODE is not field.
+[15:28:41] linesAll 2025/09/P8 Height:55
+MergedLine [NOZ-96-314856]-[2025/09/P8] dist: -25 --> [NOZ-96-314856 2025/09/P8]
+[15:28:41] linesAll DTQ Height:42
+MergedLine [NOZ-96-314856 2025/09/P8]-[DTQ] dist: 63 --> [NOZ-96-314856 2025/09/P8  DTQ]
+[15:28:41] linesAll BTOOC TYPEL Height:45
+[15:28:41] linesAll EXES COLOR Height:36
+MergedLine [BTOOC TYPEL]-[EXES COLOR] dist: 41 --> [BTOOC TYPEL EXES COLOR]
+[15:28:41] linesAll 2019103/14 Height:42
+[15:28:41] linesAll AB+ Height:33
+MergedLine [2019103/14]-[AB+] dist: 183 --> [2019103/14        AB+]
+[15:28:41] linesAll BLACK Height:44
+MergedLine [2019103/14        AB+]-[BLACK] dist: 120 --> [2019103/14        AB+    BLACK]
+[15:28:41] linesAll 5 4856 DIZON; Height:16
+[15:28:41] linesAll CC Height:14
+MergedLine [5 4856 DIZON;]-[CC] dist: 37.999969482421875 --> [5 4856 DIZON;    CC]
+[15:28:41] linesAll RESIRICTIONS Height:32
+IsLineAboveOrSmallerThanLabel baseline line: 5 4856 DIZON; Height * 0.5 = 21.5 label: ScanID.LabelInfo Height: 16
+IsLineAboveOrSmallerThanLabel baseline line: CC Height * 0.5 = 21.5 label: ScanID.LabelInfo Height: 14
+[15:28:41] linesAll CONDITIONE Height:40.9998779296875
+MergedLine [RESIRICTIONS]-[CONDITIONE] dist: 76.00006103515625 --> [RESIRICTIONS    CONDITIONE]
+[15:28:41] linesAll NONE Height:52
+[15:28:41] linesAll EDGAR Height:36
+[15:28:41] linesAll GALVANTE Height:40
+MergedLine [EDGAR]-[GALVANTE] dist: 34 --> [EDGAR GALVANTE]
+[15:28:41] linesAll SIGNATURE AF LICENSEE Height:49
+[15:28:41] linesAll ASSISTAR: GECRETARY Height:48
+MergedLine [SIGNATURE AF LICENSEE]-[ASSISTAR: GECRETARY] dist: 510 --> [SIGNATURE AF LICENSEE                    ASSISTAR: GECRETARY]
+REPUBLIC OF THE PHILIPPINES PredictCenterYInPixel: 245.50001525878906
+DEPARTMENT OF TRANSPORTATION PredictCenterYInPixel: 284.5
+LAND TRANSPORTATION OFFICE PredictCenterYInPixel: 326.4999694824219
+Last Name, First Name, Middle Name PredictCenterYInPixel: 490
+Nationality PredictCenterYInPixel: 594
+Address PredictCenterYInPixel: 677.9999389648438
+[15:28:41] removed 2 lines predicted as label removed from linesField [height < labelHeightInPixel (35.306114744595455)].
+[15:28:41] removed 1 lines predicted as label removed from lsLineMerged [height < labelHeightInPixel (35.306114744595455)].
+line: NON-PROFESSIONAL DRIVER'S LICENSE EstimateCenterYInInch: 0.4664913355064644
+line: N/ EstimateCenterYInInch: 0.449497112524713
+line: DIZON; TCHAICOVSKY CRUZ EstimateCenterYInInch: 0.7689885045816387
+line: PHL EstimateCenterYInInch: 1.018237108313992
+line: 1976/08/08 EstimateCenterYInInch: 1.0091735227237246
+line: 72 EstimateCenterYInInch: 1.0171041601152087
+line: 1.65 EstimateCenterYInInch: 1.019370194812116
+line: 0167 FELICIANQ ST LAGUNDI MORONG RIZAL EstimateCenterYInInch: 1.228965473287709
+line: NOZ-96-314856 EstimateCenterYInInch: 1.5337285387604502
+line: 2025/09/P8 EstimateCenterYInInch: 1.5393932797543672
+line: DTQ EstimateCenterYInInch: 1.54052608965381
+line: BTOOC TYPEL EstimateCenterYInInch: 1.664017581620544
+line: EXES COLOR EstimateCenterYInInch: 1.6606187370241938
+line: 2019103/14 EstimateCenterYInInch: 1.717266146963365
+line: BLACK EstimateCenterYInInch: 1.7331274217463328
+line: CONDITIONE EstimateCenterYInInch: 1.863416326307086
+line: NONE EstimateCenterYInInch: 1.9438557867200499
+line: EDGAR EstimateCenterYInInch: 2.0095667822494887
+line: GALVANTE EstimateCenterYInInch: 2.0050349894543547
+mergedLinesNearToLast_Name_First_Name_Middle_Name: DIZON; TCHAICOVSKY CRUZ EstimateCenterYInInch: 0.7689885045816387
+[15:28:41] DIZON; TCHAICOVSKY CRUZ --> LAST_NAME_FISRT_MIDDLE_NAME
+mergedLinesNearToNationality: PHL           1976/08/08   72    1.65 EstimateCenterYInInch: 1.0125723673200748
+[15:28:41] PHL --> NATIONALITY
+[15:28:41] 1976/08/08 --> DOB
+mergedLinesNearToNationality: 0167 FELICIANQ ST LAGUNDI MORONG RIZAL EstimateCenterYInInch: 1.228965473287709
+mergedLinesNearToNationality: DIZON; TCHAICOVSKY CRUZ EstimateCenterYInInch: 0.7689885045816387
+mergedLinesNearToNationality: NOZ-96-314856 2025/09/P8  DTQ EstimateCenterYInInch: 1.5371273833568004
+mergedLinesNearToNationality: NON-PROFESSIONAL DRIVER'S LICENSE N/ EstimateCenterYInInch: 0.46082659451254726
+mergedLinesNearToNationality: BTOOC TYPEL EXES COLOR EstimateCenterYInInch: 1.664017581620544
+mergedLinesNearToNationality: 2019103/14        AB+    BLACK EstimateCenterYInInch: 1.7263297325536324
+mergedLinesNearToNationality: RESIRICTIONS    CONDITIONE EstimateCenterYInInch: 1.863416326307086
+mergedLinesNearToNationality: NONE EstimateCenterYInInch: 1.9438557867200499
+mergedLinesNearToNationality: EDGAR GALVANTE EstimateCenterYInInch: 2.0050349894543547
+mergedLinesNearToAddress1: 0167 FELICIANQ ST LAGUNDI MORONG RIZAL EstimateCenterYInInch: 1.228965473287709
+[15:28:41] 0167 FELICIANQ ST LAGUNDI MORONG RIZAL --> ADDRESS_1
+mergedLinesNearToAddress2: 0167 FELICIANQ ST LAGUNDI MORONG RIZAL EstimateCenterYInInch: 1.228965473287709
+mergedLinesNearToAddress2: NOZ-96-314856 2025/09/P8  DTQ EstimateCenterYInInch: 1.5371273833568004
+mergedLinesNearToAddress2: PHL           1976/08/08   72    1.65 EstimateCenterYInInch: 1.0125723673200748
+mergedLinesNearToAddress2: BTOOC TYPEL EXES COLOR EstimateCenterYInInch: 1.664017581620544
+mergedLinesNearToAddress2: 2019103/14        AB+    BLACK EstimateCenterYInInch: 1.7263297325536324
+mergedLinesNearToAddress2: DIZON; TCHAICOVSKY CRUZ EstimateCenterYInInch: 0.7689885045816387
+mergedLinesNearToAddress2: RESIRICTIONS    CONDITIONE EstimateCenterYInInch: 1.863416326307086
+mergedLinesNearToAddress2: NONE EstimateCenterYInInch: 1.9438557867200499
+mergedLinesNearToAddress2: EDGAR GALVANTE EstimateCenterYInInch: 2.0050349894543547
+mergedLinesNearToAddress2: NON-PROFESSIONAL DRIVER'S LICENSE N/ EstimateCenterYInInch: 0.46082659451254726
+mergedLinesNearLicenseNo: NOZ-96-314856 2025/09/P8  DTQ EstimateCenterYInInch: 1.5371273833568004
+Exception thrown: 'System.FormatException' in System.Private.CoreLib.dll
+The input string 'P8' was not in a correct format.
+ExtractFieldsFromReadResultOfPHDL result NOT success
+ScanPHDLResult: ScanID.ScanPHDLResult
+[15:28:43] ==== responseBody ====
+ {
+  "<OCR_WITH_REGION>": {
+    "labels": [
+      "REPUBLIC OF THE PHILIPPINES",
+      "DEPARTMENT OF TRANSPORTATION",
+      "LAND TRANSPORTATION OFFICE",
+      "NON-PROFESSIONAL DRIVER'S LICENSE",
+      "Last Name. First Name. Middle Name",
+      "DIZON; TCHAICOVSKY CRUZ",
+      "Nationality",
+      "Date",
+      "Birth",
+      "Weight {kg}",
+      "Heightlm}",
+      "PHL",
+      "1976/08/08",
+      "165",
+      "Address",
+      "0167 FELICIANO",
+      "LAGUNDI MORONG RIZAL",
+      "License",
+      "Expiration Date",
+      "Agency Code",
+      "N0z-96-314856",
+      "2023/08/08",
+      "D19",
+      "Bloou",
+      "Color",
+      "2019103/14",
+      "AB+",
+      "BLACK",
+      "Resirictions",
+      "Conditions",
+      "NONE",
+      "EDGAR",
+      "KALVANTE",
+      "Signature af Licensee",
+      "Assistary Secretary"
+    ],
+    "quad_boxes": [
+      [
+        244.99996948242188,
+        100.0,
+        586.0,
+        132.0
+      ],
+      [
+        238.99996948242188,
+        127.0,
+        592.0,
+        158.0
+      ],
+      [
+        257.9999694824219,
+        149.0,
+        574.0,
+        178.0
+      ],
+      [
+        189.99996948242188,
+        175.0,
+        661.0,
+        213.0
+      ],
+      [
+        309.0,
+        230.99998474121094,
+        565.0,
+        248.99998474121094
+      ],
+      [
+        304.9999694824219,
+        244.0,
+        635.0,
+        281.0
+      ],
+      [
+        308.0,
+        282.0,
+        385.0,
+        302.0
+      ],
+      [
+        467.0,
+        287.0,
+        503.0,
+        301.0
+      ],
+      [
+        521.0,
+        287.0,
+        557.0,
+        303.0
+      ],
+      [
+        592.0,
+        286.0,
+        673.0,
+        307.0
+      ],
+      [
+        687.0,
+        289.0,
+        757.0,
+        307.0
+      ],
+      [
+        306.0,
+        300.0000305175781,
+        346.0,
+        324.0000305175781
+      ],
+      [
+        464.0,
+        302.0,
+        582.0,
+        326.0
+      ],
+      [
+        699.0,
+        307.0000305175781,
+        741.0,
+        327.0000305175781
+      ],
+      [
+        308.0,
+        330.0000305175781,
+        369.0,
+        350.0000305175781
+      ],
+      [
+        304.0,
+        348.0,
+        472.0,
+        374.0
+      ],
+      [
+        501.9999694824219,
+        350.0,
+        748.0,
+        376.0
+      ],
+      [
+        307.0,
+        403.0,
+        363.0,
+        419.0
+      ],
+      [
+        484.99993896484375,
+        403.0,
+        590.9999389648438,
+        421.0
+      ],
+      [
+        609.0,
+        405.0,
+        701.0,
+        423.0
+      ],
+      [
+        304.0,
+        416.0000305175781,
+        468.0,
+        442.0000305175781
+      ],
+      [
+        482.0,
+        418.0,
+        602.0,
+        444.0
+      ],
+      [
+        631.9999389648438,
+        420.0,
+        673.9999389648438,
+        444.0
+      ],
+      [
+        307.0,
+        448.99993896484375,
+        349.0,
+        465.0
+      ],
+      [
+        459.0,
+        451.0,
+        497.0,
+        465.0
+      ],
+      [
+        142.0,
+        458.0,
+        238.0,
+        482.0
+      ],
+      [
+        325.0,
+        465.0,
+        363.0,
+        485.0
+      ],
+      [
+        426.0,
+        462.0,
+        492.0,
+        486.0
+      ],
+      [
+        305.0,
+        497.0000305175781,
+        387.0,
+        513.0
+      ],
+      [
+        425.0,
+        495.0,
+        501.0,
+        513.0
+      ],
+      [
+        432.0000305175781,
+        508.0,
+        490.0000305175781,
+        534.0
+      ],
+      [
+        527.0,
+        525.0000610351562,
+        579.0,
+        545.0000610351562
+      ],
+      [
+        592.0,
+        522.0,
+        674.0,
+        546.0
+      ],
+      [
+        110.99998474121094,
+        545.0,
+        270.0,
+        569.0
+      ],
+      [
+        524.0,
+        544.0,
+        658.0,
+        574.0
+      ]
+    ]
+  },
+  "image_height": 612,
+  "image_width": 816
+}
+
+==========
+[15:28:44] linesAll REPUBLIC OF THE PHILIPPINES Height:23
+[15:28:44] linesAll DEPARTMENT OF TRANSPORTATION Height:31
+[15:28:44] --> REPUBLIC OF THE PHILIPPINES
+[15:28:44] Left:267.9999694824219 Top:109 Bottom:140
+[15:28:44] linesAll LAND TRANSPORTATION OFFICE Height:29
+[15:28:44] --> DEPARTMENT OF TRANSPORTATION
+[15:28:44] Left:238.99996948242188 Top:127 Bottom:158
+[15:28:44] linesAll NON-PROFESSIONAL DRIVER'S LICENSE Height:26
+[15:28:44] --> LAND TRANSPORTATION OFFICE
+[15:28:44] Left:257.9999694824219 Top:149 Bottom:178
+[15:28:44] linesAll LAST NAME. FIRST NAME. MIDDLE NAME Height:13
+[15:28:44] linesAll DIZON; TCHAICOVSKY CRUZ Height:37
+[15:28:44] --> Last Name, First Name, Middle Name
+[15:28:44] Left:324 Top:231.99998474121094 Bottom:248.99998474121094
+[15:28:44] linesAll NATIONALITY Height:16
+[15:28:44] linesAll DATE Height:14
+MergedLine [NATIONALITY]-[DATE] dist: 74 --> [NATIONALITY         DATE]
+[15:28:44] linesAll BIRTH Height:16
+MergedLine [NATIONALITY         DATE]-[BIRTH] dist: 18 --> [NATIONALITY         DATE BIRTH]
+[15:28:44] linesAll WEIGHT {KG} Height:17
+MergedLine [NATIONALITY         DATE BIRTH]-[WEIGHT {KG}] dist: 43 --> [NATIONALITY         DATE BIRTH    WEIGHT {KG}]
+[15:28:44] linesAll HEIGHTLM} Height:18
+MergedLine [NATIONALITY         DATE BIRTH    WEIGHT {KG}]-[HEIGHTLM}] dist: 5 --> [NATIONALITY         DATE BIRTH    WEIGHT {KG} HEIGHTLM}]
+[15:28:44] linesAll PHL Height:20
+[15:28:44] --> Nationality
+[15:28:44] Left:315 Top:286 Bottom:305
+[15:28:44] lineMergedToCheck: NATIONALITY         DATE BIRTH    WEIGHT {KG} HEIGHTLM} is not field.
+[15:28:44] linesAll 1976/08/08 Height:24
+MergedLine [PHL]-[1976/08/08] dist: 112 --> [PHL           1976/08/08]
+[15:28:44] linesAll 165 Height:18
+MergedLine [PHL           1976/08/08]-[165] dist: 125 --> [PHL           1976/08/08         165]
+[15:28:44] linesAll ADDRESS Height:16
+[15:28:44] linesAll 0167 FELICIANO Height:22
+[15:28:44] --> Address
+[15:28:44] Left:315 Top:334.0000305175781 Bottom:350.0000305175781
+[15:28:44] linesAll LAGUNDI MORONG RIZAL Height:20
+MergedLine [0167 FELICIANO]-[LAGUNDI MORONG RIZAL] dist: -1.000030517578125 --> [0167 FELICIANO LAGUNDI MORONG RIZAL]
+[15:28:44] linesAll LICENSE Height:14
+[15:28:44] linesAll EXPIRATION DATE Height:18
+MergedLine [LICENSE]-[EXPIRATION DATE] dist: 116.99993896484375 --> [LICENSE                EXPIRATION DATE]
+[15:28:44] linesAll AGENCY CODE Height:18
+MergedLine [LICENSE                EXPIRATION DATE]-[AGENCY CODE] dist: 18.00006103515625 --> [LICENSE                EXPIRATION DATE  AGENCY CODE]
+[15:28:44] linesAll N0Z-96-314856 Height:26
+IsLineAboveOrSmallerThanLabel baseline line: LICENSE Height * 0.5 = 15.5 label: ScanID.LabelInfo Height: 14
+[15:28:44] --> Expiration Date
+[15:28:44] Left:484.99993896484375 Top:403 Bottom:421
+[15:28:44] lineMergedToCheck: LICENSE                EXPIRATION DATE  AGENCY CODE is not field.
+[15:28:44] linesAll 2023/08/08 Height:26
+MergedLine [N0Z-96-314856]-[2023/08/08] dist: 14 --> [N0Z-96-314856 2023/08/08]
+[15:28:44] linesAll D19 Height:24
+MergedLine [N0Z-96-314856 2023/08/08]-[D19] dist: 29.99993896484375 --> [N0Z-96-314856 2023/08/08  D19]
+[15:28:44] linesAll BLOOU Height:16.00006103515625
+[15:28:44] linesAll COLOR Height:14
+MergedLine [BLOOU]-[COLOR] dist: 110 --> [BLOOU             COLOR]
+[15:28:44] linesAll 2019103/14 Height:24
+IsLineAboveOrSmallerThanLabel baseline line: COLOR Height * 0.5 = 15.5 label: ScanID.LabelInfo Height: 14
+[15:28:44] linesAll AB+ Height:20
+MergedLine [2019103/14]-[AB+] dist: 91 --> [2019103/14       AB+]
+[15:28:44] linesAll BLACK Height:24
+MergedLine [2019103/14       AB+]-[BLACK] dist: 58 --> [2019103/14       AB+   BLACK]
+[15:28:44] linesAll RESIRICTIONS Height:15.999969482421875
+[15:28:44] linesAll CONDITIONS Height:18
+MergedLine [RESIRICTIONS]-[CONDITIONS] dist: 38 --> [RESIRICTIONS    CONDITIONS]
+[15:28:44] linesAll NONE Height:26
+[15:28:44] --> Conditions
+[15:28:44] Left:425 Top:495 Bottom:513
+[15:28:44] lineMergedToCheck: RESIRICTIONS    CONDITIONS is not field.
+[15:28:44] linesAll EDGAR Height:20
+[15:28:44] linesAll KALVANTE Height:24
+MergedLine [EDGAR]-[KALVANTE] dist: 13 --> [EDGAR KALVANTE]
+[15:28:44] linesAll SIGNATURE AF LICENSEE Height:20
+[15:28:44] linesAll ASSISTARY SECRETARY Height:30
+MergedLine [SIGNATURE AF LICENSEE]-[ASSISTARY SECRETARY] dist: 240.00001525878906 --> [SIGNATURE AF LICENSEE                        ASSISTARY SECRETARY]
+REPUBLIC OF THE PHILIPPINES PredictCenterYInPixel: 124.5
+DEPARTMENT OF TRANSPORTATION PredictCenterYInPixel: 142.5
+LAND TRANSPORTATION OFFICE PredictCenterYInPixel: 163.5
+Last Name, First Name, Middle Name PredictCenterYInPixel: 240.49998474121094
+Nationality PredictCenterYInPixel: 295.5
+Address PredictCenterYInPixel: 342.0000305175781
+[15:28:44] removed 1 lines predicted as label removed from linesField [height < labelHeightInPixel (17.755103789626695)].
+[15:28:44] removed 1 lines predicted as label removed from lsLineMerged [height < labelHeightInPixel (17.755103789626695)].
+line: NON-PROFESSIONAL DRIVER'S LICENSE EstimateCenterYInInch: 0.4586475095924673
+line: DIZON; TCHAICOVSKY CRUZ EstimateCenterYInInch: 0.7717968970363588
+line: PHL EstimateCenterYInInch: 1.0218659698377526
+line: 1976/08/08 EstimateCenterYInInch: 1.0038428460055733
+line: 165 EstimateCenterYInInch: 1.0308774630016055
+line: 0167 FELICIANO EstimateCenterYInInch: 1.2381416682657511
+line: LAGUNDI MORONG RIZAL EstimateCenterYInInch: 1.2516589080115306
+line: N0Z-96-314856 EstimateCenterYInInch: 1.5220038404315936
+line: 2023/08/08 EstimateCenterYInInch: 1.5310151960909735
+line: D19 EstimateCenterYInInch: 1.5355209426729
+line: 2019103/14 EstimateCenterYInInch: 1.7067393127861068
+line: AB+ EstimateCenterYInInch: 1.7427852854415187
+line: BLACK EstimateCenterYInInch: 1.7247622991138127
+line: NONE EstimateCenterYInInch: 1.9365323884643582
+line: EDGAR EstimateCenterYInInch: 1.9996131156202757
+line: KALVANTE EstimateCenterYInInch: 1.9951070940294025
+mergedLinesNearToLast_Name_First_Name_Middle_Name: DIZON; TCHAICOVSKY CRUZ EstimateCenterYInInch: 0.7717968970363588
+[15:28:44] DIZON; TCHAICOVSKY CRUZ --> LAST_NAME_FISRT_MIDDLE_NAME
+mergedLinesNearToNationality: PHL           1976/08/08         165 EstimateCenterYInInch: 1.0106015346306998
+[15:28:44] PHL --> NATIONALITY
+[15:28:44] 1976/08/08 --> DOB
+mergedLinesNearToNationality: DIZON; TCHAICOVSKY CRUZ EstimateCenterYInInch: 0.7717968970363588
+mergedLinesNearToNationality: 0167 FELICIANO LAGUNDI MORONG RIZAL EstimateCenterYInInch: 1.2449002881386408
+mergedLinesNearToNationality: N0Z-96-314856 2023/08/08  D19 EstimateCenterYInInch: 1.5265095182612836
+mergedLinesNearToNationality: NON-PROFESSIONAL DRIVER'S LICENSE EstimateCenterYInInch: 0.4586475095924673
+mergedLinesNearToNationality: 2019103/14       AB+   BLACK EstimateCenterYInInch: 1.7202565525318863
+mergedLinesNearToNationality: NONE EstimateCenterYInInch: 1.9365323884643582
+mergedLinesNearToNationality: EDGAR KALVANTE EstimateCenterYInInch: 1.9951070940294025
+mergedLinesNearToAddress1: 0167 FELICIANO LAGUNDI MORONG RIZAL EstimateCenterYInInch: 1.2449002881386408
+[15:28:44] 0167 FELICIANO LAGUNDI MORONG RIZAL --> ADDRESS_1
+mergedLinesNearToAddress2: 0167 FELICIANO LAGUNDI MORONG RIZAL EstimateCenterYInInch: 1.2449002881386408
+mergedLinesNearToAddress2: N0Z-96-314856 2023/08/08  D19 EstimateCenterYInInch: 1.5265095182612836
+mergedLinesNearToAddress2: PHL           1976/08/08         165 EstimateCenterYInInch: 1.0106015346306998
+mergedLinesNearToAddress2: 2019103/14       AB+   BLACK EstimateCenterYInInch: 1.7202565525318863
+mergedLinesNearToAddress2: DIZON; TCHAICOVSKY CRUZ EstimateCenterYInInch: 0.7717968970363588
+mergedLinesNearToAddress2: NONE EstimateCenterYInInch: 1.9365323884643582
+mergedLinesNearToAddress2: EDGAR KALVANTE EstimateCenterYInInch: 1.9951070940294025
+mergedLinesNearToAddress2: NON-PROFESSIONAL DRIVER'S LICENSE EstimateCenterYInInch: 0.4586475095924673
+mergedLinesNearLicenseNo: N0Z-96-314856 2023/08/08  D19 EstimateCenterYInInch: 1.5265095182612836
+ExtractFieldsFromReadResultOfPHDL result NOT success
+ScanPHDLResult: ScanID.ScanPHDLResult
+[15:28:47] ==== responseBody ====
+ {
+  "<OCR_WITH_REGION>": {
+    "labels": [
+      "RepublIc",
+      "OF",
+      "THE Philippines",
+      "DEPARTMENT OF TRANSPORTATION",
+      "LAND TRANSPORTATION OFFICE",
+      "NOn-PROFESSIONAL Driver' $ LicENse",
+      "Last Name. First Name",
+      "Middle Name",
+      "TANIG, JOHN ERVIN BANIQUED",
+      "Nationality",
+      "Sex",
+      "Date of Birth",
+      "Weight (kg}",
+      "Heigntlm}",
+      "PHL",
+      "1993/04/23",
+      "110",
+      "175",
+      "Address",
+      "L5 Th DELA CRUZ ST VILLA TALNOVA",
+      "CALOOCAN City",
+      "License Noj",
+      "Expiration Date",
+      "Agency Code",
+      "N25-11-025458",
+      "2022",
+      "N3",
+      "Biood Type",
+      "Zlay",
+      "Restriciions",
+      "EDGAR",
+      "GALVANTE",
+      "Signature of Licensee",
+      "Assistan: Secretary",
+      "NEN"
+    ],
+    "quad_boxes": [
+      [
+        336.0,
+        34.000003814697266,
+        494.0,
+        64.0
+      ],
+      [
+        500.0,
+        36.0,
+        542.0,
+        60.0
+      ],
+      [
+        550.0,
+        34.0,
+        816.0,
+        62.0
+      ],
+      [
+        328.0,
+        67.0,
+        825.0,
+        98.0
+      ],
+      [
+        354.0,
+        93.00000762939453,
+        799.0,
+        126.00000762939453
+      ],
+      [
+        251.00006103515625,
+        127.0,
+        939.0000610351562,
+        163.0
+      ],
+      [
+        414.0,
+        190.0,
+        650.0,
+        221.0
+      ],
+      [
+        656.0,
+        192.0,
+        794.0,
+        216.0
+      ],
+      [
+        411.0,
+        210.0,
+        954.0,
+        260.0
+      ],
+      [
+        413.0000305175781,
+        267.0,
+        526.0,
+        296.0
+      ],
+      [
+        566.0000610351562,
+        267.9999694824219,
+        608.0000610351562,
+        293.9999694824219
+      ],
+      [
+        652.0,
+        267.9999694824219,
+        784.0,
+        293.9999694824219
+      ],
+      [
+        842.0,
+        266.0,
+        962.0,
+        294.0
+      ],
+      [
+        984.0,
+        266.0,
+        1092.0,
+        294.0
+      ],
+      [
+        414.0,
+        296.0,
+        472.0,
+        326.0
+      ],
+      [
+        652.0,
+        296.0,
+        828.0,
+        328.0
+      ],
+      [
+        876.0,
+        294.0,
+        928.0,
+        322.0
+      ],
+      [
+        1010.0,
+        294.0,
+        1070.0,
+        320.0
+      ],
+      [
+        416.0,
+        336.0,
+        502.0,
+        362.0
+      ],
+      [
+        414.0,
+        364.0000305175781,
+        970.0,
+        396.0000305175781
+      ],
+      [
+        413.0,
+        396.99993896484375,
+        659.0,
+        433.0
+      ],
+      [
+        414.0,
+        440.0,
+        532.0,
+        464.0
+      ],
+      [
+        681.9999389648438,
+        437.9999694824219,
+        841.9999389648438,
+        463.9999694824219
+      ],
+      [
+        874.0,
+        436.0000305175781,
+        1012.0,
+        464.0000305175781
+      ],
+      [
+        413.0,
+        463.0000305175781,
+        659.0,
+        505.0000305175781
+      ],
+      [
+        681.9999389648438,
+        462.0,
+        757.9999389648438,
+        494.0
+      ],
+      [
+        916.0000610351562,
+        462.0000305175781,
+        962.0000610351562,
+        492.0000305175781
+      ],
+      [
+        414.0,
+        506.0,
+        530.0,
+        534.0
+      ],
+      [
+        174.0,
+        526.0,
+        312.0,
+        558.0
+      ],
+      [
+        412.0,
+        576.0,
+        534.0,
+        600.0
+      ],
+      [
+        752.0,
+        616.0,
+        836.0,
+        646.0
+      ],
+      [
+        853.9999389648438,
+        616.0000610351562,
+        979.9999389648438,
+        642.0000610351562
+      ],
+      [
+        125.00000762939453,
+        649.0,
+        358.0,
+        682.0
+      ],
+      [
+        749.0,
+        643.0,
+        956.0,
+        674.0
+      ],
+      [
+        570.0,
+        543.0,
+        700.0,
+        592.0
+      ]
+    ]
+  },
+  "image_height": 703,
+  "image_width": 1169
+}
+
+==========
+[15:28:48] linesAll REPUBLIC Height:29.999996185302734
+[15:28:48] linesAll OF Height:24
+MergedLine [REPUBLIC]-[OF] dist: 6 --> [REPUBLIC OF]
+[15:28:48] linesAll THE PHILIPPINES Height:28
+MergedLine [REPUBLIC OF]-[THE PHILIPPINES] dist: 8 --> [REPUBLIC OF THE PHILIPPINES]
+[15:28:48] linesAll DEPARTMENT OF TRANSPORTATION Height:27
+[15:28:48] --> REPUBLIC OF THE PHILIPPINES
+[15:28:48] Left:336 Top:34 Bottom:64
+[15:28:48] linesAll LAND TRANSPORTATION OFFICE Height:29
+[15:28:48] --> DEPARTMENT OF TRANSPORTATION
+[15:28:48] Left:357 Top:69 Bottom:101
+[15:28:48] linesAll NON-PROFESSIONAL DRIVER' $ LICENSE Height:31
+[15:28:48] --> LAND TRANSPORTATION OFFICE
+[15:28:48] Left:359 Top:93.00000762939453 Bottom:127.00000762939453
+[15:28:48] linesAll LAST NAME. FIRST NAME Height:26
+[15:28:48] linesAll MIDDLE NAME Height:23
+MergedLine [LAST NAME. FIRST NAME]-[MIDDLE NAME] dist: -33 --> [LAST NAME. FIRST NAME MIDDLE NAME]
+[15:28:48] linesAll TANIG, JOHN ERVIN BANIQUED Height:43
+[15:28:48] --> Last Name, First Name, Middle Name
+[15:28:48] Left:430 Top:192 Bottom:223
+[15:28:48] linesAll NATIONALITY Height:24
+[15:28:48] linesAll SEX Height:24
+MergedLine [NATIONALITY]-[SEX] dist: 30.000030517578125 --> [NATIONALITY  SEX]
+[15:28:48] linesAll DATE OF BIRTH Height:23
+MergedLine [NATIONALITY  SEX]-[DATE OF BIRTH] dist: 47.99993896484375 --> [NATIONALITY  SEX   DATE OF BIRTH]
+[15:28:48] linesAll WEIGHT (KG} Height:27
+MergedLine [NATIONALITY  SEX   DATE OF BIRTH]-[WEIGHT (KG}] dist: 51 --> [NATIONALITY  SEX   DATE OF BIRTH   WEIGHT (KG}]
+[15:28:48] linesAll HEIGNTLM} Height:28
+MergedLine [NATIONALITY  SEX   DATE OF BIRTH   WEIGHT (KG}]-[HEIGNTLM}] dist: 9 --> [NATIONALITY  SEX   DATE OF BIRTH   WEIGHT (KG} HEIGNTLM}]
+[15:28:48] linesAll PHL Height:27
+[15:28:48] --> Nationality
+[15:28:48] Left:424.0000305175781 Top:274 Bottom:302
+[15:28:48] lineMergedToCheck: NATIONALITY  SEX   DATE OF BIRTH   WEIGHT (KG} HEIGNTLM} is not field.
+[15:28:48] linesAll 1993/04/23 Height:27
+MergedLine [PHL]-[1993/04/23] dist: 187 --> [PHL             1993/04/23]
+[15:28:48] linesAll 110 Height:28
+[15:28:48] linesAll 175 Height:26
+MergedLine [110]-[175] dist: 82 --> [110     175]
+[15:28:48] linesAll ADDRESS Height:24
+[15:28:48] linesAll L5 TH DELA CRUZ ST VILLA TALNOVA Height:29
+[15:28:48] --> Address
+[15:28:48] Left:424 Top:342 Bottom:366
+[15:28:48] linesAll CALOOCAN CITY Height:31
+[15:28:48] linesAll LICENSE NOJ Height:23
+[15:28:48] linesAll EXPIRATION DATE Height:22
+MergedLine [LICENSE NOJ]-[EXPIRATION DATE] dist: 145.99993896484375 --> [LICENSE NOJ            EXPIRATION DATE]
+[15:28:48] linesAll AGENCY CODE Height:23
+MergedLine [LICENSE NOJ            EXPIRATION DATE]-[AGENCY CODE] dist: 21.00006103515625 --> [LICENSE NOJ            EXPIRATION DATE AGENCY CODE]
+[15:28:48] linesAll N25-11-025458 Height:42
+[15:28:48] --> Expiration Date
+[15:28:48] Left:694.9999389648438 Top:441.9999694824219 Bottom:467.9999694824219
+[15:28:48] lineMergedToCheck: LICENSE NOJ            EXPIRATION DATE AGENCY CODE is not field.
+[15:28:48] linesAll 2022 Height:30
+MergedLine [N25-11-025458]-[2022] dist: 30.99993896484375 --> [N25-11-025458 2022]
+[15:28:48] linesAll N3 Height:28
+[15:28:48] linesAll BIOOD TYPE Height:28
+[15:28:48] linesAll ZLAY Height:32
+[15:28:48] linesAll RESTRICIIONS Height:22
+[15:28:48] linesAll EDGAR Height:26
+[15:28:48] linesAll GALVANTE Height:26
+[15:28:48] linesAll SIGNATURE OF LICENSEE Height:33
+[15:28:48] linesAll ASSISTAN: SECRETARY Height:31
+MergedLine [SIGNATURE OF LICENSEE]-[ASSISTAN: SECRETARY] dist: 391 --> [SIGNATURE OF LICENSEE                       ASSISTAN: SECRETARY]
+[15:28:48] linesAll NEN Height:49
+REPUBLIC OF THE PHILIPPINES PredictCenterYInPixel: 49
+DEPARTMENT OF TRANSPORTATION PredictCenterYInPixel: 85
+LAND TRANSPORTATION OFFICE PredictCenterYInPixel: 110.00000762939453
+Last Name, First Name, Middle Name PredictCenterYInPixel: 207.5
+Nationality PredictCenterYInPixel: 288
+Address PredictCenterYInPixel: 354
+[15:28:48] removed 1 lines predicted as label removed from linesField [height < labelHeightInPixel (24.8979581425782)].
+[15:28:48] removed 1 lines predicted as label removed from lsLineMerged [height < labelHeightInPixel (24.8979581425782)].
+line: NON-PROFESSIONAL DRIVER' $ LICENSE EstimateCenterYInInch: 0.44555190384257676
+line: TANIG, JOHN ERVIN BANIQUED EstimateCenterYInInch: 0.7459781391978914
+line: PHL EstimateCenterYInInch: 1.0014207671203248
+line: 1993/04/23 EstimateCenterYInInch: 1.0046338819369591
+line: 110 EstimateCenterYInInch: 0.9757158485872497
+line: 175 EstimateCenterYInInch: 0.9725027337706154
+line: L5 TH DELA CRUZ ST VILLA TALNOVA EstimateCenterYInInch: 1.2086667708497247
+line: CALOOCAN CITY EstimateCenterYInInch: 1.348436971203873
+line: N25-11-025458 EstimateCenterYInInch: 1.5412241543713832
+line: 2022 EstimateCenterYInInch: 1.541224056314901
+line: N3 EstimateCenterYInInch: 1.5155192358383083
+line: BIOOD TYPE EstimateCenterYInInch: 1.6568961897137386
+line: ZLAY EstimateCenterYInInch: 1.7275847156796948
+line: EDGAR EstimateCenterYInInch: 2.032830623259961
+line: GALVANTE EstimateCenterYInInch: 2.007125900839851
+line: SIGNATURE OF LICENSEE EstimateCenterYInInch: 2.124404395534041
+line: ASSISTAN: SECRETARY EstimateCenterYInInch: 2.1019125918176003
+mergedLinesNearToLast_Name_First_Name_Middle_Name: TANIG, JOHN ERVIN BANIQUED EstimateCenterYInInch: 0.7459781391978914
+[15:28:48] TANIG, JOHN ERVIN BANIQUED --> LAST_NAME_FISRT_MIDDLE_NAME
+mergedLinesNearToNationality: PHL             1993/04/23 EstimateCenterYInInch: 1.0046338819369591
+[15:28:48] PHL --> NATIONALITY
+[15:28:48] 1993/04/23 --> DOB
+mergedLinesNearToNationality: 110     175 EstimateCenterYInInch: 0.9757158485872497
+mergedLinesNearToNationality: L5 TH DELA CRUZ ST VILLA TALNOVA EstimateCenterYInInch: 1.2086667708497247
+mergedLinesNearToNationality: TANIG, JOHN ERVIN BANIQUED EstimateCenterYInInch: 0.7459781391978914
+mergedLinesNearToNationality: CALOOCAN CITY EstimateCenterYInInch: 1.348436971203873
+mergedLinesNearToNationality: N3 EstimateCenterYInInch: 1.5155192358383083
+mergedLinesNearToNationality: N25-11-025458 2022 EstimateCenterYInInch: 1.5412241543713832
+mergedLinesNearToNationality: NON-PROFESSIONAL DRIVER' $ LICENSE EstimateCenterYInInch: 0.44555190384257676
+mergedLinesNearToNationality: BIOOD TYPE EstimateCenterYInInch: 1.6568961897137386
+mergedLinesNearToNationality: ZLAY EstimateCenterYInInch: 1.7275847156796948
+mergedLinesNearToNationality: GALVANTE EstimateCenterYInInch: 2.007125900839851
+mergedLinesNearToNationality: EDGAR EstimateCenterYInInch: 2.032830623259961
+mergedLinesNearToNationality: SIGNATURE OF LICENSEE                       ASSISTAN: SECRETARY EstimateCenterYInInch: 2.114765051084138
+mergedLinesNearToAddress1: L5 TH DELA CRUZ ST VILLA TALNOVA EstimateCenterYInInch: 1.2086667708497247
+[15:28:48] L5 TH DELA CRUZ ST VILLA TALNOVA --> ADDRESS_1
+mergedLinesNearToAddress2: CALOOCAN CITY EstimateCenterYInInch: 1.348436971203873
+[15:28:48] CALOOCAN CITY --> ADDRESS_2
+mergedLinesNearLicenseNo: N3 EstimateCenterYInInch: 1.5155192358383083
+mergedLinesNearLicenseNo: N25-11-025458 2022 EstimateCenterYInInch: 1.5412241543713832
+ExtractFieldsFromReadResultOfPHDL result NOT success
+ScanPHDLResult: ScanID.ScanPHDLResult
+[15:28:49] ==== responseBody ====
+ {
+  "<OCR_WITH_REGION>": {
+    "labels": [
+      "RepubLIC",
+      "OF",
+      "DEPARTMENT",
+      "TRANSPORTATION",
+      "LAND TRANSPORTATION Office",
+      "NON-PROFESSIONAL DRIVER",
+      "LIcense",
+      "TANIG, JOHN ERVIN BANIQUED",
+      "1993",
+      "04/23",
+      "110",
+      "DELA CRUZ ST VILLA",
+      "NOVA",
+      "CALOOCAN city",
+      "N25",
+      "1-025458",
+      "2022",
+      "N3",
+      "EDGAR",
+      "Assistane Secretary",
+      "NEN"
+    ],
+    "quad_boxes": [
+      [
+        169.0,
+        17.0,
+        247.0,
+        33.0
+      ],
+      [
+        251.0,
+        16.999998092651367,
+        273.0,
+        30.999998092651367
+      ],
+      [
+        165.0,
+        35.0,
+        261.0,
+        51.0
+      ],
+      [
+        284.0,
+        33.0,
+        415.0,
+        50.0
+      ],
+      [
+        175.00003051757812,
+        45.999996185302734,
+        401.0000305175781,
+        62.999996185302734
+      ],
+      [
+        122.99999237060547,
+        63.0,
+        375.0,
+        81.0
+      ],
+      [
+        391.0,
+        61.0,
+        469.0,
+        81.0
+      ],
+      [
+        204.0,
+        106.0,
+        478.0,
+        130.0
+      ],
+      [
+        327.0,
+        149.0,
+        363.0,
+        163.0
+      ],
+      [
+        369.0,
+        149.0,
+        415.0,
+        163.0
+      ],
+      [
+        439.0,
+        147.0,
+        467.0,
+        163.0
+      ],
+      [
+        253.0,
+        181.0,
+        407.0,
+        199.0
+      ],
+      [
+        441.0,
+        181.0,
+        485.0,
+        197.0
+      ],
+      [
+        207.00003051757812,
+        199.00003051757812,
+        329.0000305175781,
+        217.0
+      ],
+      [
+        207.0,
+        233.00001525878906,
+        241.0,
+        249.00001525878906
+      ],
+      [
+        253.00003051757812,
+        229.0,
+        329.0000305175781,
+        249.0
+      ],
+      [
+        340.0000305175781,
+        229.0,
+        379.0000305175781,
+        249.0
+      ],
+      [
+        457.0,
+        233.0,
+        481.0,
+        247.0
+      ],
+      [
+        377.0,
+        309.0,
+        417.0,
+        325.0
+      ],
+      [
+        377.0,
+        323.0,
+        479.0,
+        337.0
+      ],
+      [
+        283.0000305175781,
+        273.0,
+        353.0000305175781,
+        294.0
+      ]
+    ]
+  },
+  "image_height": 352,
+  "image_width": 585
+}
+
+==========
+[15:28:49] linesAll REPUBLIC Height:13
+[15:28:49] linesAll OF Height:14
+MergedLine [REPUBLIC]-[OF] dist: -3 --> [REPUBLIC OF]
+[15:28:49] linesAll DEPARTMENT Height:12
+[15:28:49] linesAll TRANSPORTATION Height:17
+MergedLine [DEPARTMENT]-[TRANSPORTATION] dist: 8 --> [DEPARTMENT TRANSPORTATION]
+[15:28:49] linesAll LAND TRANSPORTATION OFFICE Height:15
+[15:28:49] linesAll NON-PROFESSIONAL DRIVER Height:18
+[15:28:49] --> LAND TRANSPORTATION OFFICE
+[15:28:49] Left:179.00003051757812 Top:45.999996185302734 Bottom:60.999996185302734
+[15:28:49] linesAll LICENSE Height:18
+MergedLine [NON-PROFESSIONAL DRIVER]-[LICENSE] dist: 23 --> [NON-PROFESSIONAL DRIVER  LICENSE]
+[15:28:49] linesAll TANIG, JOHN ERVIN BANIQUED Height:21
+[15:28:49] linesAll 1993, Height:12
+[15:28:49] linesAll 04/23 Height:12
+MergedLine [1993,]-[04/23] dist: -1 --> [1993, 04/23]
+[15:28:49] linesAll 110 Height:14
+MergedLine [1993, 04/23]-[110] dist: 28 --> [1993, 04/23   110]
+[15:28:49] linesAll DELA CRUZ ST VILLA Height:15
+[15:28:49] linesAll NOVA Height:14
+MergedLine [DELA CRUZ ST VILLA]-[NOVA] dist: 24 --> [DELA CRUZ ST VILLA   NOVA]
+[15:28:49] linesAll CALOOCAN CITY Height:15
+[15:28:49] linesAll N25 Height:16
+[15:28:49] linesAll 1-025458 Height:20
+MergedLine [N25]-[1-025458] dist: 12.000030517578125 --> [N25 1-025458]
+[15:28:49] linesAll 2022 Height:17
+MergedLine [N25 1-025458]-[2022] dist: 16 --> [N25 1-025458 2022]
+[15:28:49] linesAll N3 Height:12
+MergedLine [N25 1-025458 2022]-[N3] dist: 77.99996948242188 --> [N25 1-025458 2022       N3]
+[15:28:49] linesAll EDGAR Height:16
+[15:28:49] linesAll ASSISTANE SECRETARY Height:14
+[15:28:49] linesAll NEN Height:21
+ExtractFieldsFromReadResultOfPHDL result NOT success
+ScanPHDLResult: ScanID.ScanPHDLResult
+[15:28:57] ==== responseBody ====
+ {
+  "<OCR_WITH_REGION>": {
+    "labels": [
+      "REPUBLIC OF THE PHILIPPINES",
+      "@ngo",
+      "DEPARTMENT OF TRANSPORTATION",
+      "LAND TRANSPORTATION OFFICE",
+      "NON-PROFESSIONAL DRIVER'S LICENSE",
+      "Last Name. First Name. Middle Name",
+      "MIRANDA, MICHAEL DILAGAN",
+      "Nationality",
+      "Sex",
+      "Date of Birth",
+      "Weight (kg}",
+      "Heightlm)",
+      "PHL",
+      "1977/04/29",
+      "75",
+      "1.64",
+      "Address",
+      "B1",
+      "L3",
+      "SPRING HEIGHTS FILINVEST BAGONG",
+      "SILANGAN QUEZON City",
+      "License No_",
+      "Expiration Date",
+      "Agency Code",
+      "N01-08-009726",
+      "2022/04/29",
+      "N03",
+      "Blood Type",
+      "Eyes Color",
+      "0+",
+      "BLACK",
+      "Cce",
+      "Restrictions",
+      "Conditions",
+      "1.2",
+      "NONE",
+      "EDGAR",
+      "GALVANTE",
+      "Signature of Licensee",
+      "Assistant Secretary",
+      "Quanbooo ",
+      "rf"
+    ],
+    "quad_boxes": [
+      [
+        568.0,
+        52.0,
+        1440.0001220703125,
+        104.0
+      ],
+      [
+        1696.0,
+        59.0,
+        1855.0,
+        123.0
+      ],
+      [
+        553.0,
+        116.0,
+        1460.0,
+        172.0
+      ],
+      [
+        600.0000610351562,
+        171.0,
+        1409.0,
+        228.0
+      ],
+      [
+        411.0001220703125,
+        243.0,
+        1653.0001220703125,
+        307.0
+      ],
+      [
+        709.0,
+        362.0,
+        1389.0,
+        407.0
+      ],
+      [
+        702.0,
+        394.0,
+        1632.0,
+        492.0
+      ],
+      [
+        703.9999389648438,
+        496.0,
+        908.9999389648438,
+        550.0
+      ],
+      [
+        975.0,
+        502.0,
+        1052.0,
+        545.0
+      ],
+      [
+        1133.0001220703125,
+        501.0,
+        1365.0001220703125,
+        543.0
+      ],
+      [
+        1468.0,
+        498.0,
+        1682.0,
+        550.0
+      ],
+      [
+        1724.0,
+        498.0,
+        1912.0,
+        546.0
+      ],
+      [
+        706.0,
+        550.0,
+        808.0,
+        600.0
+      ],
+      [
+        1128.9998779296875,
+        549.0,
+        1438.9998779296875,
+        609.0
+      ],
+      [
+        1536.0,
+        550.0,
+        1606.0,
+        598.0
+      ],
+      [
+        1764.0,
+        548.0,
+        1870.0,
+        596.0
+      ],
+      [
+        704.9999389648438,
+        620.0,
+        861.9999389648438,
+        669.0
+      ],
+      [
+        706.0,
+        674.0,
+        774.0,
+        722.0
+      ],
+      [
+        788.0,
+        672.0000610351562,
+        860.0,
+        722.0000610351562
+      ],
+      [
+        897.0,
+        665.0,
+        1875.0,
+        725.0
+      ],
+      [
+        701.0,
+        731.0,
+        1348.0,
+        785.0
+      ],
+      [
+        704.0,
+        803.0,
+        911.0,
+        847.0
+      ],
+      [
+        1174.0,
+        799.9999389648438,
+        1454.0,
+        847.9999389648438
+      ],
+      [
+        1506.0,
+        796.0000610351562,
+        1752.0,
+        853.0000610351562
+      ],
+      [
+        702.0,
+        844.0000610351562,
+        1130.0,
+        900.0000610351562
+      ],
+      [
+        1170.0,
+        841.0,
+        1487.0,
+        906.0
+      ],
+      [
+        1576.0,
+        843.9999389648438,
+        1680.0,
+        893.9999389648438
+      ],
+      [
+        704.0,
+        918.0,
+        908.0,
+        966.0
+      ],
+      [
+        1012.0,
+        918.0,
+        1204.0,
+        966.0
+      ],
+      [
+        769.0,
+        961.0000610351562,
+        839.0,
+        1005.0000610351562
+      ],
+      [
+        1024.0001220703125,
+        958.0000610351562,
+        1190.0001220703125,
+        1008.0000610351562
+      ],
+      [
+        301.0,
+        1019.0,
+        339.0,
+        1035.0
+      ],
+      [
+        702.0000610351562,
+        1034.0,
+        912.0000610351562,
+        1074.0
+      ],
+      [
+        1014.9998779296875,
+        1033.0001220703125,
+        1210.9998779296875,
+        1073.0001220703125
+      ],
+      [
+        768.0000610351562,
+        1076.0,
+        846.0000610351562,
+        1124.0
+      ],
+      [
+        1035.0,
+        1071.0,
+        1186.0,
+        1124.0
+      ],
+      [
+        1284.9998779296875,
+        1109.0,
+        1420.9998779296875,
+        1151.0
+      ],
+      [
+        1471.0,
+        1109.0,
+        1673.0,
+        1151.0
+      ],
+      [
+        211.00001525878906,
+        1152.0,
+        609.0000610351562,
+        1212.0
+      ],
+      [
+        1279.0,
+        1155.0,
+        1634.0,
+        1204.0
+      ],
+      [
+        1747.0,
+        266.0,
+        1884.0,
+        249.0
+      ],
+      [
+        403.0,
+        1063.0,
+        527.0,
+        1150.0
+      ]
+    ]
+  },
+  "image_height": 1263,
+  "image_width": 2000
+}
+
+==========
+[15:28:58] linesAll REPUBLIC OF THE PHILIPPINES Height:47
+[15:28:58] linesAll @NGO Height:64
+MergedLine [REPUBLIC OF THE PHILIPPINES]-[@NGO] dist: 169 --> [REPUBLIC OF THE PHILIPPINES       @NGO]
+[15:28:58] linesAll DEPARTMENT OF TRANSPORTATION Height:50
+[15:28:58] --> REPUBLIC OF THE PHILIPPINES
+[15:28:58] Left:617 Top:61 Bottom:109
+[15:28:58] lineMergedToCheck: REPUBLIC OF THE PHILIPPINES       @NGO is not field.
+[15:28:58] linesAll LAND TRANSPORTATION OFFICE Height:51
+[15:28:58] --> DEPARTMENT OF TRANSPORTATION
+[15:28:58] Left:606 Top:127 Bottom:178
+[15:28:58] linesAll NON-PROFESSIONAL DRIVER'S LICENSE Height:57
+[15:28:58] --> LAND TRANSPORTATION OFFICE
+[15:28:58] Left:646.0000610351562 Top:183 Bottom:234
+[15:28:58] linesAll LAST NAME. FIRST NAME. MIDDLE NAME Height:42
+[15:28:58] linesAll MIRANDA, MICHAEL DILAGAN Height:77
+[15:28:58] --> Last Name, First Name, Middle Name
+[15:28:58] Left:748 Top:372 Bottom:415
+[15:28:58] linesAll NATIONALITY Height:45
+[15:28:58] linesAll SEX Height:39
+MergedLine [NATIONALITY]-[SEX] dist: 53.00006103515625 --> [NATIONALITY  SEX]
+[15:28:58] linesAll DATE OF BIRTH Height:40
+MergedLine [NATIONALITY  SEX]-[DATE OF BIRTH] dist: 91.0001220703125 --> [NATIONALITY  SEX   DATE OF BIRTH]
+[15:28:58] linesAll WEIGHT (KG} Height:46
+MergedLine [NATIONALITY  SEX   DATE OF BIRTH]-[WEIGHT (KG}] dist: 91.9998779296875 --> [NATIONALITY  SEX   DATE OF BIRTH   WEIGHT (KG}]
+[15:28:58] linesAll HEIGHTLM) Height:48
+MergedLine [NATIONALITY  SEX   DATE OF BIRTH   WEIGHT (KG}]-[HEIGHTLM)] dist: 27 --> [NATIONALITY  SEX   DATE OF BIRTH   WEIGHT (KG} HEIGHTLM)]
+[15:28:58] linesAll PHL Height:45
+[15:28:58] --> Nationality
+[15:28:58] Left:723.9999389648438 Top:510 Bottom:561
+[15:28:58] lineMergedToCheck: NATIONALITY  SEX   DATE OF BIRTH   WEIGHT (KG} HEIGHTLM) is not field.
+[15:28:58] linesAll 1977/04/29 Height:48
+MergedLine [PHL]-[1977/04/29] dist: 333.9998779296875 --> [PHL              1977/04/29]
+[15:28:58] linesAll 75 Height:48
+[15:28:58] linesAll 1.64 Height:45
+MergedLine [75]-[1.64] dist: 165 --> [75      1.64]
+[15:28:58] linesAll ADDRESS Height:42
+[15:28:58] linesAll B1 Height:48
+[15:28:58] --> Address
+[15:28:58] Left:720.9999389648438 Top:632 Bottom:675
+[15:28:58] linesAll L3 Height:50
+MergedLine [B1]-[L3] dist: 14 --> [B1 L3]
+[15:28:58] linesAll 1 SPRING HEIGHTS FILINVEST BAGONG Height:55
+MergedLine [B1 L3]-[1 SPRING HEIGHTS FILINVEST BAGONG] dist: 37 --> [B1 L3 1 SPRING HEIGHTS FILINVEST BAGONG]
+[15:28:58] linesAll SILANGAN QUEZON CITY Height:49
+[15:28:58] linesAll LICENSE NO_ Height:37
+[15:28:58] linesAll EXPIRATION DATE Height:39
+MergedLine [LICENSE NO_]-[EXPIRATION DATE] dist: 251 --> [LICENSE NO_             EXPIRATION DATE]
+[15:28:58] linesAll AGENCY CODE Height:41
+[15:28:58] --> Expiration Date
+[15:28:58] Left:1193 Top:807.9999389648438 Bottom:851.9999389648438
+[15:28:58] lineMergedToCheck: LICENSE NO_             EXPIRATION DATE is not field.
+[15:28:58] linesAll N01-08-009726 Height:50
+[15:28:58] --> Agency Code
+[15:28:58] Left:1527 Top:807.0000610351562 Bottom:869.0000610351562
+[15:28:58] linesAll 2022/04/29 Height:55
+MergedLine [N01-08-009726]-[2022/04/29] dist: 18 --> [N01-08-009726 2022/04/29]
+[15:28:58] linesAll N03 Height:47
+MergedLine [N01-08-009726 2022/04/29]-[N03] dist: 73 --> [N01-08-009726 2022/04/29  N03]
+[15:28:58] linesAll BLOOD TYPE Height:48
+[15:28:58] linesAll EYES COLOR Height:53
+MergedLine [BLOOD TYPE]-[EYES COLOR] dist: 119 --> [BLOOD TYPE    EYES COLOR]
+[15:28:58] linesAll 0+ Height:44
+[15:28:58] --> Blood Type
+[15:28:58] Left:704 Top:918 Bottom:966
+[15:28:58] lineMergedToCheck: BLOOD TYPE    EYES COLOR is not field.
+[15:28:58] linesAll BLACK Height:50
+MergedLine [0+]-[BLACK] dist: 177.0001220703125 --> [0+        BLACK]
+[15:28:58] linesAll CCE Height:16
+[15:28:58] linesAll RESTRICTIONS Height:36
+IsLineAboveOrSmallerThanLabel baseline line: CCE Height * 0.5 = 23.5 label: ScanID.LabelInfo Height: 16
+[15:28:58] linesAll CONDITIONS Height:36
+MergedLine [RESTRICTIONS]-[CONDITIONS] dist: 93.99981689453125 --> [RESTRICTIONS     CONDITIONS]
+[15:28:58] linesAll 1.2 Height:48
+[15:28:58] --> Restrictions
+[15:28:58] Left:719.0000610351562 Top:1040 Bottom:1081
+[15:28:58] lineMergedToCheck: RESTRICTIONS     CONDITIONS is not field.
+[15:28:58] linesAll NONE Height:49
+MergedLine [1.2]-[NONE] dist: 204.99993896484375 --> [1.2        NONE]
+[15:28:58] linesAll EDGAR Height:39
+[15:28:58] linesAll GALVANTE Height:42
+MergedLine [EDGAR]-[GALVANTE] dist: 36.0001220703125 --> [EDGAR GALVANTE]
+[15:28:58] linesAll SIGNATURE OF LICENSEE Height:44
+[15:28:58] linesAll ASSISTANT SECRETARY Height:39
+MergedLine [SIGNATURE OF LICENSEE]-[ASSISTANT SECRETARY] dist: 648.9999847412109 --> [SIGNATURE OF LICENSEE                             ASSISTANT SECRETARY]
+[15:28:58] linesAll QUANBOOO Height:-17
+[15:28:58] linesAll RF Height:87
+IsLineAboveOrSmallerThanLabel baseline line: QUANBOOO Height * 0.5 = 23.5 label: ScanID.LabelInfo Height: -17
+REPUBLIC OF THE PHILIPPINES PredictCenterYInPixel: 85
+DEPARTMENT OF TRANSPORTATION PredictCenterYInPixel: 152.5
+LAND TRANSPORTATION OFFICE PredictCenterYInPixel: 208.5
+Last Name, First Name, Middle Name PredictCenterYInPixel: 393.5
+Nationality PredictCenterYInPixel: 535.5
+Address PredictCenterYInPixel: 653.5
+[15:28:58] removed 7 lines predicted as label removed from linesField [height < labelHeightInPixel (46.40816132477281)].
+[15:28:58] removed 3 lines predicted as label removed from lsLineMerged [height < labelHeightInPixel (46.40816132477281)].
+line: NON-PROFESSIONAL DRIVER'S LICENSE EstimateCenterYInInch: 0.4577499223050747
+line: MIRANDA, MICHAEL DILAGAN EstimateCenterYInInch: 0.7568352403512486
+line: 1977/04/29 EstimateCenterYInInch: 1.0033436004699972
+line: 75 EstimateCenterYInInch: 0.9783479975208932
+line: B1 EstimateCenterYInInch: 1.192103498602885
+line: L3 EstimateCenterYInInch: 1.1903797691312592
+line: 1 SPRING HEIGHTS FILINVEST BAGONG EstimateCenterYInInch: 1.1826224078290868
+line: SILANGAN QUEZON CITY EstimateCenterYInInch: 1.3127719266330415
+line: N01-08-009726 EstimateCenterYInInch: 1.5032557646665938
+line: 2022/04/29 EstimateCenterYInInch: 1.492912651335204
+line: N03 EstimateCenterYInInch: 1.5041174715806276
+line: BLACK EstimateCenterYInInch: 1.6833964893687563
+line: 1.2 EstimateCenterYInInch: 1.8850850424332128
+line: NONE EstimateCenterYInInch: 1.87732778634556
+mergedLinesNearToLast_Name_First_Name_Middle_Name: MIRANDA, MICHAEL DILAGAN EstimateCenterYInInch: 0.7568352403512486
+[15:28:58] MIRANDA, MICHAEL DILAGAN --> LAST_NAME_FISRT_MIDDLE_NAME
+mergedLinesNearToNationality: PHL              1977/04/29 EstimateCenterYInInch: 1.0033436004699972
+[15:28:58] PHL --> NATIONALITY
+[15:28:58] 1977/04/29 --> DOB
+mergedLinesNearToNationality: 75      1.64 EstimateCenterYInInch: 0.9800718322070383
+mergedLinesNearToNationality: B1 L3 1 SPRING HEIGHTS FILINVEST BAGONG EstimateCenterYInInch: 1.1843462951224917
+mergedLinesNearToNationality: MIRANDA, MICHAEL DILAGAN EstimateCenterYInInch: 0.7568352403512486
+mergedLinesNearToNationality: SILANGAN QUEZON CITY EstimateCenterYInInch: 1.3127719266330415
+mergedLinesNearToNationality: N01-08-009726 2022/04/29  N03 EstimateCenterYInInch: 1.4946365386286087
+mergedLinesNearToNationality: NON-PROFESSIONAL DRIVER'S LICENSE EstimateCenterYInInch: 0.4577499223050747
+mergedLinesNearToNationality: 0+        BLACK EstimateCenterYInInch: 1.687706076084119
+mergedLinesNearToNationality: 1.2        NONE EstimateCenterYInInch: 1.8807754557178502
+mergedLinesNearToNationality: SIGNATURE OF LICENSEE                             ASSISTANT SECRETARY EstimateCenterYInInch: 2.023853734667893
+mergedLinesNearToAddress1: B1 L3 1 SPRING HEIGHTS FILINVEST BAGONG EstimateCenterYInInch: 1.1843462951224917
+[15:28:58] B1 L3 1 SPRING HEIGHTS FILINVEST BAGONG --> ADDRESS_1
+mergedLinesNearToAddress2: SILANGAN QUEZON CITY EstimateCenterYInInch: 1.3127719266330415
+[15:28:58] SILANGAN QUEZON CITY --> ADDRESS_2
+mergedLinesNearLicenseNo: N01-08-009726 2022/04/29  N03 EstimateCenterYInInch: 1.4946365386286087
+ExtractFieldsFromReadResultOfPHDL result NOT success
+ScanPHDLResult: ScanID.ScanPHDLResult
+[15:29:01] ==== responseBody ====
+ {
+  "<OCR_WITH_REGION>": {
+    "labels": [
+      "REPUBLIC OF THE PHILIPPINES",
+      "DEPARTMENT OF TRANSPORTATION",
+      "LAND TRANSPORTATION OFFICE",
+      "NON-PROFESSIONAL DRIVER'S LICENSE",
+      "Last Name. First Name. Middle Name",
+      "MIRANDA, MICHAEL DILAGAN",
+      "Nationality",
+      "Sex",
+      "Date of Birth",
+      "Weight (kg}",
+      "Heightlm)",
+      "PHL",
+      "M",
+      "1977/04/29",
+      "75",
+      "1.64",
+      "Address",
+      "B1 L3",
+      "SPRING HEIGHTS FILINVEST BAGONG",
+      "SILANGAN QUEZON CITY",
+      "License",
+      "Expiration Date",
+      "Agency Code",
+      "NO1-08-009726",
+      "2022/04/29",
+      "N03",
+      "Blood Type",
+      "Eyes Color",
+      "Ztn",
+      "0+",
+      "BLACK",
+      "Restrictions",
+      "Conditions",
+      "drf",
+      "NONE",
+      "EDGAR",
+      "KALVANTE",
+      "Signature of Licensee",
+      "Assistar/ Secretary",
+      "No_"
+    ],
+    "quad_boxes": [
+      [
+        341.00006103515625,
+        29.0,
+        869.0000610351562,
+        65.0
+      ],
+      [
+        333.0,
+        68.0,
+        879.0,
+        106.0
+      ],
+      [
+        359.00006103515625,
+        103.00000762939453,
+        849.0000610351562,
+        139.0
+      ],
+      [
+        247.00003051757812,
+        146.99998474121094,
+        995.0,
+        184.99998474121094
+      ],
+      [
+        422.0,
+        218.0,
+        836.0,
+        247.0
+      ],
+      [
+        422.0,
+        242.0,
+        982.0,
+        294.0
+      ],
+      [
+        425.0,
+        299.0,
+        546.0,
+        330.0
+      ],
+      [
+        586.0,
+        302.0,
+        632.0,
+        328.0
+      ],
+      [
+        680.0,
+        300.0,
+        820.0,
+        328.0
+      ],
+      [
+        884.0,
+        300.0,
+        1012.0,
+        332.0
+      ],
+      [
+        1036.0,
+        300.0,
+        1150.0,
+        328.0
+      ],
+      [
+        423.9999694824219,
+        332.0000305175781,
+        485.9999694824219,
+        362.0000305175781
+      ],
+      [
+        594.0,
+        332.0000305175781,
+        626.0,
+        362.0000305175781
+      ],
+      [
+        679.0,
+        331.0,
+        867.0,
+        367.0
+      ],
+      [
+        924.0,
+        332.0000305175781,
+        968.0,
+        362.0000305175781
+      ],
+      [
+        1060.0,
+        330.0,
+        1126.0,
+        360.0
+      ],
+      [
+        426.0,
+        374.0,
+        518.0,
+        400.0
+      ],
+      [
+        424.0,
+        404.0000305175781,
+        518.0,
+        436.0000305175781
+      ],
+      [
+        541.0000610351562,
+        401.0,
+        1129.0,
+        437.0
+      ],
+      [
+        421.0,
+        439.0,
+        813.0,
+        475.0
+      ],
+      [
+        422.0,
+        482.0,
+        510.0,
+        508.0
+      ],
+      [
+        705.0,
+        479.0,
+        874.0,
+        510.0
+      ],
+      [
+        905.0,
+        479.9999694824219,
+        1052.0,
+        512.0
+      ],
+      [
+        423.0,
+        507.0,
+        681.0,
+        543.0
+      ],
+      [
+        705.0,
+        507.0,
+        895.0,
+        545.0
+      ],
+      [
+        948.0,
+        507.99993896484375,
+        1012.0,
+        539.9999389648438
+      ],
+      [
+        421.0000305175781,
+        550.0,
+        546.0,
+        580.0
+      ],
+      [
+        607.9999389648438,
+        552.0,
+        723.9999389648438,
+        580.0
+      ],
+      [
+        171.99998474121094,
+        572.0,
+        295.9999694824219,
+        602.0
+      ],
+      [
+        462.0,
+        578.0,
+        504.0,
+        606.0
+      ],
+      [
+        615.9999389648438,
+        576.0,
+        717.9999389648438,
+        608.0
+      ],
+      [
+        422.0000305175781,
+        620.0,
+        548.0,
+        646.0
+      ],
+      [
+        610.0,
+        620.0,
+        728.0,
+        646.0
+      ],
+      [
+        170.0,
+        622.0,
+        318.0,
+        700.0
+      ],
+      [
+        624.0,
+        646.0,
+        714.0,
+        678.0
+      ],
+      [
+        771.9999389648438,
+        666.0,
+        855.9999389648438,
+        696.0
+      ],
+      [
+        878.0000610351562,
+        666.0,
+        1006.0000610351562,
+        692.0
+      ],
+      [
+        125.99998474121094,
+        692.0,
+        367.0,
+        728.0
+      ],
+      [
+        766.9999389648438,
+        691.0,
+        982.9999389648438,
+        730.0
+      ],
+      [
+        512.0,
+        478.9999694824219,
+        546.0,
+        508.9999694824219
+      ]
+    ]
+  },
+  "image_height": 760,
+  "image_width": 1203
+}
+
+==========
+[15:29:02] linesAll REPUBLIC OF THE PHILIPPINES Height:31
+[15:29:02] linesAll DEPARTMENT OF TRANSPORTATION Height:32
+[15:29:02] --> REPUBLIC OF THE PHILIPPINES
+[15:29:02] Left:371.00006103515625 Top:37 Bottom:68
+[15:29:02] linesAll LAND TRANSPORTATION OFFICE Height:30
+[15:29:02] --> DEPARTMENT OF TRANSPORTATION
+[15:29:02] Left:365 Top:77 Bottom:110
+[15:29:02] linesAll NON-PROFESSIONAL DRIVER'S LICENSE Height:33
+[15:29:02] --> LAND TRANSPORTATION OFFICE
+[15:29:02] Left:389.00006103515625 Top:110.00000762939453 Bottom:141.00000762939453
+[15:29:02] linesAll LAST NAME. FIRST NAME. MIDDLE NAME Height:25
+[15:29:02] linesAll MIRANDA, MICHAEL DILAGAN Height:41
+[15:29:02] --> Last Name, First Name, Middle Name
+[15:29:02] Left:451 Top:224 Bottom:250
+[15:29:02] linesAll NATIONALITY Height:26
+[15:29:02] linesAll SEX Height:23
+MergedLine [NATIONALITY]-[SEX] dist: 33 --> [NATIONALITY  SEX]
+[15:29:02] linesAll DATE OF BIRTH Height:25
+MergedLine [NATIONALITY  SEX]-[DATE OF BIRTH] dist: 53 --> [NATIONALITY  SEX   DATE OF BIRTH]
+[15:29:02] linesAll WEIGHT (KG} Height:27
+MergedLine [NATIONALITY  SEX   DATE OF BIRTH]-[WEIGHT (KG}] dist: 56 --> [NATIONALITY  SEX   DATE OF BIRTH   WEIGHT (KG}]
+[15:29:02] linesAll HEIGHTLM) Height:28
+MergedLine [NATIONALITY  SEX   DATE OF BIRTH   WEIGHT (KG}]-[HEIGHTLM)] dist: 26 --> [NATIONALITY  SEX   DATE OF BIRTH   WEIGHT (KG} HEIGHTLM)]
+[15:29:02] linesAll PHL Height:26
+[15:29:02] --> Nationality
+[15:29:02] Left:436 Top:307 Bottom:338
+[15:29:02] lineMergedToCheck: NATIONALITY  SEX   DATE OF BIRTH   WEIGHT (KG} HEIGHTLM) is not field.
+[15:29:02] linesAll M Height:30
+MergedLine [PHL]-[M] dist: 100.00003051757812 --> [PHL       M]
+[15:29:02] linesAll 1977/04/29 Height:28
+MergedLine [PHL       M]-[1977/04/29] dist: 68 --> [PHL       M    1977/04/29]
+[15:29:02] linesAll 75 Height:30
+MergedLine [PHL       M    1977/04/29]-[75] dist: 39 --> [PHL       M    1977/04/29  75]
+[15:29:02] linesAll 1.64 Height:27
+MergedLine [PHL       M    1977/04/29  75]-[1.64] dist: 98 --> [PHL       M    1977/04/29  75     1.64]
+[15:29:02] linesAll ADDRESS Height:24
+[15:29:02] linesAll B1 L3 Height:29
+[15:29:02] --> Address
+[15:29:02] Left:434 Top:380 Bottom:405
+[15:29:02] linesAll 1 SPRING HEIGHTS FILINVEST BAGONG Height:32
+MergedLine [B1 L3]-[1 SPRING HEIGHTS FILINVEST BAGONG] dist: 27.00006103515625 --> [B1 L3 1 SPRING HEIGHTS FILINVEST BAGONG]
+[15:29:02] linesAll SILANGAN QUEZON CITY Height:31
+[15:29:02] linesAll LICENSE Height:24
+[15:29:02] linesAll EXPIRATION DATE Height:26
+MergedLine [LICENSE]-[EXPIRATION DATE] dist: 197 --> [LICENSE                EXPIRATION DATE]
+[15:29:02] linesAll AGENCY CODE Height:24
+MergedLine [LICENSE                EXPIRATION DATE]-[AGENCY CODE] dist: 27 --> [LICENSE                EXPIRATION DATE AGENCY CODE]
+[15:29:02] linesAll NO1-08-009726 Height:31
+[15:29:02] --> Expiration Date
+[15:29:02] Left:718 Top:487 Bottom:516
+[15:29:02] lineMergedToCheck: LICENSE                EXPIRATION DATE AGENCY CODE is not field.
+[15:29:02] linesAll 2022/04/29 Height:31
+MergedLine [NO1-08-009726]-[2022/04/29] dist: 13 --> [NO1-08-009726 2022/04/29]
+[15:29:02] linesAll N03 Height:29
+MergedLine [NO1-08-009726 2022/04/29]-[N03] dist: 45 --> [NO1-08-009726 2022/04/29  N03]
+[15:29:02] linesAll BLOOD TYPE Height:25
+[15:29:02] linesAll EYES COLOR Height:24
+MergedLine [BLOOD TYPE]-[EYES COLOR] dist: 51.999908447265625 --> [BLOOD TYPE    EYES COLOR]
+[15:29:02] linesAll ZTN Height:30
+[15:29:02] --> Blood Type
+[15:29:02] Left:433.0000305175781 Top:558 Bottom:591
+[15:29:02] lineMergedToCheck: BLOOD TYPE    EYES COLOR is not field.
+[15:29:02] linesAll 0+ Height:28
+MergedLine [ZTN]-[0+] dist: 166.00003051757812 --> [ZTN           0+]
+[15:29:02] linesAll BLACK Height:28
+MergedLine [ZTN           0+]-[BLACK] dist: 121.99993896484375 --> [ZTN           0+       BLACK]
+[15:29:02] linesAll RESTRICTIONS Height:24
+[15:29:02] linesAll CONDITIONS Height:24
+MergedLine [RESTRICTIONS]-[CONDITIONS] dist: 54.999969482421875 --> [RESTRICTIONS    CONDITIONS]
+[15:29:02] linesAll DRF Height:78
+[15:29:02] --> Restrictions
+[15:29:02] Left:433.0000305175781 Top:627 Bottom:655
+[15:29:02] lineMergedToCheck: RESTRICTIONS    CONDITIONS is not field.
+[15:29:02] linesAll NONE Height:28
+[15:29:02] linesAll EDGAR Height:30
+[15:29:02] linesAll KALVANTE Height:23
+MergedLine [EDGAR]-[KALVANTE] dist: 22.0001220703125 --> [EDGAR KALVANTE]
+[15:29:02] linesAll SIGNATURE OF LICENSEE Height:28
+[15:29:02] linesAll ASSISTAR/ SECRETARY Height:27
+MergedLine [SIGNATURE OF LICENSEE]-[ASSISTAR/ SECRETARY] dist: 387.9999542236328 --> [SIGNATURE OF LICENSEE                           ASSISTAR/ SECRETARY]
+[15:29:02] linesAll NO_ Height:30
+REPUBLIC OF THE PHILIPPINES PredictCenterYInPixel: 52.5
+DEPARTMENT OF TRANSPORTATION PredictCenterYInPixel: 93.5
+LAND TRANSPORTATION OFFICE PredictCenterYInPixel: 125.50000762939453
+Last Name, First Name, Middle Name PredictCenterYInPixel: 237
+Nationality PredictCenterYInPixel: 322.5
+Address PredictCenterYInPixel: 392.5
+[15:29:02] removed 4 lines predicted as label removed from linesField [height < labelHeightInPixel (27.755100880251106)].
+[15:29:02] removed 0 lines predicted as label removed from lsLineMerged [height < labelHeightInPixel (27.755100880251106)].
+line: NON-PROFESSIONAL DRIVER'S LICENSE EstimateCenterYInInch: 0.45661269302695306
+line: MIRANDA, MICHAEL DILAGAN EstimateCenterYInInch: 0.7534950957274904
+line: M EstimateCenterYInInch: 0.98408342347192
+line: 1977/04/29 EstimateCenterYInInch: 1.004259806490412
+line: 75 EstimateCenterYInInch: 0.98408342347192
+line: B1 L3 EstimateCenterYInInch: 1.2103481337580044
+line: 1 SPRING HEIGHTS FILINVEST BAGONG EstimateCenterYInInch: 1.2031421633023842
+line: SILANGAN QUEZON CITY EstimateCenterYInInch: 1.3169951066947452
+line: NO1-08-009726 EstimateCenterYInInch: 1.5129951105094424
+line: 2022/04/29 EstimateCenterYInInch: 1.49714216902443
+line: N03 EstimateCenterYInInch: 1.5101125815873018
+line: ZTN EstimateCenterYInInch: 1.6758480548554775
+line: 0+ EstimateCenterYInInch: 1.6902598198418524
+line: BLACK EstimateCenterYInInch: 1.6859362903459398
+line: DRF EstimateCenterYInInch: 1.8891421766538246
+line: NONE EstimateCenterYInInch: 1.9035539416401994
+line: EDGAR EstimateCenterYInInch: 1.9467892365993238
+line: SIGNATURE OF LICENSEE EstimateCenterYInInch: 2.0246127675257477
+mergedLinesNearToLast_Name_First_Name_Middle_Name: MIRANDA, MICHAEL DILAGAN EstimateCenterYInInch: 0.7534950957274904
+[15:29:02] MIRANDA, MICHAEL DILAGAN --> LAST_NAME_FISRT_MIDDLE_NAME
+mergedLinesNearToNationality: PHL       M    1977/04/29  75     1.64 EstimateCenterYInInch: 0.9970539679784409
+[15:29:02] PHL --> NATIONALITY
+[15:29:02] M --> SEX
+[15:29:02] 1977/04/29 --> DOB
+mergedLinesNearToNationality: B1 L3 1 SPRING HEIGHTS FILINVEST BAGONG EstimateCenterYInInch: 1.204583383782238
+mergedLinesNearToNationality: MIRANDA, MICHAEL DILAGAN EstimateCenterYInInch: 0.7534950957274904
+mergedLinesNearToNationality: SILANGAN QUEZON CITY EstimateCenterYInInch: 1.3169951066947452
+mergedLinesNearToNationality: NO1-08-009726 2022/04/29  N03 EstimateCenterYInInch: 1.50290687501898
+mergedLinesNearToNationality: NON-PROFESSIONAL DRIVER'S LICENSE EstimateCenterYInInch: 0.45661269302695306
+mergedLinesNearToNationality: ZTN           0+       BLACK EstimateCenterYInInch: 1.6816127608500275
+mergedLinesNearToNationality: DRF EstimateCenterYInInch: 1.8891421766538246
+mergedLinesNearToNationality: NONE EstimateCenterYInInch: 1.9035539416401994
+mergedLinesNearToNationality: EDGAR KALVANTE EstimateCenterYInInch: 1.9467892365993238
+mergedLinesNearToNationality: SIGNATURE OF LICENSEE                           ASSISTAR/ SECRETARY EstimateCenterYInInch: 2.0361421795148478
+mergedLinesNearToAddress1: B1 L3 1 SPRING HEIGHTS FILINVEST BAGONG EstimateCenterYInInch: 1.204583383782238
+[15:29:02] B1 L3 1 SPRING HEIGHTS FILINVEST BAGONG --> ADDRESS_1
+mergedLinesNearToAddress2: SILANGAN QUEZON CITY EstimateCenterYInInch: 1.3169951066947452
+[15:29:02] SILANGAN QUEZON CITY --> ADDRESS_2
+mergedLinesNearLicenseNo: NO1-08-009726 2022/04/29  N03 EstimateCenterYInInch: 1.50290687501898
+ScanPHDLResult: ScanID.ScanPHDLResult
+[15:29:04] ==== responseBody ====
+ {
+  "<OCR_WITH_REGION>": {
+    "labels": [
+      "REPUBLIC OF THE PHILIPPINES",
+      "DEPARTMENT OF TRANSPORTATION",
+      "LAND TRANSPORTATION OFFICE",
+      "NON-PROFESSIONAL DRIVER'S LICENSE",
+      "Name",
+      "MIRANDA, MICHAEL DILAGAN",
+      "Nationality",
+      "Sex",
+      "Birth",
+      "PHL",
+      "1977_",
+      "04/29",
+      "1.64",
+      "Address",
+      "B1 L3",
+      "SPRING HEIGHTS FILINVEST BAGONG",
+      "SILANGAN QUEZON City",
+      "Agency Code",
+      "N0 1-08-009726",
+      "2022/04/29",
+      "N03",
+      "Blood",
+      "BLACK",
+      "Restrictions",
+      "NONE",
+      "EDGAR",
+      "Signature",
+      "Licensee",
+      "Secretary"
+    ],
+    "quad_boxes": [
+      [
+        167.99998474121094,
+        12.999999046325684,
+        434.99993896484375,
+        32.0
+      ],
+      [
+        165.00003051757812,
+        32.000003814697266,
+        438.0000305175781,
+        53.000003814697266
+      ],
+      [
+        181.0,
+        49.0,
+        425.0,
+        69.0
+      ],
+      [
+        122.0,
+        69.0,
+        498.0,
+        95.0
+      ],
+      [
+        383.0,
+        109.0,
+        419.0,
+        123.0
+      ],
+      [
+        210.0,
+        120.0,
+        490.0,
+        146.0
+      ],
+      [
+        213.0,
+        151.0,
+        275.0,
+        165.0
+      ],
+      [
+        292.9999694824219,
+        151.0,
+        316.9999694824219,
+        165.0
+      ],
+      [
+        383.0000305175781,
+        151.0,
+        413.0000305175781,
+        165.0
+      ],
+      [
+        213.0,
+        165.0,
+        243.0,
+        181.0
+      ],
+      [
+        340.9999694824219,
+        167.0,
+        378.9999694824219,
+        181.0
+      ],
+      [
+        385.0,
+        165.0,
+        433.0,
+        183.0
+      ],
+      [
+        531.0,
+        165.0,
+        563.0,
+        181.0
+      ],
+      [
+        213.00001525878906,
+        189.0,
+        261.0000305175781,
+        201.0
+      ],
+      [
+        213.0,
+        200.99998474121094,
+        259.0,
+        218.99998474121094
+      ],
+      [
+        271.0,
+        198.99998474121094,
+        565.0,
+        218.99998474121094
+      ],
+      [
+        211.0,
+        219.0,
+        407.0,
+        237.00003051757812
+      ],
+      [
+        454.9999694824219,
+        241.00001525878906,
+        526.9999389648438,
+        257.0
+      ],
+      [
+        211.0,
+        251.0,
+        341.0,
+        271.0
+      ],
+      [
+        353.0,
+        253.0,
+        447.0,
+        271.0
+      ],
+      [
+        475.0,
+        255.0,
+        507.0,
+        271.0
+      ],
+      [
+        211.0,
+        276.9999694824219,
+        245.0,
+        288.9999694824219
+      ],
+      [
+        309.0000305175781,
+        288.9999694824219,
+        359.0000305175781,
+        304.9999694824219
+      ],
+      [
+        211.0,
+        311.0,
+        273.0,
+        323.0
+      ],
+      [
+        311.0,
+        321.0,
+        357.0,
+        339.0
+      ],
+      [
+        387.0,
+        333.0,
+        429.0,
+        349.0
+      ],
+      [
+        65.0,
+        349.0,
+        119.0,
+        363.0
+      ],
+      [
+        133.0,
+        349.0,
+        183.0,
+        361.0
+      ],
+      [
+        437.0000305175781,
+        349.0,
+        493.0000305175781,
+        363.0
+      ]
+    ]
+  },
+  "image_height": 380,
+  "image_width": 602
+}
+
+==========
+[15:29:04] linesAll REPUBLIC OF THE PHILIPPINES Height:17
+[15:29:04] linesAll DEPARTMENT OF TRANSPORTATION Height:19
+[15:29:04] --> REPUBLIC OF THE PHILIPPINES
+[15:29:04] Left:185.99998474121094 Top:18.999999046325684 Bottom:35.999999046325684
+[15:29:04] linesAll LAND TRANSPORTATION OFFICE Height:20
+[15:29:04] --> DEPARTMENT OF TRANSPORTATION
+[15:29:04] Left:183.00003051757812 Top:40.000003814697266 Bottom:59.000003814697266
+[15:29:04] linesAll NON-PROFESSIONAL DRIVER'S LICENSE Height:22
+[15:29:04] --> LAND TRANSPORTATION OFFICE
+[15:29:04] Left:181 Top:49 Bottom:69
+[15:29:04] linesAll NAME Height:12
+[15:29:04] linesAll MIRANDA, MICHAEL DILAGAN Height:22
+[15:29:04] linesAll NATIONALITY Height:12
+[15:29:04] linesAll SEX Height:12
+MergedLine [NATIONALITY]-[SEX] dist: 15.999969482421875 --> [NATIONALITY  SEX]
+[15:29:04] linesAll BIRTH Height:14
+MergedLine [NATIONALITY  SEX]-[BIRTH] dist: 63.00006103515625 --> [NATIONALITY  SEX         BIRTH]
+[15:29:04] linesAll PHL Height:14
+[15:29:04] --> Nationality
+[15:29:04] Left:219 Top:154 Bottom:168
+[15:29:04] lineMergedToCheck: NATIONALITY  SEX         BIRTH is not field.
+[15:29:04] linesAll 1977, Height:12
+MergedLine [PHL]-[1977,] dist: 98.99996948242188 --> [PHL              1977,]
+[15:29:04] linesAll 04/29 Height:15
+MergedLine [PHL              1977,]-[04/29] dist: -0.999969482421875 --> [PHL              1977, 04/29]
+[15:29:04] linesAll 1.64 Height:16
+MergedLine [PHL              1977, 04/29]-[1.64] dist: 98 --> [PHL              1977, 04/29           1.64]
+[15:29:04] linesAll ADDRESS Height:12
+[15:29:04] linesAll B1 L3 Height:15
+[15:29:04] --> Address
+[15:29:04] Left:213.00001525878906 Top:189 Bottom:201
+[15:29:04] linesAll SPRING HEIGHTS FILINVEST BAGONG Height:18
+MergedLine [B1 L3]-[SPRING HEIGHTS FILINVEST BAGONG] dist: 14 --> [B1 L3 SPRING HEIGHTS FILINVEST BAGONG]
+[15:29:04] linesAll SILANGAN QUEZON CITY Height:16
+[15:29:04] linesAll AGENCY CODE Height:11
+[15:29:04] linesAll N0 1-08-009726 Height:20
+[15:29:04] --> Agency Code
+[15:29:04] Left:459.9999694824219 Top:243.00001525878906 Bottom:256.00001525878906
+[15:29:04] linesAll 2022/04/29 Height:18
+MergedLine [N0 1-08-009726]-[2022/04/29] dist: 12 --> [N0 1-08-009726 2022/04/29]
+[15:29:04] linesAll N03 Height:13
+MergedLine [N0 1-08-009726 2022/04/29]-[N03] dist: 31 --> [N0 1-08-009726 2022/04/29   N03]
+[15:29:04] linesAll BLOOD Height:12
+[15:29:04] linesAll BLACK Height:13
+[15:29:04] linesAll RESTRICTIONS Height:12
+[15:29:04] linesAll NONE Height:18
+[15:29:04] --> Restrictions
+[15:29:04] Left:211 Top:311 Bottom:323
+[15:29:04] linesAll EDGAR Height:13
+[15:29:04] linesAll SIGNATURE Height:14
+[15:29:04] linesAll LICENSEE Height:11
+MergedLine [SIGNATURE]-[LICENSEE] dist: 19 --> [SIGNATURE  LICENSEE]
+[15:29:04] linesAll SECRETARY Height:14
+MergedLine [SIGNATURE  LICENSEE]-[SECRETARY] dist: 248.00003051757812 --> [SIGNATURE  LICENSEE                                   SECRETARY]
+REPUBLIC OF THE PHILIPPINES PredictCenterYInPixel: 27.499999046325684
+DEPARTMENT OF TRANSPORTATION PredictCenterYInPixel: 49.500003814697266
+LAND TRANSPORTATION OFFICE PredictCenterYInPixel: 59
+Nationality PredictCenterYInPixel: 161
+Address PredictCenterYInPixel: 195
+[15:29:04] removed 6 lines predicted as label removed from linesField [height < labelHeightInPixel (13.673468893857022)].
+[15:29:04] removed 4 lines predicted as label removed from lsLineMerged [height < labelHeightInPixel (13.673468893857022)].
+line: NON-PROFESSIONAL DRIVER'S LICENSE EstimateCenterYInInch: 0.44234625977347486
+line: MIRANDA, MICHAEL DILAGAN EstimateCenterYInInch: 0.7524358162819546
+line: PHL EstimateCenterYInInch: 1.0069432824728766
+line: 04/29 EstimateCenterYInInch: 1.0127940288220931
+line: 1.64 EstimateCenterYInInch: 0.9864656702506184
+line: B1 L3 EstimateCenterYInInch: 1.2234208081185862
+line: SPRING HEIGHTS FILINVEST BAGONG EstimateCenterYInInch: 1.2263461812931944
+line: SILANGAN QUEZON CITY EstimateCenterYInInch: 1.3316597048543977
+line: N0 1-08-009726 EstimateCenterYInInch: 1.5013313489816789
+line: 2022/04/29 EstimateCenterYInInch: 1.5071820953308954
+line: NONE EstimateCenterYInInch: 1.9050328470776239
+mergedLinesNearToLast_Name_First_Name_Middle_Name: MIRANDA, MICHAEL DILAGAN EstimateCenterYInInch: 0.7524358162819546
+[15:29:04] MIRANDA, MICHAEL DILAGAN --> LAST_NAME_FISRT_MIDDLE_NAME
+mergedLinesNearToNationality: PHL              1977, 04/29           1.64 EstimateCenterYInInch: 1.0010925361236598
+[15:29:04] PHL --> NATIONALITY
+[15:29:04] 1977, --> DOB
+mergedLinesNearToNationality: B1 L3 SPRING HEIGHTS FILINVEST BAGONG EstimateCenterYInInch: 1.2263461812931944
+mergedLinesNearToNationality: MIRANDA, MICHAEL DILAGAN EstimateCenterYInInch: 0.7524358162819546
+mergedLinesNearToNationality: SILANGAN QUEZON CITY EstimateCenterYInInch: 1.3316597048543977
+mergedLinesNearToNationality: N0 1-08-009726 2022/04/29   N03 EstimateCenterYInInch: 1.5013313489816789
+mergedLinesNearToNationality: NON-PROFESSIONAL DRIVER'S LICENSE EstimateCenterYInInch: 0.44234625977347486
+mergedLinesNearToNationality: NONE EstimateCenterYInInch: 1.9050328470776239
+mergedLinesNearToAddress1: B1 L3 SPRING HEIGHTS FILINVEST BAGONG EstimateCenterYInInch: 1.2263461812931944
+[15:29:04] B1 L3 SPRING HEIGHTS FILINVEST BAGONG --> ADDRESS_1
+mergedLinesNearToAddress2: SILANGAN QUEZON CITY EstimateCenterYInInch: 1.3316597048543977
+[15:29:04] SILANGAN QUEZON CITY --> ADDRESS_2
+mergedLinesNearLicenseNo: N0 1-08-009726 2022/04/29   N03 EstimateCenterYInInch: 1.5013313489816789
+mergedLinesNearLicenseNo: SILANGAN QUEZON CITY EstimateCenterYInInch: 1.3316597048543977
+mergedLinesNearLicenseNo: B1 L3 SPRING HEIGHTS FILINVEST BAGONG EstimateCenterYInInch: 1.2263461812931944
+mergedLinesNearLicenseNo: NONE EstimateCenterYInInch: 1.9050328470776239
+mergedLinesNearLicenseNo: PHL              1977, 04/29           1.64 EstimateCenterYInInch: 1.0010925361236598
+mergedLinesNearLicenseNo: MIRANDA, MICHAEL DILAGAN EstimateCenterYInInch: 0.7524358162819546
+mergedLinesNearLicenseNo: NON-PROFESSIONAL DRIVER'S LICENSE EstimateCenterYInInch: 0.44234625977347486
+linesNearLicenseNo: 2022/04/29 EstimateCenterYInInch: 1.5071820953308954
+[15:29:04] 2022/04/29 --> LICENSE_NO_EXPIRY
+linesNearLicenseNo: N0 1-08-009726 EstimateCenterYInInch: 1.5013313489816789
+linesNearLicenseNo: SILANGAN QUEZON CITY EstimateCenterYInInch: 1.3316597048543977
+linesNearLicenseNo: SPRING HEIGHTS FILINVEST BAGONG EstimateCenterYInInch: 1.2263461812931944
+linesNearLicenseNo: B1 L3 EstimateCenterYInInch: 1.2234208081185862
+linesNearLicenseNo: NONE EstimateCenterYInInch: 1.9050328470776239
+linesNearLicenseNo: 04/29 EstimateCenterYInInch: 1.0127940288220931
+linesNearLicenseNo: PHL EstimateCenterYInInch: 1.0069432824728766
+linesNearLicenseNo: 1.64 EstimateCenterYInInch: 0.9864656702506184
+linesNearLicenseNo: MIRANDA, MICHAEL DILAGAN EstimateCenterYInInch: 0.7524358162819546
+linesNearLicenseNo: NON-PROFESSIONAL DRIVER'S LICENSE EstimateCenterYInInch: 0.44234625977347486
+[15:29:04] N0 1-08-009726 --> EXPIRY
+ExtractFieldsFromReadResultOfPHDL result NOT success
+ScanPHDLResult: ScanID.ScanPHDLResult
+[15:29:07] ==== responseBody ====
+ {
+  "<OCR_WITH_REGION>": {
+    "labels": [
+      "REPUBLIC OF THE PHILIPPINES",
+      "DEPARTMENT OF TRANSPORTATION",
+      "LAND TRANSPORTATION OFFICE",
+      "NON-PROFESSIONAL Driver'S LICENSE",
+      "Middle",
+      "MAITIM, JOSE ANTONIO SAYO",
+      "Nationality",
+      "Date ot Birth",
+      "Weight (kg)",
+      "Heightlm}",
+      "PHL",
+      "1970/06/13",
+      "104",
+      "80",
+      "Address",
+      "40-A",
+      "PELAEZ ST PROJ",
+      "QUEZON city",
+      "License",
+      "Date",
+      "Agency",
+      "N02-89-106564",
+      "2022/06/13",
+      "N22",
+      "Color",
+      "AB+",
+      "BLACK",
+      "Restrictions",
+      "Conditions",
+      "NONE",
+      "EDGAR",
+      "GGALVANTE",
+      "Signature",
+      "Licensee",
+      "Secretary",
+      "Code"
+    ],
+    "quad_boxes": [
+      [
+        239.99996948242188,
+        272.0,
+        556.0,
+        299.0
+      ],
+      [
+        236.0,
+        298.0,
+        562.0,
+        322.0
+      ],
+      [
+        250.0,
+        316.0,
+        546.0,
+        340.0
+      ],
+      [
+        182.00001525878906,
+        340.0,
+        628.0,
+        366.0
+      ],
+      [
+        445.0,
+        387.0,
+        491.0,
+        403.0
+      ],
+      [
+        288.0000305175781,
+        398.0,
+        668.0,
+        428.0
+      ],
+      [
+        289.0,
+        437.0,
+        361.0,
+        453.0
+      ],
+      [
+        441.0,
+        435.0,
+        525.0,
+        451.0
+      ],
+      [
+        563.0,
+        433.0,
+        643.0,
+        453.0
+      ],
+      [
+        659.0,
+        435.0,
+        727.0,
+        451.0
+      ],
+      [
+        287.0,
+        451.0,
+        329.0,
+        471.0
+      ],
+      [
+        435.9999694824219,
+        448.0,
+        540.0,
+        472.0
+      ],
+      [
+        583.0,
+        451.0,
+        621.0,
+        471.0
+      ],
+      [
+        685.0,
+        451.0,
+        713.0,
+        471.0
+      ],
+      [
+        289.0,
+        479.0,
+        347.0,
+        495.0
+      ],
+      [
+        287.0,
+        495.0,
+        335.0,
+        515.0
+      ],
+      [
+        358.0,
+        494.0,
+        546.0,
+        518.0
+      ],
+      [
+        564.0,
+        492.0,
+        718.0,
+        516.0
+      ],
+      [
+        289.0,
+        545.0,
+        341.0,
+        561.0
+      ],
+      [
+        527.0,
+        543.0,
+        561.0,
+        559.0
+      ],
+      [
+        581.0,
+        545.0,
+        635.0,
+        563.0
+      ],
+      [
+        286.0,
+        554.0,
+        444.0,
+        580.0
+      ],
+      [
+        454.0,
+        555.0,
+        560.0,
+        579.0
+      ],
+      [
+        604.0,
+        558.0,
+        648.0,
+        582.0
+      ],
+      [
+        433.0,
+        587.0,
+        469.0,
+        603.0
+      ],
+      [
+        302.0,
+        598.0,
+        348.0,
+        622.0
+      ],
+      [
+        395.9999694824219,
+        598.0,
+        471.9999694824219,
+        622.0
+      ],
+      [
+        286.0,
+        628.0,
+        365.0,
+        646.0
+      ],
+      [
+        401.0,
+        629.0,
+        473.0,
+        645.0
+      ],
+      [
+        405.9999694824219,
+        640.0,
+        467.9999694824219,
+        664.0
+      ],
+      [
+        501.0,
+        659.0,
+        553.0,
+        675.0
+      ],
+      [
+        569.0,
+        657.0,
+        647.0,
+        675.0
+      ],
+      [
+        113.0,
+        675.0,
+        177.0,
+        693.0
+      ],
+      [
+        193.0,
+        677.0,
+        253.0,
+        691.0
+      ],
+      [
+        563.0,
+        677.0,
+        633.0,
+        693.0
+      ],
+      [
+        633.0,
+        540.0,
+        671.0,
+        563.0
+      ]
+    ]
+  },
+  "image_height": 1024,
+  "image_width": 768
+}
+
+==========
+[15:29:08] linesAll REPUBLIC OF THE PHILIPPINES Height:25
+[15:29:08] linesAll DEPARTMENT OF TRANSPORTATION Height:24
+[15:29:08] --> REPUBLIC OF THE PHILIPPINES
+[15:29:08] Left:260.9999694824219 Top:281 Bottom:306
+[15:29:08] linesAll LAND TRANSPORTATION OFFICE Height:24
+[15:29:08] --> DEPARTMENT OF TRANSPORTATION
+[15:29:08] Left:236 Top:298 Bottom:322
+[15:29:08] linesAll NON-PROFESSIONAL DRIVER'S LICENSE Height:24
+[15:29:08] --> LAND TRANSPORTATION OFFICE
+[15:29:08] Left:250 Top:316 Bottom:340
+[15:29:08] linesAll MIDDLE Height:13
+[15:29:08] linesAll MAITIM, JOSE ANTONIO SAYO Height:27
+[15:29:08] linesAll NATIONALITY Height:16
+[15:29:08] linesAll DATE OT BIRTH Height:14
+MergedLine [NATIONALITY]-[DATE OT BIRTH] dist: 86 --> [NATIONALITY          DATE OT BIRTH]
+[15:29:08] linesAll WEIGHT (KG) Height:20
+MergedLine [NATIONALITY          DATE OT BIRTH]-[WEIGHT (KG)] dist: 29 --> [NATIONALITY          DATE OT BIRTH   WEIGHT (KG)]
+[15:29:08] linesAll HEIGHTLM} Height:16
+MergedLine [NATIONALITY          DATE OT BIRTH   WEIGHT (KG)]-[HEIGHTLM}] dist: 16 --> [NATIONALITY          DATE OT BIRTH   WEIGHT (KG) HEIGHTLM}]
+[15:29:08] linesAll PHL Height:18
+[15:29:08] --> Nationality
+[15:29:08] Left:289 Top:437 Bottom:453
+[15:29:08] lineMergedToCheck: NATIONALITY          DATE OT BIRTH   WEIGHT (KG) HEIGHTLM} is not field.
+[15:29:08] linesAll 1970/06/13 Height:22
+MergedLine [PHL]-[1970/06/13] dist: 107.99996948242188 --> [PHL           1970/06/13]
+[15:29:08] linesAll 104 Height:20
+MergedLine [PHL           1970/06/13]-[104] dist: 30.000030517578125 --> [PHL           1970/06/13  104]
+[15:29:08] linesAll 80 Height:20
+MergedLine [PHL           1970/06/13  104]-[80] dist: 64 --> [PHL           1970/06/13  104     80]
+[15:29:08] linesAll ADDRESS Height:16
+[15:29:08] linesAll 40-A Height:18
+[15:29:08] --> Address
+[15:29:08] Left:289 Top:479 Bottom:495
+[15:29:08] linesAll PELAEZ ST PROJ Height:21
+MergedLine [40-A]-[PELAEZ ST PROJ] dist: 15 --> [40-A PELAEZ ST PROJ]
+[15:29:08] linesAll QUEZON CITY Height:23
+MergedLine [40-A PELAEZ ST PROJ]-[QUEZON CITY] dist: -1 --> [40-A PELAEZ ST PROJ QUEZON CITY]
+[15:29:08] linesAll LICENSE Height:16
+[15:29:08] linesAll DATE Height:16
+MergedLine [LICENSE]-[DATE] dist: 186 --> [LICENSE                       DATE]
+[15:29:08] linesAll AGENCY Height:12
+MergedLine [LICENSE                       DATE]-[AGENCY] dist: 25 --> [LICENSE                       DATE  AGENCY]
+[15:29:08] linesAll N02-89-106564 Height:26
+IsLineAboveOrSmallerThanLabel baseline line: AGENCY Height * 0.5 = 12.5 label: ScanID.LabelInfo Height: 12
+[15:29:08] linesAll 2022/06/13 Height:24
+MergedLine [N02-89-106564]-[2022/06/13] dist: 10 --> [N02-89-106564 2022/06/13]
+[15:29:08] linesAll N22 Height:24
+MergedLine [N02-89-106564 2022/06/13]-[N22] dist: 44 --> [N02-89-106564 2022/06/13   N22]
+[15:29:08] linesAll COLOR Height:16
+[15:29:08] linesAll AB+ Height:24
+[15:29:08] linesAll BLACK Height:24
+MergedLine [AB+]-[BLACK] dist: 47.999969482421875 --> [AB+   BLACK]
+[15:29:08] linesAll RESTRICTIONS Height:18
+[15:29:08] linesAll CONDITIONS Height:16
+MergedLine [RESTRICTIONS]-[CONDITIONS] dist: 36 --> [RESTRICTIONS    CONDITIONS]
+[15:29:08] linesAll NONE Height:24
+[15:29:08] --> Restrictions
+[15:29:08] Left:286 Top:628 Bottom:646
+[15:29:08] lineMergedToCheck: RESTRICTIONS    CONDITIONS is not field.
+[15:29:08] linesAll EDGAR Height:16
+[15:29:08] linesAll GGALVANTE Height:18
+MergedLine [EDGAR]-[GGALVANTE] dist: 16 --> [EDGAR  GGALVANTE]
+[15:29:08] linesAll SIGNATURE Height:14
+[15:29:08] linesAll LICENSEE Height:12
+MergedLine [SIGNATURE]-[LICENSEE] dist: 9 --> [SIGNATURE LICENSEE]
+[15:29:08] linesAll SECRETARY Height:14
+MergedLine [SIGNATURE LICENSEE]-[SECRETARY] dist: 304 --> [SIGNATURE LICENSEE                                   SECRETARY]
+[15:29:08] linesAll CODE Height:23
+IsLineAboveOrSmallerThanLabel baseline line: LICENSEE Height * 0.5 = 12.5 label: ScanID.LabelInfo Height: 12
+REPUBLIC OF THE PHILIPPINES PredictCenterYInPixel: 293.5
+DEPARTMENT OF TRANSPORTATION PredictCenterYInPixel: 310
+LAND TRANSPORTATION OFFICE PredictCenterYInPixel: 328
+Nationality PredictCenterYInPixel: 445
+Address PredictCenterYInPixel: 487
+[15:29:08] removed 3 lines predicted as label removed from linesField [height < labelHeightInPixel (15.795917706848794)].
+[15:29:08] removed 1 lines predicted as label removed from lsLineMerged [height < labelHeightInPixel (15.795917706848794)].
+line: NON-PROFESSIONAL DRIVER'S LICENSE EstimateCenterYInInch: 0.457824283558577
+line: MAITIM, JOSE ANTONIO SAYO EstimateCenterYInInch: 0.7541033590924217
+line: PHL EstimateCenterYInInch: 1.012397937762953
+line: 1970/06/13 EstimateCenterYInInch: 0.9870749398540773
+line: 104 EstimateCenterYInInch: 0.9972041390176276
+line: 80 EstimateCenterYInInch: 0.9972041390176276
+line: 40-A EstimateCenterYInInch: 1.237772619151946
+line: PELAEZ ST PROJ EstimateCenterYInInch: 1.2479018183154962
+line: QUEZON CITY EstimateCenterYInInch: 1.2479018183154962
+line: LICENSE EstimateCenterYInInch: 1.463147300540939
+line: DATE EstimateCenterYInInch: 1.4530181013773886
+line: N02-89-106564 EstimateCenterYInInch: 1.5340516946857907
+line: 2022/06/13 EstimateCenterYInInch: 1.5340516946857907
+line: N22 EstimateCenterYInInch: 1.549245493431116
+line: COLOR EstimateCenterYInInch: 1.6758604829754942
+line: AB+ EstimateCenterYInInch: 1.751829476702121
+line: BLACK EstimateCenterYInInch: 1.751829476702121
+line: NONE EstimateCenterYInInch: 1.9645426591366761
+line: EDGAR EstimateCenterYInInch: 2.040511652863303
+line: GGALVANTE EstimateCenterYInInch: 2.0354470532815276
+mergedLinesNearToLast_Name_First_Name_Middle_Name: MAITIM, JOSE ANTONIO SAYO EstimateCenterYInInch: 0.7541033590924217
+[15:29:08] MAITIM, JOSE ANTONIO SAYO --> LAST_NAME_FISRT_MIDDLE_NAME
+mergedLinesNearToNationality: PHL           1970/06/13  104     80 EstimateCenterYInInch: 0.9946718392267401
+[15:29:08] PHL --> NATIONALITY
+[15:29:08] 1970/06/13 --> DOB
+mergedLinesNearToNationality: MAITIM, JOSE ANTONIO SAYO EstimateCenterYInInch: 0.7541033590924217
+mergedLinesNearToNationality: 40-A PELAEZ ST PROJ QUEZON CITY EstimateCenterYInInch: 1.2479018183154962
+mergedLinesNearToNationality: LICENSE                       DATE  AGENCY EstimateCenterYInInch: 1.463147300540939
+mergedLinesNearToNationality: N02-89-106564 2022/06/13   N22 EstimateCenterYInInch: 1.5391162942675658
+mergedLinesNearToNationality: NON-PROFESSIONAL DRIVER'S LICENSE EstimateCenterYInInch: 0.457824283558577
+mergedLinesNearToNationality: COLOR EstimateCenterYInInch: 1.6758604829754942
+mergedLinesNearToNationality: AB+   BLACK EstimateCenterYInInch: 1.751829476702121
+mergedLinesNearToNationality: NONE EstimateCenterYInInch: 1.9645426591366761
+mergedLinesNearToNationality: EDGAR  GGALVANTE EstimateCenterYInInch: 2.0354470532815276
+mergedLinesNearToNationality: SIGNATURE LICENSEE                                   SECRETARY EstimateCenterYInInch: 2.12660984575348
+mergedLinesNearToAddress1: 40-A PELAEZ ST PROJ QUEZON CITY EstimateCenterYInInch: 1.2479018183154962
+[15:29:08] 40-A PELAEZ ST PROJ QUEZON CITY --> ADDRESS_1
+mergedLinesNearToAddress2: 40-A PELAEZ ST PROJ QUEZON CITY EstimateCenterYInInch: 1.2479018183154962
+mergedLinesNearToAddress2: LICENSE                       DATE  AGENCY EstimateCenterYInInch: 1.463147300540939
+mergedLinesNearToAddress2: N02-89-106564 2022/06/13   N22 EstimateCenterYInInch: 1.5391162942675658
+mergedLinesNearToAddress2: PHL           1970/06/13  104     80 EstimateCenterYInInch: 0.9946718392267401
+mergedLinesNearToAddress2: COLOR EstimateCenterYInInch: 1.6758604829754942
+mergedLinesNearToAddress2: AB+   BLACK EstimateCenterYInInch: 1.751829476702121
+mergedLinesNearToAddress2: MAITIM, JOSE ANTONIO SAYO EstimateCenterYInInch: 0.7541033590924217
+mergedLinesNearToAddress2: NONE EstimateCenterYInInch: 1.9645426591366761
+mergedLinesNearToAddress2: EDGAR  GGALVANTE EstimateCenterYInInch: 2.0354470532815276
+mergedLinesNearToAddress2: SIGNATURE LICENSEE                                   SECRETARY EstimateCenterYInInch: 2.12660984575348
+mergedLinesNearToAddress2: NON-PROFESSIONAL DRIVER'S LICENSE EstimateCenterYInInch: 0.457824283558577
+mergedLinesNearLicenseNo: N02-89-106564 2022/06/13   N22 EstimateCenterYInInch: 1.5391162942675658
+ExtractFieldsFromReadResultOfPHDL result NOT success
+ScanPHDLResult: ScanID.ScanPHDLResult
+[15:29:09] ==== responseBody ====
+ {
+  "<OCR_WITH_REGION>": {
+    "labels": [
+      "REPUBLIC",
+      "TdAnsPoRIATGN",
+      "LahD",
+      "TatiO\" OFFIcE",
+      "LIceNsE",
+      "MAITIM; JOSE ANTONIO SAYO",
+      "PHL",
+      "1970/06/13",
+      "104",
+      "PELAEZ",
+      "PROJ",
+      "QUEZON",
+      "106564   202200841;",
+      "NONE"
+    ],
+    "quad_boxes": [
+      [
+        121.0,
+        139.0,
+        175.0,
+        151.0
+      ],
+      [
+        198.00001525878906,
+        149.0,
+        280.0000305175781,
+        157.0
+      ],
+      [
+        126.0,
+        160.0,
+        152.0,
+        168.0
+      ],
+      [
+        202.99998474121094,
+        157.0,
+        273.0,
+        171.0
+      ],
+      [
+        263.0,
+        171.0,
+        315.0,
+        183.0
+      ],
+      [
+        143.0,
+        199.0,
+        335.0,
+        215.0
+      ],
+      [
+        143.0,
+        225.0,
+        167.0,
+        237.0
+      ],
+      [
+        219.00001525878906,
+        225.0,
+        271.0000305175781,
+        237.0
+      ],
+      [
+        291.0,
+        225.0,
+        313.0,
+        237.0
+      ],
+      [
+        179.0,
+        247.0,
+        225.0,
+        259.0
+      ],
+      [
+        241.0,
+        247.0,
+        273.0,
+        259.0
+      ],
+      [
+        283.0,
+        247.0,
+        333.0,
+        259.0
+      ],
+      [
+        183.00001525878906,
+        273.0,
+        283.0000305175781,
+        291.0
+      ],
+      [
+        201.00001525878906,
+        321.0,
+        235.00001525878906,
+        333.0
+      ]
+    ]
+  },
+  "image_height": 512,
+  "image_width": 384
+}
+
+==========
+[15:29:09] linesAll REPUBLIC Height:12
+[15:29:09] linesAll TDANSPORIATGN Height:8
+[15:29:09] linesAll LAHD Height:8
+[15:29:09] linesAll TATIO" OFFICE Height:14
+MergedLine [LAHD]-[TATIO" OFFICE] dist: 50.99998474121094 --> [LAHD            TATIO" OFFICE]
+[15:29:09] linesAll LICENSE Height:10
+[15:29:09] linesAll MAITIM; JOSE ANTONIO SAYO Height:13
+[15:29:09] linesAll PHL Height:12
+[15:29:09] linesAll 1970/06/13 Height:12
+MergedLine [PHL]-[1970/06/13] dist: 52.00001525878906 --> [PHL        1970/06/13]
+[15:29:09] linesAll 104 Height:12
+MergedLine [PHL        1970/06/13]-[104] dist: 19.999969482421875 --> [PHL        1970/06/13   104]
+[15:29:09] linesAll PELAEZ Height:12
+[15:29:09] linesAll PROJ Height:10
+MergedLine [PELAEZ]-[PROJ] dist: 19 --> [PELAEZ   PROJ]
+[15:29:09] linesAll QUEZON Height:12
+MergedLine [PELAEZ   PROJ]-[QUEZON] dist: 8 --> [PELAEZ   PROJ QUEZON]
+[15:29:09] linesAll 106564   202200841; Height:18
+[15:29:09] linesAll NONE Height:12
+ExtractFieldsFromReadResultOfPHDL result NOT success
+ScanPHDLResult: ScanID.ScanPHDLResult
+'test1.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.10\System.Net.Quic.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+[15:29:11] ==== responseBody ====
+ {
+  "<OCR_WITH_REGION>": {
+    "labels": [
+      "REPUBLIC OF THE PHILIPPINES",
+      "DEPARTMENT OF TRANSPORTATION",
+      "LAND TRANSPORTATION OFFICE",
+      "NON-PROFESSIONAL Driver'$ LICENSE",
+      "Name",
+      "MAITIM, JOSE ANTONIO SAYO",
+      "Nationality",
+      "Date ot Birth",
+      "Weight (kg)",
+      "PHL",
+      "1970/06/13",
+      "104",
+      "1.80",
+      "Address",
+      "40-A",
+      "PELAEZ ST PROJ",
+      "QUEZON City",
+      "License",
+      "Date",
+      "Agency Code",
+      "N02-89-106564",
+      "2022/06/13",
+      "N22",
+      "Blood",
+      "AB+",
+      "BLACK",
+      "Restrictions",
+      "Conditions",
+      "NONE",
+      "EDGAR",
+      "GALVANTE",
+      "Signature of Licensee",
+      "Assistany Secretary"
+    ],
+    "quad_boxes": [
+      [
+        198.00001525878906,
+        12.0,
+        514.0,
+        39.0
+      ],
+      [
+        194.0,
+        38.0,
+        520.0,
+        62.0
+      ],
+      [
+        207.99998474121094,
+        54.0,
+        504.0,
+        80.0
+      ],
+      [
+        139.00001525878906,
+        81.0,
+        586.0,
+        106.0
+      ],
+      [
+        355.0,
+        127.0,
+        397.0,
+        141.0
+      ],
+      [
+        246.00003051757812,
+        138.0,
+        626.0,
+        168.0
+      ],
+      [
+        247.0,
+        177.0,
+        319.0,
+        191.0
+      ],
+      [
+        399.0,
+        175.0,
+        485.0,
+        191.0
+      ],
+      [
+        521.0,
+        173.0,
+        601.0,
+        193.0
+      ],
+      [
+        244.99998474121094,
+        191.0,
+        287.0,
+        211.0
+      ],
+      [
+        393.9999694824219,
+        187.0,
+        499.9999694824219,
+        211.0
+      ],
+      [
+        541.0,
+        191.0,
+        579.0,
+        211.0
+      ],
+      [
+        629.0,
+        191.0,
+        671.0,
+        211.0
+      ],
+      [
+        249.0,
+        218.99998474121094,
+        305.0,
+        234.99998474121094
+      ],
+      [
+        245.0,
+        235.0,
+        293.0,
+        255.0
+      ],
+      [
+        316.0,
+        234.00001525878906,
+        504.0,
+        258.0
+      ],
+      [
+        521.9999389648438,
+        231.99996948242188,
+        675.9999389648438,
+        255.99996948242188
+      ],
+      [
+        247.0,
+        285.0,
+        299.0,
+        301.0
+      ],
+      [
+        485.0,
+        284.9999694824219,
+        519.0,
+        298.9999694824219
+      ],
+      [
+        539.0,
+        285.0,
+        631.0,
+        303.0
+      ],
+      [
+        244.00003051757812,
+        294.0,
+        402.0000305175781,
+        320.0
+      ],
+      [
+        412.0000305175781,
+        296.0,
+        520.0,
+        320.0
+      ],
+      [
+        563.0,
+        299.0,
+        605.0,
+        319.0
+      ],
+      [
+        247.0,
+        327.0,
+        287.0,
+        343.0
+      ],
+      [
+        262.0,
+        338.0000305175781,
+        306.0,
+        362.0000305175781
+      ],
+      [
+        355.0,
+        334.0,
+        430.0,
+        362.0
+      ],
+      [
+        244.0,
+        368.0,
+        323.0,
+        386.0
+      ],
+      [
+        359.0000305175781,
+        368.9999694824219,
+        431.0000305175781,
+        384.9999694824219
+      ],
+      [
+        362.0,
+        380.0,
+        426.0,
+        404.0
+      ],
+      [
+        458.9999694824219,
+        399.0,
+        510.9999694824219,
+        415.0
+      ],
+      [
+        527.0,
+        397.0,
+        605.0,
+        415.0
+      ],
+      [
+        70.00000762939453,
+        414.0,
+        211.0,
+        434.0
+      ],
+      [
+        458.0,
+        415.0,
+        591.0,
+        435.0
+      ]
+    ]
+  },
+  "image_height": 460,
+  "image_width": 721
+}
+
+==========
+[15:29:11] linesAll REPUBLIC OF THE PHILIPPINES Height:25
+[15:29:11] linesAll DEPARTMENT OF TRANSPORTATION Height:24
+[15:29:11] --> REPUBLIC OF THE PHILIPPINES
+[15:29:11] Left:219.00001525878906 Top:21 Bottom:46
+[15:29:11] linesAll LAND TRANSPORTATION OFFICE Height:26
+[15:29:11] --> DEPARTMENT OF TRANSPORTATION
+[15:29:11] Left:194 Top:38 Bottom:62
+[15:29:11] linesAll NON-PROFESSIONAL DRIVER'$ LICENSE Height:23
+[15:29:11] --> LAND TRANSPORTATION OFFICE
+[15:29:11] Left:207.99998474121094 Top:54 Bottom:80
+[15:29:11] linesAll NAME Height:14
+[15:29:11] linesAll MAITIM, JOSE ANTONIO SAYO Height:27
+[15:29:11] linesAll NATIONALITY Height:14
+[15:29:11] linesAll DATE OT BIRTH Height:14
+MergedLine [NATIONALITY]-[DATE OT BIRTH] dist: 86 --> [NATIONALITY            DATE OT BIRTH]
+[15:29:11] linesAll WEIGHT (KG) Height:20
+MergedLine [NATIONALITY            DATE OT BIRTH]-[WEIGHT (KG)] dist: 29 --> [NATIONALITY            DATE OT BIRTH   WEIGHT (KG)]
+[15:29:11] linesAll PHL Height:18
+[15:29:11] --> Nationality
+[15:29:11] Left:247 Top:177 Bottom:191
+[15:29:11] lineMergedToCheck: NATIONALITY            DATE OT BIRTH   WEIGHT (KG) is not field.
+[15:29:11] linesAll 1970/06/13 Height:23
+MergedLine [PHL]-[1970/06/13] dist: 107.99998474121094 --> [PHL           1970/06/13]
+[15:29:11] linesAll 104 Height:20
+MergedLine [PHL           1970/06/13]-[104] dist: 30.000030517578125 --> [PHL           1970/06/13  104]
+[15:29:11] linesAll 1.80 Height:20
+MergedLine [PHL           1970/06/13  104]-[1.80] dist: 50 --> [PHL           1970/06/13  104   1.80]
+[15:29:11] linesAll ADDRESS Height:14
+[15:29:11] linesAll 40-A Height:18
+[15:29:11] --> Address
+[15:29:11] Left:252 Top:221.99998474121094 Bottom:235.99998474121094
+[15:29:11] linesAll PELAEZ ST PROJ Height:21
+MergedLine [40-A]-[PELAEZ ST PROJ] dist: 15 --> [40-A PELAEZ ST PROJ]
+[15:29:11] linesAll QUEZON CITY Height:23
+MergedLine [40-A PELAEZ ST PROJ]-[QUEZON CITY] dist: -1.00006103515625 --> [40-A PELAEZ ST PROJ QUEZON CITY]
+[15:29:11] linesAll LICENSE Height:16
+[15:29:11] linesAll DATE Height:14
+MergedLine [LICENSE]-[DATE] dist: 186 --> [LICENSE                       DATE]
+[15:29:11] linesAll AGENCY CODE Height:18
+MergedLine [LICENSE                       DATE]-[AGENCY CODE] dist: 20 --> [LICENSE                       DATE  AGENCY CODE]
+[15:29:11] linesAll N02-89-106564 Height:24
+[15:29:11] --> Agency Code
+[15:29:11] Left:539 Top:285 Bottom:303
+[15:29:11] lineMergedToCheck: LICENSE                       DATE  AGENCY CODE is not field.
+[15:29:11] linesAll 2022/06/13 Height:24
+MergedLine [N02-89-106564]-[2022/06/13] dist: -8 --> [N02-89-106564 2022/06/13]
+[15:29:11] linesAll N22 Height:20
+MergedLine [N02-89-106564 2022/06/13]-[N22] dist: 43 --> [N02-89-106564 2022/06/13   N22]
+[15:29:11] linesAll BLOOD Height:16
+[15:29:11] linesAll AB+ Height:24
+[15:29:11] linesAll BLACK Height:25
+MergedLine [AB+]-[BLACK] dist: 57 --> [AB+    BLACK]
+[15:29:11] linesAll RESTRICTIONS Height:18
+[15:29:11] linesAll CONDITIONS Height:16
+MergedLine [RESTRICTIONS]-[CONDITIONS] dist: 36.000030517578125 --> [RESTRICTIONS    CONDITIONS]
+[15:29:11] linesAll NONE Height:24
+[15:29:11] --> Restrictions
+[15:29:11] Left:244 Top:368 Bottom:386
+[15:29:11] lineMergedToCheck: RESTRICTIONS    CONDITIONS is not field.
+[15:29:11] linesAll EDGAR Height:16
+[15:29:11] linesAll GALVANTE Height:18
+MergedLine [EDGAR]-[GALVANTE] dist: 16.000030517578125 --> [EDGAR  GALVANTE]
+[15:29:11] linesAll SIGNATURE OF LICENSEE Height:20
+[15:29:11] linesAll ASSISTANY SECRETARY Height:15
+MergedLine [SIGNATURE OF LICENSEE]-[ASSISTANY SECRETARY] dist: 255 --> [SIGNATURE OF LICENSEE                         ASSISTANY SECRETARY]
+REPUBLIC OF THE PHILIPPINES PredictCenterYInPixel: 33.5
+DEPARTMENT OF TRANSPORTATION PredictCenterYInPixel: 50
+LAND TRANSPORTATION OFFICE PredictCenterYInPixel: 67
+Nationality PredictCenterYInPixel: 184
+Address PredictCenterYInPixel: 228.99998474121094
+[15:29:11] removed 1 lines predicted as label removed from linesField [height < labelHeightInPixel (15.959181760529004)].
+[15:29:11] removed 1 lines predicted as label removed from lsLineMerged [height < labelHeightInPixel (15.959181760529004)].
+line: NON-PROFESSIONAL DRIVER'$ LICENSE EstimateCenterYInInch: 0.4512480834565539
+line: MAITIM, JOSE ANTONIO SAYO EstimateCenterYInInch: 0.7520153762123281
+line: PHL EstimateCenterYInInch: 1.0076675750547361
+line: 1970/06/13 EstimateCenterYInInch: 0.9800972398854569
+line: 104 EstimateCenterYInInch: 0.9926292104169475
+line: 1.80 EstimateCenterYInInch: 0.9926292104169475
+line: 40-A EstimateCenterYInInch: 1.2307366505152688
+line: PELAEZ ST PROJ EstimateCenterYInInch: 1.2407623034295392
+line: QUEZON CITY EstimateCenterYInInch: 1.2407620739623053
+line: N02-89-106564 EstimateCenterYInInch: 1.5214783668458505
+line: 2022/06/13 EstimateCenterYInInch: 1.528997549164745
+line: N22 EstimateCenterYInInch: 1.534010337377341
+line: BLOOD EstimateCenterYInInch: 1.6643428309048431
+line: AB+ EstimateCenterYInInch: 1.7395348070719427
+line: BLACK EstimateCenterYInInch: 1.7219898953497
+line: NONE EstimateCenterYInInch: 1.9500717590228287
+line: EDGAR EstimateCenterYInInch: 2.0252635822117724
+line: GALVANTE EstimateCenterYInInch: 2.020250793999176
+mergedLinesNearToLast_Name_First_Name_Middle_Name: MAITIM, JOSE ANTONIO SAYO EstimateCenterYInInch: 0.7520153762123281
+[15:29:11] MAITIM, JOSE ANTONIO SAYO --> LAST_NAME_FISRT_MIDDLE_NAME
+mergedLinesNearToNationality: PHL           1970/06/13  104   1.80 EstimateCenterYInInch: 0.9876164222043512
+[15:29:11] PHL --> NATIONALITY
+[15:29:11] 1970/06/13 --> DOB
+mergedLinesNearToNationality: 40-A PELAEZ ST PROJ QUEZON CITY EstimateCenterYInInch: 1.2407620739623053
+mergedLinesNearToNationality: MAITIM, JOSE ANTONIO SAYO EstimateCenterYInInch: 0.7520153762123281
+mergedLinesNearToNationality: N02-89-106564 2022/06/13   N22 EstimateCenterYInInch: 1.5239847609521486
+mergedLinesNearToNationality: NON-PROFESSIONAL DRIVER'$ LICENSE EstimateCenterYInInch: 0.4512480834565539
+mergedLinesNearToNationality: BLOOD EstimateCenterYInInch: 1.6643428309048431
+mergedLinesNearToNationality: AB+    BLACK EstimateCenterYInInch: 1.7295091541576724
+mergedLinesNearToNationality: NONE EstimateCenterYInInch: 1.9500717590228287
+mergedLinesNearToNationality: EDGAR  GALVANTE EstimateCenterYInInch: 2.020250793999176
+mergedLinesNearToAddress1: 40-A PELAEZ ST PROJ QUEZON CITY EstimateCenterYInInch: 1.2407620739623053
+[15:29:11] 40-A PELAEZ ST PROJ QUEZON CITY --> ADDRESS_1
+mergedLinesNearToAddress2: 40-A PELAEZ ST PROJ QUEZON CITY EstimateCenterYInInch: 1.2407620739623053
+mergedLinesNearToAddress2: N02-89-106564 2022/06/13   N22 EstimateCenterYInInch: 1.5239847609521486
+mergedLinesNearToAddress2: PHL           1970/06/13  104   1.80 EstimateCenterYInInch: 0.9876164222043512
+mergedLinesNearToAddress2: BLOOD EstimateCenterYInInch: 1.6643428309048431
+mergedLinesNearToAddress2: AB+    BLACK EstimateCenterYInInch: 1.7295091541576724
+mergedLinesNearToAddress2: MAITIM, JOSE ANTONIO SAYO EstimateCenterYInInch: 0.7520153762123281
+mergedLinesNearToAddress2: NONE EstimateCenterYInInch: 1.9500717590228287
+mergedLinesNearToAddress2: EDGAR  GALVANTE EstimateCenterYInInch: 2.020250793999176
+mergedLinesNearToAddress2: NON-PROFESSIONAL DRIVER'$ LICENSE EstimateCenterYInInch: 0.4512480834565539
+mergedLinesNearLicenseNo: N02-89-106564 2022/06/13   N22 EstimateCenterYInInch: 1.5239847609521486
+ExtractFieldsFromReadResultOfPHDL result NOT success
+ScanPHDLResult: ScanID.ScanPHDLResult
+[15:29:12] ==== responseBody ====
+ {
+  "<OCR_WITH_REGION>": {
+    "labels": [
+      "TRANSPORTATiOY",
+      "TrinspoRTAO",
+      "NON-PROFeSSiONal driver'$ LIcense",
+      "MAITIM, JOSE ANTONIO SAYO",
+      "1970/06/13",
+      "4n-a",
+      "PELAEZ",
+      "PROJ",
+      "QUEZON",
+      "Noz-89-",
+      "06564",
+      "BLACK",
+      "MONE"
+    ],
+    "quad_boxes": [
+      [
+        174.0,
+        18.0,
+        260.0,
+        30.0
+      ],
+      [
+        131.0,
+        29.999996185302734,
+        215.0,
+        37.999996185302734
+      ],
+      [
+        71.0,
+        39.0,
+        295.0,
+        55.0
+      ],
+      [
+        123.0000228881836,
+        64.99999237060547,
+        313.0,
+        84.99999237060547
+      ],
+      [
+        197.00001525878906,
+        95.0,
+        251.00001525878906,
+        107.0
+      ],
+      [
+        124.0,
+        117.99999237060547,
+        146.0,
+        126.00000762939453
+      ],
+      [
+        157.0,
+        117.00000762939453,
+        205.0,
+        129.0
+      ],
+      [
+        218.99998474121094,
+        117.00000762939453,
+        252.99998474121094,
+        129.0
+      ],
+      [
+        261.0,
+        115.0,
+        311.0,
+        129.0
+      ],
+      [
+        121.0,
+        147.0,
+        163.0,
+        161.0
+      ],
+      [
+        167.0,
+        147.0,
+        203.0,
+        161.0
+      ],
+      [
+        177.0,
+        165.0,
+        217.0,
+        181.0
+      ],
+      [
+        181.0,
+        191.0,
+        215.0,
+        203.0
+      ]
+    ]
+  },
+  "image_height": 230,
+  "image_width": 361
+}
+
+==========
+[15:29:12] linesAll TRANSPORTATIOY Height:12
+[15:29:12] linesAll TRINSPORTAO Height:9
+[15:29:12] linesAll NON-PROFESSIONAL DRIVER'$ LICENSE Height:13
+[15:29:12] linesAll MAITIM, JOSE ANTONIO SAYO Height:18
+[15:29:12] linesAll 1970/06/13 Height:10
+[15:29:12] linesAll 4N-A Height:8.000015258789062
+[15:29:12] linesAll PELAEZ Height:10
+[15:29:12] linesAll PROJ Height:10
+MergedLine [PELAEZ]-[PROJ] dist: 13.999984741210938 --> [PELAEZ  PROJ]
+[15:29:12] linesAll QUEZON Height:12
+MergedLine [PELAEZ  PROJ]-[QUEZON] dist: 4.0000152587890625 --> [PELAEZ  PROJ QUEZON]
+[15:29:12] linesAll NOZ-89- Height:14
+[15:29:12] linesAll 06564 Height:12
+MergedLine [NOZ-89-]-[06564] dist: 4 --> [NOZ-89- 06564]
+[15:29:12] linesAll BLACK Height:16
+[15:29:12] linesAll MONE Height:12
+ExtractFieldsFromReadResultOfPHDL result NOT success
+ScanPHDLResult: ScanID.ScanPHDLResult
+The program '[27384] test1.exe' has exited with code 0 (0x0).

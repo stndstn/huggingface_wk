@@ -1,0 +1,11 @@
+{
+  "profiles": {
+    "ConsoleAppDn8": {
+      "commandName": "Project",
+      "commandLineArgs_": "MYDL2.jpg",
+      "commandLineArgs": "tmpl/mydl_fr MYDL2.jpg",
+      "nativeDebugging": true,
+      "hotReloadEnabled": false
+    }
+  }
+}

@@ -1,0 +1,594 @@
+[17:02:10] ==== responseBody ====
+ {
+  "<OCR_WITH_REGION>": {
+    "labels": [
+      "REPUBLIKA NG PILIPINAS",
+      "Republic",
+      "Philippines",
+      "PAMBANSANG PAGKAKAKILANLAN",
+      "Philippine Identification Card",
+      "5931-9426-7546-1037",
+      "Apelyido Last",
+      "DELOS REYES",
+      "Names",
+      "CHRISTIAN MARX",
+      "Gitnang Apelyido/ Middle Name",
+      "OZADA",
+      "ng Kapanganakan/Date of Birth",
+      "JUNE 06, 1988",
+      "Tirahan/Address",
+      "PHL",
+      "BLK 2 LOT",
+      "SUNLIGHT VIEWVIEL",
+      "SINDALAN;",
+      "OF SAN FERNANDO; PAMPANGA"
+    ],
+    "quad_boxes": [
+      [
+        261.9999694824219,
+        259.9999694824219,
+        507.9999694824219,
+        283.9999694824219
+      ],
+      [
+        290.9999694824219,
+        287.0,
+        354.9999694824219,
+        305.0
+      ],
+      [
+        401.0000305175781,
+        287.0,
+        481.0000305175781,
+        303.0
+      ],
+      [
+        212.99996948242188,
+        301.0,
+        554.0,
+        328.0
+      ],
+      [
+        281.9999694824219,
+        327.0,
+        486.9999694824219,
+        348.0
+      ],
+      [
+        70.99999237060547,
+        357.0,
+        305.0,
+        385.0
+      ],
+      [
+        351.0,
+        393.0,
+        451.0,
+        409.0
+      ],
+      [
+        352.0,
+        410.0,
+        520.0,
+        438.0
+      ],
+      [
+        500.9999694824219,
+        441.0,
+        551.0,
+        457.0
+      ],
+      [
+        350.0,
+        463.9999694824219,
+        554.0,
+        489.9999694824219
+      ],
+      [
+        350.0,
+        508.9999694824219,
+        575.0,
+        529.0
+      ],
+      [
+        363.9999694824219,
+        531.9999389648438,
+        447.9999694824219,
+        557.9999389648438
+      ],
+      [
+        392.9999694824219,
+        559.0,
+        615.0,
+        577.0
+      ],
+      [
+        348.0000305175781,
+        580.0,
+        514.0000610351562,
+        608.0
+      ],
+      [
+        82.0,
+        605.0,
+        199.0,
+        625.0
+      ],
+      [
+        662.0,
+        591.9999389648438,
+        720.0,
+        621.9999389648438
+      ],
+      [
+        82.0,
+        624.0,
+        176.0,
+        648.0
+      ],
+      [
+        216.0,
+        623.0,
+        391.0,
+        647.0
+      ],
+      [
+        398.00006103515625,
+        625.0,
+        488.0,
+        649.0
+      ],
+      [
+        81.99998474121094,
+        642.0,
+        350.0,
+        668.0
+      ]
+    ]
+  },
+  "image_height": 1008,
+  "image_width": 756
+}
+
+==========
+'test1.exe' (CoreCLR: clrhost): Loaded 'F:\WORK\Dev\huggingface\work\ScanID\test1\bin\Debug\net8.0\Tesseract.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'test1.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.11\System.Reflection.Emit.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'test1.exe' (CoreCLR: clrhost): Loaded 'InteropRuntimeImplementer.LeptonicaApiSignaturesInstance'. 
+'test1.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.11\System.Reflection.Emit.ILGeneration.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'test1.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.11\System.Reflection.Primitives.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'test1.exe' (CoreCLR: clrhost): Loaded 'InteropRuntimeImplementer.TessApiSignaturesInstance'. 
+MergedLine [REPUBLIC]-[PHILIPPINES] dist: 52.00006103515625 --> [REPUBLIC     PHILIPPINES]
+MergedLine [BLK 2 LOT]-[SUNLIGHT VIEWVIEL] dist: 40 --> [BLK 2 LOT   SUNLIGHT VIEWVIEL]
+MergedLine [BLK 2 LOT   SUNLIGHT VIEWVIEL]-[SINDALAN;] dist: 7.00006103515625 --> [BLK 2 LOT   SUNLIGHT VIEWVIEL SINDALAN;]
+'test1.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.11\System.Text.RegularExpressions.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+[17:02:11] linesAll REPUBLIKA NG PILIPINAS Height:22
+[17:02:11] linesAll REPUBLIC     PHILIPPINES Height:19
+[17:02:11] --> REPUBLIKA NG PILIPINAS
+[17:02:11] Left:279.9999694824219 Top:267.9999694824219 Bottom:289.9999694824219
+[17:02:11] lineMergedToCheck: REPUBLIKA NG PILIPINAS is not field.
+[17:02:11] linesAll PAMBANSANG PAGKAKAKILANLAN Height:23
+[17:02:11] linesAll PHILIPPINE IDENTIFICATION CARD Height:21
+[17:02:11] --> PAMBANSANG PAGKAKAKILANLAN
+[17:02:11] Left:236.99996948242188 Top:301 Bottom:326
+[17:02:11] lineMergedToCheck: PAMBANSANG PAGKAKAKILANLAN is not field.
+[17:02:11] linesAll 5931-9426-7546-1037 Height:28
+[17:02:11] --> Philippine Identification Card
+[17:02:11] Left:281.9999694824219 Top:327 Bottom:348
+[17:02:11] lineMergedToCheck: PHILIPPINE IDENTIFICATION CARD is not field.
+[17:02:11] linesAll APELYIDO LAST Height:16
+[17:02:11] --> 
+[17:02:11] Left:70.99999237060547 Top:357 Bottom:385
+[17:02:11] lineMergedToCheck: 5931-9426-7546-1037 is not field.
+[17:02:11] linesAll DELOS REYES Height:24
+[17:02:11] --> Apelyido/Last Name
+[17:02:11] Left:351 Top:393 Bottom:409
+[17:02:11] lineMergedToCheck: APELYIDO LAST is not field.
+[17:02:11] linesAll NAMES Height:16
+[17:02:11] linesAll CHRISTIAN MARX Height:23
+[17:02:11] linesAll GITNANG APELYIDO/ MIDDLE NAME Height:17
+[17:02:11] linesAll OZADA Height:26
+[17:02:11] --> Gitnang Apelyido/Middle Name
+[17:02:11] Left:365 Top:513.9999694824219 Bottom:533.9999694824219
+[17:02:11] lineMergedToCheck: GITNANG APELYIDO/ MIDDLE NAME is not field.
+[17:02:11] linesAll NG KAPANGANAKAN/DATE OF BIRTH Height:14
+[17:02:11] linesAll JUNE 06, 1988 Height:23
+[17:02:11] --> Petsa ng Kapanganakan/Date of Birth
+[17:02:11] Left:394.9999694824219 Top:561 Bottom:579
+[17:02:11] lineMergedToCheck: NG KAPANGANAKAN/DATE OF BIRTH is not field.
+[17:02:11] linesAll TIRAHAN/ADDRESS Height:20
+[17:02:11] linesAll PHL Height:30
+MergedLine [TIRAHAN/ADDRESS]-[PHL] dist: 463 --> [TIRAHAN/ADDRESS                                              PHL]
+[17:02:11] linesAll BLK 2 LOT   SUNLIGHT VIEWVIEL SINDALAN; Height:26
+[17:02:11] --> Tirahan/Address
+[17:02:11] Left:82 Top:591.9999389648438 Bottom:625
+[17:02:11] lineMergedToCheck: TIRAHAN/ADDRESS                                              PHL is not field.
+[17:02:11] linesAll OF SAN FERNANDO; PAMPANGA Height:22
+REPUBLIKA NG PILIPINAS PredictCenterYInPixel: 278.9999694824219
+PAMBANSANG PAGKAKAKILANLAN PredictCenterYInPixel: 313.5
+Philippine Identification Card PredictCenterYInPixel: 337.5
+ PredictCenterYInPixel: 371
+Apelyido/Last Name PredictCenterYInPixel: 401
+Gitnang Apelyido/Middle Name PredictCenterYInPixel: 523.9999694824219
+Petsa ng Kapanganakan/Date of Birth PredictCenterYInPixel: 570
+Tirahan/Address PredictCenterYInPixel: 608.4999694824219
+'test1.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.11\System.Numerics.Vectors.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+[17:02:11] removed 0 lines predicted as label removed from linesField [height < labelHeightInPixel (15.841345898498789)].
+[17:02:11] removed 0 lines predicted as label removed from lsLineMerged [height < labelHeightInPixel (15.841345898498789)].
+line: REPUBLIC     PHILIPPINES EstimateCenterYInInch: 0.23409964051869817
+line: DELOS REYES EstimateCenterYInInch: 0.9057597273794851
+line: NAMES EstimateCenterYInInch: 1.0042362062801269
+line: CHRISTIAN MARX EstimateCenterYInInch: 1.1734135928395042
+line: OZADA EstimateCenterYInInch: 1.4890431787895795
+line: JUNE 06, 1988 EstimateCenterYInInch: 1.7642726203594383
+line: BLK 2 LOT   SUNLIGHT VIEWVIEL SINDALAN; EstimateCenterYInInch: 1.9486003885580754
+line: OF SAN FERNANDO; PAMPANGA EstimateCenterYInInch: 2.0420267916176584
+[17:02:11] 5931-9426-7546-1037 --> IDNUM
+mergedLinesNearToLastName: DELOS REYES EstimateCenterYInInch: 0.9057597273794851
+[17:02:11] DELOS REYES --> LAST_NAME
+mergedLinesNearToGivenName: CHRISTIAN MARX EstimateCenterYInInch: 1.1734135928395042
+[17:02:11] CHRISTIAN MARX --> GIVEN_NAMES
+mergedLinesNearToMiddleName: OZADA EstimateCenterYInInch: 1.4890431787895795
+[17:02:11] OZADA --> MIDDLE_NAME
+mergedLinesNearToDOB: JUNE 06, 1988 EstimateCenterYInInch: 1.7642726203594383
+[17:02:11] JUNE 06, 1988 --> DOB
+mergedLinesNearToAddress1: BLK 2 LOT   SUNLIGHT VIEWVIEL SINDALAN; EstimateCenterYInInch: 1.9486003885580754
+[17:02:11] BLK 2 LOT   SUNLIGHT VIEWVIEL SINDALAN; --> ADDRESS1
+mergedLinesNearToAddress2: OF SAN FERNANDO; PAMPANGA EstimateCenterYInInch: 2.0420267916176584
+[17:02:11] OF SAN FERNANDO; PAMPANGA --> ADDRESS2
+'test1.exe' (CoreCLR: clrhost): Loaded 'F:\WORK\Dev\huggingface\work\ScanID\test1\bin\Debug\net8.0\ZXing.SkiaSharp.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+[17:02:13] ==== responseBody ====
+ {
+  "<OCR_WITH_REGION>": {
+    "labels": [
+      "SEPTEMBER 2022",
+      "Kasarian/Sex",
+      "MALE",
+      "{Blood",
+      "UNKNOWN",
+      "Kalagayang Sibil/Marital Status",
+      "MARRIED",
+      "Lugar",
+      "Kapanganakan/Place",
+      "Birth",
+      "CALOOCAN NCR",
+      "THIRD DISTRICT",
+      "If found; please",
+      "nearest",
+      "PSA Office",
+      "psa Bov"
+    ],
+    "quad_boxes": [
+      [
+        111.0,
+        545.0000610351562,
+        229.0,
+        561.0000610351562
+      ],
+      [
+        95.0,
+        575.0000610351562,
+        177.0,
+        591.0000610351562
+      ],
+      [
+        90.0,
+        588.0,
+        154.0,
+        612.0
+      ],
+      [
+        169.0,
+        609.0000610351562,
+        213.0,
+        625.0000610351562
+      ],
+      [
+        89.0,
+        621.0,
+        207.0,
+        645.0
+      ],
+      [
+        94.99998474121094,
+        645.0,
+        291.0,
+        663.0
+      ],
+      [
+        89.99999237060547,
+        656.0,
+        192.0,
+        680.0
+      ],
+      [
+        94.99999237060547,
+        683.0,
+        133.0,
+        697.0
+      ],
+      [
+        150.00001525878906,
+        677.0,
+        283.0,
+        698.0
+      ],
+      [
+        301.0,
+        677.0,
+        333.0,
+        693.0
+      ],
+      [
+        155.0,
+        697.0,
+        283.0,
+        717.0
+      ],
+      [
+        88.0,
+        716.0,
+        212.0,
+        740.0
+      ],
+      [
+        95.0,
+        788.9999389648438,
+        193.0,
+        804.9999389648438
+      ],
+      [
+        277.0000305175781,
+        788.9999389648438,
+        329.0000305175781,
+        802.9999389648438
+      ],
+      [
+        95.0,
+        807.0,
+        163.0,
+        823.0
+      ],
+      [
+        371.0000305175781,
+        807.0,
+        423.0000305175781,
+        821.0
+      ]
+    ]
+  },
+  "image_height": 1008,
+  "image_width": 756
+}
+
+==========
+MergedLine [LUGAR]-[KAPANGANAKAN/PLACE] dist: 17.000015258789062 --> [LUGAR  KAPANGANAKAN/PLACE]
+MergedLine [LUGAR  KAPANGANAKAN/PLACE]-[BIRTH] dist: 18 --> [LUGAR  KAPANGANAKAN/PLACE BIRTH]
+MergedLine [IF FOUND; PLEASE]-[NEAREST] dist: 84.00003051757812 --> [IF FOUND; PLEASE          NEAREST]
+MergedLine [PSA OFFICE]-[PSA BOV] dist: 208.00003051757812 --> [PSA OFFICE                          PSA BOV]
+[17:02:13] linesAll SEPTEMBER 2022 Height:13
+[17:02:13] linesAll KASARIAN/SEX Height:16
+[17:02:13] linesAll MALE Height:21
+[17:02:13] --> Kasarian/Sex
+[17:02:13] Left:95 Top:575.0000610351562 Bottom:591.0000610351562
+[17:02:13] lineMergedToCheck: KASARIAN/SEX is not field.
+[17:02:13] linesAll {BLOOD Height:14
+[17:02:13] linesAll UNKNOWN Height:24
+[17:02:13] linesAll KALAGAYANG SIBIL/MARITAL STATUS Height:18
+[17:02:13] linesAll MARRIED Height:23
+[17:02:13] --> Kalagayang Sibil/Marital Status
+[17:02:13] Left:94.99998474121094 Top:645 Bottom:663
+[17:02:13] lineMergedToCheck: KALAGAYANG SIBIL/MARITAL STATUS is not field.
+[17:02:13] linesAll LUGAR Height:10
+[17:02:13] linesAll KAPANGANAKAN/PLACE Height:21
+MergedLine [LUGAR]-[KAPANGANAKAN/PLACE] dist: 16.000022888183594 --> [LUGAR   KAPANGANAKAN/PLACE]
+[17:02:13] linesAll BIRTH Height:14
+MergedLine [LUGAR   KAPANGANAKAN/PLACE]-[BIRTH] dist: 22 --> [LUGAR   KAPANGANAKAN/PLACE  BIRTH]
+[17:02:13] linesAll CALOOCAN NCR Height:20
+[17:02:13] --> lugar ng kapanganakan/place of birth
+[17:02:13] Left:97.99999237060547 Top:677 Bottom:698
+[17:02:13] lineMergedToCheck: LUGAR   KAPANGANAKAN/PLACE  BIRTH is not field.
+[17:02:13] linesAll THIRD DISTRICT Height:22
+[17:02:13] linesAll IF FOUND; PLEASE Height:16
+[17:02:13] linesAll NEAREST Height:11
+MergedLine [IF FOUND; PLEASE]-[NEAREST] dist: 89.00003051757812 --> [IF FOUND; PLEASE           NEAREST]
+[17:02:13] linesAll PSA OFFICE Height:13
+[17:02:13] linesAll PSA BOV Height:14
+MergedLine [PSA OFFICE]-[PSA BOV] dist: 198.00003051757812 --> [PSA OFFICE                              PSA BOV]
+[17:02:13] --> psa office
+[17:02:13] Left:101 Top:807 Bottom:825
+[17:02:13] lineMergedToCheck: PSA OFFICE                              PSA BOV is not field.
+Kasarian/Sex PredictCenterYInPixel: 583.0000610351562
+Kasarian/Sex PredictCenterXInPixel: 136
+Kalagayang Sibil/Marital Status PredictCenterYInPixel: 654
+Kalagayang Sibil/Marital Status PredictCenterXInPixel: 192.99999237060547
+lugar ng kapanganakan/place of birth PredictCenterYInPixel: 687.5
+lugar ng kapanganakan/place of birth PredictCenterXInPixel: 217.49999618530273
+psa office PredictCenterYInPixel: 816
+psa office PredictCenterXInPixel: 262.00001525878906
+[17:02:13] removed 3 lines predicted as label removed from linesField [height < labelHeightInPixel (14.911995760440913)].
+[17:02:13] removed 2 lines predicted as label removed from lsLineMerged [height < labelHeightInPixel (14.911995760440913)].
+line: MALE EstimateCenterYInInch: 0.8663678239856807
+line: UNKNOWN EstimateCenterYInInch: 1.0353592845625914
+line: MARRIED EstimateCenterYInInch: 1.2204451699563508
+line: CALOOCAN NCR EstimateCenterYInInch: 1.4323550967115246
+line: THIRD DISTRICT EstimateCenterYInInch: 1.5530632828378894
+line: IF FOUND; PLEASE EstimateCenterYInInch: 1.9151875137750727
+mergedLinesNearToDateOfIssue: MALE EstimateCenterYInInch: 0.8663678239856807
+mergedLinesNearToDateOfIssue: UNKNOWN EstimateCenterYInInch: 1.0353592845625914
+mergedLinesNearToDateOfIssue: MARRIED EstimateCenterYInInch: 1.2204451699563508
+mergedLinesNearToDateOfIssue: CALOOCAN NCR EstimateCenterYInInch: 1.4323550967115246
+mergedLinesNearToDateOfIssue: THIRD DISTRICT EstimateCenterYInInch: 1.5530632828378894
+mergedLinesNearToDateOfIssue: IF FOUND; PLEASE           NEAREST EstimateCenterYInInch: 1.9151875137750727
+mergedLinesNearToSex: MALE EstimateCenterYInInch: 0.8663678239856807
+[17:02:13] MALE --> SEX
+mergedLinesNearToBloodType: UNKNOWN EstimateCenterYInInch: 1.0353592845625914
+[17:02:13] UNKNOWN --> BLOOD_TYPE
+mergedLinesNearToMaritalStatus: MARRIED EstimateCenterYInInch: 1.2204451699563508
+[17:02:13] MARRIED --> MARITAL_STATUS
+mergedLinesNearToPlaceOfBirthLine1: CALOOCAN NCR EstimateCenterYInInch: 1.4323550967115246
+[17:02:13] CALOOCAN NCR --> POB
+mergedLinesNearToPlaceOfBirthLine2: THIRD DISTRICT EstimateCenterYInInch: 1.5530632828378894
+[17:02:13] THIRD DISTRICT --> POB
+'test1.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\PrivateAssemblies\Runtime\Microsoft.VisualStudio.Debugger.Runtime.NetCoreApp.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+The thread '.NET TP Worker' (27708) has exited with code 0 (0x0).
+The thread '.NET TP Worker' (42896) has exited with code 0 (0x0).
+The thread '.NET TP Worker' (17956) has exited with code 0 (0x0).
+'test1.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.11\System.Text.Encodings.Web.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'test1.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.11\System.Reflection.Emit.Lightweight.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+scanPHNIResult: ScanID.ScanPHNIResult
+[17:02:43] ==== responseBody ====
+ {
+  "<OCR_WITH_REGION>": {
+    "labels": [
+      "REPUBLIKA NG",
+      "PAMBANSANG PAGKAL",
+      "5931-9426-7546-1037",
+      "DELOS REYES",
+      "CHRIS",
+      "MARX",
+      "OZADA",
+      "aco",
+      "VEWYRI"
+    ],
+    "quad_boxes": [
+      [
+        131.0,
+        130.99998474121094,
+        205.0,
+        142.99998474121094
+      ],
+      [
+        107.0,
+        151.0,
+        217.0,
+        165.0
+      ],
+      [
+        36.99999237060547,
+        178.00001525878906,
+        155.0,
+        195.00001525878906
+      ],
+      [
+        175.0,
+        205.0,
+        261.0,
+        219.0
+      ],
+      [
+        175.0,
+        231.0,
+        215.0,
+        245.0
+      ],
+      [
+        241.0,
+        233.0,
+        279.0,
+        247.0
+      ],
+      [
+        182.99998474121094,
+        265.0,
+        224.99998474121094,
+        281.0
+      ],
+      [
+        62.0,
+        314.0,
+        86.0,
+        322.0
+      ],
+      [
+        153.0,
+        313.0,
+        195.0,
+        327.0
+      ]
+    ]
+  },
+  "image_height": 504,
+  "image_width": 378
+}
+
+==========
+MergedLine [CHRIS]-[MARX] dist: 22 --> [CHRIS   MARX]
+[17:02:43] linesAll REPUBLIKA NG Height:10
+[17:02:43] linesAll PAMBANSANG PAGKAL Height:11
+[17:02:43] linesAll 5931-9426-7546-1037 Height:17
+[17:02:43] --> PAMBANSANG PAGKAKAKILANLAN
+[17:02:43] Left:116 Top:155 Bottom:167
+[17:02:43] lineMergedToCheck: PAMBANSANG PAGKAL is not field.
+[17:02:43] linesAll DELOS REYES Height:12
+[17:02:43] --> 
+[17:02:43] Left:36.99999237060547 Top:178.00001525878906 Bottom:195.00001525878906
+[17:02:43] lineMergedToCheck: 5931-9426-7546-1037 is not field.
+[17:02:43] linesAll CHRIS   MARX Height:13
+[17:02:43] linesAll OZADA Height:13
+[17:02:43] linesAll ACO Height:8
+[17:02:43] linesAll VEWYRI Height:14
+PAMBANSANG PAGKAKAKILANLAN PredictCenterYInPixel: 161
+ PredictCenterYInPixel: 186.50001525878906
+[17:02:43] removed 0 lines predicted as label removed from linesField [height < labelHeightInPixel (6.915258528086375)].
+[17:02:43] removed 0 lines predicted as label removed from lsLineMerged [height < labelHeightInPixel (6.915258528086375)].
+line: REPUBLIKA NG EstimateCenterYInInch: 0.09949018530872873
+line: DELOS REYES EstimateCenterYInInch: 0.9844897929233981
+line: CHRIS   MARX EstimateCenterYInInch: 1.2852739132943778
+line: OZADA EstimateCenterYInInch: 1.6786069937795054
+line: ACO EstimateCenterYInInch: 2.170273344385915
+line: VEWYRI EstimateCenterYInInch: 2.1934105844144516
+[17:02:43] 5931-9426-7546-1037 --> IDNUM
+mergedLinesNearToLastName: DELOS REYES EstimateCenterYInInch: 0.9844897929233981
+[17:02:43] DELOS REYES --> LAST_NAME
+mergedLinesNearToGivenName: CHRIS   MARX EstimateCenterYInInch: 1.2852739132943778
+mergedLinesNearToGivenName: OZADA EstimateCenterYInInch: 1.6786069937795054
+mergedLinesNearToGivenName: REPUBLIKA NG EstimateCenterYInInch: 0.09949018530872873
+mergedLinesNearToGivenName: ACO EstimateCenterYInInch: 2.170273344385915
+mergedLinesNearToGivenName: VEWYRI EstimateCenterYInInch: 2.1934105844144516
+mergedLinesNearToMiddleName: CHRIS   MARX EstimateCenterYInInch: 1.2852739132943778
+mergedLinesNearToMiddleName: OZADA EstimateCenterYInInch: 1.6786069937795054
+mergedLinesNearToMiddleName: ACO EstimateCenterYInInch: 2.170273344385915
+mergedLinesNearToMiddleName: VEWYRI EstimateCenterYInInch: 2.1934105844144516
+mergedLinesNearToMiddleName: REPUBLIKA NG EstimateCenterYInInch: 0.09949018530872873
+mergedLinesNearToDOB: OZADA EstimateCenterYInInch: 1.6786069937795054
+[17:02:43] OZADA --> DOB
+mergedLinesNearToAddress1: ACO EstimateCenterYInInch: 2.170273344385915
+mergedLinesNearToAddress1: VEWYRI EstimateCenterYInInch: 2.1934105844144516
+mergedLinesNearToAddress1: CHRIS   MARX EstimateCenterYInInch: 1.2852739132943778
+mergedLinesNearToAddress1: REPUBLIKA NG EstimateCenterYInInch: 0.09949018530872873
+mergedLinesNearToAddress2: ACO EstimateCenterYInInch: 2.170273344385915
+mergedLinesNearToAddress2: VEWYRI EstimateCenterYInInch: 2.1934105844144516
+mergedLinesNearToAddress2: CHRIS   MARX EstimateCenterYInInch: 1.2852739132943778
+mergedLinesNearToAddress2: REPUBLIKA NG EstimateCenterYInInch: 0.09949018530872873
+ExtractFieldsFromReadResultOfPHNI result NOT success
+[17:02:44] ==== responseBody ====
+ {
+  "<OCR_WITH_REGION>": {
+    "labels": [
+      "MARRIED",
+      "Dist?ic"
+    ],
+    "quad_boxes": [
+      [
+        45.0,
+        327.0,
+        97.0,
+        341.0
+      ],
+      [
+        70.0,
+        360.0,
+        102.0,
+        368.0
+      ]
+    ]
+  },
+  "image_height": 504,
+  "image_width": 378
+}
+
+==========
+[17:02:44] linesAll MARRIED Height:12
+[17:02:44] linesAll DIST?IC Height:8
+scanPHNIResult: ScanID.ScanPHNIResult
+The program '[1028] test1.exe' has exited with code 0 (0x0).

@@ -1,0 +1,3226 @@
+[10:58:48] ==== responseBody ====
+ {
+  "<OCR_WITH_REGION>": {
+    "labels": [
+      "NG",
+      "REPUBLIC",
+      "OF THE",
+      "RHILIPPINES",
+      "Unified Multi-Purpose ID",
+      "CRN",
+      "01l1-6184420-7",
+      "SURNAME",
+      "FRIGILLANA",
+      "GIVEN NAME",
+      "MARIE",
+      "ANGELI",
+      "MDDLE NAME",
+      "FAJARDO",
+      "SEX",
+      "DATE OF BirTH",
+      "1991/04/17",
+      "ADDRE3S",
+      "KALAU",
+      "ST",
+      "BF",
+      "RESORT",
+      "PinTi",
+      "GETNDEcrABAN",
+      "394o'",
+      "LAS",
+      "6",
+      "DkATAO",
+      "KAD0S:"
+    ],
+    "quad_boxes": [
+      [
+        342.0000305175781,
+        268.0,
+        396.0000305175781,
+        298.0
+      ],
+      [
+        528.0,
+        302.0,
+        840.0,
+        358.0
+      ],
+      [
+        858.0,
+        302.0,
+        1086.0,
+        358.0
+      ],
+      [
+        1101.9998779296875,
+        302.0,
+        1491.9998779296875,
+        358.0
+      ],
+      [
+        726.0,
+        351.0,
+        1294.0,
+        426.0
+      ],
+      [
+        1164.9998779296875,
+        507.0,
+        1264.9998779296875,
+        551.0
+      ],
+      [
+        1295.0,
+        495.00006103515625,
+        1805.0,
+        555.0000610351562
+      ],
+      [
+        873.0,
+        623.0,
+        1025.0,
+        659.0
+      ],
+      [
+        874.0,
+        652.0,
+        1240.0,
+        708.0
+      ],
+      [
+        875.9999389648438,
+        726.0,
+        1059.9998779296875,
+        756.0
+      ],
+      [
+        873.9999389648438,
+        754.0,
+        1057.9998779296875,
+        808.0
+      ],
+      [
+        1094.0,
+        754.0,
+        1318.0,
+        808.0
+      ],
+      [
+        870.0,
+        879.9999389648438,
+        1081.0,
+        921.9999389648438
+      ],
+      [
+        874.0,
+        914.0000610351562,
+        1133.9998779296875,
+        970.0000610351562
+      ],
+      [
+        872.0,
+        984.0,
+        938.0,
+        1016.0
+      ],
+      [
+        1017.0,
+        985.0000610351562,
+        1247.0,
+        1022.9999389648438
+      ],
+      [
+        1257.0,
+        967.0,
+        1635.0,
+        1027.0
+      ],
+      [
+        871.0,
+        1015.0,
+        1021.0,
+        1053.0
+      ],
+      [
+        1081.0,
+        1039.0,
+        1265.0,
+        1099.0
+      ],
+      [
+        1292.0,
+        1042.0,
+        1374.0,
+        1098.0
+      ],
+      [
+        1397.0,
+        1039.0,
+        1479.0,
+        1099.0
+      ],
+      [
+        1506.0,
+        1042.0,
+        1724.0,
+        1098.0
+      ],
+      [
+        858.0,
+        1070.0,
+        1062.0001220703125,
+        1195.0
+      ],
+      [
+        1078.0,
+        1081.0,
+        1521.0,
+        1192.0
+      ],
+      [
+        1534.9998779296875,
+        1080.0,
+        1696.9998779296875,
+        1190.0
+      ],
+      [
+        1682.0,
+        1086.0,
+        1798.0,
+        1140.0
+      ],
+      [
+        312.0,
+        252.0,
+        254.0,
+        391.0
+      ],
+      [
+        352.0,
+        472.0,
+        412.0,
+        468.0
+      ],
+      [
+        308.9999694824219,
+        465.0,
+        352.9999694824219,
+        487.0
+      ]
+    ]
+  },
+  "image_height": 1500,
+  "image_width": 2000
+}
+
+==========
+'test1.exe' (CoreCLR: clrhost): Loaded 'F:\WORK\Dev\huggingface\work\ConsoleApp1\test1\bin\Debug\net8.0\Tesseract.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'test1.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.11\System.Reflection.Emit.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'test1.exe' (CoreCLR: clrhost): Loaded 'InteropRuntimeImplementer.LeptonicaApiSignaturesInstance'. 
+'test1.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.11\System.Reflection.Emit.ILGeneration.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'test1.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.11\System.Reflection.Primitives.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'test1.exe' (CoreCLR: clrhost): Loaded 'InteropRuntimeImplementer.TessApiSignaturesInstance'. 
+MergedLine [REPUBLIC]-[OF THE] dist: 2 --> [REPUBLIC OF THE]
+MergedLine [REPUBLIC OF THE]-[PHILIPPINES] dist: 18.9998779296875 --> [REPUBLIC OF THE PHILIPPINES]
+MergedLine [MARIE]-[ANGELI] dist: 52.0001220703125 --> [MARIE ANGELI]
+MergedLine [KALAU]-[ST] dist: 27 --> [KALAU ST]
+MergedLine [KALAU ST]-[BF] dist: 23 --> [KALAU ST BF]
+MergedLine [KALAU ST BF]-[RESORT] dist: 27 --> [KALAU ST BF RESORT]
+MergedLine [PINTI]-[GETNDECRABAN] dist: 15.9998779296875 --> [PINTI GETNDECRABAN]
+[10:58:49] linesAll NG Height:30
+[10:58:49] linesAll REPUBLIC OF THE PHILIPPINES Height:58
+[10:58:49] linesAll UNIFIED MULTI-PURPOSE ID Height:75
+[10:58:49] --> REPUBLIC OF THE PHILIPPINES
+[10:58:49] Left:549 Top:311 Bottom:369
+[10:58:49] linesAll CRN Height:42
+[10:58:49] --> Unified Multi-Purpose ID
+[10:58:49] Left:726 Top:351 Bottom:426
+[10:58:49] linesAll 01L1-6184420-7 Height:60
+MergedLine [CRN]-[01L1-6184420-7] dist: 20.0001220703125 --> [CRN 01L1-6184420-7]
+[10:58:49] linesAll SURNAME Height:36
+[10:58:49] --> CRN
+[10:58:49] Left:1175.9998779296875 Top:495.00006103515625 Bottom:558
+[10:58:49] linesAll FRIGILLANA Height:56
+[10:58:49] --> SURNAME
+[10:58:49] Left:873 Top:623 Bottom:659
+[10:58:49] --> SURNAME
+[10:58:49] Left:873 Top:623 Bottom:659
+IsLineAboveOrSmallerThanLabel baseline line: SURNAME Height * 0.5 = 37.5 label: ScanID.LabelInfo Height: 36
+[10:58:49] linesAll GIVEN NAME Height:30
+[10:58:49] linesAll MARIE ANGELI Height:60
+[10:58:49] --> GIVEN NAME
+[10:58:49] Left:875.9999389648438 Top:726 Bottom:756
+[10:58:49] --> GIVEN NAME
+[10:58:49] Left:875.9999389648438 Top:726 Bottom:756
+IsLineAboveOrSmallerThanLabel baseline line: GIVEN NAME Height * 0.5 = 37.5 label: ScanID.LabelInfo Height: 30
+[10:58:49] linesAll MDDLE NAME Height:42
+[10:58:49] linesAll FAJARDO Height:50
+[10:58:49] linesAll SEX Height:32
+[10:58:49] linesAll DATE OF BIRTH Height:35
+IsLineAboveOrSmallerThanLabel baseline line: SEX Height * 0.5 = 37.5 label: ScanID.LabelInfo Height: 32
+[10:58:49] linesAll 1991/04/17 Height:60
+MergedLine [DATE OF BIRTH]-[1991/04/17] dist: 3 --> [DATE OF BIRTH 1991/04/17]
+[10:58:49] linesAll ADDRE3S Height:38
+IsLineAboveOrSmallerThanLabel baseline line: DATE OF BIRTH Height * 0.5 = 37.5 label: ScanID.LabelInfo Height: 35
+[10:58:49] linesAll KALAU ST BF RESORT Height:60
+[10:58:49] linesAll PINTI GETNDECRABAN Height:125
+[10:58:49] linesAll 394O' Height:15
+[10:58:49] linesAll LAS Height:49
+IsLineAboveOrSmallerThanLabel baseline line: 394O' Height * 0.5 = 29 label: ScanID.LabelInfo Height: 15
+IsLineAboveOrSmallerThanLabel baseline line: 394O' Height * 0.5 = 37.5 label: ScanID.LabelInfo Height: 15
+[10:58:49] linesAll 6 Height:139
+[10:58:49] linesAll DKATAO Height:-4
+[10:58:49] linesAll KAD0S: Height:22
+IsLineAboveOrSmallerThanLabel baseline line: DKATAO Height * 0.5 = 29 label: ScanID.LabelInfo Height: -4
+IsLineAboveOrSmallerThanLabel baseline line: DKATAO Height * 0.5 = 37.5 label: ScanID.LabelInfo Height: -4
+IsLineAboveOrSmallerThanLabel baseline line: KAD0S: Height * 0.5 = 29 label: ScanID.LabelInfo Height: 22
+IsLineAboveOrSmallerThanLabel baseline line: KAD0S: Height * 0.5 = 37.5 label: ScanID.LabelInfo Height: 22
+REPUBLIC OF THE PHILIPPINES PredictCenterYInPixel: 340
+Unified Multi-Purpose ID PredictCenterYInPixel: 388.5
+CRN PredictCenterYInPixel: 526.5000305175781
+SURNAME PredictCenterYInPixel: 641
+SURNAME PredictCenterYInPixel: 641
+GIVEN NAME PredictCenterYInPixel: 741
+GIVEN NAME PredictCenterYInPixel: 741
+[10:58:49] removed 9 lines predicted as label removed from linesField [height < labelHeightInPixel (38.65060301680303)].
+[10:58:49] removed 8 lines predicted as label removed from lsLineMerged [height < labelHeightInPixel (38.65060301680303)].
+line: REPUBLIC OF THE PHILIPPINES EstimateCenterYInInch: 0.21822228977932512
+line: UNIFIED MULTI-PURPOSE ID EstimateCenterYInInch: 0.318608819624369
+line: CRN EstimateCenterYInInch: 0.6259778852323901
+line: 01L1-6184420-7 EstimateCenterYInInch: 0.6011401072729469
+line: FRIGILLANA EstimateCenterYInInch: 0.9219629113734473
+line: MARIE ANGELI EstimateCenterYInInch: 1.1372247485669436
+line: MDDLE NAME EstimateCenterYInInch: 1.3793941890775128
+line: FAJARDO EstimateCenterYInInch: 1.460117630689302
+line: 1991/04/17 EstimateCenterYInInch: 1.5780975497420848
+line: KALAU ST BF RESORT EstimateCenterYInInch: 1.7271249754914284
+line: PINTI GETNDECRABAN EstimateCenterYInInch: 1.858558885700919
+line: LAS EstimateCenterYInInch: 1.8233718546212128
+line: 6 EstimateCenterYInInch: 0.17993052066317433
+[10:58:49] 01L1-6184420-7 --> CRN
+[10:58:49] FRIGILLANA --> SURNAME
+[10:58:49] MARIE ANGELI --> GIVEN_NAME
+'test1.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.11\System.Numerics.Vectors.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+[10:58:49] FAJARDO --> MIDDLE_NAME
+[10:58:49]  --> SEX
+[10:58:49] 1991/04/17 --> DOB
+[10:58:49] KALAU ST BF RESORT --> ADDRESS1
+'test1.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.11\System.Text.Encodings.Web.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'test1.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.11\System.Reflection.Emit.Lightweight.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+ScanPHUMIDResult: ScanID.ScanPHUMIDResult
+[10:59:04] ==== responseBody ====
+ {
+  "<OCR_WITH_REGION>": {
+    "labels": [
+      "</s>REPUBLIC OF THE PHILIPPINES",
+      "REPUBLICA NG PIRANIMES",
+      "United Multi-Purpose ID",
+      "CRN - 0111-8184420-7",
+      "SURNAME",
+      "FRIGILLANA",
+      "GIVEN NAME",
+      "MARIE ANGELI",
+      "MIDDLE NAME",
+      "FAJARDO",
+      "SEX F",
+      "DATE OF BIRTH 1991/04/17",
+      "ADDRESS",
+      "VISA",
+      "KALAU ST BF RESORT",
+      "VISA GRANDE TALON DOS LAS",
+      "PINAS CITY NCR PHIL 1740"
+    ],
+    "quad_boxes": [
+      [
+        533.2319946289062,
+        304.6679992675781,
+        1500.9119873046875,
+        304.6679992675781,
+        1500.9119873046875,
+        357.5879821777344,
+        533.2319946289062,
+        357.5879821777344
+      ],
+      [
+        232.84800720214844,
+        390.85198974609375,
+        460.656005859375,
+        265.3559875488281,
+        484.8480224609375,
+        354.5639953613281,
+        259.0559997558594,
+        448.3079833984375
+      ],
+      [
+        736.8480224609375,
+        362.1239929199219,
+        1299.31201171875,
+        362.1239929199219,
+        1299.31201171875,
+        415.0439758300781,
+        736.8480224609375,
+        415.0439758300781
+      ],
+      [
+        1174.320068359375,
+        507.2760009765625,
+        1815.4080810546875,
+        505.76397705078125,
+        1815.4080810546875,
+        555.6599731445312,
+        1174.320068359375,
+        557.1719970703125
+      ],
+      [
+        882.0,
+        631.260009765625,
+        1031.1839599609375,
+        631.260009765625,
+        1031.1839599609375,
+        661.5,
+        882.0,
+        661.5
+      ],
+      [
+        884.0159912109375,
+        661.5,
+        1246.89599609375,
+        661.5,
+        1246.89599609375,
+        709.8839721679688,
+        884.0159912109375,
+        709.8839721679688
+      ],
+      [
+        884.0159912109375,
+        731.052001953125,
+        1067.4720458984375,
+        731.052001953125,
+        1067.4720458984375,
+        761.2919921875,
+        884.0159912109375,
+        761.2919921875
+      ],
+      [
+        884.0159912109375,
+        762.803955078125,
+        1327.5360107421875,
+        762.803955078125,
+        1327.5360107421875,
+        811.18798828125,
+        884.0159912109375,
+        811.18798828125
+      ],
+      [
+        882.0,
+        891.323974609375,
+        1087.6319580078125,
+        891.323974609375,
+        1087.6319580078125,
+        923.0759887695312,
+        882.0,
+        923.0759887695312
+      ],
+      [
+        882.0,
+        924.5879516601562,
+        1140.0479736328125,
+        924.5879516601562,
+        1140.0479736328125,
+        972.9719848632812,
+        882.0,
+        972.9719848632812
+      ],
+      [
+        882.0,
+        988.0919799804688,
+        1027.1519775390625,
+        988.0919799804688,
+        1027.1519775390625,
+        1025.8919677734375,
+        882.0,
+        1025.8919677734375
+      ],
+      [
+        1029.16796875,
+        994.1399536132812,
+        1644.0479736328125,
+        977.5079956054688,
+        1644.0479736328125,
+        1028.916015625,
+        1029.16796875,
+        1031.93994140625
+      ],
+      [
+        882.0,
+        1031.93994140625,
+        1029.16796875,
+        1031.93994140625,
+        1029.16796875,
+        1060.66796875,
+        882.0,
+        1060.66796875
+      ],
+      [
+        882.0,
+        1057.6439208984375,
+        1035.216064453125,
+        1057.6439208984375,
+        1035.216064453125,
+        1098.468017578125,
+        882.0,
+        1098.468017578125
+      ],
+      [
+        1087.6319580078125,
+        1053.1080322265625,
+        1732.7520751953125,
+        1053.1080322265625,
+        1732.7520751953125,
+        1103.0040283203125,
+        1087.6319580078125,
+        1103.0040283203125
+      ],
+      [
+        882.0,
+        1098.468017578125,
+        1807.343994140625,
+        1098.468017578125,
+        1807.343994140625,
+        1148.364013671875,
+        882.0,
+        1148.364013671875
+      ],
+      [
+        882.0,
+        1137.780029296875,
+        1706.5440673828125,
+        1137.780029296875,
+        1706.5440673828125,
+        1193.7239990234375,
+        882.0,
+        1193.7239990234375
+      ]
+    ]
+  }
+}
+
+==========
+MergedLine [SEX F]-[DATE OF BIRTH 1991/04/17] dist: 2.0159912109375 --> [SEX F DATE OF BIRTH 1991/04/17]
+MergedLine [VISA]-[KALAU ST BF RESORT] dist: 52.4158935546875 --> [VISA  KALAU ST BF RESORT]
+[10:59:04] linesAll REPUBLIC OF THE PHILIPPINES Height:52.91998291015625
+[10:59:04] linesAll REPUBLICA NG PIRANIMES Height:73.33200073242188
+[10:59:04]   angle:-22.54717303797242 > 10 --> ignored
+[10:59:04] linesAll UNITED MULTI-PURPOSE ID Height:52.91998291015625
+[10:59:04] --> REPUBLIC OF THE PHILIPPINES
+[10:59:04] Left:533.2319946289062 Top:304.6679992675781 Bottom:357.5879821777344
+[10:59:04] linesAll CRN - 0111-8184420-7 Height:49.89599609375
+[10:59:04] linesAll SURNAME Height:30.239990234375
+[10:59:04] --> CRN
+[10:59:04] Left:1174.320068359375 Top:506.5199890136719 Bottom:556.4159851074219
+[10:59:04] linesAll FRIGILLANA Height:48.38397216796875
+[10:59:04] --> SURNAME
+[10:59:04] Left:882 Top:631.260009765625 Bottom:661.5
+[10:59:04] --> SURNAME
+[10:59:04] Left:882 Top:631.260009765625 Bottom:661.5
+IsLineAboveOrSmallerThanLabel polygon line: SURNAME Height * 0.7 = 37.04398803710937 label: ScanID.LabelInfo Height: 30.239990234375
+[10:59:04] linesAll GIVEN NAME Height:30.239990234375
+[10:59:04] linesAll MARIE ANGELI Height:48.384033203125
+[10:59:04] --> GIVEN NAME
+[10:59:04] Left:884.0159912109375 Top:731.052001953125 Bottom:761.2919921875
+[10:59:04] --> GIVEN NAME
+[10:59:04] Left:884.0159912109375 Top:731.052001953125 Bottom:761.2919921875
+IsLineAboveOrSmallerThanLabel polygon line: GIVEN NAME Height * 0.7 = 37.04398803710937 label: ScanID.LabelInfo Height: 30.239990234375
+[10:59:04] linesAll MIDDLE NAME Height:31.75201416015625
+[10:59:04] linesAll FAJARDO Height:48.384033203125
+[10:59:04] --> MIDDLE NAME
+[10:59:04] Left:882 Top:891.323974609375 Bottom:923.0759887695312
+[10:59:04] --> MIDDLE NAME
+[10:59:04] Left:882 Top:891.323974609375 Bottom:923.0759887695312
+IsLineAboveOrSmallerThanLabel polygon line: MIDDLE NAME Height * 0.7 = 37.04398803710937 label: ScanID.LabelInfo Height: 31.75201416015625
+[10:59:04] linesAll SEX F DATE OF BIRTH 1991/04/17 Height:44.60400390625
+[10:59:04] linesAll ADDRESS Height:28.72802734375
+[10:59:04] linesAll VISA  KALAU ST BF RESORT Height:45.36004638671875
+[10:59:04] --> ADDRESS
+[10:59:04] Left:882 Top:1031.93994140625 Bottom:1060.66796875
+[10:59:04] --> ADDRESS
+[10:59:04] Left:882 Top:1031.93994140625 Bottom:1060.66796875
+IsLineAboveOrSmallerThanLabel polygon line: ADDRESS Height * 0.7 = 37.04398803710937 label: ScanID.LabelInfo Height: 28.72802734375
+[10:59:04] linesAll VISA GRANDE TALON DOS LAS Height:49.89599609375
+[10:59:04] linesAll PINAS CITY NCR PHIL 1740 Height:55.9439697265625
+REPUBLIC OF THE PHILIPPINES PredictCenterYInPixel: 331.12799072265625
+CRN PredictCenterYInPixel: 531.4679870605469
+SURNAME PredictCenterYInPixel: 646.3800048828125
+SURNAME PredictCenterYInPixel: 646.3800048828125
+GIVEN NAME PredictCenterYInPixel: 746.1719970703125
+GIVEN NAME PredictCenterYInPixel: 746.1719970703125
+MIDDLE NAME PredictCenterYInPixel: 907.1999816894531
+MIDDLE NAME PredictCenterYInPixel: 907.1999816894531
+ADDRESS PredictCenterYInPixel: 1046.303955078125
+ADDRESS PredictCenterYInPixel: 1046.303955078125
+[10:59:04] removed 4 lines predicted as label removed from linesField [height < labelHeightInPixel (40.867196440747904)].
+[10:59:04] removed 4 lines predicted as label removed from lsLineMerged [height < labelHeightInPixel (40.867196440747904)].
+line: REPUBLIC OF THE PHILIPPINES EstimateCenterYInInch: 0.21232341391543122
+line: UNITED MULTI-PURPOSE ID EstimateCenterYInInch: 0.3247969817098962
+line: CRN - 0111-8184420-7 EstimateCenterYInInch: 0.6045010219887612
+line: FRIGILLANA EstimateCenterYInInch: 0.9064037880370603
+line: MARIE ANGELI EstimateCenterYInInch: 1.10471244075467
+line: FAJARDO EstimateCenterYInInch: 1.4214143573159252
+line: SEX F DATE OF BIRTH 1991/04/17 EstimateCenterYInInch: 1.5316681062994442
+line: VISA  KALAU ST BF RESORT EstimateCenterYInInch: 1.674479974463467
+line: VISA GRANDE TALON DOS LAS EstimateCenterYInInch: 1.7632749372812004
+line: PINAS CITY NCR PHIL 1740 EstimateCenterYInInch: 1.8461502040497533
+[10:59:04] - 0111-8184420-7 --> CRN
+[10:59:04] FRIGILLANA --> SURNAME
+[10:59:04] MARIE ANGELI --> GIVEN_NAME
+[10:59:04] FAJARDO --> MIDDLE_NAME
+[10:59:04] F --> SEX
+[10:59:04] 1991/04/17 --> DOB
+[10:59:04] VISA  KALAU ST BF RESORT --> ADDRESS1
+[10:59:04] VISA GRANDE TALON DOS LAS --> ADDRESS2
+[10:59:04] PINAS CITY NCR PHIL 1740 --> ADDRESS3
+ScanPHUMIDResult: ScanID.ScanPHUMIDResult
+[10:59:07] ==== responseBody ====
+ {
+  "<OCR_WITH_REGION>": {
+    "labels": [
+      "REPUBLIC OF THE PHILIPPINES",
+      "Unified Multi-Purpose ID",
+      "CRN",
+      "0111-6184420-7",
+      "SURNAME",
+      "FRIGILLANA",
+      "GIVEN NAME",
+      "MARIE",
+      "ANGELI",
+      "MMDDLE",
+      "FAJaRDO",
+      "DATE OF BIRTH",
+      "1991/04/17",
+      "SI",
+      "BF",
+      "RESORT",
+      "Piski 8#40862",
+      "NCR ",
+      "APAN RstoLas"
+    ],
+    "quad_boxes": [
+      [
+        265.9999694824219,
+        150.0,
+        751.0,
+        182.0
+      ],
+      [
+        364.99993896484375,
+        175.0,
+        655.0,
+        213.0
+      ],
+      [
+        586.0,
+        254.0,
+        638.0,
+        278.0
+      ],
+      [
+        650.0,
+        250.0,
+        910.0,
+        282.0
+      ],
+      [
+        441.0,
+        314.9999694824219,
+        517.0,
+        332.9999694824219
+      ],
+      [
+        440.0,
+        328.0,
+        626.0,
+        358.0
+      ],
+      [
+        441.0,
+        365.0,
+        535.0,
+        381.0
+      ],
+      [
+        440.0,
+        378.0000305175781,
+        534.0,
+        408.0000305175781
+      ],
+      [
+        549.9999389648438,
+        378.0000305175781,
+        665.9999389648438,
+        410.0000305175781
+      ],
+      [
+        439.0,
+        443.0,
+        499.0,
+        462.99993896484375
+      ],
+      [
+        438.0,
+        460.0,
+        572.0,
+        490.0
+      ],
+      [
+        513.0,
+        495.0,
+        629.0,
+        515.0
+      ],
+      [
+        632.0,
+        487.9999694824219,
+        824.0,
+        520.0
+      ],
+      [
+        649.9999389648438,
+        524.0,
+        691.9999389648438,
+        556.0
+      ],
+      [
+        704.0,
+        524.0,
+        746.0,
+        554.0
+      ],
+      [
+        757.0,
+        523.0,
+        869.0,
+        555.0
+      ],
+      [
+        428.99993896484375,
+        515.0,
+        664.9999389648438,
+        607.0
+      ],
+      [
+        634.0,
+        568.0,
+        694.0,
+        600.0
+      ],
+      [
+        684.9999389648438,
+        541.0,
+        908.9999389648438,
+        603.0
+      ]
+    ]
+  },
+  "image_height": 756,
+  "image_width": 1008
+}
+
+==========
+MergedLine [MARIE]-[ANGELI] dist: 25.99993896484375 --> [MARIE ANGELI]
+MergedLine [SI]-[BF] dist: 12.00006103515625 --> [SI BF]
+MergedLine [SI BF]-[RESORT] dist: 15 --> [SI BF RESORT]
+[10:59:08] linesAll REPUBLIC OF THE PHILIPPINES Height:28
+[10:59:08] linesAll UNIFIED MULTI-PURPOSE ID Height:31
+[10:59:08] --> REPUBLIC OF THE PHILIPPINES
+[10:59:08] Left:293.9999694824219 Top:154 Bottom:189
+[10:59:08] linesAll CRN Height:23
+[10:59:08] --> Unified Multi-Purpose ID
+[10:59:08] Left:384.99993896484375 Top:175 Bottom:210
+[10:59:08] linesAll 0111-6184420-7 Height:32
+MergedLine [CRN]-[0111-6184420-7] dist: 7 --> [CRN 0111-6184420-7]
+[10:59:08] linesAll SURNAME Height:18
+[10:59:08] --> CRN
+[10:59:08] Left:592 Top:250 Bottom:285
+[10:59:08] linesAll FRIGILLANA Height:30
+[10:59:08] --> SURNAME
+[10:59:08] Left:441 Top:314.9999694824219 Bottom:332.9999694824219
+[10:59:08] --> SURNAME
+[10:59:08] Left:441 Top:314.9999694824219 Bottom:332.9999694824219
+[10:59:08] linesAll GIVEN NAME Height:16
+[10:59:08] linesAll MARIE ANGELI Height:35
+[10:59:08] --> GIVEN NAME
+[10:59:08] Left:441 Top:365 Bottom:381
+[10:59:08] --> GIVEN NAME
+[10:59:08] Left:441 Top:365 Bottom:381
+[10:59:08] linesAll MMDDLE Height:19.99993896484375
+[10:59:08] linesAll FAJARDO Height:30
+[10:59:08] linesAll DATE OF BIRTH Height:19
+[10:59:08] linesAll 1991/04/17 Height:32.000030517578125
+MergedLine [DATE OF BIRTH]-[1991/04/17] dist: 0 --> [DATE OF BIRTH 1991/04/17]
+[10:59:08] linesAll SI BF RESORT Height:38
+[10:59:08] linesAll PISKI 8#40862 Height:92
+[10:59:08] linesAll NCR Height:32
+MergedLine [PISKI 8#40862]-[NCR] dist: -30.99993896484375 --> [PISKI 8#40862 NCR]
+[10:59:08] linesAll APAN RSTOLAS Height:62
+MergedLine [PISKI 8#40862 NCR]-[APAN RSTOLAS] dist: -9.00006103515625 --> [PISKI 8#40862 NCR APAN RSTOLAS]
+REPUBLIC OF THE PHILIPPINES PredictCenterYInPixel: 171.5
+Unified Multi-Purpose ID PredictCenterYInPixel: 192.5
+CRN PredictCenterYInPixel: 267.5
+SURNAME PredictCenterYInPixel: 323.9999694824219
+SURNAME PredictCenterYInPixel: 323.9999694824219
+GIVEN NAME PredictCenterYInPixel: 373
+GIVEN NAME PredictCenterYInPixel: 373
+[10:59:08] removed 3 lines predicted as label removed from linesField [height < labelHeightInPixel (19.421687052084316)].
+[10:59:08] removed 2 lines predicted as label removed from lsLineMerged [height < labelHeightInPixel (19.421687052084316)].
+line: REPUBLIC OF THE PHILIPPINES EstimateCenterYInInch: 0.21739102946173627
+line: UNIFIED MULTI-PURPOSE ID EstimateCenterYInInch: 0.30389226686421916
+line: CRN EstimateCenterYInInch: 0.635480343573737
+line: 0111-6184420-7 EstimateCenterYInInch: 0.6066465977729093
+line: FRIGILLANA EstimateCenterYInInch: 0.9238178015820133
+line: MARIE ANGELI EstimateCenterYInInch: 1.1400710207933762
+line: MMDDLE EstimateCenterYInInch: 1.3769193956041488
+line: FAJARDO EstimateCenterYInInch: 1.4675398652547629
+line: 1991/04/17 EstimateCenterYInInch: 1.5869938921484708
+line: SI BF RESORT EstimateCenterYInInch: 1.7476391101770883
+line: PISKI 8#40862 EstimateCenterYInInch: 1.821783027950645
+line: NCR EstimateCenterYInInch: 1.9165224784390789
+line: APAN RSTOLAS EstimateCenterYInInch: 1.8670931999233742
+[10:59:08] 0111-6184420-7 --> CRN
+[10:59:08] FRIGILLANA --> SURNAME
+[10:59:08] MARIE ANGELI --> GIVEN_NAME
+[10:59:08] FAJARDO --> MIDDLE_NAME
+[10:59:08]  --> SEX
+[10:59:08] 1991/04/17 --> DOB
+[10:59:08] SI BF RESORT --> ADDRESS1
+ScanPHUMIDResult: ScanID.ScanPHUMIDResult
+[10:59:21] ==== responseBody ====
+ {
+  "<OCR_WITH_REGION>": {
+    "labels": [
+      "</s>REPUBLIC OF THE PHILIPPINES",
+      "REPUBLICA NG PIRANIMA",
+      "United Multi-Purpose ID",
+      "CRN - 0111-8144420-7",
+      "SURNAME",
+      "FRIGILLANA",
+      "GIVEN NAME",
+      "MARIE ANGELI",
+      "MIDDLE NAME",
+      "FAJARDO",
+      "SEX F",
+      "DATE OF BIRTH 1991/04/17",
+      "ADDRESS",
+      "36 E. KALAW ST BF RESORT",
+      "VISTA GRANDE TALON DOS, LAS",
+      "PINAS CITY NCR PHIL 1740"
+    ],
+    "quad_boxes": [
+      [
+        265.6080017089844,
+        151.5780029296875,
+        749.447998046875,
+        151.5780029296875,
+        749.447998046875,
+        178.7939910888672,
+        265.6080017089844,
+        178.7939910888672
+      ],
+      [
+        114.40800476074219,
+        194.6699981689453,
+        225.2880096435547,
+        131.9219970703125,
+        240.4080047607422,
+        179.5500030517578,
+        129.5279998779297,
+        228.6899871826172
+      ],
+      [
+        366.40802001953125,
+        181.06199645996094,
+        648.6480102539062,
+        181.06199645996094,
+        648.6480102539062,
+        207.52198791503906,
+        366.40802001953125,
+        207.52198791503906
+      ],
+      [
+        586.1520385742188,
+        253.63800048828125,
+        905.68798828125,
+        252.12599182128906,
+        905.68798828125,
+        277.8299865722656,
+        586.1520385742188,
+        278.58599853515625
+      ],
+      [
+        438.9840087890625,
+        314.8739929199219,
+        514.583984375,
+        314.8739929199219,
+        514.583984375,
+        330.75,
+        438.9840087890625,
+        330.75
+      ],
+      [
+        441.0,
+        330.75,
+        622.4400024414062,
+        330.75,
+        622.4400024414062,
+        354.9419860839844,
+        441.0,
+        354.9419860839844
+      ],
+      [
+        441.0,
+        365.5260009765625,
+        532.72802734375,
+        365.5260009765625,
+        532.72802734375,
+        380.64599609375,
+        441.0,
+        380.64599609375
+      ],
+      [
+        441.0,
+        380.64599609375,
+        661.7520141601562,
+        380.64599609375,
+        661.7520141601562,
+        405.593994140625,
+        441.0,
+        405.593994140625
+      ],
+      [
+        438.9840087890625,
+        445.6619873046875,
+        542.8079833984375,
+        445.6619873046875,
+        542.8079833984375,
+        460.781982421875,
+        438.9840087890625,
+        460.781982421875
+      ],
+      [
+        438.9840087890625,
+        462.2939758300781,
+        569.0159912109375,
+        462.2939758300781,
+        569.0159912109375,
+        485.72998046875,
+        438.9840087890625,
+        485.72998046875
+      ],
+      [
+        437.97601318359375,
+        493.28997802734375,
+        513.5759887695312,
+        493.28997802734375,
+        513.5759887695312,
+        512.1900024414062,
+        437.97601318359375,
+        512.1900024414062
+      ],
+      [
+        512.5679931640625,
+        496.3139953613281,
+        820.0079956054688,
+        489.5099792480469,
+        820.0079956054688,
+        514.4580078125,
+        512.5679931640625,
+        517.4819946289062
+      ],
+      [
+        437.97601318359375,
+        515.2139892578125,
+        513.5759887695312,
+        515.2139892578125,
+        513.5759887695312,
+        530.333984375,
+        437.97601318359375,
+        530.333984375
+      ],
+      [
+        438.9840087890625,
+        526.5540161132812,
+        865.3680419921875,
+        526.5540161132812,
+        865.3680419921875,
+        551.5020141601562,
+        438.9840087890625,
+        551.5020141601562
+      ],
+      [
+        437.97601318359375,
+        548.4779663085938,
+        902.6640014648438,
+        548.4779663085938,
+        902.6640014648438,
+        574.1820068359375,
+        437.97601318359375,
+        574.1820068359375
+      ],
+      [
+        437.97601318359375,
+        568.8900146484375,
+        851.2560424804688,
+        568.8900146484375,
+        851.2560424804688,
+        596.8619995117188,
+        437.97601318359375,
+        596.8619995117188
+      ]
+    ]
+  }
+}
+
+==========
+[10:59:21] linesAll REPUBLIC OF THE PHILIPPINES Height:27.215988159179688
+[10:59:21] linesAll REPUBLICA NG PIRANIMA Height:40.823997497558594
+[10:59:21]   angle:-23.902042622398668 > 10 --> ignored
+[10:59:21] linesAll UNITED MULTI-PURPOSE ID Height:26.459991455078125
+[10:59:21] --> REPUBLIC OF THE PHILIPPINES
+[10:59:21] Left:265.6080017089844 Top:151.5780029296875 Bottom:178.7939910888672
+[10:59:21] linesAll CRN - 0111-8144420-7 Height:25.32599639892578
+[10:59:21] linesAll SURNAME Height:15.876007080078125
+[10:59:21] --> CRN
+[10:59:21] Left:586.1520385742188 Top:252.88199615478516 Bottom:278.20799255371094
+[10:59:21] linesAll FRIGILLANA Height:24.191986083984375
+[10:59:21] --> SURNAME
+[10:59:21] Left:438.9840087890625 Top:314.8739929199219 Bottom:330.75
+[10:59:21] --> SURNAME
+[10:59:21] Left:438.9840087890625 Top:314.8739929199219 Bottom:330.75
+IsLineAboveOrSmallerThanLabel polygon line: SURNAME Height * 0.7 = 19.05119171142578 label: ScanID.LabelInfo Height: 15.876007080078125
+[10:59:21] linesAll GIVEN NAME Height:15.1199951171875
+[10:59:21] linesAll MARIE ANGELI Height:24.947998046875
+[10:59:21] --> GIVEN NAME
+[10:59:21] Left:441 Top:365.5260009765625 Bottom:380.64599609375
+[10:59:21] --> GIVEN NAME
+[10:59:21] Left:441 Top:365.5260009765625 Bottom:380.64599609375
+IsLineAboveOrSmallerThanLabel polygon line: GIVEN NAME Height * 0.7 = 19.05119171142578 label: ScanID.LabelInfo Height: 15.1199951171875
+[10:59:21] linesAll MIDDLE NAME Height:15.1199951171875
+[10:59:21] linesAll FAJARDO Height:23.436004638671875
+[10:59:21] --> MIDDLE NAME
+[10:59:21] Left:438.9840087890625 Top:445.6619873046875 Bottom:460.781982421875
+[10:59:21] --> MIDDLE NAME
+[10:59:21] Left:438.9840087890625 Top:445.6619873046875 Bottom:460.781982421875
+IsLineAboveOrSmallerThanLabel polygon line: MIDDLE NAME Height * 0.7 = 19.05119171142578 label: ScanID.LabelInfo Height: 15.1199951171875
+[10:59:21] linesAll SEX F Height:18.9000244140625
+[10:59:21] linesAll DATE OF BIRTH 1991/04/17 Height:23.058013916015625
+MergedLine [SEX F]-[DATE OF BIRTH 1991/04/17] dist: -1.00799560546875 --> [SEX F DATE OF BIRTH 1991/04/17]
+[10:59:21] linesAll ADDRESS Height:15.1199951171875
+IsLineAboveOrSmallerThanLabel polygon line: SEX F Height * 0.7 = 19.05119171142578 label: ScanID.LabelInfo Height: 18.9000244140625
+[10:59:21] linesAll 36 E. KALAW ST BF RESORT Height:24.947998046875
+[10:59:21] --> ADDRESS
+[10:59:21] Left:437.97601318359375 Top:515.2139892578125 Bottom:530.333984375
+[10:59:21] --> ADDRESS
+[10:59:21] Left:437.97601318359375 Top:515.2139892578125 Bottom:530.333984375
+IsLineAboveOrSmallerThanLabel polygon line: ADDRESS Height * 0.7 = 19.05119171142578 label: ScanID.LabelInfo Height: 15.1199951171875
+[10:59:21] linesAll VISTA GRANDE TALON DOS, LAS Height:25.70404052734375
+[10:59:21] linesAll PINAS CITY NCR PHIL 1740 Height:27.97198486328125
+REPUBLIC OF THE PHILIPPINES PredictCenterYInPixel: 165.18599700927734
+CRN PredictCenterYInPixel: 265.54499435424805
+SURNAME PredictCenterYInPixel: 322.81199645996094
+SURNAME PredictCenterYInPixel: 322.81199645996094
+GIVEN NAME PredictCenterYInPixel: 373.08599853515625
+GIVEN NAME PredictCenterYInPixel: 373.08599853515625
+MIDDLE NAME PredictCenterYInPixel: 453.22198486328125
+MIDDLE NAME PredictCenterYInPixel: 453.22198486328125
+ADDRESS PredictCenterYInPixel: 522.7739868164062
+ADDRESS PredictCenterYInPixel: 522.7739868164062
+[10:59:21] removed 5 lines predicted as label removed from linesField [height < labelHeightInPixel (20.43359865633934)].
+[10:59:21] removed 4 lines predicted as label removed from lsLineMerged [height < labelHeightInPixel (20.43359865633934)].
+line: REPUBLIC OF THE PHILIPPINES EstimateCenterYInInch: 0.21195346035107707
+line: UNITED MULTI-PURPOSE ID EstimateCenterYInInch: 0.32590693479155936
+line: CRN - 0111-8144420-7 EstimateCenterYInInch: 0.6048710145798789
+line: FRIGILLANA EstimateCenterYInInch: 0.907513728709728
+line: MARIE ANGELI EstimateCenterYInInch: 1.1043424980205583
+line: FAJARDO EstimateCenterYInInch: 1.4210443480847568
+line: DATE OF BIRTH 1991/04/17 EstimateCenterYInInch: 1.540177608730255
+line: 36 E. KALAW ST BF RESORT EstimateCenterYInInch: 1.675589958488678
+line: VISTA GRANDE TALON DOS, LAS EstimateCenterYInInch: 1.7629048610161973
+line: PINAS CITY NCR PHIL 1740 EstimateCenterYInInch: 1.847260124672262
+[10:59:21] - 0111-8144420-7 --> CRN
+[10:59:21] FRIGILLANA --> SURNAME
+[10:59:21] MARIE ANGELI --> GIVEN_NAME
+[10:59:21] FAJARDO --> MIDDLE_NAME
+[10:59:21] F --> SEX
+[10:59:21] 1991/04/17 --> DOB
+[10:59:21] 36 E. KALAW ST BF RESORT --> ADDRESS1
+[10:59:21] VISTA GRANDE TALON DOS, LAS --> ADDRESS2
+[10:59:21] PINAS CITY NCR PHIL 1740 --> ADDRESS3
+ScanPHUMIDResult: ScanID.ScanPHUMIDResult
+[10:59:30] ==== responseBody ====
+ {
+  "<OCR_WITH_REGION>": {
+    "labels": [
+      "NG",
+      "REPUBLIC",
+      "OF THE PHILIPPINES",
+      "Unified Multi-Purpose ID",
+      "CRN",
+      "0111-2588996-9",
+      "SURNAME",
+      "ALVERIO III",
+      "GIVEN NAME",
+      "MAXIMINO",
+      "MiDDLE NAME",
+      "ESPIRITUSANTO",
+      "SEX",
+      "MALE",
+      "DATE OF Birth",
+      "1990/03/08",
+      "ADDRESS",
+      "Blk",
+      "LBA",
+      "CAMELLA",
+      "AVE",
+      "CAMELLA",
+      "1",
+      "BRGY _",
+      "CUYAB",
+      "SAN",
+      "PEDRo",
+      "LAGUNA",
+      "PHL",
+      "4023"
+    ],
+    "quad_boxes": [
+      [
+        323.0000305175781,
+        251.0,
+        382.0000305175781,
+        288.0
+      ],
+      [
+        517.0000610351562,
+        293.0,
+        837.0000610351562,
+        355.0
+      ],
+      [
+        853.0,
+        293.9999694824219,
+        1515.0,
+        358.9999694824219
+      ],
+      [
+        720.0,
+        349.0,
+        1306.0,
+        426.0
+      ],
+      [
+        1193.0,
+        498.99993896484375,
+        1301.0,
+        542.9999389648438
+      ],
+      [
+        1334.0,
+        493.0,
+        1844.0,
+        553.0
+      ],
+      [
+        202.0,
+        586.0,
+        352.0,
+        616.0
+      ],
+      [
+        451.0,
+        567.0,
+        833.0,
+        627.0
+      ],
+      [
+        196.0,
+        699.0,
+        382.0,
+        732.0
+      ],
+      [
+        446.0,
+        684.0,
+        742.0,
+        740.0
+      ],
+      [
+        191.0,
+        815.0000610351562,
+        401.0,
+        851.0000610351562
+      ],
+      [
+        440.0,
+        800.0000610351562,
+        922.0,
+        856.0000610351562
+      ],
+      [
+        186.00001525878906,
+        934.0,
+        252.00001525878906,
+        966.0
+      ],
+      [
+        434.9999694824219,
+        919.0000610351562,
+        588.9999389648438,
+        979.0000610351562
+      ],
+      [
+        180.99996948242188,
+        993.0000610351562,
+        414.9999694824219,
+        1029.0
+      ],
+      [
+        434.0,
+        976.0,
+        809.0,
+        1040.0
+      ],
+      [
+        183.0,
+        1063.0,
+        331.0,
+        1095.0
+      ],
+      [
+        179.0,
+        1095.0,
+        293.0,
+        1155.0
+      ],
+      [
+        330.0,
+        1100.0,
+        440.0,
+        1156.0
+      ],
+      [
+        477.00006103515625,
+        1100.0,
+        739.0000610351562,
+        1160.0
+      ],
+      [
+        781.0,
+        1103.0,
+        893.0,
+        1163.0
+      ],
+      [
+        962.0,
+        1101.0001220703125,
+        1225.0,
+        1167.0001220703125
+      ],
+      [
+        1263.0,
+        1111.0,
+        1303.0,
+        1163.0
+      ],
+      [
+        178.0,
+        1152.0,
+        333.9999694824219,
+        1208.0
+      ],
+      [
+        377.9999694824219,
+        1151.0,
+        566.9999389648438,
+        1215.0
+      ],
+      [
+        586.0,
+        1158.0,
+        704.0,
+        1214.0
+      ],
+      [
+        723.0,
+        1157.0,
+        915.0,
+        1217.0
+      ],
+      [
+        939.0,
+        1157.0,
+        1169.0,
+        1219.0
+      ],
+      [
+        1190.0,
+        1164.0,
+        1306.0,
+        1220.0
+      ],
+      [
+        177.0,
+        1199.0,
+        327.0,
+        1259.0
+      ]
+    ]
+  },
+  "image_height": 1500,
+  "image_width": 2000
+}
+
+==========
+MergedLine [CRN]-[0111-2588996-9] dist: 25 --> [CRN 0111-2588996-9]
+MergedLine [SURNAME]-[ALVERIO III] dist: 123 --> [SURNAME        ALVERIO III]
+MergedLine [GIVEN NAME]-[MAXIMINO] dist: 64 --> [GIVEN NAME    MAXIMINO]
+MergedLine [MIDDLE NAME]-[ESPIRITUSANTO] dist: 25 --> [MIDDLE NAME ESPIRITUSANTO]
+MergedLine [SEX]-[MALE] dist: 198.9999542236328 --> [SEX            MALE]
+MergedLine [DATE OF BIRTH]-[1990/03/08] dist: 24.000030517578125 --> [DATE OF BIRTH 1990/03/08]
+MergedLine [BLK]-[LBA] dist: 39 --> [BLK LBA]
+MergedLine [BLK LBA]-[CAMELLA] dist: 48.00006103515625 --> [BLK LBA CAMELLA]
+MergedLine [BLK LBA CAMELLA]-[AVE] dist: 24.99993896484375 --> [BLK LBA CAMELLA AVE]
+MergedLine [BLK LBA CAMELLA AVE]-[CAMELLA] dist: 68 --> [BLK LBA CAMELLA AVE  CAMELLA]
+MergedLine [BLK LBA CAMELLA AVE  CAMELLA]-[1] dist: 38 --> [BLK LBA CAMELLA AVE  CAMELLA 1]
+MergedLine [BRGY _]-[CUYAB] dist: 44 --> [BRGY _ CUYAB]
+MergedLine [BRGY _ CUYAB]-[SAN] dist: 31.00006103515625 --> [BRGY _ CUYAB SAN]
+MergedLine [BRGY _ CUYAB SAN]-[PEDRO] dist: 29 --> [BRGY _ CUYAB SAN PEDRO]
+MergedLine [BRGY _ CUYAB SAN PEDRO]-[LAGUNA] dist: 24 --> [BRGY _ CUYAB SAN PEDRO LAGUNA]
+MergedLine [BRGY _ CUYAB SAN PEDRO LAGUNA]-[PHL] dist: 14 --> [BRGY _ CUYAB SAN PEDRO LAGUNA PHL]
+[10:59:31] linesAll NG Height:40
+[10:59:31] linesAll REPUBLIC Height:54
+[10:59:31] linesAll OF THE PHILIPPINES Height:54
+MergedLine [REPUBLIC]-[OF THE PHILIPPINES] dist: -12.00006103515625 --> [REPUBLIC OF THE PHILIPPINES]
+[10:59:31] linesAll UNIFIED MULTI-PURPOSE ID Height:55
+[10:59:31] --> REPUBLIC OF THE PHILIPPINES
+[10:59:31] Left:538.0000610351562 Top:305.9999694824219 Bottom:366.9999694824219
+[10:59:31] linesAll CRN 0111-2588996-9 Height:60
+[10:59:31] --> Unified Multi-Purpose ID
+[10:59:31] Left:757 Top:349 Bottom:417
+[10:59:31] linesAll SURNAME        ALVERIO III Height:53
+[10:59:31] --> CRN
+[10:59:31] Left:1203 Top:493 Bottom:553
+[10:59:31] linesAll GIVEN NAME    MAXIMINO Height:51
+[10:59:31] --> SURNAME
+[10:59:31] Left:202 Top:579 Bottom:632
+[10:59:31] linesAll MIDDLE NAME ESPIRITUSANTO Height:52
+[10:59:31] --> GIVEN NAME
+[10:59:31] Left:209 Top:693 Bottom:744
+[10:59:31] linesAll SEX            MALE Height:54
+[10:59:31] --> MIDDLE NAME
+[10:59:31] Left:204 Top:800.0000610351562 Bottom:852.0000610351562
+[10:59:31] linesAll DATE OF BIRTH 1990/03/08 Height:57
+[10:59:31] linesAll ADDRESS Height:32
+[10:59:31] linesAll BLK LBA CAMELLA AVE  CAMELLA 1 Height:71.9998779296875
+[10:59:31] --> ADDRESS
+[10:59:31] Left:183 Top:1063 Bottom:1095
+[10:59:31] --> ADDRESS
+[10:59:31] Left:183 Top:1063 Bottom:1095
+[10:59:31] linesAll BRGY _ CUYAB SAN PEDRO LAGUNA PHL Height:78
+[10:59:31] linesAll 4023 Height:60
+REPUBLIC OF THE PHILIPPINES PredictCenterYInPixel: 336.4999694824219
+Unified Multi-Purpose ID PredictCenterYInPixel: 383
+CRN PredictCenterYInPixel: 523
+SURNAME PredictCenterYInPixel: 605.5
+GIVEN NAME PredictCenterYInPixel: 718.5
+MIDDLE NAME PredictCenterYInPixel: 826.0000610351562
+ADDRESS PredictCenterYInPixel: 1079
+ADDRESS PredictCenterYInPixel: 1079
+[10:59:31] removed 2 lines predicted as label removed from linesField [height < labelHeightInPixel (42.42857159184554)].
+[10:59:31] removed 2 lines predicted as label removed from lsLineMerged [height < labelHeightInPixel (42.42857159184554)].
+line: REPUBLIC EstimateCenterYInInch: 0.2606228982577276
+line: OF THE PHILIPPINES EstimateCenterYInInch: 0.26627940622453156
+line: UNIFIED MULTI-PURPOSE ID EstimateCenterYInInch: 0.353956229145732
+line: CRN 0111-2588996-9 EstimateCenterYInInch: 0.6179292862027141
+line: SURNAME        ALVERIO III EstimateCenterYInInch: 0.7734848376827215
+line: GIVEN NAME    MAXIMINO EstimateCenterYInInch: 0.9865488051644284
+line: MIDDLE NAME ESPIRITUSANTO EstimateCenterYInInch: 1.189242517630588
+line: SEX            MALE EstimateCenterYInInch: 1.4192761816373867
+line: DATE OF BIRTH 1990/03/08 EstimateCenterYInInch: 1.5503198341646973
+line: BLK LBA CAMELLA AVE  CAMELLA 1 EstimateCenterYInInch: 1.7756398086643126
+line: BRGY _ CUYAB SAN PEDRO LAGUNA PHL EstimateCenterYInInch: 1.8755723508956217
+line: 4023 EstimateCenterYInInch: 1.9491077025043524
+[10:59:31] 0111-2588996-9 --> CRN
+[10:59:31] ALVERIO III --> SURNAME
+[10:59:31] MAXIMINO --> GIVEN_NAME
+[10:59:31] ESPIRITUSANTO --> MIDDLE_NAME
+[10:59:31] M --> SEX
+[10:59:31] 1990/03/08 --> DOB
+[10:59:31] BLK LBA CAMELLA AVE  CAMELLA 1 --> ADDRESS1
+[10:59:31] BRGY _ CUYAB SAN PEDRO LAGUNA PHL --> ADDRESS2
+[10:59:31] 4023 --> ADDRESS3
+ScanPHUMIDResult: ScanID.ScanPHUMIDResult
+[10:59:45] ==== responseBody ====
+ {
+  "<OCR_WITH_REGION>": {
+    "labels": [
+      "</s>REPUBLIC OF THE PHILIPPINES",
+      "UNITED",
+      "UNITED",
+      "UNIFIED Multi-Purpose ID",
+      "ERPUBLIKA NG",
+      "CRN - 0111-2588896-9",
+      "SURNAME",
+      "ALVERIO III",
+      "GIVEN NAME",
+      "MAXIMINO",
+      "MIDDLE NAME ESPIRITUSANTO",
+      "SEX",
+      "MALE",
+      "DATE OF BIRTH 1990/03/08",
+      "ADDRESS",
+      "BILL LGA CAMELLA AVE. CAMELLa 1",
+      "BRGY. CUYAB SAN PEDRO LAGUNA PHL",
+      "4023"
+    ],
+    "quad_boxes": [
+      [
+        521.135986328125,
+        298.6199951171875,
+        1523.0880126953125,
+        301.64398193359375,
+        1523.0880126953125,
+        357.5879821777344,
+        521.135986328125,
+        353.052001953125
+      ],
+      [
+        1585.583984375,
+        416.5559997558594,
+        1587.5999755859375,
+        259.3079833984375,
+        1625.904052734375,
+        259.3079833984375,
+        1623.8880615234375,
+        416.5559997558594
+      ],
+      [
+        434.447998046875,
+        416.5559997558594,
+        434.447998046875,
+        319.7879943847656,
+        464.6880187988281,
+        319.7879943847656,
+        464.6880187988281,
+        416.5559997558594
+      ],
+      [
+        728.7839965820312,
+        357.5879821777344,
+        1311.4080810546875,
+        362.1239929199219,
+        1311.4080810546875,
+        418.0679931640625,
+        728.7839965820312,
+        412.0199890136719
+      ],
+      [
+        216.72000122070312,
+        421.09197998046875,
+        238.89601135253906,
+        259.3079833984375,
+        329.6159973144531,
+        265.3559875488281,
+        305.42401123046875,
+        427.1399841308594
+      ],
+      [
+        1202.5440673828125,
+        502.739990234375,
+        1853.7120361328125,
+        502.739990234375,
+        1853.7120361328125,
+        551.1239624023438,
+        1202.5440673828125,
+        551.1239624023438
+      ],
+      [
+        202.60800170898438,
+        590.4359741210938,
+        353.8080139160156,
+        590.4359741210938,
+        353.8080139160156,
+        620.6759643554688,
+        202.60800170898438,
+        620.6759643554688
+      ],
+      [
+        454.6080017089844,
+        576.8280029296875,
+        833.6160278320312,
+        576.8280029296875,
+        833.6160278320312,
+        626.7239990234375,
+        454.6080017089844,
+        626.7239990234375
+      ],
+      [
+        196.55999755859375,
+        705.3479614257812,
+        386.0639953613281,
+        705.3479614257812,
+        386.0639953613281,
+        737.0999755859375,
+        196.55999755859375,
+        737.0999755859375
+      ],
+      [
+        448.55999755859375,
+        691.739990234375,
+        740.8800048828125,
+        691.739990234375,
+        740.8800048828125,
+        741.635986328125,
+        448.55999755859375,
+        741.635986328125
+      ],
+      [
+        190.5120086669922,
+        811.18798828125,
+        922.3200073242188,
+        811.18798828125,
+        922.3200073242188,
+        861.083984375,
+        190.5120086669922,
+        861.083984375
+      ],
+      [
+        186.47999572753906,
+        941.219970703125,
+        248.9759979248047,
+        941.219970703125,
+        248.9759979248047,
+        971.4599609375,
+        186.47999572753906,
+        971.4599609375
+      ],
+      [
+        438.4800109863281,
+        932.14794921875,
+        587.6640014648438,
+        932.14794921875,
+        587.6640014648438,
+        979.0199584960938,
+        438.4800109863281,
+        979.0199584960938
+      ],
+      [
+        182.447998046875,
+        994.1399536132812,
+        809.4240112304688,
+        991.115966796875,
+        809.4240112304688,
+        1042.52392578125,
+        182.447998046875,
+        1042.52392578125
+      ],
+      [
+        182.447998046875,
+        1072.763916015625,
+        331.63201904296875,
+        1072.763916015625,
+        331.63201904296875,
+        1104.5159912109375,
+        182.447998046875,
+        1104.5159912109375
+      ],
+      [
+        182.447998046875,
+        1110.56396484375,
+        1313.424072265625,
+        1118.1240234375,
+        1313.424072265625,
+        1172.5560302734375,
+        182.447998046875,
+        1163.4840087890625
+      ],
+      [
+        182.447998046875,
+        1163.4840087890625,
+        1311.4080810546875,
+        1174.0679931640625,
+        1311.4080810546875,
+        1228.5,
+        182.447998046875,
+        1214.8919677734375
+      ],
+      [
+        182.447998046875,
+        1214.8919677734375,
+        323.5679931640625,
+        1217.916015625,
+        323.5679931640625,
+        1264.7879638671875,
+        180.4320068359375,
+        1261.763916015625
+      ]
+    ]
+  }
+}
+
+==========
+MergedLine [SURNAME]-[ALVERIO III] dist: 100.79998779296875 --> [SURNAME      ALVERIO III]
+MergedLine [GIVEN NAME]-[MAXIMINO] dist: 62.496002197265625 --> [GIVEN NAME   MAXIMINO]
+MergedLine [SEX]-[MALE] dist: 189.50401306152344 --> [SEX            MALE]
+[10:59:45] linesAll REPUBLIC OF THE PHILIPPINES Height:55.18800354003906
+[10:59:45] linesAll UNITED Height:0
+[10:59:45]   angle:-89.26548224405035 > 10 --> ignored
+[10:59:45] linesAll UNITED Height:0
+[10:59:45]   angle:-90 > 10 --> ignored
+[10:59:45] linesAll UNIFIED MULTI-PURPOSE ID Height:55.18800354003906
+[10:59:45] --> REPUBLIC OF THE PHILIPPINES
+[10:59:45] Left:521.135986328125 Top:300.1319885253906 Bottom:355.3199920654297
+[10:59:45] linesAll ERPUBLIKA NG Height:6.048004150390625
+[10:59:45]   angle:-81.49542540264163 > 10 --> ignored
+[10:59:45] linesAll CRN - 0111-2588896-9 Height:48.38397216796875
+[10:59:45] --> Unified Multi-Purpose ID
+[10:59:45] Left:728.7839965820312 Top:359.8559875488281 Bottom:415.0439910888672
+[10:59:45] linesAll SURNAME      ALVERIO III Height:40.0679931640625
+[10:59:45] --> CRN
+[10:59:45] Left:1202.5440673828125 Top:502.739990234375 Bottom:551.1239624023438
+[10:59:45] linesAll GIVEN NAME   MAXIMINO Height:40.824005126953125
+[10:59:45] --> SURNAME
+[10:59:45] Left:202.60800170898438 Top:583.6319885253906 Bottom:623.6999816894531
+[10:59:45] linesAll MIDDLE NAME ESPIRITUSANTO Height:49.89599609375
+[10:59:45] --> GIVEN NAME
+[10:59:45] Left:196.55999755859375 Top:698.5439758300781 Bottom:739.3679809570312
+[10:59:45] linesAll SEX            MALE Height:38.555999755859375
+[10:59:45] --> MIDDLE NAME
+[10:59:45] Left:190.5120086669922 Top:811.18798828125 Bottom:861.083984375
+[10:59:45] linesAll DATE OF BIRTH 1990/03/08 Height:49.895965576171875
+IsLineAboveOrSmallerThanLabel polygon line: SEX            MALE Height * 0.7 = 38.63160247802734 label: ScanID.LabelInfo Height: 38.555999755859375
+IsLineAboveOrSmallerThanLabel polygon line: SEX            MALE Height * 0.7 = 38.63160247802734 label: ScanID.LabelInfo Height: 38.555999755859375
+[10:59:45] linesAll ADDRESS Height:31.7520751953125
+[10:59:45] linesAll BILL LGA CAMELLA AVE. CAMELLA 1 Height:53.676025390625
+[10:59:45] --> ADDRESS
+[10:59:45] Left:182.447998046875 Top:1072.763916015625 Bottom:1104.5159912109375
+[10:59:45] --> ADDRESS
+[10:59:45] Left:182.447998046875 Top:1072.763916015625 Bottom:1104.5159912109375
+IsLineAboveOrSmallerThanLabel polygon line: ADDRESS Height * 0.7 = 38.63160247802734 label: ScanID.LabelInfo Height: 31.7520751953125
+IsLineAboveOrSmallerThanLabel polygon line: ADDRESS Height * 0.7 = 38.63160247802734 label: ScanID.LabelInfo Height: 31.7520751953125
+[10:59:45] linesAll BRGY. CUYAB SAN PEDRO LAGUNA PHL Height:52.91998291015625
+[10:59:45] linesAll 4023 Height:46.8719482421875
+REPUBLIC OF THE PHILIPPINES PredictCenterYInPixel: 327.72599029541016
+Unified Multi-Purpose ID PredictCenterYInPixel: 387.44998931884766
+CRN PredictCenterYInPixel: 526.9319763183594
+SURNAME PredictCenterYInPixel: 603.6659851074219
+GIVEN NAME PredictCenterYInPixel: 718.9559783935547
+MIDDLE NAME PredictCenterYInPixel: 836.135986328125
+ADDRESS PredictCenterYInPixel: 1088.6399536132812
+ADDRESS PredictCenterYInPixel: 1088.6399536132812
+[10:59:45] removed 4 lines predicted as label removed from linesField [height < labelHeightInPixel (43.48079628409243)].
+[10:59:45] removed 4 lines predicted as label removed from lsLineMerged [height < labelHeightInPixel (43.48079628409243)].
+line: REPUBLIC OF THE PHILIPPINES EstimateCenterYInInch: 0.26008194148672903
+line: UNIFIED MULTI-PURPOSE ID EstimateCenterYInInch: 0.3699676892973823
+line: CRN - 0111-2588896-9 EstimateCenterYInInch: 0.6265995742711655
+line: MIDDLE NAME ESPIRITUSANTO EstimateCenterYInInch: 1.1955017647062391
+line: DATE OF BIRTH 1990/03/08 EstimateCenterYInInch: 1.529331810364203
+line: BILL LGA CAMELLA AVE. CAMELLA 1 EstimateCenterYInInch: 1.7567537007497465
+line: BRGY. CUYAB SAN PEDRO LAGUNA PHL EstimateCenterYInInch: 1.8562072324363834
+line: 4023 EstimateCenterYInInch: 1.938273755966016
+[10:59:45] - 0111-2588896-9 --> CRN
+[10:59:45] ALVERIO III --> SURNAME
+[10:59:45] MAXIMINO --> GIVEN_NAME
+[10:59:45] ESPIRITUSANTO --> MIDDLE_NAME
+[10:59:45] 1990/03/08 --> DOB
+[10:59:45] BILL LGA CAMELLA AVE. CAMELLA 1 --> ADDRESS1
+[10:59:45] BRGY. CUYAB SAN PEDRO LAGUNA PHL --> ADDRESS2
+[10:59:45] 4023 --> ADDRESS3
+ScanPHUMIDResult: ScanID.ScanPHUMIDResult
+[10:59:49] ==== responseBody ====
+ {
+  "<OCR_WITH_REGION>": {
+    "labels": [
+      "REPUBLIC OF THE PHILIPPINES",
+      "9",
+      "Unified Multi-Purpose ID",
+      "CRN",
+      "0111-2588996-9",
+      "SURNAME",
+      "ALVERIO III",
+      "GIVEN NAME",
+      "MAXIMINO",
+      "MiDDLE NAME",
+      "ESPIRITUSANTO",
+      "SEX",
+      "MALE",
+      "DATE OF BIRTH",
+      "1990/03/08",
+      "ADDRESS",
+      "Bll",
+      "LGA",
+      "CAMELLA",
+      "AVE",
+      "CAMELLA",
+      "BRGY _",
+      "CUYAB SAN PEDRo",
+      "LAGUNA PHL",
+      "4023"
+    ],
+    "quad_boxes": [
+      [
+        259.0,
+        145.0,
+        765.0,
+        183.0
+      ],
+      [
+        793.0,
+        127.0,
+        813.0,
+        207.0
+      ],
+      [
+        360.9999694824219,
+        176.00001525878906,
+        661.0,
+        216.00001525878906
+      ],
+      [
+        600.0,
+        250.0,
+        656.0,
+        276.0
+      ],
+      [
+        671.0,
+        247.99996948242188,
+        931.0,
+        279.9999694824219
+      ],
+      [
+        101.0,
+        293.0000305175781,
+        177.0,
+        311.0000305175781
+      ],
+      [
+        226.0,
+        286.0,
+        420.0,
+        316.0
+      ],
+      [
+        99.0,
+        350.9999694824219,
+        193.0,
+        368.9999694824219
+      ],
+      [
+        224.0,
+        343.9999694824219,
+        376.0,
+        373.9999694824219
+      ],
+      [
+        95.0,
+        409.00006103515625,
+        201.0,
+        429.0
+      ],
+      [
+        222.0,
+        402.0000305175781,
+        466.0,
+        434.0000305175781
+      ],
+      [
+        91.0,
+        468.9999694824219,
+        127.0,
+        486.9999694824219
+      ],
+      [
+        220.0,
+        463.9999694824219,
+        298.0,
+        493.9999694824219
+      ],
+      [
+        91.0,
+        499.0,
+        209.0,
+        519.0
+      ],
+      [
+        218.0,
+        492.0000305175781,
+        408.0,
+        524.0
+      ],
+      [
+        90.99998474121094,
+        533.0,
+        166.99998474121094,
+        553.0
+      ],
+      [
+        90.00000762939453,
+        552.0,
+        148.00001525878906,
+        584.0
+      ],
+      [
+        164.00001525878906,
+        554.0,
+        224.00001525878906,
+        584.0
+      ],
+      [
+        237.99996948242188,
+        551.0,
+        372.9999694824219,
+        589.0
+      ],
+      [
+        392.0000305175781,
+        556.0,
+        450.0000305175781,
+        588.0
+      ],
+      [
+        484.0,
+        555.0,
+        618.0,
+        587.0
+      ],
+      [
+        88.0,
+        576.0,
+        169.0,
+        612.0
+      ],
+      [
+        189.00003051757812,
+        579.0,
+        463.0000305175781,
+        615.0
+      ],
+      [
+        472.0,
+        583.9999389648438,
+        660.0,
+        615.9999389648438
+      ],
+      [
+        88.0,
+        604.0,
+        166.0,
+        636.0
+      ],
+      [
+        103.35643005371094,
+        125.93911743164062,
+        235.2281036376953,
+        253.54879760742188
+      ]
+    ]
+  },
+  "image_height": 756,
+  "image_width": 1008
+}
+
+==========
+MergedLine [CRN]-[0111-2588996-9] dist: 9 --> [CRN 0111-2588996-9]
+MergedLine [SURNAME]-[ALVERIO III] dist: 54 --> [SURNAME      ALVERIO III]
+MergedLine [GIVEN NAME]-[MAXIMINO] dist: 31 --> [GIVEN NAME   MAXIMINO]
+MergedLine [MIDDLE NAME]-[ESPIRITUSANTO] dist: 24 --> [MIDDLE NAME  ESPIRITUSANTO]
+MergedLine [SEX]-[MALE] dist: 93 --> [SEX          MALE]
+MergedLine [DATE OF BIRTH]-[1990/03/08] dist: 24 --> [DATE OF BIRTH  1990/03/08]
+MergedLine [BLL]-[LGA] dist: 16 --> [BLL LGA]
+MergedLine [BLL LGA]-[CAMELLA] dist: 13.999954223632812 --> [BLL LGA CAMELLA]
+MergedLine [BLL LGA CAMELLA]-[AVE] dist: 19.00006103515625 --> [BLL LGA CAMELLA AVE]
+MergedLine [BLL LGA CAMELLA AVE]-[CAMELLA] dist: 40.999969482421875 --> [BLL LGA CAMELLA AVE CAMELLA]
+MergedLine [BRGY _]-[CUYAB SAN PEDRO] dist: 20.000030517578125 --> [BRGY _ CUYAB SAN PEDRO]
+MergedLine [BRGY _ CUYAB SAN PEDRO]-[LAGUNA PHL |] dist: 23.999969482421875 --> [BRGY _ CUYAB SAN PEDRO LAGUNA PHL |]
+[10:59:49] linesAll REPUBLIC OF THE PHILIPPINES Height:30
+[10:59:49] linesAll 9 Height:80
+MergedLine [REPUBLIC OF THE PHILIPPINES]-[9] dist: -22 --> [REPUBLIC OF THE PHILIPPINES 9]
+[10:59:49] linesAll UNIFIED MULTI-PURPOSE ID Height:40
+MergedLine [REPUBLIC OF THE PHILIPPINES 9]-[UNIFIED MULTI-PURPOSE ID] dist: -452.0000305175781 --> [REPUBLIC OF THE PHILIPPINES 9 UNIFIED MULTI-PURPOSE ID]
+[10:59:49] linesAll CRN 0111-2588996-9 Height:32
+[10:59:49] linesAll SURNAME      ALVERIO III Height:27
+[10:59:49] --> CRN
+[10:59:49] Left:607 Top:247.99996948242188 Bottom:279.9999694824219
+[10:59:49] linesAll GIVEN NAME   MAXIMINO Height:30
+[10:59:49] --> SURNAME
+[10:59:49] Left:107 Top:292 Bottom:319
+[10:59:49] linesAll MIDDLE NAME  ESPIRITUSANTO Height:28
+[10:59:49] --> GIVEN NAME
+[10:59:49] Left:99 Top:343.9999694824219 Bottom:373.9999694824219
+[10:59:49] linesAll SEX          MALE Height:30
+[10:59:49] --> MIDDLE NAME
+[10:59:49] Left:95 Top:402.0000305175781 Bottom:430.0000305175781
+[10:59:49] linesAll DATE OF BIRTH  1990/03/08 Height:29.000030517578125
+[10:59:49] linesAll ADDRESS Height:20
+[10:59:49] linesAll BLL LGA CAMELLA AVE CAMELLA Height:46
+[10:59:49] --> ADDRESS
+[10:59:49] Left:90.99998474121094 Top:533 Bottom:553
+[10:59:49] --> ADDRESS
+[10:59:49] Left:90.99998474121094 Top:533 Bottom:553
+[10:59:49] linesAll BRGY _ CUYAB SAN PEDRO LAGUNA PHL | Height:42.99993896484375
+[10:59:49] linesAll 4023 Height:32
+CRN PredictCenterYInPixel: 263.9999694824219
+SURNAME PredictCenterYInPixel: 305.5
+GIVEN NAME PredictCenterYInPixel: 358.9999694824219
+MIDDLE NAME PredictCenterYInPixel: 416.0000305175781
+ADDRESS PredictCenterYInPixel: 543
+ADDRESS PredictCenterYInPixel: 543
+[10:59:49] removed 1 lines predicted as label removed from linesField [height < labelHeightInPixel (22.775511742966234)].
+[10:59:49] removed 1 lines predicted as label removed from lsLineMerged [height < labelHeightInPixel (22.775511742966234)].
+line: REPUBLIC OF THE PHILIPPINES EstimateCenterYInInch: 0.3550657932219208
+line: 9 EstimateCenterYInInch: 0.3287217095692559
+line: UNIFIED MULTI-PURPOSE ID EstimateCenterYInInch: 0.430585553290069
+line: CRN 0111-2588996-9 EstimateCenterYInInch: 0.6694384176160382
+line: SURNAME      ALVERIO III EstimateCenterYInInch: 0.8152091210218015
+line: GIVEN NAME   MAXIMINO EstimateCenterYInInch: 1.0031301438831273
+line: MIDDLE NAME  ESPIRITUSANTO EstimateCenterYInInch: 1.2033453940320824
+line: SEX          MALE EstimateCenterYInInch: 1.424635482325766
+line: DATE OF BIRTH  1990/03/08 EstimateCenterYInInch: 1.545818427919551
+line: BLL LGA CAMELLA AVE CAMELLA EstimateCenterYInInch: 1.7583273157872061
+line: BRGY _ CUYAB SAN PEDRO LAGUNA PHL | EstimateCenterYInInch: 1.8408720040378723
+line: 4023 EstimateCenterYInInch: 1.9199043621902179
+[10:59:49] 0111-2588996-9 --> CRN
+[10:59:49] ALVERIO III --> SURNAME
+[10:59:49] MAXIMINO --> GIVEN_NAME
+[10:59:49] ESPIRITUSANTO --> MIDDLE_NAME
+[10:59:49] M --> SEX
+[10:59:49] 1990/03/08 --> DOB
+[10:59:49] BLL LGA CAMELLA AVE CAMELLA --> ADDRESS1
+[10:59:49] BRGY _ CUYAB SAN PEDRO LAGUNA PHL | --> ADDRESS2
+[10:59:49] 4023 --> ADDRESS3
+ScanPHUMIDResult: ScanID.ScanPHUMIDResult
+[11:00:02] ==== responseBody ====
+ {
+  "<OCR_WITH_REGION>": {
+    "labels": [
+      "</s>REPUBLIC OF THE PHILIPPINES",
+      "UNITED",
+      "UNITED",
+      "UNIFIED Multi-Purpose ID",
+      "CRN - 0111-2588896-9",
+      "SURNAME",
+      "ALVERIO III",
+      "GIVEN NAME",
+      "MAXIMINO",
+      "MIDDLE NAME ESPIRITUSANTO",
+      "SEX",
+      "MALE",
+      "DATE OF BIRTH 1990/03/08",
+      "ADDRESS",
+      "BILL LGA CAMELLA AVE. CAMELLIA 1",
+      "BRGY. CUYAB SAN PEDRO LAGUNA PHL",
+      "4023"
+    ],
+    "quad_boxes": [
+      [
+        260.5679931640625,
+        148.5540008544922,
+        761.5440063476562,
+        150.0659942626953,
+        761.5440063476562,
+        178.7939910888672,
+        260.5679931640625,
+        176.5260009765625
+      ],
+      [
+        792.7919921875,
+        208.2779998779297,
+        793.7999877929688,
+        129.65399169921875,
+        812.9520263671875,
+        129.65399169921875,
+        811.9440307617188,
+        208.2779998779297
+      ],
+      [
+        217.2239990234375,
+        208.2779998779297,
+        217.2239990234375,
+        132.67799377441406,
+        233.3520050048828,
+        132.67799377441406,
+        233.3520050048828,
+        208.2779998779297
+      ],
+      [
+        364.3919982910156,
+        178.7939910888672,
+        655.7040405273438,
+        181.06199645996094,
+        655.7040405273438,
+        209.03399658203125,
+        364.3919982910156,
+        206.00999450683594
+      ],
+      [
+        601.2720336914062,
+        250.61399841308594,
+        927.864013671875,
+        250.61399841308594,
+        927.864013671875,
+        275.5619812011719,
+        601.2720336914062,
+        275.5619812011719
+      ],
+      [
+        101.30400085449219,
+        295.2179870605469,
+        177.91200256347656,
+        295.2179870605469,
+        177.91200256347656,
+        310.3379821777344,
+        101.30400085449219,
+        310.3379821777344
+      ],
+      [
+        228.31199645996094,
+        287.6579895019531,
+        417.8160095214844,
+        287.6579895019531,
+        417.8160095214844,
+        313.36199951171875,
+        228.31199645996094,
+        313.36199951171875
+      ],
+      [
+        99.28800201416016,
+        351.9179992675781,
+        194.04000854492188,
+        351.9179992675781,
+        194.04000854492188,
+        368.54998779296875,
+        99.28800201416016,
+        368.54998779296875
+      ],
+      [
+        225.2880096435547,
+        345.8699951171875,
+        371.447998046875,
+        345.8699951171875,
+        371.447998046875,
+        370.8179931640625,
+        225.2880096435547,
+        370.8179931640625
+      ],
+      [
+        96.26399993896484,
+        405.593994140625,
+        462.1679992675781,
+        405.593994140625,
+        462.1679992675781,
+        430.5419921875,
+        96.26399993896484,
+        430.5419921875
+      ],
+      [
+        94.24800109863281,
+        470.6099853515625,
+        126.5040054321289,
+        470.6099853515625,
+        126.5040054321289,
+        485.72998046875,
+        94.24800109863281,
+        485.72998046875
+      ],
+      [
+        220.2480010986328,
+        465.3179931640625,
+        294.8399963378906,
+        465.3179931640625,
+        294.8399963378906,
+        489.5099792480469,
+        220.2480010986328,
+        489.5099792480469
+      ],
+      [
+        92.23200225830078,
+        497.0699768066406,
+        405.7200012207031,
+        495.5579833984375,
+        405.7200012207031,
+        520.5059814453125,
+        92.23200225830078,
+        520.5059814453125
+      ],
+      [
+        92.23200225830078,
+        536.3819580078125,
+        166.82400512695312,
+        536.3819580078125,
+        166.82400512695312,
+        552.2579956054688,
+        92.23200225830078,
+        552.2579956054688
+      ],
+      [
+        92.23200225830078,
+        554.5260009765625,
+        657.7200317382812,
+        558.3059692382812,
+        657.7200317382812,
+        586.2780151367188,
+        92.23200225830078,
+        580.9859619140625
+      ],
+      [
+        92.23200225830078,
+        580.9859619140625,
+        656.7120361328125,
+        586.2780151367188,
+        656.7120361328125,
+        614.25,
+        92.23200225830078,
+        607.4459838867188
+      ],
+      [
+        92.23200225830078,
+        606.6900024414062,
+        162.79200744628906,
+        608.2019653320312,
+        162.79200744628906,
+        631.6380004882812,
+        91.2239990234375,
+        630.8819580078125
+      ]
+    ]
+  }
+}
+
+==========
+MergedLine [SURNAME]-[ALVERIO III] dist: 50.399993896484375 --> [SURNAME      ALVERIO III]
+MergedLine [GIVEN NAME]-[MAXIMINO] dist: 31.248001098632812 --> [GIVEN NAME   MAXIMINO]
+MergedLine [SEX]-[MALE] dist: 93.7439956665039 --> [SEX            MALE]
+[11:00:03] linesAll REPUBLIC OF THE PHILIPPINES Height:28.349998474121094
+[11:00:03] linesAll UNITED Height:0
+[11:00:03]   angle:-89.26548224405035 > 10 --> ignored
+[11:00:03] linesAll UNITED Height:0
+[11:00:03]   angle:-90 > 10 --> ignored
+[11:00:03] linesAll UNIFIED MULTI-PURPOSE ID Height:27.59400177001953
+[11:00:03] --> REPUBLIC OF THE PHILIPPINES
+[11:00:03] Left:260.5679931640625 Top:149.30999755859375 Bottom:177.65999603271484
+[11:00:03] linesAll CRN - 0111-2588896-9 Height:24.947982788085938
+[11:00:03] --> Unified Multi-Purpose ID
+[11:00:03] Left:364.3919982910156 Top:179.92799377441406 Bottom:207.5219955444336
+[11:00:03] linesAll SURNAME      ALVERIO III Height:20.412002563476562
+[11:00:03] --> CRN
+[11:00:03] Left:601.2720336914062 Top:250.61399841308594 Bottom:275.5619812011719
+[11:00:03] linesAll GIVEN NAME   MAXIMINO Height:20.789993286132812
+[11:00:03] --> SURNAME
+[11:00:03] Left:101.30400085449219 Top:291.43798828125 Bottom:311.84999084472656
+[11:00:03] linesAll MIDDLE NAME ESPIRITUSANTO Height:24.947998046875
+[11:00:03] --> GIVEN NAME
+[11:00:03] Left:99.28800201416016 Top:348.8939971923828 Bottom:369.6839904785156
+[11:00:03] linesAll SEX            MALE Height:19.655990600585938
+[11:00:03] --> MIDDLE NAME
+[11:00:03] Left:96.26399993896484 Top:405.593994140625 Bottom:430.5419921875
+[11:00:03] linesAll DATE OF BIRTH 1990/03/08 Height:24.192001342773438
+IsLineAboveOrSmallerThanLabel polygon line: SEX            MALE Height * 0.7 = 19.844998931884763 label: ScanID.LabelInfo Height: 19.655990600585938
+[11:00:03] linesAll ADDRESS Height:15.87603759765625
+[11:00:03] linesAll BILL LGA CAMELLA AVE. CAMELLIA 1 Height:27.21600341796875
+[11:00:03] --> ADDRESS
+[11:00:03] Left:92.23200225830078 Top:536.3819580078125 Bottom:552.2579956054688
+[11:00:03] --> ADDRESS
+[11:00:03] Left:92.23200225830078 Top:536.3819580078125 Bottom:552.2579956054688
+IsLineAboveOrSmallerThanLabel polygon line: ADDRESS Height * 0.7 = 19.844998931884763 label: ScanID.LabelInfo Height: 15.87603759765625
+IsLineAboveOrSmallerThanLabel polygon line: ADDRESS Height * 0.7 = 19.31580123901367 label: ScanID.LabelInfo Height: 15.87603759765625
+[11:00:03] linesAll BRGY. CUYAB SAN PEDRO LAGUNA PHL Height:27.21600341796875
+[11:00:03] linesAll 4023 Height:23.813995361328125
+REPUBLIC OF THE PHILIPPINES PredictCenterYInPixel: 163.4849967956543
+Unified Multi-Purpose ID PredictCenterYInPixel: 193.72499465942383
+CRN PredictCenterYInPixel: 263.0879898071289
+SURNAME PredictCenterYInPixel: 301.6439895629883
+GIVEN NAME PredictCenterYInPixel: 359.2889938354492
+MIDDLE NAME PredictCenterYInPixel: 418.0679931640625
+ADDRESS PredictCenterYInPixel: 544.3199768066406
+ADDRESS PredictCenterYInPixel: 544.3199768066406
+[11:00:03] removed 4 lines predicted as label removed from linesField [height < labelHeightInPixel (21.76199804707303)].
+[11:00:03] removed 4 lines predicted as label removed from lsLineMerged [height < labelHeightInPixel (21.76199804707303)].
+line: REPUBLIC OF THE PHILIPPINES EstimateCenterYInInch: 0.2598883125812732
+line: UNIFIED MULTI-PURPOSE ID EstimateCenterYInInch: 0.3710545653212698
+line: CRN - 0111-2588896-9 EstimateCenterYInInch: 0.6260421577189287
+line: MIDDLE NAME ESPIRITUSANTO EstimateCenterYInInch: 1.195769255598915
+line: DATE OF BIRTH 1990/03/08 EstimateCenterYInInch: 1.527878413572903
+line: BILL LGA CAMELLA AVE. CAMELLIA 1 EstimateCenterYInInch: 1.7543796917442323
+line: BRGY. CUYAB SAN PEDRO LAGUNA PHL EstimateCenterYInInch: 1.8544293388428974
+line: 4023 EstimateCenterYInInch: 1.9357196350405594
+[11:00:03] - 0111-2588896-9 --> CRN
+[11:00:03] ALVERIO III --> SURNAME
+[11:00:03] MAXIMINO --> GIVEN_NAME
+[11:00:03] ESPIRITUSANTO --> MIDDLE_NAME
+[11:00:03] 1990/03/08 --> DOB
+[11:00:03] BILL LGA CAMELLA AVE. CAMELLIA 1 --> ADDRESS1
+[11:00:03] BRGY. CUYAB SAN PEDRO LAGUNA PHL --> ADDRESS2
+[11:00:03] 4023 --> ADDRESS3
+ScanPHUMIDResult: ScanID.ScanPHUMIDResult
+[11:00:06] ==== responseBody ====
+ {
+  "<OCR_WITH_REGION>": {
+    "labels": [
+      "REPUBLIC OF THE PHILIPPINES",
+      "Unified Multi-Purpose ID",
+      "CRN",
+      "0033-5508686-0",
+      "SURNAME",
+      "MIRANDA",
+      "GIVEN NAME",
+      "MICHAEL",
+      "MIDDLE NAME",
+      "DILAGAN",
+      "SEX",
+      "Date OF biRt",
+      "1977/04/29",
+      "PyEY",
+      "intetzisSFYAE",
+      "ST",
+      "BAGONG",
+      "\"Eieeans @DEtorue8vy",
+      "NCR",
+      "PHL"
+    ],
+    "quad_boxes": [
+      [
+        223.00003051757812,
+        45.0,
+        807.0,
+        85.0
+      ],
+      [
+        344.0,
+        79.99999237060547,
+        690.0,
+        127.99999237060547
+      ],
+      [
+        610.0,
+        180.0,
+        672.0,
+        208.0
+      ],
+      [
+        688.0,
+        176.0,
+        994.0,
+        208.00003051757812
+      ],
+      [
+        437.0000305175781,
+        251.0,
+        527.0000610351562,
+        271.0
+      ],
+      [
+        438.0,
+        270.0,
+        590.0,
+        302.0
+      ],
+      [
+        439.0000305175781,
+        310.0,
+        547.0000610351562,
+        330.0
+      ],
+      [
+        440.0,
+        330.0,
+        590.0,
+        362.0
+      ],
+      [
+        437.0000305175781,
+        407.0,
+        559.0000610351562,
+        427.0
+      ],
+      [
+        439.0,
+        425.0,
+        593.0,
+        461.0
+      ],
+      [
+        437.0,
+        465.0,
+        475.0,
+        485.0
+      ],
+      [
+        524.9999389648438,
+        466.9999694824219,
+        656.9999389648438,
+        486.9999694824219
+      ],
+      [
+        663.0,
+        455.0,
+        885.0,
+        491.0
+      ],
+      [
+        431.0,
+        477.0,
+        533.0,
+        563.0
+      ],
+      [
+        497.00006103515625,
+        495.0,
+        774.0000610351562,
+        563.0
+      ],
+      [
+        788.0,
+        500.0,
+        832.0,
+        532.0
+      ],
+      [
+        440.0,
+        550.0000610351562,
+        568.0,
+        582.0000610351562
+      ],
+      [
+        574.0,
+        516.0,
+        1004.0,
+        614.0
+      ],
+      [
+        440.0,
+        576.0,
+        506.0,
+        608.0
+      ],
+      [
+        519.0,
+        575.0,
+        587.0,
+        611.0
+      ]
+    ]
+  },
+  "image_height": 657,
+  "image_width": 1030
+}
+
+==========
+MergedLine [CRN]-[0033-5508686-0] dist: 10 --> [CRN 0033-5508686-0]
+MergedLine [SEX]-[DATE OF BIRT] dist: 49.99993896484375 --> [SEX    DATE OF BIRT]
+MergedLine [SEX    DATE OF BIRT]-[1977/04/29] dist: 6.00006103515625 --> [SEX    DATE OF BIRT 1977/04/29]
+MergedLine [NCR]-[PHL] dist: 13 --> [NCR PHL]
+[11:00:06] linesAll REPUBLIC OF THE PHILIPPINES Height:40
+[11:00:06] linesAll UNIFIED MULTI-PURPOSE ID Height:35
+[11:00:06] --> REPUBLIC OF THE PHILIPPINES
+[11:00:06] Left:223.00003051757812 Top:45 Bottom:85
+[11:00:06] linesAll CRN 0033-5508686-0 Height:35
+[11:00:06] --> Unified Multi-Purpose ID
+[11:00:06] Left:368 Top:90.99999237060547 Bottom:131.99999237060547
+[11:00:06] linesAll SURNAME Height:20
+[11:00:06] --> CRN
+[11:00:06] Left:618 Top:176 Bottom:211
+[11:00:06] linesAll MIRANDA Height:28
+[11:00:06] --> SURNAME
+[11:00:06] Left:437.0000305175781 Top:251 Bottom:271
+[11:00:06] --> SURNAME
+[11:00:06] Left:437.0000305175781 Top:251 Bottom:271
+[11:00:06] linesAll GIVEN NAME Height:20
+[11:00:06] linesAll MICHAEL Height:28
+[11:00:06] --> GIVEN NAME
+[11:00:06] Left:439.0000305175781 Top:310 Bottom:330
+[11:00:06] --> GIVEN NAME
+[11:00:06] Left:439.0000305175781 Top:310 Bottom:330
+[11:00:06] linesAll MIDDLE NAME Height:20
+[11:00:06] linesAll DILAGAN Height:30
+[11:00:06] --> MIDDLE NAME
+[11:00:06] Left:437.0000305175781 Top:407 Bottom:427
+[11:00:06] --> MIDDLE NAME
+[11:00:06] Left:437.0000305175781 Top:407 Bottom:427
+[11:00:06] linesAll SEX    DATE OF BIRT 1977/04/29 Height:36
+[11:00:06] linesAll PYEY Height:86
+[11:00:06] linesAll INTETZISSFYAE Height:68
+MergedLine [PYEY]-[INTETZISSFYAE] dist: -35.99993896484375 --> [PYEY INTETZISSFYAE]
+[11:00:06] linesAll ST Height:32
+[11:00:06] linesAll BAGONG Height:32
+[11:00:06] linesAll "EIEEANS @DETORUE8VY Height:98
+[11:00:06] linesAll NCR PHL Height:33
+MergedLine [NCR PHL]-["EIEEANS @DETORUE8VY] dist: -20 --> [NCR PHL "EIEEANS @DETORUE8VY]
+REPUBLIC OF THE PHILIPPINES PredictCenterYInPixel: 65
+Unified Multi-Purpose ID PredictCenterYInPixel: 111.49999237060547
+CRN PredictCenterYInPixel: 193.5
+SURNAME PredictCenterYInPixel: 261
+SURNAME PredictCenterYInPixel: 261
+GIVEN NAME PredictCenterYInPixel: 320
+GIVEN NAME PredictCenterYInPixel: 320
+MIDDLE NAME PredictCenterYInPixel: 417
+MIDDLE NAME PredictCenterYInPixel: 417
+[11:00:06] removed 3 lines predicted as label removed from linesField [height < labelHeightInPixel (24.701753175159602)].
+[11:00:06] removed 3 lines predicted as label removed from lsLineMerged [height < labelHeightInPixel (24.701753175159602)].
+line: REPUBLIC OF THE PHILIPPINES EstimateCenterYInInch: 0.20577648974748125
+line: UNIFIED MULTI-PURPOSE ID EstimateCenterYInInch: 0.35637305996343055
+line: CRN 0033-5508686-0 EstimateCenterYInInch: 0.6219412735718858
+line: MIRANDA EstimateCenterYInInch: 0.9296117363214456
+line: MICHAEL EstimateCenterYInInch: 1.1287878779961606
+line: DILAGAN EstimateCenterYInInch: 1.4202651584957435
+line: SEX    DATE OF BIRT 1977/04/29 EstimateCenterYInInch: 1.5271401613455906
+line: PYEY EstimateCenterYInInch: 1.6793560744953728
+line: INTETZISSFYAE EstimateCenterYInInch: 1.7085038025453312
+line: ST EstimateCenterYInInch: 1.6664015286953913
+line: BAGONG EstimateCenterYInInch: 1.8283335488658414
+line: "EIEEANS @DETORUE8VY EstimateCenterYInInch: 1.8250947147451644
+line: NCR PHL EstimateCenterYInInch: 1.9109185806700415
+[11:00:06] 0033-5508686-0 --> CRN
+[11:00:06] MIRANDA --> SURNAME
+[11:00:06] MICHAEL --> GIVEN_NAME
+[11:00:06] DILAGAN --> MIDDLE_NAME
+[11:00:06]  --> SEX
+[11:00:06] 1977/04/29 --> DOB
+[11:00:06] PYEY INTETZISSFYAE --> ADDRESS1
+[11:00:06] NCR PHL "EIEEANS @DETORUE8VY --> ADDRESS2
+ScanPHUMIDResult: ScanID.ScanPHUMIDResult
+[11:00:19] ==== responseBody ====
+ {
+  "<OCR_WITH_REGION>": {
+    "labels": [
+      "</s>REPUBLIC OF THE PHILIPPINES",
+      "UNified Multi-Purpose ID",
+      "CRN - 0033-55086-0",
+      "SURNAME",
+      "MIRANDA",
+      "GIVEN NAME",
+      "MICHAEL",
+      "MIDDLE NAME",
+      "DILAGAN",
+      "SEX M DATE OF BIRTH 1977/04/29",
+      "ADDRESS",
+      "BLKI LOT31 CEDAR ST",
+      "FILINVEST SPRING HTS SUBD",
+      "BAGONG SILANGAN QUEZON CITY",
+      "NCR PHIL 1119"
+    ],
+    "quad_boxes": [
+      [
+        226.08499145507812,
+        49.60350036621094,
+        802.8849487304688,
+        49.60350036621094,
+        802.8849487304688,
+        81.79650115966797,
+        226.08499145507812,
+        81.79650115966797
+      ],
+      [
+        346.5950012207031,
+        85.7385025024414,
+        682.375,
+        85.7385025024414,
+        682.375,
+        117.93150329589844,
+        346.5950012207031,
+        116.61750030517578
+      ],
+      [
+        611.3049926757812,
+        177.718505859375,
+        990.344970703125,
+        176.4044952392578,
+        990.344970703125,
+        205.3125,
+        611.3049926757812,
+        206.62649536132812
+      ],
+      [
+        437.2349853515625,
+        251.95950317382812,
+        524.7849731445312,
+        251.95950317382812,
+        524.7849731445312,
+        269.04150390625,
+        437.2349853515625,
+        269.04150390625
+      ],
+      [
+        440.3249816894531,
+        271.01251220703125,
+        587.614990234375,
+        271.01251220703125,
+        587.614990234375,
+        297.9494934082031,
+        440.3249816894531,
+        297.9494934082031
+      ],
+      [
+        439.29498291015625,
+        311.7464904785156,
+        546.4149780273438,
+        311.7464904785156,
+        546.4149780273438,
+        328.8284912109375,
+        439.29498291015625,
+        328.8284912109375
+      ],
+      [
+        440.3249816894531,
+        330.79949951171875,
+        586.5849609375,
+        330.79949951171875,
+        586.5849609375,
+        359.0505065917969,
+        440.3249816894531,
+        359.0505065917969
+      ],
+      [
+        439.29498291015625,
+        407.66851806640625,
+        557.7449951171875,
+        407.66851806640625,
+        557.7449951171875,
+        424.75048828125,
+        439.29498291015625,
+        424.75048828125
+      ],
+      [
+        440.3249816894531,
+        426.72149658203125,
+        589.6749877929688,
+        426.72149658203125,
+        589.6749877929688,
+        453.65850830078125,
+        440.3249816894531,
+        453.65850830078125
+      ],
+      [
+        437.2349853515625,
+        458.91448974609375,
+        879.10498046875,
+        457.6004943847656,
+        879.10498046875,
+        486.5085144042969,
+        437.2349853515625,
+        486.5085144042969
+      ],
+      [
+        439.29498291015625,
+        486.5085144042969,
+        523.7550048828125,
+        486.5085144042969,
+        523.7550048828125,
+        503.59051513671875,
+        439.29498291015625,
+        503.59051513671875
+      ],
+      [
+        439.29498291015625,
+        499.64849853515625,
+        827.60498046875,
+        499.64849853515625,
+        827.60498046875,
+        528.5565185546875,
+        439.29498291015625,
+        528.5565185546875
+      ],
+      [
+        440.3249816894531,
+        526.5855102539062,
+        950.1749877929688,
+        526.5855102539062,
+        950.1749877929688,
+        553.5225219726562,
+        440.3249816894531,
+        553.5225219726562
+      ],
+      [
+        440.3249816894531,
+        551.551513671875,
+        993.4349975585938,
+        551.551513671875,
+        993.4349975585938,
+        578.488525390625,
+        440.3249816894531,
+        578.488525390625
+      ],
+      [
+        440.3249816894531,
+        576.5175170898438,
+        686.4949951171875,
+        576.5175170898438,
+        686.4949951171875,
+        604.7684936523438,
+        440.3249816894531,
+        604.7684936523438
+      ]
+    ]
+  }
+}
+
+==========
+[11:00:19] linesAll REPUBLIC OF THE PHILIPPINES Height:32.19300079345703
+[11:00:19] linesAll UNIFIED MULTI-PURPOSE ID Height:31.535999298095703
+[11:00:19] --> REPUBLIC OF THE PHILIPPINES
+[11:00:19] Left:226.08499145507812 Top:49.60350036621094 Bottom:81.79650115966797
+[11:00:19] linesAll CRN - 0033-55086-0 Height:28.907997131347656
+[11:00:19] --> Unified Multi-Purpose ID
+[11:00:19] Left:346.5950012207031 Top:85.7385025024414 Bottom:117.27450180053711
+[11:00:19] linesAll SURNAME Height:17.082000732421875
+[11:00:19] --> CRN
+[11:00:19] Left:611.3049926757812 Top:177.0615005493164 Bottom:205.96949768066406
+[11:00:19] linesAll MIRANDA Height:26.936981201171875
+[11:00:19] --> SURNAME
+[11:00:19] Left:437.2349853515625 Top:251.95950317382812 Bottom:269.04150390625
+[11:00:19] --> SURNAME
+[11:00:19] Left:437.2349853515625 Top:251.95950317382812 Bottom:269.04150390625
+IsLineAboveOrSmallerThanLabel polygon line: SURNAME Height * 0.7 = 22.53510055541992 label: ScanID.LabelInfo Height: 17.082000732421875
+IsLineAboveOrSmallerThanLabel polygon line: SURNAME Height * 0.7 = 22.07519950866699 label: ScanID.LabelInfo Height: 17.082000732421875
+[11:00:19] linesAll GIVEN NAME Height:17.082000732421875
+[11:00:19] linesAll MICHAEL Height:28.251007080078125
+[11:00:19] --> GIVEN NAME
+[11:00:19] Left:439.29498291015625 Top:311.7464904785156 Bottom:328.8284912109375
+[11:00:19] --> GIVEN NAME
+[11:00:19] Left:439.29498291015625 Top:311.7464904785156 Bottom:328.8284912109375
+IsLineAboveOrSmallerThanLabel polygon line: GIVEN NAME Height * 0.7 = 22.53510055541992 label: ScanID.LabelInfo Height: 17.082000732421875
+IsLineAboveOrSmallerThanLabel polygon line: GIVEN NAME Height * 0.7 = 22.07519950866699 label: ScanID.LabelInfo Height: 17.082000732421875
+[11:00:19] linesAll MIDDLE NAME Height:17.08197021484375
+[11:00:19] linesAll DILAGAN Height:26.93701171875
+[11:00:19] --> MIDDLE NAME
+[11:00:19] Left:439.29498291015625 Top:407.66851806640625 Bottom:424.75048828125
+[11:00:19] --> MIDDLE NAME
+[11:00:19] Left:439.29498291015625 Top:407.66851806640625 Bottom:424.75048828125
+IsLineAboveOrSmallerThanLabel polygon line: MIDDLE NAME Height * 0.7 = 22.53510055541992 label: ScanID.LabelInfo Height: 17.08197021484375
+IsLineAboveOrSmallerThanLabel polygon line: MIDDLE NAME Height * 0.7 = 22.07519950866699 label: ScanID.LabelInfo Height: 17.08197021484375
+[11:00:19] linesAll SEX M DATE OF BIRTH 1977/04/29 Height:28.251022338867188
+[11:00:19] linesAll ADDRESS Height:17.082000732421875
+[11:00:19] linesAll BLKI LOT31 CEDAR ST Height:28.90802001953125
+[11:00:19] --> ADDRESS
+[11:00:19] Left:439.29498291015625 Top:486.5085144042969 Bottom:503.59051513671875
+[11:00:19] --> ADDRESS
+[11:00:19] Left:439.29498291015625 Top:486.5085144042969 Bottom:503.59051513671875
+IsLineAboveOrSmallerThanLabel polygon line: ADDRESS Height * 0.7 = 22.53510055541992 label: ScanID.LabelInfo Height: 17.082000732421875
+IsLineAboveOrSmallerThanLabel polygon line: ADDRESS Height * 0.7 = 22.07519950866699 label: ScanID.LabelInfo Height: 17.082000732421875
+[11:00:19] linesAll FILINVEST SPRING HTS SUBD Height:26.93701171875
+[11:00:19] linesAll BAGONG SILANGAN QUEZON CITY Height:26.93701171875
+[11:00:19] linesAll NCR PHIL 1119 Height:28.2509765625
+REPUBLIC OF THE PHILIPPINES PredictCenterYInPixel: 65.70000076293945
+Unified Multi-Purpose ID PredictCenterYInPixel: 101.50650215148926
+CRN PredictCenterYInPixel: 191.51549911499023
+SURNAME PredictCenterYInPixel: 260.50050354003906
+SURNAME PredictCenterYInPixel: 260.50050354003906
+GIVEN NAME PredictCenterYInPixel: 320.28749084472656
+GIVEN NAME PredictCenterYInPixel: 320.28749084472656
+MIDDLE NAME PredictCenterYInPixel: 416.2095031738281
+MIDDLE NAME PredictCenterYInPixel: 416.2095031738281
+ADDRESS PredictCenterYInPixel: 495.0495147705078
+ADDRESS PredictCenterYInPixel: 495.0495147705078
+[11:00:19] removed 4 lines predicted as label removed from linesField [height < labelHeightInPixel (24.534257029317303)].
+[11:00:19] removed 4 lines predicted as label removed from lsLineMerged [height < labelHeightInPixel (24.534257029317303)].
+line: REPUBLIC OF THE PHILIPPINES EstimateCenterYInInch: 0.2005877431738904
+line: UNIFIED MULTI-PURPOSE ID EstimateCenterYInInch: 0.3173436752420187
+line: CRN - 0033-55086-0 EstimateCenterYInInch: 0.6108402171396161
+line: MIRANDA EstimateCenterYInInch: 0.9139771786660126
+line: MICHAEL EstimateCenterYInInch: 1.111069754392709
+line: DILAGAN EstimateCenterYInInch: 1.4217047889779342
+line: SEX M DATE OF BIRTH 1977/04/29 EstimateCenterYInInch: 1.5266780108217202
+line: BLKI LOT31 CEDAR ST EstimateCenterYInInch: 1.6627147510505424
+line: FILINVEST SPRING HTS SUBD EstimateCenterYInInch: 1.7473360443133863
+line: BAGONG SILANGAN QUEZON CITY EstimateCenterYInInch: 1.8287438581472493
+line: NCR PHIL 1119 EstimateCenterYInInch: 1.9122939252603706
+[11:00:19] - 0033-55086-0 --> CRN
+[11:00:19] MIRANDA --> SURNAME
+[11:00:19] MICHAEL --> GIVEN_NAME
+[11:00:19] DILAGAN --> MIDDLE_NAME
+[11:00:19] M --> SEX
+[11:00:19] 1977/04/29 --> DOB
+[11:00:19] BLKI LOT31 CEDAR ST --> ADDRESS1
+[11:00:19] FILINVEST SPRING HTS SUBD --> ADDRESS2
+[11:00:19] BAGONG SILANGAN QUEZON CITY --> ADDRESS3
+[11:00:19] NCR PHIL 1119 --> ADDRESS4
+ScanPHUMIDResult: ScanID.ScanPHUMIDResult
+'test1.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.11\System.Net.Quic.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+[11:00:21] ==== responseBody ====
+ {
+  "<OCR_WITH_REGION>": {
+    "labels": [
+      "REPUBLIC OF THE PHILIPPINES",
+      "Unified Multi-Purpose",
+      "CRN- 0033-5508686-0",
+      "MiRANDA",
+      "HICHAEL",
+      "DiLAGAN",
+      "1977/04/29",
+      "Moh",
+      "adEios\"exty"
+    ],
+    "quad_boxes": [
+      [
+        111.0,
+        23.0,
+        403.0,
+        43.0
+      ],
+      [
+        173.0,
+        41.0,
+        324.9999694824219,
+        62.0
+      ],
+      [
+        305.0,
+        85.0,
+        499.0,
+        105.0
+      ],
+      [
+        215.0,
+        123.0,
+        298.0,
+        154.0
+      ],
+      [
+        216.99998474121094,
+        163.0,
+        295.0,
+        183.0
+      ],
+      [
+        218.99996948242188,
+        213.0,
+        296.9999694824219,
+        231.0
+      ],
+      [
+        328.9999694824219,
+        227.0,
+        440.9999694824219,
+        247.0
+      ],
+      [
+        215.0,
+        232.0,
+        334.0,
+        318.0
+      ],
+      [
+        378.0000305175781,
+        246.0,
+        504.0000305175781,
+        298.0
+      ]
+    ]
+  },
+  "image_height": 329,
+  "image_width": 515
+}
+
+==========
+[11:00:21] linesAll REPUBLIC OF THE PHILIPPINES Height:17
+[11:00:21] linesAll UNIFIED MULTI-PURPOSE Height:17
+[11:00:21] --> REPUBLIC OF THE PHILIPPINES
+[11:00:21] Left:130 Top:28 Bottom:46
+[11:00:21] linesAll CRN- 0033-5508686-0 Height:20
+[11:00:21] linesAll MIRANDA Height:31
+[11:00:21] --> CRN
+[11:00:21] Left:305 Top:85 Bottom:105
+[11:00:21] linesAll HICHAEL Height:17
+[11:00:21] linesAll DILAGAN Height:15
+[11:00:21] linesAll 1977/04/29 Height:20
+[11:00:21] linesAll MOH Height:86
+[11:00:21] linesAll ADEIOS"EXTY Height:52
+MergedLine [MOH]-[ADEIOS"EXTY] dist: 44.000030517578125 --> [MOH ADEIOS"EXTY]
+REPUBLIC OF THE PHILIPPINES PredictCenterYInPixel: 37
+CRN PredictCenterYInPixel: 95
+[11:00:21] removed 0 lines predicted as label removed from linesField [height < labelHeightInPixel (11.047618753650564)].
+[11:00:21] removed 0 lines predicted as label removed from lsLineMerged [height < labelHeightInPixel (11.047618753650564)].
+line: REPUBLIC OF THE PHILIPPINES EstimateCenterYInInch: 0.2099999934434891
+line: UNIFIED MULTI-PURPOSE EstimateCenterYInInch: 0.31137930421993654
+line: CRN- 0033-5508686-0 EstimateCenterYInInch: 0.6299999952316284
+line: MIRANDA EstimateCenterYInInch: 0.9449999965727328
+line: HICHAEL EstimateCenterYInInch: 1.1839655148315018
+line: DILAGAN EstimateCenterYInInch: 1.5605172405725922
+line: 1977/04/29 EstimateCenterYInInch: 1.658275861678452
+line: MOH EstimateCenterYInInch: 1.9334482766430952
+line: ADEIOS"EXTY EstimateCenterYInInch: 1.9117241386195707
+[11:00:21] - 0033-5508686-0 --> CRN
+[11:00:21] MIRANDA --> SURNAME
+[11:00:21]  --> SEX
+[11:00:21] DILAGAN --> DOB
+[11:00:21] ExtractFieldsFromReadResultOfPHUMID result NOT success
+ScanPHUMIDResult: ScanID.ScanPHUMIDResult
+The thread 68272 has exited with code 0 (0x0).
+[11:00:34] ==== responseBody ====
+ {
+  "<OCR_WITH_REGION>": {
+    "labels": [
+      "</s>REPUBLIC OF THE PHILIPPINES",
+      "UNified Multi-Purpose ID",
+      "CRN - 0033-55086L-0",
+      "SURNAME",
+      "MIRANDA",
+      "GIVEN NAME",
+      "MICHAEL",
+      "MIDDLE NAME",
+      "DILAGAN",
+      "SEX M DATE OF BIRTY 1977/04/29",
+      "ADDRESS",
+      "BLKI LOT31 CEDAR ST",
+      "FILINVEST SPRING HTS SUBD",
+      "BAGONG SILANGAN QUEZON CITY",
+      "NCR PHL 1119"
+    ],
+    "quad_boxes": [
+      [
+        112.52749633789062,
+        24.181499481201172,
+        401.9574890136719,
+        24.181499481201172,
+        401.9574890136719,
+        41.28950119018555,
+        112.52749633789062,
+        41.28950119018555
+      ],
+      [
+        172.78250122070312,
+        42.2765007019043,
+        341.7024841308594,
+        42.2765007019043,
+        341.7024841308594,
+        59.384498596191406,
+        172.78250122070312,
+        58.397499084472656
+      ],
+      [
+        305.1374816894531,
+        88.33650207519531,
+        495.1724853515625,
+        88.33650207519531,
+        495.1724853515625,
+        103.47049713134766,
+        305.1374816894531,
+        103.47049713134766
+      ],
+      [
+        218.1024932861328,
+        125.51349639892578,
+        262.3924865722656,
+        125.51349639892578,
+        262.3924865722656,
+        134.39649963378906,
+        218.1024932861328,
+        134.39649963378906
+      ],
+      [
+        219.1324920654297,
+        135.3834991455078,
+        294.3224792480469,
+        135.3834991455078,
+        294.3224792480469,
+        149.53050231933594,
+        219.1324920654297,
+        149.53050231933594
+      ],
+      [
+        219.1324920654297,
+        156.4394989013672,
+        273.2074890136719,
+        156.4394989013672,
+        273.2074890136719,
+        165.32249450683594,
+        219.1324920654297,
+        165.32249450683594
+      ],
+      [
+        219.1324920654297,
+        165.32249450683594,
+        293.29248046875,
+        165.32249450683594,
+        293.29248046875,
+        179.46949768066406,
+        219.1324920654297,
+        179.46949768066406
+      ],
+      [
+        219.1324920654297,
+        204.14450073242188,
+        278.87249755859375,
+        204.14450073242188,
+        278.87249755859375,
+        213.02749633789062,
+        219.1324920654297,
+        213.02749633789062
+      ],
+      [
+        220.16249084472656,
+        214.01449584960938,
+        294.3224792480469,
+        214.01449584960938,
+        294.3224792480469,
+        227.17449951171875,
+        220.16249084472656,
+        227.17449951171875
+      ],
+      [
+        219.1324920654297,
+        230.135498046875,
+        439.552490234375,
+        229.14849853515625,
+        439.552490234375,
+        243.9534912109375,
+        219.1324920654297,
+        243.9534912109375
+      ],
+      [
+        219.1324920654297,
+        243.9534912109375,
+        261.36248779296875,
+        243.9534912109375,
+        261.36248779296875,
+        252.17849731445312,
+        219.1324920654297,
+        252.17849731445312
+      ],
+      [
+        219.1324920654297,
+        250.20449829101562,
+        413.802490234375,
+        250.20449829101562,
+        413.802490234375,
+        265.0094909667969,
+        219.1324920654297,
+        265.0094909667969
+      ],
+      [
+        219.1324920654297,
+        263.0354919433594,
+        475.60247802734375,
+        263.0354919433594,
+        475.60247802734375,
+        277.1824951171875,
+        219.1324920654297,
+        277.1824951171875
+      ],
+      [
+        219.1324920654297,
+        276.19549560546875,
+        496.2024841308594,
+        276.19549560546875,
+        496.2024841308594,
+        290.3424987792969,
+        219.1324920654297,
+        290.3424987792969
+      ],
+      [
+        219.1324920654297,
+        289.3554992675781,
+        343.7624816894531,
+        289.3554992675781,
+        343.7624816894531,
+        303.1734924316406,
+        219.1324920654297,
+        303.1734924316406
+      ]
+    ]
+  }
+}
+
+==========
+[11:00:34] linesAll REPUBLIC OF THE PHILIPPINES Height:17.108001708984375
+[11:00:34] linesAll UNIFIED MULTI-PURPOSE ID Height:16.614498138427734
+[11:00:34] --> REPUBLIC OF THE PHILIPPINES
+[11:00:34] Left:112.52749633789062 Top:24.181499481201172 Bottom:41.28950119018555
+[11:00:34] linesAll CRN - 0033-55086L-0 Height:15.133995056152344
+[11:00:34] --> Unified Multi-Purpose ID
+[11:00:34] Left:172.78250122070312 Top:42.2765007019043 Bottom:58.89099884033203
+[11:00:34] linesAll SURNAME Height:8.883003234863281
+[11:00:34] --> CRN
+[11:00:34] Left:305.1374816894531 Top:88.33650207519531 Bottom:103.47049713134766
+[11:00:34] linesAll MIRANDA Height:14.147003173828125
+[11:00:34] --> SURNAME
+[11:00:34] Left:218.1024932861328 Top:125.51349639892578 Bottom:134.39649963378906
+[11:00:34] --> SURNAME
+[11:00:34] Left:218.1024932861328 Top:125.51349639892578 Bottom:134.39649963378906
+IsLineAboveOrSmallerThanLabel polygon line: SURNAME Height * 0.7 = 11.975601196289062 label: ScanID.LabelInfo Height: 8.883003234863281
+IsLineAboveOrSmallerThanLabel polygon line: SURNAME Height * 0.7 = 11.630148696899413 label: ScanID.LabelInfo Height: 8.883003234863281
+[11:00:34] linesAll GIVEN NAME Height:8.88299560546875
+[11:00:34] linesAll MICHAEL Height:14.147003173828125
+[11:00:34] --> GIVEN NAME
+[11:00:34] Left:219.1324920654297 Top:156.4394989013672 Bottom:165.32249450683594
+[11:00:34] --> GIVEN NAME
+[11:00:34] Left:219.1324920654297 Top:156.4394989013672 Bottom:165.32249450683594
+IsLineAboveOrSmallerThanLabel polygon line: GIVEN NAME Height * 0.7 = 11.975601196289062 label: ScanID.LabelInfo Height: 8.88299560546875
+IsLineAboveOrSmallerThanLabel polygon line: GIVEN NAME Height * 0.7 = 11.630148696899413 label: ScanID.LabelInfo Height: 8.88299560546875
+[11:00:34] linesAll MIDDLE NAME Height:8.88299560546875
+[11:00:34] linesAll DILAGAN Height:13.160003662109375
+[11:00:34] --> MIDDLE NAME
+[11:00:34] Left:219.1324920654297 Top:204.14450073242188 Bottom:213.02749633789062
+[11:00:34] --> MIDDLE NAME
+[11:00:34] Left:219.1324920654297 Top:204.14450073242188 Bottom:213.02749633789062
+IsLineAboveOrSmallerThanLabel polygon line: MIDDLE NAME Height * 0.7 = 11.975601196289062 label: ScanID.LabelInfo Height: 8.88299560546875
+IsLineAboveOrSmallerThanLabel polygon line: MIDDLE NAME Height * 0.7 = 11.630148696899413 label: ScanID.LabelInfo Height: 8.88299560546875
+[11:00:34] linesAll SEX M DATE OF BIRTY 1977/04/29 Height:14.311492919921875
+[11:00:34] linesAll ADDRESS Height:8.225006103515625
+[11:00:34] linesAll BLKI LOT31 CEDAR ST Height:14.80499267578125
+[11:00:34] --> ADDRESS
+[11:00:34] Left:219.1324920654297 Top:243.9534912109375 Bottom:252.17849731445312
+[11:00:34] --> ADDRESS
+[11:00:34] Left:219.1324920654297 Top:243.9534912109375 Bottom:252.17849731445312
+IsLineAboveOrSmallerThanLabel polygon line: ADDRESS Height * 0.7 = 11.975601196289062 label: ScanID.LabelInfo Height: 8.225006103515625
+IsLineAboveOrSmallerThanLabel polygon line: ADDRESS Height * 0.7 = 11.630148696899413 label: ScanID.LabelInfo Height: 8.225006103515625
+[11:00:34] linesAll FILINVEST SPRING HTS SUBD Height:14.147003173828125
+[11:00:34] linesAll BAGONG SILANGAN QUEZON CITY Height:14.147003173828125
+[11:00:34] linesAll NCR PHL 1119 Height:13.8179931640625
+REPUBLIC OF THE PHILIPPINES PredictCenterYInPixel: 32.73550033569336
+Unified Multi-Purpose ID PredictCenterYInPixel: 50.583749771118164
+CRN PredictCenterYInPixel: 95.90349960327148
+SURNAME PredictCenterYInPixel: 129.95499801635742
+SURNAME PredictCenterYInPixel: 129.95499801635742
+GIVEN NAME PredictCenterYInPixel: 160.88099670410156
+GIVEN NAME PredictCenterYInPixel: 160.88099670410156
+MIDDLE NAME PredictCenterYInPixel: 208.58599853515625
+MIDDLE NAME PredictCenterYInPixel: 208.58599853515625
+ADDRESS PredictCenterYInPixel: 248.0659942626953
+ADDRESS PredictCenterYInPixel: 248.0659942626953
+[11:00:34] removed 4 lines predicted as label removed from linesField [height < labelHeightInPixel (12.304599194589489)].
+[11:00:34] removed 4 lines predicted as label removed from lsLineMerged [height < labelHeightInPixel (12.304599194589489)].
+line: REPUBLIC OF THE PHILIPPINES EstimateCenterYInInch: 0.20055904074829145
+line: UNIFIED MULTI-PURPOSE ID EstimateCenterYInInch: 0.31660182282823746
+line: CRN - 0033-55086L-0 EstimateCenterYInInch: 0.611254240854861
+line: MIRANDA EstimateCenterYInInch: 0.9139280580341727
+line: MICHAEL EstimateCenterYInInch: 1.1085804426826968
+line: DILAGAN EstimateCenterYInInch: 1.4219494504650043
+line: SEX M DATE OF BIRTY 1977/04/29 EstimateCenterYInInch: 1.5272970295410722
+line: BLKI LOT31 CEDAR ST EstimateCenterYInInch: 1.6625911522262342
+line: FILINVEST SPRING HTS SUBD EstimateCenterYInInch: 1.7438745710468848
+line: BAGONG SILANGAN QUEZON CITY EstimateCenterYInInch: 1.8294360958708515
+line: NCR PHL 1119 EstimateCenterYInInch: 1.9139280693922247
+[11:00:34] - 0033-55086L-0 --> CRN
+[11:00:34] MIRANDA --> SURNAME
+[11:00:34] MICHAEL --> GIVEN_NAME
+[11:00:34] DILAGAN --> MIDDLE_NAME
+[11:00:34] M --> SEX
+[11:00:34] 1977/04/29 --> DOB
+[11:00:34] BLKI LOT31 CEDAR ST --> ADDRESS1
+[11:00:34] FILINVEST SPRING HTS SUBD --> ADDRESS2
+[11:00:34] BAGONG SILANGAN QUEZON CITY --> ADDRESS3
+[11:00:34] NCR PHL 1119 --> ADDRESS4
+ScanPHUMIDResult: ScanID.ScanPHUMIDResult
+Exception thrown: 'System.Runtime.InteropServices.SEHException' in DlibDn47.dll
+'test1.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.11\System.Diagnostics.StackTrace.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'test1.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.11\System.Reflection.Metadata.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'test1.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.11\System.Collections.Immutable.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'test1.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.11\System.IO.MemoryMappedFiles.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+[11:00:35] ==== responseBody ====
+ {
+  "<OCR_WITH_REGION>": {
+    "labels": [
+      "PhILIPPINES",
+      "CRISOITOnO",
+      "2004/01/28"
+    ],
+    "quad_boxes": [
+      [
+        153.0,
+        13.0,
+        221.0,
+        27.0
+      ],
+      [
+        153.0,
+        110.99998474121094,
+        214.99996948242188,
+        123.0
+      ],
+      [
+        177.0,
+        121.0,
+        239.0,
+        133.0
+      ]
+    ]
+  },
+  "image_height": 178,
+  "image_width": 283
+}
+
+==========
+[11:00:35] linesAll PHILIPPINES Height:14
+[11:00:35] linesAll CRISOITONO Height:12.000015258789062
+[11:00:35] linesAll 2004/01/28 Height:12
+[11:00:35] ExtractFieldsFromReadResultOfPHUMID result NOT success
+ScanPHUMIDResult: ScanID.ScanPHUMIDResult
+[11:00:47] ==== responseBody ====
+ {
+  "<OCR_WITH_REGION>": {
+    "labels": [
+      "</s>REPUBLIC OF THE PHILIPPINES",
+      "United Multi-Purpose ID",
+      "CRN 0033-3115043-3",
+      "VILLA BUENAVENTURA SANCHEZ",
+      "MARIA CHRISTINA JOSEPINA",
+      "VILLIA CRISOSTONO",
+      "F 200/03/26",
+      "26 PANGASINAN ST BAGO BANTAY",
+      "STO CRISTO QUEZON CITY",
+      "METRO MANILA",
+      "PHILIPPINESS 3400"
+    ],
+    "quad_boxes": [
+      [
+        60.13749694824219,
+        13.439000129699707,
+        219.18348693847656,
+        13.439000129699707,
+        219.18348693847656,
+        23.58500099182129,
+        60.13749694824219,
+        23.58500099182129
+      ],
+      [
+        92.39949798583984,
+        23.58500099182129,
+        186.07249450683594,
+        23.58500099182129,
+        186.07249450683594,
+        32.840999603271484,
+        92.39949798583984,
+        32.840999603271484
+      ],
+      [
+        166.8284912109375,
+        46.36899948120117,
+        271.5384826660156,
+        46.36899948120117,
+        271.5384826660156,
+        55.625,
+        166.8284912109375,
+        55.625
+      ],
+      [
+        120.13349914550781,
+        68.61900329589844,
+        271.5384826660156,
+        68.61900329589844,
+        271.5384826660156,
+        78.40900421142578,
+        120.13349914550781,
+        78.40900421142578
+      ],
+      [
+        120.13349914550781,
+        85.35099792480469,
+        258.8034973144531,
+        85.35099792480469,
+        258.8034973144531,
+        96.03099822998047,
+        120.13349914550781,
+        96.03099822998047
+      ],
+      [
+        120.13349914550781,
+        111.69499969482422,
+        212.67449951171875,
+        111.69499969482422,
+        212.67449951171875,
+        120.95100402832031,
+        120.13349914550781,
+        120.95100402832031
+      ],
+      [
+        120.13349914550781,
+        121.48500061035156,
+        236.4464874267578,
+        121.48500061035156,
+        236.4464874267578,
+        131.0970001220703,
+        120.13349914550781,
+        131.0970001220703
+      ],
+      [
+        120.13349914550781,
+        136.25900268554688,
+        274.6514892578125,
+        136.25900268554688,
+        274.6514892578125,
+        146.0489959716797,
+        120.13349914550781,
+        146.0489959716797
+      ],
+      [
+        120.13349914550781,
+        145.15899658203125,
+        242.38949584960938,
+        145.15899658203125,
+        242.38949584960938,
+        153.88099670410156,
+        120.13349914550781,
+        153.88099670410156
+      ],
+      [
+        120.13349914550781,
+        153.88099670410156,
+        188.3365020751953,
+        153.88099670410156,
+        188.3365020751953,
+        161.3570098876953,
+        120.13349914550781,
+        161.3570098876953
+      ],
+      [
+        120.13349914550781,
+        161.3570098876953,
+        209.56149291992188,
+        161.3570098876953,
+        209.56149291992188,
+        170.07901000976562,
+        120.13349914550781,
+        170.07901000976562
+      ]
+    ]
+  }
+}
+
+==========
+[11:00:47] linesAll REPUBLIC OF THE PHILIPPINES Height:10.146000862121582
+[11:00:47] linesAll UNITED MULTI-PURPOSE ID Height:9.255998611450195
+[11:00:47] --> REPUBLIC OF THE PHILIPPINES
+[11:00:47] Left:60.13749694824219 Top:13.439000129699707 Bottom:23.58500099182129
+[11:00:47] linesAll CRN 0033-3115043-3 Height:9.256000518798828
+[11:00:47] linesAll VILLA BUENAVENTURA SANCHEZ Height:9.790000915527344
+[11:00:47] --> CRN
+[11:00:47] Left:166.8284912109375 Top:46.36899948120117 Bottom:55.625
+[11:00:47] linesAll MARIA CHRISTINA JOSEPINA Height:10.680000305175781
+[11:00:47] linesAll VILLIA CRISOSTONO Height:9.256004333496094
+[11:00:47] linesAll F 200/03/26 Height:9.61199951171875
+[11:00:47] linesAll 26 PANGASINAN ST BAGO BANTAY Height:9.789993286132812
+[11:00:47] linesAll STO CRISTO QUEZON CITY Height:8.722000122070312
+[11:00:47] linesAll METRO MANILA Height:7.47601318359375
+[11:00:47] linesAll PHILIPPINESS 3400 Height:8.722000122070312
+REPUBLIC OF THE PHILIPPINES PredictCenterYInPixel: 18.512000560760498
+CRN PredictCenterYInPixel: 50.996999740600586
+[11:00:47] removed 0 lines predicted as label removed from linesField [height < labelHeightInPixel (6.187618726750422)].
+[11:00:47] removed 0 lines predicted as label removed from lsLineMerged [height < labelHeightInPixel (6.187618726750422)].
+line: REPUBLIC OF THE PHILIPPINES EstimateCenterYInInch: 0.20999999344348907
+line: UNITED MULTI-PURPOSE ID EstimateCenterYInInch: 0.33542465127526033
+line: CRN 0033-3115043-3 EstimateCenterYInInch: 0.6299999952316284
+line: VILLA BUENAVENTURA SANCHEZ EstimateCenterYInInch: 0.921123343377452
+line: MARIA CHRISTINA JOSEPINA EstimateCenterYInInch: 1.1432054683220267
+line: VILLIA CRISOSTONO EstimateCenterYInInch: 1.474602787299643
+line: F 200/03/26 EstimateCenterYInInch: 1.6034794840973008
+line: 26 PANGASINAN ST BAGO BANTAY EstimateCenterYInInch: 1.7956438599135731
+line: STO CRISTO QUEZON CITY EstimateCenterYInInch: 1.9038082119450321
+line: METRO MANILA EstimateCenterYInInch: 2.0085206298164353
+line: PHILIPPINESS 3400 EstimateCenterYInInch: 2.1132330476878387
+[11:00:47] 0033-3115043-3 --> CRN
+[11:00:47] VILLA BUENAVENTURA SANCHEZ --> SURNAME
+[11:00:47] MARIA CHRISTINA JOSEPINA --> GIVEN_NAME
+[11:00:47] VILLIA CRISOSTONO --> GIVEN_NAME
+[11:00:47] F --> SEX
+[11:00:47] 200/03/26 --> DOB
+[11:00:47] ExtractFieldsFromReadResultOfPHUMID result NOT success
+ScanPHUMIDResult: ScanID.ScanPHUMIDResult
+The program '[25760] test1.exe' has exited with code 0 (0x0).

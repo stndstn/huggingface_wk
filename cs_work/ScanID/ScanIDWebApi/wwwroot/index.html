@@ -1,0 +1,874 @@
+<html>
+    <header>
+        <style>
+.loader {
+  border: 16px solid #f3f3f3; /* Light grey */
+  border-top: 16px solid #3498db; /* Blue */
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}            
+
+    /* Style the footer */
+    .footer {
+        clear: both;
+        width: 100%;
+        background-color: #dddddd;
+        padding: 10px;
+        text-align: center;
+    }
+    /* Style the table */
+    table {
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+    }
+
+    td, th {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 8px;
+        max-width: 99%;
+    }
+
+    tr:nth-child(even) {
+        background-color: #dddddd;
+    }
+
+    body {
+        font-size: 150%;
+    }
+    select {
+        font-size: 100%;
+    }
+    input {
+        font-size: 100%;
+    }
+    button {
+        font-size: 100%;
+    }
+        </style>
+    </header>
+    <body>
+        <div>
+            <form id="formIdImage">
+                <div>
+					<label for="country">Please choose issued country of your ID:</label>
+                    <div>
+                        <select name="country" id="country">
+                            <option value="MY">MY - Malaysia</option>
+                            <option value="PH">PH - Philippines</option>
+                        </select>    
+                    </div>
+                    <br>
+                    <div>
+                        <p>
+                            Supported ID Type: 
+                        </p>
+                        <p>
+                            <li>
+                                Malaysia: MyKad(MY), Driving License(DL)
+                            </li> 
+                        </p>
+                        <p>
+                            <li>
+                                Philippines: Driving License(DL), UMID(UI), PhilSysID(NI)       
+                            </li> 
+                        </p>
+
+                        <!--
+                        <label for="idType">Supported ID Type: MyKad, Driving License, UMID, NI (PhilSysID)</label>
+                        <div>
+                            <label for="idType">ID Type: </label>
+                            <select name="idType" id="idType">
+                                <option value="">Auto Detect</option>
+                                <option value="MyKad">MY - MyKad</option>
+                                <option value="MYDL">MY - Driving License</option>
+                                <option value="PHDL">PH - Driving License</option>
+                                <option value="PHUMID">PH - UMID</option>
+                                <option value="PHNI">PH - NI (PhilSysID)</option>
+                            </select>
+                        </div>
+                        -->        
+                        <div>
+                            <label for="ocrType">Choose OCR Type</label>
+                            <select name="ocrType" id="ocrType">
+                                <option value="OSS">Open Source - MS/Florence-2-base</option>
+                                <option value="AZV">Cloud - Azure Vision (Without Image Classification)</option>
+                                <option value="AZVIC">Cloud - Azure Vision with Image Classification</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <br/>
+                <div style="float: left; width:40%">
+                    <p>Front Image of ID</p>
+                    <div>
+                        <input type="file" id="idImageFile" name="idImage">
+                    </div>
+                    <div style="border: 1px solid #73AD21; width: 300px; height: 300px; display: flex;">
+                        <img id="imgId" src="" onerror="this.style.display='none'"
+                             style="max-width: 100%; max-height: 100%; background: lightblue no-repeat fixed center; margin-top: auto; margin-bottom: auto; margin-left: auto; margin-right: auto;">
+                    </div>    
+                    <button id="btnClearImage" onclick="document.getElementById('idImageFile').value =''" style="margin: 2px;">Clear</button>
+                </div>
+                <div  >
+                    <p>Back Image of ID (Optional)</p>
+                    <div>   
+                        <input type="file" id="idImageFileBack" name="idImageBack">
+                    </div>
+                    <div style="border: 1px solid #73AD21; width: 300px; height: 300px; display: flex;">
+                        <img id="imgIdBack" src="" onerror="this.style.display='none'"
+                             style="max-width: 100%; max-height: 100%; background: lightblue no-repeat fixed center; margin-top: auto; margin-bottom: auto; margin-left: auto; margin-right: auto;">
+                    </div>    
+                    <button id="btnClearImageBack" onclick="document.getElementById('idImageFileBack').value =''" style="margin: 2px;">Clear</button>
+                </div>
+            </form>
+            <button id="btnSubmitToRead" onclick="onClickSubmitToRead()" style="margin: 2px;" disabled>Read ID</button>
+            <button id="btnSubmitToReadBase64" onclick="onClickSubmitToReadBase64()" style="margin: 2px;" disabled>Read ID (Base64)</button>
+            <div id="divLoaderRead" class="loader" style="display: none;"></div>
+            <div style="clear:both; margin: 2px;">
+                <div id="divFaceImage" style="border: 1px solid #73AD21; width: 200px; height: 200px; display: block; float: left;">
+                    <img id="faceImageFromId" src="" onerror="this.style.display='none'"
+                         style="max-width: 100%; background: lightblue no-repeat fixed center;">
+                </div>    
+            </div>
+            <div id="divLandmarkImage" style="border: 1px solid #73AD21; width: 300px; height: 300px; display: block; float: left;">
+                <img id="landmarkImageFromId" src="" onerror="this.style.display='none'"
+                     style="max-width: 100%; background: lightblue no-repeat fixed center;">
+            </div>    
+        </div>
+        <div class="resultpane" style="clear:both; width: 90%; height: auto; margin: 2px;">
+            <div style="border-radius: 10px; border: 2px solid #808080;">
+                <div style="margin: 10px;">
+                    <div style="float: left; margin:10px;">Scan Result</div>
+                    <table id="tableRequiredFields" style="width: 100%;">
+                        <tr>
+                            <th style="width:auto;">Name</th>
+                            <th style="width:auto;">Value</th>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>        
+        <div class="landmarkpane" style="clear:both; width: 90%; height: auto; margin: 2px; float: left;">
+            <div style="border-radius: 10px; border: 2px solid #808080;">
+                <div style="margin: 10px;">
+                    <div style="float: left; margin:10px;">Landmark</div>
+                    <table id="tableLandmark" style="width: 100%;">
+                        <tr>
+                            <th style="width:40%;">Name</th>
+                            <th style="width:20%;">Expected</th>
+                            <th style="width:20%;">Detected</th>
+                            <th style="width:20%;">Distance</th>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="footerr" style="clear: both; width: 100%; background-color: #dddddd;">
+            <div id="divElapsedTime" style="display: none;"></div>
+            <p onclick="onClickResponseJson()">Response JSON</p>
+            <div id="divResultJson" style="display: none;"></div>
+        </div>
+
+
+        <script>
+            let path = window.location.pathname;
+            console.log("path:" + path);
+            let pathItems = path.split("/");
+            console.log("pathItems:" + pathItems);
+            var page = pathItems.pop();
+            console.log("page:" + page);
+            var pathWithoutPage = "";
+            pathItems.forEach((item) => {
+                console.log("item:" + item);
+                if (item) {
+                    pathWithoutPage += `/${item}`;
+                    console.log("pathWithoutPage:" + pathWithoutPage);
+                }
+            });
+            let scanIdWebApiUrl = pathWithoutPage;
+            console.log("scanIdWebApiUrl:" + scanIdWebApiUrl);
+            var timeElapsedMs = 0;
+
+            /////
+            // If use 'ekycwebapi' from the page hosted in another host, use full URL like below:
+            //const CS_EKYC_WEBAPI_URL = "https://192.168.10.131/csekycwebapi"
+            //const CS_EKYC_WEBAPI_URL = "https://192.168.10.131/csekycwebapidebug"
+            //const CS_EKYC_WEBAPI_URL = "https://mvdemo.consolsys.com/eKYCWebApi"
+            //const CS_EKYC_WEBAPI_URL = "https://localhost:7112"
+            //const CS_EKYC_WEBAPI_URL = "https://192.168.9.41/csekycwebapiazface"
+            let hostname = window.location.hostname;
+            console.log("hostname:" + hostname);
+            let CS_EKYC_WEBAPI_URL = "https://" + hostname + "/csekycwebapiazface";
+            /////
+            let imgId = document.getElementById("imgId");
+            let idImageFile = document.getElementById("idImageFile");
+            let imgIdBack = document.getElementById("imgIdBack");
+            let idImageFileBack = document.getElementById("idImageFileBack");
+            idImageFile.onchange = evt => {
+                const [file] = idImageFile.files
+                if (file) {
+                    imgId.style.display = 'block';
+                    imgId.src = URL.createObjectURL(file)
+                    document.getElementById("divResultJson").innerHTML = "";
+                    document.getElementById("divFaceImage").style.display = 'none';
+                    document.getElementById("divLandmarkImage").style.display = 'none';
+                    document.getElementById("faceImageFromId").style.display = 'none';
+                    document.getElementById("faceImageFromId").src = "";
+                    document.getElementById("btnSubmitToRead").disabled = false;
+                    document.getElementById("btnSubmitToReadBase64").disabled = false;
+                }
+            }
+            idImageFileBack.onchange = evt => {
+                const [file] = idImageFileBack.files
+                if (file) {
+                    imgIdBack.style.display = 'block';
+                    imgIdBack.src = URL.createObjectURL(file)
+                }
+            }
+
+            function onClickSubmitToRead() {
+                //alert('onClickSubmitToRead');
+                console.log('onClickSubmitToRead');
+                var countryValue = '';
+                var idTypeValue = ''; // auto detect
+                var ocrTypeValue = '';
+                var webApiUrlPath = '';
+                var dtStart = null;
+
+                // clear existing results
+                document.getElementById("faceImageFromId").src = "";
+                document.getElementById("landmarkImageFromId").src = "";
+                document.getElementById("tableRequiredFields").innerHTML = "";
+                document.getElementById("tableLandmark").innerHTML = "";
+
+                const selCountry = document.getElementById("country");
+                if (selCountry) {
+                    countryValue = selCountry.value;
+                    console.log(`countryValue: ${countryValue}`);
+                }
+                if(countryValue == '') {
+                    alert("Please select country of ID card");
+                    return;
+                }
+                
+                const selOCR = document.getElementById("ocrType");
+                if (selOCR) {
+                    ocrTypeValue = selOCR.value;
+                    console.log(`ocrTypeValue: ${ocrTypeValue}`);
+                }
+                switch(ocrTypeValue){
+                    case 'OSS': 
+                        webApiUrlPath = scanIdWebApiUrl + "/ScanTextFromIDImageFile"; break;
+                    case 'AZV': 
+                        webApiUrlPath = scanIdWebApiUrl + "/ScanTextFromIDImageFileAz"; break;
+                    case 'AZVIC': 
+                        webApiUrlPath = CS_EKYC_WEBAPI_URL + '/ScanTextFromIDImageFile'; break;
+                    default: alert("Please select OCR type"); return;
+                }
+
+                /*
+                const selIdType = document.getElementById("idType");
+                if (selIdType) {
+                    idTypeValue = selIdType.value;
+                }
+                if(idTypeValue == '') {
+                    //alert("Please select ID type");
+                    //return;
+                }
+                */
+
+                // Get the form element
+                const formIdImage = document.getElementById("formIdImage");
+
+                const xhr = new XMLHttpRequest();
+
+                // Bind the FormData object and the form element
+                const fromDataIdImage = new FormData(formIdImage);
+                console.log(fromDataIdImage);
+
+                // Define what happens on successful data submission
+                xhr.addEventListener("load", (event) => {
+                    let dtEnd = Date.now();
+                    //document.getElementById('divElapsedTime').style.display = 'block';
+                    timeElapsedMs = dtEnd - dtStart;
+                    console.log("elapsed time", timeElapsedMs);
+                    //document.getElementById("divElapsedTime").innerHTML = `${dtEnd - dtStart} ms`;
+                    
+                    document.getElementById('divLoaderRead').style.display = 'none';
+                    console.log("load", event);
+                    //alert('load: ' + event.target.responseText);
+                    document.getElementById("divResultJson").innerHTML = `${event.target.responseText}`;
+                    let jsonResult = JSON.parse(event.target.responseText);
+                    if (jsonResult) {
+                        refreshScanIDResult(jsonResult, countryValue, idTypeValue);
+                    }
+                });
+
+                // Define what happens in case of error
+                xhr.addEventListener("error", (event) => {
+                    document.getElementById('divLoaderRead').style.display = 'none';
+                    console.log("error", event);
+                    alert("Oops! Something went wrong.");
+                });
+
+                // Set up our request
+                xhr.open("POST", webApiUrlPath, true);
+
+                //XHR.setRequestHeader("Content-type", "application/json");
+                //XHR.setRequestHeader('Authorization', 'bearer ' + $scope.values.access_token);
+                xhr.onreadystatechange = function () {
+                    console.log('ScanTextFromIDImageFile XHR.readyState:' + xhr.readyState + ' XHR.status:' + xhr.status);
+                    if (xhr.readyState == 4) {
+                        console.log('ScanTextFromIDImageFile XHR.responseText:' + xhr.responseText);
+                        if (xhr.status == 200) {
+                            if (xhr.responseText) {
+                                /*
+                                let jsonResults = JSON.parse(XHR.responseText);
+                                const divResult = document.getElementById("divResult");
+                                divResultJson.innerHTML = XHR.responseText;
+                                */
+                            }
+                        }
+                    }
+                }
+
+                // The data sent is what the user provided in the form
+                console.log("send", fromDataIdImage);
+                console.log("FD", JSON.stringify(fromDataIdImage));
+                //alert('send: ' + fromDataIdImage);
+                document.getElementById('divLoaderRead').style.display = 'block';
+                dtStart = Date.now();
+                refreshScanIDResult(null, null, null);
+                xhr.send(fromDataIdImage);
+            }            
+
+            function onClickSubmitToReadBase64() {
+                //alert('onClickSubmitToRead');
+                console.log('onClickSubmitToReadBase64');
+                var countryValue = '';
+                var idTypeValue = '';
+                var webApiUrlPath = '';
+                var dtStart = null;
+
+                // clear existing results
+                document.getElementById("faceImageFromId").src = "";
+                document.getElementById("landmarkImageFromId").src = "";
+                document.getElementById("tableRequiredFields").innerHTML = "";
+                document.getElementById("tableLandmark").innerHTML = "";
+
+                const selCountry = document.getElementById("country");
+                if (selCountry) {
+                    countryValue = selCountry.value;
+                    console.log(`countryValue: ${countryValue}`);
+                }
+                if(countryValue == '') {
+                    alert("Please select ID type");
+                    return;
+                } 
+                
+                const selOCR = document.getElementById("ocrType");
+                if (selOCR) {
+                    ocrTypeValue = selOCR.value;
+                    console.log(`ocrTypeValue: ${ocrTypeValue}`);
+                }
+                switch(ocrTypeValue){
+                    case 'OSS': 
+                        webApiUrlPath = scanIdWebApiUrl + "/ScanTextFromIDImageBase64"; break;
+                    case 'AZV': 
+                        webApiUrlPath = scanIdWebApiUrl + "/ScanTextFromIDImageBase64Az"; break;
+                    case 'AZVIC': 
+                        webApiUrlPath = CS_EKYC_WEBAPI_URL + '/ScanTextFromIDImageBase64'; break;
+                    default: alert("Please select OCR type"); return;
+                }
+                
+                /*
+                const selIdType = document.getElementById("idType");
+                if (selIdType) {
+                    idTypeValue = selIdType.value;
+                }
+                if(idTypeValue == '') {
+                    //alert("Please select ID type");
+                    //return;
+                }
+                */
+                idTypeValue = ''; //auto detect
+
+                // Get the form element
+                const xhr = new XMLHttpRequest();
+
+                // Define what happens on successful data submission
+                xhr.addEventListener("load", (event) => {
+                    let dtEnd = Date.now();
+                    console.log("elapsed time", dtEnd - dtStart);
+                    //document.getElementById('divElapsedTime').style.display = 'block';
+                    timeElapsedMs = dtEnd - dtStart;
+                    console.log("elapsed time", timeElapsedMs);
+                    //document.getElementById("divElapsedTime").innerHTML = `${dtEnd - dtStart} ms`;
+
+                    document.getElementById('divLoaderRead').style.display = 'none';
+                    console.log("load", event);
+                    //alert('load: ' + event.target.responseText);
+                    document.getElementById("divResultJson").innerHTML = `${event.target.responseText}`;
+
+                    let jsonResult = JSON.parse(event.target.responseText);
+                    if (jsonResult) {
+                        refreshScanIDResult(jsonResult, countryValue, idTypeValue);
+                    }
+                });
+
+                // Define what happens in case of error
+                xhr.addEventListener("error", (event) => {
+                    document.getElementById('divLoaderRead').style.display = 'none';
+                    console.log("error", event);
+                    alert("Oops! Something went wrong.");
+                });
+
+                // Set up our request
+                xhr.open("POST", webApiUrlPath, true);
+                xhr.setRequestHeader("Content-Type", "application/json;charset=UTF-8");
+                //XHR.setRequestHeader('Authorization', 'bearer ' + $scope.values.access_token);
+                xhr.onreadystatechange = function () {
+                    console.log('ScanTextFromIDImageBase64 XHR.readyState:' + xhr.readyState + ' XHR.status:' + xhr.status);
+                    if (xhr.readyState == 4) {
+                        console.log('ScanTextFromIDImageBase64 XHR.responseText:' + xhr.responseText);
+                        if (xhr.status == 200) {
+                            if (xhr.responseText) {
+                                /*
+                                let jsonResults = JSON.parse(XHR.responseText);
+                                const divResult = document.getElementById("divResult");
+                                divResultJson.innerHTML = XHR.responseText;
+                                */
+                            }
+                        }
+                    }
+                }
+
+                // The data sent is what the user provided in the form                
+                const idImageFile = document.getElementById("idImageFile");
+                const [file] = idImageFile.files;
+                const idImageFileBack = document.getElementById("idImageFileBack");
+                const [fileBack] = idImageFileBack.files;
+                var b64 = "";
+                //var b64Back = "";
+                if (file) {
+                    console.log('file: ' + file);
+                    // convert data URL of front image to base64
+                    toDataURLBase64(file)
+                        .then((dataUrl) => {
+                            //console.log('Front dataUrl: ' + dataUrl);
+                            if (dataUrl) {
+                                b64 = dataUrl.replace(/^data:image\/(png|jpg|jpeg);base64,/, "");
+                                //console.log('b64: ' + b64);
+                                //console.log('fileBack: ' + fileBack);
+                                if (fileBack) {
+                                    // convert data URL of back image to base64
+                                    return toDataURLBase64(fileBack);
+                                }
+                                else {
+                                    // send without back image
+                                    console.log("send without back image");
+                                    const jsonData = { 'country': countryValue, 'idType': idTypeValue, 'base64': b64 };
+                                    //console.log("jsonData", jsonData);
+                                    strJsonData = JSON.stringify(jsonData);
+                                    //console.log("send strJsonData", strJsonData);
+                                    //alert('send: ' + fromDataIdImage);
+                                    document.getElementById('divLoaderRead').style.display = 'block';
+                                    dtStart = Date.now();
+                                    refreshScanIDResult(null, null, null);
+                                    xhr.send(strJsonData);
+                                    return;
+                                }
+                            }
+                            else {
+                                alert("Failed to convert image");
+                                return;
+                            }
+                        })
+                        .then((dataUrl) => {
+                            console.log('Back dataUrl: ' + dataUrl);
+                            if (dataUrl) {
+                                // result of above 'return toDataURLBase64(fileBack)' falls to here
+                                // back image converted to base64. Now, submit front and back image
+                                console.log("send with back image");
+                                b64Back = dataUrl.replace(/^data:image\/(png|jpg|jpeg);base64,/, "");
+                                //console.log('b64Back: ' + b64Back);
+                                const jsonData = { 'country': countryValue, 'idType': idTypeValue, 'base64': b64, 'base64Back': b64Back };
+                                //console.log("jsonData", jsonData);
+                                strJsonData = JSON.stringify(jsonData);
+                                //console.log("send strJsonData", strJsonData);
+                                //alert('send: ' + fromDataIdImage);
+                                document.getElementById('divLoaderRead').style.display = 'block';
+                                dtStart = Date.now();
+                                refreshScanIDResult(null, null, null);
+                                xhr.send(strJsonData);
+                            }
+                            return;
+                        })
+                        .catch((err) => {
+                            console.log("error", err);
+                            alert("error:" + err);
+                        });
+                }
+            }
+
+            const dicIdTypeValidFields = {
+                MyKad: ['lastNameOrFullName', 'documentNumber', 'nationality', 'dateOfBirth', 'gender', 'addressLine1', 'addressLine2', 'postcode'],
+                MYDL: ['lastNameOrFullName', 'documentNumber', 'nationality', 'documentIssueDate', 'documentExpirationDate', 'addressLine1', 'addressLine2', 'postcode'],
+                PHDL: ['lastNameOrFullName', 'firstName', 'middleName', 'documentNumber', 'nationality', 'gender', 'dateOfBirth', 'documentExpirationDate', 'addressLine1', 'addressLine2'],
+                PHUMID: ['lastNameOrFullName', 'firstName', 'middleName', 'documentNumber', 'nationality', 'gender', 'dateOfBirth', 'documentExpirationDate', 'addressLine1', 'addressLine2', 'postcode'],
+                PHNI: ['lastNameOrFullName', 'firstName', 'middleName', 'documentNumber', 'nationality', 'gender', 'dateOfBirth', 'placeOfBirth', 'maritalStatus', 'documentIssueDate', 'addressLine1', 'addressLine2'],
+            };
+            function refreshScanIDResult(jsonResult, countryValue, idTypeValue) {
+                console.log('refreshScanIDResult countryValue:', countryValue, ' idTypeValue:', idTypeValue);
+                let tableRequiredFields = document.getElementById("tableRequiredFields");
+                var tblReqFieldsContent = "";
+                tblReqFieldsContent += "<tr>";
+                tblReqFieldsContent += "<th style=\"width: auto;\">Name</th>";
+                tblReqFieldsContent += "<th style=\"width: auto;\">Value</th>";
+                tblReqFieldsContent += "</tr>";
+
+                let tableLandmark = document.getElementById("tableLandmark");
+                var tblLandmarkFieldsContent = "";
+                tblLandmarkFieldsContent += "<tr>";
+                tblLandmarkFieldsContent += "<th style=\"width: 40%;\">Name</th>";
+                tblLandmarkFieldsContent += "<th style=\"width: 20%;\">Expected</th>";
+                tblLandmarkFieldsContent += "<th style=\"width: 20%;\">Detected</th>";
+                tblLandmarkFieldsContent += "<th style=\"width: 20%;\">Distance</th>";
+                tblLandmarkFieldsContent += "</tr>";
+
+                if (!jsonResult) {
+                    // clear data
+                    tableRequiredFields.innerHTML = tblReqFieldsContent;
+                    tableLandmark.innerHTML = tblLandmarkFieldsContent;
+
+                    document.getElementById("divFaceImage").style.display = 'none';
+                    document.getElementById("faceImageFromId").style.display = 'none';
+                    document.getElementById("faceImageFromId").src = ``;
+
+                    document.getElementById("divLandmarkImage").style.display = 'none';
+                    document.getElementById("landmarkImageFromId").style.display = 'none';
+                    document.getElementById("landmarkImageFromId").src = ``;
+                    return;
+                }
+
+                if(!idTypeValue){
+                    let documentType = jsonResult['documentType'];
+                    let country = jsonResult['country'];
+                    console.log('refreshScanIDResult country:', country, ' documentType:', documentType);
+                    if(documentType && country){
+                        //idTypeValue = documentType + country;
+                        switch(country){
+                        case 'MY':
+                            switch(documentType){
+                            case 'DL':
+                                idTypeValue = 'MYDL';
+                                break;
+                            case 'MY':
+                                idTypeValue = 'MyKad';
+                                break;
+                            default:
+                                console.log("refreshScanIDResult - Unknown documentType:", documentType);
+                                break;
+                            }
+                            break;
+                        case 'PH':
+                            switch(documentType){
+                            case 'DL':
+                                idTypeValue = 'PHDL';
+                                break;
+                            case 'UI':
+                                idTypeValue = 'PHUMID';
+                                break;
+                            case 'NI':
+                                idTypeValue = 'PHNI';
+                                break;
+                            default:
+                                console.log("refreshScanIDResult - Unknown documentType:", documentType);
+                                break;
+                            }
+                            break;
+                        default:
+                            console.log("refreshScanIDResult - Unknown country:", country);
+                            break;
+                        }
+                    }
+                    console.log('refreshScanIDResult idTypeValue -->', idTypeValue);
+                }
+
+                console.log("refreshScanIDResult", 'success', jsonResult['success']);
+                tblReqFieldsContent += "<tr>";
+                tblReqFieldsContent += `<td>Result</td>`;
+                tblReqFieldsContent += `<td>${JSON.stringify(jsonResult['success'])}</td>`;
+                tblReqFieldsContent += "</tr>";
+                if(jsonResult['success'] != true){
+                    console.log("refreshScanIDResult", 'error', jsonResult['error']);
+                    if(jsonResult['error']){
+                        tblReqFieldsContent += "<tr>";
+                        tblReqFieldsContent += `<td>Error</td>`;
+                        tblReqFieldsContent += `<td>${JSON.stringify(jsonResult['error'])}</td>`;
+                        tblReqFieldsContent += "</tr>";
+                    }
+                    else {
+                        // something wrong...
+                        tblReqFieldsContent += "<tr>";
+                        tblReqFieldsContent += `<td>Error</td>`;
+                        tblReqFieldsContent += `<td>${JSON.stringify(jsonResult)}</td>`;
+                        tblReqFieldsContent += "</tr>";
+                        tableRequiredFields.innerHTML = tblReqFieldsContent;
+                        return;
+                    }
+                }
+
+                if(!idTypeValue){
+                    // something wrong...
+                    tblReqFieldsContent += "<tr>";
+                    tblReqFieldsContent += `<td>ID Type</td>`;
+                    tblReqFieldsContent += `<td>${idTypeValue} Unknown ID type. Please check if the country of your ID is choosed properly.</td>`;
+                    tblReqFieldsContent += "</tr>";
+                    tableRequiredFields.innerHTML = tblReqFieldsContent;
+                    return;
+                }
+
+                var fieldsToShow = dicIdTypeValidFields[idTypeValue];
+                if(fieldsToShow.length == 0){
+                    tblReqFieldsContent += "<tr>";
+                    tblReqFieldsContent += `<td>ID Type</td>`;
+                    tblReqFieldsContent += `<td>${idTypeValue}</td>`;
+                    tblReqFieldsContent += "</tr>";
+                    tableRequiredFields.innerHTML = tblReqFieldsContent;
+                    //alert('No field list found for ' + idTypeValue);
+                    fieldsToShow = [];
+                    var i = 0
+                    for(var k in jsonResult){
+                        console.log(`k: ${k}, jsonResult[${k}]:`, jsonResult[k]); 
+                        fieldsToShow[i++] =  k;
+                    }
+                    console.log('fieldsToShow:', fieldsToShow);
+                }
+                for (let field of fieldsToShow) {
+                    console.log("refreshScanIDResult", field, jsonResult[field]);
+                    tblReqFieldsContent += "<tr>";
+                    tblReqFieldsContent += `<td>${field}</td>`;
+                    tblReqFieldsContent += `<td>${JSON.stringify(jsonResult[field])}</td>`;
+                    tblReqFieldsContent += "</tr>";
+                }
+                /*
+                console.log("refreshScanIDResult", 'lastNameOrFullName', jsonResult['lastNameOrFullName']);
+                tblReqFieldsContent += "<tr>";
+                tblReqFieldsContent += `<td>Name</td>`;
+                tblReqFieldsContent += `<td>${JSON.stringify(jsonResult['lastNameOrFullName'])}</td>`;
+                tblReqFieldsContent += "</tr>";
+
+                console.log("refreshScanIDResult", 'documentNumber', jsonResult['documentNumber']);
+                tblReqFieldsContent += "<tr>";
+                tblReqFieldsContent += `<td>ID Number</td>`;
+                tblReqFieldsContent += `<td>${JSON.stringify(jsonResult['documentNumber'])}</td>`;
+                tblReqFieldsContent += "</tr>";
+
+                console.log("refreshScanIDResult", 'nationality', jsonResult['nationality']);
+                tblReqFieldsContent += "<tr>";
+                tblReqFieldsContent += `<td>Nationality</td>`;
+                tblReqFieldsContent += `<td>${JSON.stringify(jsonResult['nationality'])}</td>`;
+                tblReqFieldsContent += "</tr>";
+
+                console.log("refreshScanIDResult", 'dateOfBirth', jsonResult['dateOfBirth']);
+                tblReqFieldsContent += "<tr>";
+                tblReqFieldsContent += `<td>Date Of Birth</td>`;
+                tblReqFieldsContent += `<td>${JSON.stringify(jsonResult['dateOfBirth'])}</td>`;
+                tblReqFieldsContent += "</tr>";
+
+                console.log("refreshScanIDResult", 'gender', jsonResult['gender']);
+                tblReqFieldsContent += "<tr>";
+                tblReqFieldsContent += `<td>Gender</td>`;
+                tblReqFieldsContent += `<td>${JSON.stringify(jsonResult['gender'])}</td>`;
+                tblReqFieldsContent += "</tr>";
+
+                console.log("refreshScanIDResult", 'addressLine1', jsonResult['addressLine1']);
+                tblReqFieldsContent += "<tr>";
+                tblReqFieldsContent += `<td>AddressLine1</td>`;
+                tblReqFieldsContent += `<td>${JSON.stringify(jsonResult['addressLine1'])}</td>`;
+                tblReqFieldsContent += "</tr>";
+
+                console.log("refreshScanIDResult", 'addressLine2', jsonResult['addressLine2']);
+                tblReqFieldsContent += "<tr>";
+                tblReqFieldsContent += `<td>AddressLine2</td>`;
+                tblReqFieldsContent += `<td>${JSON.stringify(jsonResult['addressLine2'])}</td>`;
+                tblReqFieldsContent += "</tr>";
+
+                console.log("refreshScanIDResult", 'postcode', jsonResult['postcode']);
+                tblReqFieldsContent += "<tr>";
+                tblReqFieldsContent += `<td>Postcode</td>`;
+                tblReqFieldsContent += `<td>${JSON.stringify(jsonResult['postcode'])}</td>`;
+                tblReqFieldsContent += "</tr>";
+                */                
+                tableRequiredFields.innerHTML = tblReqFieldsContent;
+
+                document.getElementById("divFaceImage").style.display = 'block';
+                document.getElementById("faceImageFromId").style.display = 'block';
+                document.getElementById("faceImageFromId").src = `data:image/jpeg;base64, ${jsonResult['faceImageBase64']}`;
+
+                document.getElementById("divLandmarkImage").style.display = 'block';
+                document.getElementById("landmarkImageFromId").style.display = 'block';
+                document.getElementById("landmarkImageFromId").src = `data:image/jpeg;base64, ${jsonResult['landmarkImageBase64']}`;
+
+                let jsonMatchTemplateResults = jsonResult['matchTemplateResults'];
+                console.log("jsonMatchTemplateResults", jsonMatchTemplateResults);
+                for(var k in jsonMatchTemplateResults) {
+                    console.log(k, jsonMatchTemplateResults[k]);
+                    let jsonMatchTemplateResult = jsonMatchTemplateResults[k];
+                    let jsonMatchTemplateInfo = jsonMatchTemplateResult['matchTemplateInfo'];
+                    console.log('matchTemplateInfo', jsonMatchTemplateInfo);
+                    if(jsonMatchTemplateInfo) {
+                        tblLandmarkFieldsContent += "<tr>";                        
+                        tblLandmarkFieldsContent += `<td>${jsonMatchTemplateInfo['title']}</td>`;
+                        tblLandmarkFieldsContent += `<td>${jsonMatchTemplateInfo['matchThreshold'].toFixed(2)}</td>`;
+                        tblLandmarkFieldsContent += `<td>${jsonMatchTemplateInfo['matchResult'].toFixed(2)}</td>`;
+                        tblLandmarkFieldsContent += `<td>${jsonMatchTemplateInfo['distanceFromExpectedCenterInInch'].toFixed(4)}</td>`;
+                        tblLandmarkFieldsContent += "</tr>";                        
+                    }
+                }
+                tableLandmark.innerHTML = tblLandmarkFieldsContent;
+                var htmlElappsedTime = "<table>";
+
+                if (jsonResult['timeElapsedTotal'])
+                    htmlElappsedTime += `<tr><td>Server Process Total</td><td>${jsonResult['timeElapsedTotal']} ms</td></tr>`;
+                if (jsonResult['timeElapsedOCR'])
+                    htmlElappsedTime += `<tr><td>&nbsp;&nbsp;OCR</td><td>${jsonResult['timeElapsedOCR']} ms</td></tr>`;
+                if (jsonResult['timeElapsedFaceDetection'])
+                    htmlElappsedTime += `<tr><td>&nbsp;&nbsp;FaceDetection</td><td>${jsonResult['timeElapsedFaceDetection']} ms</td></tr>`;
+                if (jsonResult['timeElapsedLandmarkDetection'])
+                    htmlElappsedTime += `<tr><td>&nbsp;&nbsp;LandmarkDetection</td><td>${jsonResult['timeElapsedLandmarkDetection']} ms</td></tr>`;
+                htmlElappsedTime += `<tr><td>Elapsed Total</td><td>${timeElapsedMs} ms</td></tr></table>`;
+                console.log(`OCR ${jsonResult['timeElapsedOCR']} FaceDetection ${jsonResult['timeElapsedFaceDetection']} LandmarkDetection ${jsonResult['timeElapsedLandmarkDetection']} Process Total ${jsonResult['timeElapsedTotal']}`);
+                //console.log("htmlElappsedTime:" + htmlElappsedTime);
+                document.getElementById('divElapsedTime').style.display = 'block';
+                document.getElementById("divElapsedTime").innerHTML = htmlElappsedTime;
+            }
+            /*
+            function refreshScanMyKadResult(jsonResult, idTypeValue) {
+                let tableRequiredFields = document.getElementById("tableRequiredFields");
+                var tblReqFieldsContent = "";
+                tblReqFieldsContent += "<tr>";
+                tblReqFieldsContent += "<th style=\"width: auto;\">Name</th>";
+                tblReqFieldsContent += "<th style=\"width: auto;\">Value</th>";
+                tblReqFieldsContent += "</tr>";
+
+                console.log("refreshScanMyKadResult", 'success', jsonResult['success']);
+                tblReqFieldsContent += "<tr>";
+                tblReqFieldsContent += `<td>Result</td>`;
+                tblReqFieldsContent += `<td>${JSON.stringify(jsonResult['success'])}</td>`;
+                tblReqFieldsContent += "</tr>";
+                if(jsonResult['success'] != true){
+                    console.log("refreshScanMyKadResult", 'error', jsonResult['error']);
+                    if(jsonResult['error']){
+                        tblReqFieldsContent += "<tr>";
+                        tblReqFieldsContent += `<td>Error</td>`;
+                        tblReqFieldsContent += `<td>${JSON.stringify(jsonResult['error'])}</td>`;
+                        tblReqFieldsContent += "</tr>";
+                    }
+                    else {
+                        // something wrong...
+                        tblReqFieldsContent += "<tr>";
+                        tblReqFieldsContent += `<td>Error</td>`;
+                        tblReqFieldsContent += `<td>${JSON.stringify(jsonResult)}</td>`;
+                        tblReqFieldsContent += "</tr>";
+                        tableRequiredFields.innerHTML = tblReqFieldsContent;
+                        return;
+                    }
+                }
+
+                var fieldsToShow = dicIdTypeValidFields[idTypeValue];
+                if(!fieldsToShow || fieldsToShow.length == 0){
+                    //alert('No field list found for ' + idTypeValue);
+                    fieldsToShow = [];
+                    var i = 0
+                    for(var k in jsonResult){
+                        console.log(`k: ${k}, jsonResult[${k}]:`, jsonResult[k]); 
+                        fieldsToShow[i++] =  k;
+                    }
+                    console.log('fieldsToShow:', fieldsToShow);
+                }
+                for (let field of fieldsToShow) {
+                    console.log("refreshScanMyKadResult", field, jsonResult[field]);
+                    tblReqFieldsContent += "<tr>";
+                    tblReqFieldsContent += `<td>${field}</td>`;
+                    tblReqFieldsContent += `<td>${JSON.stringify(jsonResult[field])}</td>`;
+                    tblReqFieldsContent += "</tr>";
+                }
+                tableRequiredFields.innerHTML = tblReqFieldsContent;
+
+                document.getElementById("divFaceImage").style.display = 'block';
+                document.getElementById("faceImageFromId").style.display = 'block';
+                document.getElementById("faceImageFromId").src = `data:image/jpeg;base64, ${jsonResult['faceImageBase64']}`;
+
+                document.getElementById("divLandmarkImage").style.display = 'block';
+                document.getElementById("landmarkImageFromId").style.display = 'block';
+                document.getElementById("landmarkImageFromId").src = `data:image/jpeg;base64, ${jsonResult['landmarkImageBase64']}`;
+
+                let tableLandmark = document.getElementById("tableLandmark");
+                var tblLandmarkFieldsContent = "";
+                tblLandmarkFieldsContent += "<tr>";
+                tblLandmarkFieldsContent += "<th style=\"width: 40%;\">Name</th>";
+                tblLandmarkFieldsContent += "<th style=\"width: 20%;\">Expected</th>";
+                tblLandmarkFieldsContent += "<th style=\"width: 20%;\">Detected</th>";
+                tblLandmarkFieldsContent += "<th style=\"width: 20%;\">Distance</th>";
+                tblLandmarkFieldsContent += "</tr>";
+                let jsonMatchTemplateResults = jsonResult['matchTemplateResults'];
+                console.log("jsonMatchTemplateResults", jsonMatchTemplateResults);
+                for(var k in jsonMatchTemplateResults) {
+                    console.log(k, jsonMatchTemplateResults[k]);
+                    let jsonMatchTemplateResult = jsonMatchTemplateResults[k];
+                    let jsonMatchTemplateInfo = jsonMatchTemplateResult['matchTemplateInfo'];
+                    console.log('matchTemplateInfo', jsonMatchTemplateInfo);
+                    if(jsonMatchTemplateInfo) {
+                        tblLandmarkFieldsContent += "<tr>";                        
+                        tblLandmarkFieldsContent += `<td>${jsonMatchTemplateInfo['title']}</td>`;
+                        tblLandmarkFieldsContent += `<td>${jsonMatchTemplateInfo['matchThreshold'].toFixed(2)}</td>`;
+                        tblLandmarkFieldsContent += `<td>${jsonMatchTemplateInfo['matchResult'].toFixed(2)}</td>`;
+                        tblLandmarkFieldsContent += `<td>${jsonMatchTemplateInfo['distanceFromExpectedCenterInInch'].toFixed(4)}</td>`;
+                        tblLandmarkFieldsContent += "</tr>";                        
+                    }
+                }
+                tableLandmark.innerHTML = tblLandmarkFieldsContent;
+            }            
+            */
+
+            function onClickResponseJson() {
+                console.log("onClickResponseJson");
+                // toggle display of divResultJson
+                if (divResultJson.style.display == "none") {
+                    divResultJson.style.display = "block";
+                }
+                else {
+                    divResultJson.style.display = "none";
+                }
+            }
+
+            const toDataURLBase64 = file => new Promise((resolve, reject) => {
+                const reader = new FileReader();
+                reader.readAsDataURL(file);
+                reader.onload = () => resolve(reader.result);
+                reader.onerror = reject;
+            });
+
+        </script>
+    </body>
+</html>

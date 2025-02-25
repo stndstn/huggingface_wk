@@ -1,0 +1,157 @@
+MYDL_TZ1145051_Test1.jpg 
+	OmniParser		(8.3982581 sec)
+		[1]
+		  Scanned Data: documentNumber: TZ145051JPN
+		  Expected    : documentNumber: TZ1145051JPN
+		  
+	Florence-base	(14.2424326 sec)
+		[1]
+		  Scanned Data: documentNumber: TZ1114505JJPN
+		  Expected    : documentNumber: TZ1145051JPN
+
+		[2]
+		  Scanned Data: addressLine1: 42-12F CITY BINTANG
+		  Expected    : addressLine1: 42-12F CITY TOWER
+
+		[3]
+		  Scanned Data: addressLine2: ALOR KUALA LUMPUR WILAYAH PERSEKUTUAN KUALALA LUMPUR
+		  Expected    : addressLine2: JLN ALOR BKT BINTANG KUALA LUMPUR WILAYAH PERSEKUTUAN KUALA LUMPUR
+
+		[4]
+		  Scanned Data: postcode:
+		  Expected    : postcode: 50200
+
+	Azure OCR 	(3.5 sec)
+
+	
+MYDL_TZ1145051_Test2.jpg
+	OmniParser		(2.9161533 sec)
+		Failed
+		  
+	Florence-base	(14.7655839 sec)
+		[1]
+		  Scanned Data: documentNumber: TZ1114505JJPN
+		  Expected    : documentNumber: TZ1145051JPN
+		[4]
+		  Scanned Data: postcode:
+		  Expected    : postcode: 50200
+
+	Azure OCR 	(2.1 sec)
+	
+MYDL_TZ1145051_Test3
+	OmniParser		(1.2768817 sec)
+		Failed
+		  
+	Florence-base	(11.9640623 sec)
+		[1]
+		  Scanned Data: documentNumber: TZ1114505JJPN
+		  Expected    : documentNumber: TZ1145051JPN
+
+	Azure OCR 	(4.2 sec)
+
+
+MYDL_810701105740_hologram_Test1.jpg
+
+MYDL_810701105740_hologram_Test2.jpg
+
+MYKAD_730818-13-5230_Test1.jpg
+	OmniParser		(7.9992338 sec)
+		OK
+		  
+	Florence-base	(11.9640623 sec)
+		73018-13-5230 --> 730818-13-5230
+
+	Azure OCR 	(2.2 sec)
+	
+MYKAD_730818-13-5230_Test2.jpg
+	OmniParser		(2.7256845 sec)
+		OK
+		  
+	Florence-base	(12.5188892 sec)
+		73018-13-5230 --> 730818-13-5230
+
+	Azure OCR 	(2.0 sec)
+
+
+MYKAD_730818-13-5230_Test3.jpg
+	OmniParser		(2.7256845 sec)
+		Failed (too small)
+		  
+	Florence-base	(12.5188892 sec)
+		73018-13-5230 --> 730818-13-5230
+
+	Azure OCR 	(1.7 sec)
+
+
+PhilID_2031-8439-2460-5291_Test1.jpg
+PhilID_2031-8439-2460-5291_Test1_Back.jpg
+	OmniParser		(3.0120233 sec, 7.2250076 sec)
+		Failed (wrong logic)
+		  
+	Florence-base	(14.4761234 sec, 10.100113 sec)
+		Failed (wrong logic)
+
+	Azure OCR 	(4.8 sec)
+
+
+PhilID_2031-8439-2460-5291_Test2.jpg
+PhilID_2031-8439-2460-5291_Test2_Back.jpg
+	OmniParser		(1.4946304 sec, 2.2472366 sec)
+		Failed (wrong logic)
+		  
+	Florence-base	(14.6408704 sec, 12.5930281 sec)
+		Failed (wrong logic)
+
+	Azure OCR 	(4.3 sec)
+
+
+PhilID_5931-9426-7546-1037_Test1.jpg
+PhilID_5931-9426-7546-1037_Test1_Back.jpg
+	OmniParser		(8.1852573 sec, 7.4236035 sec)
+		Failed (wrong logic)
+		  
+	Florence-base	(16.0755553 sec, 12.5240223 sec)
+		[1]
+		  Scanned Data: firstName: Mga Pelanggan/Gian/Names
+		  Expected    : firstName: CHRISTIAN MARX
+
+		[2]
+		  Scanned Data: middleName: CHRISTIAN MARX
+		  Expected    : middleName: LOZADA
+
+	Azure OCR 	(4.8 sec)
+
+
+PhilID_5931-9426-7546-1037_Test2.jpg
+PhilID_5931-9426-7546-1037_Test2_Back.jpg
+	OmniParser		(3.07 sec, 2.24 sec)
+		Failed (wrong logic)
+		  
+	Florence-base	(15.8 sec, 12.5 sec)
+		[1]
+		  Scanned Data: firstName: Mla Pangalgan/Gian/Names
+		  Expected    : firstName: CHRISTIAN MARX
+
+		[2]
+		  Scanned Data: middleName: CHRISTIAN MARX
+		  Expected    : middleName: LOZADA
+
+	Azure OCR 	(4.0 sec)
+
+
+PHDL1_Test1.jpg
+	OmniParser		(3.07 sec, 2.24 sec)
+		Failed (wrong logic)
+		  
+	Florence-base	(15.8 sec, 12.5 sec)
+		[1]
+		  Scanned Data: firstName: Mla Pangalgan/Gian/Names
+		  Expected    : firstName: CHRISTIAN MARX
+
+		[2]
+		  Scanned Data: middleName: CHRISTIAN MARX
+		  Expected    : middleName: LOZADA
+
+	Azure OCR 	(4.0 sec)
+
+

@@ -1,0 +1,24 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScanIDWebApi", "ScanIDWebApi.csproj", "{A432CF0C-7D59-3E02-375A-D5FEB84495EE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A432CF0C-7D59-3E02-375A-D5FEB84495EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A432CF0C-7D59-3E02-375A-D5FEB84495EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A432CF0C-7D59-3E02-375A-D5FEB84495EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A432CF0C-7D59-3E02-375A-D5FEB84495EE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E0D149F6-0CE1-4014-862E-6CF0BA09CEBF}
+	EndGlobalSection
+EndGlobal

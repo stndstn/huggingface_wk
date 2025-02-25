@@ -1,0 +1,17 @@
+ScanID imageFileName: F:\WORK\Dev\huggingface\work\ScanID\test1\bin\Debug\net8.0\testdata\MYDL_810701105740_hologram_Test2.jpg
+	Azure nationality
+
+ScanID imageFileName: F:\WORK\Dev\huggingface\work\ScanID\test1\bin\Debug\net8.0\testdata\CRN-0111-8184420-7_Test1.jpg
+	Azure dateOfBirth 
+
+ScanID imageFileName: F:\WORK\Dev\huggingface\work\ScanID\test1\bin\Debug\net8.0\testdata\CRN-0111-2588996-9_Test1.jpg
+	OSS Document Number
+	
+ScanID imageFileName: F:\WORK\Dev\huggingface\work\ScanID\test1\bin\Debug\net8.0\testdata\CRN-0111-2588996-9_Test1.jpg
+	OSS Document Number, postcode
+	Azure postcode
+	
+ScanID imageFileName: F:\WORK\Dev\huggingface\work\ScanID\test1\bin\Debug\net8.0\testdata\CRN-0033-5508686-0_Test1.jpg
+	Azure postcode
+	
+	

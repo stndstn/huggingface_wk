@@ -1,0 +1,1842 @@
+Try Florence-base OCR...
+ScanMyKad imageFileName: F:\WORK\Dev\huggingface\work\ConsoleApp1\test1\bin\Debug\net8.0\testdata\MYKAD_730818-13-5230_Test1.jpg
+PostOCRWithRegionRequest start...
+PostOCRWithRegionRequest PostAsync start...
+PostOCRWithRegionRequest PostAsync (13.6721266 sec)
+
+(13.8363105 sec)
+
+(  244.2,   561.5)-(  802.1,   601.8)   557.9 :    40.3 KAD PENGENALIAN ()
+(  244.2,   593.7)-(  799.1,   656.2)   554.9 :    62.5 MALAYSIA ()
+(  892.8,   588.7)-( 1071.3,   641.1)   178.4 :    52.4 MYKAD ()
+(  244.2,   644.1)-(  799.1,   683.4)   554.9 :    39.3 IDENTIT CARD ()
+(  153.5,   707.6)-(  552.6,   762.0)   399.2 :    54.4 730818-13-5230 ()
+(  148.9,  1047.3)-(  406.0,  1089.6)   257.0 :    42.3 NG HUI LING ()
+(  148.9,  1148.1)-(  747.7,  1188.4)   598.8 :    40.3 NO 10-12 BLOK A VILLA KRYSTAL ()
+(  148.9,  1182.4)-(  531.5,  1218.7)   382.5 :    36.3 JALAN SILAT LINCAH ()
+( 1078.8,  1211.6)-( 1213.4,  1231.8)   134.6 :    20.2 730811-13.5230 ()
+(  148.9,  1216.7)-(  561.7,  1252.9)   412.8 :    36.3 BANDAR SELESA JAYA ()
+(  148.9,  1250.9)-(  401.4,  1287.2)   252.5 :    36.3 81300 SKUDAI ()
+( 1031.9,  1247.9)-( 1299.6,  1282.2)   267.6 :    34.3 WARGANEGARA ()
+(  148.9,  1285.2)-(  275.9,  1319.5)   127.0 :    34.3 JOHOR ()
+( 1162.0,  1283.2)-( 1376.7,  1317.5)   214.7 :    34.3 PEREMPUAN ()
+( 1344.9,  1319.5)-( 1370.6,  1347.7)    25.7 :    28.2 K ()
+======================
+Estimating resolution as 388
+
+Estimating resolution as 647
+R e T i Wi =L T oELL R - | SN ¢ 1) LITPl L N | by
+Estimating resolution as 550
+
+Estimating resolution as 406
+
+Estimating resolution as 534
+730818-13-5230
+Before: (  153.5,   707.6)-(  552.6,   762.0)   399.2 :    54.4 730818-13-5230 ()
+After: (  153.5,   707.6)-(  552.6,   762.0)   399.2 :    54.4 730818-13-5230 ()
+Estimating resolution as 428
+Empty page!!
+Estimating resolution as 428
+Empty page!!
+Estimating resolution as 358
+NO 10-12 BLOK A VILLA KRYSTAL
+Before: (  148.9,  1148.1)-(  747.7,  1188.4)   598.8 :    40.3 NO 10-12 BLOK A VILLA KRYSTAL ()
+After: (  148.9,  1148.1)-(  747.7,  1188.4)   598.8 :    40.3 NO 10-12 BLOK A VILLA KRYSTAL ()
+Estimating resolution as 357
+Empty page!!
+Estimating resolution as 357
+Empty page!!
+Estimating resolution as 188
+130818-13-5230
+Estimating resolution as 359
+BANDAR SELESA JAYA
+Before: (  148.9,  1216.7)-(  561.7,  1252.9)   412.8 :    36.3 BANDAR SELESA JAYA ()
+After: (  148.9,  1216.7)-(  561.7,  1252.9)   412.8 :    36.3 BANDAR SELESA JAYA ()
+Estimating resolution as 359
+Empty page!!
+Estimating resolution as 359
+Empty page!!
+Estimating resolution as 337
+WARGANEGARA
+Before: ( 1031.9,  1247.9)-( 1299.6,  1282.2)   267.6 :    34.3 WARGANEGARA ()
+After: ( 1031.9,  1247.9)-( 1299.6,  1282.2)   267.6 :    34.3 WARGANEGARA (0.9100000262260437)
+Estimating resolution as 345
+JOHOR
+Before: (  148.9,  1285.2)-(  275.9,  1319.5)   127.0 :    34.3 JOHOR ()
+After: (  148.9,  1285.2)-(  275.9,  1319.5)   127.0 :    34.3 JOHOR ()
+Estimating resolution as 322
+PEREMPUAN
+Before: ( 1162.0,  1283.2)-( 1376.7,  1317.5)   214.7 :    34.3 PEREMPUAN ()
+After: ( 1162.0,  1283.2)-( 1376.7,  1317.5)   214.7 :    34.3 PEREMPUAN ()
+Estimating resolution as 325
+Empty page!!
+Estimating resolution as 325
+Empty page!!
+==== Lines read by Tesseract ====
+(    4.0,    53.0)-(  498.0,    63.0)   494.0 :    10.0 R e T i Wi =L T oELL R - | SN ¢ 1) LITPl L N | by (0.20999999344348907)
+(    7.0,     0.0)-(  399.0,    55.0)   392.0 :    46.0 730818-13-5230 (0.8999999761581421)
+(    5.0,     3.0)-(  597.0,    40.0)   592.0 :    37.0 NO 10-12 BLOK A VILLA KRYSTAL (0.8799999952316284)
+(    1.0,     2.0)-(  132.0,    18.0)   131.0 :    14.0 130818-13-5230 (0.3400000035762787)
+(    4.0,     2.0)-(  409.0,    33.0)   405.0 :    27.0 BANDAR SELESA JAYA (0.8799999952316284)
+(    0.0,     3.0)-(  263.0,    34.0)   263.0 :    26.0 WARGANEGARA (0.9100000262260437)
+(    1.0,     1.0)-(  124.0,    29.0)   123.0 :    26.0 JOHOR (0.8999999761581421)
+(    4.0,     2.0)-(  210.0,    30.0)   206.0 :    25.0 PEREMPUAN (0.8899999856948853)
+======================
+==== Merged lines ====
+(  244.2,   561.5)-(  802.1,   601.8)   557.9 :    40.3 KAD PENGENALIAN ()
+(  244.2,   590.7)-( 1071.3,   648.1)   827.1 :    57.5 MALAYSIA   MYKAD ()
+(  244.2,   644.1)-(  799.1,   683.4)   554.9 :    39.3 IDENTIT CARD ()
+(  153.5,   707.6)-(  552.6,   762.0)   399.2 :    54.4 730818-13-5230 ()
+(  148.9,  1047.3)-(  406.0,  1089.6)   257.0 :    42.3 NG HUI LING ()
+(  148.9,  1148.1)-(  747.7,  1188.4)   598.8 :    40.3 NO 10-12 BLOK A VILLA KRYSTAL ()
+(  148.9,  1182.4)-(  531.5,  1218.7)   382.5 :    36.3 JALAN SILAT LINCAH ()
+( 1078.8,  1211.6)-( 1213.4,  1231.8)   134.6 :    20.2 730811-13.5230 ()
+(  148.9,  1216.7)-(  561.7,  1252.9)   412.8 :    36.3 BANDAR SELESA JAYA ()
+(  148.9,  1250.9)-(  401.4,  1287.2)   252.5 :    36.3 81300 SKUDAI ()
+( 1031.9,  1247.9)-( 1299.6,  1282.2)   267.6 :    34.3 WARGANEGARA (0.9100000262260437)
+(  148.9,  1285.2)-(  275.9,  1319.5)   127.0 :    34.3 JOHOR ()
+( 1162.0,  1283.2)-( 1376.7,  1317.5)   214.7 :    34.3 PEREMPUAN ()
+( 1344.9,  1319.5)-( 1370.6,  1347.7)    25.7 :    28.2 K ()
+======================
+ExtractFieldsFromReadResultOfMyKad start...
+[ INFO:0@15.397] global registry_parallel.impl.hpp:96 cv::parallel::ParallelBackendRegistry::ParallelBackendRegistry core(parallel): Enabled backends(3, sorted by priority): ONETBB(1000); TBB(990); OPENMP(980)
+[ INFO:0@15.397] global plugin_loader.impl.hpp:67 cv::plugin::impl::DynamicLib::libraryLoad load C:\Windows\SYSTEM32\opencv_core_parallel_onetbb490_64d.dll => FAILED
+[ INFO:0@15.400] global plugin_loader.impl.hpp:67 cv::plugin::impl::DynamicLib::libraryLoad load opencv_core_parallel_onetbb490_64d.dll => FAILED
+[ INFO:0@15.401] global plugin_loader.impl.hpp:67 cv::plugin::impl::DynamicLib::libraryLoad load C:\Windows\SYSTEM32\opencv_core_parallel_tbb490_64d.dll => FAILED
+[ INFO:0@15.402] global plugin_loader.impl.hpp:67 cv::plugin::impl::DynamicLib::libraryLoad load opencv_core_parallel_tbb490_64d.dll => FAILED
+[ INFO:0@15.402] global plugin_loader.impl.hpp:67 cv::plugin::impl::DynamicLib::libraryLoad load C:\Windows\SYSTEM32\opencv_core_parallel_openmp490_64d.dll => FAILED
+[ INFO:0@15.404] global plugin_loader.impl.hpp:67 cv::plugin::impl::DynamicLib::libraryLoad load opencv_core_parallel_openmp490_64d.dll => FAILED
+ExtractFieldsFromReadResultOfMyKad (0.6065501 sec)
+
+MatchTemplate key: MyKad_670_Flag MatchResult: 0.8992674350738525/0.800000011920929 x: 485 y: 19 w: 138 h: 75 dist: 0.1340010253525745
+MatchTemplate key: MyKad_670_Flag_Gray MatchResult: 0.8677037954330444/0.800000011920929 x: 484 y: 20 w: 138 h: 71 dist: 0.13777255078285952
+MatchTemplate key: MyKad_670_Flag_MoonStar MatchResult: 0.8728597164154053/0.800000011920929 x: 497 y: 27 w: 33 h: 25 dist: 0.14075692547772883
+MatchTemplate key: MyKad_670_Flag_MoonStar_Gray MatchResult: 0.9398698806762695/0.800000011920929 x: 498 y: 27 w: 30 h: 27 dist: 0.14484910164980944
+MatchTemplate key: MyKad_670_Flower_Front_Gray MatchResult: 0.6941317915916443/0.699999988079071 --> Not match
+MatchTemplate key: MyKad_670_IC_Chip MatchResult: 0.4417741000652313/0.4000000059604645 x: 45 y: 130 w: 118 h: 103 dist: 0.030923309539638785
+MatchTemplate key: MyKad_670_IC_Chip_Gray MatchResult: 0.38101744651794434/0.4000000059604645 --> Not match
+MatchTemplate key: MyKad_670_IC_Chip_old MatchResult: 0.3123820424079895/0.4000000059604645 --> Not match
+MatchTemplate key: MyKad_670_IC_Chip_old_Gray MatchResult: 0.2680564522743225/0.4000000059604645 --> Not match
+MatchTemplate key: MyKad_670_MSC_Gray MatchResult: 0.8950484991073608/0.800000011920929 x: 236 y: 106 w: 54 h: 54 dist: 0.0494974831124345
+MatchTemplate key: MyKad_670_MyKad MatchResult: 0.9252759218215942/0.800000011920929 x: 381 y: 10 w: 59 h: 39 dist: 0.09753214150453471
+MatchTemplate key: MyKad_670_MyKad_Gray MatchResult: 0.9531154632568359/0.800000011920929 x: 382 y: 11 w: 61 h: 39 dist: 0.08753580215835886
+scanMyKadResult.Success: True
+scanMyKadResult.Error:
+scanMyKadResult.lastNameOrFullName: NG HUI LING
+scanMyKadResult.firstName:
+scanMyKadResult.middleName:
+scanMyKadResult.documentNumber: 730818-13-5230
+scanMyKadResult.addressLine1: NO 10-12 BLOK A VILLA KRYSTAL JALAN SILAT LINCAH
+scanMyKadResult.addressLine2: BANDAR SELESA JAYA SKUDAI JOHOR
+scanMyKadResult.postcode: 81300
+scanMyKadResult.gender: F
+scanMyKadResult.dateOfBirth: 1973-08-18
+
+[1]
+  Scanned Data: gender: F
+  Expected    : gender: PEREMPUAN
+ --> IsValid: False
+Try Florence-base OCR...
+ScanMyKad imageFileName: F:\WORK\Dev\huggingface\work\ConsoleApp1\test1\bin\Debug\net8.0\testdata\MYKAD_730818-13-5230_Test2.jpg
+PostOCRWithRegionRequest start...
+PostOCRWithRegionRequest PostAsync start...
+PostOCRWithRegionRequest PostAsync (13.2592138 sec)
+
+(13.2625917 sec)
+
+(  122.1,   280.7)-(  401.1,   300.9)   279.0 :    20.2 KAD PENGENALIAN ()
+(  122.1,   296.9)-(  401.1,   327.1)   279.0 :    30.2 MALAYSIA ()
+(  446.4,   294.8)-(  536.4,   321.0)    90.0 :    26.2 MYKAD ()
+(  122.1,   321.0)-(  399.5,   341.7)   277.5 :    20.7 IDENTITY CARD ()
+(   76.7,   353.8)-(  276.3,   381.0)   199.6 :    27.2 730818-13-5230 ()
+(   74.5,   523.7)-(  203.7,   544.8)   129.3 :    21.2 NG HUI LING ()
+(   74.5,   573.6)-(  373.8,   593.7)   299.4 :    20.2 NO 10-12 BLOK A VILLA KRYSTAL ()
+(   74.5,   591.2)-(  265.7,   609.3)   191.3 :    18.1 JALAN SILAT LINCAH ()
+(  537.9,   605.3)-(  607.4,   615.4)    69.6 :    10.1 730816-13.6230 ()
+(   74.5,   608.3)-(  280.9,   626.5)   206.4 :    18.1 BANDAR SELESA JAYA ()
+(   74.5,   625.5)-(  201.5,   643.6)   127.0 :    18.1 81300 SKUDAI ()
+(  514.5,   624.0)-(  649.8,   641.1)   135.3 :    17.1 WARGANEGARA ()
+(   74.5,   642.6)-(  138.0,   658.7)    63.5 :    16.1 JOHOR ()
+(  580.2,   641.6)-(  688.3,   657.7)   108.1 :    16.1 PEREMPUAN ()
+(  671.7,   659.7)-(  686.1,   673.8)    14.4 :    14.1 K ()
+======================
+Estimating resolution as 177
+KAD PENGENALAN
+Before: (  122.1,   280.7)-(  401.1,   300.9)   279.0 :    20.2 KAD PENGENALIAN ()
+After: (  122.1,   280.7)-(  401.1,   300.9)   279.0 :    20.2 KAD PENGENALIAN ()
+Estimating resolution as 319
+
+Estimating resolution as 267
+Empty page!!
+Estimating resolution as 267
+Empty page!!
+Estimating resolution as 183
+
+Estimating resolution as 269
+Empty page!!
+Estimating resolution as 269
+Empty page!!
+Estimating resolution as 216
+
+Estimating resolution as 186
+NO 10-12 BLOK A VILLA KRYSTAL
+Before: (   74.5,   573.6)-(  373.8,   593.7)   299.4 :    20.2 NO 10-12 BLOK A VILLA KRYSTAL ()
+After: (   74.5,   573.6)-(  373.8,   593.7)   299.4 :    20.2 NO 10-12 BLOK A VILLA KRYSTAL ()
+Estimating resolution as 183
+Empty page!!
+Estimating resolution as 183
+Empty page!!
+Estimating resolution as 138
+
+Estimating resolution as 183
+BANDAR SELESA JAYA
+Before: (   74.5,   608.3)-(  280.9,   626.5)   206.4 :    18.1 BANDAR SELESA JAYA ()
+After: (   74.5,   608.3)-(  280.9,   626.5)   206.4 :    18.1 BANDAR SELESA JAYA ()
+Estimating resolution as 183
+Empty page!!
+Estimating resolution as 183
+Empty page!!
+Estimating resolution as 168
+Empty page!!
+Estimating resolution as 168
+Empty page!!
+Estimating resolution as 181
+Empty page!!
+Estimating resolution as 181
+Empty page!!
+Estimating resolution as 168
+Empty page!!
+Estimating resolution as 168
+Empty page!!
+Estimating resolution as 163
+Empty page!!
+Estimating resolution as 163
+Empty page!!
+==== Lines read by Tesseract ====
+(    2.0,     3.0)-(  276.0,    20.0)   274.0 :    12.0 KAD PENGENALAN (0.8399999737739563)
+(    3.0,     3.0)-(  298.0,    21.0)   295.0 :    13.0 NO 10-12 BLOK A VILLA KRYSTAL (0.8999999761581421)
+(    2.0,     1.0)-(  204.0,    16.0)   202.0 :    13.0 BANDAR SELESA JAYA (0.8999999761581421)
+======================
+==== Merged lines ====
+(  122.1,   280.7)-(  401.1,   300.9)   279.0 :    20.2 KAD PENGENALIAN ()
+(  122.1,   295.8)-(  536.4,   324.1)   414.3 :    28.2 MALAYSIA   MYKAD ()
+(  122.1,   321.0)-(  399.5,   341.7)   277.5 :    20.7 IDENTITY CARD ()
+(   76.7,   353.8)-(  276.3,   381.0)   199.6 :    27.2 730818-13-5230 ()
+(   74.5,   523.7)-(  203.7,   544.8)   129.3 :    21.2 NG HUI LING ()
+(   74.5,   573.6)-(  373.8,   593.7)   299.4 :    20.2 NO 10-12 BLOK A VILLA KRYSTAL ()
+(   74.5,   591.2)-(  265.7,   609.3)   191.3 :    18.1 JALAN SILAT LINCAH ()
+(  537.9,   605.3)-(  607.4,   615.4)    69.6 :    10.1 730816-13.6230 ()
+(   74.5,   608.3)-(  280.9,   626.5)   206.4 :    18.1 BANDAR SELESA JAYA ()
+(   74.5,   625.5)-(  201.5,   643.6)   127.0 :    18.1 81300 SKUDAI ()
+(  514.5,   624.0)-(  649.8,   641.1)   135.3 :    17.1 WARGANEGARA ()
+(   74.5,   642.6)-(  138.0,   658.7)    63.5 :    16.1 JOHOR ()
+(  580.2,   641.6)-(  688.3,   657.7)   108.1 :    16.1 PEREMPUAN ()
+(  671.7,   659.7)-(  686.1,   673.8)    14.4 :    14.1 K ()
+======================
+ExtractFieldsFromReadResultOfMyKad start...
+ExtractFieldsFromReadResultOfMyKad (0.4666891 sec)
+
+MatchTemplate key: MyKad_670_Flag MatchResult: 0.9069625735282898/0.800000011920929 x: 486 y: 19 w: 138 h: 75 dist: 0.12915600582964396
+MatchTemplate key: MyKad_670_Flag_Gray MatchResult: 0.8806713819503784/0.800000011920929 x: 485 y: 20 w: 138 h: 71 dist: 0.132876915961883
+MatchTemplate key: MyKad_670_Flag_MoonStar MatchResult: 0.8668218851089478/0.800000011920929 x: 497 y: 28 w: 33 h: 25 dist: 0.14252197027243996
+MatchTemplate key: MyKad_670_Flag_MoonStar_Gray MatchResult: 0.9275327920913696/0.800000011920929 x: 498 y: 28 w: 30 h: 27 dist: 0.14673534744277597
+MatchTemplate key: MyKad_670_Flower_Front_Gray MatchResult: 0.7048064470291138/0.699999988079071 x: 279 y: 317 w: 122 h: 92 dist: 0.10111870199806199
+MatchTemplate key: MyKad_670_IC_Chip MatchResult: 0.47440704703330994/0.4000000059604645 x: 45 y: 131 w: 118 h: 103 dist: 0.03250002017388442
+MatchTemplate key: MyKad_670_IC_Chip_Gray MatchResult: 0.4039057195186615/0.4000000059604645 x: 53 y: 136 w: 102 h: 92 dist: 0.031622795450333065
+MatchTemplate key: MyKad_670_IC_Chip_old MatchResult: 0.31295937299728394/0.4000000059604645 --> Not match
+MatchTemplate key: MyKad_670_IC_Chip_old_Gray MatchResult: 0.2672053575515747/0.4000000059604645 --> Not match
+MatchTemplate key: MyKad_670_MSC_Gray MatchResult: 0.9269136190414429/0.800000011920929 x: 236 y: 107 w: 54 h: 54 dist: 0.0460977326305213
+MatchTemplate key: MyKad_670_MyKad MatchResult: 0.9210540652275085/0.800000011920929 x: 382 y: 10 w: 59 h: 39 dist: 0.09253387311026318
+MatchTemplate key: MyKad_670_MyKad_Gray MatchResult: 0.9360542893409729/0.800000011920929 x: 383 y: 11 w: 61 h: 39 dist: 0.08253796523923428
+scanMyKadResult.Success: True
+scanMyKadResult.Error:
+scanMyKadResult.lastNameOrFullName: NG HUI LING
+scanMyKadResult.firstName:
+scanMyKadResult.middleName:
+scanMyKadResult.documentNumber: 730818-13-5230
+scanMyKadResult.addressLine1: NO 10-12 BLOK A VILLA KRYSTAL JALAN SILAT LINCAH
+scanMyKadResult.addressLine2: BANDAR SELESA JAYA SKUDAI JOHOR
+scanMyKadResult.postcode: 81300
+scanMyKadResult.gender: F
+scanMyKadResult.dateOfBirth: 1973-08-18
+
+[1]
+  Scanned Data: gender: F
+  Expected    : gender: PEREMPUAN
+ --> IsValid: False
+Try Florence-base OCR...
+ScanMyKad imageFileName: F:\WORK\Dev\huggingface\work\ConsoleApp1\test1\bin\Debug\net8.0\testdata\MYKAD_730818-13-5230_Test3.jpg
+PostOCRWithRegionRequest start...
+PostOCRWithRegionRequest PostAsync start...
+PostOCRWithRegionRequest PostAsync (12.5985744 sec)
+
+(12.6011462 sec)
+
+(   59.9,   139.4)-(  199.8,   149.4)   139.9 :    10.1 KAD PENGENALAN ()
+(   59.9,   147.9)-(  199.8,   162.5)   139.9 :    14.6 MALAYSIA ()
+(  222.8,   146.9)-(  268.2,   160.0)    45.4 :    13.1 MYKAD ()
+(   59.9,   160.0)-(  199.8,   170.6)   139.9 :    10.6 IDENTITY CARD ()
+(   38.0,   176.7)-(  138.2,   189.8)   100.2 :    13.1 730818-13-5230 ()
+(   36.9,   261.3)-(  101.5,   271.9)    64.6 :    10.6 NG HUI LING ()
+(   36.9,   286.0)-(  186.9,   296.6)   150.1 :    10.6 NO 10-12 BLOK A VILLA KRYSTAL ()
+(   36.9,   295.6)-(  132.9,   304.2)    96.0 :     8.6 JALAN SILAT LINCAH ()
+(   36.9,   303.2)-(  139.3,   313.2)   102.4 :    10.1 BANDAR SELESA JAYA ()
+(   36.9,   312.2)-(  100.4,   321.3)    63.5 :     9.1 81300 SKUDAI ()
+(  256.5,   311.7)-(  324.9,   320.8)    68.4 :     9.1 WARGANEGARA ()
+(   36.9,   321.3)-(   68.6,   329.4)    31.8 :     8.1 JOHOR ()
+(  288.6,   320.8)-(  343.8,   328.9)    55.2 :     8.1 PEREMPUAN ()
+(  335.1,   329.4)-(  342.7,   336.9)     7.6 :     7.6 K ()
+======================
+Estimating resolution as 109
+HAD PENGENALAN
+Estimating resolution as 158
+
+Estimating resolution as 156
+Empty page!!
+Estimating resolution as 156
+Empty page!!
+Estimating resolution as 97
+
+Estimating resolution as 144
+730818-13-5230
+Before: (   38.0,   176.7)-(  138.2,   189.8)   100.2 :    13.1 730818-13-5230 ()
+After: (   38.0,   176.7)-(  138.2,   189.8)   100.2 :    13.1 730818-13-5230 ()
+Estimating resolution as 109
+Empty page!!
+Estimating resolution as 109
+Empty page!!
+Estimating resolution as 98
+Empty page!!
+Estimating resolution as 98
+Empty page!!
+Estimating resolution as 99
+JALAN SILAT LINCAM
+Before: (   36.9,   295.6)-(  132.9,   304.2)    96.0 :     8.6 JALAN SILAT LINCAH ()
+After: (   36.9,   295.6)-(  132.9,   304.2)    96.0 :     8.6 JALAN SILAT LINCAH ()
+Estimating resolution as 97
+BANDAR SELESA JAYA
+Before: (   36.9,   303.2)-(  139.3,   313.2)   102.4 :    10.1 BANDAR SELESA JAYA ()
+After: (   36.9,   303.2)-(  139.3,   313.2)   102.4 :    10.1 BANDAR SELESA JAYA ()
+Estimating resolution as 97
+Empty page!!
+Estimating resolution as 97
+Empty page!!
+Estimating resolution as 97
+WARGANEGARA
+Before: (  256.5,   311.7)-(  324.9,   320.8)    68.4 :     9.1 WARGANEGARA ()
+After: (  256.5,   311.7)-(  324.9,   320.8)    68.4 :     9.1 WARGANEGARA ()
+==== Lines read by Tesseract ====
+(    3.0,     0.0)-(  140.0,    10.0)   137.0 :     9.0 HAD PENGENALAN (0.4099999964237213)
+(    3.0,     2.0)-(  100.0,    14.0)    97.0 :    10.0 730818-13-5230 (0.8899999856948853)
+(    2.0,     1.0)-(   95.0,     9.0)    93.0 :     7.0 JALAN SILAT LINCAM (0.7300000190734863)
+(    2.0,     2.0)-(  103.0,     9.0)   101.0 :     6.0 BANDAR SELESA JAYA (0.8899999856948853)
+(    2.0,     1.0)-(   67.0,     9.0)    65.0 :     7.0 WARGANEGARA (0.8600000143051147)
+======================
+==== Merged lines ====
+(   59.9,   139.4)-(  199.8,   149.4)   139.9 :    10.1 KAD PENGENALAN ()
+(   59.9,   147.4)-(  268.2,   161.3)   208.3 :    13.9 MALAYSIA   MYKAD ()
+(   59.9,   160.0)-(  199.8,   170.6)   139.9 :    10.6 IDENTITY CARD ()
+(   38.0,   176.7)-(  138.2,   189.8)   100.2 :    13.1 730818-13-5230 ()
+(   36.9,   261.3)-(  101.5,   271.9)    64.6 :    10.6 NG HUI LING ()
+(   36.9,   286.0)-(  186.9,   296.6)   150.1 :    10.6 NO 10-12 BLOK A VILLA KRYSTAL ()
+(   36.9,   295.6)-(  132.9,   304.2)    96.0 :     8.6 JALAN SILAT LINCAH ()
+(   36.9,   303.2)-(  139.3,   313.2)   102.4 :    10.1 BANDAR SELESA JAYA ()
+(   36.9,   312.2)-(  100.4,   321.3)    63.5 :     9.1 81300 SKUDAI ()
+(  256.5,   311.7)-(  324.9,   320.8)    68.4 :     9.1 WARGANEGARA ()
+(   36.9,   321.3)-(   68.6,   329.4)    31.8 :     8.1 JOHOR ()
+(  288.6,   320.8)-(  343.8,   328.9)    55.2 :     8.1 PEREMPUAN ()
+(  335.1,   329.4)-(  342.7,   336.9)     7.6 :     7.6 K ()
+======================
+ExtractFieldsFromReadResultOfMyKad start...
+ExtractFieldsFromReadResultOfMyKad (0.5117332 sec)
+
+MatchTemplate key: MyKad_670_Flag MatchResult: 0.9248754978179932/0.800000011920929 x: 486 y: 21 w: 138 h: 75 dist: 0.1320275495563976
+MatchTemplate key: MyKad_670_Flag_Gray MatchResult: 0.8778839111328125/0.800000011920929 x: 485 y: 22 w: 138 h: 71 dist: 0.1353006829086288
+MatchTemplate key: MyKad_670_Flag_MoonStar MatchResult: 0.8522087931632996/0.800000011920929 x: 498 y: 30 w: 33 h: 25 dist: 0.14199475840428702
+MatchTemplate key: MyKad_670_Flag_MoonStar_Gray MatchResult: 0.9098764061927795/0.800000011920929 x: 499 y: 30 w: 30 h: 27 dist: 0.14647956032534287
+MatchTemplate key: MyKad_670_Flower_Front_Gray MatchResult: 0.7195480465888977/0.699999988079071 x: 281 y: 318 w: 122 h: 92 dist: 0.09219540836877041
+MatchTemplate key: MyKad_670_IC_Chip MatchResult: 0.47199878096580505/0.4000000059604645 x: 48 y: 132 w: 118 h: 103 dist: 0.02304888700335885
+MatchTemplate key: MyKad_670_IC_Chip_Gray MatchResult: 0.39543068408966064/0.4000000059604645 --> Not match
+MatchTemplate key: MyKad_670_IC_Chip_old MatchResult: 0.31245556473731995/0.4000000059604645 --> Not match
+MatchTemplate key: MyKad_670_IC_Chip_old_Gray MatchResult: 0.26772597432136536/0.4000000059604645 --> Not match
+MatchTemplate key: MyKad_670_MSC_Gray MatchResult: 0.9199733734130859/0.800000011920929 x: 237 y: 109 w: 54 h: 54 dist: 0.0360555259797305
+MatchTemplate key: MyKad_670_MyKad MatchResult: 0.9100774526596069/0.800000011920929 x: 383 y: 12 w: 59 h: 39 dist: 0.08782093486124308
+MatchTemplate key: MyKad_670_MyKad_Gray MatchResult: 0.9304059743881226/0.800000011920929 x: 384 y: 13 w: 61 h: 39 dist: 0.07850168554209175
+scanMyKadResult.Success: True
+scanMyKadResult.Error:
+scanMyKadResult.lastNameOrFullName: NG HUI LING
+scanMyKadResult.firstName:
+scanMyKadResult.middleName:
+scanMyKadResult.documentNumber: 730818-13-5230
+scanMyKadResult.addressLine1: NO 10-12 BLOK A VILLA KRYSTAL JALAN SILAT LINCAH
+scanMyKadResult.addressLine2: BANDAR SELESA JAYA SKUDAI JOHOR
+scanMyKadResult.postcode: 81300
+scanMyKadResult.gender: F
+scanMyKadResult.dateOfBirth: 1973-08-18
+
+[1]
+  Scanned Data: gender: F
+  Expected    : gender: PEREMPUAN
+ --> IsValid: False
+Try Florence-base OCR...
+ScanMyKad imageFileName: F:\WORK\Dev\huggingface\work\ConsoleApp1\test1\bin\Debug\net8.0\testdata\MyKad_a.jpg
+PostOCRWithRegionRequest start...
+PostOCRWithRegionRequest PostAsync start...
+PostOCRWithRegionRequest PostAsync (15.2052274 sec)
+
+(15.208643 sec)
+
+(   23.1,     2.2)-(   86.1,    15.9)    63.1 :    13.7 TSB199616 ()
+(  329.9,     0.2)-(  637.3,    21.2)   307.4 :    21.0 AIF TATABHASA KSSR BAHASA MALAYSIA ()
+(  153.7,    38.3)-(  483.3,    58.8)   329.6 :    20.5 SIRI EKSPRES SPM BAHASA MAAYSIA ()
+(  591.8,    38.3)-(  649.7,    62.2)    57.9 :    23.9 YAKIN ()
+(  110.8,    71.0)-(  267.5,   101.7)   156.6 :    30.7 CRAZY COW ()
+(  389.0,    82.0)-(  619.1,   101.5)   230.1 :    19.5 A PRESS-THE-BUTTON PICTURE BOOK ()
+(  196.6,   121.8)-(  359.8,   134.4)   163.1 :    12.7 KAD PENGENALAN ()
+(  196.6,   131.5)-(  358.5,   148.1)   161.8 :    16.6 MALAYSIA ()
+(  383.2,   129.6)-(  435.2,   146.2)    52.0 :    16.6 MYKAD ()
+(  196.6,   145.7)-(  358.5,   158.4)   161.8 :    12.7 IDENTITY CARD ()
+(  171.9,   168.1)-(  292.8,   183.7)   120.9 :    15.6 851026-14-5263 ()
+(  172.6,   265.2)-(  278.5,   276.9)   105.9 :    11.7 HAW FOO CHIEN ()
+(  175.2,   296.0)-(  270.1,   306.2)    94.9 :    10.2 NO 660 BATU 5 1/4 ()
+(  177.1,   304.8)-(  259.0,   314.5)    81.9 :     9.8 JALAN GOMBAK ()
+(  177.1,   314.5)-(  290.9,   324.3)   113.8 :     9.8 30000 KUALA LUMPUR ()
+(  177.1,   322.3)-(  288.9,   332.6)   111.8 :    10.2 W. PERSERUTUUNKIL) ()
+(  450.1,   319.4)-(  489.1,   328.2)    39.0 :     8.8 W. W. PERERUTUMKIL! ()
+======================
+Estimating resolution as 145
+Empty page!!
+Estimating resolution as 145
+Empty page!!
+Estimating resolution as 266
+
+Estimating resolution as 138
+AMASOMOAL A Y SIA
+
+Estimating resolution as 181
+
+Estimating resolution as 288
+Crazy Cow
+Before: (  110.8,    71.0)-(  267.5,   101.7)   156.6 :    30.7 CRAZY COW ()
+After: (  110.8,    71.0)-(  267.5,   101.7)   156.6 :    30.7 CRAZY COW (0.9100000262260437)
+Estimating resolution as 152
+A press-the-button picture b
+
+Estimating resolution as 107
+HKAD PENGENALAN
+Before: (  196.6,   121.8)-(  359.8,   134.4)   163.1 :    12.7 KAD PENGENALAN ()
+After: (  196.6,   121.8)-(  359.8,   134.4)   163.1 :    12.7 KAD PENGENALAN ()
+Estimating resolution as 183
+
+Estimating resolution as 150
+Empty page!!
+Estimating resolution as 150
+Empty page!!
+Estimating resolution as 108
+
+Estimating resolution as 166
+6-14-5263
+Estimating resolution as 125
+Empty page!!
+Estimating resolution as 125
+Empty page!!
+Estimating resolution as 110
+Empty page!!
+Estimating resolution as 110
+Empty page!!
+Estimating resolution as 103
+Empty page!!
+Estimating resolution as 103
+Empty page!!
+Estimating resolution as 116
+Empty page!!
+Estimating resolution as 116
+Empty page!!
+Estimating resolution as 106
+
+Estimating resolution as 97
+Empty page!!
+Estimating resolution as 97
+Empty page!!
+==== Lines read by Tesseract ====
+(  152.0,     0.0)-(  330.0,    11.0)   178.0 :     4.0 AMASOMOAL A Y SIA (0.38999998569488525)
+(    2.0,     0.0)-(  157.0,    32.0)   155.0 :    26.0 Crazy Cow (0.9100000262260437)
+(    3.0,     3.0)-(  207.0,    20.0)   204.0 :    11.0 A press-the-button picture b (0.7699999809265137)
+(    3.0,     2.0)-(  161.0,    13.0)   158.0 :     8.0 HKAD PENGENALAN (0.5699999928474426)
+(   48.0,     2.0)-(  121.0,    15.0)    73.0 :    12.0 6-14-5263 (0.2800000011920929)
+======================
+==== Merged lines ====
+(   23.1,     2.2)-(   86.1,    15.9)    63.1 :    13.7 TSB199616 ()
+(  329.9,     0.2)-(  637.3,    21.2)   307.4 :    21.0 AIF TATABHASA KSSR BAHASA MALAYSIA ()
+(  153.7,    38.3)-(  649.7,    60.5)   495.9 :    22.2 SIRI EKSPRES SPM BAHASA MAAYSIA          YAKIN ()
+(  110.8,    71.0)-(  267.5,   101.7)   156.6 :    30.7 CRAZY COW (0.9100000262260437)
+(  389.0,    82.0)-(  619.1,   101.5)   230.1 :    19.5 A PRESS-THE-BUTTON PICTURE BOOK ()
+(  196.6,   121.8)-(  359.8,   134.4)   163.1 :    12.7 KAD PENGENALAN ()
+(  196.6,   130.3)-(  435.2,   146.9)   238.5 :    16.6 MALAYSIA  MYKAD ()
+(  196.6,   145.7)-(  358.5,   158.4)   161.8 :    12.7 IDENTITY CARD ()
+(  171.9,   168.1)-(  292.8,   183.7)   120.9 :    15.6 851026-14-5263 ()
+(  172.6,   265.2)-(  278.5,   276.9)   105.9 :    11.7 HAW FOO CHIEN ()
+(  175.2,   296.0)-(  270.1,   306.2)    94.9 :    10.2 NO 660 BATU 5 1/4 ()
+(  177.1,   304.8)-(  259.0,   314.5)    81.9 :     9.8 JALAN GOMBAK ()
+(  177.1,   314.5)-(  290.9,   324.3)   113.8 :     9.8 30000 KUALA LUMPUR ()
+(  177.1,   322.3)-(  288.9,   332.6)   111.8 :    10.2 W. PERSERUTUUNKIL) ()
+(  450.1,   319.4)-(  489.1,   328.2)    39.0 :     8.8 W. W. PERERUTUMKIL! ()
+======================
+ExtractFieldsFromReadResultOfMyKad start...
+ExtractFieldsFromReadResultOfMyKad (0.5000865 sec)
+
+MatchTemplate key: MyKad_670_Flag MatchResult: 0.7788314819335938/0.800000011920929 --> Not match
+MatchTemplate key: MyKad_670_Flag_Gray MatchResult: 0.7786531448364258/0.800000011920929 --> Not match
+MatchTemplate key: MyKad_670_Flag_MoonStar MatchResult: 0.8510569334030151/0.800000011920929 x: 474 y: 29 w: 33 h: 25 dist: 0.2540915640433349
+MatchTemplate key: MyKad_670_Flag_MoonStar_Gray MatchResult: 0.8347612023353577/0.800000011920929 x: 475 y: 29 w: 30 h: 27 dist: 0.2576941464154785
+MatchTemplate key: MyKad_670_Flower_Front_Gray MatchResult: 0.5754343867301941/0.699999988079071 --> Not match
+MatchTemplate key: MyKad_670_IC_Chip MatchResult: 0.22063066065311432/0.4000000059604645 --> Not match
+MatchTemplate key: MyKad_670_IC_Chip_Gray MatchResult: 0.2874733805656433/0.4000000059604645 --> Not match
+MatchTemplate key: MyKad_670_IC_Chip_old MatchResult: 0.30327752232551575/0.4000000059604645 --> Not match
+MatchTemplate key: MyKad_670_IC_Chip_old_Gray MatchResult: 0.25120991468429565/0.4000000059604645 --> Not match
+MatchTemplate key: MyKad_670_MSC_Gray MatchResult: 0.8885892629623413/0.800000011920929 x: 225 y: 104 w: 54 h: 54 dist: 0.10062307498109728
+MatchTemplate key: MyKad_670_MyKad MatchResult: 0.842243492603302/0.800000011920929 x: 363 y: 12 w: 59 h: 39 dist: 0.18765003510095346
+MatchTemplate key: MyKad_670_MyKad_Gray MatchResult: 0.8739826083183289/0.800000011920929 x: 364 y: 13 w: 61 h: 39 dist: 0.1779396912058571
+scanMyKadResult.Success: False
+scanMyKadResult.Error: Failed to scan [GENDER]
+scanMyKadResult.lastNameOrFullName: HAW FOO CHIEN
+scanMyKadResult.firstName:
+scanMyKadResult.middleName:
+scanMyKadResult.documentNumber: 851026-14-5263
+scanMyKadResult.addressLine1: NO 660 BATU 5 1/4
+scanMyKadResult.addressLine2: JALAN GOMBAK KUALA LUMPUR W. PERSERUTUUNKIL)
+scanMyKadResult.postcode: 30000
+scanMyKadResult.gender:
+scanMyKadResult.dateOfBirth: 1985-10-26
+
+[1]
+  Scanned Data: addressLine2: JALAN GOMBAK KUALA LUMPUR W. PERSERUTUUNKIL)
+  Expected    : addressLine2: JALAN GOMBAK KUALA LUMPUR W. PERSEKUTUAN(KL)
+
+[2]
+  Scanned Data: postcode: 30000
+  Expected    : postcode: 53000
+
+[3]
+  Scanned Data: gender:
+  Expected    : gender: M
+ --> IsValid: False
+Try Florence-base OCR...
+ScanMyKad imageFileName: F:\WORK\Dev\huggingface\work\ConsoleApp1\test1\bin\Debug\net8.0\testdata\MyKad1.jpg
+PostOCRWithRegionRequest start...
+PostOCRWithRegionRequest PostAsync start...
+PostOCRWithRegionRequest PostAsync (11.7117605 sec)
+
+(11.7205047 sec)
+
+(  912.3,   405.7)-( 1682.6,   457.2)   770.3 :    51.5 KAD PENGENALAN ()
+(  912.3,   453.6)-( 1676.1,   527.2)   763.8 :    73.6 MALAYSIA ()
+( 1798.5,   436.1)-( 2053.1,   507.8)   254.6 :    71.8 MYKAD ()
+(  935.1,   521.6)-( 1676.1,   571.3)   740.9 :    49.7 DENTITY CARD ()
+(  788.3,   632.0)-( 1356.2,   702.0)   567.9 :    69.9 790604-12-536 ()
+(  771.9,  1106.8)-( 1121.2,  1162.0)   349.2 :    55.2 ALEX CHAN ()
+(  768.7,  1294.4)-( 1304.0,  1346.0)   535.3 :    51.5 NO 77 JALAN BU 102 ()
+(  768.7,  1342.3)-( 1186.5,  1392.0)   417.8 :    49.7 BANDAR UTAMA ()
+(  768.7,  1392.0)-( 1336.6,  1441.6)   567.9 :    49.7 47800 PETALING JAYA ()
+( 2009.0,  1360.7)-( 2387.6,  1406.7)   378.6 :    46.0 WARGANEGARA ()
+(  768.7,  1439.8)-( 1059.2,  1487.6)   290.5 :    47.8 SELANGOR ()
+( 2198.3,  1406.7)-( 2364.8,  1449.0)   166.5 :    42.3 LELAKI ()
+( 2452.9,  1450.8)-( 2492.1,  1484.0)    39.2 :    33.1 H ()
+======================
+Estimating resolution as 601
+Empty page!!
+Estimating resolution as 601
+Empty page!!
+Estimating resolution as 622
+
+Estimating resolution as 753
+Empty page!!
+Estimating resolution as 753
+Empty page!!
+Estimating resolution as 494
+
+Estimating resolution as 548
+
+Estimating resolution as 641
+Empty page!!
+Estimating resolution as 641
+Empty page!!
+Estimating resolution as 514
+NO 77 JALAN BU 10/2
+Before: (  768.7,  1294.4)-( 1304.0,  1346.0)   535.3 :    51.5 NO 77 JALAN BU 102 ()
+After: (  768.7,  1294.4)-( 1304.0,  1346.0)   535.3 :    51.5 NO 77 JALAN BU 102 ()
+Estimating resolution as 523
+Empty page!!
+Estimating resolution as 523
+Empty page!!
+Estimating resolution as 514
+Empty page!!
+Estimating resolution as 514
+Empty page!!
+Estimating resolution as 464
+Empty page!!
+Estimating resolution as 464
+Empty page!!
+Estimating resolution as 509
+Empty page!!
+Estimating resolution as 509
+Empty page!!
+Estimating resolution as 456
+Empty page!!
+Estimating resolution as 456
+Empty page!!
+Estimating resolution as 425
+Empty page!!
+Estimating resolution as 425
+Empty page!!
+==== Lines read by Tesseract ====
+(    6.0,     1.0)-(  530.0,    51.0)   524.0 :    46.0 NO 77 JALAN BU 10/2 (0.8999999761581421)
+======================
+==== Merged lines ====
+(  912.3,   405.7)-( 1682.6,   457.2)   770.3 :    51.5 KAD PENGENALAN ()
+(  912.3,   442.5)-( 2053.1,   515.2)  1140.8 :    72.7 MALAYSIA   MYKAD ()
+(  935.1,   521.6)-( 1676.1,   571.3)   740.9 :    49.7 DENTITY CARD ()
+(  788.3,   632.0)-( 1356.2,   702.0)   567.9 :    69.9 790604-12-536 ()
+(  771.9,  1106.8)-( 1121.2,  1162.0)   349.2 :    55.2 ALEX CHAN ()
+(  768.7,  1294.4)-( 1304.0,  1346.0)   535.3 :    51.5 NO 77 JALAN BU 102 ()
+(  768.7,  1342.3)-( 1186.5,  1392.0)   417.8 :    49.7 BANDAR UTAMA ()
+(  768.7,  1392.0)-( 1336.6,  1441.6)   567.9 :    49.7 47800 PETALING JAYA ()
+( 2009.0,  1360.7)-( 2387.6,  1406.7)   378.6 :    46.0 WARGANEGARA ()
+(  768.7,  1439.8)-( 1059.2,  1487.6)   290.5 :    47.8 SELANGOR ()
+( 2198.3,  1406.7)-( 2364.8,  1449.0)   166.5 :    42.3 LELAKI ()
+( 2452.9,  1450.8)-( 2492.1,  1484.0)    39.2 :    33.1 H ()
+======================
+ExtractFieldsFromReadResultOfMyKad start...
+ExtractFieldsFromReadResultOfMyKad (0.5013608 sec)
+
+MatchTemplate key: MyKad_670_Flag MatchResult: 0.8256685137748718/0.800000011920929 x: 479 y: 15 w: 138 h: 75 dist: 0.16048763353475917
+MatchTemplate key: MyKad_670_Flag_Gray MatchResult: 0.8961414098739624/0.800000011920929 x: 478 y: 16 w: 138 h: 71 dist: 0.16517046186065346
+MatchTemplate key: MyKad_670_Flag_MoonStar MatchResult: 0.8753492832183838/0.800000011920929 x: 491 y: 24 w: 33 h: 25 dist: 0.16571817978055314
+MatchTemplate key: MyKad_670_Flag_MoonStar_Gray MatchResult: 0.9375770092010498/0.800000011920929 x: 492 y: 24 w: 30 h: 27 dist: 0.1692077577671711
+MatchTemplate key: MyKad_670_Flower_Front_Gray MatchResult: 0.8365224599838257/0.699999988079071 x: 278 y: 317 w: 122 h: 92 dist: 0.10606597671702121
+MatchTemplate key: MyKad_670_IC_Chip MatchResult: 0.6106634736061096/0.4000000059604645 x: 40 y: 134 w: 118 h: 103 dist: 0.06149189070605229
+MatchTemplate key: MyKad_670_IC_Chip_Gray MatchResult: 0.6903286576271057/0.4000000059604645 x: 48 y: 138 w: 102 h: 92 dist: 0.058523518904601196
+MatchTemplate key: MyKad_670_IC_Chip_old MatchResult: 0.2752704322338104/0.4000000059604645 --> Not match
+MatchTemplate key: MyKad_670_IC_Chip_old_Gray MatchResult: 0.24229586124420166/0.4000000059604645 --> Not match
+MatchTemplate key: MyKad_670_MSC_Gray MatchResult: 0.8594582080841064/0.800000011920929 x: 230 y: 105 w: 54 h: 54 dist: 0.07632170166976054
+MatchTemplate key: MyKad_670_MyKad MatchResult: 0.9255335927009583/0.800000011920929 x: 376 y: 8 w: 59 h: 39 dist: 0.12313619904009353
+MatchTemplate key: MyKad_670_MyKad_Gray MatchResult: 0.9470007419586182/0.800000011920929 x: 377 y: 9 w: 61 h: 39 dist: 0.11274981839048875
+scanMyKadResult.Success: True
+scanMyKadResult.Error:
+scanMyKadResult.lastNameOrFullName: ALEX CHAN
+scanMyKadResult.firstName:
+scanMyKadResult.middleName:
+scanMyKadResult.documentNumber: 790604-12-536
+scanMyKadResult.addressLine1: NO 77 JALAN BU 102
+scanMyKadResult.addressLine2: BANDAR UTAMA PETALING JAYA SELANGOR
+scanMyKadResult.postcode: 47800
+scanMyKadResult.gender: M
+scanMyKadResult.dateOfBirth: 1979-06-04
+
+[1]
+  Scanned Data: documentNumber: 790604-12-536
+  Expected    : documentNumber: 790804-12-5316
+
+[2]
+  Scanned Data: addressLine1: NO 77 JALAN BU 102
+  Expected    : addressLine1: NO 77 JALAN BU 10/2
+ --> IsValid: False
+Try Florence-base OCR...
+ScanMyKad imageFileName: F:\WORK\Dev\huggingface\work\ConsoleApp1\test1\bin\Debug\net8.0\testdata\MyKad1_s.jpg
+PostOCRWithRegionRequest start...
+PostOCRWithRegionRequest PostAsync start...
+PostOCRWithRegionRequest PostAsync (11.8194015 sec)
+
+(11.8213326 sec)
+
+(  180.6,    79.9)-(  336.0,    91.3)   155.4 :    11.4 KAD PENGENALAN ()
+(  180.6,    90.7)-(  336.0,   105.1)   155.4 :    14.4 MALAYSIA ()
+(  359.5,    85.6)-(  410.7,   102.5)    51.3 :    16.9 MYKAD ()
+(  180.6,   103.2)-(  336.0,   114.6)   155.4 :    11.4 IDENTITY CARD ()
+(  155.7,   126.0)-(  271.3,   140.4)   115.6 :    14.4 790804-12-531 ()
+(  153.8,   221.4)-(  281.8,   232.8)   128.0 :    11.4 ALEX CHAN BU 10/2 ()
+(  153.8,   258.5)-(  260.2,   268.8)   106.4 :    10.3 NO 77 JALAN BU 10/02 ()
+(  153.8,   268.8)-(  237.4,   278.4)    83.6 :     9.6 BANDAR UTAMA ()
+(  153.8,   278.4)-(  266.8,   288.0)   113.0 :     9.6 47800 PETALING JAYA ()
+(  400.6,   272.1)-(  477.0,   281.0)    76.4 :     8.8 WARGANEGARA ()
+(  153.8,   288.0)-(  211.2,   297.5)    57.5 :     9.6 SELANGOR ()
+(  439.1,   281.0)-(  472.4,   289.8)    33.3 :     8.8 LELAKI ()
+(  490.7,   289.8)-(  498.6,   297.5)     7.8 :     7.7 H ()
+======================
+Estimating resolution as 98
+HKAD PENGENALAN
+Estimating resolution as 192
+Empty page!!
+Estimating resolution as 192
+Empty page!!
+Estimating resolution as 169
+Empty page!!
+Estimating resolution as 169
+Empty page!!
+Estimating resolution as 125
+
+Estimating resolution as 183
+
+Estimating resolution as 136
+
+Estimating resolution as 111
+NO 77 JALAN BU 10/2
+Before: (  153.8,   258.5)-(  260.2,   268.8)   106.4 :    10.3 NO 77 JALAN BU 10/02 ()
+After: (  153.8,   258.5)-(  260.2,   268.8)   106.4 :    10.3 NO 77 JALAN BU 10/02 ()
+Estimating resolution as 109
+Empty page!!
+Estimating resolution as 109
+Empty page!!
+Estimating resolution as 109
+Empty page!!
+Estimating resolution as 109
+Empty page!!
+Estimating resolution as 97
+Empty page!!
+Estimating resolution as 97
+Empty page!!
+Estimating resolution as 109
+Empty page!!
+Estimating resolution as 109
+Empty page!!
+Estimating resolution as 103
+Empty page!!
+Estimating resolution as 103
+Empty page!!
+==== Lines read by Tesseract ====
+(    2.0,     0.0)-(  155.0,    10.0)   153.0 :    10.0 HKAD PENGENALAN (0.36000001430511475)
+(    2.0,     1.0)-(  107.0,    10.0)   105.0 :     9.0 NO 77 JALAN BU 10/2 (0.8899999856948853)
+======================
+==== Merged lines ====
+(  180.6,    79.9)-(  336.0,    91.3)   155.4 :    11.4 KAD PENGENALAN ()
+(  180.6,    87.6)-(  410.7,   103.0)   230.2 :    15.5 MALAYSIA   MYKAD ()
+(  180.6,   103.2)-(  336.0,   114.6)   155.4 :    11.4 IDENTITY CARD ()
+(  155.7,   126.0)-(  271.3,   140.4)   115.6 :    14.4 790804-12-531 ()
+(  153.8,   221.4)-(  281.8,   232.8)   128.0 :    11.4 ALEX CHAN BU 10/2 ()
+(  153.8,   258.5)-(  260.2,   268.8)   106.4 :    10.3 NO 77 JALAN BU 10/02 ()
+(  153.8,   268.8)-(  237.4,   278.4)    83.6 :     9.6 BANDAR UTAMA ()
+(  153.8,   278.4)-(  266.8,   288.0)   113.0 :     9.6 47800 PETALING JAYA ()
+(  400.6,   272.1)-(  477.0,   281.0)    76.4 :     8.8 WARGANEGARA ()
+(  153.8,   288.0)-(  211.2,   297.5)    57.5 :     9.6 SELANGOR ()
+(  439.1,   281.0)-(  472.4,   289.8)    33.3 :     8.8 LELAKI ()
+(  490.7,   289.8)-(  498.6,   297.5)     7.8 :     7.7 H ()
+======================
+ExtractFieldsFromReadResultOfMyKad start...
+ExtractFieldsFromReadResultOfMyKad (0.4641186 sec)
+
+MatchTemplate key: MyKad_670_Flag MatchResult: 0.8385711312294006/0.800000011920929 x: 483 y: 17 w: 138 h: 75 dist: 0.14179660328403504
+MatchTemplate key: MyKad_670_Flag_Gray MatchResult: 0.8931986689567566/0.800000011920929 x: 482 y: 18 w: 138 h: 71 dist: 0.14605231137015362
+MatchTemplate key: MyKad_670_Flag_MoonStar MatchResult: 0.8466137051582336/0.800000011920929 x: 495 y: 25 w: 33 h: 25 dist: 0.14735166487972387
+MatchTemplate key: MyKad_670_Flag_MoonStar_Gray MatchResult: 0.9073732495307922/0.800000011920929 x: 496 y: 25 w: 30 h: 27 dist: 0.15110017644476917
+MatchTemplate key: MyKad_670_Flower_Front_Gray MatchResult: 0.8282756209373474/0.699999988079071 x: 282 y: 319 w: 122 h: 92 dist: 0.0886001934419933
+MatchTemplate key: MyKad_670_IC_Chip MatchResult: 0.6196228265762329/0.4000000059604645 x: 44 y: 136 w: 118 h: 103 dist: 0.051295736885291744
+MatchTemplate key: MyKad_670_IC_Chip_Gray MatchResult: 0.680565357208252/0.4000000059604645 x: 52 y: 140 w: 102 h: 92 dist: 0.046097746853585087
+MatchTemplate key: MyKad_670_IC_Chip_old MatchResult: 0.27990955114364624/0.4000000059604645 --> Not match
+MatchTemplate key: MyKad_670_IC_Chip_old_Gray MatchResult: 0.2494388371706009/0.4000000059604645 --> Not match
+MatchTemplate key: MyKad_670_MSC_Gray MatchResult: 0.8946015238761902/0.800000011920929 x: 234 y: 107 w: 54 h: 54 dist: 0.05408328235704808
+MatchTemplate key: MyKad_670_MyKad MatchResult: 0.9104498028755188/0.800000011920929 x: 380 y: 9 w: 59 h: 39 dist: 0.10277411950359687
+MatchTemplate key: MyKad_670_MyKad_Gray MatchResult: 0.9273431301116943/0.800000011920929 x: 381 y: 10 w: 61 h: 39 dist: 0.09253387311026318
+scanMyKadResult.Success: True
+scanMyKadResult.Error:
+scanMyKadResult.lastNameOrFullName: ALEX CHAN BU 10/2
+scanMyKadResult.firstName:
+scanMyKadResult.middleName:
+scanMyKadResult.documentNumber: 790804-12-531
+scanMyKadResult.addressLine1: NO 77 JALAN BU 10/02
+scanMyKadResult.addressLine2: BANDAR UTAMA PETALING JAYA SELANGOR
+scanMyKadResult.postcode: 47800
+scanMyKadResult.gender: M
+scanMyKadResult.dateOfBirth: 1979-08-04
+
+[1]
+  Scanned Data: lastNameOrFullName: ALEX CHAN BU 10/2
+  Expected    : lastNameOrFullName: ALEX CHAN I'NEE CAM
+
+[2]
+  Scanned Data: documentNumber: 790804-12-531
+  Expected    : documentNumber: 790804-12-5305
+
+[3]
+  Scanned Data: addressLine1: NO 77 JALAN BU 10/02
+  Expected    : addressLine1: NO 77 JALAN BU 10/2
+ --> IsValid: False
+Try Florence-base OCR...
+ScanMyKad imageFileName: F:\WORK\Dev\huggingface\work\ConsoleApp1\test1\bin\Debug\net8.0\testdata\MyKad2.jpg
+PostOCRWithRegionRequest start...
+PostOCRWithRegionRequest PostAsync start...
+PostOCRWithRegionRequest PostAsync (10.9592703 sec)
+
+(10.9665462 sec)
+
+(  892.7,   451.7)-( 1617.3,   506.9)   724.6 :    55.2 KAD PENGENALAN ()
+(  892.7,   505.1)-( 1607.5,   597.1)   714.8 :    92.0 MALAYSIA ()
+( 1746.2,   480.2)-( 1987.8,   550.2)   241.5 :    69.9 MYKAD ()
+(  739.3,   615.5)-( 1326.8,   685.4)   587.5 :    69.9 700504-08-5456 ()
+(  736.0,  1093.9)-( 1108.1,  1149.1)   372.1 :    55.2 HO MUN YEE ()
+(  736.0,  1246.6)-( 1147.3,  1296.3)   411.3 :    49.7 21 JALAN BU 3/4 ()
+(  736.0,  1296.3)-( 1150.6,  1343.2)   414.5 :    46.9 BANDAR UTAMA ()
+(  736.0,  1342.3)-( 1300.7,  1391.0)   564.7 :    48.8 47800 PETALING JAYA ()
+( 1907.8,  1332.2)-( 2286.4,  1376.3)   378.6 :    44.2 WARGANE GARA ()
+(  745.8,  1387.4)-( 1020.0,  1435.2)   274.2 :    47.8 SELANGOR ()
+( 2084.1,  1375.4)-( 2377.8,  1417.7)   293.8 :    42.3 PEREMPUAN ()
+======================
+Estimating resolution as 557
+KAD PENGENALAN
+Before: (  892.7,   451.7)-( 1617.3,   506.9)   724.6 :    55.2 KAD PENGENALAN ()
+After: (  892.7,   451.7)-( 1617.3,   506.9)   724.6 :    55.2 KAD PENGENALAN ()
+Estimating resolution as 988
+Empty page!!
+Estimating resolution as 988
+Empty page!!
+Estimating resolution as 515
+MvKada
+Estimating resolution as 786
+Empty page!!
+Estimating resolution as 786
+Empty page!!
+Estimating resolution as 556
+Empty page!!
+Estimating resolution as 556
+Empty page!!
+Estimating resolution as 473
+Empty page!!
+Estimating resolution as 473
+Empty page!!
+Estimating resolution as 495
+Empty page!!
+Estimating resolution as 495
+Empty page!!
+Estimating resolution as 486
+Empty page!!
+Estimating resolution as 486
+Empty page!!
+Estimating resolution as 419
+WARGANEGARA
+Before: ( 1907.8,  1332.2)-( 2286.4,  1376.3)   378.6 :    44.2 WARGANE GARA ()
+After: ( 1907.8,  1332.2)-( 2286.4,  1376.3)   378.6 :    44.2 WARGANE GARA ()
+Estimating resolution as 506
+Empty page!!
+Estimating resolution as 506
+Empty page!!
+Estimating resolution as 411
+PEREMPUAN
+Before: ( 2084.1,  1375.4)-( 2377.8,  1417.7)   293.8 :    42.3 PEREMPUAN ()
+After: ( 2084.1,  1375.4)-( 2377.8,  1417.7)   293.8 :    42.3 PEREMPUAN ()
+==== Lines read by Tesseract ====
+(    5.0,     5.0)-(  718.0,    52.0)   713.0 :    44.0 KAD PENGENALAN (0.8799999952316284)
+(    0.0,     0.0)-(  245.0,    61.0)   245.0 :    61.0 MvKada (0.07000000029802322)
+(    6.0,     0.0)-(  374.0,    41.0)   368.0 :    37.0 WARGANEGARA (0.8899999856948853)
+(    6.0,     1.0)-(  289.0,    38.0)   283.0 :    33.0 PEREMPUAN (0.8899999856948853)
+======================
+==== Merged lines ====
+(  892.7,   451.7)-( 1617.3,   506.9)   724.6 :    55.2 KAD PENGENALAN ()
+(  892.7,   505.1)-( 1607.5,   597.1)   714.8 :    92.0 MALAYSIA ()
+( 1746.2,   480.2)-( 1987.8,   550.2)   241.5 :    69.9 MYKAD ()
+(  739.3,   615.5)-( 1326.8,   685.4)   587.5 :    69.9 700504-08-5456 ()
+(  736.0,  1093.9)-( 1108.1,  1149.1)   372.1 :    55.2 HO MUN YEE ()
+(  736.0,  1246.6)-( 1147.3,  1296.3)   411.3 :    49.7 21 JALAN BU 3/4 ()
+(  736.0,  1296.3)-( 1150.6,  1343.2)   414.5 :    46.9 BANDAR UTAMA ()
+(  736.0,  1342.3)-( 1300.7,  1391.0)   564.7 :    48.8 47800 PETALING JAYA ()
+( 1907.8,  1332.2)-( 2286.4,  1376.3)   378.6 :    44.2 WARGANE GARA ()
+(  745.8,  1387.4)-( 1020.0,  1435.2)   274.2 :    47.8 SELANGOR ()
+( 2084.1,  1375.4)-( 2377.8,  1417.7)   293.8 :    42.3 PEREMPUAN ()
+======================
+ExtractFieldsFromReadResultOfMyKad start...
+ExtractFieldsFromReadResultOfMyKad (0.528198 sec)
+
+MatchTemplate key: MyKad_670_Flag MatchResult: 0.8974770307540894/0.800000011920929 x: 504 y: 13 w: 138 h: 75 dist: 0.035089267244120315
+MatchTemplate key: MyKad_670_Flag_Gray MatchResult: 0.848103940486908/0.800000011920929 x: 503 y: 14 w: 138 h: 71 dist: 0.04007814403641511
+MatchTemplate key: MyKad_670_Flag_MoonStar MatchResult: 0.9069485664367676/0.800000011920929 x: 515 y: 22 w: 33 h: 25 dist: 0.048088499507649804
+MatchTemplate key: MyKad_670_Flag_MoonStar_Gray MatchResult: 0.9015880823135376/0.800000011920929 x: 517 y: 22 w: 30 h: 27 dist: 0.04854125551398539
+MatchTemplate key: MyKad_670_Flower_Front_Gray MatchResult: 0.442753404378891/0.699999988079071 --> Not match
+MatchTemplate key: MyKad_670_IC_Chip MatchResult: 0.18940742313861847/0.4000000059604645 --> Not match
+MatchTemplate key: MyKad_670_IC_Chip_Gray MatchResult: 0.2092791199684143/0.4000000059604645 --> Not match
+MatchTemplate key: MyKad_670_IC_Chip_old MatchResult: 0.4734739661216736/0.4000000059604645 x: 48 y: 129 w: 108 h: 99 dist: 0.04069705881322578
+MatchTemplate key: MyKad_670_IC_Chip_old_Gray MatchResult: 0.4163259267807007/0.4000000059604645 x: 52 y: 130 w: 102 h: 93 dist: 0.03913118960625541
+MatchTemplate key: MyKad_670_MSC_Gray MatchResult: 0.8323180079460144/0.800000011920929 x: 256 y: 97 w: 54 h: 54 dist: 0.1030776163539425
+MatchTemplate key: MyKad_670_MyKad MatchResult: 0.8040866255760193/0.800000011920929 x: 399 y: 6 w: 59 h: 39 dist: 0.023717118263851228
+MatchTemplate key: MyKad_670_MyKad_Gray MatchResult: 0.7948930263519287/0.800000011920929 --> Not match
+scanMyKadResult.Success: True
+scanMyKadResult.Error:
+scanMyKadResult.lastNameOrFullName: HO MUN YEE
+scanMyKadResult.firstName:
+scanMyKadResult.middleName:
+scanMyKadResult.documentNumber: 700504-08-5456
+scanMyKadResult.addressLine1: 21 JALAN BU 3/4
+scanMyKadResult.addressLine2: BANDAR UTAMA PETALING JAYA SELANGOR
+scanMyKadResult.postcode: 47800
+scanMyKadResult.gender: F
+scanMyKadResult.dateOfBirth: 1970-05-04
+ --> IsValid: True
+Try Florence-base OCR...
+ScanMyKad imageFileName: F:\WORK\Dev\huggingface\work\ConsoleApp1\test1\bin\Debug\net8.0\testdata\MyKad2_s.jpg
+PostOCRWithRegionRequest start...
+PostOCRWithRegionRequest PostAsync start...
+PostOCRWithRegionRequest PostAsync (10.9503536 sec)
+
+(10.9527652 sec)
+
+(  178.6,    89.6)-(  323.6,   101.0)   145.0 :    11.4 KAD PENGENALAN ()
+(  178.6,   101.0)-(  321.6,   119.4)   143.0 :    18.4 MALAYSIA ()
+(  348.4,    95.3)-(  398.0,   110.0)    49.6 :    14.7 MYKAD ()
+(  148.6,   122.4)-(  265.4,   136.7)   116.9 :    14.4 700504-08-5456 ()
+(  147.3,   218.0)-(  222.3,   229.4)    75.1 :    11.4 HO MUN YEE ()
+(  147.3,   249.0)-(  230.8,   259.3)    83.6 :    10.3 21 JALAN BU 3/4 ()
+(  147.3,   259.3)-(  230.8,   268.8)    83.6 :     9.6 BANDAR UTAMA ()
+(  147.3,   268.1)-(  260.9,   278.4)   113.6 :    10.3 47800 PETALING JAYA ()
+(  381.7,   265.5)-(  457.4,   275.8)    75.7 :    10.3 WARGANE GARA ()
+(  148.6,   277.1)-(  204.1,   286.7)    55.5 :     9.6 SELANGOR ()
+(  416.3,   274.7)-(  476.4,   283.2)    60.1 :     8.5 PEREMPUJAN ()
+======================
+Estimating resolution as 119
+KAD PENGENALAN
+Before: (  178.6,    89.6)-(  323.6,   101.0)   145.0 :    11.4 KAD PENGENALAN ()
+After: (  178.6,    89.6)-(  323.6,   101.0)   145.0 :    11.4 KAD PENGENALAN ()
+Estimating resolution as 210
+Empty page!!
+Estimating resolution as 210
+Empty page!!
+Estimating resolution as 169
+Empty page!!
+Estimating resolution as 169
+Empty page!!
+Estimating resolution as 161
+04-08-5456
+Before: (  148.6,   122.4)-(  265.4,   136.7)   116.9 :    14.4 700504-08-5456 ()
+After: (  148.6,   122.4)-(  265.4,   136.7)   116.9 :    14.4 700504-08-5456 ()
+Estimating resolution as 111
+HO MUN YEE
+Before: (  147.3,   218.0)-(  222.3,   229.4)    75.1 :    11.4 HO MUN YEE ()
+After: (  147.3,   218.0)-(  222.3,   229.4)    75.1 :    11.4 HO MUN YEE ()
+Estimating resolution as 110
+Empty page!!
+Estimating resolution as 110
+Empty page!!
+Estimating resolution as 100
+Empty page!!
+Estimating resolution as 100
+Empty page!!
+Estimating resolution as 107
+Empty page!!
+Estimating resolution as 107
+Empty page!!
+Estimating resolution as 97
+WARGANE GARA
+Before: (  381.7,   265.5)-(  457.4,   275.8)    75.7 :    10.3 WARGANE GARA ()
+After: (  381.7,   265.5)-(  457.4,   275.8)    75.7 :    10.3 WARGANE GARA ()
+Estimating resolution as 108
+SELANGOR
+Before: (  148.6,   277.1)-(  204.1,   286.7)    55.5 :     9.6 SELANGOR ()
+After: (  148.6,   277.1)-(  204.1,   286.7)    55.5 :     9.6 SELANGOR (0.9100000262260437)
+Estimating resolution as 97
+Empty page!!
+Estimating resolution as 97
+Empty page!!
+==== Lines read by Tesseract ====
+(    2.0,     2.0)-(  144.0,    11.0)   142.0 :     9.0 KAD PENGENALAN (0.8899999856948853)
+(   36.0,     0.0)-(  117.0,    14.0)    81.0 :    14.0 04-08-5456 (0.6499999761581421)
+(    2.0,     1.0)-(   73.0,    10.0)    71.0 :     9.0 HO MUN YEE (0.8999999761581421)
+(    2.0,     0.0)-(   76.0,     9.0)    74.0 :     9.0 WARGANE GARA (0.8199999928474426)
+(    1.0,     0.0)-(   55.0,    10.0)    54.0 :     9.0 SELANGOR (0.9100000262260437)
+======================
+==== Merged lines ====
+(  178.6,    89.6)-(  323.6,   101.0)   145.0 :    11.4 KAD PENGENALAN ()
+(  178.6,   101.0)-(  321.6,   119.4)   143.0 :    18.4 MALAYSIA ()
+(  348.4,    95.3)-(  398.0,   110.0)    49.6 :    14.7 MYKAD ()
+(  148.6,   122.4)-(  265.4,   136.7)   116.9 :    14.4 700504-08-5456 ()
+(  147.3,   218.0)-(  222.3,   229.4)    75.1 :    11.4 HO MUN YEE ()
+(  147.3,   249.0)-(  230.8,   259.3)    83.6 :    10.3 21 JALAN BU 3/4 ()
+(  147.3,   259.3)-(  230.8,   268.8)    83.6 :     9.6 BANDAR UTAMA ()
+(  147.3,   268.1)-(  260.9,   278.4)   113.6 :    10.3 47800 PETALING JAYA ()
+(  381.7,   265.5)-(  457.4,   275.8)    75.7 :    10.3 WARGANE GARA ()
+(  148.6,   277.1)-(  204.1,   286.7)    55.5 :     9.6 SELANGOR (0.9100000262260437)
+(  416.3,   274.7)-(  476.4,   283.2)    60.1 :     8.5 PEREMPUJAN ()
+======================
+ExtractFieldsFromReadResultOfMyKad start...
+ExtractFieldsFromReadResultOfMyKad (0.4757633 sec)
+
+MatchTemplate key: MyKad_670_Flag MatchResult: 0.9089645743370056/0.800000011920929 x: 506 y: 14 w: 138 h: 75 dist: 0.026100857617723544
+MatchTemplate key: MyKad_670_Flag_Gray MatchResult: 0.8463901281356812/0.800000011920929 x: 505 y: 15 w: 138 h: 71 dist: 0.03010408148499115
+MatchTemplate key: MyKad_670_Flag_MoonStar MatchResult: 0.910134494304657/0.800000011920929 x: 517 y: 23 w: 33 h: 25 dist: 0.042573498465809594
+MatchTemplate key: MyKad_670_Flag_MoonStar_Gray MatchResult: 0.9187042713165283/0.800000011920929 x: 518 y: 23 w: 30 h: 27 dist: 0.04776246382288316
+MatchTemplate key: MyKad_670_Flower_Front_Gray MatchResult: 0.466915488243103/0.699999988079071 --> Not match
+MatchTemplate key: MyKad_670_IC_Chip MatchResult: 0.18709172308444977/0.4000000059604645 --> Not match
+MatchTemplate key: MyKad_670_IC_Chip_Gray MatchResult: 0.21205180883407593/0.4000000059604645 --> Not match
+MatchTemplate key: MyKad_670_IC_Chip_old MatchResult: 0.45691561698913574/0.4000000059604645 x: 49 y: 130 w: 108 h: 99 dist: 0.03508918231102639
+MatchTemplate key: MyKad_670_IC_Chip_old_Gray MatchResult: 0.3884568512439728/0.4000000059604645 --> Not match
+MatchTemplate key: MyKad_670_MSC_Gray MatchResult: 0.8436859846115112/0.800000011920929 x: 257 y: 98 w: 54 h: 54 dist: 0.10259139766082363
+MatchTemplate key: MyKad_670_MyKad MatchResult: 0.8225498199462891/0.800000011920929 x: 401 y: 7 w: 59 h: 39 dist: 0.01767766194348755
+MatchTemplate key: MyKad_670_MyKad_Gray MatchResult: 0.8144842982292175/0.800000011920929 x: 402 y: 8 w: 61 h: 39 dist: 0.01767760630953618
+scanMyKadResult.Success: False
+scanMyKadResult.Error: Failed to scan [GENDER]
+scanMyKadResult.lastNameOrFullName: HO MUN YEE
+scanMyKadResult.firstName:
+scanMyKadResult.middleName:
+scanMyKadResult.documentNumber: 700504-08-5456
+scanMyKadResult.addressLine1: 21 JALAN BU 3/4
+scanMyKadResult.addressLine2: BANDAR UTAMA PETALING JAYA SELANGOR
+scanMyKadResult.postcode: 47800
+scanMyKadResult.gender:
+scanMyKadResult.dateOfBirth: 1970-05-04
+
+[1]
+  Scanned Data: gender:
+  Expected    : gender: F
+ --> IsValid: False
+Try Florence-base OCR...
+ScanMyKad imageFileName: F:\WORK\Dev\huggingface\work\ConsoleApp1\test1\bin\Debug\net8.0\testdata\MyKad3.jpg
+PostOCRWithRegionRequest start...
+PostOCRWithRegionRequest PostAsync start...
+PostOCRWithRegionRequest PostAsync (11.9936942 sec)
+
+(12.0005372 sec)
+
+( 1104.9,   392.8)-( 1891.5,   442.5)   786.6 :    49.7 CAD PENGENALAN ()
+( 1111.4,   438.8)-( 1829.5,   512.4)   718.1 :    73.6 MALAYSIA ()
+( 1953.5,   424.1)-( 2199.9,   488.5)   246.4 :    64.4 MYKAD ()
+( 1163.6,   505.1)-( 1826.2,   554.8)   662.6 :    49.7 ENTITY CARD ()
+(  974.3,   587.9)-( 1539.0,   657.8)   564.7 :    69.9 70/08-02-5591 ()
+(  974.3,  1062.6)-( 1271.3,  1114.1)   297.0 :    51.5 SURJAN ()
+( 1248.5,  1061.7)-( 1597.7,  1116.0)   349.2 :    54.3 SURIJAN MULAU ()
+(  980.8,  1215.3)-( 1336.6,  1261.3)   355.8 :    46.0 B60 JALAN 16 ()
+(  980.8,  1263.2)-( 1803.4,  1312.8)   822.5 :    49.7 CINTA SAYANG RESORT HOMES ()
+(  980.8,  1311.0)-( 1545.5,  1360.7)   564.7 :    49.7 08000 SANGI PETANI ()
+( 2175.5,  1292.6)-( 2547.6,  1336.8)   372.1 :    44.2 WARGANGARAR ()
+(  980.8,  1360.7)-( 1170.1,  1406.7)   189.3 :    46.0 KEDAH ()
+( 2351.7,  1334.9)-( 2524.7,  1377.2)   173.0 :    42.3 LEAKI ()
+======================
+Estimating resolution as 522
+Empty page!!
+Estimating resolution as 522
+Empty page!!
+Estimating resolution as 393
+
+Estimating resolution as 709
+
+Estimating resolution as 506
+
+Estimating resolution as 766
+
+Estimating resolution as 588
+Empty page!!
+Estimating resolution as 588
+Empty page!!
+Estimating resolution as 187
+
+Estimating resolution as 552
+Empty page!!
+Estimating resolution as 552
+Empty page!!
+Estimating resolution as 533
+Empty page!!
+Estimating resolution as 533
+Empty page!!
+Estimating resolution as 523
+SUNGAI'PETANI
+Before: (  980.8,  1311.0)-( 1545.5,  1360.7)   564.7 :    49.7 08000 SANGI PETANI ()
+After: (  980.8,  1311.0)-( 1545.5,  1360.7)   564.7 :    49.7 08000 SANGI PETANI ()
+Estimating resolution as 461
+Empty page!!
+Estimating resolution as 461
+Empty page!!
+Estimating resolution as 513
+Empty page!!
+Estimating resolution as 513
+Empty page!!
+Estimating resolution as 441
+Empty page!!
+Estimating resolution as 441
+Empty page!!
+==== Lines read by Tesseract ====
+(  160.0,     0.0)-(  558.0,    46.0)   398.0 :    44.0 SUNGAI'PETANI (0.7200000286102295)
+======================
+==== Merged lines ====
+( 1104.9,   392.8)-( 1891.5,   442.5)   786.6 :    49.7 CAD PENGENALAN ()
+( 1111.4,   438.8)-( 1829.5,   512.4)   718.1 :    73.6 MALAYSIA ()
+( 1953.5,   424.1)-( 2199.9,   488.5)   246.4 :    64.4 MYKAD ()
+( 1163.6,   505.1)-( 1826.2,   554.8)   662.6 :    49.7 ENTITY CARD ()
+(  974.3,   587.9)-( 1539.0,   657.8)   564.7 :    69.9 70/08-02-5591 ()
+(  974.3,  1061.7)-( 1597.7,  1114.1)   623.4 :    52.4 SURJAN SURIJAN MULAU ()
+(  980.8,  1215.3)-( 1336.6,  1261.3)   355.8 :    46.0 B60 JALAN 16 ()
+(  980.8,  1263.2)-( 1803.4,  1312.8)   822.5 :    49.7 CINTA SAYANG RESORT HOMES ()
+(  980.8,  1311.0)-( 1545.5,  1360.7)   564.7 :    49.7 08000 SANGI PETANI ()
+( 2175.5,  1292.6)-( 2547.6,  1336.8)   372.1 :    44.2 WARGANGARAR ()
+(  980.8,  1360.7)-( 1170.1,  1406.7)   189.3 :    46.0 KEDAH ()
+( 2351.7,  1334.9)-( 2524.7,  1377.2)   173.0 :    42.3 LEAKI ()
+======================
+ExtractFieldsFromReadResultOfMyKad start...
+ExtractFieldsFromReadResultOfMyKad (0.5584331 sec)
+
+MatchTemplate key: MyKad_670_Flag MatchResult: 0.8908661603927612/0.800000011920929 x: 491 y: 15 w: 138 h: 75 dist: 0.10077831648472532
+MatchTemplate key: MyKad_670_Flag_Gray MatchResult: 0.9213935732841492/0.800000011920929 x: 490 y: 16 w: 138 h: 71 dist: 0.10526761148221116
+MatchTemplate key: MyKad_670_Flag_MoonStar MatchResult: 0.9478740692138672/0.800000011920929 x: 502 y: 23 w: 33 h: 25 dist: 0.11096174982477387
+MatchTemplate key: MyKad_670_Flag_MoonStar_Gray MatchResult: 0.9651007056236267/0.800000011920929 x: 503 y: 23 w: 30 h: 27 dist: 0.11470074151019961
+MatchTemplate key: MyKad_670_Flower_Front_Gray MatchResult: 0.8295103311538696/0.699999988079071 x: 284 y: 324 w: 122 h: 92 dist: 0.0901387686615407
+MatchTemplate key: MyKad_670_IC_Chip MatchResult: 0.5177736282348633/0.4000000059604645 x: 41 y: 137 w: 118 h: 103 dist: 0.06562204826620036
+MatchTemplate key: MyKad_670_IC_Chip_Gray MatchResult: 0.5819084644317627/0.4000000059604645 x: 49 y: 141 w: 102 h: 92 dist: 0.06103280151708312
+MatchTemplate key: MyKad_670_IC_Chip_old MatchResult: 0.34024086594581604/0.4000000059604645 --> Not match
+MatchTemplate key: MyKad_670_IC_Chip_old_Gray MatchResult: 0.27937552332878113/0.4000000059604645 --> Not match
+MatchTemplate key: MyKad_670_MSC_Gray MatchResult: 0.8603824377059937/0.800000011920929 x: 234 y: 107 w: 54 h: 54 dist: 0.05408328235704808
+MatchTemplate key: MyKad_670_MyKad MatchResult: 0.9274714589118958/0.800000011920929 x: 384 y: 6 w: 59 h: 39 dist: 0.08551325045778736
+MatchTemplate key: MyKad_670_MyKad_Gray MatchResult: 0.9265151023864746/0.800000011920929 x: 385 y: 8 w: 61 h: 39 dist: 0.07356978984133576
+scanMyKadResult.Success: False
+scanMyKadResult.Error: Failed to scan [BIRTHDATE,GENDER]
+scanMyKadResult.lastNameOrFullName: SURJAN SURIJAN MULAU
+scanMyKadResult.firstName:
+scanMyKadResult.middleName:
+scanMyKadResult.documentNumber: 70/08-02-5591
+scanMyKadResult.addressLine1: B60 JALAN 16
+scanMyKadResult.addressLine2: CINTA SAYANG RESORT HOMES SANGI PETANI KEDAH
+scanMyKadResult.postcode: 08000
+scanMyKadResult.gender:
+scanMyKadResult.dateOfBirth:
+
+[1]
+  Scanned Data: lastNameOrFullName: SURJAN SURIJAN MULAU
+  Expected    : lastNameOrFullName: SURIJAN
+
+[2]
+  Scanned Data: documentNumber: 70/08-02-5591
+  Expected    : documentNumber: 770208-02-5591
+
+[3]
+  Scanned Data: addressLine2: CINTA SAYANG RESORT HOMES SANGI PETANI KEDAH
+  Expected    : addressLine2: CINTA SAYANG RESORT HOMES SUNGAI PETANI KEDAH
+
+[4]
+  Scanned Data: gender:
+  Expected    : gender: M
+ --> IsValid: False
+Try Florence-base OCR...
+ScanMyKad imageFileName: F:\WORK\Dev\huggingface\work\ConsoleApp1\test1\bin\Debug\net8.0\testdata\MyKad3_s.jpg
+PostOCRWithRegionRequest start...
+PostOCRWithRegionRequest PostAsync start...
+PostOCRWithRegionRequest PostAsync (11.3025829 sec)
+
+(11.3044299 sec)
+
+(  219.1,    78.0)-(  373.8,    89.1)   154.8 :    11.0 CAD PENGENALAN ()
+(  217.1,    86.1)-(  439.8,   100.1)   222.7 :    14.0 MALAYSIA MYKAD ()
+(  217.1,   101.8)-(  365.4,   111.3)   148.2 :     9.6 INERENTITY CARD ()
+(  194.3,   117.2)-(  307.9,   131.6)   113.6 :    14.4 7702028-02-5591 ()
+(  194.3,   212.2)-(  319.0,   222.8)   124.7 :    10.7 SURJAN A AASSAU ()
+(  196.2,   243.1)-(  268.1,   252.6)    71.8 :     9.6 B60 JALAN 16 ()
+(  196.2,   252.6)-(  360.8,   262.9)   164.6 :    10.3 CINTA SAYANG RESORT HOMES ()
+(  196.2,   262.2)-(  309.8,   272.5)   113.6 :    10.3 08000 SANGI PETANI ()
+(  435.9,   258.5)-(  509.7,   268.1)    73.8 :     9.6 WARGANGGARA ()
+(  196.2,   271.8)-(  234.1,   281.3)    37.9 :     9.6 KEDAH ()
+(  470.5,   267.0)-(  505.1,   275.4)    34.6 :     8.5 LELAKI ()
+======================
+Estimating resolution as 106
+Empty page!!
+Estimating resolution as 106
+Empty page!!
+Estimating resolution as 119
+Empty page!!
+Estimating resolution as 119
+Empty page!!
+Estimating resolution as 123
+Empty page!!
+Estimating resolution as 123
+Empty page!!
+Estimating resolution as 149
+Empty page!!
+Estimating resolution as 149
+Empty page!!
+Estimating resolution as 133
+
+Estimating resolution as 109
+Empty page!!
+Estimating resolution as 109
+Empty page!!
+Estimating resolution as 113
+CINTA SAYANG RESORT HONES
+Before: (  196.2,   252.6)-(  360.8,   262.9)   164.6 :    10.3 CINTA SAYANG RESORT HOMES ()
+After: (  196.2,   252.6)-(  360.8,   262.9)   164.6 :    10.3 CINTA SAYANG RESORT HOMES ()
+Estimating resolution as 109
+Empty page!!
+Estimating resolution as 109
+Empty page!!
+Estimating resolution as 97
+Empty page!!
+Estimating resolution as 97
+Empty page!!
+Estimating resolution as 103
+KEDAH
+Before: (  196.2,   271.8)-(  234.1,   281.3)    37.9 :     9.6 KEDAH ()
+After: (  196.2,   271.8)-(  234.1,   281.3)    37.9 :     9.6 KEDAH ()
+==== Lines read by Tesseract ====
+(    2.0,     1.0)-(  164.0,    10.0)   162.0 :     8.0 CINTA SAYANG RESORT HONES (0.7799999713897705)
+(    1.0,     1.0)-(   37.0,     9.0)    36.0 :     8.0 KEDAH (0.7699999809265137)
+======================
+==== Merged lines ====
+(  219.1,    78.0)-(  373.8,    89.1)   154.8 :    11.0 CAD PENGENALAN ()
+(  217.1,    86.1)-(  439.8,   100.1)   222.7 :    14.0 MALAYSIA MYKAD ()
+(  217.1,   101.8)-(  365.4,   111.3)   148.2 :     9.6 INERENTITY CARD ()
+(  194.3,   117.2)-(  307.9,   131.6)   113.6 :    14.4 7702028-02-5591 ()
+(  194.3,   212.2)-(  319.0,   222.8)   124.7 :    10.7 SURJAN A AASSAU ()
+(  196.2,   243.1)-(  268.1,   252.6)    71.8 :     9.6 B60 JALAN 16 ()
+(  196.2,   252.6)-(  360.8,   262.9)   164.6 :    10.3 CINTA SAYANG RESORT HOMES ()
+(  196.2,   262.2)-(  309.8,   272.5)   113.6 :    10.3 08000 SANGI PETANI ()
+(  435.9,   258.5)-(  509.7,   268.1)    73.8 :     9.6 WARGANGGARA ()
+(  196.2,   271.8)-(  234.1,   281.3)    37.9 :     9.6 KEDAH ()
+(  470.5,   267.0)-(  505.1,   275.4)    34.6 :     8.5 LELAKI ()
+======================
+ExtractFieldsFromReadResultOfMyKad start...
+ExtractFieldsFromReadResultOfMyKad (0.4671414 sec)
+
+MatchTemplate key: MyKad_670_Flag MatchResult: 0.9028843641281128/0.800000011920929 x: 482 y: 16 w: 138 h: 75 dist: 0.14605231137015362
+MatchTemplate key: MyKad_670_Flag_Gray MatchResult: 0.9330259561538696/0.800000011920929 x: 481 y: 17 w: 138 h: 71 dist: 0.1505200272729134
+MatchTemplate key: MyKad_670_Flag_MoonStar MatchResult: 0.9079629182815552/0.800000011920929 x: 493 y: 24 w: 33 h: 25 dist: 0.1559247066891757
+MatchTemplate key: MyKad_670_Flag_MoonStar_Gray MatchResult: 0.9398182034492493/0.800000011920929 x: 494 y: 24 w: 30 h: 27 dist: 0.1594718292831665
+MatchTemplate key: MyKad_670_Flower_Front_Gray MatchResult: 0.8148484826087952/0.699999988079071 x: 275 y: 326 w: 122 h: 92 dist: 0.13416405732519673
+MatchTemplate key: MyKad_670_IC_Chip MatchResult: 0.5414834022521973/0.4000000059604645 x: 32 y: 139 w: 118 h: 103 dist: 0.1085414886961308
+MatchTemplate key: MyKad_670_IC_Chip_Gray MatchResult: 0.6005121469497681/0.4000000059604645 x: 40 y: 143 w: 102 h: 92 dist: 0.10511900118791281
+MatchTemplate key: MyKad_670_IC_Chip_old MatchResult: 0.33573946356773376/0.4000000059604645 --> Not match
+MatchTemplate key: MyKad_670_IC_Chip_old_Gray MatchResult: 0.2513715922832489/0.4000000059604645 --> Not match
+MatchTemplate key: MyKad_670_MSC_Gray MatchResult: 0.8906120657920837/0.800000011920929 x: 224 y: 109 w: 54 h: 54 dist: 0.09708246006934812
+MatchTemplate key: MyKad_670_MyKad MatchResult: 0.9330142736434937/0.800000011920929 x: 375 y: 8 w: 59 h: 39 dist: 0.128111375247149
+MatchTemplate key: MyKad_670_MyKad_Gray MatchResult: 0.9301272630691528/0.800000011920929 x: 376 y: 9 w: 61 h: 39 dist: 0.11773921394659677
+scanMyKadResult.Success: True
+scanMyKadResult.Error:
+scanMyKadResult.lastNameOrFullName: SURJAN A AASSAU
+scanMyKadResult.firstName:
+scanMyKadResult.middleName:
+scanMyKadResult.documentNumber: 7702028-02-5591
+scanMyKadResult.addressLine1: B60 JALAN 16
+scanMyKadResult.addressLine2: CINTA SAYANG RESORT HOMES SANGI PETANI KEDAH
+scanMyKadResult.postcode: 08000
+scanMyKadResult.gender: M
+scanMyKadResult.dateOfBirth: 1977-02-02
+
+[1]
+  Scanned Data: lastNameOrFullName: SURJAN A AASSAU
+  Expected    : lastNameOrFullName: SURIJAN A+ CHALIAU
+
+[2]
+  Scanned Data: documentNumber: 7702028-02-5591
+  Expected    : documentNumber: 770208-02-5591
+
+[3]
+  Scanned Data: addressLine2: CINTA SAYANG RESORT HOMES SANGI PETANI KEDAH
+  Expected    : addressLine2: CINTA SAYANG RESORT HOMES SUNGAI PETANI KEDAH
+ --> IsValid: False
+Try Florence-base OCR...
+ScanMyKad imageFileName: F:\WORK\Dev\huggingface\work\ConsoleApp1\test1\bin\Debug\net8.0\testdata\MyKad4.jpg
+PostOCRWithRegionRequest start...
+PostOCRWithRegionRequest PostAsync start...
+PostOCRWithRegionRequest PostAsync (10.8139522 sec)
+
+(10.8221311 sec)
+
+(  967.8,   407.6)-( 1718.5,   459.1)   750.7 :    51.5 KAD PENGENALAN ()
+(  967.8,   453.6)-( 1695.6,   527.2)   727.9 :    73.6 MALAYSIA ()
+( 1832.7,   442.5)-( 2067.7,   505.1)   235.0 :    62.6 MYKAD ()
+(  967.8,   518.0)-( 1760.9,   571.3)   793.2 :    53.4 IDENTITY CARD ()
+(  847.0,   611.8)-( 1388.8,   679.9)   541.8 :    68.1 570911-04-5295 ()
+(  847.0,  1071.8)-( 1147.3,  1121.5)   300.3 :    49.7 CHEW SIAN ()
+(  847.0,  1257.6)-( 1242.0,  1305.5)   394.9 :    47.8 NO 30 JALAN 8/8 ()
+(  847.0,  1305.5)-( 1382.3,  1355.2)   535.3 :    49.7 4630 PETALING JAYA ()
+( 2012.3,  1288.9)-( 2364.8,  1333.1)   352.5 :    44.2 WARGANEGARA ()
+(  847.0,  1351.5)-( 1124.4,  1397.5)   277.4 :    46.0 SELANGOR ()
+( 2188.5,  1338.6)-( 2351.7,  1379.1)   163.2 :    40.5 LELAK ()
+======================
+Estimating resolution as 497
+Empty page!!
+Estimating resolution as 497
+Empty page!!
+Estimating resolution as 875
+Empty page!!
+Estimating resolution as 875
+Empty page!!
+Estimating resolution as 713
+Empty page!!
+Estimating resolution as 713
+Empty page!!
+Estimating resolution as 590
+Estimating resolution as 590
+Estimating resolution as 731
+Empty page!!
+Estimating resolution as 731
+Empty page!!
+Estimating resolution as 559
+Empty page!!
+Estimating resolution as 559
+Empty page!!
+Estimating resolution as 489
+Empty page!!
+Estimating resolution as 489
+Empty page!!
+Estimating resolution as 483
+Empty page!!
+Estimating resolution as 483
+Empty page!!
+Estimating resolution as 424
+WARGANEGARA
+Before: ( 2012.3,  1288.9)-( 2364.8,  1333.1)   352.5 :    44.2 WARGANEGARA ()
+After: ( 2012.3,  1288.9)-( 2364.8,  1333.1)   352.5 :    44.2 WARGANEGARA ()
+Estimating resolution as 473
+Empty page!!
+Estimating resolution as 473
+Empty page!!
+Estimating resolution as 419
+Empty page!!
+Estimating resolution as 419
+Empty page!!
+==== Lines read by Tesseract ====
+(    7.0,     4.0)-(  352.0,    39.0)   345.0 :    33.0 WARGANEGARA (0.8999999761581421)
+======================
+==== Merged lines ====
+(  967.8,   407.6)-( 1718.5,   459.1)   750.7 :    51.5 KAD PENGENALAN ()
+(  967.8,   453.6)-( 1695.6,   527.2)   727.9 :    73.6 MALAYSIA ()
+( 1832.7,   442.5)-( 2067.7,   505.1)   235.0 :    62.6 MYKAD ()
+(  967.8,   518.0)-( 1760.9,   571.3)   793.2 :    53.4 IDENTITY CARD ()
+(  847.0,   611.8)-( 1388.8,   679.9)   541.8 :    68.1 570911-04-5295 ()
+(  847.0,  1071.8)-( 1147.3,  1121.5)   300.3 :    49.7 CHEW SIAN ()
+(  847.0,  1257.6)-( 1242.0,  1305.5)   394.9 :    47.8 NO 30 JALAN 8/8 ()
+(  847.0,  1305.5)-( 1382.3,  1355.2)   535.3 :    49.7 4630 PETALING JAYA ()
+( 2012.3,  1288.9)-( 2364.8,  1333.1)   352.5 :    44.2 WARGANEGARA ()
+(  847.0,  1351.5)-( 1124.4,  1397.5)   277.4 :    46.0 SELANGOR ()
+( 2188.5,  1338.6)-( 2351.7,  1379.1)   163.2 :    40.5 LELAK ()
+======================
+ExtractFieldsFromReadResultOfMyKad start...
+ExtractFieldsFromReadResultOfMyKad (0.5130582 sec)
+
+MatchTemplate key: MyKad_670_Flag MatchResult: 0.8759430050849915/0.800000011920929 x: 506 y: 15 w: 138 h: 75 dist: 0.02795093501800391
+MatchTemplate key: MyKad_670_Flag_Gray MatchResult: 0.9296560883522034/0.800000011920929 x: 505 y: 16 w: 138 h: 71 dist: 0.030923384712139568
+MatchTemplate key: MyKad_670_Flag_MoonStar MatchResult: 0.8942797183990479/0.800000011920929 x: 516 y: 24 w: 33 h: 25 dist: 0.04962361523358408
+MatchTemplate key: MyKad_670_Flag_MoonStar_Gray MatchResult: 0.9457895159721375/0.800000011920929 x: 517 y: 24 w: 30 h: 27 dist: 0.054829311209103546
+MatchTemplate key: MyKad_670_Flower_Front_Gray MatchResult: 0.8030933141708374/0.699999988079071 x: 295 y: 325 w: 122 h: 92 dist: 0.058523528070893435
+MatchTemplate key: MyKad_670_IC_Chip MatchResult: 0.7769072651863098/0.4000000059604645 x: 52 y: 134 w: 118 h: 103 dist: 0.027950871043557948
+MatchTemplate key: MyKad_670_IC_Chip_Gray MatchResult: 0.7981474995613098/0.4000000059604645 x: 60 y: 138 w: 102 h: 92 dist: 0.02061554836684534
+MatchTemplate key: MyKad_670_IC_Chip_old MatchResult: 0.3681252896785736/0.4000000059604645 --> Not match
+MatchTemplate key: MyKad_670_IC_Chip_old_Gray MatchResult: 0.31173571944236755/0.4000000059604645 --> Not match
+MatchTemplate key: MyKad_670_MSC_Gray MatchResult: 0.9194375276565552/0.800000011920929 x: 247 y: 109 w: 54 h: 54 dist: 0.028284245959354092
+MatchTemplate key: MyKad_670_MyKad MatchResult: 0.9242607355117798/0.800000011920929 x: 398 y: 6 w: 59 h: 39 dist: 0.02573912687749564
+MatchTemplate key: MyKad_670_MyKad_Gray MatchResult: 0.9264163374900818/0.800000011920929 x: 399 y: 7 w: 61 h: 39 dist: 0.017677688917461618
+scanMyKadResult.Success: False
+scanMyKadResult.Error: Failed to scan [GENDER]
+scanMyKadResult.lastNameOrFullName: CHEW SIAN
+scanMyKadResult.firstName:
+scanMyKadResult.middleName:
+scanMyKadResult.documentNumber: 570911-04-5295
+scanMyKadResult.addressLine1: NO 30 JALAN 8/8
+scanMyKadResult.addressLine2: PETALING JAYA SELANGOR
+scanMyKadResult.postcode: 4630
+scanMyKadResult.gender:
+scanMyKadResult.dateOfBirth: 1957-09-11
+
+[1]
+  Scanned Data: lastNameOrFullName: CHEW SIAN
+  Expected    : lastNameOrFullName: CHEW SIA
+
+[2]
+  Scanned Data: documentNumber: 570911-04-5295
+  Expected    : documentNumber: 5709011-04-5295
+
+[3]
+  Scanned Data: postcode: 4630
+  Expected    : postcode: 46030
+
+[4]
+  Scanned Data: gender:
+  Expected    : gender: M
+ --> IsValid: False
+Try Florence-base OCR...
+ScanMyKad imageFileName: F:\WORK\Dev\huggingface\work\ConsoleApp1\test1\bin\Debug\net8.0\testdata\MyKad5.jpg
+PostOCRWithRegionRequest start...
+PostOCRWithRegionRequest PostAsync start...
+PostOCRWithRegionRequest PostAsync (12.0747121 sec)
+
+(12.0861199 sec)
+
+(  791.5,   273.2)-( 1725.0,   337.6)   933.5 :    64.4 KAD PENGENALAN ()
+(  791.5,   328.4)-( 1718.5,   420.4)   927.0 :    92.0 MALAYSIA ()
+(  791.5,   407.6)-( 1712.0,   472.0)   920.4 :    64.4 IDENTITY CARD ()
+( 1868.6,   325.7)-( 2154.2,   403.0)   285.6 :    77.3 MYKAD ()
+(  638.1,   527.2)-( 1317.0,   617.3)   678.9 :    90.2 810611-05-5049 ()
+(  634.8,  1108.6)-( 1104.9,  1174.8)   470.0 :    66.2 WONG WELL ()
+(  634.8,  1315.6)-( 1317.0,  1373.6)   682.2 :    58.0 NO.3 JALAN JUJOR 1/4 ()
+( 2168.9,  1314.7)-( 2390.9,  1345.0)   222.0 :    30.4 81611-45-5040 ()
+(  638.1,  1369.0)-( 1069.0,  1423.2)   430.8 :    54.3 TAMAN BAKTI ()
+( 2093.9,  1367.1)-( 2518.2,  1419.6)   424.3 :    52.4 WARGANEGARA ()
+(  641.4,  1422.3)-( 1101.6,  1474.8)   460.2 :    52.4 68000 AMPANG ()
+( 2302.8,  1422.3)-( 2488.8,  1468.3)   186.0 :    46.0 LELAKI ()
+(  638.1,  1474.8)-(  984.1,  1528.1)   346.0 :    53.4 SELANGOR ()
+======================
+Estimating resolution as 603
+Empty page!!
+Estimating resolution as 603
+Empty page!!
+Estimating resolution as 177
+Error in boxClipToRectangle: box outside rectangle
+Error in pixScanForForeground: invalid box
+
+Estimating resolution as 538
+
+Estimating resolution as 831
+Empty page!!
+Estimating resolution as 831
+Empty page!!
+Estimating resolution as 882
+
+Estimating resolution as 254
+
+Estimating resolution as 588
+Empty page!!
+Estimating resolution as 588
+Empty page!!
+Estimating resolution as 293
+Empty page!!
+Estimating resolution as 293
+Empty page!!
+Estimating resolution as 588
+Empty page!!
+Estimating resolution as 588
+Empty page!!
+Estimating resolution as 506
+Empty page!!
+Estimating resolution as 506
+Empty page!!
+Estimating resolution as 614
+Empty page!!
+Estimating resolution as 614
+Empty page!!
+Estimating resolution as 509
+Empty page!!
+Estimating resolution as 509
+Empty page!!
+Estimating resolution as 594
+Empty page!!
+Estimating resolution as 594
+Empty page!!
+==== Lines read by Tesseract ====
+======================
+==== Merged lines ====
+(  791.5,   273.2)-( 1725.0,   337.6)   933.5 :    64.4 KAD PENGENALAN ()
+(  791.5,   328.4)-( 1718.5,   420.4)   927.0 :    92.0 MALAYSIA ()
+(  791.5,   407.6)-( 1712.0,   472.0)   920.4 :    64.4 IDENTITY CARD ()
+( 1868.6,   325.7)-( 2154.2,   403.0)   285.6 :    77.3 MYKAD ()
+(  638.1,   527.2)-( 1317.0,   617.3)   678.9 :    90.2 810611-05-5049 ()
+(  634.8,  1108.6)-( 1104.9,  1174.8)   470.0 :    66.2 WONG WELL ()
+(  634.8,  1315.6)-( 1317.0,  1373.6)   682.2 :    58.0 NO.3 JALAN JUJOR 1/4 ()
+( 2168.9,  1314.7)-( 2390.9,  1345.0)   222.0 :    30.4 81611-45-5040 ()
+(  638.1,  1369.0)-( 1069.0,  1423.2)   430.8 :    54.3 TAMAN BAKTI ()
+( 2093.9,  1367.1)-( 2518.2,  1419.6)   424.3 :    52.4 WARGANEGARA ()
+(  641.4,  1422.3)-( 1101.6,  1474.8)   460.2 :    52.4 68000 AMPANG ()
+( 2302.8,  1422.3)-( 2488.8,  1468.3)   186.0 :    46.0 LELAKI ()
+(  638.1,  1474.8)-(  984.1,  1528.1)   346.0 :    53.4 SELANGOR ()
+======================
+ExtractFieldsFromReadResultOfMyKad start...
+ExtractFieldsFromReadResultOfMyKad (0.5133249 sec)
+
+MatchTemplate key: MyKad_670_Flag MatchResult: 0.8536041378974915/0.800000011920929 x: 503 y: 20 w: 138 h: 75 dist: 0.054829350072781585
+MatchTemplate key: MyKad_670_Flag_Gray MatchResult: 0.8869962096214294/0.800000011920929 x: 501 y: 21 w: 138 h: 71 dist: 0.05963438216961963
+MatchTemplate key: MyKad_670_Flag_MoonStar MatchResult: 0.8321006298065186/0.800000011920929 x: 515 y: 28 w: 33 h: 25 dist: 0.06754630580031279
+MatchTemplate key: MyKad_670_Flag_MoonStar_Gray MatchResult: 0.8916293382644653/0.800000011920929 x: 517 y: 28 w: 30 h: 27 dist: 0.0700446509681228
+MatchTemplate key: MyKad_670_Flower_Front_Gray MatchResult: 0.7836756706237793/0.699999988079071 x: 301 y: 326 w: 122 h: 92 dist: 0.06082768017707707
+MatchTemplate key: MyKad_670_IC_Chip MatchResult: 0.4683370888233185/0.4000000059604645 x: 51 y: 136 w: 118 h: 103 dist: 0.037500023841859804
+MatchTemplate key: MyKad_670_IC_Chip_Gray MatchResult: 0.5490932464599609/0.4000000059604645 x: 59 y: 139 w: 102 h: 92 dist: 0.025000023841860796
+MatchTemplate key: MyKad_670_IC_Chip_old MatchResult: 0.34399160742759705/0.4000000059604645 --> Not match
+MatchTemplate key: MyKad_670_IC_Chip_old_Gray MatchResult: 0.281576544046402/0.4000000059604645 --> Not match
+MatchTemplate key: MyKad_670_MSC_Gray MatchResult: 0.8790726065635681/0.800000011920929 x: 251 y: 109 w: 54 h: 54 dist: 0.044721332893988185
+MatchTemplate key: MyKad_670_MyKad MatchResult: 0.9232165217399597/0.800000011920929 x: 400 y: 9 w: 59 h: 39 dist: 0.007905729963340274
+MatchTemplate key: MyKad_670_MyKad_Gray MatchResult: 0.9307920932769775/0.800000011920929 x: 401 y: 10 w: 61 h: 39 dist: 0.007905605561877043
+scanMyKadResult.Success: True
+scanMyKadResult.Error:
+scanMyKadResult.lastNameOrFullName: WONG WELL
+scanMyKadResult.firstName:
+scanMyKadResult.middleName:
+scanMyKadResult.documentNumber: 810611-05-5049
+scanMyKadResult.addressLine1: NO.3 JALAN JUJOR 1/4
+scanMyKadResult.addressLine2: TAMAN BAKTI AMPANG SELANGOR
+scanMyKadResult.postcode: 68000
+scanMyKadResult.gender: M
+scanMyKadResult.dateOfBirth: 1981-06-11
+
+[1]
+  Scanned Data: lastNameOrFullName: WONG WELL
+  Expected    : lastNameOrFullName: WONG WEI
+
+[2]
+  Scanned Data: addressLine1: NO.3 JALAN JUJOR 1/4
+  Expected    : addressLine1: NO 3 JALAN JUJOR 1/4
+ --> IsValid: False
+Try Florence-base OCR...
+ScanMyKad imageFileName: F:\WORK\Dev\huggingface\work\ConsoleApp1\test1\bin\Debug\net8.0\testdata\MyKad6.jpg
+PostOCRWithRegionRequest start...
+PostOCRWithRegionRequest PostAsync start...
+PostOCRWithRegionRequest PostAsync (11.9693655 sec)
+
+(11.9756457 sec)
+
+(  811.1,   389.2)-( 1630.4,   444.4)   819.3 :    55.2 KAD PENGENALAN ()
+(  817.6,   435.2)-( 1620.6,   518.0)   802.9 :    82.8 MALAYSIA ()
+( 1770.7,   426.9)-( 2023.7,   499.6)   253.0 :    72.7 MYKAD ()
+(  811.1,   512.4)-( 1627.1,   565.8)   816.0 :    53.4 IDENTITY CARD ()
+(  696.9,   619.2)-( 1284.4,   694.6)   587.5 :    75.4 790336-01-6473 ()
+(  690.3,  1130.7)-( 1062.4,  1185.9)   372.1 :    55.2 LAI CHIN FOR ()
+(  690.3,  1252.1)-(  781.7,  1296.3)    91.4 :    44.2 103 ()
+(  690.3,  1298.1)-( 1255.0,  1347.8)   564.7 :    49.7 JALAN WAWASAN 1/6 ()
+(  690.3,  1347.8)-( 1392.1,  1397.5)   701.8 :    49.7 PUSAT BANDAR PUCHONG ()
+(  690.3,  1399.3)-( 1127.7,  1449.0)   437.4 :    49.7 47180 PUCHOONG ()
+( 1986.1,  1369.9)-( 2364.8,  1419.6)   378.6 :    49.7 WARGANEGARA ()
+(  693.6,  1449.0)-(  990.6,  1500.5)   297.0 :    51.5 SELANGOR ()
+( 2168.9,  1421.4)-( 2341.9,  1465.6)   173.0 :    44.2 LELAKI ()
+======================
+Estimating resolution as 594
+MAD PENGENALAN
+Estimating resolution as 923
+Empty page!!
+Estimating resolution as 923
+Empty page!!
+Estimating resolution as 730
+Empty page!!
+Estimating resolution as 730
+Empty page!!
+Estimating resolution as 556
+Empty page!!
+Estimating resolution as 556
+Empty page!!
+Estimating resolution as 790
+Empty page!!
+Estimating resolution as 790
+Empty page!!
+Estimating resolution as 581
+Empty page!!
+Estimating resolution as 581
+Empty page!!
+Estimating resolution as 516
+Empty page!!
+Estimating resolution as 516
+Empty page!!
+Estimating resolution as 524
+Empty page!!
+Estimating resolution as 524
+Empty page!!
+Estimating resolution as 520
+Empty page!!
+Estimating resolution as 520
+Empty page!!
+Estimating resolution as 517
+Empty page!!
+Estimating resolution as 517
+Empty page!!
+Estimating resolution as 470
+Empty page!!
+Estimating resolution as 470
+Empty page!!
+Estimating resolution as 520
+SELANGOR
+Before: (  693.6,  1449.0)-(  990.6,  1500.5)   297.0 :    51.5 SELANGOR ()
+After: (  693.6,  1449.0)-(  990.6,  1500.5)   297.0 :    51.5 SELANGOR (0.9200000166893005)
+Estimating resolution as 466
+Empty page!!
+Estimating resolution as 466
+Empty page!!
+==== Lines read by Tesseract ====
+(    6.0,     0.0)-(  819.0,    55.0)   813.0 :    47.0 MAD PENGENALAN (0.47999998927116394)
+(    2.0,     4.0)-(  294.0,    45.0)   292.0 :    40.0 SELANGOR (0.9200000166893005)
+======================
+==== Merged lines ====
+(  811.1,   389.2)-( 1630.4,   444.4)   819.3 :    55.2 KAD PENGENALAN ()
+(  817.6,   429.6)-( 2023.7,   506.9)  1206.0 :    77.3 MALAYSIA   MYKAD ()
+(  811.1,   512.4)-( 1627.1,   565.8)   816.0 :    53.4 IDENTITY CARD ()
+(  696.9,   619.2)-( 1284.4,   694.6)   587.5 :    75.4 790336-01-6473 ()
+(  690.3,  1130.7)-( 1062.4,  1185.9)   372.1 :    55.2 LAI CHIN FOR ()
+(  690.3,  1252.1)-(  781.7,  1296.3)    91.4 :    44.2 103 ()
+(  690.3,  1298.1)-( 1255.0,  1347.8)   564.7 :    49.7 JALAN WAWASAN 1/6 ()
+(  690.3,  1347.8)-( 1392.1,  1397.5)   701.8 :    49.7 PUSAT BANDAR PUCHONG ()
+(  690.3,  1399.3)-( 1127.7,  1449.0)   437.4 :    49.7 47180 PUCHOONG ()
+( 1986.1,  1369.9)-( 2364.8,  1419.6)   378.6 :    49.7 WARGANEGARA ()
+(  693.6,  1449.0)-(  990.6,  1500.5)   297.0 :    51.5 SELANGOR (0.9200000166893005)
+( 2168.9,  1421.4)-( 2341.9,  1465.6)   173.0 :    44.2 LELAKI ()
+======================
+ExtractFieldsFromReadResultOfMyKad start...
+ExtractFieldsFromReadResultOfMyKad (0.5208289 sec)
+
+MatchTemplate key: MyKad_670_Flag MatchResult: 0.8568393588066101/0.800000011920929 x: 488 y: 17 w: 138 h: 75 dist: 0.11718051004547787
+MatchTemplate key: MyKad_670_Flag_Gray MatchResult: 0.8595552444458008/0.800000011920929 x: 487 y: 18 w: 138 h: 71 dist: 0.12126942272556894
+MatchTemplate key: MyKad_670_Flag_MoonStar MatchResult: 0.9075101017951965/0.800000011920929 x: 500 y: 25 w: 33 h: 25 dist: 0.12333900744955217
+MatchTemplate key: MyKad_670_Flag_MoonStar_Gray MatchResult: 0.9236767888069153/0.800000011920929 x: 501 y: 25 w: 30 h: 27 dist: 0.1273038135228266
+MatchTemplate key: MyKad_670_Flower_Front_Gray MatchResult: 0.7690421938896179/0.699999988079071 x: 284 y: 322 w: 122 h: 92 dist: 0.08499998036555322
+MatchTemplate key: MyKad_670_IC_Chip MatchResult: 0.545213520526886/0.4000000059604645 x: 41 y: 136 w: 118 h: 103 dist: 0.06250002384185904
+MatchTemplate key: MyKad_670_IC_Chip_Gray MatchResult: 0.47596341371536255/0.4000000059604645 x: 49 y: 140 w: 102 h: 92 dist: 0.05830954143710173
+MatchTemplate key: MyKad_670_IC_Chip_old MatchResult: 0.3042287826538086/0.4000000059604645 --> Not match
+MatchTemplate key: MyKad_670_IC_Chip_old_Gray MatchResult: 0.2488020807504654/0.4000000059604645 --> Not match
+MatchTemplate key: MyKad_670_MSC_Gray MatchResult: 0.7734312415122986/0.800000011920929 --> Not match
+MatchTemplate key: MyKad_670_MyKad MatchResult: 0.9533905386924744/0.800000011920929 x: 384 y: 8 w: 59 h: 39 dist: 0.0834416915255616
+MatchTemplate key: MyKad_670_MyKad_Gray MatchResult: 0.9386951923370361/0.800000011920929 x: 385 y: 9 w: 61 h: 39 dist: 0.07288699416009461
+scanMyKadResult.Success: True
+scanMyKadResult.Error:
+scanMyKadResult.lastNameOrFullName: LAI CHIN FOR
+scanMyKadResult.firstName:
+scanMyKadResult.middleName:
+scanMyKadResult.documentNumber: 790336-01-6473
+scanMyKadResult.addressLine1: 103 JALAN WAWASAN 1/6
+scanMyKadResult.addressLine2: PUSAT BANDAR PUCHONG PUCHOONG SELANGOR
+scanMyKadResult.postcode: 47180
+scanMyKadResult.gender: M
+scanMyKadResult.dateOfBirth: 1979-03-36
+
+[1]
+  Scanned Data: lastNameOrFullName: LAI CHIN FOR
+  Expected    : lastNameOrFullName: LAI CHIN FONE
+
+[2]
+  Scanned Data: documentNumber: 790336-01-6473
+  Expected    : documentNumber: 790326-01-6475
+
+[3]
+  Scanned Data: addressLine2: PUSAT BANDAR PUCHONG PUCHOONG SELANGOR
+  Expected    : addressLine2: PUSAT BANDAR PUCHONG PUCHONG SELANGOR
+
+[4]
+  Scanned Data: postcode: 47180
+  Expected    : postcode: 47160
+ --> IsValid: False
+Try Florence-base OCR...
+ScanMyKad imageFileName: F:\WORK\Dev\huggingface\work\ConsoleApp1\test1\bin\Debug\net8.0\testdata\MyKad7.jpg
+PostOCRWithRegionRequest start...
+PostOCRWithRegionRequest PostAsync start...
+PostOCRWithRegionRequest PostAsync (11.1973426 sec)
+
+(11.2026755 sec)
+
+(  980.8,   345.0)-( 1813.2,   402.0)   832.3 :    57.0 KAD PENGENALAN ()
+(  990.6,   396.5)-( 1813.2,   477.5)   822.5 :    81.0 MALAYSIA ()
+( 1953.5,   381.8)-( 2208.1,   455.4)   254.6 :    73.6 MYKAD ()
+(  987.4,   470.1)-( 1806.6,   525.3)   819.3 :    55.2 IDENTITY CARD ()
+(  850.3,   564.0)-( 1480.2,   639.4)   630.0 :    75.4 9000101-02-5507 ()
+(  853.5,  1087.4)-( 1405.2,  1153.7)   551.6 :    66.2 LIM CHINING ()
+(  869.9,  1263.2)-( 1101.6,  1312.8)   231.7 :    49.7 NO 85 H ()
+(  869.9,  1315.6)-( 1330.1,  1365.3)   460.2 :    49.7 JALAN PERGAM ()
+(  869.9,  1366.2)-( 1490.0,  1417.7)   620.2 :    51.5 08000 SUNGAI PETANI ()
+( 2178.7,  1336.8)-( 2576.9,  1386.4)   398.2 :    49.7 WARGANEGARA ()
+(  869.9,  1415.9)-( 1075.5,  1465.6)   205.6 :    49.7 KEDAH ()
+( 2368.0,  1380.9)-( 2547.6,  1425.1)   179.5 :    44.2 LELAKI ()
+======================
+Estimating resolution as 608
+Empty page!!
+Estimating resolution as 608
+Empty page!!
+Estimating resolution as 264
+
+Estimating resolution as 736
+MvKad
+Before: ( 1953.5,   381.8)-( 2208.1,   455.4)   254.6 :    73.6 MYKAD ()
+After: ( 1953.5,   381.8)-( 2208.1,   455.4)   254.6 :    73.6 MYKAD ()
+Estimating resolution as 460
+Detected 103 diacritics
+Estimating resolution as 778
+Empty page!!
+Estimating resolution as 778
+Empty page!!
+Estimating resolution as 606
+Empty page!!
+Estimating resolution as 606
+Empty page!!
+Estimating resolution as 538
+Empty page!!
+Estimating resolution as 538
+Empty page!!
+Estimating resolution as 557
+Empty page!!
+Estimating resolution as 557
+Empty page!!
+Estimating resolution as 549
+Empty page!!
+Estimating resolution as 549
+Empty page!!
+Estimating resolution as 469
+Empty page!!
+Estimating resolution as 469
+Empty page!!
+Estimating resolution as 547
+Empty page!!
+Estimating resolution as 547
+Empty page!!
+Estimating resolution as 463
+Empty page!!
+Estimating resolution as 463
+Empty page!!
+==== Lines read by Tesseract ====
+(    3.0,     5.0)-(  255.0,    70.0)   252.0 :    61.0 MvKad (0.6700000166893005)
+======================
+==== Merged lines ====
+(  980.8,   345.0)-( 1813.2,   402.0)   832.3 :    57.0 KAD PENGENALAN ()
+(  990.6,   388.2)-( 2208.1,   465.5)  1217.5 :    77.3 MALAYSIA   MYKAD ()
+(  987.4,   470.1)-( 1806.6,   525.3)   819.3 :    55.2 IDENTITY CARD ()
+(  850.3,   564.0)-( 1480.2,   639.4)   630.0 :    75.4 9000101-02-5507 ()
+(  853.5,  1087.4)-( 1405.2,  1153.7)   551.6 :    66.2 LIM CHINING ()
+(  869.9,  1263.2)-( 1101.6,  1312.8)   231.7 :    49.7 NO 85 H ()
+(  869.9,  1315.6)-( 1330.1,  1365.3)   460.2 :    49.7 JALAN PERGAM ()
+(  869.9,  1366.2)-( 1490.0,  1417.7)   620.2 :    51.5 08000 SUNGAI PETANI ()
+( 2178.7,  1336.8)-( 2576.9,  1386.4)   398.2 :    49.7 WARGANEGARA ()
+(  869.9,  1415.9)-( 1075.5,  1465.6)   205.6 :    49.7 KEDAH ()
+( 2368.0,  1380.9)-( 2547.6,  1425.1)   179.5 :    44.2 LELAKI ()
+======================
+ExtractFieldsFromReadResultOfMyKad start...
+ExtractFieldsFromReadResultOfMyKad (0.5125541 sec)
+
+MatchTemplate key: MyKad_670_Flag MatchResult: 0.8966408967971802/0.800000011920929 x: 485 y: 16 w: 138 h: 75 dist: 0.13117269073835955
+MatchTemplate key: MyKad_670_Flag_Gray MatchResult: 0.8648686408996582/0.800000011920929 x: 484 y: 17 w: 138 h: 71 dist: 0.13557756359079332
+MatchTemplate key: MyKad_670_Flag_MoonStar MatchResult: 0.91087406873703/0.800000011920929 x: 496 y: 24 w: 33 h: 25 dist: 0.14128875654344888
+MatchTemplate key: MyKad_670_Flag_MoonStar_Gray MatchResult: 0.94173663854599/0.800000011920929 x: 497 y: 24 w: 30 h: 27 dist: 0.14493537492416367
+MatchTemplate key: MyKad_670_Flower_Front_Gray MatchResult: 0.8201593160629272/0.699999988079071 x: 281 y: 324 w: 122 h: 92 dist: 0.10295628288408289
+MatchTemplate key: MyKad_670_IC_Chip MatchResult: 0.5160365104675293/0.4000000059604645 x: 37 y: 137 w: 118 h: 103 dist: 0.08189171933406142
+MatchTemplate key: MyKad_670_IC_Chip_Gray MatchResult: 0.5399775505065918/0.4000000059604645 x: 45 y: 141 w: 102 h: 92 dist: 0.07826240053730031
+MatchTemplate key: MyKad_670_IC_Chip_old MatchResult: 0.30359527468681335/0.4000000059604645 --> Not match
+MatchTemplate key: MyKad_670_IC_Chip_old_Gray MatchResult: 0.2639106512069702/0.4000000059604645 --> Not match
+MatchTemplate key: MyKad_670_MSC_Gray MatchResult: 0.8680040836334229/0.800000011920929 x: 231 y: 109 w: 54 h: 54 dist: 0.06324557205201402
+MatchTemplate key: MyKad_670_MyKad MatchResult: 0.943027675151825/0.800000011920929 x: 379 y: 7 w: 59 h: 39 dist: 0.10891519964000981
+MatchTemplate key: MyKad_670_MyKad_Gray MatchResult: 0.9051421880722046/0.800000011920929 x: 380 y: 9 w: 61 h: 39 dist: 0.09778813162171178
+scanMyKadResult.Success: True
+scanMyKadResult.Error:
+scanMyKadResult.lastNameOrFullName: LIM CHINING
+scanMyKadResult.firstName:
+scanMyKadResult.middleName:
+scanMyKadResult.documentNumber: 9000101-02-5507
+scanMyKadResult.addressLine1: NO 85 H
+scanMyKadResult.addressLine2: JALAN PERGAM SUNGAI PETANI KEDAH
+scanMyKadResult.postcode: 08000
+scanMyKadResult.gender: M
+scanMyKadResult.dateOfBirth: 1990-00-10
+
+[1]
+  Scanned Data: lastNameOrFullName: LIM CHINING
+  Expected    : lastNameOrFullName: LIM CHING HANG
+
+[2]
+  Scanned Data: documentNumber: 9000101-02-5507
+  Expected    : documentNumber: 900681-02-5507
+ --> IsValid: False
+Try Florence-base OCR...
+ScanMyKad imageFileName: F:\WORK\Dev\huggingface\work\ConsoleApp1\test1\bin\Debug\net8.0\testdata\MyKad8.jpg
+PostOCRWithRegionRequest start...
+PostOCRWithRegionRequest PostAsync start...
+PostOCRWithRegionRequest PostAsync (11.7178379 sec)
+
+(11.7231707 sec)
+
+(  850.3,   354.2)-( 1656.5,   416.8)   806.2 :    62.6 KAD PENGENALAN ()
+(  856.8,   416.8)-( 1646.7,   514.3)   789.9 :    97.5 MALAYSIA ()
+( 1795.2,   385.5)-( 2066.1,   466.4)   270.9 :    81.0 MYKAD ()
+(  677.3,   543.7)-( 1323.6,   617.3)   646.3 :    73.6 751002-14-5383 ()
+(  687.1,  1067.2)-( 1179.9,  1122.4)   492.9 :    55.2 TAN BOON KEE ()
+(  687.1,  1182.2)-(  941.7,  1230.0)   254.6 :    47.8 LOT 1998 ()
+(  687.1,  1231.0)-( 1405.2,  1278.8)   718.1 :    47.8 JALAN SULH BUDIMAN 1 ()
+(  690.3,  1281.6)-( 1382.3,  1329.4)   692.0 :    47.8 TAMAN SULUH BUDUMAN ()
+(  690.3,  1330.3)-( 1330.1,  1379.1)   639.7 :    48.8 45600 BTG BERJUNTA ()
+( 1963.3,  1307.3)-( 2358.2,  1353.3)   394.9 :    46.0 WARGANEGARA ()
+(  696.9,  1380.9)-( 1003.7,  1430.6)   306.8 :    49.7 SELANGOR ()
+( 2146.1,  1355.2)-( 2322.3,  1395.6)   176.3 :    40.5 LELAKI ()
+======================
+Estimating resolution as 613
+KAD PENGENALAN
+Before: (  850.3,   354.2)-( 1656.5,   416.8)   806.2 :    62.6 KAD PENGENALAN ()
+After: (  850.3,   354.2)-( 1656.5,   416.8)   806.2 :    62.6 KAD PENGENALAN ()
+Estimating resolution as 1090
+Empty page!!
+Estimating resolution as 1090
+Empty page!!
+Estimating resolution as 800
+Empty page!!
+Estimating resolution as 800
+Empty page!!
+Estimating resolution as 817
+Empty page!!
+Estimating resolution as 817
+Empty page!!
+Estimating resolution as 571
+Empty page!!
+Estimating resolution as 571
+Empty page!!
+Estimating resolution as 511
+Empty page!!
+Estimating resolution as 511
+Empty page!!
+Estimating resolution as 515
+JALAN SULUH BUDIMAN 1
+Before: (  687.1,  1231.0)-( 1405.2,  1278.8)   718.1 :    47.8 JALAN SULH BUDIMAN 1 ()
+After: (  687.1,  1231.0)-( 1405.2,  1278.8)   718.1 :    47.8 JALAN SULUH BUDIMAN 1 (0.9100000262260437)
+Estimating resolution as 518
+Empty page!!
+Estimating resolution as 518
+Empty page!!
+Estimating resolution as 509
+45600 BTG BERJUNTAI
+Before: (  690.3,  1330.3)-( 1330.1,  1379.1)   639.7 :    48.8 45600 BTG BERJUNTA ()
+After: (  690.3,  1330.3)-( 1330.1,  1379.1)   639.7 :    48.8 45600 BTG BERJUNTA ()
+Estimating resolution as 433
+WARGANEGARA
+Before: ( 1963.3,  1307.3)-( 2358.2,  1353.3)   394.9 :    46.0 WARGANEGARA ()
+After: ( 1963.3,  1307.3)-( 2358.2,  1353.3)   394.9 :    46.0 WARGANEGARA ()
+Estimating resolution as 517
+Empty page!!
+Estimating resolution as 517
+Empty page!!
+Estimating resolution as 419
+Empty page!!
+Estimating resolution as 419
+Empty page!!
+==== Lines read by Tesseract ====
+(    9.0,     8.0)-(  798.0,    58.0)   789.0 :    48.0 KAD PENGENALAN (0.8799999952316284)
+(    7.0,     3.0)-(  712.0,    46.0)   705.0 :    43.0 JALAN SULUH BUDIMAN 1 (0.9100000262260437)
+(    6.0,     3.0)-(  633.0,    46.0)   627.0 :    43.0 45600 BTG BERJUNTAI (0.8399999737739563)
+(    7.0,     8.0)-(  389.0,    43.0)   382.0 :    35.0 WARGANEGARA (0.8600000143051147)
+======================
+==== Merged lines ====
+(  850.3,   354.2)-( 1656.5,   416.8)   806.2 :    62.6 KAD PENGENALAN ()
+(  856.8,   416.8)-( 1646.7,   514.3)   789.9 :    97.5 MALAYSIA ()
+( 1795.2,   385.5)-( 2066.1,   466.4)   270.9 :    81.0 MYKAD ()
+(  677.3,   543.7)-( 1323.6,   617.3)   646.3 :    73.6 751002-14-5383 ()
+(  687.1,  1067.2)-( 1179.9,  1122.4)   492.9 :    55.2 TAN BOON KEE ()
+(  687.1,  1182.2)-(  941.7,  1230.0)   254.6 :    47.8 LOT 1998 ()
+(  687.1,  1231.0)-( 1405.2,  1278.8)   718.1 :    47.8 JALAN SULUH BUDIMAN 1 (0.9100000262260437)
+(  690.3,  1281.6)-( 1382.3,  1329.4)   692.0 :    47.8 TAMAN SULUH BUDUMAN ()
+(  690.3,  1330.3)-( 1330.1,  1379.1)   639.7 :    48.8 45600 BTG BERJUNTA ()
+( 1963.3,  1307.3)-( 2358.2,  1353.3)   394.9 :    46.0 WARGANEGARA ()
+(  696.9,  1380.9)-( 1003.7,  1430.6)   306.8 :    49.7 SELANGOR ()
+( 2146.1,  1355.2)-( 2322.3,  1395.6)   176.3 :    40.5 LELAKI ()
+======================
+ExtractFieldsFromReadResultOfMyKad start...
+ExtractFieldsFromReadResultOfMyKad (0.519699 sec)
+
+MatchTemplate key: MyKad_670_Flag MatchResult: 0.8882330656051636/0.800000011920929 x: 515 y: 13 w: 138 h: 75 dist: 0.020155549739757198
+MatchTemplate key: MyKad_670_Flag_Gray MatchResult: 0.8706163167953491/0.800000011920929 x: 514 y: 14 w: 138 h: 71 dist: 0.015206812255898565
+MatchTemplate key: MyKad_670_Flag_MoonStar MatchResult: 0.8960115909576416/0.800000011920929 x: 526 y: 22 w: 33 h: 25 dist: 0.02573904698485376
+MatchTemplate key: MyKad_670_Flag_MoonStar_Gray MatchResult: 0.9336826801300049/0.800000011920929 x: 527 y: 22 w: 30 h: 27 dist: 0.029261727879645885
+MatchTemplate key: MyKad_670_Flower_Front_Gray MatchResult: 0.470767080783844/0.699999988079071 --> Not match
+MatchTemplate key: MyKad_670_IC_Chip MatchResult: 0.3066340982913971/0.4000000059604645 --> Not match
+MatchTemplate key: MyKad_670_IC_Chip_Gray MatchResult: 0.28021886944770813/0.4000000059604645 --> Not match
+MatchTemplate key: MyKad_670_IC_Chip_old MatchResult: 0.2996664047241211/0.4000000059604645 --> Not match
+MatchTemplate key: MyKad_670_IC_Chip_old_Gray MatchResult: 0.2534216642379761/0.4000000059604645 --> Not match
+MatchTemplate key: MyKad_670_MSC_Gray MatchResult: 0.8564398288726807/0.800000011920929 x: 264 y: 99 w: 54 h: 54 dist: 0.1261942681910732
+MatchTemplate key: MyKad_670_MyKad MatchResult: 0.7694797515869141/0.800000011920929 --> Not match
+MatchTemplate key: MyKad_670_MyKad_Gray MatchResult: 0.7653408646583557/0.800000011920929 --> Not match
+scanMyKadResult.Success: True
+scanMyKadResult.Error:
+scanMyKadResult.lastNameOrFullName: TAN BOON KEE
+scanMyKadResult.firstName:
+scanMyKadResult.middleName:
+scanMyKadResult.documentNumber: 751002-14-5383
+scanMyKadResult.addressLine1: LOT 1998 JALAN SULUH BUDIMAN 1
+scanMyKadResult.addressLine2: TAMAN SULUH BUDUMAN BTG BERJUNTA SELANGOR
+scanMyKadResult.postcode: 45600
+scanMyKadResult.gender: M
+scanMyKadResult.dateOfBirth: 1975-10-02
+
+[1]
+  Scanned Data: addressLine2: TAMAN SULUH BUDUMAN BTG BERJUNTA SELANGOR
+  Expected    : addressLine2: TAMAN SULUH BUDIMAN BTG BERJUNTAI SELANGOR
+ --> IsValid: False
+ObjectCache(00007FFB816E8480)::~ObjectCache(): WARNING! LEAK! object 0000024986BF41B0 still has count 1 (id ./tessdata/eng.traineddatapunc-dawg)
+ObjectCache(00007FFB816E8480)::~ObjectCache(): WARNING! LEAK! object 0000024986BF4370 still has count 1 (id ./tessdata/eng.traineddataword-dawg)
+ObjectCache(00007FFB816E8480)::~ObjectCache(): WARNING! LEAK! object 0000024986BF45A0 still has count 1 (id ./tessdata/eng.traineddatanumber-dawg)
+ObjectCache(00007FFB816E8480)::~ObjectCache(): WARNING! LEAK! object 0000024986BF4220 still has count 1 (id ./tessdata/eng.traineddatabigram-dawg)
+ObjectCache(00007FFB816E8480)::~ObjectCache(): WARNING! LEAK! object 0000024986BF43E0 still has count 1 (id ./tessdata/eng.traineddatafreq-dawg)
+
+F:\WORK\Dev\huggingface\work\ConsoleApp1\test1\bin\Debug\net8.0\test1.exe (process 41060) exited with code 0 (0x0).
+To automatically close the console when debugging stops, enable Tools->Options->Debugging->Automatically close the console when debugging stops.
+Press any key to close this window . . .

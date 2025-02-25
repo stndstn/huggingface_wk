@@ -1,0 +1,56 @@
+
+
+https://cmake.org/getting-started/
+
+https://cmake.org/cmake/help/latest/guide/tutorial/A%20Basic%20Starting%20Point.html
+
+
+mkdir <build folder>
+cd <build folder>
+cmake <folder where CMakeLists.txt is located>
+# now Makefile and other resured files are generated
+
+cmake --build .
+
+cmake --build . --target clean
+
+
+cp libOpenCVWrapper.so ../../ConsoleAppDn8/bin/Debug/net8.0/
+
+
+# https://github.com/davisking/dlib
+
+# dlib
+# To compile this program all you need to do is ask cmake.  You would type
+# these commands from within the directory containing this CMakeLists.txt
+# file:
+#   mkdir build
+#   cd build
+#   cmake ..
+#   cmake --build . --config Release
+
+# cmake --build . --target clean
+
+
+# build libDlibWrapper
+
+mkdir build
+cd build
+cmake --build . --target clean
+cmake -DBUILD_SHARED_LIBS=1 ..
+make
+#sudo make install
+cp libDlibWrapper.so ../../ConsoleAppDn8/bin/Debug/net8.0/
+cp libDlibWrapper.so ../../ScanIDWebApi/bin/Debug/net8.0/
+
+cp ./OpenCVWrapper/build/libOpenCVWrapper.so ./ConsoleAppDn8/bin/Debug/net8.0/
+cp ./OpenCVWrapper/build/libOpenCVWrapper.so ./ScanIDWebApi/bin/Debug/net8.0/
+cp ./DlibWrapper/build/libDlibWrapper.so ./ConsoleAppDn8/bin/Debug/net8.0/
+cp ./DlibWrapper/build/libDlibWrapper.so ./ScanIDWebApi/bin/Debug/net8.0/
+
+
+../../ScanIDWebApi/bin/Debug/net8.0/runtimes/linux-x64/native/
+/usr/lib/dotnet/shared/Microsoft.NETCore.App/8.0.12/libDlibWrapper
+
+
+

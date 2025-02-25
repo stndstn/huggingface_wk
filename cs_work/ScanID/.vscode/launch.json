@@ -1,0 +1,22 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "C#: ScanIDWebApi",
+            "type": "dotnet",
+            "request": "launch",
+            "projectPath": "${workspaceFolder}/ScanIDWebApi/ScanIDWebApi.csproj"
+        },
+        {
+            "name": "C#: ConsoleAppDn8",
+            "type": "dotnet",
+            "request": "launch",
+            "projectPath": "${workspaceFolder}/ConsoleAppDn8/ConsoleAppDn8.csproj",
+            "launchConfigurationId": "TargetFramework=;ConsoleAppDn8",
+        }
+    ]
+}
+
