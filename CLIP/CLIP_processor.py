@@ -17,7 +17,8 @@ def readCheckboxImage(image):
     t_start = time.localtime()    
     print('start: ', t_start.tm_hour, ':', t_start.tm_min, ':', t_start.tm_sec)
 
-    inputs = processor(text=["checked", "empty"], images=image, return_tensors="pt", padding=True)
+    #inputs = processor(text=["checked", "box checked", "cross in box", "box", "empty box", "empty", "unchecked"], images=image, return_tensors="pt", padding=True)
+    inputs = processor(text=["check mark", "empty rectangle"], images=image, return_tensors="pt", padding=True)
     outputs = model(**inputs)
     logits_per_image = outputs.logits_per_image  # this is the image-text similarity score
     print(logits_per_image)
