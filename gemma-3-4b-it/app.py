@@ -6,24 +6,55 @@
 # huggingface-cli login --token hf_...
 
 
+#from transformers import AutoProcessor, AutoModelForImageTextToText
+#from transformers import AutoProcessor, Gemma3ForConditionalGeneration
 from transformers import pipeline
-import torch
-#from PIL import Image
-
-
-from transformers import AutoProcessor, Gemma3ForConditionalGeneration
 from PIL import Image
 #import requests
 import torch
 import time
+import my_secret
 
-hf_token = "hf_..."
-model_id = "google/gemma-3-12b-it"
+import os
+import subprocess
+
+'''
+$ which huggingface-cli
+/home/takumi/.local/bin/huggingface-cli
+'''
+huggingface_bin_path = "/home/takumi/.local/bin"
+os.environ["PATH"] = f"{huggingface_bin_path}:{os.environ['PATH']}"
+#subprocess.run(["huggingface-cli", "login", "--token", my_secret.hf_token], shell=True)
+subprocess.run(["huggingface-cli", "login", "--token", my_secret.hf_token])
+
+model_id = "google/gemma-3-4b-it"
 device = "cuda"
 
-model = Gemma3ForConditionalGeneration.from_pretrained(model_id).to(device).eval()
+
+# pipeline
+pipe = pipeline(
+    "image-text-to-text",
+    model=model_id,
+    device="cuda",
+    torch_dtype=torch.bfloat16
+)
+
+
+'''
+# Gemma3ForConditionalGeneration
+model = Gemma3ForConditionalGeneration.from_pretrained(
+    model_id, device_map="auto"
+).eval()
 
 processor = AutoProcessor.from_pretrained(model_id)
+'''
+
+'''
+# Load model directly
+# AutoModelForImageTextToText
+processor = AutoProcessor.from_pretrained(model_id)
+model = AutoModelForImageTextToText.from_pretrained(model_id, token=my_secret.hf_token).to(device).eval()
+'''
 
 image = Image.open("../images/CSDEMOBANK_ApplicationForm_P1_s.jpeg")
 
@@ -46,6 +77,7 @@ messages = [
 
 t_start = time.localtime()
 
+'''
 inputs = processor.apply_chat_template(
     messages, add_generation_prompt=True, tokenize=True,
     return_dict=True, return_tensors="pt"
@@ -54,10 +86,16 @@ inputs = processor.apply_chat_template(
 input_len = inputs["input_ids"].shape[-1]
 
 with torch.inference_mode():
-    generation = model.generate(**inputs, max_new_tokens=100, do_sample=False)
+    generation = model.generate(**inputs, max_new_tokens=500, do_sample=False)
     generation = generation[0][input_len:]
 
 decoded = processor.decode(generation, skip_special_tokens=True)
+'''
+
+# pipeline
+output = pipe(text=messages, max_new_tokens=200)
+print(output[0][0]["generated_text"][-1]["content"])
+
 
 t_end = time.localtime()
 
