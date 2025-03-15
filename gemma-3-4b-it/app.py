@@ -13,7 +13,6 @@ from PIL import Image
 #import requests
 import torch
 import time
-<<<<<<< HEAD
 import my_secret
 
 import os
@@ -46,18 +45,6 @@ pipe = pipeline(
 model = Gemma3ForConditionalGeneration.from_pretrained(
     model_id, device_map="auto"
 ).eval()
-=======
-import secret
-import subprocess
-
-#subprocess.run(["huggingface-cli", " login", "--token", secret.hf_token])
-
-model_id = "google/gemma-3-12b-it"
-device = "cuda"
-
-#model = Gemma3ForConditionalGeneration.from_pretrained(model_id, secret=secret.hf_token).to(device).eval()
-model = Gemma3ForConditionalGeneration.from_pretrained(model_id).to(device).eval()
->>>>>>> 11fe65d (remove hf access token)
 
 processor = AutoProcessor.from_pretrained(model_id)
 '''
@@ -103,6 +90,7 @@ with torch.inference_mode():
     generation = generation[0][input_len:]
 
 decoded = processor.decode(generation, skip_special_tokens=True)
+print(decoded)
 '''
 
 # pipeline
@@ -111,8 +99,6 @@ print(output[0][0]["generated_text"][-1]["content"])
 
 
 t_end = time.localtime()
-
-print(decoded)
 
 print('end: ', t_end.tm_hour, ':', t_end.tm_min, ':', t_end.tm_sec)
 print('elapsed: ', t_end.tm_hour - t_start.tm_hour, ':', t_end.tm_min - t_start.tm_min, ':', t_end.tm_sec - t_start.tm_sec)
