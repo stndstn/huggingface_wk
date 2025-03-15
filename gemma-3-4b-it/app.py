@@ -13,6 +13,7 @@ from PIL import Image
 #import requests
 import torch
 import time
+<<<<<<< HEAD
 import my_secret
 
 import os
@@ -45,6 +46,18 @@ pipe = pipeline(
 model = Gemma3ForConditionalGeneration.from_pretrained(
     model_id, device_map="auto"
 ).eval()
+=======
+import secret
+import subprocess
+
+#subprocess.run(["huggingface-cli", " login", "--token", secret.hf_token])
+
+model_id = "google/gemma-3-12b-it"
+device = "cuda"
+
+#model = Gemma3ForConditionalGeneration.from_pretrained(model_id, secret=secret.hf_token).to(device).eval()
+model = Gemma3ForConditionalGeneration.from_pretrained(model_id).to(device).eval()
+>>>>>>> 11fe65d (remove hf access token)
 
 processor = AutoProcessor.from_pretrained(model_id)
 '''
