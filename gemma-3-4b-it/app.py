@@ -70,7 +70,8 @@ messages = [
             #{"type": "image", "image": "https://huggingface.co/datasets/huggingface/documentation-images/resolve/main/bee.jpg"},
             #{"type": "text", "text": "Describe this image in detail."}
             {"type": "image", "image": image},
-            {"type": "text", "text": "You are a helpful assistant. Please read this bank account application form and extract information of applicant."}
+            #{"type": "text", "text": "You are a helpful assistant. Please read this bank account application form and extract information of applicant."}
+            {"type": "text", "text": "You are a helpful assistant. Please read this bank account application form and extract information of applicant as json format."}
         ]
     }
 ]
@@ -94,7 +95,7 @@ print(decoded)
 '''
 
 # pipeline
-output = pipe(text=messages, max_new_tokens=500)
+output = pipe(text=messages, max_new_tokens=1000)
 print(output[0]["generated_text"][-1]["content"])
 
 
@@ -102,3 +103,35 @@ t_end = time.localtime()
 
 print('end: ', t_end.tm_hour, ':', t_end.tm_min, ':', t_end.tm_sec)
 print('elapsed: ', t_end.tm_hour - t_start.tm_hour, ':', t_end.tm_min - t_start.tm_min, ':', t_end.tm_sec - t_start.tm_sec)
+
+
+'''
+```json
+{
+  "applicant_name": "FELIX PEREZ",
+  "date_of_birth": "08/26/1979",
+  "marital_status": "Single",
+  "number_of_children": 0,
+  "mother_maidens_name": "ERIKA SERRANO",
+  "spouse_name": "VOID",
+  "permanent_address": "823 PASEO DE ROKSAS ST., MAKATI CITY, 1226 PHILIPPINES",
+  "residence_type": "RESIDENTIAL",
+  "mailing_address": "823 PASEO DE ROKSAS ST., MAKATI CITY, 1226 PHILIPPINES",
+  "mobile_number": "63 917 726 8115",
+  "email": "felix.perez@gmail.com",
+  "nationality": "PHILIPPINE",
+  "resident_status": "Non-Resident",
+  "primary_id": "CN 003214708256",
+  "alternate_id": "UMID",
+  "expiry_date": "08/30/2025",
+  "employment_status": "Unemployed",
+  "occupation": "MANAGER",
+  "employer_business_name": "SAS PHILIPPINES",
+  "employer_business_address": "649 R. HILDAGO STREET, BAKANGYAY 3-7 QUIPO, MANILA",
+  "employer_business_contact": "sales@sas.com.ph",
+  "source_of_income": "Allotment",
+  "monthly_income_range": "VOID",
+  "version": "1.0 Jan 2024"
+}
+```
+'''
