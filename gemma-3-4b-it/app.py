@@ -94,8 +94,8 @@ print(decoded)
 '''
 
 # pipeline
-output = pipe(text=messages, max_new_tokens=200)
-print(output[0][0]["generated_text"][-1]["content"])
+output = pipe(text=messages, max_new_tokens=500)
+print(output[0]["generated_text"][-1]["content"])
 
 
 t_end = time.localtime()
