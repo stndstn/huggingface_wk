@@ -83,6 +83,26 @@ print('end: ', t_end.tm_hour, ':', t_end.tm_min, ':', t_end.tm_sec)
 print('elapsed: ', t_end.tm_hour - t_start.tm_hour, ':', t_end.tm_min - t_start.tm_min, ':', t_end.tm_sec - t_start.tm_sec)
 
 
+# test docVQA
+t_start = time.localtime()
+#imageFileName = "images/MyKad1_F.jpg"
+imageFileName = "images/MYDL1.jpg"
+print('start: ', t_start.tm_hour, ':', t_start.tm_min, ':', t_start.tm_sec)
+#ocrFile(imageFileName) # test ocr
+docVqaFile(imageFileName, "What is the name of the license holders?")
+#docVqaFile(imageFileName, "what is this image?")
+#docVqaFile(imageFileName, "This is the image of ID card of Malaysia, which is known as MyKad. What inforation can be read in this image?")
+#docVqaFile(imageFileName, "what is the name of this ID card holder?")
+#docVqaFile(imageFileName, "what is the ID number of this ID card holder?")
+#docVqaFile(imageFileName, "Lines under ID number are address lines of ID holder. What is the Address of this ID card holder?")
+#docVqaFile(imageFileName, "what is the value of 'No. Pengenalan' field in the image?")
+#docVqaFile(imageFileName, "what is the value of 'Alamat' field in the image?")
+t_end = time.localtime()
+print('end: ', t_end.tm_hour, ':', t_end.tm_min, ':', t_end.tm_sec)
+print('elapsed: ', t_end.tm_hour - t_start.tm_hour, ':', t_end.tm_min - t_start.tm_min, ':', t_end.tm_sec - t_start.tm_sec)
+
+
+'''
 # Number of arguments
 n = len(sys.argv)
 print("Total arguments passed:", n)
@@ -101,3 +121,4 @@ for i in range(1, n):
     t_end = time.localtime()
     print('end: ', t_end.tm_hour, ':', t_end.tm_min, ':', t_end.tm_sec)
     print('elapsed: ', t_end.tm_hour - t_start.tm_hour, ':', t_end.tm_min - t_start.tm_min, ':', t_end.tm_sec - t_start.tm_sec)
+'''

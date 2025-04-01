@@ -1,6 +1,7 @@
 # pip install einops timm
 # pip install "numpy<2.0"
 # pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu124
+# pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu126
 # pip install psutil
 # (python -m pip install wheel) 
 # pip install flash-attn --no-build-isolation
@@ -25,20 +26,22 @@ import torch
 from PIL import Image
 from transformers import AutoProcessor, AutoModelForCausalLM
 
-#print("Florence-2-base...")
-print("Florence-2-DocVQA...")
+model_name = "microsoft/Florence-2-large-ft"
+print("Florence-2-large-ft...")
+
+# HuggingFaceM4/Florence-2-DocVQA needs 'pip install timm'
+#model_name = "HuggingFaceM4/Florence-2-DocVQA"
+#print("Florence-2-DocVQA...")
+
 device = "cuda:0" if torch.cuda.is_available() else "cpu"
 print(f"deivice: {device}")
 torch_dtype = torch.float16 if torch.cuda.is_available() else torch.float32
 print(f"torch_dtype: {torch_dtype}")
 
-#model = AutoModelForCausalLM.from_pretrained("microsoft/Florence-2-base", torch_dtype=torch_dtype, trust_remote_code=True).to(device)
-# HuggingFaceM4/Florence-2-DocVQA needs 'pip install timm'
-model = AutoModelForCausalLM.from_pretrained("HuggingFaceM4/Florence-2-DocVQA", torch_dtype=torch_dtype, trust_remote_code=True).to(device)
-#print(f"model: {model}")
-#processor = AutoProcessor.from_pretrained("microsoft/Florence-2-base", trust_remote_code=True)
-processor = AutoProcessor.from_pretrained("HuggingFaceM4/Florence-2-DocVQA", trust_remote_code=True)
-#print(f"processor: {processor}")
+model = AutoModelForCausalLM.from_pretrained(model_name, torch_dtype=torch_dtype, trust_remote_code=True).to(device)
+print(f"model: {model}")
+processor = AutoProcessor.from_pretrained(model_name, trust_remote_code=True)
+print(f"processor: {processor}")
 
 def getDevice():
     return device
@@ -104,7 +107,7 @@ def docVqa(image, text_input=None, task_prompt="<DocVQA>"):
     #print(f"ocr generated_text: {generated_text}")
 
     parsed_answer = processor.post_process_generation(generated_text, task=task_prompt, image_size=(image.width, image.height))
-    print(f"ocr parsed_answer: {parsed_answer}")
+    print(f"docVQA parsed_answer: {parsed_answer}")
     return parsed_answer
 
 
@@ -114,3 +117,18 @@ ocr_answer = ocr(image)
 print(ocr_answer['<OCR>'])
 # {'<OCR>': "Frank-Sweetie I amokay. I'm wl myoffice overbyThe Lyndon B. Johnsonmemorial"}
 '''
+image = Image.open("../../images/DrivingLicense/MYDL/MYDL4.JPG")
+docvqa_answer = docVqa(image, text_input="What is the name?")
+print(docvqa_answer)
+print(docvqa_answer['<DocVQA>'])
+# {'<DocVQA>': 'takumi tateishi'}
+
+docvqa_answer = docVqa(image, text_input="What is the address?")
+print(docvqa_answer)
+print(docvqa_answer['<DocVQA>'])
+# {'<DocVQA>': 'unanswerable'}
+
+docvqa_answer = docVqa(image, text_input="What is the document number?")
+print(docvqa_answer)
+print(docvqa_answer['<DocVQA>'])
+# {'<DocVQA>': 'unanswerable'}
