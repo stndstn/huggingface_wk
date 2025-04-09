@@ -41,7 +41,7 @@ namespace ScanID
             return b64Image;
         }
 
-        public static ScanMyKadResult ScanMyKad(string baseAddrUrl, string imageFileName)
+        public static MyKadDataset ScanMyKad(string baseAddrUrl, string imageFileName)
         {
             Console.WriteLine($"ScanMyKad imageFileName: {imageFileName}");
             string b64Image = EncodeImageFileToBase64(imageFileName);
@@ -71,7 +71,7 @@ namespace ScanID
             }
             */
             Console.WriteLine("======================");
-#if true
+
             using (SKImage bmpImage = SKImage.FromEncodedData(imageFileName))
             {
                 if (bmpImage != null)
@@ -164,15 +164,130 @@ namespace ScanID
                     return scanMyKadResult;
                 }
             }
-#endif
-            {
-                DateTime dtStart2 = DateTime.Now;
-                Console.WriteLine($"ExtractFieldsFromReadResultOfMyKad start...");
-                ScanMyKadResult scanMyKadResult = ExtractFieldsFromReadResultOfMyKad(lines);
-                DateTime dtEnd2 = DateTime.Now;
-                Console.WriteLine($"ExtractFieldsFromReadResultOfMyKad ({(dtEnd2 - dtStart2).TotalSeconds} sec)\n");
-                return scanMyKadResult;
+        }
 
+        public static MyKadDataset ScanMyKad(string baseAddrUrl, string imageFileName)
+        {
+            Console.WriteLine($"ScanMyKad imageFileName: {imageFileName}");
+            string b64Image = EncodeImageFileToBase64(imageFileName);
+
+            DateTime dtStart = DateTime.Now;
+            Console.WriteLine($"PostOCRWithRegionRequest start...");
+            List<Line> lines = PostOCRWithRegionRequest(baseAddrUrl, b64Image);
+            DateTime dtEnd = DateTime.Now;
+            Console.WriteLine($"({(dtEnd - dtStart).TotalSeconds} sec)\n");
+
+            // remove </s> from the start of 1st line
+            if (lines.Count > 0 && lines[0].Text.StartsWith("</s>"))
+            {
+                lines[0].Text = lines[0].Text.Replace("</s>", "");
+            }
+
+            foreach (Line line in lines)
+            {
+                Console.WriteLine(line.ExtToString());
+            }
+            /*
+            Console.WriteLine("==== Merged lines ====");
+            IList<Line> linesMerged = MergeLinesInSameYPosIntoOneLine(lines);
+            foreach (Line line in linesMerged)
+            {
+                Console.WriteLine(line.ExtToString());
+            }
+            */
+            Console.WriteLine("======================");
+
+            using (SKImage bmpImage = SKImage.FromEncodedData(imageFileName))
+            {
+                if (bmpImage != null)
+                {
+                    List<Line> linesTess = new List<Line>();
+                    foreach (Line line in lines)
+                    {
+                        SkiaSharp.SKImage imageLine = null;
+                        SkiaSharp.SKRectI rect = SkiaSharp.SKRectI.Empty;
+                        if (line.BoundingBox.Count == 4)
+                        {
+                            rect = new SkiaSharp.SKRectI((int)line.BoundingBox[0] - 1, (int)line.BoundingBox[1] - 1, (int)line.BoundingBox[2] + 1, (int)line.BoundingBox[3] + 1);
+                            imageLine = bmpImage.Subset(rect);
+                        }
+                        else if (line.BoundingBox.Count == 8)
+                        {
+                            //rect = new SkiaSharp.SKRectI((int)line.BoundingBox[0], (int)line.BoundingBox[1], (int)line.BoundingBox[4], (int)line.BoundingBox[5]);
+                            //imageLine = bmpImage.Subset(rect);
+                            continue;   // no need to scan with tesseract for Florence-base 
+                        }
+
+                        if (rect.IsEmpty)
+                            continue;
+
+                        if (imageLine == null)
+                            continue;
+
+                        SKData skData = imageLine.Encode(SkiaSharp.SKEncodedImageFormat.Png, 100);
+                        var tessBlocks = OCRLinesWithTesseractEncodedData(skData.ToArray());
+                        foreach (Line lineTess in tessBlocks)
+                        {
+                            if (string.IsNullOrWhiteSpace(lineTess.Text))
+                                continue;
+
+                            linesTess.Add(lineTess);
+                        }
+
+                        if (tessBlocks.Count == 1)
+                        {
+                            if (!string.IsNullOrWhiteSpace(tessBlocks[0].Text)
+                                && tessBlocks[0].Confidence != null
+                                && tessBlocks[0].Confidence.Value > 0.3)
+                            {
+                                // take boundingBox and baseline from Tesseract to accurate line height.
+                                // but take scanned text only if confidence > 0.9
+
+                                if (tessBlocks[0].Confidence.Value > 0.5)
+                                {
+                                    line.Text = tessBlocks[0].Text.Trim();
+                                    line.Confidence = tessBlocks[0].Confidence;
+                                }
+                                if (line.BoundingBox.Count == 4)
+                                {
+                                    // update bounding box
+                                    line.BoundingBox[0] = line.BoundingBox[0] + tessBlocks[0].BoundingBox[0];
+                                    line.BoundingBox[1] = line.BoundingBox[1] + tessBlocks[0].BoundingBox[1];
+                                    line.BoundingBox[2] = line.BoundingBox[0] + tessBlocks[0].BoundingBox[2];
+                                    line.BoundingBox[3] = line.BoundingBox[1] + tessBlocks[0].BoundingBox[3];
+                                    line.Baseline = new List<double?> {
+                                        line.BoundingBox[0] + tessBlocks[0].Baseline[0],
+                                        line.BoundingBox[1] + tessBlocks[0].Baseline[1],
+                                        line.BoundingBox[0] + tessBlocks[0].Baseline[2],
+                                        line.BoundingBox[1] + tessBlocks[0].Baseline[3]
+                                    };
+                                }
+                                Console.WriteLine(line.ExtToString());
+                            }
+                        }
+                    }
+                    Console.WriteLine("==== Lines read by Tesseract ====");
+                    foreach (Line lineTess in linesTess)
+                    {
+                        Console.WriteLine(lineTess.ExtToString());
+                    }
+                    Console.WriteLine("======================");
+
+                    Console.WriteLine("==== Merged lines ====");
+                    IList<Line> linesMerged = MergeLinesInSameYPosIntoOneLine(lines);
+                    foreach (Line line in linesMerged)
+                    {
+                        Console.WriteLine(line.ExtToString());
+                    }
+                    Console.WriteLine("======================");
+
+                    DateTime dtStart2 = DateTime.Now;
+                    Console.WriteLine($"ExtractFieldsFromReadResultOfMyKad start...");
+                    ScanMyKadResult scanMyKadResult = ExtractFieldsFromReadResultOfMyKad(linesMerged);
+                    DateTime dtEnd2 = DateTime.Now;
+                    Console.WriteLine($"ExtractFieldsFromReadResultOfMyKad ({(dtEnd2 - dtStart2).TotalSeconds} sec)\n");
+                    return scanMyKadResult;
+                }
             }
         }
 
@@ -303,6 +418,131 @@ namespace ScanID
                 {
                     DateTime dtStart2 = DateTime.Now;
                     ScanMYDLResult scanMYDLResult = ExtractFieldsFromReadResultOfMYDL(lines, width);
+                    DateTime dtEnd2 = DateTime.Now;
+                    Console.WriteLine($"ExtractFieldsFromReadResultOfMYDL ({(dtEnd2 - dtStart2).TotalSeconds} sec)\n");
+                    return scanMYDLResult;
+                }
+            }
+        }
+
+        public static MYDLDataset GenerateMYDLDataset(string baseAddrUrl, string imageFileName)
+        {
+            Console.WriteLine($"GenerateMYDLDataset imageFileName: {imageFileName}");
+
+            string b64Image = EncodeImageFileToBase64(imageFileName);
+
+            int width = 0, height = 0;
+            using (SKImage bmpImage = SKImage.FromEncodedData(imageFileName))
+            {
+                width = bmpImage.Width;
+                height = bmpImage.Height;
+                if (width == 0 || height == 0)
+                {
+                    Console.WriteLine("File is empty: " + imageFileName);
+                    throw new Exception("File is empty: " + imageFileName);
+                }
+
+                DateTime dtStart = DateTime.Now;
+                Console.WriteLine($"PostOCRWithRegionRequest start...");
+                List<Line> lines = PostOCRWithRegionRequest(baseAddrUrl, b64Image);
+                DateTime dtEnd = DateTime.Now;
+                Console.WriteLine($"({(dtEnd - dtStart).TotalSeconds} sec)\n");
+
+                // remove </s> from the start of 1st line
+                if (lines.Count > 0 && lines[0].Text.StartsWith("</s>"))
+                {
+                    lines[0].Text = lines[0].Text.Replace("</s>", "");
+                }
+
+                foreach (Line line in lines)
+                {
+                    Console.WriteLine(line.ExtToString());
+                }
+
+                if (bmpImage != null)
+                {
+                    List<Line> linesTess = new List<Line>();
+                    foreach (Line line in lines)
+                    {
+                        SkiaSharp.SKImage imageLine = null;
+                        SkiaSharp.SKRectI rect = SkiaSharp.SKRectI.Empty;
+                        if (line.BoundingBox.Count == 4)
+                        {
+                            rect = new SkiaSharp.SKRectI((int)line.BoundingBox[0] - 1, (int)line.BoundingBox[1] - 1, (int)line.BoundingBox[2] + 1, (int)line.BoundingBox[3] + 1);
+                            imageLine = bmpImage.Subset(rect);
+                        }
+                        else if (line.BoundingBox.Count == 8)
+                        {
+                            //rect = new SkiaSharp.SKRectI((int)line.BoundingBox[0], (int)line.BoundingBox[1], (int)line.BoundingBox[4], (int)line.BoundingBox[5]);
+                            //imageLine = bmpImage.Subset(rect);
+                            continue;   // no need to scan with tesseract for Florence-base 
+                        }
+
+                        if (rect.IsEmpty)
+                            continue;
+
+                        if (imageLine == null)
+                            continue;
+
+                        SKData skData = imageLine.Encode(SkiaSharp.SKEncodedImageFormat.Png, 100);
+                        var tessBlocks = OCRLinesWithTesseractEncodedData(skData.ToArray());
+                        foreach (Line lineTess in tessBlocks)
+                        {
+                            if(string.IsNullOrWhiteSpace(lineTess.Text))
+                                continue;
+
+                            linesTess.Add(lineTess);
+                        }
+
+                        if (tessBlocks.Count == 1)
+                        {
+                            if (!string.IsNullOrWhiteSpace(tessBlocks[0].Text) 
+                                && tessBlocks[0].Confidence != null 
+                                && tessBlocks[0].Confidence.Value > 0.3)
+                            {
+                                // take boundingBox and baseline from Tesseract to accurate line height.
+                                // but take scanned text only if confidence > 0.9
+
+                                if (tessBlocks[0].Confidence.Value > 0.5)
+                                {
+                                    line.Text = tessBlocks[0].Text.Trim();
+                                    line.Confidence = tessBlocks[0].Confidence;
+                                }
+                                if (line.BoundingBox.Count == 4)
+                                {
+                                    // update bounding box
+                                    line.BoundingBox[0] = line.BoundingBox[0] + tessBlocks[0].BoundingBox[0];
+                                    line.BoundingBox[1] = line.BoundingBox[1] + tessBlocks[0].BoundingBox[1];
+                                    line.BoundingBox[2] = line.BoundingBox[0] + tessBlocks[0].BoundingBox[2];
+                                    line.BoundingBox[3] = line.BoundingBox[1] + tessBlocks[0].BoundingBox[3];
+                                    line.Baseline = new List<double?> { 
+                                        line.BoundingBox[0] + tessBlocks[0].Baseline[0], 
+                                        line.BoundingBox[1] + tessBlocks[0].Baseline[1], 
+                                        line.BoundingBox[0] + tessBlocks[0].Baseline[2], 
+                                        line.BoundingBox[1] + tessBlocks[0].Baseline[3]
+                                    };
+                                }
+                                Console.WriteLine(line.ExtToString());
+                            }
+                        }
+                    }
+                    Console.WriteLine("==== Lines read by Tesseract ====");
+                    foreach (Line lineTess in linesTess)
+                    {
+                        Console.WriteLine(lineTess.ExtToString());
+                    }
+                    Console.WriteLine("======================");
+
+                    Console.WriteLine("==== Merged lines ====");
+                    IList<Line> linesMerged = MergeLinesInSameYPosIntoOneLine(lines);
+                    foreach (Line line in linesMerged)
+                    {
+                        Console.WriteLine(line.ExtToString());
+                    }
+                    Console.WriteLine("======================");
+
+                    DateTime dtStart2 = DateTime.Now;
+                    MYDLDataset datasetMYDL = GenerateDatasetFromReadResultOfMYDL(linesMerged, width);
                     DateTime dtEnd2 = DateTime.Now;
                     Console.WriteLine($"ExtractFieldsFromReadResultOfMYDL ({(dtEnd2 - dtStart2).TotalSeconds} sec)\n");
                     return scanMYDLResult;
@@ -1844,6 +2084,763 @@ namespace ScanID
             }
         }
 
+        public static MYDLDataset GenerateDatasetFromReadResultOfMYDL(IList<Line> linesAll, int widthImageOriginal/*, SkiaSharp.SKImage bmpImage = null*/)
+        {
+            try
+            {
+                const float FILTER_WEAK_TEXT_SMALLER_THAN_IDNUM = 0.7f;
+                LabelInfo labelLESEN_MEMANDU = new LabelInfo("LESEN MEMANDU");
+                LabelInfo labelMALAYSIA = new LabelInfo("MALAYSIA");
+                LabelInfo labelDRIVING_LICENCE_MALAYSIA = new LabelInfo("DRIVING LICENCE MALAYSIA");
+                LabelInfo labelDRIVING_LICENCE = new LabelInfo("DRIVING LICENCE");
+                LabelInfo labelDRIVING = new LabelInfo("DRIVING");
+                LabelInfo labelLICENCE = new LabelInfo("LICENCE");
+                LabelInfo labelWarganegara_Nationality = new LabelInfo("Warganegara / Nationality");
+                LabelInfo labelNo_Pengenalan_Identity_No = new LabelInfo("No. Pengenalan / Identity No.");
+                LabelInfo labelKelas_Class = new LabelInfo("Kelas / Class");
+                LabelInfo labelTempoh_Validity = new LabelInfo("Tempoh / Validity");
+                LabelInfo labelAlamat_Address = new LabelInfo("Alamat / Address");
+
+                ScanMYDLResult result = new ScanMYDLResult();
+
+                string IDNUM = "";
+                string NATIONALITY = "";
+                string NAME = "";
+                string CLASS = "";
+                string VALID_FROM = "";
+                string VALID_UNTIL = "";
+                string ADDRESS1 = "";
+                string ADDRESS2 = "";
+                string ADDRESS3 = "";
+                string POSTCODE = "";
+                string CITY = "";
+                string STATE = "";
+                MYDLDataset retDataset = new MYDLDataset();
+
+                //Regex regexValidFromValidUntil = new Regex(@"\d{1,2}/\d{1,2}/\d{4} - \d{1,2}/\d{1,2}/\d{4}");
+                Regex regexValidFromValidUntil = new Regex(@"\d{1,2}[\s\/]+\d{1,2}[\s\/]+\d{4}[\s\-|]*\d{1,2}[\s\/]+\d{1,2}[\s\/]+\d{4}");
+                Regex regexValidDate = new Regex(@"\d{1,2}[\s\/]+\d{1,2}[\s\/]+\d{4}");
+                Regex regexNationality = new Regex(@"^[a-zA-Z]{3}$|^MALAYSIA$");
+                Regex regexFiveDigitsNumber = new Regex(@"^\d{5}$");
+                char[] separatorBlank = { ' ' };
+                double? bottomOfHeaderArea = null;
+
+                List<Line> linesField = new List<Line>();   // lines valid and not label
+                                                            //List<Line> linesFieldOrLabel = new List<Line>();   // lines valid and not label
+                                                            //IList<Line> linesInTheSameLine = MergeLinesInSameYPosIntoOneLine(linesAll);
+                foreach (Line line in linesAll)
+                {
+                    string text = line.Text.Trim();
+                    System.Diagnostics.Debug.WriteLine($"[{DateTime.Now.ToString("HH:mm:ss")}] linesAll {line.Text} Height:{line.ExtGetHeight()}");
+
+                    double? angle = line.ExtGetAngle();
+                    if (angle == null || Math.Abs((decimal)angle) > 10)
+                    {
+                        System.Diagnostics.Debug.WriteLine($"[{DateTime.Now.ToString("HH:mm:ss")}]   angle:{angle} > 10 --> ignored");
+                        continue;
+                    }
+
+                    if (!labelLESEN_MEMANDU.IsLabelFound)
+                    {
+                        Line lineUpper = new Line(line.BoundingBox, line.Text.ToUpper().Trim());
+                        if (labelLESEN_MEMANDU.MatchTitleExactly(lineUpper))
+                            continue;
+                    }
+                    if (!labelNo_Pengenalan_Identity_No.IsLabelFound)
+                    {
+                        if (labelNo_Pengenalan_Identity_No.MatchTitleExactly(line))
+                            continue;
+                    }
+                    if (!labelDRIVING_LICENCE_MALAYSIA.IsLabelFound 
+                        && !labelDRIVING_LICENCE.IsLabelFound
+                        && !labelLICENCE.IsLabelFound
+                        && !labelDRIVING.IsLabelFound 
+                        )
+                    {
+                        Line lineUpper = new Line(line.BoundingBox, line.Text.ToUpper().Trim());
+                        if (labelDRIVING_LICENCE_MALAYSIA.MatchTitleExactly(lineUpper))
+                        {
+                            if (bottomOfHeaderArea == null || bottomOfHeaderArea < labelDRIVING_LICENCE_MALAYSIA.Bottom)
+                                bottomOfHeaderArea = labelDRIVING_LICENCE_MALAYSIA.Bottom;
+                            continue;
+                        }
+                    }
+                    if (!labelDRIVING_LICENCE_MALAYSIA.IsLabelFound
+                        && !labelDRIVING_LICENCE.IsLabelFound
+                        && !labelLICENCE.IsLabelFound
+                        && !labelDRIVING.IsLabelFound
+                        )
+                    {
+                        Line lineUpper = new Line(line.BoundingBox, line.Text.ToUpper().Trim());
+                        if (labelDRIVING_LICENCE.MatchTitleExactly(lineUpper))
+                        {
+                            if (bottomOfHeaderArea == null || bottomOfHeaderArea < labelDRIVING_LICENCE.Bottom)
+                                bottomOfHeaderArea = labelDRIVING_LICENCE.Bottom;
+                            continue;
+                        }
+                    }
+                    if (!labelDRIVING_LICENCE_MALAYSIA.IsLabelFound
+                        && !labelDRIVING_LICENCE.IsLabelFound
+                        && !labelDRIVING.IsLabelFound
+                        )
+                    {
+                        Line lineUpper = new Line(line.BoundingBox, line.Text.ToUpper().Trim());
+                        if (labelDRIVING.MatchTitleExactly(lineUpper))
+                        {
+                            if (bottomOfHeaderArea == null || bottomOfHeaderArea < labelDRIVING.Bottom)
+                                bottomOfHeaderArea = labelDRIVING.Bottom;
+                            continue;
+                        }
+                    }
+                    if (!labelDRIVING_LICENCE_MALAYSIA.IsLabelFound
+                        && !labelDRIVING_LICENCE.IsLabelFound
+                        && !labelLICENCE.IsLabelFound
+                        )
+                    {
+                        Line lineUpper = new Line(line.BoundingBox, line.Text.ToUpper().Trim());
+                        if (labelLICENCE.MatchTitleExactly(lineUpper))
+                        {
+                            if (bottomOfHeaderArea == null || bottomOfHeaderArea < labelLICENCE.Bottom)
+                                bottomOfHeaderArea = labelLICENCE.Bottom;
+                            continue;
+                        }
+                    }
+                    if (!labelWarganegara_Nationality.IsLabelFound)
+                    {
+                        if (labelWarganegara_Nationality.MatchTitleExactly(line))
+                            continue;
+                    }
+                    if (!labelDRIVING_LICENCE_MALAYSIA.IsLabelFound && !labelMALAYSIA.IsLabelFound)
+                    {
+                        if (bottomOfHeaderArea == null || line.ExtGetTop() < bottomOfHeaderArea)
+                        {
+                            Line lineUpper = new Line(line.BoundingBox, line.Text.ToUpper().Replace(" ", "").Trim());
+                            if (labelMALAYSIA.MatchTitleExactly(lineUpper))
+                            {
+                                // take this line only if DRIVING_LICENCE is not found
+                                if (bottomOfHeaderArea == null && labelDRIVING_LICENCE.IsLabelFound == false && labelDRIVING.IsLabelFound == false && labelLICENCE.IsLabelFound == false)
+                                    bottomOfHeaderArea = labelMALAYSIA.Bottom;
+                                continue;
+                            }
+                        }
+                    }
+                    if (!labelKelas_Class.IsLabelFound)
+                    {
+                        if (labelKelas_Class.MatchTitleExactly(line))
+                            continue;
+                    }
+                    if (!labelTempoh_Validity.IsLabelFound)
+                    {
+                        if (labelTempoh_Validity.MatchTitleExactly(line))
+                            continue;
+                    }
+                    if (!labelAlamat_Address.IsLabelFound)
+                    {
+                        if (labelAlamat_Address.MatchTitleExactly(line))
+                            continue;
+                    }
+                    if (bottomOfHeaderArea == null || line.ExtGetTop() > bottomOfHeaderArea)
+                    {
+                        linesField.Add(line);
+                    }
+                    else
+                    {
+                        System.Diagnostics.Debug.WriteLine($"[{DateTime.Now.ToString("HH:mm:ss")}] line: {line.Text} --> ignored because above the herder area");
+                    }
+
+                }// foreach lines in other columns
+
+                if (labelDRIVING_LICENCE_MALAYSIA.IsLabelFound == false 
+                    && labelDRIVING_LICENCE.IsLabelFound == false 
+                    && labelDRIVING.IsLabelFound == true 
+                    && labelLICENCE.IsLabelFound == true)
+                {
+                    Line lineUpper = labelDRIVING.LineMacthed.MergedLine(labelLICENCE.LineMacthed);
+                    bool bMatchMergedLine = labelDRIVING_LICENCE.MatchTitleExactly(lineUpper);
+                    System.Diagnostics.Debug.WriteLine($"MergedLine {lineUpper} --> DRIVING_LICENCE");
+                }
+
+                if (bottomOfHeaderArea != null)
+                {
+                    List<Line> linesTemp = new List<Line>();
+                    foreach (Line line in linesField)
+                    {
+                        if (line.ExtGetTop() > bottomOfHeaderArea)
+                            linesTemp.Add(line);
+                    }
+                    linesField = linesTemp;
+                }
+
+
+
+                int countLinesField = linesField.Count;
+                if (countLinesField > 0)
+                {
+                    // classify fields into main column and other (right aligned) columns
+                    // main column contains: NAME, NATIONALITY, CLASS, VALID_FROM, VALID_UNTIL, ADDRESS1, ADDRESS2, ADDRESS3, POSTCODE, CITY, STATE
+                    // other columns contains: IDNUM
+
+                    int idxMedianLinesField = countLinesField / 2;
+                    var linesLeftOrder = linesField.OrderBy(l => l.ExtGetLeft());
+                    double? leftMedian = linesLeftOrder.ElementAt(idxMedianLinesField).ExtGetLeft();
+                    double? heightName = null;
+                    double? bottomName = null;
+                    double heightFilter = 0f;
+                    // sort from top to bottom
+                    //linesInMainColumn.OrderBy(l => l.ExtGetTop());
+                    linesField.OrderBy(l => l.ExtGetTop());
+
+                    IList<Line> linesFieldMerged = MergeLinesInSameYPosIntoOneLine(linesField.ToList());
+                    List<Line> linesFieldUnderNameMerged = new List<Line>();
+                    // find NAME 
+                    foreach (Line line in linesFieldMerged)
+                    {
+                        if (string.IsNullOrEmpty(NAME))
+                        {
+                            // NAME is under DRIVING_LICENCE
+                            if ((labelDRIVING_LICENCE_MALAYSIA.IsLabelFound &&
+                                ((double)(line.ExtGetBottom() - labelDRIVING_LICENCE_MALAYSIA.Bottom) > 0
+                                && (double)(line.ExtGetBottom() - labelDRIVING_LICENCE_MALAYSIA.Bottom) < labelDRIVING_LICENCE_MALAYSIA.Height * 4
+                                /*&& labelDRIVING_LICENCE.Height < line.ExtGetHeight()*/)
+                                )
+                            || (labelDRIVING_LICENCE.IsLabelFound &&
+                                ((double)(line.ExtGetBottom() - labelDRIVING_LICENCE.Bottom) > 0
+                                && (double)(line.ExtGetBottom() - labelDRIVING_LICENCE.Bottom) < labelDRIVING_LICENCE.Height * 4
+                                /*&& labelDRIVING_LICENCE.Height < line.ExtGetHeight()*/)
+                                )
+                            || (labelDRIVING.IsLabelFound &&
+                                ((double)(line.ExtGetBottom() - labelDRIVING.Bottom) > 0
+                                && (double)(line.ExtGetBottom() - labelDRIVING.Bottom) < labelDRIVING.Height * 4
+                                /*&& labelDRIVING.Height < line.ExtGetHeight()*/)
+                                )
+                            || (labelLICENCE.IsLabelFound &&
+                                ((double)(line.ExtGetBottom() - labelLICENCE.Bottom) > 0
+                                && (double)(line.ExtGetBottom() - labelLICENCE.Bottom) < labelLICENCE.Height * 6
+                                /*&& labelLICENCE.Height < line.ExtGetHeight()*/)
+                                )
+                            || (labelMALAYSIA.IsLabelFound &&
+                                ((double)(line.ExtGetBottom() - labelMALAYSIA.Bottom) > 0
+                                && (double)(line.ExtGetBottom() - labelMALAYSIA.Bottom) < labelMALAYSIA.Height * 3
+                                ))
+                            )
+                            {
+                                System.Diagnostics.Debug.WriteLine($"[{DateTime.Now.ToString("HH:mm:ss")}] {line.Text} --> NAME");
+                                NAME = line.Text;
+                                heightName = line.ExtGetHeight();
+                                bottomName = line.ExtGetBottom();
+                                heightFilter = (double)(heightName * FILTER_WEAK_TEXT_SMALLER_THAN_IDNUM);
+                                System.Diagnostics.Debug.WriteLine($"[{DateTime.Now.ToString("HH:mm:ss")}] heightFilter = {heightFilter}");
+                                continue;
+                            }
+                            System.Diagnostics.Debug.WriteLine($"[{DateTime.Now.ToString("HH:mm:ss")}] {line.Text} --> UNKNOWN but expect NAME here");
+                        }
+
+                        if (bottomName != null && line.ExtGetTop() > bottomName)
+                        {
+                            if(line.ExtGetHeight() > heightFilter)
+                            {
+                                linesFieldUnderNameMerged.Add(line);
+                            }
+                            else
+                            {
+                                System.Diagnostics.Debug.WriteLine($"[{DateTime.Now.ToString("HH:mm:ss")}] {line.Text} --> UNKNOWN field or label smaller than fields expected.");
+                            }
+                        }
+                        else
+                        {
+                            System.Diagnostics.Debug.WriteLine($"[{DateTime.Now.ToString("HH:mm:ss")}] {line.Text} --> UNKNOWN field not under name field");
+                        }
+                    }
+                    /*
+                    List<Line> linesUnderName = new List<Line>();
+                    // filter lines above NAME
+                    foreach (Line line in linesFieldUnderNameMerged)
+                    {
+                        if (bottomName != null && line.ExtGetTop() > bottomName)
+                        {
+                            linesUnderName.Add(line);
+                        }
+                    }
+                    */
+#if false
+                    if (bmpImage != null)
+                    {
+                        List<Line> linesTess = new List<Line>();
+                        foreach (Line line in linesUnderName)
+                        {
+                            SkiaSharp.SKImage imageLine = null;
+                            SkiaSharp.SKRectI rect = SkiaSharp.SKRectI.Empty;
+                            if (line.BoundingBox.Count == 4)
+                            {
+                                rect = new SkiaSharp.SKRectI((int)line.BoundingBox[0], (int)line.BoundingBox[1], (int)line.BoundingBox[2], (int)line.BoundingBox[3]);
+                                imageLine = bmpImage.Subset(rect);
+                            }
+                            else if (line.BoundingBox.Count == 8)
+                            {
+                                rect = new SkiaSharp.SKRectI((int)line.BoundingBox[0], (int)line.BoundingBox[1], (int)line.BoundingBox[4], (int)line.BoundingBox[5]);
+                                imageLine = bmpImage.Subset(rect);
+                            }
+
+                            if (rect.IsEmpty)
+                                continue;
+
+                            if (imageLine == null)
+                                continue;
+
+                            SKData skData = imageLine.Encode(SkiaSharp.SKEncodedImageFormat.Png, 100);
+                            var lines = OCRLinesWithTesseractEncodedData(skData.ToArray());
+                            foreach (Line lineTess in lines)
+                            {
+                                linesTess.Add(lineTess);
+                            }
+                        }
+                        linesUnderName = linesTess;
+                    }
+#endif
+                    double? leftEdgeOfBlock = linesFieldUnderNameMerged.Min(l => l.ExtGetLeft());
+                    double? rightEdgeOfBlock = linesFieldUnderNameMerged.Max(l => l.ExtGetRight());
+                    double? topEdgeOfBlock = linesFieldUnderNameMerged.Min(l => l.ExtGetTop());
+                    double? bottomEdgeOfBlock = linesFieldUnderNameMerged.Max(l => l.ExtGetBottom());
+                    double? sumLeft = linesLeftOrder.Take(5).Sum(l => l.ExtGetLeft());
+                    double? avgLeft = sumLeft / 5;
+                    double? acceptableRangeOfLeftEdge = (rightEdgeOfBlock - leftEdgeOfBlock) / 20;
+                    double? h_center = leftEdgeOfBlock + (rightEdgeOfBlock - leftEdgeOfBlock) / 2;
+                    double? v_center = topEdgeOfBlock + (bottomEdgeOfBlock - topEdgeOfBlock) / 2;
+                    double? h_leftSideEdge = leftEdgeOfBlock + (rightEdgeOfBlock - leftEdgeOfBlock) / 3;
+
+                    IList<Line> linesFieldInMainColumnMerged = MergeLinesInSameYPosIntoOneLine(linesFieldUnderNameMerged.ToList());
+
+                    int numLinesInMainColumn = linesFieldInMainColumnMerged.Count();
+                    //int idxMainColumn = 0;
+                    // find fields from main column
+                    //foreach (Line line in linesFieldInMainColumnMerged)
+                    for(int idxMainColumn = 0; idxMainColumn < linesFieldInMainColumnMerged.Count; idxMainColumn++)
+                    {
+                        Line line = linesFieldInMainColumnMerged[idxMainColumn];
+                        string text = line.Text.Trim();
+
+                        System.Diagnostics.Debug.WriteLine($"[{DateTime.Now.ToString("HH:mm:ss")}] {line.Text} Height:{line.ExtGetHeight()}");
+                        System.Diagnostics.Debug.WriteLine($"[{DateTime.Now.ToString("HH:mm:ss")}] idxMainColumn:{idxMainColumn} numLinesInMainColumn:{numLinesInMainColumn}");
+                        // the 2nd last line is postcode and city
+                        if (idxMainColumn + 2 == numLinesInMainColumn)
+                        {
+                            // POSTCODE CITY
+                            string postcode_city = text;
+
+                            string[] token = postcode_city.Split(separatorBlank, 2);
+                            if (token.Length > 1)
+                            {
+                                System.Diagnostics.Debug.WriteLine($"[{DateTime.Now.ToString("HH:mm:ss")}] --> POSTCODE: {token[0]} CITY: {token[1]}");
+                                if (regexFiveDigitsNumber.Match(token[0]).Success)
+                                {
+                                    POSTCODE = token[0];
+                                }
+                                else
+                                {
+                                    System.Diagnostics.Debug.WriteLine($"[{DateTime.Now.ToString("HH:mm:ss")}] !!! {token[0]} is not valid POSTCODE !!!");
+                                }
+
+                                CITY = token[1];
+                            }
+                            else
+                            {
+                                System.Diagnostics.Debug.WriteLine($"[{DateTime.Now.ToString("HH:mm:ss")}] --> city_postcode: {postcode_city}");
+                            }
+                            idxMainColumn++;
+                            continue;
+                        }
+                        // the last line is state
+                        if (idxMainColumn + 1 == numLinesInMainColumn)
+                        {
+                            // STATE
+                            System.Diagnostics.Debug.WriteLine($"[{DateTime.Now.ToString("HH:mm:ss")}] {line.Text} --> STATE");
+                            STATE = line.Text;
+                            idxMainColumn++;
+                            continue;
+                        }
+#if false
+                        if (string.IsNullOrEmpty(NAME))
+                        {
+                            // NAME is under DRIVING_LICENCE
+                            if ((labelDRIVING_LICENCE.IsLabelFound &&
+                                ((double)(line.ExtGetBottom() - labelDRIVING_LICENCE.Bottom) > 0
+                                && (double)(line.ExtGetBottom() - labelDRIVING_LICENCE.Bottom) < labelDRIVING_LICENCE.Height * 4
+                                && labelDRIVING_LICENCE.Height < line.ExtGetHeight())
+                                )
+                            || (labelDRIVING.IsLabelFound &&
+                                ((double)(line.ExtGetBottom() - labelDRIVING.Bottom) > 0
+                                && (double)(line.ExtGetBottom() - labelDRIVING.Bottom) < labelDRIVING.Height * 4
+                                && labelDRIVING.Height < line.ExtGetHeight())
+                                )
+                            || (labelLICENCE.IsLabelFound &&
+                                ((double)(line.ExtGetBottom() - labelLICENCE.Bottom) > 0
+                                && (double)(line.ExtGetBottom() - labelLICENCE.Bottom) < labelLICENCE.Height * 6
+                                && labelLICENCE.Height < line.ExtGetHeight())
+                                )
+                            || (labelMALAYSIA.IsLabelFound &&
+                                ((double)(line.ExtGetBottom() - labelMALAYSIA.Bottom) > 0
+                                && (double)(line.ExtGetBottom() - labelMALAYSIA.Bottom) < labelMALAYSIA.Height * 3
+                                ))
+                            )
+                            {
+                                System.Diagnostics.Debug.WriteLine($"[{DateTime.Now.ToString("HH:mm:ss")}] {line.Text} --> NAME");
+                                NAME = line.Text;
+                                retDataset.lineLastNameOrFullName = line;
+                                heightName = line.ExtGetHeight();
+                                bottomName = line.ExtGetBottom();
+                                heightFilter = (double)(heightName * FILTER_WEAK_TEXT_SMALLER_THAN_IDNUM);
+                                System.Diagnostics.Debug.WriteLine($"[{DateTime.Now.ToString("HH:mm:ss")}] heightFilter = {heightFilter}");
+                                idxMainColumn++;
+                                continue;
+                            }
+                            System.Diagnostics.Debug.WriteLine($"[{DateTime.Now.ToString("HH:mm:ss")}] {line.Text} --> UNKNOWN but expect NAME here");
+                        }
+#endif  
+                        switch (idxMainColumn)
+                        {
+                            case 0: // NATIONALITY, and IDNUM
+                                Line lineUpper = new Line(line.BoundingBox, line.Text.ToUpper().Trim());
+                                string[] words = lineUpper.Text.Split(separatorBlank, 2, StringSplitOptions.RemoveEmptyEntries);
+                                if(words != null)
+                                {
+                                    if (string.IsNullOrEmpty(NATIONALITY))
+                                    {
+                                        if (words.Length >= 1)
+                                        {
+                                            // Warganegara_Nationality
+                                            if (regexNationality.Match(words[0]).Success)
+                                            {
+                                                System.Diagnostics.Debug.WriteLine($"[{DateTime.Now.ToString("HH:mm:ss")}] {words[0]} --> NATIONALITY");
+                                                // (CITIZENSHIP) nationality is "MALAYSIA" or 3 letter code
+                                                if (CheckCharInLine(words[0], "MALAYSIA"))
+                                                {
+                                                    NATIONALITY = "MY";
+                                                    System.Diagnostics.Debug.WriteLine($"[{DateTime.Now.ToString("HH:mm:ss")}] MY --> NATIONALITY");
+                                                }
+                                                else
+                                                {
+                                                    NATIONALITY = words[0];
+                                                }
+                                                retDataset.lineNationality = line;
+                                            }
+                                        }
+                                    }
+                                    if (string.IsNullOrEmpty(IDNUM))
+                                    {
+                                        if (words.Length >= 2)
+                                        {
+                                            string idnum = words[1].Trim().Replace(" ", "");
+                                            System.Diagnostics.Debug.WriteLine($"[{DateTime.Now.ToString("HH:mm:ss")}] {idnum} --> IDNUM");
+                                            IDNUM = idnum;
+                                            retDataset.lineDocumentNumber = line;
+                                            //lineIDNum = line;
+                                        }
+                                    }
+                                }
+                                break;
+                            case 1: // CLASS
+                                if (string.IsNullOrEmpty(CLASS))
+                                {
+                                    // check if the line is field of 'Kelas/Class'
+                                    // https://en.wikipedia.org/wiki/Driving_licence_in_Malaysia#Classes
+                                    // A, A1, B, B1, B2, C, D, DA, E, E1, E2, F, G, H, I, M
+                                    bool isNotValueOfClass = false;
+                                    string[] tokens = line.Text.Split(' ');
+                                    foreach (string token in tokens)
+                                    {
+                                        if (token.Length > 2)
+                                        {
+                                            isNotValueOfClass = true;
+                                            break;
+                                        }
+
+                                        char c = token[0];
+                                        if ((c < 'A' || 'M' < c)
+                                            && (c != '4' /* A */ && c != '8' /* B */ && c != 'c' /* C */ && c != '1' /* I */ && c != 'l' /* I */))
+                                        {
+                                            isNotValueOfClass = true;
+                                            break;
+                                        }
+                                    }
+
+                                    // Kelas_Class
+                                    if (!isNotValueOfClass)
+                                    {
+                                        System.Diagnostics.Debug.WriteLine($"[{DateTime.Now.ToString("HH:mm:ss")}] {line.Text} --> CLASS");
+                                        CLASS = line.Text;
+                                    }
+                                    // maybe it is line of CLASS, but not scanned properly
+                                    CLASS = line.Text;
+                                }
+                                break;
+                            case 2: // VALID_FROM, VALID_UNTIL
+                                if (string.IsNullOrEmpty(VALID_FROM))
+                                {
+                                    // Tempoh_Validity    dd/MM/yyyy - dd/MM/yyyy
+                                    if (regexValidFromValidUntil.Match(line.Text).Success)
+                                    {
+                                        string line_validity = line.Text;
+                                        string nums = "";
+                                        foreach (char c in line_validity)
+                                        {
+                                            if (c <= '9' && c >= '0')
+                                                nums += c;
+                                        }
+                                        if (nums.Length == 16)
+                                        {
+                                            //dd/MM/yyyy
+                                            VALID_FROM = nums.Substring(0, 2) + "/" + nums.Substring(2, 2) + "/" + nums.Substring(4, 4);
+                                            VALID_UNTIL = nums.Substring(8, 2) + "/" + nums.Substring(10, 2) + "/" + nums.Substring(12, 4);
+                                            System.Diagnostics.Debug.WriteLine($"[{DateTime.Now.ToString("HH:mm:ss")}] {line.Text} --> VALID_FROM:{VALID_FROM} VALID_UNTIL:{VALID_UNTIL}");
+                                        }
+                                        continue;
+                                    }
+
+                                    if (regexValidDate.Match(line.Text).Success)
+                                    {
+                                        string line_validity = line.Text;
+                                        string nums = "";
+                                        foreach (char c in line_validity)
+                                        {
+                                            if (c <= '9' && c >= '0')
+                                                nums += c;
+                                        }
+                                        if (nums.Length == 8)
+                                        {
+                                            //dd/MM/yyyy
+                                            VALID_FROM = nums.Substring(0, 2) + "/" + nums.Substring(2, 2) + "/" + nums.Substring(4, 4);
+                                            System.Diagnostics.Debug.WriteLine($"[{DateTime.Now.ToString("HH:mm:ss")}] {line.Text} --> VALID_FROM:{VALID_FROM}");
+                                        }
+                                    }
+                                    /*
+                                    if (idxMainColumn == 3)
+                                    {
+                                        // maybe it is line of VALID_FROM, but not scanned properly
+                                        VALID_FROM = line.Text;
+                                        continue;
+                                    }
+                                    */
+                                }
+
+                                if (string.IsNullOrEmpty(VALID_UNTIL))
+                                {
+                                    if (regexValidDate.Match(line.Text).Success)
+                                    {
+                                        string line_validity = line.Text;
+                                        string nums = "";
+                                        foreach (char c in line_validity)
+                                        {
+                                            if (c <= '9' && c >= '0')
+                                                nums += c;
+                                        }
+                                        if (nums.Length == 8)
+                                        {
+                                            //dd/MM/yyyy
+                                            VALID_UNTIL = nums.Substring(0, 2) + "/" + nums.Substring(2, 2) + "/" + nums.Substring(4, 4);
+                                            System.Diagnostics.Debug.WriteLine($"[{DateTime.Now.ToString("HH:mm:ss")}] {line.Text} --> VALID_UNTIL:{VALID_UNTIL}");
+                                        }
+                                    }
+                                }
+                                break;
+                            default: // ADDRESS...
+                                if (string.IsNullOrEmpty(ADDRESS1))
+                                {
+                                    //if (labelAlamat_Address.IsLabelFound
+                                    //   && (labelAlamat_Address.IsFieldJustUnderTheLabel(line) && labelAlamat_Address.IsFieldInSameLeftEdge(line)))
+                                    {
+                                        System.Diagnostics.Debug.WriteLine($"[{DateTime.Now.ToString("HH:mm:ss")}] {line.Text} --> ADDRESS1");
+                                        ADDRESS1 = line.Text;
+                                        retDataset.lineAddress1 = line;
+                                    }
+                                }
+                                else if (string.IsNullOrEmpty(ADDRESS2))
+                                {
+                                    //if (labelAlamat_Address.IsLabelFound
+                                    //   && (labelAlamat_Address.IsFieldUnderTheLabel(line) && labelAlamat_Address.IsFieldInSameLeftEdge(line)))
+                                    {
+                                        System.Diagnostics.Debug.WriteLine($"[{DateTime.Now.ToString("HH:mm:ss")}] {line.Text} --> ADDRESS2");
+                                        ADDRESS2 = line.Text;
+                                        retDataset.lineAddress2 = line;
+                                    }
+                                }
+                                else if (string.IsNullOrEmpty(ADDRESS3))
+                                {
+                                    //if (labelAlamat_Address.IsLabelFound
+                                    //   && (labelAlamat_Address.IsFieldUnderTheLabel(line) && labelAlamat_Address.IsFieldInSameLeftEdge(line)))
+                                    {
+                                        System.Diagnostics.Debug.WriteLine($"[{DateTime.Now.ToString("HH:mm:ss")}] {line.Text} --> ADDRESS3");
+                                        ADDRESS3 = line.Text;
+                                        retDataset.lineAddress3 = line;
+                                    }
+                                }
+
+                                System.Diagnostics.Debug.WriteLine($"[{DateTime.Now.ToString("HH:mm:ss")}] {line.Text} --> UNKNOWN");
+                                break;
+                        } //switch
+                    }// foreach lines in main column
+#if false
+                    // find fields from other (right aligned) column
+                    int numLinesOutOfMainColumn = linesOutOfMainColumn.Count();
+                    int idxOutOfMainColumn = 0;
+                    foreach (Line line in linesOutOfMainColumn)
+                    {
+                        string text = line.Text.Trim();
+                        System.Diagnostics.Debug.WriteLine($"[{DateTime.Now.ToString("HH:mm:ss")}] linesOutMainColumn {line.Text} Height:{line.ExtGetHeight()}");
+
+                        if (heightName.HasValue)
+                        {
+                            if (line.ExtGetHeight() < heightName * 0.65)
+                            {
+                                System.Diagnostics.Debug.WriteLine($"[{DateTime.Now.ToString("HH:mm:ss")}]   Height:{line.ExtGetHeight()} < heightName:{heightName} * {FILTER_WEAK_TEXT_SMALLER_THAN_IDNUM} = {heightName * FILTER_WEAK_TEXT_SMALLER_THAN_IDNUM} --> ignored");
+                                numLinesOutOfMainColumn--;
+                                continue;
+                            }
+                        }
+
+                        if (string.IsNullOrEmpty(IDNUM))
+                        {
+                            // IDNUM is under NAME
+                            if (!string.IsNullOrEmpty(NAME) &&
+                                ((double)(line.ExtGetBottom() - bottomName) > 0
+                                && (double)(line.ExtGetBottom() - bottomName) < heightName * 4
+                                && Math.Abs((decimal)heightName - (decimal)line.ExtGetHeight()) < (decimal)(heightName / 2))
+                                )
+                            {
+                                // No_Pengenalan_Identity_No
+                                System.Diagnostics.Debug.WriteLine($"[{DateTime.Now.ToString("HH:mm:ss")}] {line.Text} --> IDNUM");
+                                IDNUM = line.Text;
+                                idxOutOfMainColumn++;
+                                retDataset.lineDocumentNumber = line;
+                                continue;
+                            }
+                        }
+                    }// foreach lines in other columns
+#endif
+                } // linesField.Count > 0
+
+                // map to result and convert format 
+                List<string> lsMissingFields = new List<string>();
+                // NAME -> lastNameOrFullName 
+                result.lastNameOrFullName = NAME;
+                if (string.IsNullOrEmpty(NAME)) lsMissingFields.Add("NAME");
+
+                // IDNUM -> documentNumber
+                result.documentNumber = IDNUM;
+                if (string.IsNullOrEmpty(IDNUM)) lsMissingFields.Add("IDNUM");
+
+                // (CITIZENSHIP) nationality is "MALAYSIA" or 3 letter code
+                result.nationality = NATIONALITY;
+                if (string.IsNullOrEmpty(NATIONALITY)) lsMissingFields.Add("NATIONALITY");
+
+                try
+                {
+                    result.documentIssueDate = "";
+#if false
+                // VALID_FROM "dd/MM/yyyy" -> documentIssueDate "yyyy-MM-dd"
+                if (VALID_FROM.Length == 10)
+                {
+                    int dd = int.Parse(VALID_FROM.Substring(0, 2));
+                    int MM = int.Parse(VALID_FROM.Substring(3, 2));
+                    int yyyy = int.Parse(VALID_FROM.Substring(6, 4));
+                    result.documentIssueDate = $"{yyyy:0000}-{MM:00}-{dd:00}";
+                }
+                else
+                {
+                    lsMissingFields.Add("VALID_FROM");
+                }
+#else
+                    if (string.IsNullOrEmpty(VALID_FROM))
+                        lsMissingFields.Add("VALID_FROM");
+                    else
+                        result.documentIssueDate = VALID_FROM;
+#endif
+                }
+                catch (Exception e)
+                {
+                    System.Diagnostics.Debug.WriteLine(e.Message);
+                    lsMissingFields.Add("VALID_FROM");
+                }
+
+                try
+                {
+                    result.documentExpirationDate = "";
+#if false
+                // VALID_UNTIL "dd/MM/yyyy" -> documentExpirationDate "yyyy-MM-dd"
+                if (VALID_UNTIL.Length == 10)
+                {
+                    int dd = int.Parse(VALID_UNTIL.Substring(0, 2));
+                    int MM = int.Parse(VALID_UNTIL.Substring(3, 2));
+                    int yyyy = int.Parse(VALID_UNTIL.Substring(6, 4));
+                    result.documentExpirationDate = $"{yyyy:0000}-{MM:00}-{dd:00}";
+                }
+                else
+                {
+                    lsMissingFields.Add("VALID_UNTIL");
+                }
+#else
+                    if (string.IsNullOrEmpty(VALID_UNTIL))
+                        lsMissingFields.Add("VALID_UNTIL");
+                    else
+                        result.documentExpirationDate = VALID_UNTIL;
+#endif
+                }
+                catch (Exception e)
+                {
+                    System.Diagnostics.Debug.WriteLine(e.Message);
+                    lsMissingFields.Add("VALID_UNTIL");
+                }
+
+                // ADDRESS1, ADDRESS2, ADDRESS3, CITY, STATE -> addressLine1, addressLine2
+                result.addressLine1 = $"{ADDRESS1} {ADDRESS2}";
+                if (string.IsNullOrEmpty(ADDRESS1)) lsMissingFields.Add("ADDRESS1");
+                if (string.IsNullOrEmpty(ADDRESS3))
+                {
+                    result.addressLine2 = $"{CITY} {STATE}";
+                }
+                else
+                {
+                    result.addressLine2 = $"{ADDRESS3} {CITY} {STATE}";
+                }
+
+                // POSTCODE
+                if (!string.IsNullOrEmpty(POSTCODE))
+                {
+                    result.postcode = POSTCODE;
+                }
+                else
+                {
+                    lsMissingFields.Add("POSTCODE");
+                }
+
+                // determine success or not
+                if (lsMissingFields.Count == 0)
+                {
+                    result.Success = true;
+                }
+                else
+                {
+                    System.Diagnostics.Debug.WriteLine("ExtractFieldsFromReadResultOfMYDL result NOT success");
+                    if (lsMissingFields.Count > 0)
+                    {
+                        string fields = "";
+                        foreach (string field in lsMissingFields)
+                        {
+                            if (!string.IsNullOrEmpty(fields))
+                                fields += ",";
+                            fields += field;
+                        }
+                        result.Error = $"Failed to scan [{fields}]";
+                    }
+                }
+                return result;
+            }
+            catch (Exception ex)
+            {
+                System.Diagnostics.Debug.WriteLine(ex.Message);
+                throw ex;
+            }
+        }
+
         public static ScanMyKadResult ExtractFieldsFromReadResultOfMyKad(IList<Line> linesAll, SkiaSharp.SKImage bmpImage = null)
         {
             const string KAD_PENGENALAN = "KAD PENGENALAN";
@@ -2294,6 +3291,464 @@ namespace ScanID
             }
 
             return result;
+        }
+
+        public static MyKadDataset GenerateDatasaetFromReadResultOfMyKad(IList<Line> linesAll, SkiaSharp.SKImage bmpImage = null)
+        {
+            const string KAD_PENGENALAN = "KAD PENGENALAN";
+            const string MALAYSIA = "MALAYSIA";
+            const string IDENTITY_CARD = "IDENTITY CARD";
+            char[] separatorBlank = { ' ' };
+
+            MyKadDataset retDataset = new ScanMyKadResult();
+
+            //const double FILTER_WEAK_TEXT_SMALLER_THAN_IDNUM = 0.75f;
+            const double FILTER_TEXT_SMALLER_COMPARE_TO_IDNUM = 0.5f;
+            int idxOf_KAD_PENGENALAN = -1;
+            int idxOf_MALAYSIA = -1;
+            int idxOf_IDENTITY_CARD = -1;
+            string IDNUM = "";
+            string NAME = "";
+            string ADDRESS1 = "";
+            string ADDRESS2 = "";
+            string ADDRESS3 = "";
+            string POSTCODE = "";
+            string CITY = "";
+            string STATE = "";
+            string CITIZENSHIP = "";
+            string GENDER = "";
+            string EASTMSIAN = "";
+            string BIRTHDATE = "";
+
+            var linesLeftOrder = linesAll.OrderBy(l => l.ExtGetLeft());
+            double? leftEdgeOfBlock = linesAll.Min(l => l.ExtGetLeft());
+            double? rightEdgeOfBlock = linesAll.Max(l => l.ExtGetRight());
+            double? topEdgeOfBlock = linesAll.Min(l => l.ExtGetTop());
+            double? bottomEdgeOfBlock = linesAll.Max(l => l.ExtGetBottom());
+            double? sumLeft = linesLeftOrder.Take(5).Sum(l => l.ExtGetLeft());
+            double? avgLeft = sumLeft / 5;
+            double? acceptableRangeOfLeftEdge = (rightEdgeOfBlock - leftEdgeOfBlock) / 20;
+            double? h_center = leftEdgeOfBlock + (rightEdgeOfBlock - leftEdgeOfBlock) / 2;
+            double? v_center = topEdgeOfBlock + (bottomEdgeOfBlock - topEdgeOfBlock) / 2;
+            //double? h_leftSideEdge = leftEdgeOfBlock + (rightEdgeOfBlock - leftEdgeOfBlock) / 3;
+
+            // pick the lines aligned to left 
+            //var linesLeftSide = linesAll.Where(l => l.ExtGetLeft() < h_leftSideEdge);
+            var linesLeftSide = linesAll.Where(l => l.ExtGetLeft() < h_center);
+            linesLeftSide = MergeLinesInSameYPosIntoOneLine(linesLeftSide.ToList());
+            if (linesLeftSide.Any())
+            {
+                // sort from top to bottom
+                linesLeftSide = linesLeftSide.OrderBy(l => l.ExtGetTop());
+                System.Diagnostics.Debug.WriteLine("\nLines aligned to left:");
+                Regex regexIDNum = new Regex(@"\d{6}-\d{2}-\d{4}");
+                int idxIdNum = -1;
+                decimal heightIdNum = 0;
+                Line[] arrayLinesLeftSide = linesLeftSide.ToArray();
+                List<Line> lsLinesLeftSideValid = new List<Line>();
+                int numLines = arrayLinesLeftSide.Length;
+                for (int idx = 0; idx < arrayLinesLeftSide.Length; idx++)
+                {
+                    Line line = arrayLinesLeftSide[idx];
+                    string text = line.Text.Trim();
+                    decimal heightLine = 0;
+#if false
+                    if (line.BoundingBox.Count == 8 && line.BoundingBox[7].HasValue && line.BoundingBox[1].HasValue)
+                    {
+                        heightLine = Math.Abs((decimal)line.BoundingBox[7] - (decimal)line.BoundingBox[1]);
+                    }
+                    else if (line.BoundingBox.Count == 4 && line.BoundingBox[1].HasValue && line.BoundingBox[3].HasValue)
+                    {
+                        heightLine = Math.Abs((decimal)line.BoundingBox[3] - (decimal)line.BoundingBox[1]);
+                    }
+#else
+                    heightLine = Math.Abs((decimal)line.ExtGetHeight());
+#endif
+                    //List<double> conconfidencesOfWords = new List<double>();
+                    //foreach (var word in line.Words)
+                    //{
+                    //    conconfidencesOfWords.Add(word.Confidence);
+                    //}
+                    double? angle = line.ExtGetAngle();
+                    System.Diagnostics.Debug.WriteLine($"[{DateTime.Now.ToString("HH:mm:ss")}] {text} -> Angle:{angle}");
+
+                    try
+                    {
+                        if (regexIDNum.Match(text).Success)
+                        {
+                            idxIdNum = idx;
+                            heightIdNum = heightLine;
+                            lsLinesLeftSideValid.Add(line);
+                            System.Diagnostics.Debug.WriteLine($"[{DateTime.Now.ToString("HH:mm:ss")}]   idxIdNum:{idxIdNum} heightIdNum:{heightIdNum}");
+                            continue;
+                        }
+                    }
+                    catch (Exception ex)
+                    {
+                        System.Diagnostics.Debug.WriteLine(ex.Message);
+                    }
+
+                    if (angle == null || Math.Abs((decimal)angle) > 10)
+                    {
+                        System.Diagnostics.Debug.WriteLine($"[{DateTime.Now.ToString("HH:mm:ss")}]   angle:{angle} > 10 --> ignored");
+                        numLines--;
+                        continue;
+                    }
+
+                    if (idxIdNum == -1)
+                    {
+                        string strRegex = ".";
+                        int countCharNotInKAD_PENGENALAN = 0;
+                        int countCharInKAD_PENGENALAN = 0;
+                        int countCharNotInMALAYSIA = 0;
+                        int countCharInMALAYSIA = 0;
+                        int countCharNotInIDENTITY_CARD = 0;
+                        int countCharInIDENTITY_CARD = 0;
+                        string textUpper = text.ToUpper();
+                        foreach (char c in textUpper)
+                        {
+                            strRegex += $"{c}?";
+                            if (!KAD_PENGENALAN.Contains(c))
+                                countCharNotInKAD_PENGENALAN++;
+                            else
+                                countCharInKAD_PENGENALAN++;
+                            if (!MALAYSIA.Contains(c))
+                                countCharNotInMALAYSIA++;
+                            else
+                                countCharInMALAYSIA++;
+                            if (!IDENTITY_CARD.Contains(c))
+                                countCharNotInIDENTITY_CARD++;
+                            else
+                                countCharInIDENTITY_CARD++;
+                        }
+                        strRegex += ".";
+                        Regex regexLine = new Regex(strRegex);
+                        if (countCharNotInKAD_PENGENALAN < 3 && countCharInKAD_PENGENALAN > KAD_PENGENALAN.Length - 3 && regexLine.Match(KAD_PENGENALAN).Success)
+                        {
+                            System.Diagnostics.Debug.WriteLine($"[{DateTime.Now.ToString("HH:mm:ss")}] --> KAD_PENGENALAN");
+                            idxOf_KAD_PENGENALAN = idx;
+                        }
+                        else if (countCharNotInMALAYSIA < 3 && countCharInMALAYSIA > MALAYSIA.Length - 3 && regexLine.Match(MALAYSIA).Success)
+                        {
+                            System.Diagnostics.Debug.WriteLine($"[{DateTime.Now.ToString("HH:mm:ss")}] --> MALAYSIA");
+                            idxOf_MALAYSIA = idx;
+                        }
+                        else if (countCharNotInIDENTITY_CARD < 3 && countCharInIDENTITY_CARD > IDENTITY_CARD.Length - 3 && regexLine.Match(IDENTITY_CARD).Success)
+                        {
+                            System.Diagnostics.Debug.WriteLine($"[{DateTime.Now.ToString("HH:mm:ss")}] --> IDENTITY_CARD");
+                            idxOf_IDENTITY_CARD = idx;
+                        }
+                        else
+                        {
+                            if(idxOf_KAD_PENGENALAN == 0 && idxOf_MALAYSIA == 1 && idxOf_IDENTITY_CARD == 2 && idx == 3)
+                            {
+                                // format is not expected, but this line must be IDNUM
+                                idxIdNum = idx;
+                                heightIdNum = heightLine;
+                                //lsLinesLeftSideValid.Add(line);
+                                System.Diagnostics.Debug.WriteLine($"[{DateTime.Now.ToString("HH:mm:ss")}] --> IDNUM");
+                                System.Diagnostics.Debug.WriteLine($"[{DateTime.Now.ToString("HH:mm:ss")}]   idxIdNum:{idxIdNum} heightIdNum:{heightIdNum}");
+                                IDNUM = text;
+                                retDataset.lineDocumentNumber = line;
+                                // DOB is first 6 digit
+                                BIRTHDATE = text.Substring(0, 6);
+                            }
+                            System.Diagnostics.Debug.WriteLine($"[{DateTime.Now.ToString("HH:mm:ss")}] --> UNKNOWN");
+                        }
+                    }
+                    else
+                    {
+                        // lines under IDNUM contains what we need...
+
+                        if ((double)heightLine < (double)heightIdNum * FILTER_TEXT_SMALLER_COMPARE_TO_IDNUM)
+                        {
+                            System.Diagnostics.Debug.WriteLine($"[{DateTime.Now.ToString("HH:mm:ss")}] heightLine: {heightLine} < (heightIdNum: {heightIdNum})* {FILTER_TEXT_SMALLER_COMPARE_TO_IDNUM} --> Ignore this line.");
+                            numLines--;
+                            continue;
+                        }
+
+                        lsLinesLeftSideValid.Add(line);
+                    }
+                }// foreach
+
+#if false
+                if (bmpImage != null)
+                {
+                    List<Line> linesTess = new List<Line>();
+                    foreach (Line line in lsLinesLeftSideValid)
+                    {
+                        SkiaSharp.SKImage imageLine = null;
+                        SkiaSharp.SKRectI rect = SkiaSharp.SKRectI.Empty;
+                        if (line.BoundingBox.Count == 4)
+                        {
+                            rect = new SkiaSharp.SKRectI((int)line.BoundingBox[0], (int)line.BoundingBox[1], (int)line.BoundingBox[2], (int)line.BoundingBox[3]);
+                            imageLine = bmpImage.Subset(rect);
+                        }
+                        else if (line.BoundingBox.Count == 8)
+                        {
+                            rect = new SkiaSharp.SKRectI((int)line.BoundingBox[0], (int)line.BoundingBox[1], (int)line.BoundingBox[4], (int)line.BoundingBox[5]);
+                            imageLine = bmpImage.Subset(rect);
+                        }
+
+                        if (rect.IsEmpty)
+                            continue;
+
+                        if (imageLine == null)
+                            continue;
+
+                        SKData skData = imageLine.Encode(SkiaSharp.SKEncodedImageFormat.Png, 100);
+                        var lines = OCRLinesWithTesseractEncodedData(skData.ToArray());
+                        foreach (Line lineTess in lines)
+                        {
+                            linesTess.Add(lineTess);
+                        }
+                    }
+                    lsLinesLeftSideValid = linesTess;
+                }
+#endif
+
+                numLines = lsLinesLeftSideValid.Count;
+                for (int idx = 0; idx < lsLinesLeftSideValid.Count; idx++)
+                {
+                    Line line = lsLinesLeftSideValid[idx];
+                    string text = line.Text.Trim();
+
+                    if (numLines - 2 == idx)
+                    {
+                        // the 2nd last line is POSTCODE CITY
+                        string postcode_city = text;
+                        string[] token = postcode_city.Split(separatorBlank, 2);
+                        if (token.Length > 1)
+                        {
+                            System.Diagnostics.Debug.WriteLine($"[{DateTime.Now.ToString("HH:mm:ss")}] --> POSTCODE: {token[0]} CITY: {token[1]}");
+                            POSTCODE = token[0];
+                            CITY = token[1];
+                        }
+                        else
+                        {
+                            System.Diagnostics.Debug.WriteLine($"[{DateTime.Now.ToString("HH:mm:ss")}] --> postcode_city: {postcode_city}");
+                        }
+                    }
+                    else if (numLines - 1 == idx)
+                    {
+                        // the last line is STATE
+                        System.Diagnostics.Debug.WriteLine($"[{DateTime.Now.ToString("HH:mm:ss")}] --> STATE: {text}");
+                        STATE = line.Text.Trim();
+                    }
+                    else
+                    {
+                        switch (idx)
+                        {
+                            case 0:
+                                System.Diagnostics.Debug.WriteLine($"[{DateTime.Now.ToString("HH:mm:ss")}] --> IDNUM");
+                                IDNUM = text;
+                                retDataset.lineDocumentNumber = line;
+                                // DOB is first 6 digit
+                                BIRTHDATE = text.Substring(0, 6);
+                                break;
+                            case 1:
+                                System.Diagnostics.Debug.WriteLine($"[{DateTime.Now.ToString("HH:mm:ss")}] --> NAME");
+                                NAME = text;
+                                retDataset.lineLastNameOrFullName = line;
+                                break;
+                            case 2:
+                                System.Diagnostics.Debug.WriteLine($"[{DateTime.Now.ToString("HH:mm:ss")}] --> ADDRESS1");
+                                ADDRESS1 = text;
+                                retDataset.lineAddress1 = line;
+                                break;
+                            case 3:
+                                System.Diagnostics.Debug.WriteLine($"[{DateTime.Now.ToString("HH:mm:ss")}] --> ADDRESS2");
+                                ADDRESS2 = text;
+                                retDataset.lineAddress2 = line;
+                                break;
+                            case 4:
+                                System.Diagnostics.Debug.WriteLine($"[{DateTime.Now.ToString("HH:mm:ss")}] --> ADDRESS3");
+                                retDataset.lineAddress3 = line;
+                                ADDRESS3 = text;
+                                break;
+                            default:
+                                System.Diagnostics.Debug.WriteLine($"[{DateTime.Now.ToString("HH:mm:ss")}] --> ??UNKNOWN??");
+                                break;
+                        }
+                    }
+                }
+            }
+
+            // pick the lines aligned to right 
+            var linesRightButtomSide = linesAll.Where(l => l.ExtGetLeft() >= h_center && l.ExtGetTop() >= v_center);
+            if (linesRightButtomSide.Any())
+            {
+                const string WARGANEGARA = "WARGANEGARA";
+                const string LELAKI = "LELAKI";
+                const string PEREMPUAN = "PEREMPUAN";
+                // sort from top to bottom
+                linesRightButtomSide = linesRightButtomSide.OrderBy(l => l.ExtGetTop());
+                System.Diagnostics.Debug.WriteLine("\nLines aligned to right:");
+                int numLines = linesRightButtomSide.Count();
+                for (int i = 0; i < numLines; i++)
+                {
+                    Line line = linesRightButtomSide.ElementAt(i);
+                    string text = line.Text.Trim();
+                    string strRegex = ".";
+                    int countCharNotInWARGANEGARA = 0;
+                    int countCharInWARGANEGARA = 0;
+                    int countCharNotInLELAKI = 0;
+                    int countCharInLELAKI = 0;
+                    int countCharNotInPEREMPUAN = 0;
+                    int countCharInPEREMPUAN = 0;
+                    foreach (char c in text)
+                    {
+                        strRegex += $"{c}?";
+                        if (!WARGANEGARA.Contains(c))
+                            countCharNotInWARGANEGARA++;
+                        else
+                            countCharInWARGANEGARA++;
+                        if (!LELAKI.Contains(c))
+                            countCharNotInLELAKI++;
+                        else
+                            countCharInLELAKI++;
+                        if (!PEREMPUAN.Contains(c))
+                            countCharNotInPEREMPUAN++;
+                        else
+                            countCharInPEREMPUAN++;
+                    }
+                    strRegex += ".";
+
+                    try
+                    {
+                        Regex regexLine = new Regex(strRegex);
+                        if (countCharNotInWARGANEGARA < 3 && countCharInWARGANEGARA > WARGANEGARA.Length - 3 && regexLine.Match(WARGANEGARA).Success)
+                        {
+                            System.Diagnostics.Debug.WriteLine("--> WARGANEGARA");
+                            CITIZENSHIP = text;
+                        }
+                        else if (countCharNotInLELAKI < 3 && countCharInLELAKI > LELAKI.Length - 3 && regexLine.Match(LELAKI).Success)
+                        {
+                            System.Diagnostics.Debug.WriteLine("--> LELAKI");
+                            GENDER = "LELAKI";
+                        }
+                        else if (countCharNotInPEREMPUAN < 3 && countCharInPEREMPUAN > PEREMPUAN.Length - 3 && regexLine.Match(PEREMPUAN).Success)
+                        {
+                            System.Diagnostics.Debug.WriteLine("--> PEREMPUAN");
+                            GENDER = "PEREMPUAN";
+                        }
+                        else if (text == "H" || text == "K")
+                        {
+                            System.Diagnostics.Debug.WriteLine("--> EAST_M");
+                            EASTMSIAN = text;
+                        }
+                        else
+                        {
+                            System.Diagnostics.Debug.WriteLine("--> UNKNOWN");
+                        }
+
+                    }
+                    catch (Exception ex)
+                    {
+                        System.Diagnostics.Debug.WriteLine(ex.Message);
+                    }
+                }
+            }
+
+
+            // map to result and convert format 
+            List<string> lsMissingFields = new List<string>();
+
+            // NAME -> lastNameOrFullName 
+            retDataset.lastNameOrFullName = NAME;
+            if (string.IsNullOrEmpty(NAME)) lsMissingFields.Add("NAME");
+
+            // IDNUM -> documentNumber
+            retDataset.documentNumber = IDNUM;
+            if (string.IsNullOrEmpty(IDNUM)) lsMissingFields.Add("IDNUM");
+
+            // (CITIZENSHIP) nationality is "MY" (by default)
+
+            // BIRTHDATE "yyMMdd" -> dateOfBirth "yyyy-MM-dd"
+            try
+            {
+                if (!string.IsNullOrEmpty(BIRTHDATE))
+                {
+                    int yy = int.Parse(BIRTHDATE.Substring(0, 2));
+                    int MM = int.Parse(BIRTHDATE.Substring(2, 2));
+                    int dd = int.Parse(BIRTHDATE.Substring(4, 2));
+                    //https://www.ibm.com/docs/en/i/7.2?topic=mcdtdi-conversion-2-digit-years-4-digit-years-centuries
+                    // If the 2-digit year is greater than or equal to 40, the century used is 1900. In other words, 19 becomes the first 2 digits of the 4-digit year.
+                    // If the 2 - digit year is less than 40, the century used is 2000.In other words, 20 becomes the first 2 digits of the 4 - digit year.
+                    if (yy >= 40)
+                        retDataset.dateOfBirth = $"{(1900 + yy):0000}-{MM:00}-{dd:00}";
+                    else
+                        retDataset.dateOfBirth = $"{(2000 + yy):0000}-{MM:00}-{dd:00}";
+                }
+                else
+                {
+                    lsMissingFields.Add("BIRTHDATE");
+                }
+            }
+            catch (Exception e)
+            {
+                retDataset.dateOfBirth = "";
+                lsMissingFields.Add("BIRTHDATE");
+            }
+
+            // GENDER -> gender
+            switch (GENDER)
+            {
+                case "LELAKI":
+                    retDataset.gender = "M";
+                    break;
+                case "PEREMPUAN":
+                    retDataset.gender = "F";
+                    break;
+                default:
+                    retDataset.gender = "";
+                    lsMissingFields.Add("GENDER");
+                    break;
+            }
+
+            retDataset.documentExpirationDate = null;
+
+            retDataset.documentIssueDate = null;
+
+            // ADDRESS1, ADDRESS2, ADDRESS3, STATE -> addressLine1, addressLine2
+            if (string.IsNullOrEmpty(ADDRESS1)) lsMissingFields.Add("ADDRESS1");
+            if (string.IsNullOrEmpty(ADDRESS3))
+            {
+                retDataset.addressLine1 = ADDRESS1;
+                retDataset.addressLine2 = $"{ADDRESS2} {CITY} {STATE}";
+            }
+            else
+            {
+                retDataset.addressLine1 = $"{ADDRESS1} {ADDRESS2}";
+                retDataset.addressLine2 = $"{ADDRESS3} {CITY} {STATE}";
+            }
+
+            // POSTCODE
+            retDataset.postcode = POSTCODE;
+            if (string.IsNullOrEmpty(POSTCODE)) lsMissingFields.Add("POSTCODE");
+
+            // determine success or not
+            if (lsMissingFields.Count == 0)
+            {
+                retDataset.Success = true;
+            }
+            else
+            {
+                System.Diagnostics.Debug.WriteLine("ExtractFieldsFromReadResultOfMyKad result NOT success");
+                if (lsMissingFields.Count > 0)
+                {
+                    string fields = "";
+                    foreach (string field in lsMissingFields)
+                    {
+                        if (!string.IsNullOrEmpty(fields))
+                            fields += ",";
+                        fields += field;
+                    }
+                    retDataset.Error = $"Failed to scan [{fields}]";
+                }
+            }
+
+            return retDataset;
         }
 
         class GroupOfLine
