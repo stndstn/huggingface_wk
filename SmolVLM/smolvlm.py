@@ -25,7 +25,8 @@ model = AutoModelForImageTextToText.from_pretrained(
 
 #print(f"model: {model}")
 
-image = Image.open("../images/MYDL2.jpg")
+#image = Image.open("../images/MYDL2.jpg")
+image = Image.open("../images/CSDEMOBANK_ApplicationForm_P1_s.jpeg")
 
 # Create input messages
 messages = [
@@ -36,7 +37,8 @@ messages = [
 #            {"type": "text", "text": "Can you describe this image?"}
 #            {"type": "text", "text": "What is the name of license holder?"}
 #            {"type": "text", "text": "Please extract personal info of license holder from this imaghe of Malaysia Driving License."}
-            {"type": "text", "text": "Please extract personal info of license holder of this Malaysian Driving License. Please answer in JSON format."}
+#            {"type": "text", "text": "Please extract personal info of license holder of this Malaysian Driving License. Please answer in JSON format."}
+            {"type": "text", "text": "Please extract personal info of applicant of this application form. Please answer in JSON format."}
         ]
     },
 ]
@@ -45,6 +47,8 @@ messages = [
 generated_texts: ['User:\n\n\n\nPlease extract personal info of license holder from this imaghe of Malaysia Driving License.\nAssistant: The personal info of the license holder is as follows:\n\n- Name: TAKUMI TATEISHI\n- Nationality: JPN (Japan)\n- Date of Birth: 19/09/2016\n- Place of Birth: JPN (Japan)\n- Date of Issue: 18/04/2021\n- Place of Issue: JPN (Japan)\n- Expiry Date: 18/04/2022\n- License Number: TZ1145051JPN\n- License Type: Driving Licence\n- License Class: B2\n- Address: 42-12F CITY TOWER, JLN ALOR BKT BINTANG, 50200 KUALA LUMPUR, WILAYAH PERSEKUTUAN KUALA LUMPUR']
 
 generated_texts: ['User:\n\n\n\nPlease extract personal info of license holder of this Malaysian Driving License. Please answer in JSON format.\nAssistant: {\n    "name": "TAKUMI TATEISHI",\n    "nationality": "JPN",\n    "date_of_birth": "19/09/2016",\n    "place_of_birth": "WANGANEGARA / KELAS / B2 D",\n    "address": "TEMPOH / Validity",\n    "identity_number": "TZ1145051JPN",\n    "license_type": "DRIVING LICENCE",\n    "issuing_authority": "LESEN MEMANDU",\n    "expiry_date": "18/04/2021",\n    "license_number": "JLN ALOR BKT BINTANG",\n    "place_of_issue": "JLN ALOR BKT BINTANG",\n    "place_of_issue_address": "50200 KUALA LUMPUR",\n    "issuing_authority_address": "WILAYAH PERSEKUTUAN KUALA LUMPUR"\n}']
+
+generated_texts: ['User:\n\n\n\n\nPlease extract personal info of applicant of this application form. Please answer in JSON format.\nAssistant: {\n    "name": {\n        "last": "PEREZ",\n        "first": "CELIX",\n        "middle": ""\n    },\n    "address": {\n        "street": "823 PASEO DE Roxas St., Makati City, 1226 PHILIPPINES",\n        "phone": "09127706815",\n        "email": "perez@gmail.com"\n    },\n    "personal": {\n        "date_of_birth": "08/20/1999",\n        "nationality": "PHILIPPINE",\n        "place_of_birth": "BULACAN",\n        "residence_status": "Non-Resident",\n        "mothers_maiden_name": "ERIKA SERRANO",\n        "spouse_name": "ERIKA SERRANO",\n        "primary_account_holder": "ERIKA SERRANO",\n        "alternate_id": "CRN 003214708256",\n        "expiry_date": "08/20/2024",\n        "employment_type": "Permanent",\n        "employment_status": "Employed",\n        "occupation": "Accountant",\n        "employer": "SAS PHILIPPINES",\n        "employer_address": "649 R. HILAGO STREET, BARANGAY 307, MANILA",\n        "employer_contact": "63 02 818 3347",\n        "source_of_income": "Allotment",\n        "monthly_income_range": "Salary"\n    }\n}']
 '''
 
 
