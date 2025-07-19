@@ -23,7 +23,7 @@ model = AutoModelForImageTextToText.from_pretrained(
     _attn_implementation="flash_attention_2"
 ).to("cuda")
 
-print(f"model: {model}")
+#print(f"model: {model}")
 
 image = Image.open("../images/MYDL2.jpg")
 
@@ -35,13 +35,16 @@ messages = [
             {"type": "image", "image": image},
 #            {"type": "text", "text": "Can you describe this image?"}
 #            {"type": "text", "text": "What is the name of license holder?"}
-            {"type": "text", "text": "Please extract personal info of license holder from this imaghe of Malaysia Driving License."}
+#            {"type": "text", "text": "Please extract personal info of license holder from this imaghe of Malaysia Driving License."}
+            {"type": "text", "text": "Please extract personal info of license holder of this Malaysian Driving License. Please answer in JSON format."}
         ]
     },
 ]
 
 '''
 generated_texts: ['User:\n\n\n\nPlease extract personal info of license holder from this imaghe of Malaysia Driving License.\nAssistant: The personal info of the license holder is as follows:\n\n- Name: TAKUMI TATEISHI\n- Nationality: JPN (Japan)\n- Date of Birth: 19/09/2016\n- Place of Birth: JPN (Japan)\n- Date of Issue: 18/04/2021\n- Place of Issue: JPN (Japan)\n- Expiry Date: 18/04/2022\n- License Number: TZ1145051JPN\n- License Type: Driving Licence\n- License Class: B2\n- Address: 42-12F CITY TOWER, JLN ALOR BKT BINTANG, 50200 KUALA LUMPUR, WILAYAH PERSEKUTUAN KUALA LUMPUR']
+
+generated_texts: ['User:\n\n\n\nPlease extract personal info of license holder of this Malaysian Driving License. Please answer in JSON format.\nAssistant: {\n    "name": "TAKUMI TATEISHI",\n    "nationality": "JPN",\n    "date_of_birth": "19/09/2016",\n    "place_of_birth": "WANGANEGARA / KELAS / B2 D",\n    "address": "TEMPOH / Validity",\n    "identity_number": "TZ1145051JPN",\n    "license_type": "DRIVING LICENCE",\n    "issuing_authority": "LESEN MEMANDU",\n    "expiry_date": "18/04/2021",\n    "license_number": "JLN ALOR BKT BINTANG",\n    "place_of_issue": "JLN ALOR BKT BINTANG",\n    "place_of_issue_address": "50200 KUALA LUMPUR",\n    "issuing_authority_address": "WILAYAH PERSEKUTUAN KUALA LUMPUR"\n}']
 '''
 
 
@@ -54,7 +57,7 @@ inputs = processor.apply_chat_template(
     return_dict=True,
     return_tensors="pt",
 ).to(model.device, dtype=torch.bfloat16)
-print(f"inputs: {inputs}")
+#print(f"inputs: {inputs}")
 
 generated_ids = model.generate(**inputs, do_sample=False, max_new_tokens=500)
 generated_texts = processor.batch_decode(
