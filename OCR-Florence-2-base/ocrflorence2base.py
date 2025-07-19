@@ -14,6 +14,7 @@ If you are the owner of the model architecture code, please modify your model cl
 '''
 # (install rust compiler, then 'pip install "transformers==4.44.2"'
 # pip install flask
+# pip install requests
 
 # RMKS: if install by requirements.txt does not to work. delete all cache and re-install with pip manually 
 ## pip freeze > requirements.txt
@@ -82,13 +83,41 @@ def ocr(image):
         max_new_tokens=1024,
         do_sample=False,
         num_beams=3,
+        return_dict_in_generate=True,
+        output_scores=True,
     )
+
+    generated_text = processor.batch_decode(generated_ids.sequences, skip_special_tokens=False)[0]
+    print(f"ocr generated_text: {generated_text}")
+
+    prediction, scores, beam_indices = generated_ids.sequences, generated_ids.scores, generated_ids.beam_indices
+    print(f"ocr prediction: {prediction}")
+    print(f"ocr scores: {scores}")
+    print(f"ocr beam_indices: {beam_indices}")
+    transition_beam_scores = model.compute_transition_scores(
+        sequences=prediction,
+        scores=scores,
+        beam_indices=beam_indices,
+    )
+
+    #parsed_answer = processor.post_process_generation(sequence=generated_ids.sequences[0], 
+    #    transition_beam_score=transition_beam_scores[0],
+    #    task=taskOcrWithRegion, image_size=(image.width, image.height)
+    #)
+    parsed_answer = processor.post_process_generation(sequence=generated_ids.sequences, 
+        transition_beam_score=transition_beam_scores,
+        task=taskOcrWithRegion, image_size=(image.width, image.height)
+    )
+    print(f"ocr parsed_answer: {parsed_answer}")
+
+    '''
     print(f"ocr generated_ids: {generated_ids}")
     generated_text = processor.batch_decode(generated_ids, skip_special_tokens=False)[0]
     print(f"ocr generated_text: {generated_text}")
 
     parsed_answer = processor.post_process_generation(generated_text, taskOcr, image_size=(image.width, image.height))
     print(f"ocr parsed_answer: {parsed_answer}")
+    '''
     return parsed_answer
 
 def ocrWithRegion(image):
@@ -107,19 +136,39 @@ def ocrWithRegion(image):
         max_new_tokens=1024,
         do_sample=False,
         num_beams=3,
+        return_dict_in_generate=True,
+        output_scores=True,
     )
     print(f"ocr generated_ids: {generated_ids}")
-    generated_text = processor.batch_decode(generated_ids, skip_special_tokens=False)[0]
+
+    generated_text = processor.batch_decode(generated_ids.sequences, skip_special_tokens=False)[0]
     print(f"ocr generated_text: {generated_text}")
 
-    parsed_answer = processor.post_process_generation(generated_text, taskOcrWithRegion, image_size=(image.width, image.height))
+    prediction, scores, beam_indices = generated_ids.sequences, generated_ids.scores, generated_ids.beam_indices
+    print(f"ocr prediction: {prediction}")
+    print(f"ocr scores: {scores}")
+    print(f"ocr beam_indices: {beam_indices}")
+    transition_beam_scores = model.compute_transition_scores(
+        sequences=prediction,
+        scores=scores,
+        beam_indices=beam_indices,
+    )
+
+    parsed_answer = processor.post_process_generation(sequence=generated_ids.sequences[0], 
+        transition_beam_score=transition_beam_scores[0],
+        task=taskOcrWithRegion, image_size=(image.width, image.height)
+    )
     print(f"ocr parsed_answer: {parsed_answer}")
+
+    #generated_text = processor.batch_decode(generated_ids, skip_special_tokens=False)[0]
+    #print(f"ocr generated_text: {generated_text}")
+
+    #parsed_answer = processor.post_process_generation(generated_text, taskOcrWithRegion, image_size=(image.width, image.height))
+    #print(f"ocr parsed_answer: {parsed_answer}")
     return parsed_answer
 
-'''
-image = Image.open("..\\..\\images\\handwritten1.jpg")
+image = Image.open("../../images/MyKad/MyKad1_F.jpg")
 ocr_answer = ocr(image)
 print(ocr_answer['<OCR>'])
 # {'<OCR>': "Frank-Sweetie I amokay. I'm wl myoffice overbyThe Lyndon B. Johnsonmemorial"}
-'''
 
