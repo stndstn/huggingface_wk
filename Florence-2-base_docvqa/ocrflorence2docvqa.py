@@ -20,14 +20,78 @@ If you are the owner of the model architecture code, please modify your model cl
 ## pip freeze > requirements.txt
 ## pip install -r requirements.txt
 
+
 import requests
 import torch
 
 from PIL import Image
 from transformers import AutoProcessor, AutoModelForCausalLM
 
-model_name = "microsoft/Florence-2-large-ft"
-print("Florence-2-large-ft...")
+#model_name = "microsoft/Florence-2-large"
+'''
+docVQA parsed_answer: {'<DocVQA>': 'LESEN MEMANDU\nMALAYSIA\nDRIVING LICENCE\nTAKUMI TATEISHI\nJPN\nTZ11145051JPN\nB2 0\nB3 0\n12-12-2016-18-04-2021\n42-12:12 CITY TOWER\nJLN ALOR BKT BINTANG\n5020 KUALA LUMPUR\nWILAKAR PERSERKUTUAN KULA LUMPUR\n'}
+{'<DocVQA>': 'LESEN MEMANDU\nMALAYSIA\nDRIVING LICENCE\nTAKUMI TATEISHI\nJPN\nTZ11145051JPN\nB2 0\nB3 0\n12-12-2016-18-04-2021\n42-12:12 CITY TOWER\nJLN ALOR BKT BINTANG\n5020 KUALA LUMPUR\nWILAKAR PERSERKUTUAN KULA LUMPUR\n'}
+LESEN MEMANDU
+MALAYSIA
+DRIVING LICENCE
+TAKUMI TATEISHI
+JPN
+TZ11145051JPN
+B2 0
+B3 0
+12-12-2016-18-04-2021
+42-12:12 CITY TOWER
+JLN ALOR BKT BINTANG
+5020 KUALA LUMPUR
+WILAKAR PERSERKUTUAN KULA LUMPUR
+'''
+#model_name = "microsoft/Florence-2-large-ft"
+'''
+docVQA parsed_answer: {'<DocVQA>': 'takumi tateishi'}
+{'<DocVQA>': 'takumi tateishi'}
+takumi tateishi
+docVQA parsed_answer: {'<DocVQA>': 'unanswerable'}
+{'<DocVQA>': 'unanswerable'}
+unanswerable
+docVQA parsed_answer: {'<DocVQA>': 'unanswerable'}
+{'<DocVQA>': 'unanswerable'}
+unanswerable
+'''
+#model_name = "HuggingFaceM4/Florence-2-DocVQA"
+'''
+{'<DocVQA>': 'The name of the driver is Takumi Tateishi.'}
+The name of the driver is Takumi Tateishi.
+docVQA parsed_answer: {'<DocVQA>': 'The address is 42-127 City Tower, JLN ALOR BKT BINTANG, 50020 KUALA LUMPUR.'}
+{'<DocVQA>': 'The address is 42-127 City Tower, JLN ALOR BKT BINTANG, 50020 KUALA LUMPUR.'}
+The address is 42-127 City Tower, JLN ALOR BKT BINTANG, 50020 KUALA LUMPUR.
+docVQA parsed_answer: {'<DocVQA>': 'The document number is TZ1145051JPN.'}
+{'<DocVQA>': 'The document number is TZ1145051JPN.'}
+The document number is TZ1145051JPN.
+'''
+#model_name = "microsoft/Florence-2-base-ft"
+'''
+docVQA parsed_answer: {'<DocVQA>': 'unanswerable'}
+{'<DocVQA>': 'unanswerable'}
+unanswerable
+docVQA parsed_answer: {'<DocVQA>': 'unanswerable'}
+{'<DocVQA>': 'unanswerable'}
+unanswerable
+docVQA parsed_answer: {'<DocVQA>': 'unanswerable'}
+{'<DocVQA>': 'unanswerable'}
+unanswerable
+'''
+#model_name = "..\\florence2-finetuning-main\\model_checkpoints\\epoch_1" # trained "microsoft/Florence-2-base-ft"
+'''
+{'<DocVQA>': '.'}
+.
+docVQA parsed_answer: {'<DocVQA>': '.'}
+{'<DocVQA>': '.'}
+.
+docVQA parsed_answer: {'<DocVQA>': '.'}
+{'<DocVQA>': '.'}
+.
+'''
+print(model_name)
 
 # HuggingFaceM4/Florence-2-DocVQA needs 'pip install timm'
 #model_name = "HuggingFaceM4/Florence-2-DocVQA"
@@ -37,6 +101,10 @@ device = "cuda:0" if torch.cuda.is_available() else "cpu"
 print(f"deivice: {device}")
 torch_dtype = torch.float16 if torch.cuda.is_available() else torch.float32
 print(f"torch_dtype: {torch_dtype}")
+
+# Assert config.vision_config.model_type == 'davit', 'only DaViT is supported for now'
+# https://huggingface.co/microsoft/Florence-2-large/discussions/44
+# in config.json file search for 'model_type' inside 'vision_config', and replace its value with 'davit'
 
 model = AutoModelForCausalLM.from_pretrained(model_name, torch_dtype=torch_dtype, trust_remote_code=True).to(device)
 print(f"model: {model}")
@@ -74,7 +142,7 @@ def ocr(image, task_prompt="<OCR>"):
     generated_ids = model.generate(
         input_ids=inputs["input_ids"],
         pixel_values=inputs["pixel_values"],
-        max_new_tokens=8192,
+        max_new_tokens=16384,
         do_sample=False,
         num_beams=3,
     )
@@ -98,7 +166,7 @@ def docVqa(image, text_input=None, task_prompt="<DocVQA>"):
     generated_ids = model.generate(
         input_ids=inputs["input_ids"],
         pixel_values=inputs["pixel_values"],
-        max_new_tokens=8192,
+        max_new_tokens=16384,
         do_sample=False,
         num_beams=3,
     )
@@ -117,7 +185,7 @@ ocr_answer = ocr(image)
 print(ocr_answer['<OCR>'])
 # {'<OCR>': "Frank-Sweetie I amokay. I'm wl myoffice overbyThe Lyndon B. Johnsonmemorial"}
 '''
-image = Image.open("../../images/DrivingLicense/MYDL/MYDL4.JPG")
+image = Image.open("./images/MYDL1_s.jpg")
 docvqa_answer = docVqa(image, text_input="What is the name?")
 print(docvqa_answer)
 print(docvqa_answer['<DocVQA>'])

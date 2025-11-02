@@ -1,3 +1,13 @@
+# pip install einops timm
+# pip install "numpy<2.0"
+# pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu124
+# pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu126
+# pip install psutil
+# (python -m pip install wheel) 
+# pip install flash-attn --no-build-isolation
+# pip install transformers
+# pip install pandas datasets
+
 import os
 
 import torch
@@ -16,6 +26,7 @@ from data import DocVQADataset
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 model_name = "microsoft/Florence-2-base-ft"
+#model_name = "microsoft/Florence-2-large" --> CUDA out of memory
 
 torch_dtype = torch.float16 if torch.cuda.is_available() else torch.float32
 print(f"torch_dtype: {torch_dtype}")
@@ -100,7 +111,8 @@ def train_model(train_loader, val_loader, model, processor, epochs=10, lr=1e-6):
                 generated_ids = model.generate(
                     input_ids=inputs["input_ids"],
                     pixel_values=inputs["pixel_values"],
-                    max_new_tokens=1024,
+                    #max_new_tokens=16384,
+                    max_new_tokens=4096,
                     num_beams=3,
                 )
                 generated_texts = processor.batch_decode(

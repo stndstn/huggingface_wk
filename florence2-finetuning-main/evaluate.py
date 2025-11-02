@@ -23,19 +23,23 @@ from metrics import average_normalized_levenshtein_similarity
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 #model_name = "model_checkpoints/gigantic_fukuiraptor/epoch_9/"
-#model_name = "./model_checkpoints/epoch_1/"
-model_name = "microsoft/Florence-2-base-ft"
+model_name = "./model_checkpoints_bk/epoch_3/"
+#model_name = "microsoft/Florence-2-base-ft"
 
 torch_dtype = torch.float16 if torch.cuda.is_available() else torch.float32
 print(f"torch_dtype: {torch_dtype}")
 
+# Assert config.vision_config.model_type == 'davit', 'only DaViT is supported for now'
+# https://huggingface.co/microsoft/Florence-2-large/discussions/44
+# in config.json file search for 'model_type' inside 'vision_config', and replace its value with 'davit'
+
 # Load the model and processor
 model = AutoModelForCausalLM.from_pretrained(
     #model_name, trust_remote_code=True
-    model_name, torch_dtype=torch_dtype, trust_remote_code=True
+    model_name, torch_dtype=torch_dtype, trust_remote_code=True, model_type = 'davit'
 ).to(device)
 processor = AutoProcessor.from_pretrained(
-    model_name, trust_remote_code=True
+    model_name, trust_remote_code=True, model_type = 'davit'
 )
 
 # Set up logging
@@ -127,6 +131,8 @@ def evaluate_model(test_loader):
             # print("Ans:", parsed_answer[task_prompt])
             # print("GT:", answers)
 
+    print(f"ground_truth: {ground_truth}")
+    print(f"predicted_answers: {predicted_answers}")
     avg_levenshtein_similarity = average_normalized_levenshtein_similarity(
         ground_truth, predicted_answers
     )
