@@ -55,7 +55,7 @@ processor = AutoProcessor.from_pretrained(model_id)
 processor = AutoProcessor.from_pretrained(model_id)
 model = AutoModelForImageTextToText.from_pretrained(model_id, token=my_secret.hf_token).to(device).eval()
 '''
-
+'''
 image = Image.open("../images/CSDEMOBANK_ApplicationForm_P1_s.jpeg")
 
 # You are a helpful assistant. Please read this bank account application form and extract information of applicant.
@@ -72,6 +72,24 @@ messages = [
             {"type": "image", "image": image},
             #{"type": "text", "text": "You are a helpful assistant. Please read this bank account application form and extract information of applicant."}
             {"type": "text", "text": "You are a helpful assistant. Please read this bank account application form and extract information of applicant as json format."}
+        ]
+    }
+]
+'''
+
+image = Image.open("../images/label_replacement.jpg")
+
+# You are a helpful assistant. Please read this bank account application form and extract information of applicant.
+messages = [
+    {
+        "role": "system",
+        "content": [{"type": "text", "text": "You are a helpful image forensic assistant."}]
+    },
+    {
+        "role": "user",
+        "content": [
+            {"type": "image", "image": image},
+            {"type": "text", "text": "Possibly there are some label spoofed in this image. Can you find any suspicious labels?"},
         ]
     }
 ]

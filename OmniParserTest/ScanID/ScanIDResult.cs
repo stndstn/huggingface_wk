@@ -5,7 +5,8 @@ using System.Text;
 using System.Text.RegularExpressions;
 
 namespace ScanID
-{    public class ScanIDResult
+{    
+    public class ScanIDResult
     {
         public bool Success { get; set; }
         public string Error { get; set; }
@@ -43,6 +44,30 @@ namespace ScanID
 
         public double? documentLandmarksProbabilityAvg { get; set; }
     }
+
+    public class IDDataset : ScanIDResult
+    {
+        public Line? lineLastNameOrFullName { get; set; }
+        public Line? lineFirstName { get; set; }
+        public Line? lineMiddleName { get; set; }
+        public Line? lineDocumentNumber { get; set; }
+        public Line? lineNationality { get; set; }
+        public Line? lineDateOfBirth { get; set; }
+        public Line? linePlaceOfBirth { get; set; }
+        public Line? lineGender { get; set; }
+        public Line? lineMaritalStatus { get; set; }
+        public Line? lineDocumentExpirationDate { get; set; }
+        public Line? lineDocumentIssueDate { get; set; }
+        public Line? lineAddressLine1 { get; set; }
+        public Line? lineAddressLine2 { get; set; }
+        public Line? lineAddressTown { get; set; }
+        public Line? linePostcode { get; set; }
+        public Line? linePersonalNumber { get; set; }
+
+        protected Line? _country;
+        public Line? lineCountry { get { return _country; } }
+    }
+
     public class ScanMYDLResult : ScanIDResult
     {
         public ScanMYDLResult()
@@ -52,9 +77,28 @@ namespace ScanID
         }
     }
 
+    public class MYDLDataset : IDDataset
+    {
+        public MYDLDataset()
+        {
+            _documentType = "DL";
+            _country = "MY";
+        }
+    }
+
     public class ScanMyKadResult : ScanIDResult
     {
         public ScanMyKadResult()
+        {
+            _documentType = "MY";
+            _country = "MY";
+            nationality = "MY";
+        }
+    }
+
+    public class MyKadDataset : IDDataset
+    {
+        public MyKadDataset()
         {
             _documentType = "MY";
             _country = "MY";
